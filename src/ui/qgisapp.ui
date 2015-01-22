@@ -17,7 +17,7 @@
      <x>0</x>
      <y>0</y>
      <width>1050</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="mProjectMenu">
@@ -197,9 +197,11 @@
     <addaction name="mActionHelpAPI"/>
     <addaction name="mActionNeedSupport"/>
     <addaction name="separator"/>
+    <addaction name="mActionKaosgHomePage"/>
     <addaction name="mActionQgisHomePage"/>
     <addaction name="mActionCheckQgisVersion"/>
     <addaction name="separator"/>
+    <addaction name="mActionAboutKaosg"/>
     <addaction name="mActionAbout"/>
     <addaction name="mActionSponsors"/>
    </widget>
@@ -2260,6 +2262,16 @@ Acts on currently active editable layer</string>
    </property>
    <property name="text">
     <string>Hide Selected Layers</string>
+   </property>
+  </action>
+  <action name="mActionKaosgHomePage">
+   <property name="text">
+    <string>Kaos-G Home Page</string>
+   </property>
+  </action>
+  <action name="mActionAboutKaosg">
+   <property name="text">
+    <string>About Kaos-G QGIS</string>
    </property>
   </action>
  </widget>

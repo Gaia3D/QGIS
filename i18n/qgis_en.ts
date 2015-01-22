@@ -5316,6 +5316,16 @@ Open the results dialog to check it.</source>
 <context>
     <name>MainWindow</name>
     <message>
+        <source>Kaos-G Home Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Kaos-G QGIS</source>
+        <translation type="unfinished"></translation>
+    </message>
+
+	
+    <message>
         <source>&amp;Edit</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10735,6 +10745,27 @@ Response was:
 </context>
 <context>
     <name>QgisApp</name>
+	<message>
+        <source>Kaos-G QGIS v1.0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> by GEEPS Project</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Kaos-G QGIS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This program is based on QGIS 2.6.1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Made by GEEPS project</source>
+        <translation type="unfinished"></translation>
+    </message>
+
     <message>
         <source>&amp;Raster</source>
         <translation type="unfinished"></translation>

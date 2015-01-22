@@ -5400,6 +5400,16 @@ Open the results dialog to check it.</source>
 <context>
     <name>MainWindow</name>
     <message>
+        <source>Kaos-G Home Page</source>
+        <translation>Kaos-G 홈페이지</translation>
+    </message>
+    <message>
+        <source>About Kaos-G QGIS</source>
+        <translation>Kaos-G QGIS 정보</translation>
+    </message>
+
+
+    <message>
         <source>&amp;Edit</source>
         <translation>편집(&amp;E)</translation>
     </message>
@@ -10872,6 +10882,27 @@ Response was:
 </context>
 <context>
     <name>QgisApp</name>
+	<message>
+        <source>Kaos-G QGIS v1.0</source>
+        <translation>Kaos-G QGIS v1.0</translation>
+    </message>
+    <message>
+        <source> by GEEPS Project</source>
+        <translation> by 연구교육용 공간정보기술 통합플랫폼</translation>
+    </message>
+    <message>
+        <source>About Kaos-G QGIS</source>
+        <translation>Kaos-G QGIS 정보</translation>
+    </message>
+    <message>
+        <source>This program is based on QGIS 2.6.1</source>
+        <translation>이 프로그램은 QGIS 2.6.1을 바탕으로</translation>
+    </message>
+    <message>
+        <source>Made by GEEPS project</source>
+        <translation>연구교육용 공간정보기술 통합플랫폼 연구사업에서 만들었습니다.</translation>
+    </message>
+
     <message>
         <source>&amp;Raster</source>
         <translation>래스터(&amp;R)</translation>

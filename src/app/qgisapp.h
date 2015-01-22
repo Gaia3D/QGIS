@@ -1146,6 +1146,10 @@ class APP_EXPORT QgisApp : public QMainWindow, private Ui::MainWindow
     //! Activates label property tool
     void changeLabelProperties();
 
+	// KAOS-G
+	void helpKaosgHomePage();
+	void aboutKaosg();
+
     void renderDecorationItems( QPainter *p );
     void projectReadDecorationItems();
 
