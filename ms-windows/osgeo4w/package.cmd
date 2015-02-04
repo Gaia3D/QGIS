@@ -52,11 +52,11 @@ goto devenv_x86_64
 set GRASS_VERSION=6.4.4
 call "%PF86%\Microsoft Visual Studio 10.0\VC\vcvarsall.bat" x86
 if exist "c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.Cmd" call "c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.Cmd" /x86 /Release
-path %path%;%PF86%\Microsoft Visual Studio 10.0\VC\bin
+path %path%;%PF86%\Microsoft Visual Studio 10.0\VC\bin;%PROGRAMFILES(x86)%\CMake\bin\;c:\cygwin64\bin\;c:\NSIS;C:\NSIS\bin
 
 set CMAKE_OPT=^
 	-G "Visual Studio 10" ^
-	-D QWT_LIBRARY=%O4W_ROOT%/lib/qwt.lib ^
+	-D QWT_LIBRARY=%O4W_ROOT%/lib/qwt5.lib ^
 	-D SIP_BINARY_PATH=%O4W_ROOT%/apps/Python27/sip.exe
 goto devenv
 
@@ -64,7 +64,7 @@ goto devenv
 set GRASS_VERSION=6.4.3
 call "%PF86%\Microsoft Visual Studio 10.0\VC\vcvarsall.bat" amd64
 if exist "c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.Cmd" call "c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.Cmd" /x64 /Release
-path %path%;%PF86%\Microsoft Visual Studio 10.0\VC\bin
+path %path%;%PF86%\Microsoft Visual Studio 10.0\VC\bin;%PROGRAMFILES(x86)%\CMake\bin\;c:\cygwin64\bin\;c:\NSIS;C:\NSIS\bin
 
 set SETUPAPI_LIBRARY=%PF86%\Microsoft SDKs\Windows\v7.0A\Lib\x64\SetupAPI.Lib
 if not exist "%SETUPAPI_LIBRARY%" set SETUPAPI_LIBRARY=%PROGRAMFILES%\Microsoft SDKs\Windows\v7.1\Lib\x64\SetupAPI.lib
