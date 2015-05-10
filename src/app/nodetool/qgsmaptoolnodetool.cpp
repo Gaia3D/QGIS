@@ -49,11 +49,14 @@ struct QgsFeatureIdFilter : public QgsPointLocator::MatchFilter
 QgsMapToolNodeTool::QgsMapToolNodeTool( QgsMapCanvas* canvas )
     : QgsMapToolEdit( canvas )
     , mSelectedFeature( 0 )
+    , mSelectionRectangle( false )
     , mMoving( true )
     , mClicked( false )
     , mCtrl( false )
     , mSelectAnother( false )
+    , mAnother( 0 )
     , mSelectionRubberBand( 0 )
+    , mRect( NULL )
     , mIsPoint( false )
     , mDeselectOnRelease( -1 )
 {
@@ -63,6 +66,8 @@ QgsMapToolNodeTool::QgsMapToolNodeTool( QgsMapCanvas* canvas )
 QgsMapToolNodeTool::~QgsMapToolNodeTool()
 {
   cleanTool();
+  delete mRect;
+  delete mSelectionRubberBand;
 }
 
 void QgsMapToolNodeTool::createMovingRubberBands()
@@ -194,10 +199,14 @@ void QgsMapToolNodeTool::createTopologyRubberBands( QgsVectorLayer* vlayer, cons
 
       int movingPointIndex = 0;
       Vertexes* movingPoints = new Vertexes();
-      Vertexes* addedPoints = new Vertexes();
+      Vertexes* addedPoints = 0;
       if ( mTopologyMovingVertexes.contains( resultIt.value().snappedAtGeometry ) )
       {
         addedPoints = mTopologyMovingVertexes[ resultIt.value().snappedAtGeometry ];
+      }
+      else
+      {
+        addedPoints = new Vertexes();
       }
       if ( tVertex == -1 ) // adding first point if needed
       {
@@ -392,9 +401,7 @@ void QgsMapToolNodeTool::canvasPressEvent( QMouseEvent * e )
     // remove previous warning
     emit messageDiscarded();
 
-    QgsVectorLayer *vlayer = mSelectedFeature->vlayer();
-    Q_ASSERT( vlayer );
-    Q_UNUSED( vlayer );
+    Q_ASSERT( mSelectedFeature->vlayer() );
 
     // try to find a piece of currently selected geometry
     QgsFeatureIdFilter filterFid( mSelectedFeature->featureId() );
@@ -511,6 +518,12 @@ void QgsMapToolNodeTool::canvasReleaseEvent( QMouseEvent * e )
     mSelectionRubberBand = 0;
   }
 
+  if ( mRect )
+  {
+    delete mRect;
+    mRect = 0;
+  }
+
   if ( mPressCoordinates == e->pos() )
   {
     if ( mSelectAnother )
@@ -603,7 +616,9 @@ void QgsMapToolNodeTool::canvasReleaseEvent( QMouseEvent * e )
 void QgsMapToolNodeTool::deactivate()
 {
   cleanTool();
-
+  delete mRect;
+  mRect = 0;
+  delete mSelectionRubberBand;
   mSelectionRubberBand = 0;
   mSelectAnother = false;
   mCtrl = false;

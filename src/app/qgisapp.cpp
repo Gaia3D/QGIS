@@ -63,6 +63,7 @@
 #include <QtGlobal>
 #include <QTimer>
 #include <QToolButton>
+#include <QUuid>
 #include <QVBoxLayout>
 #include <QWhatsThis>
 #include <QThread>
@@ -198,6 +199,7 @@
 #include "qgstextannotationitem.h"
 #include "qgstipgui.h"
 #include "qgsundowidget.h"
+#include "qgsuserinputdockwidget.h"
 #include "qgsvectordataprovider.h"
 #include "qgsvectorfilewriter.h"
 #include "qgsvectorlayer.h"
@@ -478,17 +480,41 @@ QgisApp *QgisApp::smInstance = 0;
 // constructor starts here
 QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, Qt::WindowFlags fl )
     : QMainWindow( parent, fl )
+#ifdef Q_OS_WIN
+    , mSkipNextContextMenuEvent( 0 )
+#endif
+    , mNonEditMapTool( 0 )
+    , mScaleLabel( 0 )
+    , mScaleEdit( 0 )
+    , mScaleEditValidator( 0 )
+    , mCoordsLabel( 0 )
+    , mCoordsEdit( 0 )
+    , mCoordsEditValidator( 0 )
+    , mRotationLabel( 0 )
+    , mRotationEdit( 0 )
+    , mRotationEditValidator( 0 )
+    , mProgressBar( 0 )
+    , mRenderSuppressionCBox( 0 )
+    , mOnTheFlyProjectionStatusLabel( 0 )
+    , mOnTheFlyProjectionStatusButton( 0 )
+    , mMessageButton( 0 )
+    , mFeatureActionMenu( 0 )
+    , mPopupMenu( 0 )
+    , mDatabaseMenu( 0 )
+    , mWebMenu( 0 )
+    , mToolPopupOverviews( 0 )
+    , mToolPopupDisplay( 0 )
+    , mLayerTreeCanvasBridge( 0 )
     , mSplash( splash )
     , mMousePrecisionDecimalPlaces( 0 )
     , mInternalClipboard( 0 )
     , mShowProjectionTab( false )
     , mPythonUtils( 0 )
-#ifdef Q_OS_WIN
-    , mSkipNextContextMenuEvent( 0 )
-#endif
     , mComposerManager( 0 )
+    , mpTileScaleWidget( 0 )
     , mpGpsWidget( 0 )
     , mSnappingUtils( 0 )
+    , mProjectLastModified()
 {
   if ( smInstance )
   {
@@ -554,6 +580,10 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
   mInfoBar->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Fixed );
   centralLayout->addWidget( mInfoBar, 0, 0, 1, 1 );
 
+  // User Input Dock Widget
+  mUserInputDockWidget = new QgsUserInputDockWidget( this );
+  mUserInputDockWidget->setObjectName( "UserInputDockWidget" );
+
   //set the focus to the map canvas
   mMapCanvas->setFocus();
 
@@ -612,6 +642,9 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
   addDockWidget( Qt::LeftDockWidgetArea, mAdvancedDigitizingDockWidget );
   mAdvancedDigitizingDockWidget->hide();
 
+  QMainWindow::addDockWidget( Qt::BottomDockWidgetArea, mUserInputDockWidget );
+  mUserInputDockWidget->setFloating( true );
+
   // create the GPS tool on starting QGIS - this is like the browser
   mpGpsWidget = new QgsGPSInformationWidget( mMapCanvas );
   //create the dock widget
@@ -627,7 +660,6 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
   mLastMapToolMessage = 0;
 
   mLogViewer = new QgsMessageLogViewer( statusBar(), this );
-  mLogViewer->setShowToolTips( false );
 
   mLogDock = new QDockWidget( tr( "Log Messages" ), this );
   mLogDock->setObjectName( "MessageLog" );
@@ -713,7 +745,13 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
     QgsPythonRunner::run( "import pyplugin_installer" );
     QgsPythonRunner::run( "pyplugin_installer.initPluginInstaller()" );
     // enable Python in the Plugin Manager and pass the PythonUtils to it
-    mPluginManager -> setPythonUtils( mPythonUtils );
+    mPluginManager->setPythonUtils( mPythonUtils );
+  }
+  else if ( mActionShowPythonDialog )
+  {
+    // python is disabled so get rid of the action for python console
+    delete mActionShowPythonDialog;
+    mActionShowPythonDialog = 0;
   }
 
   mSplash->showMessage( tr( "Initializing file filters" ), Qt::AlignHCenter | Qt::AlignBottom );
@@ -810,20 +848,84 @@ QgisApp::QgisApp( QSplashScreen *splash, bool restorePlugins, QWidget * parent, 
 #ifdef ANDROID
   toggleFullScreen();
 #endif
-
-  mLogViewer->setShowToolTips( true );
 } // QgisApp ctor
 
 QgisApp::QgisApp()
     : QMainWindow( 0, 0 )
+    , mStyleSheetBuilder( 0 )
+    , mActionPluginSeparator1( 0 )
+    , mActionPluginSeparator2( 0 )
+    , mActionRasterSeparator( 0 )
+    , mMapToolGroup( 0 )
+    , mPreviewGroup( 0 )
+#ifdef Q_OS_MAC
+    , mWindowMenu( 0 )
+#endif
+    , mPanelMenu( 0 )
+    , mToolbarMenu( 0 )
+    , mLayerTreeDock( 0 )
+    , mLayerOrderDock( 0 )
+    , mOverviewDock( 0 )
+    , mpGpsDock( 0 )
+    , mLogDock( 0 )
+    , mNonEditMapTool( 0 )
+    , mScaleLabel( 0 )
+    , mScaleEdit( 0 )
+    , mScaleEditValidator( 0 )
+    , mCoordsLabel( 0 )
+    , mCoordsEdit( 0 )
+    , mCoordsEditValidator( 0 )
+    , mRotationLabel( 0 )
+    , mRotationEdit( 0 )
+    , mRotationEditValidator( 0 )
+    , mProgressBar( 0 )
+    , mRenderSuppressionCBox( 0 )
+    , mToggleExtentsViewButton( 0 )
+    , mOnTheFlyProjectionStatusLabel( 0 )
+    , mOnTheFlyProjectionStatusButton( 0 )
+    , mMessageButton( 0 )
+    , mFeatureActionMenu( 0 )
+    , mPopupMenu( 0 )
+    , mDatabaseMenu( 0 )
+    , mWebMenu( 0 )
+    , mToolPopupOverviews( 0 )
+    , mToolPopupDisplay( 0 )
+    , mMapCanvas( 0 )
+    , mLayerTreeView( 0 )
+    , mLayerTreeCanvasBridge( 0 )
+    , mMapLayerOrder( 0 )
     , mOverviewMapCursor( 0 )
+    , mMapWindow( 0 )
     , mQgisInterface( 0 )
+    , mSplash( 0 )
+    , mMousePrecisionDecimalPlaces( 0 )
     , mInternalClipboard( 0 )
+    , mShowProjectionTab( false )
+    , mpMapTipsTimer( 0 )
+    , mDizzyTimer( 0 )
     , mpMaptip( 0 )
+    , mMapTipsVisible( false )
+    , mFullScreenMode( false )
+    , mPrevScreenModeMaximized( false )
+    , mSaveRollbackInProgress( false )
     , mPythonUtils( 0 )
+    , mBrowserWidget( 0 )
+    , mBrowserWidget2( 0 )
+    , mAdvancedDigitizingDockWidget( 0 )
+    , mSnappingDialog( 0 )
+    , mPluginManager( 0 )
     , mComposerManager( 0 )
+    , mpTileScaleWidget( 0 )
+    , mLastComposerId( 0 )
     , mpGpsWidget( 0 )
+    , mLastMapToolMessage( 0 )
+    , mLogViewer( 0 )
+    , mTrustedMacros( false )
+    , mMacrosWarn( 0 )
+    , mVectorLayerTools( 0 )
+    , mBtnFilterLegend( 0 )
     , mSnappingUtils( 0 )
+    , mProjectLastModified()
 {
   smInstance = this;
   setupUi( this );
@@ -906,8 +1008,6 @@ QgisApp::~QgisApp()
   delete QgsProject::instance();
 
   delete mPythonUtils;
-
-  QgsMapLayerStyleGuiUtils::cleanup();
 }
 
 void QgisApp::dragEnterEvent( QDragEnterEvent *event )
@@ -949,6 +1049,10 @@ void QgisApp::dropEvent( QDropEvent *event )
       else if ( u.layerType == "raster" )
       {
         addRasterLayer( uri, u.name, u.providerKey );
+      }
+      else if ( u.layerType == "plugin" )
+      {
+        addPluginLayer( uri, u.name, u.providerKey );
       }
     }
   }
@@ -1626,7 +1730,6 @@ void QgisApp::createToolBars()
   connect( bt, SIGNAL( triggered( QAction * ) ), this, SLOT( toolButtonActionTriggered( QAction * ) ) );
 
   // Help Toolbar
-
   QAction* actionWhatsThis = QWhatsThis::createAction( this );
   actionWhatsThis->setIcon( QgsApplication::getThemeIcon( "/mActionWhatsThis.svg" ) );
   mHelpToolBar->addAction( actionWhatsThis );
@@ -1675,7 +1778,7 @@ void QgisApp::createStatusBar()
   mCoordsLabel->setObjectName( "mCoordsLabel" );
   mCoordsLabel->setFont( myFont );
   mCoordsLabel->setMinimumWidth( 10 );
-  mCoordsLabel->setMaximumHeight( 20 );
+  //mCoordsLabel->setMaximumHeight( 20 );
   mCoordsLabel->setMargin( 3 );
   mCoordsLabel->setAlignment( Qt::AlignCenter );
   mCoordsLabel->setFrameStyle( QFrame::NoFrame );
@@ -1689,7 +1792,7 @@ void QgisApp::createStatusBar()
   mCoordsEdit->setFont( myFont );
   mCoordsEdit->setMinimumWidth( 10 );
   mCoordsEdit->setMaximumWidth( 300 );
-  mCoordsEdit->setMaximumHeight( 20 );
+  //mCoordsEdit->setMaximumHeight( 20 );
   mCoordsEdit->setContentsMargins( 0, 0, 0, 0 );
   mCoordsEdit->setAlignment( Qt::AlignCenter );
   QRegExp coordValidator( "[+-]?\\d+\\.?\\d*\\s*,\\s*[+-]?\\d+\\.?\\d*" );
@@ -1709,7 +1812,7 @@ void QgisApp::createStatusBar()
   mScaleLabel->setObjectName( "mScaleLable" );
   mScaleLabel->setFont( myFont );
   mScaleLabel->setMinimumWidth( 10 );
-  mScaleLabel->setMaximumHeight( 20 );
+  //mScaleLabel->setMaximumHeight( 20 );
   mScaleLabel->setMargin( 3 );
   mScaleLabel->setAlignment( Qt::AlignCenter );
   mScaleLabel->setFrameStyle( QFrame::NoFrame );
@@ -1725,7 +1828,7 @@ void QgisApp::createStatusBar()
   mScaleEdit->lineEdit()->setFont( myFont );
   mScaleEdit->setMinimumWidth( 10 );
   mScaleEdit->setMaximumWidth( 100 );
-  mScaleEdit->setMaximumHeight( 20 );
+  //mScaleEdit->setMaximumHeight( 20 );
   mScaleEdit->setContentsMargins( 0, 0, 0, 0 );
   mScaleEdit->setWhatsThis( tr( "Displays the current map scale" ) );
   mScaleEdit->setToolTip( tr( "Current map scale (formatted as x:y)" ) );
@@ -1740,7 +1843,7 @@ void QgisApp::createStatusBar()
     mRotationLabel->setObjectName( "mRotationLabel" );
     mRotationLabel->setFont( myFont );
     mRotationLabel->setMinimumWidth( 10 );
-    mRotationLabel->setMaximumHeight( 20 );
+    //mRotationLabel->setMaximumHeight( 20 );
     mRotationLabel->setMargin( 3 );
     mRotationLabel->setAlignment( Qt::AlignCenter );
     mRotationLabel->setFrameStyle( QFrame::NoFrame );
@@ -1804,7 +1907,8 @@ void QgisApp::createStatusBar()
   mMessageButton = new QToolButton( statusBar() );
   mMessageButton->setAutoRaise( true );
   mMessageButton->setIcon( QgsApplication::getThemeIcon( "bubble.svg" ) );
-  mMessageButton->setText( tr( "Messages" ) );
+  mMessageButton->setToolTip( tr( "Messages" ) );
+  mMessageButton->setWhatsThis( tr( "Messages" ) );
   mMessageButton->setToolButtonStyle( Qt::ToolButtonTextBesideIcon );
   mMessageButton->setObjectName( "mMessageLogViewerButton" );
   mMessageButton->setMaximumHeight( mScaleLabel->height() );
@@ -2306,6 +2410,11 @@ QgsMessageBar* QgisApp::messageBar()
   return mInfoBar;
 }
 
+void QgisApp::addUserInputWidget( QWidget *widget )
+{
+  mUserInputDockWidget->addUserInputWidget( widget );
+}
+
 
 void QgisApp::initLayerTreeView()
 {
@@ -2322,6 +2431,7 @@ void QgisApp::initLayerTreeView()
   model->setFlag( QgsLayerTreeModel::AllowNodeReorder );
   model->setFlag( QgsLayerTreeModel::AllowNodeRename );
   model->setFlag( QgsLayerTreeModel::AllowNodeChangeVisibility );
+  model->setFlag( QgsLayerTreeModel::ShowLegendAsTree );
   model->setAutoCollapseLegendNodes( 10 );
 
   mLayerTreeView->setModel( model );
@@ -2464,6 +2574,10 @@ void QgisApp::autoSelectAddedLayer( QList<QgsMapLayer*> layers )
   if ( layers.count() )
   {
     QgsLayerTreeLayer* nodeLayer = QgsProject::instance()->layerTreeRoot()->findLayer( layers[0]->id() );
+
+    if ( !nodeLayer )
+      return;
+
     QModelIndex index = mLayerTreeView->layerTreeModel()->node2index( nodeLayer );
     mLayerTreeView->setCurrentIndex( index );
   }
@@ -2719,7 +2833,7 @@ void QgisApp::addLayerDefinition()
   openLayerDefinition( path );
 }
 
-QString QgisApp::crsAndFormatAdjustedLayerUri( const QString &uri , const QStringList &supportedCrs, const QStringList &supportedFormats ) const
+QString QgisApp::crsAndFormatAdjustedLayerUri( const QString &uri, const QStringList &supportedCrs, const QStringList &supportedFormats ) const
 {
   QString newuri = uri;
 
@@ -2951,7 +3065,10 @@ bool QgisApp::askUserForZipItemLayers( QString path )
     {
       QgsDataItem *item = zipItem->children()[i];
       QgsLayerItem *layerItem = dynamic_cast<QgsLayerItem *>( item );
-      QgsDebugMsgLevel( QString( "item path=%1 provider=%2" ).arg( item->path() ).arg( layerItem->providerKey() ), 2 );
+      if ( layerItem )
+      {
+        QgsDebugMsgLevel( QString( "item path=%1 provider=%2" ).arg( item->path() ).arg( layerItem->providerKey() ), 2 );
+      }
       if ( layerItem && layerItem->providerKey() == "gdal" )
       {
         layers << QString( "%1|%2|%3" ).arg( i ).arg( item->name() ).arg( "Raster" );
@@ -2983,13 +3100,16 @@ bool QgisApp::askUserForZipItemLayers( QString path )
   foreach ( QgsDataItem* item, childItems )
   {
     QgsLayerItem *layerItem = dynamic_cast<QgsLayerItem *>( item );
+    if ( !layerItem )
+      continue;
+
     QgsDebugMsg( QString( "item path=%1 provider=%2" ).arg( item->path() ).arg( layerItem->providerKey() ) );
-    if ( layerItem && layerItem->providerKey() == "gdal" )
+    if ( layerItem->providerKey() == "gdal" )
     {
       if ( addRasterLayer( item->path(), QFileInfo( item->name() ).completeBaseName() ) )
         ok = true;
     }
-    else if ( layerItem && layerItem->providerKey() == "ogr" )
+    else if ( layerItem->providerKey() == "ogr" )
     {
       if ( addVectorLayers( QStringList( item->path() ), "System", "file" ) )
         ok = true;
@@ -3491,6 +3611,8 @@ void QgisApp::fileNew( bool thePromptToSaveFlag, bool forceBlank )
     }
   }
 
+  mProjectLastModified = QDateTime();
+
   QSettings settings;
 
   closeProject();
@@ -3797,6 +3919,7 @@ void QgisApp::newMemoryLayer()
     layers << newLayer;
 
     QgsMapLayerRegistry::instance()->addMapLayers( layers );
+    newLayer->startEditing();
   }
 }
 
@@ -3880,7 +4003,7 @@ bool QgisApp::addProject( QString projectFile )
   // close the previous opened project if any
   closeProject();
 
-  if ( ! QgsProject::instance()->read( projectFile ) )
+  if ( !QgsProject::instance()->read( projectFile ) )
   {
     QApplication::restoreOverrideCursor();
     statusBar()->clearMessage();
@@ -3894,6 +4017,8 @@ bool QgisApp::addProject( QString projectFile )
     mMapCanvas->refresh();
     return false;
   }
+
+  mProjectLastModified = pfi.lastModified();
 
   setTitleBarText_( *this );
   int  myRedInt = QgsProject::instance()->readNumEntry( "Gui", "/CanvasColorRedPart", 255 );
@@ -4014,6 +4139,19 @@ bool QgisApp::fileSave()
   else
   {
     QFileInfo fi( QgsProject::instance()->fileName() );
+    if ( fi.exists() && !mProjectLastModified.isNull() && mProjectLastModified != fi.lastModified() )
+    {
+      if ( QMessageBox::warning( this,
+                                 tr( "Project file was changed" ),
+                                 tr( "The loaded project file on disk was meanwhile changed.  Do you want to overwrite the changes?\n"
+                                     "\nLast modification date on load was: %1"
+                                     "\nCurrent last modification date is: %2" )
+                                 .arg( mProjectLastModified.toString( Qt::DefaultLocaleLongDate ) )
+                                 .arg( fi.lastModified().toString( Qt::DefaultLocaleLongDate ) ),
+                                 QMessageBox::Ok | QMessageBox::Cancel ) == QMessageBox::Cancel )
+        return false;
+    }
+
     if ( fi.exists() && ! fi.isWritable() )
     {
       messageBar()->pushMessage( tr( "Insufficient permissions" ),
@@ -4034,6 +4172,9 @@ bool QgisApp::fileSave()
       QSettings settings;
       saveRecentProjectPath( fullPath.filePath(), settings );
     }
+
+    QFileInfo fi( QgsProject::instance()->fileName() );
+    mProjectLastModified = fi.lastModified();
   }
   else
   {
@@ -4118,7 +4259,7 @@ void QgisApp::dxfExport()
       fileName += ".dxf";
     QFile dxfFile( fileName );
     QApplication::setOverrideCursor( Qt::BusyCursor );
-    if ( dxfExport.writeToFile( &dxfFile ) == 0 )
+    if ( dxfExport.writeToFile( &dxfFile, d.encoding() ) == 0 )
     {
       messageBar()->pushMessage( tr( "DXF export completed" ), QgsMessageBar::INFO, 4 );
     }
@@ -4935,6 +5076,9 @@ void QgisApp::saveAsRasterFile()
                                 this );
   if ( d.exec() == QDialog::Accepted )
   {
+    QSettings settings;
+    settings.setValue( "/UI/lastRasterFileDir", QFileInfo( d.outputFileName() ).absolutePath() );
+
     QgsRasterFileWriter fileWriter( d.outputFileName() );
     if ( d.tileMode() )
     {
@@ -4946,19 +5090,20 @@ void QgisApp::saveAsRasterFile()
     QProgressDialog pd( 0, tr( "Abort..." ), 0, 0 );
     // Show the dialo immediately because cloning pipe can take some time (WCS)
     pd.setLabelText( tr( "Reading raster" ) );
+    pd.setWindowTitle( tr( "Saving raster" ) );
     pd.show();
     pd.setWindowModality( Qt::WindowModal );
 
     // TODO: show error dialogs
     // TODO: this code should go somewhere else, but probably not into QgsRasterFileWriter
     // clone pipe/provider is not really necessary, ready for threads
-    QgsRasterPipe* pipe = 0;
+    QScopedPointer<QgsRasterPipe> pipe( 0 );
 
     if ( d.mode() == QgsRasterLayerSaveAsDialog::RawDataMode )
     {
       QgsDebugMsg( "Writing raw data" );
       //QgsDebugMsg( QString( "Writing raw data" ).arg( pos ) );
-      pipe = new QgsRasterPipe();
+      pipe.reset( new QgsRasterPipe() );
       if ( !pipe->set( rasterLayer->dataProvider()->clone() ) )
       {
         QgsDebugMsg( "Cannot set pipe provider" );
@@ -4992,12 +5137,11 @@ void QgisApp::saveAsRasterFile()
     {
       // clone the whole pipe
       QgsDebugMsg( "Writing rendered image" );
-      pipe = new QgsRasterPipe( *rasterLayer->pipe() );
+      pipe.reset( new QgsRasterPipe( *rasterLayer->pipe() ) );
       QgsRasterProjector *projector = pipe->projector();
       if ( !projector )
       {
         QgsDebugMsg( "Cannot get pipe projector" );
-        delete pipe;
         return;
       }
       projector->setCRS( rasterLayer->crs(), d.outputCrs() );
@@ -5005,7 +5149,6 @@ void QgisApp::saveAsRasterFile()
 
     if ( !pipe->last() )
     {
-      delete pipe;
       return;
     }
     fileWriter.setCreateOptions( d.createOptions() );
@@ -5016,7 +5159,7 @@ void QgisApp::saveAsRasterFile()
     fileWriter.setPyramidsFormat( d.pyramidsFormat() );
     fileWriter.setPyramidsConfigOptions( d.pyramidsConfigOptions() );
 
-    QgsRasterFileWriter::WriterError err = fileWriter.writeRaster( pipe, d.nColumns(), d.nRows(), d.outputRectangle(), d.outputCrs(), &pd );
+    QgsRasterFileWriter::WriterError err = fileWriter.writeRaster( pipe.data(), d.nColumns(), d.nRows(), d.outputRectangle(), d.outputCrs(), &pd );
     if ( err != QgsRasterFileWriter::NoError )
     {
       QMessageBox::warning( this, tr( "Error" ),
@@ -5028,7 +5171,6 @@ void QgisApp::saveAsRasterFile()
     {
       emit layerSavedAs( rasterLayer, d.outputFileName() );
     }
-    delete pipe;
   }
 }
 
@@ -5189,11 +5331,13 @@ void QgisApp::checkForDeprecatedLabelsInProject()
         continue;
       }
 
+      Q_NOWARN_DEPRECATED_PUSH
       depLabelsUsed = vl->hasLabelsEnabled();
       if ( depLabelsUsed )
       {
         break;
       }
+      Q_NOWARN_DEPRECATED_POP
     }
     if ( depLabelsUsed )
     {
@@ -5567,7 +5711,7 @@ bool QgisApp::loadComposersFromProject( const QDomDocument& doc )
 void QgisApp::deletePrintComposers()
 {
   QSet<QgsComposer*>::iterator it = mPrintComposers.begin();
-  for ( ; it != mPrintComposers.end(); ++it )
+  while ( it != mPrintComposers.end() )
   {
     emit composerWillBeRemoved(( *it )->view() );
 
@@ -5583,8 +5727,8 @@ void QgisApp::deletePrintComposers()
     {
       delete composition;
     }
+    it = mPrintComposers.erase( it );
   }
-  mPrintComposers.clear();
   mLastComposerId = 0;
   markDirty();
 }
@@ -5829,6 +5973,7 @@ void QgisApp::mergeSelectedFeatures()
   }
 
   //get initial selection (may be altered by attribute merge dialog later)
+  QgsFeatureIds featureIds = vl->selectedFeaturesIds();
   QgsFeatureList featureList = vl->selectedFeatures();  //get QList<QgsFeature>
   bool canceled;
   QgsGeometry* unionGeom = unionGeometries( vl, featureList, canceled );
@@ -5857,9 +6002,9 @@ void QgisApp::mergeSelectedFeatures()
     return;
   }
 
-  QgsFeatureList featureListAfter = vl->selectedFeatures();
+  QgsFeatureIds featureIdsAfter = vl->selectedFeaturesIds();
 
-  if ( featureListAfter.size() < 2 )
+  if ( featureIdsAfter.size() < 2 )
   {
     QMessageBox::information( 0, tr( "Not enough features selected" ), tr( "The merge tool requires at least two selected features" ) );
     delete unionGeom;
@@ -5867,10 +6012,11 @@ void QgisApp::mergeSelectedFeatures()
   }
 
   //if the user changed the feature selection in the merge dialog, we need to repeat the union and check the type
-  if ( featureList.size() != featureListAfter.size() )
+  if ( featureIds.size() != featureIdsAfter.size() )
   {
     delete unionGeom;
     bool canceled;
+    QgsFeatureList featureListAfter = vl->selectedFeatures();
     unionGeom = unionGeometries( vl, featureListAfter, canceled );
     if ( !unionGeom )
     {
@@ -5896,10 +6042,10 @@ void QgisApp::mergeSelectedFeatures()
   newFeature.setGeometry( unionGeom );
   newFeature.setAttributes( d.mergedAttributes() );
 
-  QgsFeatureList::const_iterator feature_it = featureListAfter.constBegin();
-  for ( ; feature_it != featureListAfter.constEnd(); ++feature_it )
+  QgsFeatureIds::const_iterator feature_it = featureIdsAfter.constBegin();
+  for ( ; feature_it != featureIdsAfter.constEnd(); ++feature_it )
   {
-    vl->deleteFeature( feature_it->id() );
+    vl->deleteFeature( *feature_it );
   }
 
   vl->addFeature( newFeature, false );
@@ -6258,6 +6404,8 @@ QgsVectorLayer *QgisApp::pasteToNewMemoryVector()
   QGis::WkbType wkbType = typeCounts.size() > 0 ? typeCounts.keys().value( 0 ) : QGis::WKBPoint;
 
   QString typeName = QString( QGis::featureType( wkbType ) ).replace( "WKB", "" );
+
+  typeName += QString( "?memoryid=%1" ).arg( QUuid::createUuid().toString() );
 
   QgsDebugMsg( QString( "output wkbType = %1 typeName = %2" ).arg( wkbType ).arg( typeName ) );
 
@@ -6884,10 +7032,10 @@ void QgisApp::dizzy()
   QRectF rect = mMapCanvas->sceneRect();
   if ( rect.x() < -d || rect.x() > d || rect.y() < -d || rect.y() > d )
     return; // do not affect panning
-  rect.moveTo(( rand() % ( 2 * d ) ) - d, ( rand() % ( 2 * d ) ) - d );
+  rect.moveTo(( qrand() % ( 2 * d ) ) - d, ( qrand() % ( 2 * d ) ) - d );
   mMapCanvas->setSceneRect( rect );
   QTransform matrix;
-  matrix.rotate(( rand() % ( 2 * r ) ) - r );
+  matrix.rotate(( qrand() % ( 2 * r ) ) - r );
   mMapCanvas->setTransform( matrix );
 }
 
@@ -7404,7 +7552,10 @@ void QgisApp::loadPythonSupport()
 
   //QgsDebugMsg("Python support library's instance() symbol resolved.");
   mPythonUtils = pythonlib_inst();
-  mPythonUtils->initPython( mQgisInterface );
+  if ( mPythonUtils )
+  {
+    mPythonUtils->initPython( mQgisInterface );
+  }
 
   if ( mPythonUtils && mPythonUtils->isEnabled() )
   {
@@ -7414,11 +7565,6 @@ void QgisApp::loadPythonSupport()
     QgsPythonRunner::setInstance( new QgsPythonRunnerImpl( mPythonUtils ) );
 
     QgsMessageLog::logMessage( tr( "Python support ENABLED :-) " ), QString::null, QgsMessageLog::INFO );
-  }
-  else
-  {
-    delete mActionShowPythonDialog;
-    mActionShowPythonDialog = 0;
   }
 }
 
@@ -9024,7 +9170,7 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
   {
     QgsVectorLayer *vlayer = qobject_cast<QgsVectorLayer *>( it.value() );
     if ( !vlayer || !vlayer->isEditable() ||
-         ( !vlayer->diagramRenderer() && vlayer->customProperty( "labeling" ).toString() != QString( "pal" ) ) )
+         ( !vlayer->diagramsEnabled() && vlayer->customProperty( "labeling" ).toString() != QString( "pal" ) ) )
       continue;
 
     int colX, colY, colShow, colAng;
@@ -9153,12 +9299,6 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
     bool layerHasSelection = vlayer->selectedFeatureCount() > 0;
     bool layerHasActions = vlayer->actions()->size() + QgsMapLayerActionRegistry::instance()->mapLayerActions( vlayer ).size() > 0;
 
-    bool canChangeAttributes = dprovider->capabilities() & QgsVectorDataProvider::ChangeAttributeValues;
-    bool canDeleteFeatures = dprovider->capabilities() & QgsVectorDataProvider::DeleteFeatures;
-    bool canAddFeatures = dprovider->capabilities() & QgsVectorDataProvider::AddFeatures;
-    bool canSupportEditing = dprovider->capabilities() & QgsVectorDataProvider::EditingCapabilities;
-    bool canChangeGeometry = dprovider->capabilities() & QgsVectorDataProvider::ChangeGeometries;
-
     mActionLocalHistogramStretch->setEnabled( false );
     mActionFullHistogramStretch->setEnabled( false );
     mActionLocalCumulativeCutStretch->setEnabled( false );
@@ -9190,6 +9330,12 @@ void QgisApp::activateDeactivateLayerRelatedActions( QgsMapLayer* layer )
 
     if ( dprovider )
     {
+      bool canChangeAttributes = dprovider->capabilities() & QgsVectorDataProvider::ChangeAttributeValues;
+      bool canDeleteFeatures = dprovider->capabilities() & QgsVectorDataProvider::DeleteFeatures;
+      bool canAddFeatures = dprovider->capabilities() & QgsVectorDataProvider::AddFeatures;
+      bool canSupportEditing = dprovider->capabilities() & QgsVectorDataProvider::EditingCapabilities;
+      bool canChangeGeometry = dprovider->capabilities() & QgsVectorDataProvider::ChangeGeometries;
+
       mActionLayerSubsetString->setEnabled( !isEditable && dprovider->supportsSubsetString() );
 
       mActionToggleEditing->setEnabled( canSupportEditing && !vlayer->isReadOnly() );
@@ -9706,6 +9852,22 @@ bool QgisApp::addRasterLayers( QStringList const &theFileNameQStringList, bool g
 //
 ///////////////////////////////////////////////////////////////////
 
+
+QgsPluginLayer* QgisApp::addPluginLayer( const QString& uri, const QString& baseName, const QString& providerKey )
+{
+  QgsPluginLayer* layer = QgsPluginLayerRegistry::instance()->createLayer( providerKey, uri );
+  if ( !layer )
+    return 0;
+
+  layer->setLayerName( baseName );
+
+  QgsMapLayerRegistry::instance()->addMapLayer( layer );
+
+  return layer;
+}
+
+
+
 #ifdef ANDROID
 void QgisApp::keyReleaseEvent( QKeyEvent *event )
 {
@@ -9727,6 +9889,10 @@ void QgisApp::keyReleaseEvent( QKeyEvent *event )
     }
     event->setAccepted( accepted ); // don't close my Top Level Widget !
     accepted = false;// close the app next time when the user press back button
+  }
+  else
+  {
+    QMainWindow::keyReleaseEvent( event );
   }
 }
 #endif
@@ -9901,11 +10067,15 @@ void QgisApp::projectChanged( const QDomDocument &doc )
 
   QString expr;
   if ( !prevProjectDir.isNull() )
-    expr = QString( "sys.path.remove('%1'); " ).arg( prevProjectDir );
+  {
+    QString prev = prevProjectDir;
+    expr = QString( "sys.path.remove('%1'); " ).arg( prev.replace( "'", "\\'" ) );
+  }
 
   prevProjectDir = fi.canonicalPath();
 
-  expr += QString( "sys.path.append('%1')" ).arg( prevProjectDir );
+  QString prev = prevProjectDir;
+  expr += QString( "sys.path.append('%1')" ).arg( prev.replace( "'", "\\'" ) );
 
   QgsPythonRunner::run( expr );
 }
@@ -9972,7 +10142,8 @@ void QgisApp::showLayerProperties( QgsMapLayer *ml )
 
   if ( ml->type() == QgsMapLayer::RasterLayer )
   {
-    QgsRasterLayerProperties *rlp = NULL; // See note above about reusing this
+#if 0 // See note above about reusing this
+    QgsRasterLayerProperties *rlp = NULL;
     if ( rlp )
     {
       rlp->sync();
@@ -9982,6 +10153,9 @@ void QgisApp::showLayerProperties( QgsMapLayer *ml )
       rlp = new QgsRasterLayerProperties( ml, mMapCanvas, this );
       // handled by rendererChanged() connect( rlp, SIGNAL( refreshLegend( QString, bool ) ), mLayerTreeView, SLOT( refreshLayerSymbology( QString ) ) );
     }
+#else
+    QgsRasterLayerProperties *rlp = new QgsRasterLayerProperties( ml, mMapCanvas, this );
+#endif
 
     rlp->exec();
     delete rlp; // delete since dialog cannot be reused without updating code
@@ -9990,7 +10164,8 @@ void QgisApp::showLayerProperties( QgsMapLayer *ml )
   {
     QgsVectorLayer* vlayer = qobject_cast<QgsVectorLayer *>( ml );
 
-    QgsVectorLayerProperties *vlp = NULL; // See note above about reusing this
+#if 0 // See note above about reusing this
+    QgsVectorLayerProperties *vlp = NULL;
     if ( vlp )
     {
       vlp->syncToLayer();
@@ -10000,6 +10175,9 @@ void QgisApp::showLayerProperties( QgsMapLayer *ml )
       vlp = new QgsVectorLayerProperties( vlayer, this );
       // handled by rendererChanged() connect( vlp, SIGNAL( refreshLegend( QString ) ), mLayerTreeView, SLOT( refreshLayerSymbology( QString ) ) );
     }
+#else
+    QgsVectorLayerProperties *vlp = new QgsVectorLayerProperties( vlayer, this );
+#endif
 
     if ( vlp->exec() )
     {
@@ -10070,7 +10248,7 @@ void QgisApp::namAuthenticationRequired( QNetworkReply *reply, QAuthenticator *a
   {
     QMutexLocker lock( QgsCredentials::instance()->mutex() );
 
-    do
+    for ( ;; )
     {
       bool ok = QgsCredentials::instance()->get(
                   QString( "%1 at %2" ).arg( auth->realm() ).arg( reply->url().host() ),
@@ -10082,27 +10260,20 @@ void QgisApp::namAuthenticationRequired( QNetworkReply *reply, QAuthenticator *a
       if ( reply->isFinished() )
         return;
 
-      if ( auth->user() == username && password == auth->password() )
-      {
-        if ( !password.isNull() )
-        {
-          // credentials didn't change - stored ones probably wrong? clear password and retry
-          QgsCredentials::instance()->put(
-            QString( "%1 at %2" ).arg( auth->realm() ).arg( reply->url().host() ),
-            username, QString::null );
-          continue;
-        }
-      }
-      else
-      {
-        // save credentials
-        QgsCredentials::instance()->put(
-          QString( "%1 at %2" ).arg( auth->realm() ).arg( reply->url().host() ),
-          username, password
-        );
-      }
+      if ( auth->user() != username || ( password != auth->password() && !password.isNull() ) )
+        break;
+
+      // credentials didn't change - stored ones probably wrong? clear password and retry
+      QgsCredentials::instance()->put(
+        QString( "%1 at %2" ).arg( auth->realm() ).arg( reply->url().host() ),
+        username, QString::null );
     }
-    while ( 0 );
+
+    // save credentials
+    QgsCredentials::instance()->put(
+      QString( "%1 at %2" ).arg( auth->realm() ).arg( reply->url().host() ),
+      username, password
+    );
   }
 
   auth->setUser( username );
@@ -10125,7 +10296,7 @@ void QgisApp::namProxyAuthenticationRequired( const QNetworkProxy &proxy, QAuthe
   {
     QMutexLocker lock( QgsCredentials::instance()->mutex() );
 
-    do
+    for ( ;; )
     {
       bool ok = QgsCredentials::instance()->get(
                   QString( "proxy %1:%2 [%3]" ).arg( proxy.hostName() ).arg( proxy.port() ).arg( auth->realm() ),
@@ -10134,26 +10305,19 @@ void QgisApp::namProxyAuthenticationRequired( const QNetworkProxy &proxy, QAuthe
       if ( !ok )
         return;
 
-      if ( auth->user() == username && password == auth->password() )
-      {
-        if ( !password.isNull() )
-        {
-          // credentials didn't change - stored ones probably wrong? clear password and retry
-          QgsCredentials::instance()->put(
-            QString( "proxy %1:%2 [%3]" ).arg( proxy.hostName() ).arg( proxy.port() ).arg( auth->realm() ),
-            username, QString::null );
-          continue;
-        }
-      }
-      else
-      {
-        QgsCredentials::instance()->put(
-          QString( "proxy %1:%2 [%3]" ).arg( proxy.hostName() ).arg( proxy.port() ).arg( auth->realm() ),
-          username, password
-        );
-      }
+      if ( auth->user() != username || ( password != auth->password() && !password.isNull() ) )
+        break;
+
+      // credentials didn't change - stored ones probably wrong? clear password and retry
+      QgsCredentials::instance()->put(
+        QString( "proxy %1:%2 [%3]" ).arg( proxy.hostName() ).arg( proxy.port() ).arg( auth->realm() ),
+        username, QString::null );
     }
-    while ( 0 );
+
+    QgsCredentials::instance()->put(
+      QString( "proxy %1:%2 [%3]" ).arg( proxy.hostName() ).arg( proxy.port() ).arg( auth->realm() ),
+      username, password
+    );
   }
 
   auth->setUser( username );

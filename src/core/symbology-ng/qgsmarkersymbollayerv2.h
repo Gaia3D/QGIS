@@ -135,9 +135,6 @@ class CORE_EXPORT QgsSimpleMarkerSymbolLayerV2 : public QgsMarkerSymbolLayerV2
 
     static const QString EXPR_SIZE;
 
-  private:
-    QgsExpression *mAngleExpression;
-    QgsExpression *mNameExpression;
 };
 
 //////////
@@ -211,7 +208,6 @@ class CORE_EXPORT QgsSvgMarkerSymbolLayerV2 : public QgsMarkerSymbolLayerV2
     double mOutlineWidth;
     QgsSymbolV2::OutputUnit mOutlineWidthUnit;
     QgsMapUnitScale mOutlineWidthMapUnitScale;
-    double mOrigSize;
 };
 
 

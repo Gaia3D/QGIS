@@ -26,7 +26,7 @@ __copyright__ = '(C) 2013, Alexander Bruy'
 __revision__ = '$Format:%H$'
 
 
-from PyQt4.QtGui import *
+import os
 
 from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
 from processing.core.parameters import ParameterVector
@@ -35,7 +35,6 @@ from processing.core.parameters import ParameterNumber
 from processing.core.parameters import ParameterSelection
 from processing.core.outputs import OutputRaster
 from processing.algs.gdal.GdalUtils import GdalUtils
-from processing.tools.system import *
 
 
 class GridNearest(GdalAlgorithm):
@@ -49,8 +48,7 @@ class GridNearest(GdalAlgorithm):
     OUTPUT = 'OUTPUT'
     RTYPE = 'RTYPE'
 
-    TYPE = ['Byte', 'Int16', 'UInt16', 'UInt32', 'Int32', 'Float32', 'Float64',
-            'CInt16', 'CInt32', 'CFloat32', 'CFloat64']
+    TYPE = ['Byte', 'Int16', 'UInt16', 'UInt32', 'Int32', 'Float32', 'Float64']
 
     def commandLineName(self):
         return "gdalogr:gridnearestneighbor"
@@ -74,13 +72,13 @@ class GridNearest(GdalAlgorithm):
         self.addParameter(ParameterSelection(self.RTYPE,
             self.tr('Output raster type'), self.TYPE, 5))
 
-        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Output file')))
+        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Interpolated nearest neighbor')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = ['-l']
         arguments.append(
-                os.path.basename(os.path.splitext(
-                        unicode(self.getParameterValue(self.INPUT)))[0]))
+            os.path.basename(os.path.splitext(
+                unicode(self.getParameterValue(self.INPUT)))[0]))
 
         fieldName = self.getParameterValue(self.Z_FIELD)
         if fieldName is not None and fieldName != '':
@@ -100,5 +98,4 @@ class GridNearest(GdalAlgorithm):
         arguments.append(unicode(self.getParameterValue(self.INPUT)))
         arguments.append(unicode(self.getOutputValue(self.OUTPUT)))
 
-        GdalUtils.runGdal(['gdal_grid',
-                          GdalUtils.escapeAndJoin(arguments)], progress)
+        return ['gdal_grid', GdalUtils.escapeAndJoin(arguments)]

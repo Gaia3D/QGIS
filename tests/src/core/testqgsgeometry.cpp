@@ -41,6 +41,10 @@
 class TestQgsGeometry : public QObject
 {
     Q_OBJECT
+
+  public:
+    TestQgsGeometry();
+
   private slots:
     void initTestCase();// will be called before the first testfunction is executed.
     void cleanupTestCase();// will be called after the last testfunction was executed.
@@ -52,6 +56,9 @@ class TestQgsGeometry : public QObject
     void fromQPolygonF();
     void asQPointF();
     void asQPolygonF();
+
+    void comparePolylines();
+    void comparePolygons();
 
     // MK, Disabled 14.11.2014
     // Too unclear what exactly should be tested and which variations are allowed for the line
@@ -67,6 +74,7 @@ class TestQgsGeometry : public QObject
     void differenceCheck1();
     void differenceCheck2();
     void bufferCheck();
+    void smoothCheck();
 
   private:
     /** A helper method to do a render check to see if the geometry op is as expected */
@@ -107,6 +115,16 @@ class TestQgsGeometry : public QObject
     QPen mPen2;
     QString mReport;
 };
+
+TestQgsGeometry::TestQgsGeometry()
+    : mpPolylineGeometryD( NULL )
+    , mpPolygonGeometryA( NULL )
+    , mpPolygonGeometryB( NULL )
+    , mpPolygonGeometryC( NULL )
+    , mpPainter( NULL )
+{
+
+}
 
 
 void TestQgsGeometry::init()
@@ -193,22 +211,20 @@ void TestQgsGeometry::cleanup()
 void TestQgsGeometry::fromQgsPoint()
 {
   QgsPoint point( 1.0, 2.0 );
-  QgsGeometry* result = QgsGeometry::fromPoint( point );
+  QSharedPointer<QgsGeometry> result( QgsGeometry::fromPoint( point ) );
   QCOMPARE( result->wkbType(), QGis::WKBPoint );
   QgsPoint resultPoint = result->asPoint();
   QCOMPARE( resultPoint, point );
-  delete result;
 }
 
 void TestQgsGeometry::fromQPoint()
 {
   QPointF point( 1.0, 2.0 );
-  QgsGeometry* result = QgsGeometry::fromQPointF( point );
+  QSharedPointer<QgsGeometry> result( QgsGeometry::fromQPointF( point ) );
   QCOMPARE( result->wkbType(), QGis::WKBPoint );
   QgsPoint resultPoint = result->asPoint();
   QCOMPARE( resultPoint.x(), 1.0 );
   QCOMPARE( resultPoint.y(), 2.0 );
-  delete result;
 }
 
 void TestQgsGeometry::fromQPolygonF()
@@ -216,7 +232,7 @@ void TestQgsGeometry::fromQPolygonF()
   //test with a polyline
   QPolygonF polyline;
   polyline << QPointF( 1.0, 2.0 ) << QPointF( 4.0, 6.0 ) << QPointF( 4.0, 3.0 ) << QPointF( 2.0, 2.0 );
-  QgsGeometry* result = QgsGeometry::fromQPolygonF( polyline );
+  QSharedPointer<QgsGeometry> result( QgsGeometry::fromQPolygonF( polyline ) );
   QCOMPARE( result->wkbType(), QGis::WKBLineString );
   QgsPolyline resultLine = result->asPolyline();
   QCOMPARE( resultLine.size(), 4 );
@@ -224,12 +240,11 @@ void TestQgsGeometry::fromQPolygonF()
   QCOMPARE( resultLine.at( 1 ), QgsPoint( 4.0, 6.0 ) );
   QCOMPARE( resultLine.at( 2 ), QgsPoint( 4.0, 3.0 ) );
   QCOMPARE( resultLine.at( 3 ), QgsPoint( 2.0, 2.0 ) );
-  delete result;
 
   //test with a closed polygon
   QPolygonF polygon;
   polygon << QPointF( 1.0, 2.0 ) << QPointF( 4.0, 6.0 ) << QPointF( 4.0, 3.0 ) << QPointF( 2.0, 2.0 ) << QPointF( 1.0, 2.0 );
-  QgsGeometry* result2 = QgsGeometry::fromQPolygonF( polygon );
+  QSharedPointer<QgsGeometry> result2( QgsGeometry::fromQPolygonF( polygon ) );
   QCOMPARE( result2->wkbType(), QGis::WKBPolygon );
   QgsPolygon resultPolygon = result2->asPolygon();
   QCOMPARE( resultPolygon.size(), 1 );
@@ -238,16 +253,14 @@ void TestQgsGeometry::fromQPolygonF()
   QCOMPARE( resultPolygon.at( 0 ).at( 2 ), QgsPoint( 4.0, 3.0 ) );
   QCOMPARE( resultPolygon.at( 0 ).at( 3 ), QgsPoint( 2.0, 2.0 ) );
   QCOMPARE( resultPolygon.at( 0 ).at( 4 ), QgsPoint( 1.0, 2.0 ) );
-  delete result2;
 }
 
 void TestQgsGeometry::asQPointF()
 {
   QPointF point( 1.0, 2.0 );
-  QgsGeometry* geom = QgsGeometry::fromQPointF( point );
+  QSharedPointer<QgsGeometry> geom( QgsGeometry::fromQPointF( point ) );
   QPointF resultPoint = geom->asQPointF();
   QCOMPARE( resultPoint, point );
-  delete geom;
 
   //non point geom
   QPointF badPoint = mpPolygonGeometryA->asQPointF();
@@ -270,10 +283,11 @@ void TestQgsGeometry::asQPolygonF()
   QCOMPARE( fromPoly.at( 3 ).y(), mPoint4.y() );
   QCOMPARE( fromPoly.at( 4 ).x(), mPoint1.x() );
   QCOMPARE( fromPoly.at( 4 ).y(), mPoint1.y() );
+
   //test polyline
   QgsPolyline testline;
   testline << mPoint1 << mPoint2 << mPoint3;
-  QgsGeometry* lineGeom = QgsGeometry::fromPolyline( testline );
+  QSharedPointer<QgsGeometry> lineGeom( QgsGeometry::fromPolyline( testline ) );
   QPolygonF fromLine = lineGeom->asQPolygonF();
   QVERIFY( !fromLine.isClosed() );
   QCOMPARE( fromLine.size(), 3 );
@@ -283,12 +297,53 @@ void TestQgsGeometry::asQPolygonF()
   QCOMPARE( fromLine.at( 1 ).y(), mPoint2.y() );
   QCOMPARE( fromLine.at( 2 ).x(), mPoint3.x() );
   QCOMPARE( fromLine.at( 2 ).y(), mPoint3.y() );
-  delete lineGeom;
+
   //test a bad geometry
-  QgsGeometry* badGeom = QgsGeometry::fromPoint( mPoint1 );
+  QSharedPointer<QgsGeometry> badGeom( QgsGeometry::fromPoint( mPoint1 ) );
   QPolygonF fromBad = badGeom->asQPolygonF();
   QVERIFY( fromBad.isEmpty() );
-  delete badGeom;
+}
+
+void TestQgsGeometry::comparePolylines()
+{
+  QgsPolyline line1;
+  line1 << mPoint1 << mPoint2 << mPoint3;
+  QgsPolyline line2;
+  line2 << mPoint1 << mPoint2 << mPoint3;
+  QVERIFY( QgsGeometry::compare( line1, line2 ) );
+
+  //different number of nodes
+  QgsPolyline line3;
+  line3 << mPoint1 << mPoint2 << mPoint3 << mPoint4;
+  QVERIFY( !QgsGeometry::compare( line1, line3 ) );
+
+  //different nodes
+  QgsPolyline line4;
+  line3 << mPoint1 << mPointA << mPoint3 << mPoint4;
+  QVERIFY( !QgsGeometry::compare( line3, line4 ) );
+}
+
+void TestQgsGeometry::comparePolygons()
+{
+  QgsPolyline ring1;
+  ring1 << mPoint1 << mPoint2 << mPoint3 << mPoint1;
+  QgsPolyline ring2;
+  ring2 << mPoint4 << mPointA << mPointB << mPoint4;
+  QgsPolygon poly1;
+  poly1 << ring1 << ring2;
+  QgsPolygon poly2;
+  poly2 << ring1 << ring2;
+  QVERIFY( QgsGeometry::compare( poly1, poly2 ) );
+
+  //different number of rings
+  QgsPolygon poly3;
+  poly3 << ring1;
+  QVERIFY( !QgsGeometry::compare( poly1, poly3 ) );
+
+  //different rings
+  QgsPolygon poly4;
+  poly4 << ring2;
+  QVERIFY( !QgsGeometry::compare( poly3, poly4 ) );
 }
 
 void TestQgsGeometry::initTestCase()
@@ -465,41 +520,103 @@ void TestQgsGeometry::unionCheck2()
 void TestQgsGeometry::differenceCheck1()
 {
   // should be same as A since A does not intersect C so diff is 100% of A
-  QgsGeometry * mypDifferenceGeometry  =  mpPolygonGeometryA->difference( mpPolygonGeometryC );
+  QSharedPointer<QgsGeometry> mypDifferenceGeometry( mpPolygonGeometryA->difference( mpPolygonGeometryC ) );
   qDebug( "Geometry Type: %s", QGis::featureType( mypDifferenceGeometry->wkbType() ) );
   QVERIFY( mypDifferenceGeometry->wkbType() == QGis::WKBPolygon );
   QgsPolygon myPolygon = mypDifferenceGeometry->asPolygon();
   QVERIFY( myPolygon.size() > 0 ); //check that the union did not fail
   dumpPolygon( myPolygon );
-  delete mypDifferenceGeometry;
   QVERIFY( renderCheck( "geometry_differenceCheck1", "Checking (A - C) = A" ) );
 }
 
 void TestQgsGeometry::differenceCheck2()
 {
   // should be a single polygon as (A - B) = subset of A
-  QgsGeometry * mypDifferenceGeometry  =  mpPolygonGeometryA->difference( mpPolygonGeometryB );
+  QSharedPointer<QgsGeometry> mypDifferenceGeometry( mpPolygonGeometryA->difference( mpPolygonGeometryB ) );
   qDebug( "Geometry Type: %s", QGis::featureType( mypDifferenceGeometry->wkbType() ) );
   QVERIFY( mypDifferenceGeometry->wkbType() == QGis::WKBPolygon );
   QgsPolygon myPolygon = mypDifferenceGeometry->asPolygon();
   QVERIFY( myPolygon.size() > 0 ); //check that the union created a feature
   dumpPolygon( myPolygon );
-  delete mypDifferenceGeometry;
   QVERIFY( renderCheck( "geometry_differenceCheck2", "Checking (A - B) = subset of A" ) );
 }
 void TestQgsGeometry::bufferCheck()
 {
   // should be a single polygon
-  QgsGeometry * mypBufferGeometry  =  mpPolygonGeometryB->buffer( 10, 10 );
+  QSharedPointer<QgsGeometry> mypBufferGeometry( mpPolygonGeometryB->buffer( 10, 10 ) );
   qDebug( "Geometry Type: %s", QGis::featureType( mypBufferGeometry->wkbType() ) );
   QVERIFY( mypBufferGeometry->wkbType() == QGis::WKBPolygon );
   QgsPolygon myPolygon = mypBufferGeometry->asPolygon();
   QVERIFY( myPolygon.size() > 0 ); //check that the buffer created a feature
   dumpPolygon( myPolygon );
-  delete mypBufferGeometry;
   QVERIFY( renderCheck( "geometry_bufferCheck", "Checking buffer(10,10) of B", 10 ) );
 }
-bool TestQgsGeometry::renderCheck( QString theTestName, QString theComment , int mismatchCount )
+
+void TestQgsGeometry::smoothCheck()
+{
+  //can't smooth a point
+  QString wkt = "POINT(40 50)";
+  QScopedPointer<QgsGeometry> geom( QgsGeometry::fromWkt( wkt ) );
+  QgsGeometry* result = geom->smooth( 1, 0.25 );
+  QString obtained = result->exportToWkt();
+  delete result;
+  QCOMPARE( obtained, wkt );
+
+  //linestring
+  wkt = "LINESTRING(0 0, 10 0, 10 10, 20 10)";
+  geom.reset( QgsGeometry::fromWkt( wkt ) );
+  result = geom->smooth( 1, 0.25 );
+  QgsPolyline line = result->asPolyline();
+  delete result;
+  QgsPolyline expectedLine;
+  expectedLine << QgsPoint( 0, 0 ) << QgsPoint( 7.5, 0 ) << QgsPoint( 10.0, 2.5 )
+  << QgsPoint( 10.0, 7.5 ) << QgsPoint( 12.5, 10.0 ) << QgsPoint( 20.0, 10.0 );
+  QVERIFY( QgsGeometry::compare( line, expectedLine ) );
+
+  wkt = "MULTILINESTRING((0 0, 10 0, 10 10, 20 10),(30 30, 40 30, 40 40, 50 40))";
+  geom.reset( QgsGeometry::fromWkt( wkt ) );
+  result = geom->smooth( 1, 0.25 );
+  QgsMultiPolyline multiLine = result->asMultiPolyline();
+  delete result;
+  QgsMultiPolyline expectedMultiline;
+  expectedMultiline << ( QgsPolyline() << QgsPoint( 0, 0 ) << QgsPoint( 7.5, 0 ) << QgsPoint( 10.0, 2.5 )
+                         <<  QgsPoint( 10.0, 7.5 ) << QgsPoint( 12.5, 10.0 ) << QgsPoint( 20.0, 10.0 ) )
+  << ( QgsPolyline() << QgsPoint( 30.0, 30.0 ) << QgsPoint( 37.5, 30.0 ) << QgsPoint( 40.0, 32.5 )
+       << QgsPoint( 40.0, 37.5 ) << QgsPoint( 42.5, 40.0 ) << QgsPoint( 50.0, 40.0 ) );
+  QVERIFY( QgsGeometry::compare( multiLine, expectedMultiline ) );
+
+  //polygon
+  wkt = "POLYGON((0 0, 10 0, 10 10, 0 10, 0 0 ),(2 2, 4 2, 4 4, 2 4, 2 2))";
+  geom.reset( QgsGeometry::fromWkt( wkt ) );
+  result = geom->smooth( 1, 0.25 );
+  QgsPolygon poly = result->asPolygon();
+  delete result;
+  QgsPolygon expectedPolygon;
+  expectedPolygon << ( QgsPolyline() << QgsPoint( 2.5, 0 ) << QgsPoint( 7.5, 0 ) << QgsPoint( 10.0, 2.5 )
+                       <<  QgsPoint( 10.0, 7.5 ) << QgsPoint( 7.5, 10.0 ) << QgsPoint( 2.5, 10.0 ) << QgsPoint( 0, 7.5 )
+                       << QgsPoint( 0, 2.5 ) << QgsPoint( 2.5, 0 ) )
+  << ( QgsPolyline() << QgsPoint( 2.5, 2.0 ) << QgsPoint( 3.5, 2.0 ) << QgsPoint( 4.0, 2.5 )
+       << QgsPoint( 4.0, 3.5 ) << QgsPoint( 3.5, 4.0 ) << QgsPoint( 2.5, 4.0 )
+       << QgsPoint( 2.0, 3.5 ) << QgsPoint( 2.0, 2.5 ) << QgsPoint( 2.5, 2.0 ) );
+  QVERIFY( QgsGeometry::compare( poly, expectedPolygon ) );
+
+  //multipolygon
+  wkt = "MULTIPOLYGON(((0 0, 10 0, 10 10, 0 10, 0 0 )),((2 2, 4 2, 4 4, 2 4, 2 2)))";
+  geom.reset( QgsGeometry::fromWkt( wkt ) );
+  result = geom->smooth( 1, 0.1 );
+  QgsMultiPolygon multipoly = result->asMultiPolygon();
+  delete result;
+  QgsMultiPolygon expectedMultiPoly;
+  expectedMultiPoly << ( QgsPolygon() << ( QgsPolyline() << QgsPoint( 1.0, 0 ) << QgsPoint( 9, 0 ) << QgsPoint( 10.0, 1 )
+                         <<  QgsPoint( 10.0, 9 ) << QgsPoint( 9, 10.0 ) << QgsPoint( 1, 10.0 ) << QgsPoint( 0, 9 )
+                         << QgsPoint( 0, 1 ) << QgsPoint( 1, 0 ) ) )
+  << ( QgsPolygon() << ( QgsPolyline() << QgsPoint( 2.2, 2.0 ) << QgsPoint( 3.8, 2.0 ) << QgsPoint( 4.0, 2.2 )
+                         <<  QgsPoint( 4.0, 3.8 ) << QgsPoint( 3.8, 4.0 ) << QgsPoint( 2.2, 4.0 ) << QgsPoint( 2.0, 3.8 )
+                         << QgsPoint( 2, 2.2 ) << QgsPoint( 2.2, 2 ) ) );
+  QVERIFY( QgsGeometry::compare( multipoly, expectedMultiPoly ) );
+}
+
+bool TestQgsGeometry::renderCheck( QString theTestName, QString theComment, int mismatchCount )
 {
   mReport += "<h2>" + theTestName + "</h2>\n";
   mReport += "<h3>" + theComment + "</h3>\n";

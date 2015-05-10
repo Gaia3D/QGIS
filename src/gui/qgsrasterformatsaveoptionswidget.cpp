@@ -33,9 +33,9 @@ QMap< QString, QStringList > QgsRasterFormatSaveOptionsWidget::mBuiltinProfiles;
 
 QgsRasterFormatSaveOptionsWidget::QgsRasterFormatSaveOptionsWidget( QWidget* parent, QString format,
     QgsRasterFormatSaveOptionsWidget::Type type, QString provider )
-    : QWidget( parent ), mFormat( format ), mProvider( provider ), mRasterLayer( 0 ),
-    mRasterFileName( QString() ), mPyramids( false ),
-    mPyramidsFormat( QgsRaster::PyramidsGTiff )
+    : QWidget( parent ), mFormat( format ), mProvider( provider ), mRasterLayer( 0 )
+    , mRasterFileName( QString() ), mPyramids( false )
+    , mPyramidsFormat( QgsRaster::PyramidsGTiff )
 
 {
   setupUi( this );
@@ -310,7 +310,7 @@ QString QgsRasterFormatSaveOptionsWidget::validateOptions( bool gui, bool report
       settings.setValue( "/Projections/defaultBehaviour", "useProject" );
     }
     tmpLayer = true;
-    rasterLayer = new QgsRasterLayer( mRasterFileName, QFileInfo( mRasterFileName ).baseName(), "gdal" );
+    rasterLayer = new QgsRasterLayer( mRasterFileName, QFileInfo( mRasterFileName ).baseName(), QString( "gdal" ) );
     // restore /Projections/defaultBehaviour
     if ( defaultProjectionOption == "prompt" )
     {

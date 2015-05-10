@@ -25,16 +25,13 @@ __copyright__ = '(C) 2013, Alexander Bruy'
 
 __revision__ = '$Format:%H$'
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
-
 from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
 
 from processing.core.parameters import ParameterRaster
 from processing.core.parameters import ParameterNumber
 from processing.core.outputs import OutputTable
 
-from processing.tools.system import *
+from processing.tools.system import isWindows
 
 from processing.algs.gdal.GdalUtils import GdalUtils
 
@@ -53,9 +50,9 @@ class gdal2xyz(GdalAlgorithm):
         self.addParameter(ParameterNumber(self.BAND,
             self.tr('Band number'), 1, 9999, 1))
 
-        self.addOutput(OutputTable(self.OUTPUT, self.tr('Output file')))
+        self.addOutput(OutputTable(self.OUTPUT, self.tr('xyz')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = []
         arguments.append('-band')
         arguments.append(str(self.getParameterValue(self.BAND)))
@@ -71,4 +68,4 @@ class gdal2xyz(GdalAlgorithm):
         else:
             commands = ['gdal2xyz.py', GdalUtils.escapeAndJoin(arguments)]
 
-        GdalUtils.runGdal(commands, progress)
+        return commands, progress

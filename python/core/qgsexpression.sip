@@ -19,7 +19,8 @@ class QgsExpression
     //! Get the expression ready for evaluation - find out column indexes.
     bool prepare( const QgsFields &fields );
 
-    /**Get list of columns referenced by the expression.
+    /**
+     * Get list of columns referenced by the expression.
      * @note if the returned list contains the QgsFeatureRequest::AllAttributes constant then
      * all attributes from the layer are required for evaluation of the expression.
      * QgsFeatureRequest::setSubsetOfAttributes automatically handles this case.
@@ -71,13 +72,18 @@ class QgsExpression
     //! @note added in 2.2
     static bool hasSpecialColumn( const QString& name );
 
+    /** Checks whether an expression consists only of a single field reference
+     * @note added in 2.9
+     */
+    bool isField() const;
+
     static bool isValid( const QString& text, const QgsFields& fields, QString &errorMessage );
 
     void setScale( double scale );
 
     double scale();
 
-    //! Return the expression string that was given when created.
+    //! Alias for dump()
     const QString expression() const;
 
     //! Return the expression string that represents this QgsExpression.
@@ -119,11 +125,20 @@ class QgsExpression
     */
     static double evaluateToDouble( const QString& text, const double fallbackValue );
 
+    /**
+     * @brief list of unary operators
+     * @note if any change is made here, the definition of QgsExpression::UnaryOperatorText[] must be adapted.
+     */
     enum UnaryOperator
     {
       uoNot,
       uoMinus,
     };
+
+    /**
+     * @brief list of binary operators
+     * @note if any change is made here, the definition of QgsExpression::BinaryOperatorText[] must be adapted.
+     */
     enum BinaryOperator
     {
       // logical
@@ -187,7 +202,20 @@ class QgsExpression
         /** Does this function use a geometry object. */
         bool usesgeometry();
 
-	virtual QStringList referencedColumns() const;
+        /** Returns a list of possible aliases for the function. These include
+         * other permissible names for the function, eg deprecated names.
+         * @return list of known aliases
+         * @note added in QGIS 2.9
+         */
+        virtual QStringList aliases() const;
+
+        /** True if this function should use lazy evaluation.  Lazy evaluation functions take QgsExpression::Node objects
+         * rather than the node results when called.  You can use node->eval(parent, feature) to evaluate the node and return the result
+         * Functions are non lazy default and will be given the node return value when called **/
+        bool lazyEval();
+
+        virtual QStringList referencedColumns() const;
+
         /** The group the function belongs to. */
         QString group();
         /** The help text for the function. */
@@ -210,7 +238,7 @@ class QgsExpression
     static bool isFunctionName( QString name );
 
     // return index of the function in Functions array
-    static int functionIndex( QString name );
+    static int functionIndex( const QString& name );
 
     /**  Returns the number of functions defined in the parser
       *  @return The number of function defined in the parser.

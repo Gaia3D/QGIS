@@ -112,12 +112,11 @@ class QgsComposer: public QMainWindow, private Ui::QgsComposerBase
     //! Resize event
     virtual void resizeEvent( QResizeEvent * ) override;
 
-    virtual void showEvent( QShowEvent* event ) override;
-
 #ifdef Q_OS_MAC
-    //! Change event (update window menu on ActivationChange)
-    virtual void changeEvent( QEvent * );
+    virtual void showEvent( QShowEvent* event ) override;
 #endif
+
+    virtual void changeEvent( QEvent *ev ) override;
 
   signals:
     //! Is emitted every time the view zoom has changed
@@ -594,6 +593,15 @@ class QgsComposer: public QMainWindow, private Ui::QgsComposerBase
 
     QgsMapLayerAction* mAtlasFeatureAction;
 
+    struct PanelStatus
+    {
+      PanelStatus( bool visible = true, bool active = false ) : isVisible( visible ), isActive( active ) {}
+      bool isVisible;
+      bool isActive;
+    };
+
+    QMap< QString, PanelStatus > mPanelStatus;
+
   signals:
     void printAsRasterChanged( bool state );
 
@@ -636,6 +644,8 @@ class QgsComposer: public QMainWindow, private Ui::QgsComposerBase
 
     //! Sets the composition for the composer window
     void setComposition( QgsComposition* composition );
+
+    void dockVisibilityChanged( bool visible );
 
 };
 

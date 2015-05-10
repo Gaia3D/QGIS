@@ -32,6 +32,8 @@
 #include "qgis.h"
 #include "qgsdataitem.h"
 
+#include "qgsdataitemprovider.h"
+#include "qgsdataitemproviderregistry.h"
 #include "qgsdataprovider.h"
 #include "qgslogger.h"
 #include "qgsproviderregistry.h"
@@ -172,7 +174,7 @@ QgsDataItem::QgsDataItem( QgsDataItem::Type type, QgsDataItem* parent, QString n
 
 QgsDataItem::~QgsDataItem()
 {
-  QgsDebugMsgLevel( QString( "mName = %1 mPath = %2 mChildren.size() = %3" ).arg( mName ).arg( mPath ).arg( mChildren.size() ) , 2 );
+  QgsDebugMsgLevel( QString( "mName = %1 mPath = %2 mChildren.size() = %3" ).arg( mName ).arg( mPath ).arg( mChildren.size() ), 2 );
   foreach ( QgsDataItem *child, mChildren )
   {
     if ( !child ) // should not happen
@@ -252,7 +254,9 @@ QIcon QgsDataItem::icon()
     return mIcon;
 
   if ( !mIconMap.contains( mIconName ) )
-    mIconMap.insert( mIconName, QgsApplication::getThemeIcon( mIconName ) );
+  {
+    mIconMap.insert( mIconName, mIconName.startsWith( ":" ) ? QIcon( mIconName ) : QgsApplication::getThemeIcon( mIconName ) );
+  }
 
   return mIconMap.value( mIconName );
 }
@@ -493,6 +497,7 @@ void QgsDataItem::setParent( QgsDataItem* parent )
 
 void QgsDataItem::addChildItem( QgsDataItem * child, bool refresh )
 {
+  Q_ASSERT( child );
   QgsDebugMsg( QString( "path = %1 add child #%2 - %3 - %4" ).arg( mPath ).arg( mChildren.size() ).arg( child->mName ).arg( child->mType ) );
 
   int i;
@@ -551,6 +556,7 @@ int QgsDataItem::findItem( QVector<QgsDataItem*> items, QgsDataItem * item )
 {
   for ( int i = 0; i < items.size(); i++ )
   {
+    Q_ASSERT_X( items[i], "findItem", QString( "item %1 is NULL" ).arg( i ).toAscii() );
     QgsDebugMsgLevel( QString::number( i ) + " : " + items[i]->mPath + " x " + item->mPath, 2 );
     if ( items[i]->equal( item ) )
       return i;
@@ -647,6 +653,8 @@ QgsMapLayer::LayerType QgsLayerItem::mapLayerType()
 {
   if ( mLayerType == QgsLayerItem::Raster )
     return QgsMapLayer::RasterLayer;
+  if ( mLayerType == QgsLayerItem::Plugin )
+    return QgsMapLayer::PluginLayer;
   return QgsMapLayer::VectorLayer;
 }
 
@@ -659,6 +667,9 @@ bool QgsLayerItem::equal( const QgsDataItem *other )
   }
   //const QgsLayerItem *o = qobject_cast<const QgsLayerItem *> ( other );
   const QgsLayerItem *o = dynamic_cast<const QgsLayerItem *>( other );
+  if ( !o )
+    return false;
+
   return ( mPath == o->mPath && mName == o->mName && mUri == o->mUri && mProviderKey == o->mProviderKey );
 }
 
@@ -710,39 +721,6 @@ QgsDirectoryItem::QgsDirectoryItem( QgsDataItem* parent, QString name, QString d
 
 void QgsDirectoryItem::init()
 {
-  if ( mLibraries.size() > 0 )
-    return;
-
-  QStringList keys = QgsProviderRegistry::instance()->providerList();
-  QStringList::const_iterator i;
-  for ( i = keys.begin(); i != keys.end(); ++i )
-  {
-    QString k( *i );
-    // some providers hangs with empty uri (Postgis) etc...
-    // -> using libraries directly
-    QLibrary *library = QgsProviderRegistry::instance()->providerLibrary( k );
-    if ( library )
-    {
-      dataCapabilities_t * dataCapabilities = ( dataCapabilities_t * ) cast_to_fptr( library->resolve( "dataCapabilities" ) );
-      if ( !dataCapabilities )
-      {
-        QgsDebugMsg( library->fileName() + " does not have dataCapabilities" );
-        continue;
-      }
-      if ( dataCapabilities() == QgsDataProvider::NoDataCapabilities )
-      {
-        QgsDebugMsg( library->fileName() + " has NoDataCapabilities" );
-        continue;
-      }
-
-      QgsDebugMsg( QString( "%1 dataCapabilities : %2" ).arg( library->fileName() ).arg( dataCapabilities() ) );
-      mLibraries.append( library );
-    }
-    else
-    {
-      //QgsDebugMsg ( "Cannot get provider " + k );
-    }
-  }
 }
 
 QgsDirectoryItem::~QgsDirectoryItem()
@@ -755,6 +733,7 @@ QIcon QgsDirectoryItem::icon()
     return populatingIcon();
   return iconDir();
 }
+
 
 QVector<QgsDataItem*> QgsDirectoryItem::createChildren()
 {
@@ -803,18 +782,9 @@ QVector<QgsDataItem*> QgsDirectoryItem::createChildren()
       }
     }
 
-    foreach ( QLibrary *library, mLibraries )
+    foreach ( QgsDataItemProvider* provider, QgsDataItemProviderRegistry::instance()->providers() )
     {
-      // we could/should create separate list of providers for each purpose
-
-      // TODO: use existing fileVectorFilters(),directoryDrivers() ?
-      dataCapabilities_t * dataCapabilities = ( dataCapabilities_t * ) cast_to_fptr( library->resolve( "dataCapabilities" ) );
-      if ( !dataCapabilities )
-      {
-        continue;
-      }
-
-      int capabilities = dataCapabilities();
+      int capabilities = provider->capabilities();
 
       if ( !(( fileInfo.isFile() && ( capabilities & QgsDataProvider::File ) ) ||
              ( fileInfo.isDir() && ( capabilities & QgsDataProvider::Dir ) ) ) )
@@ -822,19 +792,13 @@ QVector<QgsDataItem*> QgsDirectoryItem::createChildren()
         continue;
       }
 
-      dataItem_t * dataItem = ( dataItem_t * ) cast_to_fptr( library->resolve( "dataItem" ) );
-      if ( ! dataItem )
-      {
-        QgsDebugMsg( library->fileName() + " does not have dataItem" );
-        continue;
-      }
-
-      QgsDataItem * item = dataItem( path, this );
+      QgsDataItem * item = provider->createDataItem( path, this );
       if ( item )
       {
         children.append( item );
       }
     }
+
   }
 
   return children;
@@ -1280,7 +1244,6 @@ QVector<QgsDataItem*> QgsZipItem::createChildren()
 {
   QVector<QgsDataItem*> children;
   QString tmpPath;
-  QString childPath;
   QSettings settings;
   QString scanZipSetting = settings.value( "/qgis/scanZipInBrowser2", "basic" ).toString();
 
@@ -1330,7 +1293,8 @@ QVector<QgsDataItem*> QgsZipItem::createChildren()
         if ( item )
         {
           QgsDebugMsgLevel( "loaded item", 3 );
-          childPath = tmpPath;
+          // the item comes with zipped file name, set the name to relative path within zip file
+          item->setName( fileName );
           children.append( item );
           break;
         }
@@ -1341,12 +1305,6 @@ QVector<QgsDataItem*> QgsZipItem::createChildren()
       }
     }
 
-  }
-
-  if ( children.size() == 1 )
-  {
-    // save the name of the only child so we can get a normal data item from it
-    mPath = childPath;
   }
 
   return children;
@@ -1361,7 +1319,6 @@ QgsDataItem* QgsZipItem::itemFromPath( QgsDataItem* parent, QString filePath, QS
 {
   QSettings settings;
   QString scanZipSetting = settings.value( "/qgis/scanZipInBrowser2", "basic" ).toString();
-  QString vsiPath = path;
   int zipFileCount = 0;
   QStringList zipFileList;
   QFileInfo fileInfo( filePath );
@@ -1416,14 +1373,21 @@ QgsDataItem* QgsZipItem::itemFromPath( QgsDataItem* parent, QString filePath, QS
   // if 1 or 0 child found, create a single data item using the normal path or the full path given by QgsZipItem
   else
   {
+    QString vsiPath = vsiPrefix + filePath;
     if ( zipItem )
     {
-      vsiPath = zipItem->path();
+      if ( zipItem->children().size() == 1 )
+      {
+        // take the name of the only child so we can get a normal data item from it
+        QgsLayerItem *layerItem = qobject_cast<QgsLayerItem*>( zipItem->children().first() );
+        if ( layerItem )
+          vsiPath = layerItem->uri();
+      }
       zipFileCount = zipFileList.count();
       delete zipItem;
     }
 
-    QgsDebugMsgLevel( QString( "will try to create a normal dataItem from path= %2 or %3" ).arg( path ).arg( vsiPath ), 3 );
+    QgsDebugMsgLevel( QString( "will try to create a normal dataItem from filePath= %2 or vsiPath = %3" ).arg( filePath ).arg( vsiPath ), 3 );
 
     // try to open using registered providers (gdal and ogr)
     for ( int i = 0; i < mProviderNames.size(); i++ )
@@ -1437,7 +1401,7 @@ QgsDataItem* QgsZipItem::itemFromPath( QgsDataItem* parent, QString filePath, QS
         // (e.g. testZipItemVectorTransparency(), second test)
         if (( mProviderNames[i] == "ogr" ) ||
             ( mProviderNames[i] == "gdal" && zipFileCount == 1 ) )
-          item = dataItem( path, parent );
+          item = dataItem( filePath, parent );
         // try with /vsizip/
         if ( ! item )
           item = dataItem( vsiPath, parent );

@@ -297,9 +297,9 @@ bool QgsOSMDatabase::prepareStatements()
   return true;
 }
 
-
-
-bool QgsOSMDatabase::exportSpatiaLite( ExportType type, const QString& tableName, const QStringList& tagKeys )
+bool QgsOSMDatabase::exportSpatiaLite( ExportType type, const QString& tableName,
+                                       const QStringList& tagKeys,
+                                       const QStringList& notNullTagKeys )
 {
   mError.clear();
 
@@ -321,9 +321,9 @@ bool QgsOSMDatabase::exportSpatiaLite( ExportType type, const QString& tableName
   Q_UNUSED( retX );
 
   if ( type == Polyline || type == Polygon )
-    exportSpatiaLiteWays( type == Polygon, tableName, tagKeys );
+    exportSpatiaLiteWays( type == Polygon, tableName, tagKeys, notNullTagKeys );
   else if ( type == Point )
-    exportSpatiaLiteNodes( tableName, tagKeys );
+    exportSpatiaLiteNodes( tableName, tagKeys, notNullTagKeys );
   else
     Q_ASSERT( false && "Unknown export type" );
 
@@ -385,7 +385,7 @@ bool QgsOSMDatabase::createSpatialIndex( const QString& tableName )
 }
 
 
-void QgsOSMDatabase::exportSpatiaLiteNodes( const QString& tableName, const QStringList& tagKeys )
+void QgsOSMDatabase::exportSpatiaLiteNodes( const QString& tableName, const QStringList& tagKeys, const QStringList& notNullTagKeys )
 {
   QString sqlInsertPoint = QString( "INSERT INTO %1 VALUES (?" ).arg( quotedIdentifier( tableName ) );
   for ( int i = 0; i < tagKeys.count(); ++i )
@@ -408,6 +408,15 @@ void QgsOSMDatabase::exportSpatiaLiteNodes( const QString& tableName, const QStr
     if ( t.count() == 0 )
       continue;
 
+    //check not null tags
+    bool skipNull = false;
+    for ( int i = 0; i < notNullTagKeys.count() && !skipNull; ++i )
+      if ( !t.contains( notNullTagKeys[i] ) )
+        skipNull = true;
+
+    if ( skipNull )
+      continue;
+
     QgsGeometry* geom = QgsGeometry::fromPoint( n.point() );
     int col = 0;
     sqlite3_bind_int64( stmtInsert, ++col, n.id() );
@@ -427,6 +436,7 @@ void QgsOSMDatabase::exportSpatiaLiteNodes( const QString& tableName, const QStr
     if ( insertRes != SQLITE_DONE )
     {
       mError = QString( "Error inserting node %1 [%2]" ).arg( n.id() ).arg( insertRes );
+      delete geom;
       break;
     }
 
@@ -439,7 +449,9 @@ void QgsOSMDatabase::exportSpatiaLiteNodes( const QString& tableName, const QStr
 }
 
 
-void QgsOSMDatabase::exportSpatiaLiteWays( bool closed, const QString& tableName, const QStringList& tagKeys )
+void QgsOSMDatabase::exportSpatiaLiteWays( bool closed, const QString& tableName,
+    const QStringList& tagKeys,
+    const QStringList& notNullTagKeys )
 {
   Q_UNUSED( tagKeys );
 
@@ -476,6 +488,15 @@ void QgsOSMDatabase::exportSpatiaLiteWays( bool closed, const QString& tableName
     if ( closed != isArea )
       continue; // skip if it's not what we're looking for
 
+    //check not null tags
+    bool skipNull = false;
+    for ( int i = 0; i < notNullTagKeys.count() && !skipNull; ++i )
+      if ( !t.contains( notNullTagKeys[i] ) )
+        skipNull = true;
+
+    if ( skipNull )
+      continue;
+
     QgsGeometry* geom = closed ? QgsGeometry::fromPolygon( QgsPolygon() << polyline ) : QgsGeometry::fromPolyline( polyline );
     int col = 0;
     sqlite3_bind_int64( stmtInsert, ++col, w.id() );
@@ -498,6 +519,7 @@ void QgsOSMDatabase::exportSpatiaLiteWays( bool closed, const QString& tableName
     if ( insertRes != SQLITE_DONE )
     {
       mError = QString( "Error inserting way %1 [%2]" ).arg( w.id() ).arg( insertRes );
+      delete geom;
       break;
     }
 

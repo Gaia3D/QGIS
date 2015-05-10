@@ -13,7 +13,7 @@ class QgsMessageBar: QFrame
       SUCCESS
     };
 
-    QgsMessageBar( QWidget *parent = 0 );
+    QgsMessageBar( QWidget *parent /TransferThis/ = 0 );
     ~QgsMessageBar();
 
     /*! display a message item on the bar after hiding the currently visible one
@@ -67,6 +67,38 @@ class QgsMessageBar: QFrame
      *  @return true if all items were removed, false otherwise
      */
     bool clearWidgets();
+
+    /**
+     * Pushes a warning with default timeout to the message bar
+     * @param title title string for message
+     * @param message The message to be displayed
+     * @note added in 2.8
+     */
+    void pushSuccess( const QString& title, const QString& message );
+
+    /**
+     * Pushes a warning with default timeout to the message bar
+     * @param title title string for message
+     * @param message The message to be displayed
+     * @note added in 2.8
+     */
+    void pushInfo( const QString& title, const QString& message );
+
+    /**
+     * Pushes a warning with default timeout to the message bar
+     * @param title title string for message
+     * @param message The message to be displayed
+     * @note added in 2.8
+     */
+    void pushWarning( const QString& title, const QString& message );
+
+    /**
+     * Pushes a warning with default timeout to the message bar
+     * @param title title string for message
+     * @param message The message to be displayed
+     * @note added in 2.8
+     */
+    void pushCritical( const QString& title, const QString& message );
 
   protected:
     void mousePressEvent( QMouseEvent * e );

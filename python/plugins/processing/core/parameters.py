@@ -27,11 +27,12 @@ __copyright__ = '(C) 2012, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 import sys
-from PyQt4.QtCore import *
-from qgis.core import *
-from processing.tools.system import *
-from processing.tools import dataobjects
+import os
 
+from PyQt4.QtCore import QCoreApplication
+from qgis.core import QgsRasterLayer, QgsVectorLayer
+from processing.tools.system import isWindows
+from processing.tools import dataobjects
 
 def getParameterFromString(s):
     tokens = s.split("|")
@@ -118,7 +119,10 @@ class ParameterBoolean(Parameter):
 class ParameterCrs(Parameter):
 
     def __init__(self, name='', description='', default='EPSG:4326'):
-        '''The value is the auth id of the CRS'''
+        '''The value is a string that uniquely identifies the
+        coordinate reference system. Typically it is the auth id of the CRS
+        (if the authority is EPSG) or proj4 string of the CRS (in case
+        of other authorities or user defined projections).'''
         Parameter.__init__(self, name, description)
         self.value = None
         self.default = default
@@ -166,10 +170,10 @@ class ParameterExtent(Parameter):
         if len(tokens) != 4:
             return False
         try:
-            n1 = float(tokens[0])
-            n2 = float(tokens[1])
-            n3 = float(tokens[2])
-            n4 = float(tokens[3])
+            float(tokens[0])
+            float(tokens[1])
+            float(tokens[2])
+            float(tokens[3])
             self.value = text
             return True
         except:
@@ -181,7 +185,7 @@ class ParameterExtent(Parameter):
 
 class ParameterFile(Parameter):
 
-    def __init__(self, name='', description='', isFolder=False, optional=True, ext = None):
+    def __init__(self, name='', description='', isFolder=False, optional=True, ext=None):
         Parameter.__init__(self, name, description)
         self.value = None
         self.ext = ext
@@ -436,8 +440,8 @@ class ParameterRange(Parameter):
 
         values = default.split(',')
         try:
-            minVal = int(values[0])
-            maxVal = int(values[1])
+            int(values[0])
+            int(values[1])
             self.isInteger = True
         except:
             self.isInteger = False
@@ -450,8 +454,8 @@ class ParameterRange(Parameter):
         if len(tokens) != 2:
             return False
         try:
-            n1 = float(tokens[0])
-            n2 = float(tokens[1])
+            float(tokens[0])
+            float(tokens[1])
             self.value = text
             return True
         except:
@@ -463,8 +467,9 @@ class ParameterRange(Parameter):
 
 class ParameterRaster(ParameterDataObject):
 
-    def __init__(self, name='', description='', optional=False):
+    def __init__(self, name='', description='', optional=False, showSublayersDialog=True):
         ParameterDataObject.__init__(self, name, description)
+        self.showSublayersDialog = parseBool(showSublayersDialog)
         self.optional = parseBool(optional)
         self.value = None
         self.exported = None
@@ -515,7 +520,12 @@ class ParameterRaster(ParameterDataObject):
                 if layer.name() == self.value:
                     self.value = unicode(layer.dataProvider().dataSourceUri())
                     return True
-            return os.path.exists(self.value)
+            if os.path.exists(self.value) or QgsRasterLayer(self.value).isValid():
+                return True
+            else:
+                # Layer could not be found
+                return False
+
 
     def getFileFilter(self):
         exts = dataobjects.getSupportedOutputRasterLayerExtensions()
@@ -566,8 +576,10 @@ class ParameterString(Parameter):
                 return True
             self.value = self.default
             return True
-        self.value = unicode(obj).replace(ParameterString.ESCAPED_NEWLINE,
-                ParameterString.NEWLINE)
+        self.value = unicode(obj).replace(
+            ParameterString.ESCAPED_NEWLINE,
+            ParameterString.NEWLINE
+        )
         return True
 
     def getValueAsCommandLineParameter(self):
@@ -770,3 +782,41 @@ class ParameterVector(ParameterDataObject):
                 types += 'any, '
 
         return types[:-2]
+
+
+class ParameterGeometryPredicate(Parameter):
+
+    predicates = ('intersects',
+                  'contains',
+                  'disjoint',
+                  'equals',
+                  'touches',
+                  'overlaps',
+                  'within',
+                  'crosses')
+
+    def __init__(self, name='', description='', left=None, right=None,
+                 optional=False, enabledPredicates=None):
+        Parameter.__init__(self, name, description)
+        self.left = left
+        self.right = right
+        self.value = None
+        self.default = []
+        self.optional = parseBool(optional)
+        self.enabledPredicates = enabledPredicates
+        if self.enabledPredicates is None:
+            self.enabledPredicates = self.predicates
+
+    def getValueAsCommandLineParameter(self):
+        return '"' + unicode(self.value) + '"'
+
+    def setValue(self, value):
+        if value is None:
+            return self.optional
+        elif len(value) == 0:
+            return self.optional
+        if isinstance(value, unicode):
+            self.value = value.split(';') # relates to ModelerAlgorithm.resolveValue
+        else:
+            self.value = value
+        return True

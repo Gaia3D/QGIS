@@ -135,7 +135,7 @@ void QgsDecorationGrid::projectRead()
   {
     doc.setContent( xml );
     elem = doc.documentElement();
-    mLineSymbol = dynamic_cast<QgsLineSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( elem ) );
+    mLineSymbol = QgsSymbolLayerV2Utils::loadSymbol<QgsLineSymbolV2>( elem );
   }
   if ( ! mLineSymbol )
     mLineSymbol = new QgsLineSymbolV2();
@@ -147,7 +147,7 @@ void QgsDecorationGrid::projectRead()
   {
     doc.setContent( xml );
     elem = doc.documentElement();
-    mMarkerSymbol = dynamic_cast<QgsMarkerSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( elem ) );
+    mMarkerSymbol = QgsSymbolLayerV2Utils::loadSymbol<QgsMarkerSymbolV2>( elem );
   }
   if ( ! mMarkerSymbol )
   {
@@ -217,14 +217,14 @@ void QgsDecorationGrid::render( QPainter * p )
 
   // p->setPen( mGridPen );
 
-  QList< QPair< double, QLineF > > verticalLines;
+  QList< QPair< qreal, QLineF > > verticalLines;
   yGridLines( verticalLines );
-  QList< QPair< double, QLineF > > horizontalLines;
+  QList< QPair< qreal, QLineF > > horizontalLines;
   xGridLines( horizontalLines );
   //QgsDebugMsg( QString("grid has %1 vertical and %2 horizontal lines").arg( verticalLines.size() ).arg( horizontalLines.size() ) );
 
-  QList< QPair< double, QLineF > >::const_iterator vIt = verticalLines.constBegin();
-  QList< QPair< double, QLineF > >::const_iterator hIt = horizontalLines.constBegin();
+  QList< QPair< qreal, QLineF > >::const_iterator vIt = verticalLines.constBegin();
+  QList< QPair< qreal, QLineF > >::const_iterator hIt = horizontalLines.constBegin();
 
   //simpler approach: draw vertical lines first, then horizontal ones
   if ( mGridStyle == QgsDecorationGrid::Line )
@@ -338,7 +338,7 @@ void QgsDecorationGrid::render( QPainter * p )
   }
 }
 
-void QgsDecorationGrid::drawCoordinateAnnotations( QPainter* p, const QList< QPair< double, QLineF > >& hLines, const QList< QPair< double, QLineF > >& vLines )
+void QgsDecorationGrid::drawCoordinateAnnotations( QPainter* p, const QList< QPair< qreal, QLineF > >& hLines, const QList< QPair< qreal, QLineF > >& vLines )
 {
   if ( !p )
   {
@@ -346,7 +346,7 @@ void QgsDecorationGrid::drawCoordinateAnnotations( QPainter* p, const QList< QPa
   }
 
   QString currentAnnotationString;
-  QList< QPair< double, QLineF > >::const_iterator it = hLines.constBegin();
+  QList< QPair< qreal, QLineF > >::const_iterator it = hLines.constBegin();
   for ( ; it != hLines.constEnd(); ++it )
   {
     currentAnnotationString = QString::number( it->first, 'f', mGridAnnotationPrecision );
@@ -524,15 +524,7 @@ QPolygonF canvasPolygon()
 
   const QgsMapCanvas& mapCanvas = canvas();
   const QgsMapSettings& mapSettings = mapCanvas.mapSettings();
-  const QSize& sz = mapSettings.outputSize();
-  const QgsMapToPixel& m2p = mapSettings.mapToPixel();
-
-  poly << m2p.toMapCoordinatesF( 0,          0 ).toQPointF();
-  poly << m2p.toMapCoordinatesF( sz.width(), 0 ).toQPointF();
-  poly << m2p.toMapCoordinatesF( sz.width(), sz.height() ).toQPointF();
-  poly << m2p.toMapCoordinatesF( 0,          sz.height() ).toQPointF();
-
-  return poly;
+  return mapSettings.visiblePolygon();
 }
 
 bool clipByRect( QLineF& line, const QPolygonF& rect )
@@ -574,7 +566,7 @@ QPolygonF canvasExtent()
   return poly;
 }
 
-int QgsDecorationGrid::xGridLines( QList< QPair< double, QLineF > >& lines ) const
+int QgsDecorationGrid::xGridLines( QList< QPair< qreal, QLineF > >& lines ) const
 {
   // prepare horizontal lines
   lines.clear();
@@ -620,7 +612,7 @@ int QgsDecorationGrid::xGridLines( QList< QPair< double, QLineF > >& lines ) con
   return 0;
 }
 
-int QgsDecorationGrid::yGridLines( QList< QPair< double, QLineF > >& lines ) const
+int QgsDecorationGrid::yGridLines( QList< QPair< qreal, QLineF > >& lines ) const
 {
   // prepare vertical lines
 
@@ -836,7 +828,7 @@ bool QgsDecorationGrid::getIntervalFromCurrentLayer( double* values )
     return false;
   }
   QgsRasterLayer* rlayer = dynamic_cast<QgsRasterLayer*>( layer );
-  if ( !rlayer )
+  if ( !rlayer || rlayer->width() == 0 || rlayer->height() == 0 )
   {
     QMessageBox::warning( 0, tr( "Error" ), tr( "Invalid raster layer" ) );
     return false;

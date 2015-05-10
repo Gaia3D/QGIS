@@ -136,18 +136,8 @@ class QgsGrassPlugin : public QObject, public QgisPlugin
     void setTransform();
     void editClosed();
   private:
-    //! Name of the plugin
-    QString pluginNameQString;
-    //! Version
-    QString pluginVersionQString;
-    //! Descrption of the plugin
-    QString pluginDescriptionQString;
-    //! Category of the plugin
-    QString pluginCategoryQString;
-    //! Plugin type as defined in QgisPlugin::PLUGINTYPE
-    int pluginType;
     //! Pointer to our toolbar
-    QToolBar *toolBarPointer;
+    QToolBar *mToolBarPointer;
     //! Pointer to the QGIS interface object
     QgisInterface *qGisInterface;
     //! Pointer to canvas

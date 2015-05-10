@@ -25,20 +25,12 @@ __copyright__ = '(C) 2012, Victor Olaya'
 
 __revision__ = '$Format:%H$'
 
-import os
-
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-
-from qgis.core import *
-
 from processing.core.parameters import ParameterVector
 from processing.core.parameters import ParameterString
-from processing.core.parameters import ParameterSelection
 from processing.core.parameters import ParameterExtent
 from processing.core.outputs import OutputVector
 
-from processing.tools.system import *
+from processing.tools.system import isWindows
 
 from processing.algs.gdal.OgrAlgorithm import OgrAlgorithm
 from processing.algs.gdal.GdalUtils import GdalUtils
@@ -63,9 +55,9 @@ class Ogr2OgrClipExtent(OgrAlgorithm):
 
         self.addOutput(OutputVector(self.OUTPUT_LAYER, self.tr('Output layer')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         inLayer = self.getParameterValue(self.INPUT_LAYER)
-        ogrLayer = self.ogrConnectionString(inLayer)
+        ogrLayer = self.ogrConnectionString(inLayer)[1:-1]
         clipExtent = self.getParameterValue(self.CLIP_EXTENT)
         ogrclipExtent = self.ogrConnectionString(clipExtent)
 
@@ -82,14 +74,14 @@ class Ogr2OgrClipExtent(OgrAlgorithm):
         arguments.append(regionCoords[2])
         arguments.append(regionCoords[1])
         arguments.append(regionCoords[3])
-        #arguments.append('-spat')
-        #arguments.append(ogrclipExtent)
+        arguments.append('-clipsrc spat_extent')
 
         if len(options) > 0:
             arguments.append(options)
 
         arguments.append(output)
         arguments.append(ogrLayer)
+        arguments.append(self.ogrLayerName(inLayer))
 
         commands = []
         if isWindows():
@@ -98,4 +90,4 @@ class Ogr2OgrClipExtent(OgrAlgorithm):
         else:
             commands = ['ogr2ogr', GdalUtils.escapeAndJoin(arguments)]
 
-        GdalUtils.runGdal(commands, progress)
+        return commands

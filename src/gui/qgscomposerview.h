@@ -54,19 +54,19 @@ class GUI_EXPORT QgsComposerView: public QGraphicsView
     enum Tool
     {
       Select = 0,      // Select/Move item
-      AddArrow,         //add arrow
+      AddArrow,        // add arrow
       AddHtml,
       AddMap,          // add new map
-      AddLegend, // add vector legend
+      AddLegend,       // add vector legend
       AddLabel,        // add label
       AddScalebar,     // add scalebar
-      AddPicture,       // add raster/vector picture
+      AddPicture,      // add raster/vector picture
       AddRectangle,
       AddEllipse,
       AddTriangle,
-      AddTable, //add table
+      AddTable,        // add attribute table
       AddAttributeTable,
-      MoveItemContent, //move content of item (e.g. content of map)
+      MoveItemContent, // move content of item (e.g. content of map)
       Pan,
       Zoom
     };

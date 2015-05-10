@@ -33,6 +33,8 @@ class QgsPalGeometry;
 class QgsCoordinateTransform;
 class QgsMapToPixel;
 class QgsVectorLayer;
+class QgsLayerTreeModelLegendNode;
+class QgsLayerTreeLayer;
 
 namespace pal { class Layer; }
 
@@ -64,7 +66,7 @@ class CORE_EXPORT QgsDiagramLayerSettings
 
     //pal placement properties
     Placement placement;
-    LinePlacementFlags placementFlags;
+    unsigned int  placementFlags;
     int priority; // 0 = low, 10 = high
     bool obstacle; // whether it's an obstacle
     double dist; // distance from the feature (in mm)
@@ -79,6 +81,7 @@ class CORE_EXPORT QgsDiagramLayerSettings
 
     int xPosColumn; //attribute index for x coordinate (or -1 if position not data defined)
     int yPosColumn;//attribute index for y coordinate (or -1 if position not data defined)
+    bool showAll;
 
     void readXML( const QDomElement& elem, const QgsVectorLayer* layer );
     void writeXML( QDomElement& layerElem, QDomDocument& doc, const QgsVectorLayer* layer ) const;
@@ -109,11 +112,27 @@ class CORE_EXPORT QgsDiagramSettings
       Right
     };
 
-    QgsDiagramSettings(): sizeType( MM ), minScaleDenominator( -1 ), maxScaleDenominator( -1 )
+    QgsDiagramSettings()
+        : enabled( true )
+        , sizeType( MM )
+        , penWidth( 0.0 )
+        , labelPlacementMethod( QgsDiagramSettings::Height )
+        , diagramOrientation( QgsDiagramSettings::Up )
+        , barWidth( 5.0 )
+        , transparency( 0 )
+        , scaleByArea( true )
+        , angleOffset( 90 * 16 ) //top
+        , scaleBasedVisibility( false )
+        , minScaleDenominator( -1 )
+        , maxScaleDenominator( -1 )
+        , minimumSize( 0.0 )
     {}
+    bool enabled;
     QFont font;
     QList< QColor > categoryColors;
     QList< QString > categoryAttributes;
+    //! @note added in 2.10
+    QList< QString > categoryLabels;
     QSizeF size; //size
     SizeType sizeType; //mm or map units
     QColor backgroundColor;
@@ -126,6 +145,7 @@ class CORE_EXPORT QgsDiagramSettings
     bool scaleByArea;
     int angleOffset;
 
+    bool scaleBasedVisibility;
     //scale range (-1 if no lower / upper bound )
     double minScaleDenominator;
     double maxScaleDenominator;
@@ -135,6 +155,13 @@ class CORE_EXPORT QgsDiagramSettings
 
     void readXML( const QDomElement& elem, const QgsVectorLayer* layer );
     void writeXML( QDomElement& rendererElem, QDomDocument& doc, const QgsVectorLayer* layer ) const;
+
+    /** Returns list of legend nodes for the diagram
+     * @note caller is responsible for deletion of QgsLayerTreeModelLegendNodes
+     * @note added in 2.10
+     */
+    QList< QgsLayerTreeModelLegendNode* > legendItems( QgsLayerTreeLayer* nodeLayer ) const;
+
 };
 
 //additional diagram settings for interpolated size rendering
@@ -182,6 +209,12 @@ class CORE_EXPORT QgsDiagramRendererV2
     virtual void readXML( const QDomElement& elem, const QgsVectorLayer* layer ) = 0;
     virtual void writeXML( QDomElement& layerElem, QDomDocument& doc, const QgsVectorLayer* layer ) const = 0;
 
+    /** Returns list of legend nodes for the diagram
+     * @note caller is responsible for deletion of QgsLayerTreeModelLegendNodes
+     * @note added in 2.10
+     */
+    virtual QList< QgsLayerTreeModelLegendNode* > legendItems( QgsLayerTreeLayer* nodeLayer ) const;
+
   protected:
     QgsDiagramRendererV2( const QgsDiagramRendererV2& other );
 
@@ -228,6 +261,8 @@ class CORE_EXPORT QgsSingleCategoryDiagramRenderer : public QgsDiagramRendererV2
 
     void readXML( const QDomElement& elem, const QgsVectorLayer* layer ) override;
     void writeXML( QDomElement& layerElem, QDomDocument& doc, const QgsVectorLayer* layer ) const override;
+
+    QList< QgsLayerTreeModelLegendNode* > legendItems( QgsLayerTreeLayer* nodeLayer ) const override;
 
   protected:
     bool diagramSettings( const QgsFeature &feature, const QgsRenderContext& c, QgsDiagramSettings& s ) override;
@@ -278,6 +313,8 @@ class CORE_EXPORT QgsLinearlyInterpolatedDiagramRenderer : public QgsDiagramRend
 
     void readXML( const QDomElement& elem, const QgsVectorLayer* layer ) override;
     void writeXML( QDomElement& layerElem, QDomDocument& doc, const QgsVectorLayer* layer ) const override;
+
+    QList< QgsLayerTreeModelLegendNode* > legendItems( QgsLayerTreeLayer* nodeLayer ) const override;
 
   protected:
     bool diagramSettings( const QgsFeature &feature, const QgsRenderContext& c, QgsDiagramSettings& s ) override;

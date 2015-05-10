@@ -23,7 +23,6 @@
 #include <qgsvectordataprovider.h>
 #include <qgsvectorlayer.h>
 #include <qgsmaplayer.h>
-#include <qgsmaplayer.h>
 #include <qgsmaplayerregistry.h>
 #include <qgsgeometry.h>
 #include <qgsvertexmarker.h>
@@ -383,7 +382,6 @@ void checkDock::runTests( ValidateType type )
     disconnect( mTest, SIGNAL( progress( int ) ), &progress, SLOT( setValue( int ) ) );
     mErrorList << errors;
   }
-  mMarkersVisible = true;
   mToggleRubberband->setChecked( true );
   mErrorListModel->resetModel();
 }

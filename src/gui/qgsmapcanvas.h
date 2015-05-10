@@ -410,6 +410,9 @@ class GUI_EXPORT QgsMapCanvas : public QGraphicsView
     //! This slot is connected to the visibility change of one or more layers
     void layerStateChange();
 
+    //! This slot is connected to the layer's CRS change
+    void layerCrsChange();
+
     //! Whether to suppress rendering or not
     void setRenderFlag( bool theFlag );
     //! State of render suppression flag
@@ -587,11 +590,12 @@ class GUI_EXPORT QgsMapCanvas : public QGraphicsView
     /// Handle pattern for implementation object
     QScopedPointer<CanvasProperties> mCanvasProperties;
 
+#if 0
     /**debugging member
        invoked when a connect() is made to this object
     */
     void connectNotify( const char * signal ) override;
-
+#endif
     //! Make sure the datum transform store is properly populated
     void updateDatumTransformEntries();
 
@@ -673,7 +677,7 @@ class GUI_EXPORT QgsMapCanvas : public QGraphicsView
 
     QgsPreviewEffect* mPreviewEffect;
 
-    QgsRectangle imageRect( const QImage& img );
+    QgsRectangle imageRect( const QImage& img, const QgsMapSettings& mapSettings );
 
     QgsSnappingUtils* mSnappingUtils;
 

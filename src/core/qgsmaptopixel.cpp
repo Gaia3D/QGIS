@@ -39,6 +39,7 @@ QgsMapToPixel::QgsMapToPixel( double mapUnitsPerPixel,
     , xMin( xc - ( mWidth * mMapUnitsPerPixel / 2.0 ) )
     , yMin( yc - ( mHeight * mMapUnitsPerPixel / 2.0 ) )
 {
+  Q_ASSERT( mapUnitsPerPixel > 0 );
   updateMatrix();
 }
 
@@ -100,11 +101,9 @@ void QgsMapToPixel::updateMatrix()
   //       center happens first, then scaling, then rotation
   //       and finally translation to output viewport center
 
-  if ( ! rotation )
+  if ( qgsDoubleNear( rotation, 0.0 ) )
   {
-    // Returning a simplified matrix in hope it'll give expected
-    // results from an existing test, see
-    // https://travis-ci.org/qgis/QGIS/builds/42508945
+    //no rotation, return a simplified matrix
     mMatrix = QTransform::fromScale( 1.0 / mMapUnitsPerPixel, -1.0 / mMapUnitsPerPixel )
               .translate( -xMin, - ( yMin + mHeight * mMapUnitsPerPixel ) );
     return;
@@ -115,22 +114,18 @@ void QgsMapToPixel::updateMatrix()
   mMatrix = QTransform::fromTranslate( cx, cy )
             .rotate( rotation )
             .scale( 1 / mMapUnitsPerPixel, -1 / mMapUnitsPerPixel )
-            .translate( -xCenter, -yCenter )
-            ;
+            .translate( -xCenter, -yCenter );
 }
 
-QgsPoint QgsMapToPixel::toMapPoint( double x, double y ) const
+QgsPoint QgsMapToPixel::toMapPoint( qreal x, qreal y ) const
 {
   bool invertible;
   QTransform matrix = mMatrix.inverted( &invertible );
   assert( invertible );
-  double mx, my;
+  qreal mx, my;
   matrix.map( x, y, &mx, &my );
-  QgsPoint ret( mx, my );
-
   //QgsDebugMsg(QString("XXX toMapPoint x:%1 y:%2 -> x:%3 y:%4").arg(x).arg(y).arg(mx).arg(my));
-
-  return ret;
+  return QgsPoint( mx, my );
 }
 
 QgsPoint QgsMapToPixel::toMapCoordinates( QPoint p ) const
@@ -233,42 +228,34 @@ QString QgsMapToPixel::showParameters() const
   << " rotation: " << mRotation
   << " size: " << mWidth << "x" << mHeight;
   return rep;
-
 }
 
-
-QgsPoint QgsMapToPixel::transform( double x, double y ) const
+QgsPoint QgsMapToPixel::transform( qreal x, qreal y ) const
 {
   transformInPlace( x, y );
   return QgsPoint( x, y );
 }
 
-QgsPoint QgsMapToPixel::transform( const QgsPoint& p ) const
+QgsPoint QgsMapToPixel::transform( const QgsPoint &p ) const
 {
-  double dx = p.x();
-  double dy = p.y();
-  transformInPlace( dx, dy );
-
+  qreal x = p.x(), y = p.y();
+  transformInPlace( x, y );
 // QgsDebugMsg(QString("Point to pixel...X : %1-->%2, Y: %3 -->%4").arg(p.x()).arg(dx).arg(p.y()).arg(dy));
-  return QgsPoint( dx, dy );
+  return QgsPoint( x, y );
 }
 
-void QgsMapToPixel::transform( QgsPoint* p ) const
+void QgsMapToPixel::transform( QgsPoint *p ) const
 {
-  double x = p->x();
-  double y = p->y();
+  qreal x = p->x(), y = p->y();
   transformInPlace( x, y );
-
-#ifdef QGISDEBUG
 // QgsDebugMsg(QString("Point to pixel...X : %1-->%2, Y: %3 -->%4").arg(p->x()).arg(x).arg(p->y()).arg(y));
-#endif
   p->set( x, y );
 }
 
-void QgsMapToPixel::transformInPlace( qreal& x, qreal& y ) const
+void QgsMapToPixel::transformInPlace( qreal &x, qreal &y ) const
 {
   // Map 2 Pixel
-  double mx, my;
+  qreal mx, my;
   mMatrix.map( x, y, &mx, &my );
   //QgsDebugMsg(QString("XXX transformInPlace X : %1-->%2, Y: %3 -->%4").arg(x).arg(mx).arg(y).arg(my));
   x = mx; y = my;

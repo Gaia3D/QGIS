@@ -97,7 +97,7 @@ class ScriptAlgorithm(GeoAlgorithm):
                 except:
                     raise WrongScriptException(
                         self.tr('Could not load script: %s\n'
-                                'Problem with line: %d', 'ScriptAlgorithm') % (self.descriptionFile, line))
+                                'Problem with line: %s', 'ScriptAlgorithm') % (self.descriptionFile, line))
             self.script += line
             line = lines.readline()
         lines.close()
@@ -195,7 +195,7 @@ class ScriptAlgorithm(GeoAlgorithm):
             param = ParameterString(tokens[0], desc, default)
         elif tokens[1].lower().strip().startswith('longstring'):
             default = tokens[1].strip()[len('longstring') + 1:]
-            param = ParameterString(tokens[0], desc, default, multiline = True)
+            param = ParameterString(tokens[0], desc, default, multiline=True)
         elif tokens[1].lower().strip().startswith('crs'):
             default = tokens[1].strip()[len('crs') + 1:]
             if not default:
@@ -230,7 +230,7 @@ class ScriptAlgorithm(GeoAlgorithm):
         else:
             raise WrongScriptException(
                 self.tr('Could not load script: %s.\n'
-                        'Problem with line %d', 'ScriptAlgorithm') % (self.descriptionFile or '', line))
+                        'Problem with line "%s"', 'ScriptAlgorithm') % (self.descriptionFile or '', line))
 
     def processDescriptionParameterLine(self, line):
         try:
@@ -253,6 +253,7 @@ class ScriptAlgorithm(GeoAlgorithm):
 
         ns = {}
         ns['progress'] = progress
+        ns['scriptDescriptionFile'] = self.descriptionFile
 
         for param in self.parameters:
             ns[param.name] = param.value

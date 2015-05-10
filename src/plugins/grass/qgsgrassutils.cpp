@@ -17,6 +17,7 @@
 #include "qgsgrass.h"
 
 #include "qgisinterface.h"
+#include "qgsapplication.h"
 #include "qgslogger.h"
 
 #include <QFileInfo>
@@ -65,7 +66,21 @@ bool QgsGrassUtils::itemExists( QString element, QString item )
   return fi.exists();
 }
 
-QgsGrassElementDialog::QgsGrassElementDialog( QWidget *parent ) : QObject(), mParent( parent )
+
+QString QgsGrassUtils::htmlBrowserPath()
+{
+  return QgsApplication::libexecPath() + "grass/bin/qgis.g.browser"  + QString::number( QgsGrass::versionMajor() );
+}
+
+QgsGrassElementDialog::QgsGrassElementDialog( QWidget *parent )
+    : QObject()
+    , mDialog( 0 )
+    , mLineEdit( 0 )
+    , mLabel( 0 )
+    , mErrorLabel( 0 )
+    , mOkButton( 0 )
+    , mCancelButton( 0 )
+    , mParent( parent )
 {
 }
 

@@ -25,12 +25,7 @@ __copyright__ = '(C) 2012, Victor Olaya'
 
 __revision__ = '$Format:%H$'
 
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-from qgis.core import *
-
-from processing.core.GeoAlgorithmExecutionException import \
-        GeoAlgorithmExecutionException
+from processing.core.GeoAlgorithmExecutionException import GeoAlgorithmExecutionException
 from processing.core.parameters import ParameterVector
 from processing.core.parameters import ParameterString
 from processing.core.outputs import OutputVector
@@ -55,7 +50,7 @@ class OgrSql(OgrAlgorithm):
 
         self.addOutput(OutputVector(self.OUTPUT, self.tr('SQL result')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         sql = self.getParameterValue(self.SQL)
         if sql == '':
             raise GeoAlgorithmExecutionException(
@@ -73,5 +68,4 @@ class OgrSql(OgrAlgorithm):
         conn = self.ogrConnectionString(layer)
         arguments.append(conn)
 
-        GdalUtils.runGdal(['ogr2ogr', GdalUtils.escapeAndJoin(arguments)],
-                          progress)
+        return ['ogr2ogr', GdalUtils.escapeAndJoin(arguments)]

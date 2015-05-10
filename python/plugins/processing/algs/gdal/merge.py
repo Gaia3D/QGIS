@@ -31,7 +31,7 @@ from processing.core.outputs import OutputRaster
 from processing.core.parameters import ParameterBoolean
 from processing.core.parameters import ParameterMultipleInput
 from processing.core.parameters import ParameterSelection
-from processing.tools.system import *
+from processing.tools.system import isWindows
 from processing.algs.gdal.GdalUtils import GdalUtils
 
 
@@ -43,8 +43,7 @@ class merge(GdalAlgorithm):
     SEPARATE = 'SEPARATE'
     RTYPE = 'RTYPE'
 
-    TYPE = ['Byte', 'Int16', 'UInt16', 'UInt32', 'Int32', 'Float32', 'Float64',
-            'CInt16', 'CInt32', 'CFloat32', 'CFloat64']
+    TYPE = ['Byte', 'Int16', 'UInt16', 'UInt32', 'Int32', 'Float32', 'Float64']
 
     def defineCharacteristics(self):
         self.name = 'Merge'
@@ -58,9 +57,9 @@ class merge(GdalAlgorithm):
         self.addParameter(ParameterSelection(self.RTYPE,
             self.tr('Output raster type'), self.TYPE, 5))
 
-        self.addOutput(OutputRaster(merge.OUTPUT, self.tr('Output layer')))
+        self.addOutput(OutputRaster(merge.OUTPUT, self.tr('Merged')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = []
         arguments.append('-ot')
         arguments.append(self.TYPE[self.getParameterValue(self.RTYPE)])
@@ -82,4 +81,4 @@ class merge(GdalAlgorithm):
         else:
             commands = ['gdal_merge.py', GdalUtils.escapeAndJoin(arguments)]
 
-        GdalUtils.runGdal(commands, progress)
+        return commands

@@ -25,10 +25,6 @@ __copyright__ = '(C) 2013, Alexander Bruy'
 
 __revision__ = '$Format:%H$'
 
-import os
-from PyQt4 import QtGui
-from qgis.core import *
-
 from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
 
 from processing.core.parameters import ParameterRaster
@@ -65,7 +61,7 @@ class contour(GdalAlgorithm):
         self.addOutput(OutputVector(self.OUTPUT_VECTOR,
             self.tr('Output file for contour lines (vector)')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         interval = str(self.getParameterValue(self.INTERVAL))
         fieldName = str(self.getParameterValue(self.FIELD_NAME))
         extra = str(self.getParameterValue(self.EXTRA))
@@ -83,5 +79,4 @@ class contour(GdalAlgorithm):
         arguments.append(self.getParameterValue(self.INPUT_RASTER))
         arguments.append(self.getOutputValue(self.OUTPUT_VECTOR))
 
-        GdalUtils.runGdal(['gdal_contour',
-                          GdalUtils.escapeAndJoin(arguments)], progress)
+        return ['gdal_contour', GdalUtils.escapeAndJoin(arguments)]

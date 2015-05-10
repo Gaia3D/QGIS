@@ -19,12 +19,17 @@
 #include "qgscomposition.h"
 #include "qgscompositionchecker.h"
 #include "qgsdatadefined.h"
+#include "qgsexpression.h"
 #include <QObject>
 #include <QtTest/QtTest>
 
 class TestQgsComposerObject : public QObject
 {
     Q_OBJECT
+
+  public:
+    TestQgsComposerObject();
+
   private slots:
     void initTestCase();// will be called before the first testfunction is executed.
     void cleanupTestCase();// will be called after the last testfunction was executed.
@@ -44,6 +49,12 @@ class TestQgsComposerObject : public QObject
     QString mReport;
 
 };
+
+TestQgsComposerObject::TestQgsComposerObject()
+    : mComposition( NULL )
+{
+
+}
 
 void TestQgsComposerObject::initTestCase()
 {

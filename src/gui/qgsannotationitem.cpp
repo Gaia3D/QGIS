@@ -23,7 +23,11 @@
 #include <QPainter>
 #include <QPen>
 
-QgsAnnotationItem::QgsAnnotationItem( QgsMapCanvas* mapCanvas ): QgsMapCanvasItem( mapCanvas ), mMapPositionFixed( true ), mOffsetFromReferencePoint( QPointF( 50, -50 ) )
+QgsAnnotationItem::QgsAnnotationItem( QgsMapCanvas* mapCanvas )
+    : QgsMapCanvasItem( mapCanvas )
+    , mMapPositionFixed( true )
+    , mOffsetFromReferencePoint( QPointF( 50, -50 ) )
+    , mBalloonSegment( -1 )
 {
   setFlag( QGraphicsItem::ItemIsSelectable, true );
   mMarkerSymbol = new QgsMarkerSymbolV2();
@@ -443,7 +447,7 @@ void QgsAnnotationItem::_readXML( const QDomDocument& doc, const QDomElement& an
   QDomElement symbolElem = annotationElem.firstChildElement( "symbol" );
   if ( !symbolElem.isNull() )
   {
-    QgsMarkerSymbolV2* symbol = dynamic_cast<QgsMarkerSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( symbolElem ) );
+    QgsMarkerSymbolV2* symbol = QgsSymbolLayerV2Utils::loadSymbol<QgsMarkerSymbolV2>( symbolElem );
     if ( symbol )
     {
       delete mMarkerSymbol;

@@ -21,17 +21,6 @@
 #ifndef QGSPALLABELING_H
 #define QGSPALLABELING_H
 
-class QFontMetricsF;
-class QPainter;
-class QPicture;
-class QgsGeometry;
-class QgsMapRenderer;
-class QgsRectangle;
-class QgsCoordinateTransform;
-class QgsLabelSearchTree;
-
-class QgsMapSettings;
-
 #include <QString>
 #include <QFont>
 #include <QFontDatabase>
@@ -39,6 +28,10 @@ class QgsMapSettings;
 #include <QHash>
 #include <QList>
 #include <QRectF>
+#include "qgspoint.h"
+#include "qgsmaprenderer.h" // definition of QgsLabelingEngineInterface
+#include "qgsdiagramrendererv2.h"
+#include "qgsmapunitscale.h"
 
 namespace pal
 {
@@ -47,19 +40,21 @@ namespace pal
   class LabelPosition;
 }
 
+class QgsRectangle;
 class QgsMapToPixel;
 class QgsFeature;
-
-#include "qgspoint.h"
-#include "qgsrectangle.h"
-#include "qgsmaprenderer.h" // definition of QgsLabelingEngineInterface
-#include "qgsexpression.h"
-#include "qgsdatadefined.h"
-#include "qgsdiagramrendererv2.h"
-#include "qgsmapunitscale.h"
-
 class QgsPalGeometry;
 class QgsVectorLayer;
+class QgsDataDefined;
+class QgsExpression;
+class QFontMetricsF;
+class QPainter;
+class QPicture;
+class QgsGeometry;
+class QgsMapRenderer;
+class QgsCoordinateTransform;
+class QgsLabelSearchTree;
+class QgsMapSettings;
 
 class CORE_EXPORT QgsPalLayerSettings
 {
@@ -104,23 +99,25 @@ class CORE_EXPORT QgsPalLayerSettings
 
     enum UpsideDownLabels
     {
-      Upright, // upside-down labels (90 <= angle < 270) are shown upright
-      ShowDefined, // show upside down when rotation is layer- or data-defined
-      ShowAll // show upside down for all labels, including dynamic ones
+      Upright, /*!< upside-down labels (90 <= angle < 270) are shown upright*/
+      ShowDefined, /*!< show upside down when rotation is layer- or data-defined*/
+      ShowAll /*!< show upside down for all labels, including dynamic ones*/
     };
 
     enum DirectionSymbols
     {
-      SymbolLeftRight, // place direction symbols on left/right of label
-      SymbolAbove, // place direction symbols on above label
-      SymbolBelow // place direction symbols on below label
+      SymbolLeftRight, /*!< place direction symbols on left/right of label*/
+      SymbolAbove, /*!< place direction symbols on above label*/
+      SymbolBelow /*!< place direction symbols on below label*/
     };
 
     enum MultiLineAlign
     {
       MultiLeft = 0,
       MultiCenter,
-      MultiRight
+      MultiRight,
+      MultiFollowPlacement /*!< Alignment follows placement of label, eg labels to the left of a feature
+                               will be drawn with right alignment*/
     };
 
     enum ShapeType
@@ -604,44 +601,44 @@ class CORE_EXPORT QgsLabelComponent
 
     // methods
 
-    const QString& text() { return mText; }
+    const QString& text() const { return mText; }
     void setText( const QString& text ) { mText = text; }
 
-    const QgsPoint& origin() { return mOrigin; }
-    void setOrigin( QgsPoint point ) { mOrigin = point; }
+    const QgsPoint& origin() const { return mOrigin; }
+    void setOrigin( const QgsPoint& point ) { mOrigin = point; }
 
     bool useOrigin() const { return mUseOrigin; }
-    void setUseOrigin( bool use ) { mUseOrigin = use; }
+    void setUseOrigin( const bool use ) { mUseOrigin = use; }
 
     double rotation() const { return mRotation; }
-    void setRotation( double rotation ) { mRotation = rotation; }
+    void setRotation( const double rotation ) { mRotation = rotation; }
 
     double rotationOffset() const { return mRotationOffset; }
-    void setRotationOffset( double rotation ) { mRotationOffset = rotation; }
+    void setRotationOffset( const double rotation ) { mRotationOffset = rotation; }
 
     bool useRotation() const { return mUseRotation; }
-    void setUseRotation( bool use ) { mUseRotation = use; }
+    void setUseRotation( const bool use ) { mUseRotation = use; }
 
-    const QgsPoint& center() { return mCenter; }
-    void setCenter( QgsPoint point ) { mCenter = point; }
+    const QgsPoint& center() const { return mCenter; }
+    void setCenter( const QgsPoint& point ) { mCenter = point; }
 
     bool useCenter() const { return mUseCenter; }
-    void setUseCenter( bool use ) { mUseCenter = use; }
+    void setUseCenter( const bool use ) { mUseCenter = use; }
 
-    const QgsPoint& size() { return mSize; }
-    void setSize( QgsPoint point ) { mSize = point; }
+    const QgsPoint& size() const { return mSize; }
+    void setSize( const QgsPoint& point ) { mSize = point; }
 
-    const QgsPoint& offset() { return mOffset; }
-    void setOffset( QgsPoint point ) { mOffset = point; }
+    const QgsPoint& offset() const { return mOffset; }
+    void setOffset( const QgsPoint& point ) { mOffset = point; }
 
-    const QPicture* picture() { return mPicture; }
+    const QPicture* picture() const { return mPicture; }
     void setPicture( QPicture* picture ) { mPicture = picture; }
 
     double pictureBuffer() const { return mPictureBuffer; }
-    void setPictureBuffer( double buffer ) { mPictureBuffer = buffer; }
+    void setPictureBuffer( const double buffer ) { mPictureBuffer = buffer; }
 
     double dpiRatio() const { return mDpiRatio; }
-    void setDpiRatio( double ratio ) { mDpiRatio = ratio; }
+    void setDpiRatio( const double ratio ) { mDpiRatio = ratio; }
 
   private:
     // current label component text,
@@ -795,15 +792,15 @@ class CORE_EXPORT QgsPalLabeling : public QgsLabelingEngineInterface
     virtual void drawLabel( pal::LabelPosition* label, QgsRenderContext& context, QgsPalLayerSettings& tmpLyr, DrawLabelType drawType, double dpiRatio = 1.0 );
 
     static void drawLabelBuffer( QgsRenderContext& context,
-                                 QgsLabelComponent component,
+                                 const QgsLabelComponent &component,
                                  const QgsPalLayerSettings& tmpLyr );
 
     static void drawLabelBackground( QgsRenderContext& context,
                                      QgsLabelComponent component,
                                      const QgsPalLayerSettings& tmpLyr );
 
-    static void drawLabelShadow( QgsRenderContext& context,
-                                 QgsLabelComponent component,
+    static void drawLabelShadow( QgsRenderContext &context,
+                                 const QgsLabelComponent &component,
                                  const QgsPalLayerSettings& tmpLyr );
 
     //! load/save engine settings to project file
@@ -814,6 +811,27 @@ class CORE_EXPORT QgsPalLabeling : public QgsLabelingEngineInterface
     Q_DECL_DEPRECATED bool isStoredWithProject() const { return true; }
     //! @deprecated since 2.4 - settings are always stored in project
     Q_DECL_DEPRECATED void setStoredWithProject( bool store ) { Q_UNUSED( store ); }
+
+    /** Prepares a geometry for registration with PAL. Handles reprojection, rotation, clipping, etc.
+     * @param geometry geometry to prepare
+     * @param context render context
+     * @param ct coordinate transform
+     * @param minSize minimum allowable size for feature for registration with PAL
+     * @param clipGeometry geometry to clip features to, if applicable
+     * @returns prepared geometry
+     * @note added in QGIS 2.9
+     */
+    static QgsGeometry* prepareGeometry( QgsGeometry *geometry, const QgsRenderContext &context, const QgsCoordinateTransform *ct, double minSize = 0, QgsGeometry *clipGeometry = 0 );
+
+    /** Checks whether a geometry requires preparation before registration with PAL
+     * @param geometry geometry to prepare
+     * @param context render context
+     * @param ct coordinate transform
+     * @param clipGeometry geometry to clip features to, if applicable
+     * @returns true if geometry requires preparation
+     * @note added in QGIS 2.9
+     */
+    static bool geometryRequiresPreparation( QgsGeometry *geometry, const QgsRenderContext &context, const QgsCoordinateTransform *ct, QgsGeometry *clipGeometry = 0 );
 
   protected:
     // update temporary QgsPalLayerSettings with any data defined text style values
@@ -838,6 +856,15 @@ class CORE_EXPORT QgsPalLabeling : public QgsLabelingEngineInterface
 
     void deleteTemporaryData();
 
+    /** Checks whether a geometry exceeds the minimum required size for a geometry to be labeled.
+     * @param context render context
+     * @param geom geometry
+     * @param minSize minimum size for geometry
+     * @returns true if geometry exceeds minimum size
+     * @note added in QGIS 2.9
+     */
+    static bool checkMinimumSizeMM( const QgsRenderContext &context, QgsGeometry *geom, double minSize );
+
     // hashtable of layer settings, being filled during labeling (key = layer ID)
     QHash<QString, QgsPalLayerSettings> mActiveLayers;
     // hashtable of active diagram layers (key = layer ID)
@@ -859,6 +886,7 @@ class CORE_EXPORT QgsPalLabeling : public QgsLabelingEngineInterface
     bool mDrawOutlineLabels; // whether to draw labels as text or outlines
 
     QgsLabelingResults* mResults;
+
 };
 Q_NOWARN_DEPRECATED_POP
 

@@ -26,15 +26,12 @@ __copyright__ = '(C) 2013, Alexander Bruy'
 __revision__ = '$Format:%H$'
 
 
-from PyQt4.QtGui import *
-
 from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
 from processing.core.parameters import ParameterRaster
 from processing.core.parameters import ParameterBoolean
 from processing.core.parameters import ParameterNumber
 from processing.core.outputs import OutputRaster
 from processing.algs.gdal.GdalUtils import GdalUtils
-from processing.tools.system import *
 
 
 class aspect(GdalAlgorithm):
@@ -67,9 +64,9 @@ class aspect(GdalAlgorithm):
         self.addParameter(ParameterBoolean(self.ZERO_FLAT,
             self.tr('Return 0 for flat (instead of -9999)'), False))
 
-        self.addOutput(OutputRaster(self.OUTPUT, 'Output file'))
+        self.addOutput(OutputRaster(self.OUTPUT, 'Aspect'))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = ['aspect']
         arguments.append(unicode(self.getParameterValue(self.INPUT)))
         output = unicode(self.getOutputValue(self.OUTPUT))
@@ -94,5 +91,4 @@ class aspect(GdalAlgorithm):
         if self.getParameterValue(self.ZERO_FLAT):
             arguments.append('-zero_for_flat')
 
-        GdalUtils.runGdal(['gdaldem',
-                          GdalUtils.escapeAndJoin(arguments)], progress)
+        return ['gdaldem', GdalUtils.escapeAndJoin(arguments)]

@@ -28,13 +28,9 @@ __revision__ = '$Format:%H$'
 import matplotlib.pyplot as plt
 import matplotlib.pylab as lab
 
-from PyQt4.QtCore import *
-from qgis.core import *
-
 from processing.core.GeoAlgorithm import GeoAlgorithm
 from processing.core.parameters import ParameterVector
 from processing.core.parameters import ParameterTableField
-from processing.core.parameters import ParameterNumber
 from processing.core.outputs import OutputHTML
 
 from processing.tools import vector
@@ -74,9 +70,10 @@ class VectorLayerScatterplot(GeoAlgorithm):
         values = vector.values(layer, xfieldname, yfieldname)
         plt.close()
         plt.scatter(values[xfieldname], values[yfieldname])
+        plt.ylabel(yfieldname)
+        plt.xlabel(xfieldname)
         plotFilename = output + '.png'
         lab.savefig(plotFilename)
         f = open(output, 'w')
-        f.write('<img src="' + plotFilename + '"/>')
+        f.write('<html><img src="' + plotFilename + '"/></html>')
         f.close()
-

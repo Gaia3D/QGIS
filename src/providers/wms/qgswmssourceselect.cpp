@@ -32,7 +32,6 @@
 #include "qgsproject.h"
 #include "qgsproviderregistry.h"
 #include "qgswmsconnection.h"
-#include "qgswmsprovider.h"
 #include "qgswmssourceselect.h"
 #include "qgswmtsdimensions.h"
 #include "qgsnetworkaccessmanager.h"
@@ -523,7 +522,8 @@ void QgsWMSSourceSelect::addClicked()
       }
     }
 
-    Q_ASSERT( layer );
+    if ( !layer )
+      return;
 
     if ( !layer->dimensions.isEmpty() )
     {

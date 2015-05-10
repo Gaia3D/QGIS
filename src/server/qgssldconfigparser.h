@@ -52,6 +52,9 @@ class QgsSLDConfigParser : public QgsWMSConfigParser
     /**Returns the xml fragment of layers styles*/
     QDomDocument getStyles( QStringList& layerList ) const override;
 
+    /**Returns the xml fragment of layers styles description*/
+    QDomDocument describeLayer( QStringList& layerList, const QString& hrefString ) const override;
+
     /**Returns if output are MM or PIXEL*/
     QgsMapRenderer::OutputUnits outputUnits() const override;
 
@@ -134,7 +137,7 @@ class QgsSLDConfigParser : public QgsWMSConfigParser
     /**Output units (pixel or mm)*/
     QgsMapRenderer::OutputUnits mOutputUnits;
 
-    QgsWMSConfigParser* mFallbackParser;
+    QgsWMSConfigParser *mFallbackParser;
 
     QFont mLegendLayerFont;
 

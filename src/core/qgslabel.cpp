@@ -45,9 +45,9 @@
 #endif
 
 QgsLabel::QgsLabel( const QgsFields & fields )
-    : mMinScale( 0 ),
-    mMaxScale( 100000000 ),
-    mScaleBasedVisibility( false )
+    : mMinScale( 0 )
+    , mMaxScale( 100000000 )
+    , mScaleBasedVisibility( false )
 {
   mFields = fields;
   mLabelFieldIdx.resize( LabelFieldCount );
@@ -602,6 +602,7 @@ const unsigned char* QgsLabel::labelPoint( labelpoint& point, const unsigned cha
 
     case QGis::WKBLineString25D:
       dims = 3;
+      //intentional fall-through
     case QGis::WKBLineString: // Line center
     {
       Q_ASSERT( geom + sizeof( int ) <= geomend );
@@ -648,6 +649,7 @@ const unsigned char* QgsLabel::labelPoint( labelpoint& point, const unsigned cha
 
     case QGis::WKBPolygon25D:
       dims = 3;
+      //intentional fall-through
     case QGis::WKBPolygon: // centroid of outer ring
     {
       Q_ASSERT( geom + sizeof( int ) <= geomend );

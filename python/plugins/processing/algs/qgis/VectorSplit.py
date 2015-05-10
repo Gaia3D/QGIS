@@ -26,8 +26,7 @@ __copyright__ = '(C) 2014, Alexander Bruy'
 __revision__ = '$Format:%H$'
 
 import os
-from PyQt4.QtCore import *
-from qgis.core import *
+
 from processing.core.GeoAlgorithm import GeoAlgorithm
 from processing.core.parameters import ParameterVector
 from processing.core.parameters import ParameterTableField
@@ -68,13 +67,12 @@ class VectorSplit(GeoAlgorithm):
         geomType = layer.wkbType()
 
         total = 100.0 / len(uniqueValues)
-        features = vector.features(layer)
 
         for count, i in enumerate(uniqueValues):
-            fName = '{0}_{1}.shp'.format(baseName, unicode(i).strip())
+            fName = u'{0}_{1}.shp'.format(baseName, unicode(i).strip())
 
             writer = vector.VectorWriter(fName, None, fields, geomType, crs)
-            for f in features:
+            for f in vector.features(layer):
                 if f[fieldName] == i:
                     writer.addFeature(f)
             del writer

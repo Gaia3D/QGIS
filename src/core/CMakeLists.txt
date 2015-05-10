@@ -46,6 +46,16 @@ SET(QGIS_CORE_SRCS
   diagram/qgspiediagram.cpp
   diagram/qgstextdiagram.cpp
   diagram/qgshistogramdiagram.cpp
+  
+  effects/qgsimageoperation.cpp
+  effects/qgspainteffect.cpp
+  effects/qgseffectstack.cpp
+  effects/qgsblureffect.cpp
+  effects/qgsshadoweffect.cpp
+  effects/qgsgloweffect.cpp
+  effects/qgspainteffectregistry.cpp
+  effects/qgstransformeffect.cpp
+  effects/qgscoloreffect.cpp
 
   layertree/qgslayertreegroup.cpp
   layertree/qgslayertreelayer.cpp
@@ -75,6 +85,8 @@ SET(QGIS_CORE_SRCS
   qgsdatadefined.cpp
   qgsdatasourceuri.cpp
   qgsdataitem.cpp
+  qgsdataitemprovider.cpp
+  qgsdataitemproviderregistry.cpp
   qgsdatumtransformstore.cpp
   qgsdbfilterproxymodel.cpp
   qgsdiagramrendererv2.cpp
@@ -150,11 +162,13 @@ SET(QGIS_CORE_SRCS
   qgsrectangle.cpp
   qgsrunprocess.cpp
   qgsscalecalculator.cpp
+  qgsscaleexpression.cpp
   qgsscaleutils.cpp
   qgssimplifymethod.cpp
   qgssnapper.cpp
   qgssnappingutils.cpp
   qgsspatialindex.cpp
+  qgsstatisticalsummary.cpp
   qgstransaction.cpp
   qgstolerance.cpp
   qgsvectordataprovider.cpp
@@ -297,10 +311,10 @@ IF (NOT QT5_BUILD)
   )
 ENDIF (NOT QT5_BUILD)
 
-IF ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+IF ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
   # spatialindex headers produce warnings
   SET_SOURCE_FILES_PROPERTIES(qgsspatialindex.cpp PROPERTIES COMPILE_FLAGS -Wno-overloaded-virtual)
-ENDIF ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+ENDIF ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
 
 IF (WITH_INTERNAL_QEXTSERIALPORT)
   SET(QGIS_CORE_SRCS ${QGIS_CORE_SRCS}
@@ -323,11 +337,11 @@ ELSE (WITH_INTERNAL_QEXTSERIALPORT)
   INCLUDE_DIRECTORIES(${QEXTSERIALPORT_INCLUDE_DIR})
 ENDIF (WITH_INTERNAL_QEXTSERIALPORT)
 
-IF (QT_MOBILITY_LOCATION_FOUND)
+IF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
   SET(QGIS_CORE_SRCS ${QGIS_CORE_SRCS}
     gps/qgsqtlocationconnection.cpp
   )
-ENDIF (QT_MOBILITY_LOCATION_FOUND)
+ENDIF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
 
 ADD_FLEX_FILES(QGIS_CORE_SRCS qgsexpressionlexer.ll)
 
@@ -436,11 +450,11 @@ IF (WITH_INTERNAL_QEXTSERIALPORT)
   )
 ENDIF (WITH_INTERNAL_QEXTSERIALPORT)
 
-IF (QT_MOBILITY_LOCATION_FOUND)
+IF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
   SET(QGIS_CORE_MOC_HDRS ${QGIS_CORE_MOC_HDRS}
     gps/qgsqtlocationconnection.h
   )
-ENDIF (QT_MOBILITY_LOCATION_FOUND)
+ENDIF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
 
 QT4_WRAP_CPP(QGIS_CORE_MOC_SRCS ${QGIS_CORE_MOC_HDRS})
 
@@ -473,6 +487,10 @@ SET(QGIS_CORE_HDRS
   qgscsexception.h
   qgsdartmeasurement.h
   qgsdatadefined.h
+  qgsdatadefined_p.h
+  qgsdataitem.h
+  qgsdataitemprovider.h
+  qgsdataitemproviderregistry.h
   qgsdatasourceuri.h
   qgsdatumtransformstore.h
   qgsdbfilterproxymodel.h
@@ -488,6 +506,7 @@ SET(QGIS_CORE_HDRS
   qgsfeaturerequest.h
   qgsfeaturestore.h
   qgsfield.h
+  qgsfield_p.h
   qgsfontutils.h
   qgsgeometry.h
   qgsgeometrycache.h
@@ -531,12 +550,13 @@ SET(QGIS_CORE_HDRS
   qgsrenderchecker.h
   qgsrendercontext.h
   qgsscalecalculator.h
+  qgsscaleexpression.h
   qgsscaleutils.h
   qgssimplifymethod.h
-  qgssingleton.h
   qgssnapper.h
   qgssnappingutils.h
   qgsspatialindex.h
+  qgsstatisticalsummary.h
   qgstolerance.h
   qgstransaction.h
   qgsvectordataprovider.h
@@ -554,6 +574,16 @@ SET(QGIS_CORE_HDRS
   diagram/qgspiediagram.h
   diagram/qgstextdiagram.h
   diagram/qgshistogramdiagram.h
+  
+  effects/qgsimageoperation.h
+  effects/qgspainteffect.h
+  effects/qgseffectstack.h
+  effects/qgsblureffect.h
+  effects/qgsshadoweffect.h
+  effects/qgsgloweffect.h
+  effects/qgspainteffectregistry.h
+  effects/qgstransformeffect.h
+  effects/qgscoloreffect.h
 
   composer/qgsaddremovemultiframecommand.h
   composer/qgscomposerarrow.h
@@ -637,16 +667,18 @@ SET(QGIS_CORE_HDRS
   layertree/qgslayertreeutils.h
 )
 
-IF (QT_MOBILITY_LOCATION_FOUND)
+IF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
   SET(QGIS_CORE_HDRS ${QGIS_CORE_HDRS}
+    gps/qgsqtlocationconnection.h
     gps/qgsgpsconnectionregistry.h
   )
-ENDIF (QT_MOBILITY_LOCATION_FOUND)
+ENDIF (QT_MOBILITY_LOCATION_FOUND OR Qt5Positioning_FOUND)
 
 INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_SOURCE_DIR}
   composer
   dxf
+  effects
   layertree
   pal
   raster
@@ -732,7 +764,7 @@ IF (NOT WITH_INTERNAL_QEXTSERIALPORT)
 ENDIF (NOT WITH_INTERNAL_QEXTSERIALPORT)
 
 IF (QT_MOBILITY_LOCATION_FOUND)
-    TARGET_LINK_LIBRARIES(qgis_core ${QT_MOBILITY_LOCATION_LIBRARY})
+  TARGET_LINK_LIBRARIES(qgis_core ${QT_MOBILITY_LOCATION_LIBRARY})
 ENDIF (QT_MOBILITY_LOCATION_FOUND)
 
 TARGET_LINK_LIBRARIES(qgis_core
@@ -743,7 +775,6 @@ TARGET_LINK_LIBRARIES(qgis_core
   ${QT_QTNETWORK_LIBRARY}
   ${QT_QTSVG_LIBRARY}
   ${QT_QTWEBKIT_LIBRARY}
-  ${QSCINTILLA_LIBRARY}
 
   ${PROJ_LIBRARY}
   ${GEOS_LIBRARY}
@@ -753,6 +784,12 @@ TARGET_LINK_LIBRARIES(qgis_core
   ${SQLITE3_LIBRARY}
   ${SPATIALITE_LIBRARY}
 )
+
+IF (Qt5Positioning_FOUND)
+  TARGET_LINK_LIBRARIES(qgis_core
+    Qt5::Positioning
+  )
+ENDIF (Qt5Positioning_FOUND)
 
 # install
 

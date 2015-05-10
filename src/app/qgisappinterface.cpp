@@ -46,9 +46,10 @@
 
 
 QgisAppInterface::QgisAppInterface( QgisApp * _qgis )
-    : qgis( _qgis ),
-    legendIface( _qgis->layerTreeView() ),
-    pluginManagerIface( _qgis->pluginManager() )
+    : qgis( _qgis )
+    , mTimer( NULL )
+    , legendIface( _qgis->layerTreeView() )
+    , pluginManagerIface( _qgis->pluginManager() )
 {
   // connect signals
   connect( qgis->layerTreeView(), SIGNAL( currentLayerChanged( QgsMapLayer * ) ),
@@ -59,6 +60,8 @@ QgisAppInterface::QgisAppInterface( QgisApp * _qgis )
            this, SIGNAL( composerAdded( QgsComposerView* ) ) );
   connect( qgis, SIGNAL( composerWillBeRemoved( QgsComposerView* ) ),
            this, SIGNAL( composerWillBeRemoved( QgsComposerView* ) ) );
+  connect( qgis, SIGNAL( composerRemoved( QgsComposerView* ) ),
+           this, SIGNAL( composerRemoved( QgsComposerView* ) ) );
   connect( qgis, SIGNAL( initializationCompleted() ),
            this, SIGNAL( initializationCompleted() ) );
   connect( qgis, SIGNAL( newProject() ),

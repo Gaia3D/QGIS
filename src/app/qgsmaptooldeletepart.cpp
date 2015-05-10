@@ -26,7 +26,10 @@
 
 QgsMapToolDeletePart::QgsMapToolDeletePart( QgsMapCanvas* canvas )
     : QgsMapToolEdit( canvas )
+    , vlayer( NULL )
     , mRubberBand( 0 )
+    , mPressedFid( 0 )
+    , mPressedPartNum( 0 )
 {
   mToolName = tr( "Delete part" );
 }
@@ -66,9 +69,7 @@ void QgsMapToolDeletePart::canvasPressEvent( QMouseEvent *e )
     return;
   }
 
-  QgsGeometry* geomPart;
-
-  geomPart = partUnderPoint( e->pos(), mPressedFid, mPressedPartNum );
+  QgsGeometry* geomPart = partUnderPoint( e->pos(), mPressedFid, mPressedPartNum );
 
   if ( mPressedFid != -1 )
   {
@@ -78,6 +79,7 @@ void QgsMapToolDeletePart::canvasPressEvent( QMouseEvent *e )
     mRubberBand->show();
   }
 
+  delete geomPart;
 }
 
 void QgsMapToolDeletePart::canvasReleaseEvent( QMouseEvent *e )

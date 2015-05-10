@@ -27,8 +27,8 @@ __revision__ = '$Format:%H$'
 
 import os
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from PyQt4.QtCore import QSettings
+from PyQt4.QtGui import QWidget, QHBoxLayout, QMenu, QPushButton, QLineEdit, QSizePolicy, QAction, QCursor, QFileDialog
 
 from processing.gui.MultipleInputDialog import MultipleInputDialog
 
@@ -127,13 +127,13 @@ class BatchInputSelectionPanel(QWidget):
                 self.tr('All files(*.*);;') + self.param.getFileFilter())
         if ret:
             files = list(ret)
+            settings.setValue('/Processing/LastInputPath',
+                              os.path.dirname(unicode(files[0])))
+            for i, filename in enumerate(files):
+                files[i] = dataobjects.getRasterSublayer(filename, self.param)
             if len(files) == 1:
-                settings.setValue('/Processing/LastInputPath',
-                                  os.path.dirname(unicode(files[0])))
                 self.text.setText(files[0])
             else:
-                settings.setValue('/Processing/LastInputPath',
-                                  os.path.dirname(unicode(files[0])))
                 if isinstance(self.param, ParameterMultipleInput):
                     self.text.setText(';'.join(unicode(f) for f in files))
                 else:

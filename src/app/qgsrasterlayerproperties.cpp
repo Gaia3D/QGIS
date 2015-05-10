@@ -72,8 +72,16 @@ QgsRasterLayerProperties::QgsRasterLayerProperties( QgsMapLayer* lyr, QgsMapCanv
     : QgsOptionsDialogBase( "RasterLayerProperties", parent, fl )
     // Constant that signals property not used.
     , TRSTRING_NOT_SET( tr( "Not Set" ) )
-    , mRasterLayer( qobject_cast<QgsRasterLayer *>( lyr ) ), mRendererWidget( 0 )
+    , mDefaultStandardDeviation( 0 )
+    , mDefaultRedBand( 0 )
+    , mDefaultGreenBand( 0 )
+    , mDefaultBlueBand( 0 )
+    , mRasterLayer( qobject_cast<QgsRasterLayer *>( lyr ) )
+    , mRendererWidget( 0 )
+    , mGradientHeight( 0.0 )
+    , mGradientWidth( 0.0 )
     , mMapCanvas( theCanvas )
+    , mHistogramWidget( NULL )
 {
   mGrayMinimumMaximumEstimated = true;
   mRGBMinimumMaximumEstimated = true;
@@ -86,11 +94,11 @@ QgsRasterLayerProperties::QgsRasterLayerProperties( QgsMapLayer* lyr, QgsMapCanv
 
   QPushButton* b = new QPushButton( tr( "Style" ) );
   QMenu* m = new QMenu( this );
-  m->addAction( tr( "Load Style..." ), this, SLOT( on_pbnLoadStyle_clicked() ) );
-  m->addAction( tr( "Save Style..." ), this, SLOT( on_pbnSaveStyleAs_clicked() ) );
+  m->addAction( tr( "Load Style..." ), this, SLOT( loadStyle_clicked() ) );
+  m->addAction( tr( "Save Style..." ), this, SLOT( saveStyleAs_clicked() ) );
   m->addSeparator();
-  m->addAction( tr( "Save As Default" ), this, SLOT( on_pbnSaveDefaultStyle_clicked() ) );
-  m->addAction( tr( "Restore Default" ), this, SLOT( on_pbnLoadDefaultStyle_clicked() ) );
+  m->addAction( tr( "Save As Default" ), this, SLOT( saveDefaultStyle_clicked() ) );
+  m->addAction( tr( "Restore Default" ), this, SLOT( loadDefaultStyle_clicked() ) );
   b->setMenu( m );
   connect( m, SIGNAL( aboutToShow() ), this, SLOT( aboutToShowStyleMenu() ) );
   buttonBox->addButton( b, QDialogButtonBox::ResetRole );
@@ -141,7 +149,7 @@ QgsRasterLayerProperties::QgsRasterLayerProperties( QgsMapLayer* lyr, QgsMapCanv
 
   pbnAddValuesManually->setIcon( QgsApplication::getThemeIcon( "/mActionSignPlus.png" ) );
   pbnAddValuesFromDisplay->setIcon( QgsApplication::getThemeIcon( "/mActionContextHelp.png" ) );
-  pbnRemoveSelectedRow->setIcon( QgsApplication::getThemeIcon( "/mActionSignMinus.png" ) );
+  pbnRemoveSelectedRow->setIcon( QgsApplication::getThemeIcon( "/symbologyRemove.png" ) );
   pbnDefaultValues->setIcon( QgsApplication::getThemeIcon( "/mActionOpenTable.png" ) );
   pbnImportTransparentPixelValues->setIcon( QgsApplication::getThemeIcon( "/mActionFileOpen.svg" ) );
   pbnExportTransparentPixelValues->setIcon( QgsApplication::getThemeIcon( "/mActionFileSave.svg" ) );
@@ -165,7 +173,7 @@ QgsRasterLayerProperties::QgsRasterLayerProperties( QgsMapLayer* lyr, QgsMapCanv
   QgsRasterDataProvider* provider = mRasterLayer->dataProvider();
 
   // Only do pyramids if dealing directly with GDAL.
-  if ( provider->capabilities() & QgsRasterDataProvider::BuildPyramids )
+  if ( provider && provider->capabilities() & QgsRasterDataProvider::BuildPyramids )
   {
     // initialize resampling methods
     cboResamplingMethod->clear();
@@ -205,7 +213,7 @@ QgsRasterLayerProperties::QgsRasterLayerProperties( QgsMapLayer* lyr, QgsMapCanv
   // We can calculate histogram for all data sources but estimated only if
   // size is unknown - could also be enabled if well supported (estimated histogram
   // and and let user know that it is estimated)
-  if ( !( provider->capabilities() & QgsRasterDataProvider::Size ) )
+  if ( !provider || !( provider->capabilities() & QgsRasterDataProvider::Size ) )
   {
     // disable Histogram tab completely
     mOptsPage_Histogram->setEnabled( false );
@@ -544,7 +552,9 @@ void QgsRasterLayerProperties::setRendererWidget( const QString& rendererName )
       }
     }
   }
-  delete oldWidget;
+
+  if ( mRendererWidget != oldWidget )
+    delete oldWidget;
 
   if ( mHistogramWidget )
   {
@@ -874,43 +884,36 @@ void QgsRasterLayerProperties::apply()
   // pixmapLegend->repaint();
 
   QgsRasterResampleFilter* resampleFilter = mRasterLayer->resampleFilter();
-
-  QgsRasterResampler* zoomedInResampler = 0;
-  QString zoomedInResamplingMethod = mZoomedInResamplingComboBox->currentText();
-  if ( zoomedInResamplingMethod == tr( "Bilinear" ) )
-  {
-    zoomedInResampler = new QgsBilinearRasterResampler();
-  }
-  else if ( zoomedInResamplingMethod == tr( "Cubic" ) )
-  {
-    zoomedInResampler = new QgsCubicRasterResampler();
-  }
-
   if ( resampleFilter )
   {
+    QgsRasterResampler *zoomedInResampler = 0;
+    QString zoomedInResamplingMethod = mZoomedInResamplingComboBox->currentText();
+    if ( zoomedInResamplingMethod == tr( "Bilinear" ) )
+    {
+      zoomedInResampler = new QgsBilinearRasterResampler();
+    }
+    else if ( zoomedInResamplingMethod == tr( "Cubic" ) )
+    {
+      zoomedInResampler = new QgsCubicRasterResampler();
+    }
+
     resampleFilter->setZoomedInResampler( zoomedInResampler );
-  }
 
-  //raster resampling
-  QgsRasterResampler* zoomedOutResampler = 0;
-  QString zoomedOutResamplingMethod = mZoomedOutResamplingComboBox->currentText();
-  if ( zoomedOutResamplingMethod == tr( "Average" ) )
-  {
-    zoomedOutResampler = new QgsBilinearRasterResampler();
-  }
+    //raster resampling
+    QgsRasterResampler *zoomedOutResampler = 0;
+    QString zoomedOutResamplingMethod = mZoomedOutResamplingComboBox->currentText();
+    if ( zoomedOutResamplingMethod == tr( "Average" ) )
+    {
+      zoomedOutResampler = new QgsBilinearRasterResampler();
+    }
 
-  if ( resampleFilter )
-  {
     resampleFilter->setZoomedOutResampler( zoomedOutResampler );
-  }
 
-  if ( resampleFilter )
-  {
     resampleFilter->setMaxOversampling( mMaximumOversamplingSpinBox->value() );
   }
 
   // Hue and saturation controls
-  QgsHueSaturationFilter* hueSaturationFilter = mRasterLayer->hueSaturationFilter();
+  QgsHueSaturationFilter *hueSaturationFilter = mRasterLayer->hueSaturationFilter();
   if ( hueSaturationFilter )
   {
     hueSaturationFilter->setSaturation( sliderSaturation->value() );
@@ -1633,7 +1636,7 @@ QLinearGradient QgsRasterLayerProperties::highlightGradient()
 // Next four methods for saving and restoring qml style state
 //
 //
-void QgsRasterLayerProperties::on_pbnLoadDefaultStyle_clicked()
+void QgsRasterLayerProperties::loadDefaultStyle_clicked()
 {
   bool defaultLoadedFlag = false;
   QString myMessage = mRasterLayer->loadDefaultStyle( defaultLoadedFlag );
@@ -1652,7 +1655,7 @@ void QgsRasterLayerProperties::on_pbnLoadDefaultStyle_clicked()
   }
 }
 
-void QgsRasterLayerProperties::on_pbnSaveDefaultStyle_clicked()
+void QgsRasterLayerProperties::saveDefaultStyle_clicked()
 {
 
   apply(); // make sure the style to save is uptodate
@@ -1673,7 +1676,7 @@ void QgsRasterLayerProperties::on_pbnSaveDefaultStyle_clicked()
 }
 
 
-void QgsRasterLayerProperties::on_pbnLoadStyle_clicked()
+void QgsRasterLayerProperties::loadStyle_clicked()
 {
   QSettings settings;
   QString lastUsedDir = settings.value( "style/lastStyleDir", "." ).toString();
@@ -1704,7 +1707,7 @@ void QgsRasterLayerProperties::on_pbnLoadStyle_clicked()
 }
 
 
-void QgsRasterLayerProperties::on_pbnSaveStyleAs_clicked()
+void QgsRasterLayerProperties::saveStyleAs_clicked()
 {
   QSettings settings;
   QString lastUsedDir = settings.value( "style/lastStyleDir", "." ).toString();

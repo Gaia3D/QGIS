@@ -195,7 +195,7 @@ QVariant QgsSymbolV2LegendNode::data( int role ) const
         pix.fill( Qt::transparent );
       }
 
-      if ( mItem.level() == 0 )
+      if ( mItem.level() == 0 || ( model() && model()->testFlag( QgsLayerTreeModel::ShowLegendAsTree ) ) )
         mPixmap = pix;
       else
       {
@@ -228,6 +228,10 @@ QVariant QgsSymbolV2LegendNode::data( int role ) const
   else if ( role == SymbolV2LegacyRuleKeyRole )
   {
     return QVariant::fromValue<void*>( mItem.legacyRuleKey() );
+  }
+  else if ( role == ParentRuleKeyRole )
+  {
+    return mItem.parentRuleKey();
   }
 
   return QVariant();
@@ -388,19 +392,22 @@ void QgsSymbolV2LegendNode::updateLabel()
 // -------------------------------------------------------------------------
 
 
-QgsSimpleLegendNode::QgsSimpleLegendNode( QgsLayerTreeLayer* nodeLayer, const QString& label, const QIcon& icon, QObject* parent )
+QgsSimpleLegendNode::QgsSimpleLegendNode( QgsLayerTreeLayer* nodeLayer, const QString& label, const QIcon& icon, QObject* parent, const QString& key )
     : QgsLayerTreeModelLegendNode( nodeLayer, parent )
     , mLabel( label )
     , mIcon( icon )
+    , mKey( key )
 {
 }
 
 QVariant QgsSimpleLegendNode::data( int role ) const
 {
   if ( role == Qt::DisplayRole || role == Qt::EditRole )
-    return mLabel;
+    return mUserLabel.isEmpty() ? mLabel : mUserLabel;
   else if ( role == Qt::DecorationRole )
     return mIcon;
+  else if ( role == RuleKeyRole && !mKey.isEmpty() )
+    return mKey;
   else
     return QVariant();
 }
@@ -472,7 +479,7 @@ QSizeF QgsRasterSymbolLegendNode::drawSymbol( const QgsLegendSettings& settings,
     if ( QgsRasterLayer* rasterLayer = dynamic_cast<QgsRasterLayer*>( layerNode()->layer() ) )
     {
       if ( QgsRasterRenderer* rasterRenderer = rasterLayer->renderer() )
-        itemColor.setAlpha( rasterRenderer ? rasterRenderer->opacity() * 255.0 : 255 );
+        itemColor.setAlpha( rasterRenderer->opacity() * 255.0 );
     }
 
     ctx->painter->setBrush( itemColor );

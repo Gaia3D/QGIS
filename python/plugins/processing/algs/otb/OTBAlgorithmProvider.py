@@ -45,7 +45,7 @@ class OTBAlgorithmProvider(AlgorithmProvider):
 
 
     def getDescription(self):
-        return "Orfeo Toolbox (Image analysis)"
+        return self.tr("Orfeo Toolbox (Image analysis)")
 
     def getName(self):
         return "otb"
@@ -69,7 +69,7 @@ class OTBAlgorithmProvider(AlgorithmProvider):
                     else:
                         ProcessingLog.addToLog(ProcessingLog.LOG_ERROR,
                             self.tr("Could not open OTB algorithm: %s" % descriptionFile))
-                except Exception,e:
+                except Exception, e:
                     ProcessingLog.addToLog(ProcessingLog.LOG_ERROR,
                         self.tr("Could not open OTB algorithm: %s" % descriptionFile))
 

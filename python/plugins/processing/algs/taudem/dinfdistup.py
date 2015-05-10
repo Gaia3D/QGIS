@@ -27,21 +27,17 @@ __revision__ = '$Format:%H$'
 
 import os
 
-from PyQt4.QtGui import *
+from PyQt4.QtGui import QIcon
 
 from processing.core.GeoAlgorithm import GeoAlgorithm
-from processing.core.ProcessingLog import ProcessingLog
 from processing.core.ProcessingConfig import ProcessingConfig
-from processing.core.GeoAlgorithmExecutionException import \
-    GeoAlgorithmExecutionException
+from processing.core.GeoAlgorithmExecutionException import GeoAlgorithmExecutionException
 
 from processing.core.parameters import ParameterRaster
 from processing.core.parameters import ParameterNumber
 from processing.core.parameters import ParameterBoolean
 from processing.core.parameters import ParameterSelection
 from processing.core.outputs import OutputRaster
-
-from processing.tools.system import *
 
 from TauDEMUtils import TauDEMUtils
 
@@ -67,7 +63,7 @@ class DinfDistUp(GeoAlgorithm):
         1: 'h',
         2: 'v',
         3: 's',
-        }
+    }
 
     def getIcon(self):
         return QIcon(os.path.dirname(__file__) + '/../../images/taudem.png')
@@ -119,7 +115,7 @@ class DinfDistUp(GeoAlgorithm):
             self.DIST_METHOD)]))
         commands.append('-thresh')
         commands.append(str(self.getParameterValue(self.THRESHOLD)))
-        if str(self.getParameterValue(self.EDGE_CONTAM)).lower() == 'false':
+        if not self.getParameterValue(self.EDGE_CONTAM):
             commands.append('-nc')
         commands.append('-du')
         commands.append(self.getOutputValue(self.DIST_UP_GRID))

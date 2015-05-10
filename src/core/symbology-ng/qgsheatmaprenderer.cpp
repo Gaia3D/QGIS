@@ -25,18 +25,24 @@
 #include "qgsogcutils.h"
 #include "qgsvectorcolorrampv2.h"
 #include "qgsrendercontext.h"
+#include "qgspainteffect.h"
 
 #include <QDomDocument>
 #include <QDomElement>
 
 QgsHeatmapRenderer::QgsHeatmapRenderer( )
     : QgsFeatureRendererV2( "heatmapRenderer" )
+    , mCalculatedMaxValue( 0 )
     , mRadius( 10 )
+    , mRadiusPixels( 0 )
+    , mRadiusSquared( 0 )
     , mRadiusUnit( QgsSymbolV2::MM )
+    , mWeightAttrNum( -1 )
     , mGradientRamp( 0 )
     , mInvertRamp( false )
     , mExplicitMax( 0.0 )
-    , mRenderQuality( 1 )
+    , mRenderQuality( 3 )
+    , mFeaturesRendered( 0 )
 {
   mGradientRamp = new QgsVectorGradientColorRampV2( QColor( 255, 255, 255 ), QColor( 0, 0, 0 ) );
 
@@ -102,8 +108,7 @@ bool QgsHeatmapRenderer::renderFeature( QgsFeature& feature, QgsRenderContext& c
     return false;
   }
 
-  QgsGeometry* geom = feature.geometry();
-  if ( geom->type() != QGis::Point )
+  if ( !feature.geometry() || feature.geometry()->type() != QGis::Point )
   {
     //can only render point type
     return false;
@@ -134,8 +139,28 @@ bool QgsHeatmapRenderer::renderFeature( QgsFeature& feature, QgsRenderContext& c
   int width = context.painter()->device()->width() / mRenderQuality;
   int height = context.painter()->device()->height() / mRenderQuality;
 
+  //transform geometry if required
+  QgsGeometry* geom;
+  bool createdGeom = false;
+  const QgsCoordinateTransform* xform = context.coordinateTransform();
+  if ( xform )
+  {
+    geom = new QgsGeometry( *feature.geometry() );
+    createdGeom = true;
+    geom->transform( *xform );
+  }
+  else
+  {
+    geom = feature.geometry();
+  }
+
   //convert point to multipoint
   QgsMultiPoint multiPoint = convertToMultipoint( geom );
+  if ( createdGeom )
+  {
+    delete geom;
+  }
+  geom = 0;
 
   //loop through all points in multipoint
   for ( QgsMultiPoint::const_iterator pointIt = multiPoint.constBegin(); pointIt != multiPoint.constEnd(); ++pointIt )
@@ -278,6 +303,7 @@ QgsFeatureRendererV2* QgsHeatmapRenderer::clone() const
   newRenderer->setMaximumValue( mExplicitMax );
   newRenderer->setRenderQuality( mRenderQuality );
   newRenderer->setWeightExpression( mWeightExpressionString );
+  copyPaintEffect( newRenderer );
 
   return newRenderer;
 }
@@ -341,6 +367,9 @@ QDomElement QgsHeatmapRenderer::save( QDomDocument& doc )
     rendererElem.appendChild( colorRampElem );
   }
   rendererElem.setAttribute( "invert_ramp", QString::number( mInvertRamp ) );
+
+  if ( mPaintEffect )
+    mPaintEffect->saveProperties( doc, rendererElem );
 
   return rendererElem;
 }

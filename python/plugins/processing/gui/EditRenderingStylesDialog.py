@@ -25,8 +25,8 @@ __copyright__ = '(C) 2012, Victor Olaya'
 
 __revision__ = '$Format:%H$'
 
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt4.QtCore import Qt
+from PyQt4.QtGui import QDialog, QHeaderView, QTableWidgetItem
 
 from processing.gui.RenderingStyles import RenderingStyles
 from processing.gui.RenderingStyleFilePanel import RenderingStyleFilePanel
@@ -42,7 +42,7 @@ class EditRenderingStylesDialog(QDialog, Ui_DlgRenderingStyles):
         QDialog.__init__(self)
         self.setupUi(self)
 
-        self.alg = alg
+        self.alg = alg.getCopy()
 
         self.tblStyles.horizontalHeader().setResizeMode(QHeaderView.Stretch)
         self.setWindowTitle(self.alg.name)
@@ -64,7 +64,7 @@ class EditRenderingStylesDialog(QDialog, Ui_DlgRenderingStyles):
             if isinstance(output, (OutputVector, OutputRaster)):
                 if not output.hidden:
                     item = QTableWidgetItem(output.description + '<'
-                            + output.__module__.split('.')[-1] + '>')
+                            + output.__class__.__name__ + '>')
                     item.setFlags(Qt.ItemIsEnabled)
                     self.tblStyles.setItem(i, 0, item)
                     item = RenderingStyleFilePanel()

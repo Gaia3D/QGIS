@@ -31,8 +31,9 @@ from processing.core.outputs import OutputRaster
 from processing.core.parameters import ParameterBoolean
 from processing.core.parameters import ParameterMultipleInput
 from processing.core.parameters import ParameterSelection
-from processing.tools.system import *
 from processing.algs.gdal.GdalUtils import GdalUtils
+from processing.tools.system import tempFolder
+
 import os
 
 class buildvrt(GdalAlgorithm):
@@ -56,9 +57,9 @@ class buildvrt(GdalAlgorithm):
             self.tr('Layer stack'), True))
         self.addParameter(ParameterBoolean(self.PROJ_DIFFERENCE,
             self.tr('Allow projection difference'), False))
-        self.addOutput(OutputRaster(buildvrt.OUTPUT, self.tr('Output layer')))
+        self.addOutput(OutputRaster(buildvrt.OUTPUT, self.tr('Virtual')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = []
         arguments.append('-resolution')
         arguments.append(self.RESOLUTION_OPTIONS[self.getParameterValue(self.RESOLUTION)])
@@ -83,4 +84,4 @@ class buildvrt(GdalAlgorithm):
         arguments.append(out)
 
 
-        GdalUtils.runGdal(['gdalbuildvrt', GdalUtils.escapeAndJoin(arguments)], progress)
+        return ['gdalbuildvrt', GdalUtils.escapeAndJoin(arguments)]

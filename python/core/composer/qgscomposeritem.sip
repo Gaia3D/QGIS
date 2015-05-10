@@ -143,10 +143,10 @@ class QgsComposerItem : QgsComposerObject, QGraphicsRectItem
      */
     enum ZoomMode
     {
-      Zoom = 0, /*< Zoom to center of content */
-      ZoomRecenter, /*< Zoom and recenter content to point */
-      ZoomToPoint, /*< Zoom while maintaining relative position of point */
-      NoZoom /*< No zoom */
+      Zoom = 0, /*!< Zoom to center of content */
+      ZoomRecenter, /*!< Zoom and recenter content to point */
+      ZoomToPoint, /*!< Zoom while maintaining relative position of point */
+      NoZoom /*!< No zoom */
     };
 
     /**Constructor
@@ -507,7 +507,7 @@ class QgsComposerItem : QgsComposerObject, QGraphicsRectItem
     /**Returns a font where size is in pixel and font size is upscaled with FONT_WORKAROUND_SCALE
      * @deprecated use QgsComposerUtils::scaledFontPixelSize instead
      */
-    QFont scaledFontPixelSize( const QFont& font ) const;
+    QFont scaledFontPixelSize( const QFont& font ) const /Deprecated/;
 
     /**Locks / unlocks the item position for mouse drags
      * @param lock set to true to prevent item movement and resizing via the mouse
@@ -672,10 +672,10 @@ class QgsComposerItem : QgsComposerObject, QGraphicsRectItem
     /**Draws arrowhead
      * @deprecated use QgsComposerUtils::drawArrowHead instead
      */
-    void drawArrowHead( QPainter* p, double x, double y, double angle, double arrowHeadWidth ) const;
+    void drawArrowHead( QPainter* p, double x, double y, double angle, double arrowHeadWidth ) const /Deprecated/;
 
     /**Returns angle of the line from p1 to p2 (clockwise, starting at N)*/
-    double angle( const QPointF& p1, const QPointF& p2 ) const;
+    double angle( const QPointF& p1, const QPointF& p2 ) const /Deprecated/;
 
     /**Returns the current (zoom level dependent) tolerance to decide if mouse position is close enough to the
     item border for resizing*/

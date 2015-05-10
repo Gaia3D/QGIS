@@ -145,47 +145,59 @@ double QgsComposerMapGridStack::maxGridExtension() const
 
 QgsComposerMapGrid::QgsComposerMapGrid( const QString& name, QgsComposerMap* map )
     : QgsComposerMapItem( name, map )
-    , mTransformDirty( true )
-    , mGridStyle( QgsComposerMapGrid::Solid )
-    , mGridIntervalX( 0.0 )
-    , mGridIntervalY( 0.0 )
-    , mGridOffsetX( 0.0 )
-    , mGridOffsetY( 0.0 )
-    , mGridAnnotationFontColor( Qt::black )
-    , mGridAnnotationPrecision( 3 )
-    , mShowGridAnnotation( false )
-    , mLeftGridAnnotationDisplay( QgsComposerMapGrid::ShowAll )
-    , mRightGridAnnotationDisplay( QgsComposerMapGrid::ShowAll )
-    , mTopGridAnnotationDisplay( QgsComposerMapGrid::ShowAll )
-    , mBottomGridAnnotationDisplay( QgsComposerMapGrid::ShowAll )
-    , mLeftGridAnnotationPosition( QgsComposerMapGrid::OutsideMapFrame )
-    , mRightGridAnnotationPosition( QgsComposerMapGrid::OutsideMapFrame )
-    , mTopGridAnnotationPosition( QgsComposerMapGrid::OutsideMapFrame )
-    , mBottomGridAnnotationPosition( QgsComposerMapGrid::OutsideMapFrame )
-    , mAnnotationFrameDistance( 1.0 )
-    , mLeftGridAnnotationDirection( QgsComposerMapGrid::Horizontal )
-    , mRightGridAnnotationDirection( QgsComposerMapGrid::Horizontal )
-    , mTopGridAnnotationDirection( QgsComposerMapGrid::Horizontal )
-    , mBottomGridAnnotationDirection( QgsComposerMapGrid::Horizontal )
-    , mGridAnnotationFormat( QgsComposerMapGrid::Decimal )
-    , mGridFrameStyle( QgsComposerMapGrid::NoFrame )
-    , mGridFrameSides( QgsComposerMapGrid::FrameLeft | QgsComposerMapGrid::FrameRight |
-                       QgsComposerMapGrid::FrameTop | QgsComposerMapGrid::FrameBottom )
-    , mGridFrameWidth( 2.0 )
-    , mGridFramePenThickness( 0.3 )
-    , mGridFramePenColor( QColor( 0, 0, 0 ) )
-    , mGridFrameFillColor1( Qt::white )
-    , mGridFrameFillColor2( Qt::black )
-    , mCrossLength( 3 )
-    , mLeftFrameDivisions( QgsComposerMapGrid::ShowAll )
-    , mRightFrameDivisions( QgsComposerMapGrid::ShowAll )
-    , mTopFrameDivisions( QgsComposerMapGrid::ShowAll )
-    , mBottomFrameDivisions( QgsComposerMapGrid::ShowAll )
-    , mGridLineSymbol( 0 )
-    , mGridMarkerSymbol( 0 )
-    , mGridUnit( MapUnit )
-    , mBlendMode( QPainter::CompositionMode_SourceOver )
 {
+  init();
+}
+
+QgsComposerMapGrid::QgsComposerMapGrid()
+    : QgsComposerMapItem( QString(), 0 )
+{
+  init();
+}
+
+void QgsComposerMapGrid::init()
+{
+  mTransformDirty = true;
+  mGridStyle = QgsComposerMapGrid::Solid;
+  mGridIntervalX = 0.0;
+  mGridIntervalY = 0.0;
+  mGridOffsetX = 0.0;
+  mGridOffsetY = 0.0;
+  mGridAnnotationFontColor = Qt::black;
+  mGridAnnotationPrecision = 3;
+  mShowGridAnnotation = false;
+  mLeftGridAnnotationDisplay = QgsComposerMapGrid::ShowAll;
+  mRightGridAnnotationDisplay = QgsComposerMapGrid::ShowAll;
+  mTopGridAnnotationDisplay = QgsComposerMapGrid::ShowAll;
+  mBottomGridAnnotationDisplay = QgsComposerMapGrid::ShowAll;
+  mLeftGridAnnotationPosition = QgsComposerMapGrid::OutsideMapFrame;
+  mRightGridAnnotationPosition = QgsComposerMapGrid::OutsideMapFrame;
+  mTopGridAnnotationPosition = QgsComposerMapGrid::OutsideMapFrame;
+  mBottomGridAnnotationPosition = QgsComposerMapGrid::OutsideMapFrame;
+  mAnnotationFrameDistance = 1.0;
+  mLeftGridAnnotationDirection = QgsComposerMapGrid::Horizontal;
+  mRightGridAnnotationDirection = QgsComposerMapGrid::Horizontal;
+  mTopGridAnnotationDirection = QgsComposerMapGrid::Horizontal;
+  mBottomGridAnnotationDirection = QgsComposerMapGrid::Horizontal;
+  mGridAnnotationFormat = QgsComposerMapGrid::Decimal;
+  mGridFrameStyle = QgsComposerMapGrid::NoFrame;
+  mGridFrameSides = QgsComposerMapGrid::FrameLeft | QgsComposerMapGrid::FrameRight |
+                    QgsComposerMapGrid::FrameTop | QgsComposerMapGrid::FrameBottom;
+  mGridFrameWidth = 2.0;
+  mGridFramePenThickness = 0.3;
+  mGridFramePenColor = QColor( 0, 0, 0 );
+  mGridFrameFillColor1 = Qt::white;
+  mGridFrameFillColor2 = Qt::black;
+  mCrossLength = 3;
+  mLeftFrameDivisions = QgsComposerMapGrid::ShowAll;
+  mRightFrameDivisions = QgsComposerMapGrid::ShowAll;
+  mTopFrameDivisions = QgsComposerMapGrid::ShowAll;
+  mBottomFrameDivisions = QgsComposerMapGrid::ShowAll;
+  mGridLineSymbol = 0;
+  mGridMarkerSymbol = 0;
+  mGridUnit = MapUnit;
+  mBlendMode = QPainter::CompositionMode_SourceOver;
+
   //get default composer font from settings
   QSettings settings;
   QString defaultFontString = settings.value( "/Composer/defaultFont" ).toString();
@@ -196,11 +208,6 @@ QgsComposerMapGrid::QgsComposerMapGrid( const QString& name, QgsComposerMap* map
 
   createDefaultGridLineSymbol();
   createDefaultGridMarkerSymbol();
-}
-
-QgsComposerMapGrid::QgsComposerMapGrid()
-    : QgsComposerMapItem( QString(), 0 )
-{
 }
 
 QgsComposerMapGrid::~QgsComposerMapGrid()
@@ -348,7 +355,7 @@ bool QgsComposerMapGrid::readXML( const QDomElement& itemElem, const QDomDocumen
     if ( !symbolElem.isNull() )
     {
       delete mGridLineSymbol;
-      mGridLineSymbol = dynamic_cast<QgsLineSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( symbolElem ) );
+      mGridLineSymbol = QgsSymbolLayerV2Utils::loadSymbol<QgsLineSymbolV2>( symbolElem );
     }
   }
   else
@@ -368,7 +375,7 @@ bool QgsComposerMapGrid::readXML( const QDomElement& itemElem, const QDomDocumen
     if ( !symbolElem.isNull() )
     {
       delete mGridMarkerSymbol;
-      mGridMarkerSymbol = dynamic_cast<QgsMarkerSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( symbolElem ) );
+      mGridMarkerSymbol = QgsSymbolLayerV2Utils::loadSymbol<QgsMarkerSymbolV2>( symbolElem );
     }
   }
 
@@ -1831,7 +1838,7 @@ bool QgsComposerMapGrid::shouldShowDivisionForDisplayMode( const QgsComposerMapG
          || ( mode == QgsComposerMapGrid::LongitudeOnly && coordinate == QgsComposerMapGrid::Longitude );
 }
 
-bool sortByDistance( const QPair<double, QgsComposerMapGrid::BorderSide>& a, const QPair<double, QgsComposerMapGrid::BorderSide>& b )
+bool sortByDistance( const QPair<qreal , QgsComposerMapGrid::BorderSide>& a, const QPair<qreal , QgsComposerMapGrid::BorderSide>& b )
 {
   return a.first < b.first;
 }
@@ -1878,7 +1885,7 @@ QgsComposerMapGrid::BorderSide QgsComposerMapGrid::borderForLineCoord( const QPo
   }
 
   //otherwise, guess side based on closest map side to point
-  QList< QPair<double, QgsComposerMapGrid::BorderSide > > distanceToSide;
+  QList< QPair<qreal, QgsComposerMapGrid::BorderSide > > distanceToSide;
   distanceToSide << qMakePair( p.x(), QgsComposerMapGrid::Left );
   distanceToSide << qMakePair( mComposerMap->rect().width() - p.x(), QgsComposerMapGrid::Right );
   distanceToSide << qMakePair( p.y(), QgsComposerMapGrid::Top );

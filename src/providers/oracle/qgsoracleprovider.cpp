@@ -461,7 +461,7 @@ QString QgsOracleUtils::whereClause( QgsFeatureIds featureIds, const QgsFields &
   {
     whereClauses << whereClause( featureId, fields, primaryKeyType, primaryKeyAttrs, sharedData );
   }
-  return whereClauses.join( " AND " );
+  return whereClauses.isEmpty() ? "" : whereClauses.join( " OR " ).prepend( "(" ).append( ")" );
 }
 
 
@@ -694,9 +694,10 @@ bool QgsOracleProvider::loadFields()
 
       if ( !mHasSpatialIndex )
       {
-        mHasSpatialIndex = qry.exec( QString( "SELECT %2 FROM %1 WHERE sdo_filter(%2,mdsys.sdo_geometry(2003,NULL,NULL,mdsys.sdo_elem_info_array(1,1003,3),mdsys.sdo_ordinate_array(1,1,-1,-1)))='TRUE'" )
+        mHasSpatialIndex = qry.exec( QString( "SELECT %2 FROM %1 WHERE sdo_filter(%2,mdsys.sdo_geometry(2003,%3,NULL,mdsys.sdo_elem_info_array(1,1003,3),mdsys.sdo_ordinate_array(1,1,-1,-1)))='TRUE'" )
                                      .arg( mQuery )
-                                     .arg( quotedIdentifier( mGeometryColumn ) ) );
+                                     .arg( quotedIdentifier( mGeometryColumn ) )
+                                     .arg( mSrid < 1 ? "NULL" : QString::number( mSrid ) ) );
         if ( !mHasSpatialIndex )
         {
           QgsMessageLog::logMessage( tr( "No spatial index on column %1.%2.%3 found - expect poor performance." )
@@ -1570,12 +1571,15 @@ bool QgsOracleProvider::deleteAttributes( const QgsAttributeIds& ids )
   return returnvalue;
 }
 
-bool QgsOracleProvider::changeAttributeValues( const QgsChangedAttributesMap & attr_map )
+bool QgsOracleProvider::changeAttributeValues( const QgsChangedAttributesMap &attr_map )
 {
   bool returnvalue = true;
 
   if ( mIsQuery )
     return false;
+
+  if ( attr_map.isEmpty() )
+    return true;
 
   QSqlDatabase db( *mConnection );
 
@@ -1597,9 +1601,12 @@ bool QgsOracleProvider::changeAttributeValues( const QgsChangedAttributesMap & a
       if ( FID_IS_NEW( fid ) )
         continue;
 
+      const QgsAttributeMap& attrs = iter.value();
+      if ( attrs.isEmpty() )
+        continue;
+
       QString sql = QString( "UPDATE %1 SET " ).arg( mQuery );
 
-      const QgsAttributeMap& attrs = iter.value();
       bool pkChanged = false;
 
       // cycle through the changed attributes of the feature

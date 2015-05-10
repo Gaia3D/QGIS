@@ -110,7 +110,7 @@ QgsMapLayer *TestZipLayer::getLayer( QString myPath, QString myName, QString myP
   }
   else if ( myProviderKey == "gdal" )
   {
-    myLayer = new QgsRasterLayer( myPath, myName, "gdal" );
+    myLayer = new QgsRasterLayer( myPath, myName, QString( "gdal" ) );
   }
   // item should not have other provider key, but if it does will return NULL
 
@@ -214,7 +214,7 @@ bool TestZipLayer::testZipItem( QString myFileName, QString myChildName, QString
       }
       else
       {
-        QWARN( QString( "Invalid layer %1" ).arg( layerItem->path() ).toLocal8Bit().data() );
+        QWARN( QString( "Invalid layer %1" ).arg( layerItem ? layerItem->path() : "(null)" ).toLocal8Bit().data() );
         break;
       }
     }

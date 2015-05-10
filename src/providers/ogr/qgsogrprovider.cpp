@@ -266,8 +266,10 @@ QgsOgrProvider::QgsOgrProvider( QString const & uri )
     , mOgrGeometryTypeFilter( wkbUnknown )
     , ogrDriver( 0 )
     , valid( false )
+    , geomType( wkbUnknown )
     , featuresCounted( -1 )
     , mDataModified( false )
+    , mWriteAccess( false )
 {
   QgsCPLErrorHandler handler;
 
@@ -364,11 +366,20 @@ QgsOgrProvider::QgsOgrProvider( QString const & uri )
   QgsDebugMsg( "mSubsetString: " + mSubsetString );
   CPLSetConfigOption( "OGR_ORGANIZE_POLYGONS", "ONLY_CCW" );  // "SKIP" returns MULTIPOLYGONs for multiringed POLYGONs
 
+  if ( mFilePath.startsWith( "MySQL:" ) && !mLayerName.isEmpty() )
+  {
+    mFilePath += ",tables=" + mLayerName;
+  }
+
   // first try to open in update mode (unless specified otherwise)
   if ( !openReadOnly )
     ogrDataSource = OGROpen( TO8F( mFilePath ), true, &ogrDriver );
 
-  if ( !ogrDataSource )
+  if ( ogrDataSource )
+  {
+    mWriteAccess = true;
+  }
+  else
   {
     QgsDebugMsg( "OGR failed to opened in update mode, trying in read-only mode" );
 
@@ -644,7 +655,6 @@ QStringList QgsOgrProvider::subLayers() const
       OGRFeatureH fet;
       while (( fet = OGR_L_GetNextFeature( layer ) ) )
       {
-        if ( !fet ) continue;
         OGRGeometryH geom = OGR_F_GetGeometryRef( fet );
         if ( geom )
         {
@@ -1171,7 +1181,7 @@ bool QgsOgrProvider::deleteAttributes( const QgsAttributeIds &attributes )
 }
 
 
-bool QgsOgrProvider::changeAttributeValues( const QgsChangedAttributesMap & attr_map )
+bool QgsOgrProvider::changeAttributeValues( const QgsChangedAttributesMap &attr_map )
 {
   if ( attr_map.isEmpty() )
     return true;
@@ -1190,15 +1200,16 @@ bool QgsOgrProvider::changeAttributeValues( const QgsChangedAttributesMap & attr
       continue;
     }
 
-    OGRFeatureH of = OGR_L_GetFeature( ogrLayer, static_cast<long>( FID_TO_NUMBER( fid ) ) );
+    const QgsAttributeMap &attr = it.value();
+    if ( attr.isEmpty() )
+      continue;
 
+    OGRFeatureH of = OGR_L_GetFeature( ogrLayer, static_cast<long>( FID_TO_NUMBER( fid ) ) );
     if ( !of )
     {
       pushError( tr( "Feature %1 for attribute update not found." ).arg( fid ) );
       continue;
     }
-
-    const QgsAttributeMap& attr = it.value();
 
     char *oldlocale = setlocale( LC_NUMERIC, NULL );
     if ( oldlocale )
@@ -1446,19 +1457,19 @@ int QgsOgrProvider::capabilities() const
       ability |= QgsVectorDataProvider::SelectAtId | QgsVectorDataProvider::SelectGeometryAtId;
     }
 
-    if ( OGR_L_TestCapability( ogrLayer, "SequentialWrite" ) )
+    if ( mWriteAccess && OGR_L_TestCapability( ogrLayer, "SequentialWrite" ) )
       // true if the CreateFeature() method works for this layer.
     {
       ability |= QgsVectorDataProvider::AddFeatures;
     }
 
-    if ( OGR_L_TestCapability( ogrLayer, "DeleteFeature" ) )
+    if ( mWriteAccess && OGR_L_TestCapability( ogrLayer, "DeleteFeature" ) )
       // true if this layer can delete its features
     {
       ability |= DeleteFeatures;
     }
 
-    if ( OGR_L_TestCapability( ogrLayer, "RandomWrite" ) )
+    if ( mWriteAccess && OGR_L_TestCapability( ogrLayer, "RandomWrite" ) )
       // true if the SetFeature() method is operational on this layer.
     {
       // TODO According to http://shapelib.maptools.org/ (Shapefile C Library V1.2)
@@ -1506,12 +1517,12 @@ int QgsOgrProvider::capabilities() const
     }
 #endif
 
-    if ( OGR_L_TestCapability( ogrLayer, "CreateField" ) )
+    if ( mWriteAccess && OGR_L_TestCapability( ogrLayer, "CreateField" ) )
     {
       ability |= AddAttributes;
     }
 
-    if ( OGR_L_TestCapability( ogrLayer, "DeleteField" ) )
+    if ( mWriteAccess && OGR_L_TestCapability( ogrLayer, "DeleteField" ) )
     {
       ability |= DeleteAttributes;
     }
@@ -2495,7 +2506,6 @@ void QgsOgrProvider::recalculateFeatureCount()
     OGRFeatureH fet;
     while (( fet = OGR_L_GetNextFeature( ogrLayer ) ) )
     {
-      if ( !fet ) continue;
       OGRGeometryH geom = OGR_F_GetGeometryRef( fet );
       if ( geom )
       {

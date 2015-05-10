@@ -26,15 +26,12 @@ __copyright__ = '(C) 2013, Alexander Bruy'
 __revision__ = '$Format:%H$'
 
 
-from PyQt4.QtGui import *
-
 from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
 from processing.core.parameters import ParameterRaster
 from processing.core.parameters import ParameterBoolean
 from processing.core.parameters import ParameterNumber
 from processing.core.outputs import OutputRaster
 from processing.algs.gdal.GdalUtils import GdalUtils
-from processing.tools.system import *
 
 
 class hillshade(GdalAlgorithm):
@@ -71,9 +68,9 @@ class hillshade(GdalAlgorithm):
         self.addParameter(ParameterNumber(self.ALTITUDE,
             self.tr('Altitude of the light'), 0.0, 99999999.999999, 45.0))
 
-        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Output file')))
+        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Hillshade')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         arguments = ['hillshade']
         arguments.append(unicode(self.getParameterValue(self.INPUT)))
         arguments.append(unicode(self.getOutputValue(self.OUTPUT)))
@@ -96,5 +93,4 @@ class hillshade(GdalAlgorithm):
             arguments.append('-alg')
             arguments.append('ZevenbergenThorne')
 
-        GdalUtils.runGdal(['gdaldem',
-                          GdalUtils.escapeAndJoin(arguments)], progress)
+        return ['gdaldem', GdalUtils.escapeAndJoin(arguments)]

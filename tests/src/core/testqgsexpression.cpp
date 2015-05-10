@@ -17,6 +17,7 @@
 #include <QString>
 #include <QObject>
 #include <QtConcurrentMap>
+#include <QSharedPointer>
 
 #include <qgsapplication.h>
 //header for class being tested
@@ -144,6 +145,43 @@ class TestQgsExpression: public QObject
       QCOMPARE( v.toDouble(), 5.79 );
     }
 
+    void alias_data()
+    {
+      //test function aliases
+      QTest::addColumn<QString>( "string" );
+      QTest::addColumn<bool>( "evalError" );
+      QTest::addColumn<QString>( "dump" );
+      QTest::addColumn<QVariant>( "result" );
+
+      QTest::newRow( "toint alias" ) << "toint(3.2)" << false << "to_int(3.2)" << QVariant( 3 );
+      QTest::newRow( "int to double" ) << "toreal(3)" << false << "to_real(3)" << QVariant( 3. );
+      QTest::newRow( "int to text" ) << "tostring(6)" << false << "to_string(6)" << QVariant( "6" );
+    }
+
+    void alias()
+    {
+      QFETCH( QString, string );
+      QFETCH( bool, evalError );
+      QFETCH( QString, dump );
+      QFETCH( QVariant, result );
+
+      QgsExpression exp( string );
+      QCOMPARE( exp.hasParserError(), false );
+      if ( exp.hasParserError() )
+        qDebug() << exp.parserErrorString();
+
+      QVariant res = exp.evaluate();
+      if ( exp.hasEvalError() )
+        qDebug() << exp.evalErrorString();
+      if ( res.type() != result.type() )
+      {
+        qDebug() << "got " << res.typeName() << " instead of " << result.typeName();
+      }
+      QCOMPARE( exp.hasEvalError(), evalError );
+      QCOMPARE( res, result );
+      QCOMPARE( exp.dump(), dump );
+    }
+
     void evaluation_data()
     {
       QTest::addColumn<QString>( "string" );
@@ -259,6 +297,7 @@ class TestQgsExpression: public QObject
       QTest::newRow( "concat numbers" ) << "1 || 2" << false << QVariant( "12" );
 
       // math functions
+      QTest::newRow( "pi" ) << "pi()" << false << QVariant( M_PI );
       QTest::newRow( "sqrt" ) << "sqrt(16)" << false << QVariant( 4. );
       QTest::newRow( "abs(0.1)" ) << "abs(0.1)" << false << QVariant( 0.1 );
       QTest::newRow( "abs(0)" ) << "abs(0)" << false << QVariant( 0. );
@@ -793,7 +832,7 @@ class TestQgsExpression: public QObject
       QgsPolygon polygon;
       polygon << polygon_ring;
 
-      QTest::newRow( "geomFromWKT Point" ) << "geomFromWKT('" + QgsGeometry::fromPoint( point )->exportToWkt() + "')" << ( void* ) QgsGeometry::fromPoint( point ) << false;
+      QTest::newRow( "geomFromWKT Point" ) << "geom_from_wkt('" + QgsGeometry::fromPoint( point )->exportToWkt() + "')" << ( void* ) QgsGeometry::fromPoint( point ) << false;
       QTest::newRow( "geomFromWKT Line" ) << "geomFromWKT('" + QgsGeometry::fromPolyline( line )->exportToWkt() + "')" << ( void* ) QgsGeometry::fromPolyline( line ) << false;
       QTest::newRow( "geomFromWKT Polyline" ) << "geomFromWKT('" + QgsGeometry::fromPolyline( polyline )->exportToWkt() + "')" << ( void* ) QgsGeometry::fromPolyline( polyline ) << false;
       QTest::newRow( "geomFromWKT Polygon" ) << "geomFromWKT('" + QgsGeometry::fromPolygon( polygon )->exportToWkt() + "')" << ( void* ) QgsGeometry::fromPolygon( polygon ) << false;
@@ -867,8 +906,12 @@ class TestQgsExpression: public QObject
       QgsGeometry* tPolygon = QgsGeometry::fromPolygon( polygon );
       tPolygon->transform( t );
 
-      QTest::newRow( "transform Line" ) << "transform( geomFromWKT('" + QgsGeometry::fromPolyline( line )->exportToWkt() + "'), 'EPSG:4326', 'EPSG:3857' )" << ( void* ) tLine << false;
-      QTest::newRow( "transform Polygon" ) << "transform( geomFromWKT('" + QgsGeometry::fromPolygon( polygon )->exportToWkt() + "'), 'EPSG:4326', 'EPSG:3857' )" << ( void* ) tPolygon << false;
+      QgsGeometry* oLine = QgsGeometry::fromPolyline( line );
+      QgsGeometry* oPolygon = QgsGeometry::fromPolygon( polygon );
+      QTest::newRow( "transform Line" ) << "transform( geomFromWKT('" + oLine->exportToWkt() + "'), 'EPSG:4326', 'EPSG:3857' )" << ( void* ) tLine << false;
+      QTest::newRow( "transform Polygon" ) << "transform( geomFromWKT('" + oPolygon->exportToWkt() + "'), 'EPSG:4326', 'EPSG:3857' )" << ( void* ) tPolygon << false;
+      delete oLine;
+      delete oPolygon;
     }
 
     void eval_geometry_access_transform()
@@ -962,17 +1005,19 @@ class TestQgsExpression: public QObject
       QgsPolygon polygon;
       polygon << polygon_ring;
 
-      QgsGeometry* geom = QgsGeometry::fromPolygon( polygon );
+      QgsGeometry *geom;
 
+      geom = QgsGeometry::fromPolygon( polygon );
       QTest::newRow( "buffer" ) << "buffer( $geometry, 1.0, 3)" << ( void* ) geom << false << true << ( void* ) geom->buffer( 1.0, 3 );
       geom = QgsGeometry::fromPolygon( polygon );
       QTest::newRow( "buffer" ) << "buffer( $geometry, 2.0)" << ( void* ) geom << false << true << ( void* ) geom->buffer( 2.0, 8 );
 
       QgsPoint point1( 10, 20 );
       QgsPoint point2( 30, 20 );
-      QgsGeometry* pnt1 = QgsGeometry::fromPoint( point1 );
-      QgsGeometry* pnt2 = QgsGeometry::fromPoint( point2 );
+      QgsGeometry *pnt1 = QgsGeometry::fromPoint( point1 );
+      QgsGeometry *pnt2 = QgsGeometry::fromPoint( point2 );
       QTest::newRow( "union" ) << "union( $geometry, geomFromWKT('" + pnt2->exportToWkt() + "') )" << ( void* ) pnt1 << false << true << ( void* ) pnt1->combine( pnt2 );
+      delete pnt2;
 
       geom = QgsGeometry::fromPolygon( polygon );
       QTest::newRow( "intersection" ) << "intersection( $geometry, geomFromWKT('POLYGON((0 0, 0 10, 10 0, 0 0))') )" << ( void* ) geom << false << true << ( void* ) QgsGeometry::fromWkt( "POLYGON ((0 0,5 5,10 0,0 0))" );
@@ -998,13 +1043,13 @@ class TestQgsExpression: public QObject
     void eval_geometry_method()
     {
       QFETCH( QString, string );
-      QFETCH( void*, geomptr );
+      QFETCH( void *, geomptr );
       QFETCH( bool, evalError );
       QFETCH( bool, needGeom );
-      QFETCH( void*, resultptr );
+      QFETCH( void *, resultptr );
 
-      QgsGeometry* geom = ( QgsGeometry* ) geomptr;
-      QgsGeometry* result = ( QgsGeometry* ) resultptr;
+      QgsGeometry *geom = ( QgsGeometry * ) geomptr;
+      QgsGeometry *result = ( QgsGeometry * ) resultptr;
 
       QgsFeature f;
       f.setGeometry( geom );
@@ -1018,6 +1063,8 @@ class TestQgsExpression: public QObject
       QCOMPARE( out.canConvert<QgsGeometry>(), true );
       QgsGeometry outGeom = out.value<QgsGeometry>();
       QVERIFY( compareWkt( outGeom.exportToWkt(), result->exportToWkt() ) );
+
+      delete result;
     }
 
     void eval_special_columns()
@@ -1062,7 +1109,7 @@ class TestQgsExpression: public QObject
       QgsExpression e( string );
       QVERIFY( !e.hasParserError() );
       qDebug() << e.expression();
-      QCOMPARE( e.expression() , QgsExpression( e.expression() ).expression() );
+      QCOMPARE( e.expression(), QgsExpression( e.expression() ).expression() );
     }
 
     void quote_string()
@@ -1089,6 +1136,16 @@ class TestQgsExpression: public QObject
       QCOMPARE( QgsExpression::evaluateToDouble( QString( "5*" ), 7.0 ), 7.0 );
       QCOMPARE( QgsExpression::evaluateToDouble( QString( "a" ), 9.0 ), 9.0 );
       QCOMPARE( QgsExpression::evaluateToDouble( QString(), 9.0 ), 9.0 );
+    }
+
+    void eval_isField()
+    {
+      QCOMPARE( QgsExpression( "" ).isField(), false );
+      QCOMPARE( QgsExpression( "42" ).isField(), false );
+      QCOMPARE( QgsExpression( "foo" ).isField(), true );
+      QCOMPARE( QgsExpression( "\"foo bar\"" ).isField(), true );
+      QCOMPARE( QgsExpression( "sqrt(foo)" ).isField(), false );
+      QCOMPARE( QgsExpression( "foo + bar" ).isField(), false );
     }
 };
 

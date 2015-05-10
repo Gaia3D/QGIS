@@ -40,7 +40,6 @@
 %Include qgscolorwidgets.sip
 %Include qgscomposerview.sip
 %Include qgscredentialdialog.sip
-%Include qgsdatetimeedit.sip
 %Include qgsdetaileditemdata.sip
 %Include qgsdetaileditemdelegate.sip
 %Include qgsdialog.sip
@@ -175,6 +174,11 @@
 %Include symbology-ng/qgsstylev2exportimportdialog.sip
 %Include symbology-ng/qgssvgselectorwidget.sip
 
+%Include effects/qgseffectdrawmodecombobox.sip
+%Include effects/qgspainteffectpropertieswidget.sip
+%Include effects/qgspainteffectwidget.sip
+%Include effects/qgseffectstackpropertieswidget.sip
+
 %Include editorwidgets/core/qgseditorconfigwidget.sip
 %Include editorwidgets/core/qgseditorwidgetfactory.sip
 %Include editorwidgets/core/qgseditorwidgetregistry.sip
@@ -183,5 +187,6 @@
 %Include editorwidgets/qgsrelationreferencewidget.sip
 %Include editorwidgets/qgsrelationreferencewidgetwrapper.sip
 %Include editorwidgets/qgsspinbox.sip
+%Include editorwidgets/qgsdatetimeedit.sip
 
 %Include layertree/qgslayertreeview.sip

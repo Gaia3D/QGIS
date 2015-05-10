@@ -323,8 +323,7 @@ class QgsOgrProvider : public QgsVectorDataProvider
     QString ogrDriverName;
 
     bool valid;
-    //! Flag to indicate that spatial intersect should be used in selecting features
-    bool mUseIntersect;
+
     OGRwkbGeometryType geomType;
     long featuresCounted;
 
@@ -344,6 +343,9 @@ class QgsOgrProvider : public QgsVectorDataProvider
     OGRLayerH setSubsetString( OGRLayerH layer, OGRDataSourceH ds );
 
     friend class QgsOgrFeatureSource;
+
+    /** whether the file is opened in write mode*/
+    bool mWriteAccess;
 };
 
 

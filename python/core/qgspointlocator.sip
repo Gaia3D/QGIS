@@ -16,8 +16,14 @@ class QgsPointLocator : QObject
 
     enum Type { Invalid, Vertex, Edge, Area, All };
 
-    /** Prepare the index for queries. Does nothing if the index already exists */
-    void init();
+    /** Prepare the index for queries. Does nothing if the index already exists.
+     * If the number of features is greater than the value of maxFeaturesToIndex, creation of index is stopped
+     * to make sure we do not run out of memory. If maxFeaturesToIndex is -1, no limits are used. Returns
+     * false if the creation of index has been prematurely stopped due to the limit of features, otherwise true */
+    bool init( int maxFeaturesToIndex = -1 );
+
+    /** Indicate whether the data have been already indexed */
+    bool hasIndex() const;
 
     struct Match
     {
@@ -27,6 +33,7 @@ class QgsPointLocator : QObject
       Match( QgsPointLocator::Type t, QgsVectorLayer* vl, QgsFeatureId fid, double dist, const QgsPoint& pt, int vertexIndex = 0 );
 
       QgsPointLocator::Type type() const;
+
 
       bool isValid() const;
       bool hasVertex() const;
@@ -84,4 +91,7 @@ class QgsPointLocator : QObject
     MatchList pointInPolygon( const QgsPoint& point );
 
 
+  protected:
+    bool rebuildIndex( int maxFeaturesToIndex = -1 );
+    void destroyIndex();
 };

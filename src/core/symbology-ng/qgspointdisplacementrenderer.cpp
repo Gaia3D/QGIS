@@ -23,6 +23,7 @@
 #include "qgssymbollayerv2utils.h"
 #include "qgsvectorlayer.h"
 #include "qgssinglesymbolrendererv2.h"
+#include "qgspainteffect.h"
 
 #include <QDomElement>
 #include <QPainter>
@@ -38,6 +39,7 @@ QgsPointDisplacementRenderer::QgsPointDisplacementRenderer( const QString& label
     , mCircleColor( QColor( 125, 125, 125 ) )
     , mCircleRadiusAddition( 0 )
     , mMaxLabelScaleDenominator( -1 )
+    , mSpatialIndex( NULL )
 {
   mRenderer = QgsFeatureRendererV2::defaultRenderer( QGis::Point );
   mCenterSymbol = new QgsMarkerSymbolV2(); //the symbol for the center of a displacement group
@@ -65,6 +67,7 @@ QgsFeatureRendererV2* QgsPointDisplacementRenderer::clone() const
   {
     r->setCenterSymbol( dynamic_cast<QgsMarkerSymbolV2*>( mCenterSymbol->clone() ) );
   }
+  copyPaintEffect( r );
   return r;
 }
 
@@ -350,7 +353,7 @@ QgsFeatureRendererV2* QgsPointDisplacementRenderer::create( QDomElement& symbolo
   QDomElement centerSymbolElem = symbologyElem.firstChildElement( "symbol" );
   if ( !centerSymbolElem.isNull() )
   {
-    r->setCenterSymbol( dynamic_cast<QgsMarkerSymbolV2*>( QgsSymbolLayerV2Utils::loadSymbol( centerSymbolElem ) ) );
+    r->setCenterSymbol( QgsSymbolLayerV2Utils::loadSymbol<QgsMarkerSymbolV2>( centerSymbolElem ) );
   }
   return r;
 }
@@ -378,6 +381,10 @@ QDomElement QgsPointDisplacementRenderer::save( QDomDocument& doc )
     QDomElement centerSymbolElem = QgsSymbolLayerV2Utils::saveSymbol( "centerSymbol", mCenterSymbol, doc );
     rendererElement.appendChild( centerSymbolElem );
   }
+
+  if ( mPaintEffect )
+    mPaintEffect->saveProperties( doc, rendererElement );
+
   return rendererElement;
 }
 

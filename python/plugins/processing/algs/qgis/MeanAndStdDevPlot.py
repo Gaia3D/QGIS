@@ -29,9 +29,6 @@ import matplotlib.pyplot as plt
 import matplotlib.pylab as lab
 import numpy as np
 
-from PyQt4.QtCore import *
-from qgis.core import *
-
 from processing.core.GeoAlgorithm import GeoAlgorithm
 from processing.core.parameters import ParameterTable
 from processing.core.parameters import ParameterTableField
@@ -81,11 +78,11 @@ class MeanAndStdDevPlot(GeoAlgorithm):
         plt.bar(ind, values[meanfieldname], width, color='r',
                 yerr=values[stddevfieldname],
                 error_kw=dict(ecolor='yellow'),
-               )
+                )
 
         plt.xticks(ind, values[namefieldname], rotation=45)
         plotFilename = output + '.png'
         lab.savefig(plotFilename)
         f = open(output, 'w')
-        f.write('<img src="' + plotFilename + '"/>')
+        f.write('<html><img src="' + plotFilename + '"/></html>')
         f.close()

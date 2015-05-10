@@ -92,7 +92,7 @@ int QgsMapCanvasSnapper::snapToCurrentLayer( const QPoint& p, QList<QgsSnappingR
   QgsSnapper::SnapLayer snapLayer;
   snapLayer.mLayer = vlayer;
   snapLayer.mSnapTo = snap_to;
-  snapLayer.mUnitType = QgsTolerance::MapUnits;
+  snapLayer.mUnitType = QgsTolerance::LayerUnits;
 
   if ( snappingTol < 0 )
   {
@@ -108,7 +108,7 @@ int QgsMapCanvasSnapper::snapToCurrentLayer( const QPoint& p, QList<QgsSnappingR
   snapLayers.append( snapLayer );
   mSnapper->setSnapLayers( snapLayers );
 
-  if ( mSnapper->snapPoint( p, results, excludePoints ) != 0 )
+  if ( mSnapper->snapMapPoint( p, results, excludePoints ) != 0 )
     return 4;
 
   return 0;
@@ -250,14 +250,14 @@ int QgsMapCanvasSnapper::snapToBackgroundLayers( const QgsPoint& point, QList<Qg
 
     //default snapping tolerance (returned in map units)
     snapLayer.mTolerance = QgsTolerance::defaultTolerance( currentVectorLayer, mMapCanvas->mapSettings() );
-    snapLayer.mUnitType = QgsTolerance::MapUnits;
+    snapLayer.mUnitType = QgsTolerance::LayerUnits;
 
     snapLayers.append( snapLayer );
   }
 
   mSnapper->setSnapLayers( snapLayers );
 
-  if ( mSnapper->snapPoint( point, results, excludePoints ) != 0 )
+  if ( mSnapper->snapMapPoint( point, results, excludePoints ) != 0 )
     return 4;
 
   if ( intersectionSnapping != 1 )

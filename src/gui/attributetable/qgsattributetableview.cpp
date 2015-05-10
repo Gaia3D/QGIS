@@ -36,12 +36,16 @@ QgsAttributeTableView::QgsAttributeTableView( QWidget *parent )
     , mFilterModel( NULL )
     , mFeatureSelectionModel( NULL )
     , mFeatureSelectionManager( NULL )
+    , mModel( NULL )
     , mActionPopup( NULL )
+    , mLayerCache( NULL )
+    , mRowSectionAnchor( 0 )
+    , mCtrlDragSelectionFlag( QItemSelectionModel::Select )
 {
   QSettings settings;
   restoreGeometry( settings.value( "/BetterAttributeTable/geometry" ).toByteArray() );
 
-  verticalHeader()->setDefaultSectionSize( 20 );
+  //verticalHeader()->setDefaultSectionSize( 20 );
   horizontalHeader()->setHighlightSections( false );
 
   mTableDelegate = new QgsAttributeTableDelegate( this );

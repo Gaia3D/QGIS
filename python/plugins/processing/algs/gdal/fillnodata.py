@@ -33,7 +33,7 @@ from processing.core.parameters import ParameterNumber
 from processing.core.parameters import ParameterBoolean
 from processing.core.outputs import OutputRaster
 
-from processing.tools.system import *
+from processing.tools.system import isWindows
 
 from processing.algs.gdal.GdalUtils import GdalUtils
 
@@ -64,9 +64,9 @@ class fillnodata(GdalAlgorithm):
         self.addParameter(ParameterBoolean(self.NO_DEFAULT_MASK,
             self.tr('Do not use default validity mask'), False))
 
-        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Output layer')))
+        self.addOutput(OutputRaster(self.OUTPUT, self.tr('Filled')))
 
-    def processAlgorithm(self, progress):
+    def getConsoleCommands(self):
         output = self.getOutputValue(self.OUTPUT)
 
         arguments = []
@@ -102,4 +102,4 @@ class fillnodata(GdalAlgorithm):
             commands = ['gdal_fillnodata.py',
                         GdalUtils.escapeAndJoin(arguments)]
 
-        GdalUtils.runGdal(commands, progress)
+        return commands
