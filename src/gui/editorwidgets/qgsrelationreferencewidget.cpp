@@ -33,6 +33,24 @@
 #include "qgsrelationreferenceconfigdlg.h"
 #include "qgsvectorlayer.h"
 
+bool orderByLessThan( const QgsRelationReferenceWidget::ValueRelationItem& p1
+                      , const QgsRelationReferenceWidget::ValueRelationItem& p2 )
+{
+  switch ( p1.first.type() )
+  {
+    case QVariant::String:
+      return p1.first.toString() < p2.first.toString();
+      break;
+
+    case QVariant::Double:
+      return p1.first.toDouble() < p2.first.toDouble();
+      break;
+
+    default:
+      return p1.first.toInt() < p2.first.toInt();
+      break;
+  }
+}
 
 QgsRelationReferenceWidget::QgsRelationReferenceWidget( QWidget* parent )
     : QWidget( parent )
@@ -56,6 +74,7 @@ QgsRelationReferenceWidget::QgsRelationReferenceWidget( QWidget* parent )
     , mEmbedForm( false )
     , mReadOnlySelector( false )
     , mAllowMapIdentification( false )
+    , mOrderByValue( false )
     , mOpenFormButtonVisible( true )
 {
   mTopLayout = new QVBoxLayout( this );
@@ -327,7 +346,7 @@ QVariant QgsRelationReferenceWidget::foreignKey()
   }
 }
 
-void QgsRelationReferenceWidget::setEditorContext( QgsAttributeEditorContext context, QgsMapCanvas* canvas, QgsMessageBar* messageBar )
+void QgsRelationReferenceWidget::setEditorContext( const QgsAttributeEditorContext &context, QgsMapCanvas* canvas, QgsMessageBar* messageBar )
 {
   mEditorContext = context;
   mCanvas = canvas;
@@ -358,6 +377,11 @@ void QgsRelationReferenceWidget::setAllowMapIdentification( bool allowMapIdentif
   mHighlightFeatureButton->setVisible( allowMapIdentification );
   mMapIdentificationButton->setVisible( allowMapIdentification );
   mAllowMapIdentification = allowMapIdentification;
+}
+
+void QgsRelationReferenceWidget::setOrderByValue( bool orderByValue )
+{
+  mOrderByValue = orderByValue;
 }
 
 void QgsRelationReferenceWidget::setOpenFormButtonVisible( bool openFormButtonVisible )
@@ -398,15 +422,43 @@ void QgsRelationReferenceWidget::init()
     exp.prepare( mReferencedLayer->pendingFields() );
 
     QgsFeature f;
-    while ( fit.nextFeature( f ) )
+    if ( mOrderByValue )
     {
-      QString txt = exp.evaluate( &f ).toString();
-      mComboBox->addItem( txt, f.id() );
+      ValueRelationCache cache;
 
-      if ( f.attribute( mFkeyFieldIdx ) == mForeignKey )
-        mComboBox->setCurrentIndex( mComboBox->count() - 1 );
+      QgsFeatureId currentSelection;
 
-      mFidFkMap.insert( f.id(), f.attribute( mFkeyFieldIdx ) );
+      while ( fit.nextFeature( f ) )
+      {
+        QVariant val = exp.evaluate( &f );
+        cache.append( qMakePair( val, f.id() ) );
+        mFidFkMap.insert( f.id(), f.attribute( mFkeyFieldIdx ) );
+        if ( f.attribute( mFkeyFieldIdx ) == mForeignKey )
+          currentSelection = f.id();
+      }
+
+      qSort( cache.begin(), cache.end(), orderByLessThan );
+
+      Q_FOREACH ( const ValueRelationItem& item, cache )
+      {
+        mComboBox->addItem( item.first.toString(), item.second );
+
+        if ( currentSelection == item.second )
+          mComboBox->setCurrentIndex( mComboBox->count() - 1 );
+      }
+    }
+    else
+    {
+      while ( fit.nextFeature( f ) )
+      {
+        QString txt = exp.evaluate( &f ).toString();
+        mComboBox->addItem( txt, f.id() );
+
+        if ( f.attribute( mFkeyFieldIdx ) == mForeignKey )
+          mComboBox->setCurrentIndex( mComboBox->count() - 1 );
+
+        mFidFkMap.insert( f.id(), f.attribute( mFkeyFieldIdx ) );
+      }
     }
 
     // Only connect after iterating, to have only one iterator on the referenced table at once
@@ -477,7 +529,9 @@ void QgsRelationReferenceWidget::highlightFeature( QgsFeature f, CanvasExtent ca
   }
   else if ( canvasExtent == Pan )
   {
-    QgsPoint center = geom->centroid()->asPoint();
+    QgsGeometry* centroid = geom->centroid();
+    QgsPoint center = centroid->asPoint();
+    delete centroid;
     center = mCanvas->mapSettings().layerToMapCoordinates( mReferencedLayer, center );
     mCanvas->zoomByFactor( 1.0, &center ); // refresh is done in this method
   }
@@ -560,7 +614,7 @@ void QgsRelationReferenceWidget::updateAttributeEditorFrame( const QgsFeature fe
   // Check if we're running with an embedded frame we need to update
   if ( mAttributeEditorFrame )
   {
-    if ( feature.isValid() && mReferencedAttributeForm )
+    if ( mReferencedAttributeForm )
     {
       mReferencedAttributeForm->setFeature( feature );
     }

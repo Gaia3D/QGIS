@@ -62,8 +62,25 @@
 namespace pal
 {
   Feature::Feature( Layer* l, const char* geom_id, PalGeometry* userG, double lx, double ly )
-      : layer( l ), userGeom( userG ), label_x( lx ), label_y( ly ), distlabel( 0 ), labelInfo( NULL ), fixedPos( false ),
-      quadOffset( false ), offsetPos( false ), fixedRotation( false ), alwaysShow( false )
+      : layer( l )
+      , userGeom( userG )
+      , label_x( lx )
+      , label_y( ly )
+      , distlabel( 0 )
+      , labelInfo( NULL )
+      , fixedPos( false )
+      , fixedPosX( 0.0 )
+      , fixedPosY( 0.0 )
+      , quadOffset( false )
+      , quadOffsetX( 0.0 )
+      , quadOffsetY( 0.0 )
+      , offsetPos( false )
+      , offsetPosX( 0.0 )
+      , offsetPosY( 0.0 )
+      , fixedRotation( false )
+      , fixedAngle( 0.0 )
+      , repeatDist( 0.0 )
+      , alwaysShow( false )
   {
     assert( finite( lx ) && finite( ly ) );
 
@@ -262,7 +279,7 @@ namespace pal
   {
     Q_UNUSED( scale );
     Q_UNUSED( delta_width );
-    int nbp = 3;
+    int nbp = 1;
     *lPos = new LabelPosition *[nbp];
 
     // get from feature
@@ -332,15 +349,7 @@ namespace pal
     lx = x + xdiff;
     ly = y + ydiff;
 
-//    double offset = label_x / 4;
-    double offset = 0.0; // don't shift what is supposed to be fixed
-
-    // at the center
     ( *lPos )[0] = new LabelPosition( id, lx, ly, label_x, label_y, angle, cost, this );
-    // shifted to the sides - with higher cost
-    cost = 0.0021;
-    ( *lPos )[1] = new LabelPosition( id, lx + offset, ly, label_x, label_y, angle, cost, this );
-    ( *lPos )[2] = new LabelPosition( id, lx - offset, ly, label_x, label_y, angle, cost, this );
     return nbp;
   }
 

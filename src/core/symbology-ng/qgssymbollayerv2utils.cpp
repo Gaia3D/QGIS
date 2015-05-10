@@ -347,6 +347,8 @@ QString QgsSymbolLayerV2Utils::encodeOutputUnit( QgsSymbolV2::OutputUnit unit )
       return "MM";
     case QgsSymbolV2::MapUnit:
       return "MapUnit";
+    case QgsSymbolV2::Pixel:
+      return "Pixel";
     default:
       return "MM";
   }
@@ -361,6 +363,10 @@ QgsSymbolV2::OutputUnit QgsSymbolLayerV2Utils::decodeOutputUnit( QString str )
   else if ( str == "MapUnit" )
   {
     return QgsSymbolV2::MapUnit;
+  }
+  else if ( str == "Pixel" )
+  {
+    return QgsSymbolV2::Pixel;
   }
 
   // millimeters are default
@@ -579,7 +585,7 @@ QPixmap QgsSymbolLayerV2Utils::colorRampPreviewPixmap( QgsVectorColorRampV2* ram
   painter.begin( &pixmap );
 
   //draw stippled background, for transparent images
-  drawStippledBackround( &painter, QRect( 0, 0, size.width(), size.height() ) );
+  drawStippledBackground( &painter, QRect( 0, 0, size.width(), size.height() ) );
 
   // antialising makes the colors duller, and no point in antialiasing a color ramp
   // painter.setRenderHint( QPainter::Antialiasing );
@@ -593,7 +599,7 @@ QPixmap QgsSymbolLayerV2Utils::colorRampPreviewPixmap( QgsVectorColorRampV2* ram
   return pixmap;
 }
 
-void QgsSymbolLayerV2Utils::drawStippledBackround( QPainter* painter, QRect rect )
+void QgsSymbolLayerV2Utils::drawStippledBackground( QPainter* painter, QRect rect )
 {
   // create a 2x2 checker-board image
   uchar pixDataRGB[] = { 255, 255, 255, 255,
@@ -846,7 +852,7 @@ QList<QPolygonF> offsetLine( QPolygonF polyline, double dist )
 /////
 
 
-QgsSymbolV2* QgsSymbolLayerV2Utils::loadSymbol( QDomElement& element )
+QgsSymbolV2* QgsSymbolLayerV2Utils::loadSymbol( const QDomElement &element )
 {
   QgsSymbolLayerV2List layers;
   QDomNode layerNode = element.firstChild();
@@ -2438,13 +2444,8 @@ bool QgsSymbolLayerV2Utils::createFunctionElement( QDomDocument &doc, QDomElemen
 
 bool QgsSymbolLayerV2Utils::functionFromSldElement( QDomElement &element, QString &function )
 {
-  QgsDebugMsg( "Entered." );
-  QDomElement elem;
-  if ( element.tagName() == "Filter" )
-  {
-    elem = element;
-  }
-  else
+  QDomElement elem = element;
+  if ( element.tagName() != "Filter" )
   {
     QDomNodeList filterNodes = element.elementsByTagName( "Filter" );
     if ( filterNodes.size() > 0 )
@@ -2816,7 +2817,7 @@ QList<QColor> QgsSymbolLayerV2Utils::parseColorList( const QString colorStr )
   return colors;
 }
 
-QMimeData * QgsSymbolLayerV2Utils::colorToMimeData( const QColor color )
+QMimeData * QgsSymbolLayerV2Utils::colorToMimeData( const QColor &color )
 {
   //set both the mime color data (which includes alpha channel), and the text (which is the color's hex
   //value, and can be used when pasting colors outside of QGIS).
@@ -3266,6 +3267,10 @@ double QgsSymbolLayerV2Utils::pixelSizeScaleFactor( const QgsRenderContext& c, Q
   {
     return ( c.scaleFactor() * c.rasterScaleFactor() );
   }
+  else if ( u == QgsSymbolV2::Pixel )
+  {
+    return 1.0;
+  }
   else //QgsSymbol::MapUnit
   {
     double mup = scale.computeMapUnitsPerPixel( c );
@@ -3404,17 +3409,14 @@ void QgsSymbolLayerV2Utils::blurImageInPlace( QImage& image, const QRect& rect, 
 
 void QgsSymbolLayerV2Utils::premultiplyColor( QColor &rgb, int alpha )
 {
-  int r = 0, g = 0, b = 0;
-  double alphaFactor = 1.0;
-
   if ( alpha != 255 && alpha > 0 )
   {
     // Semi-transparent pixel. We need to adjust the colors for ARGB32_Premultiplied images
     // where color values have to be premultiplied by alpha
-
+    double alphaFactor = alpha / 255.;
+    int r = 0, g = 0, b = 0;
     rgb.getRgb( &r, &g, &b );
 
-    alphaFactor = alpha / 255.;
     r *= alphaFactor;
     g *= alphaFactor;
     b *= alphaFactor;
@@ -3654,6 +3656,17 @@ QPointF QgsSymbolLayerV2Utils::polygonCentroid( const QPolygonF& points )
     cy += ( p1.y() + p2.y() ) * area;
   }
   sum *= 3.0;
+  if ( sum == 0 )
+  {
+    // the linear ring is invalid -  let's fall back to a solution that will still
+    // allow us render at least something (instead of just returning point nan,nan)
+    if ( points.count() >= 2 )
+      return QPointF(( points[0].x() + points[1].x() ) / 2, ( points[0].y() + points[1].y() ) / 2 );
+    else if ( points.count() == 1 )
+      return points[0];
+    else
+      return QPointF(); // hopefully we shouldn't ever get here
+  }
   cx /= sum;
   cy /= sum;
 
@@ -3742,5 +3755,4 @@ QString QgsSymbolLayerV2Utils::fieldOrExpressionFromExpression( QgsExpression* e
 
   return expression->expression();
 }
-
 

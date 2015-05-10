@@ -70,7 +70,10 @@ QgsVectorFileWriter::QgsVectorFileWriter(
     , mLayer( NULL )
     , mGeom( NULL )
     , mError( NoError )
+    , mCodec( 0 )
+    , mWkbType( geometryType )
     , mSymbologyExport( symbologyExport )
+    , mSymbologyScaleDenominator( 1.0 )
 {
   QString vectorFileName = theVectorFileName;
   QString fileEncoding = theFileEncoding;
@@ -1523,9 +1526,9 @@ QMap<QString, QgsVectorFileWriter::MetaData> QgsVectorFileWriter::initMetaData()
                          )
                        );
   return driverMetadata;
-}
+       }
 
-bool QgsVectorFileWriter::driverMetadata( const QString& driverName, QgsVectorFileWriter::MetaData& driverMetadata )
+       bool QgsVectorFileWriter::driverMetadata( const QString& driverName, QgsVectorFileWriter::MetaData& driverMetadata )
 {
   static const QMap<QString, MetaData> sDriverMetadata = initMetaData();
 
@@ -2447,14 +2450,12 @@ QgsVectorFileWriter::WriterError QgsVectorFileWriter::exportFeaturesSymbolLevels
     const QgsCoordinateTransform* ct, QString* errorMessage )
 {
   if ( !layer )
-  {
-    //return error
-  }
-  QgsFeatureRendererV2* renderer = layer->rendererV2();
+    return ErrInvalidLayer;
+
+  QgsFeatureRendererV2 *renderer = layer->rendererV2();
   if ( !renderer )
-  {
-    //return error
-  }
+    return ErrInvalidLayer;
+
   QHash< QgsSymbolV2*, QList<QgsFeature> > features;
 
   //unit type

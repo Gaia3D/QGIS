@@ -14,11 +14,13 @@
  ***************************************************************************/
 
 #include "qgsapplication.h"
-#include "qgslogger.h"
-#include "qgsmaplayerregistry.h"
-#include "qgsproviderregistry.h"
+#include "qgscrscache.h"
 #include "qgsexception.h"
 #include "qgsgeometry.h"
+#include "qgslogger.h"
+#include "qgsmaplayerregistry.h"
+#include "qgsnetworkaccessmanager.h"
+#include "qgsproviderregistry.h"
 
 #include <QDir>
 #include <QFile>
@@ -31,7 +33,7 @@
 #include <QPixmap>
 #include <QThreadPool>
 
-#ifndef Q_WS_WIN
+#ifndef Q_OS_WIN
 #include <netinet/in.h>
 #else
 #include <winsock.h>
@@ -91,7 +93,14 @@ void QgsApplication::init( QString customConfigPath )
 {
   if ( customConfigPath.isEmpty() )
   {
-    customConfigPath = QString( "%1/.qgis%2/" ).arg( QDir::homePath() ).arg( QGis::QGIS_VERSION_INT / 10000 );
+    if ( getenv( "QGIS_CUSTOM_CONFIG_PATH" ) )
+    {
+      customConfigPath = getenv( "QGIS_CUSTOM_CONFIG_PATH" );
+    }
+    else
+    {
+      customConfigPath = QString( "%1/.qgis%2/" ).arg( QDir::homePath() ).arg( QGis::QGIS_VERSION_INT / 10000 );
+    }
   }
 
   qRegisterMetaType<QgsGeometry::Error>( "QgsGeometry::Error" );
@@ -144,7 +153,7 @@ void QgsApplication::init( QString customConfigPath )
     char *prefixPath = getenv( "QGIS_PREFIX_PATH" );
     if ( !prefixPath )
     {
-#if defined(Q_WS_MACX) || defined(Q_WS_WIN32) || defined(WIN32)
+#if defined(Q_OS_MACX) || defined(Q_OS_WIN32) || defined(WIN32)
       setPrefixPath( applicationDirPath(), true );
 #elif defined(ANDROID)
       // this is  "/data/data/org.qgis.qgis" in android
@@ -322,7 +331,10 @@ const QString QgsApplication::prefixPath()
 {
   if ( ABISYM( mRunningFromBuildDir ) )
   {
-    qWarning( "!!! prefix path was requested, but it is not valid - we do not run from installed path !!!" );
+    static bool once = true;
+    if ( once )
+      qWarning( "!!! prefix path was requested, but it is not valid - we do not run from installed path !!!" );
+    once = false;
   }
 
   return ABISYM( mPrefixPath );
@@ -429,6 +441,10 @@ const QString QgsApplication::authorsFilePath()
 const QString QgsApplication::contributorsFilePath()
 {
   return ABISYM( mPkgDataPath ) + QString( "/doc/CONTRIBUTORS" );
+}
+const QString QgsApplication::developersMapFilePath()
+{
+  return ABISYM( mPkgDataPath ) + QString( "/doc/developersmap.html" );
 }
 /*!
   Returns the path to the sponsors file.
@@ -606,8 +622,12 @@ void QgsApplication::initQgis()
 
 void QgsApplication::exitQgis()
 {
-  delete QgsMapLayerRegistry::instance();
+  // Cleanup known singletons
+  QgsMapLayerRegistry::cleanup();
+  QgsNetworkAccessManager::cleanup();
+  QgsCoordinateTransformCache::cleanup();
 
+  // Cleanup providers
   delete QgsProviderRegistry::instance();
 }
 
@@ -909,7 +929,7 @@ bool QgsApplication::createDB( QString *errorMessage )
     myDir.mkpath( myPamPath ); //fail silently
   }
 
-#if defined(Q_WS_WIN32) || defined(WIN32)
+#if defined(Q_OS_WIN32) || defined(WIN32)
   CPLSetConfigOption( "GDAL_PAM_PROXY_DIR", myPamPath.toUtf8() );
 #else
   //under other OS's we use an environment var so the user can

@@ -21,12 +21,17 @@
 #include <QObject>
 #include <QLineEdit>
 #include <QComboBox>
-#include <QSignalSpy>
-#include <QtTest>
+#include <QtTest/QSignalSpy>
+#include <QtTest/QtTest>
 
-class TestQgsScaleComboBox: public QObject
+class TestQgsScaleComboBox : public QObject
 {
-    Q_OBJECT;
+    Q_OBJECT
+  public:
+    TestQgsScaleComboBox()
+        : s( 0 )
+    {}
+
   private slots:
     void initTestCase();// will be called before the first testfunction is executed.
     void cleanupTestCase();// will be called after the last testfunction was executed.
@@ -51,6 +56,7 @@ void TestQgsScaleComboBox::initTestCase()
 void TestQgsScaleComboBox::cleanupTestCase()
 {
   delete s;
+  QgsApplication::exitQgis();
 };
 
 void TestQgsScaleComboBox::init()
@@ -130,4 +136,4 @@ void TestQgsScaleComboBox::cleanup()
 };
 
 QTEST_MAIN( TestQgsScaleComboBox )
-#include "moc_testqgsscalecombobox.cxx"
+#include "testqgsscalecombobox.moc"

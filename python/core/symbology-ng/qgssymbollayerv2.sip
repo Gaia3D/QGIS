@@ -43,11 +43,17 @@ class QgsSymbolLayerV2
 	  sipClass = sipClass_QgsPointPatternFillSymbolLayer;
 	else if (dynamic_cast<QgsSVGFillSymbolLayer*>(sipCpp) != NULL)
 	  sipClass = sipClass_QgsSVGFillSymbolLayer;
+	else if (dynamic_cast<QgsRasterFillSymbolLayer*>(sipCpp) != NULL)
+	  sipClass = sipClass_QgsRasterFillSymbolLayer;
 	else
 	  sipClass = sipClass_QgsImageFillSymbolLayer;
       }
       else if (dynamic_cast<QgsCentroidFillSymbolLayerV2*>(sipCpp) != NULL)
 	sipClass = sipClass_QgsCentroidFillSymbolLayerV2;
+      else if (dynamic_cast<QgsGradientFillSymbolLayerV2*>(sipCpp) != NULL)
+	sipClass = sipClass_QgsGradientFillSymbolLayerV2;
+      else if (dynamic_cast<QgsShapeburstFillSymbolLayerV2*>(sipCpp) != NULL)
+	sipClass = sipClass_QgsShapeburstFillSymbolLayerV2;
       else
 	sipClass = sipClass_QgsFillSymbolLayerV2;
       break;
@@ -136,11 +142,14 @@ class QgsSymbolLayerV2
                            const QPointF& shift = QPointF( 0.0, 0.0 ) ) const;
 
     virtual double dxfWidth( const QgsDxfExport& e, const QgsSymbolV2RenderContext& context ) const;
+    virtual double dxfOffset( const QgsDxfExport& e, const QgsSymbolV2RenderContext& context ) const;
 
     virtual QColor dxfColor( const QgsSymbolV2RenderContext& context ) const;
 
     virtual QVector<qreal> dxfCustomDashPattern( QgsSymbolV2::OutputUnit& unit ) const;
     virtual Qt::PenStyle dxfPenStyle() const;
+    virtual QColor dxfBrushColor( const QgsSymbolV2RenderContext& context ) const;
+    virtual Qt::BrushStyle dxfBrushStyle() const;
 
   protected:
     QgsSymbolLayerV2( QgsSymbolV2::SymbolType type, bool locked = false );
@@ -228,6 +237,8 @@ class QgsMarkerSymbolLayerV2 : QgsSymbolLayerV2
     //handles marker offset and anchor point shift together
     void markerOffset( const QgsSymbolV2RenderContext& context, double& offsetX, double& offsetY ) const;
 
+    void markerOffset( const QgsSymbolV2RenderContext& context, double width, double height, double& offsetX, double& offsetY ) const /PyName=markerOffsetWithWidthAndHeight/;
+
     //! @note available in python bindings as markerOffset2
     void markerOffset( const QgsSymbolV2RenderContext& context, double width, double height,
                        QgsSymbolV2::OutputUnit widthUnit, QgsSymbolV2::OutputUnit heightUnit,
@@ -246,17 +257,25 @@ class QgsLineSymbolLayerV2 : QgsSymbolLayerV2
   public:
     virtual void renderPolyline( const QPolygonF& points, QgsSymbolV2RenderContext& context ) = 0;
 
-    //! @note added in v1.7
     virtual void renderPolygonOutline( const QPolygonF& points, QList<QPolygonF>* rings, QgsSymbolV2RenderContext& context );
 
     virtual void setWidth( double width );
     virtual double width() const;
+
+    double offset() const;
+    void setOffset( double offset );
 
     void setWidthUnit( QgsSymbolV2::OutputUnit unit );
     QgsSymbolV2::OutputUnit widthUnit() const;
 
     void setWidthMapUnitScale( const QgsMapUnitScale& scale);
     const QgsMapUnitScale& widthMapUnitScale() const;
+
+    void setOffsetUnit( QgsSymbolV2::OutputUnit unit );
+    QgsSymbolV2::OutputUnit offsetUnit() const;
+
+    void setOffsetMapUnitScale( const QgsMapUnitScale& scale );
+    const QgsMapUnitScale& offsetMapUnitScale() const;
 
     void setOutputUnit( QgsSymbolV2::OutputUnit unit );
     QgsSymbolV2::OutputUnit outputUnit() const;
@@ -267,6 +286,7 @@ class QgsLineSymbolLayerV2 : QgsSymbolLayerV2
     void drawPreviewIcon( QgsSymbolV2RenderContext& context, QSize size );
 
     virtual double dxfWidth( const QgsDxfExport& e, const QgsSymbolV2RenderContext& context ) const;
+    virtual double dxfOffset( const QgsDxfExport& e, const QgsSymbolV2RenderContext& context ) const;
 
   protected:
     QgsLineSymbolLayerV2( bool locked = false );

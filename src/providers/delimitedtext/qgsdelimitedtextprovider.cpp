@@ -84,7 +84,13 @@ QgsDelimitedTextProvider::QgsDelimitedTextProvider( QString uri )
     , mBuildSpatialIndex( false )
     , mSpatialIndex( 0 )
 {
-  QgsDebugMsg( "Delimited text file uri is " + uri );
+  mNativeTypes
+  << QgsVectorDataProvider::NativeType( tr( "Whole number (integer)" ), "integer", QVariant::Int, 0, 10 )
+  << QgsVectorDataProvider::NativeType( tr( "Decimal number (double)" ), "double precision", QVariant::Double, -1, -1, -1, -1 )
+  << QgsVectorDataProvider::NativeType( tr( "Text, unlimited length (text)" ), "text", QVariant::String, -1, -1, -1, -1 )
+  ;
+
+ QgsDebugMsg( "Delimited text file uri is " + uri );
 
   QUrl url = QUrl::fromEncoded( uri.toAscii() );
   mFile = new QgsDelimitedTextFile();
@@ -520,7 +526,7 @@ void QgsDelimitedTextProvider::scanFile( bool buildIndexes )
             mGeometryType = QGis::Point;
           }
           mNumberFeatures++;
-          if ( buildSpatialIndex )
+          if ( buildSpatialIndex && qIsFinite( pt.x() ) && qIsFinite( pt.y() ) )
           {
             QgsFeature f;
             f.setFeatureId( mFile->recordId() );
@@ -856,6 +862,7 @@ bool QgsDelimitedTextProvider::pointFromXY( QString &sX, QString &sY, QgsPoint &
     pt.setY( y );
     return true;
   }
+
   return false;
 }
 

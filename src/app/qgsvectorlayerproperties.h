@@ -103,11 +103,11 @@ class APP_EXPORT QgsVectorLayerProperties : public QgsOptionsDialogBase, private
 
     void on_pbnQueryBuilder_clicked();
     void on_pbnIndex_clicked();
-    void on_pbnChangeSpatialRefSys_clicked();
-    void on_pbnLoadDefaultStyle_clicked();
-    void on_pbnSaveDefaultStyle_clicked();
-    void on_pbnLoadStyle_clicked();
-    void on_pbnSaveStyleAs_clicked();
+    void on_mCrsSelector_crsChanged( QgsCoordinateReferenceSystem crs );
+    void loadDefaultStyle_clicked();
+    void saveDefaultStyle_clicked();
+    void loadStyle_clicked();
+    void saveStyleAs_clicked();
     void mOptionsStackedWidget_CurrentChanged( int indx );
     void on_buttonBox_helpRequested() { QgsContextHelp::run( metaObject()->className() ); }
     void on_pbnUpdateExtents_clicked();
@@ -137,6 +137,7 @@ class APP_EXPORT QgsVectorLayerProperties : public QgsOptionsDialogBase, private
     /** called when is possible to choice if load the style from filesystem or from db */
     void loadStyleMenuTriggered( QAction * );
 
+    void aboutToShowStyleMenu();
 
   protected:
 
@@ -153,6 +154,9 @@ class APP_EXPORT QgsVectorLayerProperties : public QgsOptionsDialogBase, private
 
     QMenu *mSaveAsMenu;
     QMenu *mLoadStyleMenu;
+
+    QAction* mActionLoadStyle;
+    QAction* mActionSaveStyleAs;
 
     /**Renderer dialog which is shown*/
     QDialog* mRendererDialog;

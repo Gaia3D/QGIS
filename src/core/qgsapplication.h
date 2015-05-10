@@ -49,10 +49,10 @@ class CORE_EXPORT QgsApplication : public QApplication
     static void init( QString customConfigPath = QString() );
 
     //! Watch for QFileOpenEvent.
-    virtual bool event( QEvent * event );
+    virtual bool event( QEvent * event ) override;
 
     //! Catch exceptions when sending event to receiver.
-    virtual bool notify( QObject * receiver, QEvent * event );
+    virtual bool notify( QObject * receiver, QEvent * event ) override;
 
     //! Set the FileOpen event receiver
     static void setFileOpenEventReceiver( QObject * receiver );
@@ -81,10 +81,16 @@ class CORE_EXPORT QgsApplication : public QApplication
 
     /** Returns the path to the contributors file.
      * Contributors are people who have submitted patches
-     * but don't have svn write access. */
+     * but don't have commit access. */
     static const QString contributorsFilePath();
 
-    /**Returns the path to the sponsors file.*/
+    /** Returns the path to the developers map file.
+     * The developers map was created by using leaflet framework,
+     * it shows the doc/contributors.json file.
+     * @note this function was added in version 2.7 */
+    static const QString developersMapFilePath();
+
+    /** Returns the path to the sponsors file. */
     static const QString sponsorsFilePath();
 
     /** Returns the path to the donors file. */
@@ -223,11 +229,9 @@ class CORE_EXPORT QgsApplication : public QApplication
      */
     static void registerOgrDrivers();
 
-    /**Converts absolute path to path relative to target
-      */
+    /**Converts absolute path to path relative to target */
     static QString absolutePathToRelativePath( QString apath, QString targetPath );
-    /**Converts path relative to target to an absolute path
-      */
+    /**Converts path relative to target to an absolute path */
     static QString relativePathToAbsolutePath( QString rpath, QString targetPath );
 
     /** Indicates whether running from build directory (not installed) */

@@ -46,7 +46,10 @@ bool orderByValueLessThan( const QgsValueRelationWidgetWrapper::ValueRelationIte
 }
 
 QgsValueRelationWidgetWrapper::QgsValueRelationWidgetWrapper( QgsVectorLayer* vl, int fieldIdx, QWidget* editor, QWidget* parent )
-    :  QgsEditorWidgetWrapper( vl, fieldIdx, editor, parent )
+    : QgsEditorWidgetWrapper( vl, fieldIdx, editor, parent )
+    , mComboBox( NULL )
+    , mListWidget( NULL )
+    , mLayer( NULL )
 {
 }
 
@@ -216,6 +219,7 @@ QgsValueRelationWidgetWrapper::ValueRelationCache QgsValueRelationWidgetWrapper:
         cache.append( ValueRelationItem( f.attribute( ki ), f.attribute( vi ).toString() ) );
       }
     }
+    delete e;
   }
 
   if ( config.value( "OrderByValue" ).toBool() )

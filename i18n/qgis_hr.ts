@@ -5,7 +5,7 @@
     <name>@default</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Cannot create unit test for that algorithm execution. The output cannot be a temporary file</source>
@@ -14,38 +14,37 @@
     <message>
         <source>&lt;html&gt;&lt;body&gt;&lt;h2&gt;Algorithm description&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;h2&gt;Opis algoritma&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Ulazni parametri&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Outputs&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Izlazni podaci&lt;/h2&gt;
+
+</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Autor algoritma: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Help author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Autor pomoći: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm version: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uncaught error executing %s.
-See log for more information</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Inačica algoritma: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Executing iteration %s/%s...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvršavanje iteracije %s/%s...</translation>
     </message>
 </context>
 <context>
@@ -56,184 +55,396 @@ See log for more information</source>
     </message>
 </context>
 <context>
+    <name>ASCII2DTM</name>
+    <message>
+        <source>Input ESRI ASCII layer</source>
+        <translation>Ulazni ESRI ASCII sloj</translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>XY jedinice</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z jedinice</translation>
+    </message>
+    <message>
+        <source>Coordinate system</source>
+        <translation>Koordinatni sustav</translation>
+    </message>
+    <message>
+        <source>Coordinate system zone (&apos;0&apos; for unknown)</source>
+        <translation>Zona koordinatnog sustava (&apos;0&apos; za nepoznato)</translation>
+    </message>
+    <message>
+        <source>Output surface</source>
+        <translation>Izlazna površina</translation>
+    </message>
+</context>
+<context>
     <name>AddModelFromFileAction</name>
     <message>
         <source>Add model from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj model iz datoteke</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
     </message>
     <message>
         <source>Open model</source>
-        <translation type="unfinished">Otvori model</translation>
+        <translation>Otvori model</translation>
     </message>
     <message>
         <source>Processing model files (*.model *.MODEL)</source>
-        <translation type="unfinished"></translation>
+        <translation>Procesiranje datoteka modela (*.model *.MODEL)</translation>
     </message>
     <message>
         <source>Error reading model</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri učitavanju modela</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid model</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabrana datoteka ne sadrži valjani model</translation>
     </message>
     <message>
         <source>Cannot read file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu učitati datoteku</translation>
     </message>
 </context>
 <context>
     <name>AddScriptFromFileAction</name>
     <message>
         <source>Add script from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj skript iz datoteke</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
     </message>
     <message>
         <source>Script files</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke skripti</translation>
     </message>
     <message>
         <source>Script files (*.py *.PY)</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke skripti (*.py *.PY)</translation>
     </message>
     <message>
         <source>Error reading script</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri učitavanju skripte</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid script</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabrana datoteke ne sadržava valjanu skriptu</translation>
+    </message>
+</context>
+<context>
+    <name>AddTableField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Field name</source>
+        <translation>Naziv polja</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>Tip polja</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>Duljina polja</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>Preciznost polja</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>AlgorithmDialog</name>
+    <message>
+        <source>Unmatching CRS&apos;s</source>
+        <translation>CRS-ovi se ne poklapaju</translation>
+    </message>
+    <message>
+        <source>Layers do not all use the same CRS. This can cause unexpected results.
+Do you want to continue?</source>
+        <translation>Svi slojevi nisu u istom CRS-u. Ovo može dovesti do neočekivanih rezultata.
+Želite li nastaviti?</translation>
+    </message>
+    <message>
+        <source>Unable to execute algorithm</source>
+        <translation>Nemoguće izvršiti algoritam</translation>
+    </message>
+    <message>
+        <source>Processing algorithm...</source>
+        <translation>Procesiranje algoritma...</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Algoritam %s započinje...&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Nedostaje vrijednost parametra: %s&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wrong or missing parameter values</source>
+        <translation>Krive ili pogrešne vrijednosti parametara</translation>
+    </message>
+    <message>
+        <source>HTML output has been generated by this algorithm.
+Open the results dialog to check it.</source>
+        <translation>Ovim algoritmom generiran je HTML izlaz.
+Otvorite rezultatski dijalog kako biste ga provjerili.</translation>
     </message>
 </context>
 <context>
     <name>AlgorithmProvider</name>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivacija</translation>
     </message>
     <message>
         <source>Generic algorithm provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Generički dobavljač algoritma</translation>
+    </message>
+</context>
+<context>
+    <name>AutoincrementalField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>BarPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation>Ulazna tablica</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>Polje s nazivom kategorije</translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation>Polje s vrijednosti</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>BasicStatisticsNumbers</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Ulazni vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>Polje po kojemu treba računati statistiku</translation>
+    </message>
+    <message>
+        <source>Statistics for numeric field</source>
+        <translation>Statistika za numeričko polje</translation>
+    </message>
+    <message>
+        <source>Coefficient of Variation</source>
+        <translation>Koeficijent varijacije</translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>Minimalna vrijednost</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Maksimalna vrijednost</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation>Srednja vrijednost</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Broj</translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>Doseg</translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Sredina</translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation>Broj jedinstvenih vrijednosti</translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
+        <translation>Standardna devijacija</translation>
+    </message>
+</context>
+<context>
+    <name>BasicStatisticsStrings</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Ulazni vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>Polje po kojemu treba računati statistiku</translation>
+    </message>
+    <message>
+        <source>Statistics for text field</source>
+        <translation>Statistika za tekstualno polje</translation>
+    </message>
+    <message>
+        <source>Minimum length</source>
+        <translation>Minimalna duljina</translation>
+    </message>
+    <message>
+        <source>Maximum length</source>
+        <translation>Maksimalna duljina</translation>
+    </message>
+    <message>
+        <source>Mean length</source>
+        <translation>Srednja duljina</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Broj</translation>
+    </message>
+    <message>
+        <source>Number of empty values</source>
+        <translation>Broj praznih vrijednosti</translation>
+    </message>
+    <message>
+        <source>Number of non-empty values</source>
+        <translation>Broj vrijednosti koje nisu praze</translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation>Broj jedinstvenih vrijednosti</translation>
+    </message>
+</context>
+<context>
+    <name>BatchAlgorithmDialog</name>
+    <message>
+        <source>Batch Processing - %s</source>
+        <translation>Skupna obrada - %s</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Missing parameter value: %s (row %d)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Nedostaje vrijednost parametra: %s (redak %d)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Wrong or missing parameter value: %s (row %d)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Vrijednost parametra pogrešna ili nedostaje: %s (redak %d)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Processing algorithm %d/%d...</source>
+        <translation>Procesiranje algoritma %d/%d...</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Algoritam %s započinje...&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Algorithm %s correctly executed...</source>
+        <translation>Algoritam %s se uspješno izvršio...</translation>
+    </message>
+    <message>
+        <source>Batch processing</source>
+        <translation>Skupno obrađivanje</translation>
+    </message>
+    <message>
+        <source>Batch processing successfully completed!</source>
+        <translation>Skupno obrađivanje uspješno je završeno!</translation>
     </message>
 </context>
 <context>
     <name>BatchInputSelectionPanel</name>
     <message>
         <source>Select from open layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi iz otvorenih slojeva</translation>
     </message>
     <message>
         <source>Select from filesystem</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi iz datotečnog sustava</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">Otvori datoteku</translation>
+        <translation>Otvori datoteku</translation>
     </message>
     <message>
         <source>All files(*.*);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Sve datoteke (*.*);;</translation>
     </message>
 </context>
 <context>
     <name>BatchOutputSelectionPanel</name>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Spremi datoteku</translation>
+        <translation>Spremi datoteku</translation>
+    </message>
+    <message>
+        <source>Select directory</source>
+        <translation type="unfinished">Odaberi direktorij</translation>
     </message>
 </context>
 <context>
-    <name>BatchProcessingDialog</name>
-    <message>
-        <source>Batch Processing - %s</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add row</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delete row</source>
-        <translation type="unfinished"></translation>
-    </message>
+    <name>BatchPanel</name>
     <message>
         <source>Load in QGIS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Missing parameter value: %s (row %d)&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Wrong or missing parameter value: %s (row %d)&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Processing algorithm %d/%d...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Algorithm %s correctly executed...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Batch processing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Batch processing successfully completed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj u QGIS</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">Da</translation>
+        <translation>Da</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished">Ne</translation>
-    </message>
-    <message>
-        <source>Hide advanced parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne</translation>
     </message>
 </context>
 <context>
     <name>CalculatorModelerAlgorithm</name>
     <message>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalkulator</translation>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo modeler alati</translation>
     </message>
     <message>
         <source>Formula</source>
-        <translation type="unfinished"></translation>
+        <translation>Formula</translation>
     </message>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezultat</translation>
     </message>
     <message>
         <source>Wrong formula: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogrešna formula: %s</translation>
     </message>
 </context>
 <context>
@@ -241,19 +452,141 @@ See log for more information</source>
     <message>
         <source>You can refer to model values in your formula, using single-letter variables, as follows:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Možete se referirati na vrijednosti modela u formuli, korištenjem varijabli označenih jednim slovom, kako slijedi:
+</translation>
     </message>
     <message>
         <source>
  - No numerical variables are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+- Nisu dostupne numeričke varijable.</translation>
     </message>
     <message>
         <source>[Enter your formula here]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Ovdje unesite formulu]</translation>
     </message>
     <message>
         <source>Calculator</source>
+        <translation>Kalkulator</translation>
+    </message>
+</context>
+<context>
+    <name>CanopyMaxima</name>
+    <message>
+        <source>Input FUSION canopy height model</source>
+        <translation>Ulazni FUSION model visine pokrova</translation>
+    </message>
+    <message>
+        <source>Input ground .dtm layer [optional]</source>
+        <translation>Ulazni .dtm sloj podloge [opcionalno]</translation>
+    </message>
+    <message>
+        <source>Height threshold</source>
+        <translation>Prag visine</translation>
+    </message>
+    <message>
+        <source>Variable window size: parameter A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Parameter C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary (tree height summary statistics)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file with maxima</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CanopyModel</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>XY jedinice</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z jedinice</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Sredina</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>Nagib</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Catalog</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Output files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Intensity - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Centroids</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Error calculating centroid</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -262,6 +595,206 @@ See log for more information</source>
     <message>
         <source>&lt;p&gt;Character: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Value: 0x%3</source>
         <translation>&lt;p&gt;Znak: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Value: 0x%3</translation>
+    </message>
+</context>
+<context>
+    <name>Clip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation>Obreži sloj</translation>
+    </message>
+    <message>
+        <source>Clipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GEOS geoprocessing error: One or more input features have invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Clipping extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByMask</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create and output alpha band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep resolution of output raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipData</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Extent</source>
+        <translation>Opseg</translation>
+    </message>
+    <message>
+        <source>Shape</source>
+        <translation>Oblik</translation>
+    </message>
+    <message>
+        <source>Output clipped las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CloudMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Output file with tabular metric information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Above</source>
+        <translation>Iznad</translation>
+    </message>
+    <message>
+        <source>First Impulse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ColorRelief</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color configuration file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Matching mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>CommanderWindow</name>
+    <message>
+        <source>Missing dependency</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ConcaveHull</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Ulazni sloj točaka</translation>
+    </message>
+    <message>
+        <source>Threshold (0-1, where 1 is equivalent with Convex Hull)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split multipart geometry into singleparts geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Concave hull</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computing edges max length...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing features...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dissolving Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saving data...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -280,15 +813,15 @@ See log for more information</source>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">Općenito</translation>
+        <translation>Općenito</translation>
     </message>
     <message>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation>Model</translation>
     </message>
     <message>
         <source>Scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripte</translation>
     </message>
     <message>
         <source>Providers</source>
@@ -303,6 +836,29 @@ See log for more information</source>
 %1</source>
         <translation>Pogrešna vrijednost parametra:
 %1</translation>
+    </message>
+</context>
+<context>
+    <name>ConvexHull</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Field (optional, only used if creating convex hulls by classes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Convex hull</source>
+        <translation>Konveksna obvojnica</translation>
+    </message>
+    <message>
+        <source>Exception while computing convex hull</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -349,32 +905,82 @@ See log for more information</source>
     </message>
 </context>
 <context>
-    <name>CouldNotLoadResultsDialog</name>
+    <name>Cover</name>
     <message>
-        <source>Problem loading output layers</source>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Close</source>
-        <translation type="unfinished">Zatvori</translation>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Heightbreak</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>XY jedinice</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z jedinice</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CreateConstantRaster</name>
+    <message>
+        <source>Reference layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Constant value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
     <name>CreateNewModelAction</name>
     <message>
         <source>Create new model</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori novi model</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
     </message>
 </context>
 <context>
     <name>CreateNewScriptAction</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
+    </message>
+</context>
+<context>
+    <name>Csv2Grid</name>
+    <message>
+        <source>CSV Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Column</source>
+        <translation>Kolona</translation>
+    </message>
+    <message>
+        <source>Raster Output file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -452,23 +1058,23 @@ See log for more information</source>
     </message>
     <message>
         <source>Select an empty schema for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite praznu shemu za brisanje.</translation>
     </message>
     <message>
         <source>Select a table for editation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi tablicu za uređivanje.</translation>
     </message>
     <message>
         <source>Select a table/view for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi tablicu/pogled za brisanje.</translation>
     </message>
     <message>
         <source>Select a table to empty it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi tablicu za pražnjenje.</translation>
     </message>
     <message>
         <source>Select a table/view.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi tablicu/pogled.</translation>
     </message>
     <message>
         <source>Server version: </source>
@@ -489,7 +1095,8 @@ See log for more information</source>
     <message>
         <source>&lt;warning&gt; geometry_columns table doesn&apos;t exist!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; tablica geometry_columns ne postoji!
+Ova je tablica nužna za mnoge GIS aplikacije za enumeraciju tablica.</translation>
     </message>
     <message>
         <source>create new schemas</source>
@@ -549,7 +1156,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Ovaj korisnik nema privilegije za pristup ovoj shemi!</translation>
     </message>
     <message>
         <source>Relation type:</source>
@@ -569,7 +1176,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Unknown (&lt;a href=&quot;action:rows/count&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznato (&lt;a href=&quot;action:rows/count&quot;&gt;otkrij&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Name</source>
@@ -637,7 +1244,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Spatial ref:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prostorna referenca:</translation>
     </message>
     <message>
         <source>Estimated extent:</source>
@@ -645,19 +1252,15 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>(nepoznato) (&lt;a href=&quot;action:extent/get&quot;&gt;otkrij&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
         <translation>Opseg:</translation>
     </message>
     <message>
-        <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&lt;warning&gt; No spatial index defined (&lt;a href=&quot;action:spatialindex/create&quot;&gt;create it&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Prostorni index nije definiran (&lt;a href=&quot;action:spatialindex/create&quot;&gt;stvori ga&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Pages:</source>
@@ -673,7 +1276,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Ovaj korisnik nema korisničke privilegija za ovu shemu!</translation>
     </message>
     <message>
         <source>Rows (counted):</source>
@@ -685,7 +1288,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; There&apos;s a significant difference between estimated and real row count. Consider running &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Postoji značajna razlika između procijenjenog i stvarnog broja redaka. Razmislite o pokretanju &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No primary key defined for this table!</source>
@@ -698,12 +1301,14 @@ This table is essential for many GIS applications for enumeration of tables.</so
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
 This is probably a result of incorrect PostGIS upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Inačica instaliranih skirpti ne odgovara inačici objavljenih skripti!
+Ovo je vjerojatno rezultat neuspjele PostGIS nadogradnje.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have privileges to read contents of geometry_columns table!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; Ovaj korisnik nema privilegije za čitanje sadržaja tablice geometry_columns!
+Ova je tablica nužna za mnoge GIS aplikacije za enumeraciju tablica.</translation>
     </message>
     <message>
         <source>Length</source>
@@ -723,7 +1328,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;action:triggers/enable&quot;&gt;Omogući sve okidače&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Onemogući sve okidače&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Definition</source>
@@ -735,7 +1340,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&amp;Versioning</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verzioniranje</translation>
     </message>
     <message>
         <source>&amp;Table</source>
@@ -847,7 +1452,7 @@ Upit:
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
-        <translation type="unfinished"></translation>
+        <translation>Želite li %s sve okidače?</translation>
     </message>
     <message>
         <source>Table triggers</source>
@@ -855,7 +1460,7 @@ Upit:
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>Želite li %s okidač %s?</translation>
     </message>
     <message>
         <source>Table trigger</source>
@@ -863,7 +1468,7 @@ Upit:
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>Želite li %s prostorni index za polje %s?</translation>
     </message>
     <message>
         <source>Spatial Index</source>
@@ -892,6 +1497,10 @@ Upit:
     <message>
         <source>Unknown</source>
         <translation>Nepoznato</translation>
+    </message>
+    <message>
+        <source>&lt;warning&gt; There is no entry in geometry_columns!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -929,10 +1538,21 @@ Upit:
     </message>
     <message>
         <source>%1 is an invalid layer - not loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 je nevaljani sloj - nije učitan</translation>
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded. Please check the &lt;a href=&quot;#messageLog&quot;&gt;message log&lt;/a&gt; for further info.</source>
+        <translation>%1 je nevaljani sloj i ne može se učitati. Provjerite &lt;a href=&quot;#messageLog&quot;&gt;zapisnik&lt;/a&gt; za više informacija.</translation>
+    </message>
+</context>
+<context>
+    <name>DTM2TIF</name>
+    <message>
+        <source>Input .dtm layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file name</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1189,7 +1809,7 @@ Upit:
     </message>
     <message>
         <source>Drop existing table</source>
-        <translation type="unfinished"></translation>
+        <translation>Obriši postojeću tablicu</translation>
     </message>
 </context>
 <context>
@@ -1343,32 +1963,103 @@ kolone</translation>
     </message>
 </context>
 <context>
+    <name>Delaunay</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Delaunay triangulation</source>
+        <translation>Delaunay triangulacija</translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DeleteColumn</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Field to delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>DeleteDuplicateGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
     <name>DeleteModelAction</name>
     <message>
         <source>Delete model</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbriši model</translation>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this model?</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeste li sigurni da želite izbrisati ovaj model?</translation>
     </message>
 </context>
 <context>
     <name>DeleteScriptAction</name>
     <message>
         <source>Delete script</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbriši skriptu</translation>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this script?</source>
+        <translation>Jeste li sigurni da želite izbrisati ovu skriptu?</translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Vertices to add</source>
+        <translation>Verteksi za dodavanje</translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometriesInterval</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Interval between vertices to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1376,7 +2067,7 @@ kolone</translation>
     <name>Dialog</name>
     <message>
         <source>Eliminate sliver polygons</source>
-        <translation>Eliminiraj srebrne poligone</translation>
+        <translation>Eliminiraj iscjepane poligone</translation>
     </message>
     <message>
         <source>common boundary</source>
@@ -2247,11 +2938,6 @@ Would you like to add the new layer to the TOC?</source>
         <translation>Odredite ciljano jedinstveno ID polje</translation>
     </message>
     <message>
-        <source>Created output matrix:
-</source>
-        <translation>Kreirana izlazna matrica:</translation>
-    </message>
-    <message>
         <source>Finished</source>
         <translation>Završeno</translation>
     </message>
@@ -2389,19 +3075,19 @@ Sigurno želite nastaviti?</translation>
     </message>
     <message>
         <source>Include input features that touch the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>Uključi kao ulazne elemente koji dodiruju odabrane elemente</translation>
     </message>
     <message>
         <source>Include input features that overlap/cross the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>Uključi kao ulazne elemente koji se preklapaju/križaju s odabranim elementima</translation>
     </message>
     <message>
         <source>Include input features completely within the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>Uključi kao ulazne elemente sve koji su u potpunosti unutar odabranih elemenata</translation>
     </message>
     <message>
         <source>Only selected features</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo odabrani elementi</translation>
     </message>
     <message>
         <source>Please specify select layer</source>
@@ -2427,12 +3113,234 @@ Sigurno želite nastaviti?</translation>
         <source>Could not add features</source>
         <translation>Ne mogu dodati elemente</translation>
     </message>
+    <message>
+        <source>Dialog</source>
+        <translation>Dijalog</translation>
+    </message>
+    <message>
+        <source>Log</source>
+        <translation>Zapisnik</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomoć</translation>
+    </message>
+    <message>
+        <source>about:blank</source>
+        <translation>o:prazno</translation>
+    </message>
+    <message>
+        <source>Include input features that intersect the selection features</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Difference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation>Sloj razlike</translation>
+    </message>
+    <message>
+        <source>Difference</source>
+        <translation>Razlika</translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistDown</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Raster Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weight Path Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistUp</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Proportion Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Distance Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum2</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Dissolve</name>
+    <message>
+        <source>Geometry exception while dissolving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Dissolve all (do not use field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Dissolved</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DlgAddGeometryColumn</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2496,7 +3404,7 @@ Sigurno želite nastaviti?</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
     <message>
         <source>no field selected</source>
@@ -2579,7 +3487,7 @@ Sigurno želite nastaviti?</translation>
     <name>DlgFieldProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2591,14 +3499,21 @@ Sigurno želite nastaviti?</translation>
     </message>
 </context>
 <context>
+    <name>DlgFixedTable</name>
+    <message>
+        <source>Fixed table</source>
+        <translation>Fiksna tablica</translation>
+    </message>
+</context>
+<context>
     <name>DlgGetScriptsAndModels</name>
     <message>
         <source>Get scripts and models</source>
-        <translation type="unfinished"></translation>
+        <translation>Dohvati skripte i modele</translation>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">o:prazno</translation>
+        <translation>o:prazno</translation>
     </message>
 </context>
 <context>
@@ -2668,7 +3583,7 @@ Sigurno želite nastaviti?</translation>
     <name>DlgModeler</name>
     <message>
         <source>Processing modeler</source>
-        <translation type="unfinished"></translation>
+        <translation>Procesiranje modelera</translation>
     </message>
     <message>
         <source>Open model</source>
@@ -2718,6 +3633,22 @@ Sigurno želite nastaviti?</translation>
         <source>Enter group name here</source>
         <translation>Ovdje unesi ime grupe</translation>
     </message>
+    <message>
+        <source>Ctrl+O</source>
+        <translation>Ctrl+O</translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
 </context>
 <context>
     <name>DlgMultipleSelection</name>
@@ -2730,30 +3661,30 @@ Sigurno želite nastaviti?</translation>
     <name>DlgNumberInput</name>
     <message>
         <source>Enter number or expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi broj ili izraz</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter expression in the text field. Double click on elements in the tree to add their values to the expression.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Unesite izraz u tekstualno polje. Dva puta kliknite na elemente u stablu kako bi dodali njihove vrijednosti u izraz.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Warning&lt;/span&gt;: if expression result is float value, but integer required, result will be rounded to integer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Upozorenje&lt;/span&gt;: ako je rezultat izraza decimalni broj, a zahtjeva se cijeli broj, rezultat će biti zaokružen na cijeli broj.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>DlgRenderingStyles</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">Izlaz</translation>
+        <translation>Izlaz</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Stil</translation>
+        <translation>Stil</translation>
     </message>
 </context>
 <context>
@@ -2813,16 +3744,56 @@ Sigurno želite nastaviti?</translation>
         <source>Redo</source>
         <translation>Ponovi</translation>
     </message>
+    <message>
+        <source>Open script</source>
+        <translation>Otvori skriptu</translation>
+    </message>
+    <message>
+        <source>Ctrl+O, Return</source>
+        <translation>Ctrl+O, Potvrda</translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
+    <message>
+        <source>Ctrl+X</source>
+        <translation>Ctrl+X</translation>
+    </message>
+    <message>
+        <source>Ctrl+C</source>
+        <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <source>Ctrl+V</source>
+        <translation>Ctrl+V</translation>
+    </message>
+    <message>
+        <source>Ctrl+Z</source>
+        <translation>Ctrl+Z</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+Z</source>
+        <translation>Ctrl+Shift+Z</translation>
+    </message>
 </context>
 <context>
     <name>DlgSqlWindow</name>
     <message>
         <source>%d rows, %.1f seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d redaka, %.1f sekundi</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
     <message>
         <source>You must fill the required fields: 
@@ -2835,43 +3806,43 @@ kolona geometrije - kolona s jedinstvenim cjelobrojnim vrijednostima</translatio
     <name>DlgTableProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
     <message>
         <source>nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>ništa nije odabrano</translation>
     </message>
     <message>
         <source>Are you sure</source>
-        <translation type="unfinished"></translation>
+        <translation>Dali ste sigurni</translation>
     </message>
     <message>
         <source>really delete column &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>zaista brisati kolonu &apos;%s&apos;?</translation>
     </message>
     <message>
         <source>really delete constraint &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>zaista izbrisati ograničenje &apos;%s&apos;?</translation>
     </message>
     <message>
         <source>The selected table has no geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabrana tablica nema geometrije</translation>
     </message>
     <message>
         <source>Create?</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvoriti?</translation>
     </message>
     <message>
         <source>Create spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori prostorni index za polje %s?</translation>
     </message>
     <message>
         <source>Nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ništa nije odabrano</translation>
     </message>
     <message>
         <source>really delete index &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>zaista izbrisati index &apos;%s&apos;?</translation>
     </message>
 </context>
 <context>
@@ -2930,101 +3901,504 @@ kolona geometrije - kolona s jedinstvenim cjelobrojnim vrijednostima</translatio
     </message>
 </context>
 <context>
+    <name>DropAnalysis</name>
+    <message>
+        <source>D8 Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accumulated Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spacing for Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>EditModelAction</name>
     <message>
         <source>Edit model</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi model</translation>
     </message>
 </context>
 <context>
     <name>EditScriptAction</name>
     <message>
         <source>Edit script</source>
+        <translation>Uredi skriptu</translation>
+    </message>
+</context>
+<context>
+    <name>Eliminate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Use current selection in input layer (works only if called from toolbox)</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>Atribut odabira</translation>
+    </message>
+    <message>
+        <source>Comparison</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vrijednost</translation>
+    </message>
+    <message>
+        <source>Merge selection with the neighbouring polygon with the</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cleaned layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to integer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to unicode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with system date format %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with format string &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the date and the date format, e.g. &quot;07.26.2011&quot; &quot;MM.dd.yyyy&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%s&quot; can only be used with string fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error in selection input: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s: (No selection in input layer &quot;%s&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not replace geometry of feature with id %s</source>
+        <translation>Ne mogu zamijeniti geometriju elementa sa ID %s</translation>
+    </message>
+</context>
+<context>
+    <name>EquivalentNumField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>ExampleAlgorithm</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Explode</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>ExportGeometryInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Calculate using</source>
+        <translation>Izračunati koristeći</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>ExtentFromLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Calculate extent for each feature separately</source>
+        <translation>Izračunaj opseg za svaki element zasebno</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
     <name>ExtentSelectionPanel</name>
     <message>
         <source>[Leave blank to use min covering extent]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Ostavi prazno za korištenje minimalnog opsega prekrivanja]</translation>
     </message>
     <message>
         <source>Use layer/canvas extent</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi opseg sloja/prikaza</translation>
     </message>
     <message>
         <source>Select extent on canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi opseg na prikazu</translation>
     </message>
     <message>
         <source>Use min covering extent from input layers</source>
+        <translation>Koristi minimalni opseg prekrivanja iz odabranih slojeva</translation>
+    </message>
+    <message>
+        <source>Select extent</source>
+        <translation>Odaberi opseg</translation>
+    </message>
+    <message>
+        <source>Use extent from</source>
+        <translation>Koristi opseg iz</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>Atribut odabira</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation>Operator</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vrijednost</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation>Operatori %s mogu se koristiti samo s poljima sa znakovnim nizovima.</translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation>Numeričko polje</translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation>Polje znakovnog niza</translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation>Polje s datumom</translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation>Nepodržani tip polja &quot;%s&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation>Sloj iz kojeg se odabire</translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation>Dodatni sloj (presječni sloj)</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractNodes</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractProjection</name>
+    <message>
+        <source>Input file</source>
+        <translation>Ulazna datoteka</translation>
+    </message>
+    <message>
+        <source>Create also .prj file</source>
+        <translation>Stvori i .prj datoteku</translation>
     </message>
 </context>
 <context>
     <name>FieldsCalculator</name>
     <message>
         <source>Field calculator</source>
-        <translation type="unfinished">Kalkulator polja</translation>
+        <translation>Kalkulator polja</translation>
     </message>
     <message>
         <source>Create a new field</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori novo polje</translation>
     </message>
     <message>
         <source>Output field name</source>
-        <translation type="unfinished">Naziv izlaznog polja</translation>
+        <translation>Naziv izlaznog polja</translation>
     </message>
     <message>
         <source>Output field type</source>
-        <translation type="unfinished">Tip izlaznog polja</translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <source>Output field width</source>
-        <translation type="unfinished">Širina izlaznog polja</translation>
+        <translation>Širina izlaznog polja</translation>
     </message>
     <message>
         <source>Width of complete output. For example 123,456 means 6 as field width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina kompletnog izlaza. Na primjer 123,456 znači 6 kao širina polja.</translation>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Preciznost</translation>
+        <translation>Preciznost</translation>
     </message>
     <message>
         <source>Input layer</source>
-        <translation type="unfinished">Ulazni sloj</translation>
+        <translation>Ulazni sloj</translation>
     </message>
     <message>
         <source>Update existing field</source>
-        <translation type="unfinished">Osvježi postojeće polje</translation>
+        <translation>Osvježi postojeće polje</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka rezultata</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation>Naziv rezultirajućeg polja</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>Tip polja</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>Duljina polja</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>Preciznost polja</translation>
+    </message>
+    <message>
+        <source>Create new field</source>
+        <translation>Stvori novo polje</translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>Formula</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Evaluation error: %s</source>
+        <translation>Pogreška pri evaluaciji: %s</translation>
+    </message>
+    <message>
+        <source>An error occured while evaluating the calculation string:
+%s</source>
+        <translation>Došlo je do pogreške pri evaluaciji znakovnog niza kalkulacije:
+%s</translation>
+    </message>
+    <message>
+        <source>Field name is not set. Please enter a field name</source>
+        <translation>Nije postavljen naziv polja. Unesite naziv polja</translation>
+    </message>
+    <message>
+        <source>Output is not set. Please specify valid filename</source>
+        <translation>Nije postavljen izlaz. Odredite valjan naziv datoteke</translation>
     </message>
 </context>
 <context>
     <name>FieldsCalculatorDialog</name>
     <message>
         <source>[Save to temporary file]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Spremi u privremenu datoteku]</translation>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Spremi datoteku</translation>
+        <translation>Spremi datoteku</translation>
     </message>
     <message>
         <source>Unable to execute algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemoguće izvršiti algoritam</translation>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
+        <translation>Krive ili pogrešne vrijednosti parametara</translation>
+    </message>
+</context>
+<context>
+    <name>FieldsMapper</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Fields mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Parser error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Evaluation error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occurred while evaluating the calculation string:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FieldsPyculator</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation>Naziv polja s rezultatom</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>Tip polja</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>Duljina polja</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>Preciznost polja</translation>
+    </message>
+    <message>
+        <source>Global expression</source>
+        <translation>Globalni izraz</translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>Formula</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Global code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Field code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error
+Field code block does not return &apos;%s1&apos; variable! Please declare this variable in your code!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3050,42 +4424,248 @@ kolona geometrije - kolona s jedinstvenim cjelobrojnim vrijednostima</translatio
 <context>
     <name>FileSelectionPanel</name>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Select folder</source>
+        <translation>Odaberi mapu</translation>
     </message>
     <message>
-        <source>Select folder</source>
+        <source>Select file</source>
+        <translation>Odaberi datoteku</translation>
+    </message>
+</context>
+<context>
+    <name>FilterData</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Standard Deviation multiplier</source>
+        <translation>Množitelj standardne devijacije</translation>
+    </message>
+    <message>
+        <source>Window size</source>
+        <translation>Veličina prozora</translation>
+    </message>
+    <message>
+        <source>Output filtered las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FirstLastReturn</name>
+    <message>
+        <source>Input .las</source>
+        <translation>Ulazni .las</translation>
+    </message>
+    <message>
+        <source>Use LAS info</source>
+        <translation>Koristi LAS informacije</translation>
+    </message>
+    <message>
+        <source>Output layers</source>
+        <translation>Izlazni slojevi</translation>
+    </message>
+</context>
+<context>
+    <name>FixedDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Distance</source>
+        <translation>Dužina</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>Segmenti</translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open file</source>
-        <translation type="unfinished">Otvori datoteku</translation>
+        <source>Buffer</source>
+        <translation>Zaštita (Buff)</translation>
     </message>
 </context>
 <context>
     <name>FixedTableDialog</name>
     <message>
-        <source>Fixed Table</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add row</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj redak</translation>
     </message>
     <message>
-        <source>Remove row</source>
-        <translation type="unfinished"></translation>
+        <source>Remove row(s)</source>
+        <translation>Ukloni redak(ke)</translation>
+    </message>
+    <message>
+        <source>Remove all</source>
+        <translation>Ukloni sve</translation>
     </message>
 </context>
 <context>
     <name>FixedTablePanel</name>
     <message>
         <source>Fixed table %dx%d</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksna tablica %dx%d</translation>
+    </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Toggle advanced mode</source>
+        <translation>Uklj/isklj napredni način</translation>
+    </message>
+    <message>
+        <source>Add row</source>
+        <translation>Dodaj redak</translation>
+    </message>
+    <message>
+        <source>Remove row(s)</source>
+        <translation>Ukloni redak(ke)</translation>
+    </message>
+    <message>
+        <source>Iterate over this layer</source>
+        <translation>Ponovi preko ovog sloja</translation>
+    </message>
+    <message>
+        <source>Open number input dialog</source>
+        <translation>Otvori dijalog unosa broja</translation>
+    </message>
+    <message>
+        <source>Advanced parameters</source>
+        <translation>Napredni parametri</translation>
+    </message>
+    <message>
+        <source>Min</source>
+        <translation>Min </translation>
+    </message>
+    <message>
+        <source>Max</source>
+        <translation>Max</translation>
+    </message>
+    <message>
+        <source>Fields</source>
+        <translation>Polja</translation>
+    </message>
+    <message>
+        <source>Add new field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete selected field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selected field up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selected field down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset all fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields from layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields from selected layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>equals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>contains</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>touches</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>intersects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>within</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>overlaps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>crosses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FusionAlgorithm</name>
+    <message>
+        <source>Fusion folder is not configured.
+Please configure it before running Fusion algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FusionUtils</name>
+    <message>
+        <source>Fusion execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GdalOgrAlgorithmProvider</name>
+    <message>
+        <source>GDAL/OGR</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3122,11 +4702,13 @@ kolona geometrije - kolona s jedinstvenim cjelobrojnim vrijednostima</translatio
         <source>Unable to load {0} plugin. 
 The required &quot;{1}&quot; module is missing. 
 Install it and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nemoguće učitati {0} dodatak. 
+Nedostaje zahtjevani &quot;{1}&quot; modul. 
+Instalirajte ga i pokušajte ponovno.</translation>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>Detektirana inačica QGIS-a:</translation>
     </message>
     <message>
         <source>This version of Gdal Tools requires at least QGIS version 1.0.0
@@ -3144,39 +4726,39 @@ Dodatak neće biti omogućen.</translation>
     </message>
     <message>
         <source>Assign Projection...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodijeli projekciju...</translation>
     </message>
     <message>
         <source>Extract Projection...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvuci projekciju...</translation>
     </message>
     <message>
         <source>Rasterize (Vector to Raster)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Rasteriziraj (vektor u raster)...</translation>
     </message>
     <message>
         <source>Polygonize (Raster to Vector)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Poligoniziraj (raster u vektor)...</translation>
     </message>
     <message>
         <source>Translate (Convert Format)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Translatiraj (konverzija formata)...</translation>
     </message>
     <message>
         <source>RGB to PCT...</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB u PCT...</translation>
     </message>
     <message>
         <source>PCT to RGB...</source>
-        <translation type="unfinished"></translation>
+        <translation>PCT u RGB...</translation>
     </message>
     <message>
         <source>Contour...</source>
-        <translation type="unfinished"></translation>
+        <translation>Slojnice...</translation>
     </message>
     <message>
         <source>Clipper...</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrezivač</translation>
     </message>
     <message>
         <source>Sieve...</source>
@@ -3192,39 +4774,39 @@ Dodatak neće biti omogućen.</translation>
     </message>
     <message>
         <source>Proximity (Raster Distance)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blizina (Raster udaljenosti)...</translation>
     </message>
     <message>
         <source>Grid (Interpolation)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Grid (interpolacija)...</translation>
     </message>
     <message>
         <source>DEM (Terrain Models)...</source>
-        <translation type="unfinished"></translation>
+        <translation>DEM (modeli terena)...</translation>
     </message>
     <message>
         <source>Build Virtual Raster (Catalog)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgradi virtualni raster (katalog)...</translation>
     </message>
     <message>
         <source>Merge...</source>
-        <translation type="unfinished"></translation>
+        <translation>Spoji...</translation>
     </message>
     <message>
         <source>Information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Informacija...</translation>
     </message>
     <message>
         <source>Build Overviews (Pyramids)...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgradi preglede (Piramide)...</translation>
     </message>
     <message>
         <source>Tile Index...</source>
-        <translation type="unfinished"></translation>
+        <translation>Index pločica...</translation>
     </message>
     <message>
         <source>GdalTools Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavke Gdal alata...</translation>
     </message>
     <message>
         <source>Warp an image into a new coordinate system</source>
@@ -3256,7 +4838,7 @@ Dodatak neće biti omogućen.</translation>
     </message>
     <message>
         <source>Convert a 24bit RGB image to 8bit paletted</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretvori 24bit RGB sliku u 8bit paletiranu</translation>
     </message>
     <message>
         <source>Convert an 8bit paletted image to 24bit RGB</source>
@@ -3292,31 +4874,31 @@ Dodatak neće biti omogućen.</translation>
     </message>
     <message>
         <source>Create raster from the scattered data</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori raster iz razbacanih podataka</translation>
     </message>
     <message>
         <source>Tool to analyze and visualize DEMs</source>
-        <translation type="unfinished"></translation>
+        <translation>Alat za analizu i vizualizaciju DEM-ova</translation>
     </message>
     <message>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Razno</translation>
     </message>
     <message>
         <source>Builds a VRT from a list of datasets</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgradi VRT iz popisa izvora podataka</translation>
     </message>
     <message>
         <source>Build a quick mosaic from a set of images</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgradi brzi mozaik iz skupa slika</translation>
     </message>
     <message>
         <source>Lists information about raster dataset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispisuje informaciju o skupu podataka rastera</translation>
     </message>
     <message>
         <source>Builds or rebuilds overview images</source>
-        <translation type="unfinished"></translation>
+        <translation>Izrađuje ili obnavlja pregled slika</translation>
     </message>
     <message>
         <source>Build a shapefile as a raster tileindex</source>
@@ -3378,12 +4960,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>No input files to process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema ulaznih datoteka za procesiranje.</translation>
     </message>
     <message>
         <source>The following files were not created: 
 {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>Slijedeće datoteke nisu stvorene:
+{0}</translation>
     </message>
 </context>
 <context>
@@ -3395,7 +4978,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>The command is still running. 
 Do you want terminate it anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova naredba još se izvršava.
+Želite li ju svejedno prekinuti?</translation>
     </message>
 </context>
 <context>
@@ -3418,7 +5002,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>%s not created.</source>
-        <translation type="unfinished"></translation>
+        <translation>%s nije stvoren.</translation>
     </message>
 </context>
 <context>
@@ -3429,7 +5013,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>&amp;Load into canvas when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Učitaj na prikaz kad se završi</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -3445,7 +5029,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Batch mode (for processing whole directory)</source>
-        <translation type="unfinished"></translation>
+        <translation>Skupni način (za procesiranje cijele mape)</translation>
     </message>
     <message>
         <source>&amp;Input file</source>
@@ -3453,7 +5037,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Recurse subdirectories</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrati se kroz podmape</translation>
     </message>
     <message>
         <source>Create also prj file</source>
@@ -3465,99 +5049,99 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the raster file to save the results to</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite rastersku datoteku za spremanje rezultata</translation>
     </message>
     <message>
         <source>Select the color configuration file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite konfiguracijsku datoteku boje</translation>
     </message>
     <message>
         <source>Select the input file for Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu datoteku za Mrežu</translation>
     </message>
     <message>
         <source>Select the input file for Rasterize</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Rasterizaciju</translation>
     </message>
     <message>
         <source>Select the input file for Sieve</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu datoteku za Sieve</translation>
     </message>
     <message>
         <source>Select the input file for Warp</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu datoteku za Zakrivljenje (Warp)</translation>
     </message>
     <message>
         <source>Select the mask file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite datoteku s maskom</translation>
     </message>
     <message>
         <source>Select the input directory with files to Warp</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu mapu s datotekama za zakrivljenje (warp)</translation>
     </message>
     <message>
         <source>Select the output directory to save the results to</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite izlaznu mapu za spremanje rezultata</translation>
     </message>
     <message>
         <source>Output size or resolution required</source>
-        <translation type="unfinished"></translation>
+        <translation>Potrebna je izlazna veličina ili rezolucija</translation>
     </message>
     <message>
         <source>The output file doesn&apos;t exist. You must set up the output size or resolution to create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izlazna datoteka ne postoji. Morate postaviti izlaznu veličinu ili rezoluciju kako biste ju kreirali.</translation>
     </message>
     <message>
         <source>Select the input file for Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Translaciju</translation>
     </message>
     <message>
         <source>Select the input directory with files to Translate</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu mapu s datotekama za translaciju</translation>
     </message>
     <message>
         <source>Translate - srcwin</source>
-        <translation type="unfinished"></translation>
+        <translation>Translacija - srcwin</translation>
     </message>
     <message>
         <source>Image coordinates (pixels) must be integer numbers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koordinate slike (pikseli) moraju biti cijeli brojevi.</translation>
     </message>
     <message>
         <source>Translate - prjwin</source>
-        <translation type="unfinished"></translation>
+        <translation>Translacija - prjwin</translation>
     </message>
     <message>
         <source>Image coordinates (geographic) must be numbers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koordinate slike (geografske) moraju biti brojevi.</translation>
     </message>
     <message>
         <source>Select the input directory with raster files</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu mapu s rasterskim datotekama</translation>
     </message>
     <message>
         <source>Select where to save the TileIndex output</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite gdje želite spremiti izlaz TileIndex funkcije</translation>
     </message>
     <message>
         <source>Convert paletted image to RGB</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretvori paletiranu sliku u RGB</translation>
     </message>
     <message>
         <source>Select the input file for convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu datoteku za konverziju</translation>
     </message>
     <message>
         <source>Select the input directory with files for convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu mapu s datotekama za konverziju</translation>
     </message>
     <message>
         <source>Select the file to analyse</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite datoteku za analizu</translation>
     </message>
     <message>
         <source>Select the input directory with files to Assign projection</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite ulaznu mapu s datotekama za dodijeljivanje projekcije</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -3569,85 +5153,87 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the input file for Polygonize</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Poligonizaciju</translation>
     </message>
     <message>
         <source>Select the files for VRT</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteke za VRT</translation>
     </message>
     <message>
         <source>Select where to save the VRT</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mjesto snimanja VRT-a</translation>
     </message>
     <message>
         <source>VRT (*.vrt)</source>
-        <translation type="unfinished"></translation>
+        <translation>VRT (*.vrt)</translation>
     </message>
     <message>
         <source>Select the input directory with files for VRT</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu mapu s datotekama za VRT</translation>
     </message>
     <message>
         <source>Select the input file for Near Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Near Black</translation>
     </message>
     <message>
         <source>Select the input file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku</translation>
     </message>
     <message>
         <source>Select the input directory with files</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu mapu s datotekama</translation>
     </message>
     <message>
         <source>Select the files to Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteke za Spajanje</translation>
     </message>
     <message>
         <source>Error retrieving the extent</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri povlačenju sadržaja</translation>
     </message>
     <message>
         <source>GDAL was unable to retrieve the extent from any file. 
 The &quot;Use intersected extent&quot; option will be unchecked.</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL nije u mogućnosti povući opseg iz niti jedne datoteke.
+Bit će uključena opcija &quot;koristi presječni opseg&quot;.</translation>
     </message>
     <message>
         <source>Empty extent</source>
-        <translation type="unfinished"></translation>
+        <translation>Prazan opseg</translation>
     </message>
     <message>
         <source>The computed extent is empty. 
 Disable the &quot;Use intersected extent&quot; option to have a nonempty output.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izračunati opseg je prazan. 
+Onemogućite &quot;Koristi presječni opseg&quot; opciju kako biste izbjegli praznu izlaznu datoteku.</translation>
     </message>
     <message>
         <source>Select where to save the Merge output</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi gdje spremiti izlaz Spajanja</translation>
     </message>
     <message>
         <source>Select the input directory with files to Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu mapu s datotekama za Spajanje</translation>
     </message>
     <message>
         <source>{0} not created.</source>
-        <translation type="unfinished"></translation>
+        <translation>{0} nije stvoreno.</translation>
     </message>
     <message>
         <source>Select the files to analyse</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteke za analizu</translation>
     </message>
     <message>
         <source>Select the input file for Contour</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Slojnice</translation>
     </message>
     <message>
         <source>Select where to save the Contour output</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi gdje spremiti izlaz Slojnica</translation>
     </message>
     <message>
         <source>Select the input file for Proximity</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi ulaznu datoteku za Blizinu</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3655,7 +5241,7 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Warning: CRS information for all raster in subfolders will be rewritten. Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozorenje: CRS informacije će biti prebrisane s novima za sve rastere u podmapama. Jeste li sigurni?</translation>
     </message>
     <message>
         <source>Finished</source>
@@ -3671,22 +5257,22 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>This raster already found in map canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovaj raster se već nalazi u prikazu karte</translation>
     </message>
     <message>
         <source>Select where to save the Polygonize output</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi gdje će se spremiti izlaz Poligonizacije</translation>
     </message>
 </context>
 <context>
     <name>GdalToolsExtentSelector</name>
     <message>
         <source>Select the extent by drag on canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi opseg vučenjem po prikazu</translation>
     </message>
     <message>
         <source>or change the extent coordinates</source>
-        <translation type="unfinished"></translation>
+        <translation>ili izmijenite koordinate opsega</translation>
     </message>
     <message>
         <source>x</source>
@@ -3706,7 +5292,7 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Re-Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovno uključi</translation>
     </message>
 </context>
 <context>
@@ -3743,7 +5329,7 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Path to the GDAL executables</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja do izvršnih GDAL datoteka</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -3751,19 +5337,19 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Path to the GDAL python modules</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja do GDAL Python modula</translation>
     </message>
     <message>
         <source>GDAL help path</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja GDAL pomoći</translation>
     </message>
     <message>
         <source>GDAL data path</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL podatkovna putanja</translation>
     </message>
     <message>
         <source>GDAL driver path</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL putanja upravljačkih programa</translation>
     </message>
     <message>
         <source>A list of colon-separated (Linux and MacOS) or
@@ -3786,50 +5372,50 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Select directory with GDAL executables</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mapu s GDAL izvršnim datotekama</translation>
     </message>
     <message>
         <source>Select directory with GDAL python modules</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mapu s GDAL python modulima</translation>
     </message>
     <message>
         <source>Select directory with the GDAL documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mapu s GDAL dokumentacijom</translation>
     </message>
 </context>
 <context>
     <name>GdalToolsWidget</name>
     <message>
         <source>Build Virtual Raster (Catalog)</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgradi virtualni raster (Katalog)</translation>
     </message>
     <message>
         <source>Use visible raster layers for input</source>
-        <translation type="unfinished"></translation>
+        <translation>Kao ulaz koristi vidljive slojeve s rasterima</translation>
     </message>
     <message>
         <source>Choose input directory instead of files</source>
-        <translation type="unfinished"></translation>
+        <translation>Umjesto datoteka odaberi ulaznu mapu</translation>
     </message>
     <message>
         <source>&amp;Input files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ulazne datoteke</translation>
     </message>
     <message>
         <source>Recurse subdirectories</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrati se kroz podmape</translation>
     </message>
     <message>
         <source>&amp;Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izlazna datoteka </translation>
     </message>
     <message>
         <source>&amp;Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rezolucija</translation>
     </message>
     <message>
         <source>Highest</source>
-        <translation type="unfinished"></translation>
+        <translation>Najviša</translation>
     </message>
     <message>
         <source>Average</source>
@@ -3837,31 +5423,31 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Lowest</source>
-        <translation type="unfinished"></translation>
+        <translation>Najniža</translation>
     </message>
     <message>
         <source>&amp;Source No Data</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;zvor No Data</translation>
     </message>
     <message>
         <source>Se&amp;parate</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;dvoji</translation>
     </message>
     <message>
         <source>Allow projection difference</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozvoli razliku projekcije</translation>
     </message>
     <message>
         <source>Clipper</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrezivač</translation>
     </message>
     <message>
         <source>&amp;No data value</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrijednost &amp;No data</translation>
     </message>
     <message>
         <source>&amp;Input file (raster)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ulazna datoteka (raster)</translation>
     </message>
     <message>
         <source>Clipping mode</source>
@@ -3869,7 +5455,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
     </message>
     <message>
         <source>Mask layer</source>
@@ -3881,43 +5467,43 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Contour</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontura</translation>
     </message>
     <message>
         <source>&amp;Output file for contour lines (vector)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izlazne datoteke za linije slojnice (vektor)</translation>
     </message>
     <message>
         <source>I&amp;nterval between contour lines</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;nterval između linija slojnica</translation>
     </message>
     <message>
         <source>&amp;Attribute name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv &amp;atributa</translation>
     </message>
     <message>
         <source>If not provided, no elevation attribute is attached.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako nije pružena informacija, neće se dodati atribut s visinama.</translation>
     </message>
     <message>
         <source>ELEV</source>
-        <translation type="unfinished"></translation>
+        <translation>ELEV</translation>
     </message>
     <message>
         <source>Convert RGB image to paletted</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretvori RGB sliku u paletiranu</translation>
     </message>
     <message>
         <source>Batch mode (for processing whole directory)</source>
-        <translation type="unfinished"></translation>
+        <translation>Skupni način (za procesiranje cijele mape)</translation>
     </message>
     <message>
         <source>&amp;Input file</source>
-        <translation type="unfinished">&amp;Ulazna datoteka</translation>
+        <translation>&amp;Ulazna datoteka</translation>
     </message>
     <message>
         <source>Number of colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj boja</translation>
     </message>
     <message>
         <source>Band to convert</source>
@@ -4157,7 +5743,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Raster info</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster</translation>
     </message>
     <message>
         <source>Suppress GCP printing</source>
@@ -4209,7 +5795,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Polygonize (Raster to vector)</source>
-        <translation type="unfinished"></translation>
+        <translation>Poligonizacija (raster u vektor)</translation>
     </message>
     <message>
         <source>&amp;Output file for polygons (shapefile)</source>
@@ -4229,7 +5815,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Assign projection</source>
-        <translation type="unfinished">Dodijeli projekciju</translation>
+        <translation>Dodijeli projekciju</translation>
     </message>
     <message>
         <source>WARNING: current projection definition will be cleared</source>
@@ -4247,7 +5833,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished">Odaberi...</translation>
+        <translation>Odaberi...</translation>
     </message>
     <message>
         <source>Proximity (Raster distance)</source>
@@ -4287,7 +5873,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Rasterize (Vector to raster)</source>
-        <translation type="unfinished"></translation>
+        <translation>Rasterizacija (vektor u raster)</translation>
     </message>
     <message>
         <source>&amp;Input file (shapefile)</source>
@@ -4315,11 +5901,11 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Horizontalno</translation>
+        <translation>Horizontalno</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished">Vertikalno</translation>
+        <translation>Vertikalno</translation>
     </message>
     <message>
         <source>Sieve</source>
@@ -4371,7 +5957,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Translate (Convert format)</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevođenje (konverzija formata)</translation>
     </message>
     <message>
         <source>&amp;Target SRS</source>
@@ -4441,7 +6027,7 @@ The &apos;gray&apos; value (from GDAL 1.7.0) enables to expand a dataset with a 
     </message>
     <message>
         <source>Warp (Reproject)</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekcija</translation>
     </message>
     <message>
         <source>&amp;Source SRS</source>
@@ -4523,6 +6109,25 @@ See log for more details</source>
     </message>
 </context>
 <context>
+    <name>GeometryConvert</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>New geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Cannot convert from %s to %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>GeometryDialog</name>
     <message>
         <source>Merge all</source>
@@ -4582,15 +6187,15 @@ See log for more details</source>
     </message>
     <message>
         <source>Layer CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS sloja</translation>
     </message>
     <message>
         <source>Project CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS projekta</translation>
     </message>
     <message>
         <source>Ellipsoid</source>
-        <translation type="unfinished"></translation>
+        <translation>Elipsoid</translation>
     </message>
     <message>
         <source>Polygon centroids</source>
@@ -4610,7 +6215,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Voronoi polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Voronoi poligon</translation>
     </message>
     <message>
         <source>Buffer region</source>
@@ -4618,7 +6223,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Lines to polygons</source>
-        <translation type="unfinished"></translation>
+        <translation>Linije u poligone</translation>
     </message>
     <message>
         <source>Input line vector layer</source>
@@ -4671,7 +6276,7 @@ Please choose another field...</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished">Pogreška pri učitavanju izlazne shape datoteke:
+        <translation>Pogreška pri učitavanju izlazne shape datoteke:
 %s</translation>
     </message>
     <message>
@@ -4682,7 +6287,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Layer &apos;{0}&apos; updated</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloj &apos;{0}&apos; je osvježen</translation>
     </message>
     <message>
         <source>Error writing output shapefile.</source>
@@ -4790,18 +6395,21 @@ Please choose another field...</source>
     <message>
         <source>No output created. File creation error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije stvoren izlaz. Pogreška pri stvaranju datoteke:
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s
 %s%s</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvorena izlazna shape datoteka:
+%s
+%s%s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished">Pogreška pri učitavanju izlazne shape datoteke:
+        <translation>Pogreška pri učitavanju izlazne shape datoteke:
 %s</translation>
     </message>
     <message>
@@ -4812,7 +6420,7 @@ Upozorenja:</translation>
     </message>
     <message>
         <source>Symmetrical difference</source>
-        <translation type="unfinished"></translation>
+        <translation>Simetrična razlika</translation>
     </message>
     <message>
         <source>
@@ -4856,11 +6464,11 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
     </message>
     <message>
         <source>Connection problem</source>
-        <translation type="unfinished"></translation>
+        <translation>Problem s povezivanjem</translation>
     </message>
     <message>
         <source>Could not connect to scripts/models repository</source>
@@ -4875,11 +6483,11 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Alati</translation>
+        <translation>Alati</translation>
     </message>
     <message>
         <source>Connection problem</source>
-        <translation type="unfinished"></translation>
+        <translation>Problem s povezivanjem</translation>
     </message>
     <message>
         <source>Could not connect to scripts/models repository</source>
@@ -4889,43 +6497,43 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
 <context>
     <name>GetScriptsAndModelsDialog</name>
     <message>
-        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Upgradable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Instaliran</translation>
     </message>
     <message>
         <source>Updatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Moguće osvježenje</translation>
     </message>
     <message>
         <source>Not installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije instalirano</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt; %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;b&gt;Opis:&lt;/b&gt; %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Created by:&lt;/b&gt; %s</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;b&gt;Izradio:&lt;/b&gt; %s</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Version:&lt;/b&gt; %s</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;b&gt;Inačica:&lt;/b&gt; %s</translation>
     </message>
     <message>
         <source>&lt;h2&gt;No detailed description available for this script&lt;/h2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Nema detaljnog opisa za ovu skriptu&lt;/h2&gt;</translation>
     </message>
     <message>
         <source>Connection problem</source>
-        <translation type="unfinished"></translation>
+        <translation>Problem s povezivanjem</translation>
     </message>
     <message>
         <source>Could not download file: %s</source>
+        <translation>Ne mogu skinuti datoteku: %s</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Updatable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4933,30 +6541,588 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     <name>GlobePlugin</name>
     <message>
         <source>Launch Globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokreni Globe</translation>
     </message>
     <message>
         <source>Globe Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Globe postavke</translation>
     </message>
     <message>
         <source>Unload Globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni Globe</translation>
     </message>
     <message>
         <source>Overlay data on a 3D globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Preklopi podatke na 3D globus</translation>
     </message>
     <message>
         <source>Settings for 3D globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavke za 3D globus</translation>
     </message>
     <message>
         <source>Unload globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni globus</translation>
     </message>
     <message>
         <source>&amp;Globe</source>
+        <translation>&amp;Globus</translation>
+    </message>
+</context>
+<context>
+    <name>Grass7Algorithm</name>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. Unfortunately, it seems that GRASS GIS 7 is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. A test to check if GRASS GIS 7 is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7AlgorithmProvider</name>
+    <message>
+        <source>GRASS7 folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7Utils</name>
+    <message>
+        <source>GRASS GIS 7 execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS GIS 7 folder does not contain a valid set of GRASS GIS 7 modules.
+Please, go to the Processing settings dialog, and check that the GRASS GIS 7
+folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS GIS 7 is not correctly installed and configured in your system.
+Please install it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS GIS 7 installation. GRASS GIS 7 might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithm</name>
+    <message>
+        <source>Could not open GRASS algorithm: %s.
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. Unfortunately, it seems that GRASS is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. A test to check if GRASS is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithmProvider</name>
+    <message>
+        <source>GRASS folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassUtils</name>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS folder does not contain a valid set of GRASS modules. Please, go to the Processing settings dialog, and check that the GRASS folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS is not correctly installed and configured in your system.
+Please install it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS installation. GRASS might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grid</name>
+    <message>
+        <source>Grid type</source>
+        <translation>Tip mreže</translation>
+    </message>
+    <message>
+        <source>Grid extent</source>
+        <translation>Opseg mreže (extent)</translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridAverage</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Kut</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>GridDataMetrics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Metrics</source>
+        <translation>Metrika</translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Kut</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>GridInvDist</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Power</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Kut</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+    <message>
+        <source>Smoothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table with grid metrics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OUTPUT CSV INTENSITY</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlier:low,high</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridNearest</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Kut</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>GridNet</name>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Longest Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Strahler Network Order Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>XY jedinice</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z jedinice</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spike (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Sredina</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>Nagib</translation>
+    </message>
+    <message>
+        <source>Minimum (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class(es)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Gridify</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to gridify feature with FID %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GroundFilter</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Cellsize for intermediate surfaces</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ground las file</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4976,7 +7142,7 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Layer not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloj nije pronađen</translation>
     </message>
     <message>
         <source>The heatmap plugin requires at least one point vector layer</source>
@@ -4984,15 +7150,15 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>GDAL driver error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška GDAL upravljačkog programa</translation>
     </message>
     <message>
         <source>Cannot open the driver for the specified format</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu otvoriti upravljački program za određeni oblik</translation>
     </message>
     <message>
         <source>Raster update error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška osvježenja rastera</translation>
     </message>
     <message>
         <source>Could not open the created raster for updating. The heatmap was not generated.</source>
@@ -5004,7 +7170,7 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished">Prekid</translation>
+        <translation>Prekid</translation>
     </message>
     <message>
         <source>Heatmap generation aborted</source>
@@ -5074,7 +7240,7 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output values</source>
@@ -5082,7 +7248,7 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Input point layer</source>
-        <translation type="unfinished">Ulazni sloj točaka</translation>
+        <translation>Ulazni sloj točaka</translation>
     </message>
     <message>
         <source>Output raster</source>
@@ -5090,51 +7256,51 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Output format</source>
-        <translation type="unfinished">Izlazni oblik</translation>
+        <translation>Izlazni oblik</translation>
     </message>
     <message>
         <source>Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Polumjer</translation>
     </message>
     <message>
         <source>10</source>
-        <translation type="unfinished">10</translation>
+        <translation>10</translation>
     </message>
     <message>
         <source>meters</source>
-        <translation type="unfinished"></translation>
+        <translation>metar</translation>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">jedinice mape</translation>
+        <translation>jedinice mape</translation>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">Reci</translation>
+        <translation>Reci</translation>
     </message>
     <message>
         <source>Cell size X</source>
-        <translation type="unfinished"></translation>
+        <translation>X veličina ćelije</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Kolone</translation>
+        <translation>Kolone</translation>
     </message>
     <message>
         <source>Cell size Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y veličina ćelije</translation>
     </message>
     <message>
         <source>Use radius from field</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi polumjer iz polja</translation>
     </message>
     <message>
         <source>Use weight from field</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi težinu iz polja</translation>
     </message>
     <message>
         <source>0.0</source>
-        <translation type="unfinished">0.0</translation>
+        <translation>0.0</translation>
     </message>
     <message>
         <source>Decay ratio</source>
@@ -5150,7 +7316,7 @@ Pogreška GEOS geoprocesiranja: Jedan ili više ulaznih elemenata nemaju valjanu
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">Napredno</translation>
+        <translation>Napredno</translation>
     </message>
 </context>
 <context>
@@ -5179,12 +7345,15 @@ are stored on the installation folder</source>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Ulazni parametri&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Outputs&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Izlazni podaci&lt;/h2&gt;
+
+</translation>
     </message>
     <message>
         <source>Algorithm description</source>
@@ -5196,7 +7365,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Outputs</source>
-        <translation type="unfinished"></translation>
+        <translation>Izlaz</translation>
     </message>
     <message>
         <source>Algorithm created by</source>
@@ -5215,7 +7384,7 @@ are stored on the installation folder</source>
     <name>HistoryDialog</name>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Očisti</translation>
+        <translation>Očisti</translation>
     </message>
     <message>
         <source>Clear history and log</source>
@@ -5223,7 +7392,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Spremi kao...</translation>
+        <translation>Spremi kao...</translation>
     </message>
     <message>
         <source>Save history and log</source>
@@ -5231,7 +7400,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda</translation>
     </message>
     <message>
         <source>Are you sure you want to clear log?</source>
@@ -5239,7 +7408,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Spremi datoteku</translation>
+        <translation>Spremi datoteku</translation>
     </message>
     <message>
         <source>Log files (*.log *.LOG)</source>
@@ -5254,28 +7423,201 @@ are stored on the installation folder</source>
     <name>HistoryDialogPythonConsole</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovno učitaj</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Spremi</translation>
+        <translation>Spremi</translation>
+    </message>
+</context>
+<context>
+    <name>HubDistance</name>
+    <message>
+        <source>Source points layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Destination hubs layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub layer name attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output shape type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement unit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HubLines</name>
+    <message>
+        <source>Hub point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HypsometricCurves</name>
+    <message>
+        <source>DEM to analyze</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boundary layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Korak</translation>
+    </message>
+    <message>
+        <source>Use % of area instead of absolute value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature %d does not intersect raster or entirely located in NODATA area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area</source>
+        <translation>Površina</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <translation>Visina</translation>
+    </message>
+</context>
+<context>
+    <name>ImportIntoPostGIS</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error importing to PostGIS
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer to import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema (schema name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table to import to (leave blank to use layer name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column</source>
+        <translation>Kolona geometrije</translation>
+    </message>
+    <message>
+        <source>Overwrite</source>
+        <translation>Zapiši preko</translation>
+    </message>
+    <message>
+        <source>Create spatial index</source>
+        <translation>Stvori prostorni indeks</translation>
+    </message>
+    <message>
+        <source>Convert field names to lowercase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drop length constraints on character fields</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">DB Upravitelj</translation>
+        <translation>DB Upravitelj</translation>
     </message>
 </context>
 <context>
     <name>InputLayerSelectorPanel</name>
     <message>
-        <source>All files(*.*);;</source>
+        <source>Select file</source>
+        <translation>Odaberi datoteku</translation>
+    </message>
+    <message>
+        <source>All files (*.*);;</source>
+        <translation>Sve datoteke (*.*);;</translation>
+    </message>
+</context>
+<context>
+    <name>Intersection</name>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>Presječni sloj</translation>
+    </message>
+    <message>
+        <source>Intersection</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5283,15 +7625,7 @@ are stored on the installation folder</source>
     <name>InvalidParameterValue</name>
     <message>
         <source>Run</source>
-        <translation type="unfinished">Pokreni</translation>
-    </message>
-    <message>
-        <source>Parameters</source>
-        <translation type="unfinished">Parametri</translation>
-    </message>
-    <message>
-        <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokreni</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -5301,38 +7635,186 @@ are stored on the installation folder</source>
         <source>&lt;h2&gt;Could not open help file :-( &lt;/h2&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>JoinAttributes</name>
     <message>
-        <source>Unmatching CRS&apos;s</source>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Layers do not all use the same CRS. This can cause unexpected results.
-Do you want to continue?</source>
+        <source>Table field</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to execute algorithm</source>
+        <source>Table field 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Processing algorithm...</source>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsAlgorithm</name>
+    <message>
+        <source>LAStools folder is not configured.
+Please configure it before running LAStools algorithms.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <source>verbose</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <source>open LAStools GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Wrong or missing parameter values</source>
+        <source>number of cores</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HTML output has been generated by this algorithm.
-Open the results dialog to check it.</source>
+        <source>input LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input wildcard(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>merge all input files on-the-fly into one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>horizontal feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>vertical feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>files are flightlines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>apply file source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>step size / pixel size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output vector file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output appendix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>empty temporary directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>additional command line parameter(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>third filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsUtils</name>
+    <message>
+        <source>LAStools command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LAStools console output</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5340,7 +7822,7 @@ Open the results dialog to check it.</source>
     <name>LayerPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Symbol layer type</source>
@@ -5349,6 +7831,86 @@ Open the results dialog to check it.</source>
     <message>
         <source>This layer doesn&apos;t have any editable properties</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LengthArea</name>
+    <message>
+        <source>Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LidarToolsAlgorithmProvider</name>
+    <message>
+        <source>LAStools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wine folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tools for LiDAR data</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LinesIntersection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>Presječni sloj</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation>Ulazno jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Intersect unique ID field</source>
+        <translation>Jedinstveno ID polje presjeka</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>LinesToPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
@@ -5399,11 +7961,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Vect&amp;or</source>
-        <translation type="unfinished"></translation>
+        <translation>Vekt&amp;or</translation>
     </message>
     <message>
         <source>&amp;OpenStreetMap</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OpenStreetMap</translation>
     </message>
     <message>
         <source>File</source>
@@ -5474,64 +8036,52 @@ Open the results dialog to check it.</source>
         <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
-        <source>Save as Image...</source>
-        <translation>Spremi kao sliku...</translation>
-    </message>
-    <message>
-        <source>&amp;New Print Composer</source>
-        <translation>&amp;Novi print kompozitor</translation>
-    </message>
-    <message>
         <source>Ctrl+P</source>
         <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Composer Manager...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>P&amp;roject</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravitelj kompozitora...</translation>
     </message>
     <message>
         <source>New From Template</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo iz predloška</translation>
     </message>
     <message>
         <source>Preview Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretpregled</translation>
     </message>
     <message>
         <source>Create Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori sloj</translation>
     </message>
     <message>
         <source>Add Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj sloj</translation>
     </message>
     <message>
         <source>Paste Features as</source>
-        <translation type="unfinished"></translation>
+        <translation>Zalijepi elemente kao</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;Novo</translation>
+        <translation>&amp;Novo</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otvori...</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spremi</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi k&amp;ao...</translation>
     </message>
     <message>
         <source>Exit QGIS</source>
-        <translation type="unfinished">Izađi iz QGIS</translation>
+        <translation>Izađi iz QGIS</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -5579,7 +8129,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Add Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj element</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
@@ -5599,7 +8149,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Split Parts</source>
-        <translation type="unfinished"></translation>
+        <translation>Razdvoji dijelove</translation>
     </message>
     <message>
         <source>Delete Selected</source>
@@ -5627,11 +8177,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Merge Selected Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Spoji odabrane elemente</translation>
     </message>
     <message>
         <source>Merge Attributes of Selected Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Spoji atribute odabranih elemenata</translation>
     </message>
     <message>
         <source>Node Tool</source>
@@ -5640,10 +8190,6 @@ Open the results dialog to check it.</source>
     <message>
         <source>Rotate Point Symbols</source>
         <translation>Rotacija simbola točaka</translation>
-    </message>
-    <message>
-        <source>Snapping Options...</source>
-        <translation>Opcije snepiranja...</translation>
     </message>
     <message>
         <source>Pan Map</source>
@@ -5667,19 +8213,19 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Select Features by Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi elemente označavanjem poligona</translation>
     </message>
     <message>
         <source>Select Features by Freehand</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi elemente prostoručnim označavanjem</translation>
     </message>
     <message>
         <source>Select Features by Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi elemente polumjerom</translation>
     </message>
     <message>
         <source>Deselect Features from All Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Poništi odabir iz svih slojeva</translation>
     </message>
     <message>
         <source>Identify Features</source>
@@ -5710,20 +8256,8 @@ Open the results dialog to check it.</source>
         <translation>Mjeri kut</translation>
     </message>
     <message>
-        <source>Zoom Full</source>
-        <translation>Prikaži sve</translation>
-    </message>
-    <message>
         <source>Ctrl+Shift+F</source>
         <translation>Ctrl+Shift+F</translation>
-    </message>
-    <message>
-        <source>Zoom to Layer</source>
-        <translation>Prikaži sloj</translation>
-    </message>
-    <message>
-        <source>Zoom to Selection</source>
-        <translation>Prikaži odabrano</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -5779,7 +8313,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Form Annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Iz oznaka</translation>
     </message>
     <message>
         <source>Move Annotation</source>
@@ -5791,7 +8325,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Layer Labeling Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavke označavanja sloja</translation>
     </message>
     <message>
         <source>New Shapefile Layer...</source>
@@ -5823,7 +8357,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Add PostGIS Layers...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj PostGIS slojeve...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+D</source>
@@ -5839,11 +8373,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Add MSSQL Spatial Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj MSSQL Spatial sloj...</translation>
     </message>
     <message>
         <source>Add Oracle Spatial Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj Oracle Spatial sloj...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+O</source>
@@ -5851,19 +8385,15 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Add WMS/WMTS Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj WMS/WMTS sloj...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
         <translation>Ctrl+Shift+W</translation>
     </message>
     <message>
-        <source>Open Attribute Table</source>
-        <translation>Otvori atributnu tablicu</translation>
-    </message>
-    <message>
         <source>Toggle Editing</source>
-        <translation type="unfinished"></translation>
+        <translation>Uklj/isklj uređivanje</translation>
     </message>
     <message>
         <source>Toggles the editing state of the current layer</source>
@@ -5876,10 +8406,6 @@ Open the results dialog to check it.</source>
     <message>
         <source>Save edits to current layer, but continue editing</source>
         <translation>Spremi uređeno u trenutnom sloju, no nastavi s uređivanjem</translation>
-    </message>
-    <message>
-        <source>Save As...</source>
-        <translation type="unfinished">Spremi kao...</translation>
     </message>
     <message>
         <source>Remove Layer/Group</source>
@@ -5955,7 +8481,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished">Normalno</translation>
+        <translation>Normalno</translation>
     </message>
     <message>
         <source>Normal preview mode</source>
@@ -6030,10 +8556,6 @@ Open the results dialog to check it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Properties...</source>
-        <translation>Osobine...</translation>
-    </message>
-    <message>
         <source>Query...</source>
         <translation>Upit...</translation>
     </message>
@@ -6083,7 +8605,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>New Vector Layer</source>
-        <translation type="unfinished">Novi vektorski sloj</translation>
+        <translation>Novi vektorski sloj</translation>
     </message>
     <message>
         <source>Paste features in clipboard into a new OGR vector layer.</source>
@@ -6111,7 +8633,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -6119,19 +8641,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>F11</source>
-        <translation type="unfinished">F11</translation>
-    </message>
-    <message>
-        <source>Project Properties...</source>
-        <translation>Osobine projekta...</translation>
+        <translation>F11</translation>
     </message>
     <message>
         <source>Ctrl+Shift+P</source>
         <translation>Ctrl+Shift+P</translation>
-    </message>
-    <message>
-        <source>Options...</source>
-        <translation>Opcije...</translation>
     </message>
     <message>
         <source>Custom CRS...</source>
@@ -6397,7 +8911,67 @@ Acts on currently active editable layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open Recent</source>
+        <source>Open &amp;Recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pro&amp;ject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save as &amp;Image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New &amp;Print Composer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Snapping Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom &amp;Full</source>
+        <translation>Zumiraj na &amp;sve</translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open &amp;Attribute Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Save As...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Project Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+P</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Temporary Scratch Layer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New temporary scratch layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6405,27 +8979,27 @@ Acts on currently active editable layer</source>
     <name>ManageConnectionsDialog</name>
     <message>
         <source>Manage connections</source>
-        <translation type="unfinished">Upravljanje vezama</translation>
+        <translation>Upravljanje vezama</translation>
     </message>
     <message>
         <source>Save to file</source>
-        <translation type="unfinished">Spremi u datoteku</translation>
+        <translation>Spremi u datoteku</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Traži</translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <source>Load from file</source>
-        <translation type="unfinished">Učitaj iz datoteke</translation>
+        <translation>Učitaj iz datoteke</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Spremi</translation>
+        <translation>Spremi</translation>
     </message>
     <message>
         <source>eXtensible Markup Language (*.xml *.XML)</source>
@@ -6433,11 +9007,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Save connections</source>
-        <translation type="unfinished">Spremi veze</translation>
+        <translation>Spremi veze</translation>
     </message>
     <message>
         <source>Load connections</source>
-        <translation type="unfinished">Učitaj veze</translation>
+        <translation>Učitaj veze</translation>
     </message>
     <message>
         <source>Save Connections</source>
@@ -6457,6 +9031,78 @@ Acts on currently active editable layer</source>
     </message>
 </context>
 <context>
+    <name>MeanAndStdDevPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation>Ulazna tablica</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>Polje s nazivom kategorije</translation>
+    </message>
+    <message>
+        <source>Mean field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>StdDev field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>MeanCoords</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>Polje težina</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+</context>
+<context>
+    <name>Merge</name>
+    <message>
+        <source>Input layer 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Merged layers must have be same type of geometry</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MergeData</name>
+    <message>
+        <source>Input LAS files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output merged LAS file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MessageBarProgress</name>
     <message>
         <source>Executing algorithm</source>
@@ -6464,7 +9110,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
 </context>
 <context>
@@ -6494,7 +9140,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Traži</translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <source>Find</source>
@@ -6530,31 +9176,31 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Keywords</source>
-        <translation type="unfinished">Ključne riječi</translation>
+        <translation>Ključne riječi</translation>
     </message>
     <message>
         <source>Xmax</source>
-        <translation type="unfinished"></translation>
+        <translation>X max</translation>
     </message>
     <message>
         <source>Ymax</source>
-        <translation type="unfinished"></translation>
+        <translation>Y max</translation>
     </message>
     <message>
         <source>Xmin</source>
-        <translation type="unfinished"></translation>
+        <translation>X min</translation>
     </message>
     <message>
         <source>Ymin</source>
-        <translation type="unfinished"></translation>
+        <translation>Y min</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">Rezultati</translation>
+        <translation>Rezultati</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>&lt;&lt;</source>
@@ -6570,7 +9216,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished">&lt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>Add WFS</source>
@@ -6582,11 +9228,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Naslov</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>View search results as XML</source>
@@ -6610,19 +9256,19 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Spremi</translation>
+        <translation>Spremi</translation>
     </message>
     <message>
         <source>Add default services</source>
@@ -6630,11 +9276,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Postavke</translation>
+        <translation>Postavke</translation>
     </message>
     <message>
         <source>Results paging</source>
@@ -6674,7 +9320,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Loading connections</source>
-        <translation type="unfinished">Učitavanje veza</translation>
+        <translation>Učitavanje veza</translation>
     </message>
     <message>
         <source>Search error</source>
@@ -6752,28 +9398,20 @@ Acts on currently active editable layer</source>
             <numerusform></numerusform>
         </translation>
     </message>
-</context>
-<context>
-    <name>MissingDependencyDialog</name>
     <message>
-        <source>&lt;h3&gt;Missing dependency.This algorithm cannot be run :-( &lt;/h3&gt;
-%s</source>
+        <source>Server timeout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Missing dependency</source>
+        <source>seconds</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished">Zatvori</translation>
     </message>
 </context>
 <context>
     <name>ModelerAlgorithm</name>
     <message>
         <source>Model</source>
-        <translation type="unfinished">Model</translation>
+        <translation>Model</translation>
     </message>
     <message>
         <source>Wrong value: %s</source>
@@ -6813,7 +9451,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation>Model</translation>
     </message>
     <message>
         <source>Could not load model %s</source>
@@ -6829,7 +9467,7 @@ Acts on currently active editable layer</source>
     <name>ModelerDialog</name>
     <message>
         <source>Search...</source>
-        <translation type="unfinished">Pretraži...</translation>
+        <translation>Pretraži...</translation>
     </message>
     <message>
         <source>[Enter model name here]</source>
@@ -6837,14 +9475,6 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>[Enter group name here]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are unsaved changes in model. Close modeler without saving?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6861,7 +9491,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Upozorenje</translation>
+        <translation>Upozorenje</translation>
     </message>
     <message>
         <source>Please enter group and model names before saving</source>
@@ -6932,14 +9562,22 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">Parametri</translation>
+        <translation>Parametar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in model. Continue?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ModelerOnlyAlgorithmProvider</name>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo modeler alati</translation>
     </message>
 </context>
 <context>
@@ -6966,11 +9604,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">Da</translation>
+        <translation>Da</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished">Ne</translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <source>Shape type</source>
@@ -6982,15 +9620,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Točka</translation>
+        <translation>Točka</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">Linija</translation>
+        <translation>Linija</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">Poligon</translation>
+        <translation>Poligon</translation>
     </message>
     <message>
         <source>Mandatory</source>
@@ -7018,11 +9656,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">Raster</translation>
+        <translation>Raster</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Tablica</translation>
+        <translation>Tablica</translation>
     </message>
     <message>
         <source>Min/Max values</source>
@@ -7030,23 +9668,23 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Default value</source>
-        <translation type="unfinished">Zadana vrijednost</translation>
+        <translation>Zadana vrijednost</translation>
     </message>
     <message>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">Datoteka</translation>
+        <translation>Datoteka</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa</translation>
     </message>
     <message>
         <source>Unable to define parameter</source>
@@ -7058,18 +9696,18 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>Krive ili pogrešne vrijednosti parametara</translation>
     </message>
 </context>
 <context>
     <name>ModelerParametersDialog</name>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>Show advanced parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži napredne parametre</translation>
     </message>
     <message>
         <source>Parent algorithms</source>
@@ -7077,7 +9715,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">Parametri</translation>
+        <translation>Parametar</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -7089,7 +9727,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Hide advanced parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakrij napredne parametre</translation>
     </message>
     <message>
         <source>&apos;%s&apos; from algorithm &apos;%s&apos;</source>
@@ -7101,7 +9739,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>Krive ili pogrešne vrijednosti parametara</translation>
     </message>
 </context>
 <context>
@@ -7112,32 +9750,36 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputDialog</name>
+    <name>MultipartToSingleparts</name>
     <message>
-        <source>Multiple selection</source>
-        <translation type="unfinished">Višestruki odabir</translation>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
     </message>
     <message>
-        <source>Select the file(s) to use</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>All files (*.*)</source>
-        <translation type="unfinished">Sve datoteke (*.*)</translation>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputPanel</name>
+    <name>MultipleFileInputDialog</name>
     <message>
-        <source>0 elements selected</source>
+        <source>All files (*.*)</source>
+        <translation>Sve datoteke (*.*)</translation>
+    </message>
+    <message>
+        <source>Add file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Remove file(s)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%d elements selected</source>
+        <source>Remove all</source>
+        <translation>Ukloni sve</translation>
+    </message>
+    <message>
+        <source>Select file(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7145,14 +9787,56 @@ See the log for more information.</source>
     <name>MultipleInputDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Odaberi sve</translation>
+        <translation>Odaberi sve</translation>
     </message>
     <message>
         <source>Clear selection</source>
-        <translation type="unfinished">Ukloni oznaku odabira</translation>
+        <translation>Ukloni oznaku odabira</translation>
     </message>
     <message>
         <source>Toggle selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MultipleInputPanel</name>
+    <message>
+        <source>0 elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NearestNeighbourAnalysis</name>
+    <message>
+        <source>Points</source>
+        <translation>Točke</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Observed mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expected mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nearest neighbour index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z-Score</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7164,15 +9848,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished">Spremi vezu</translation>
+        <translation>Spremi vezu</translation>
     </message>
     <message>
         <source>Both Name and URL must be provided</source>
@@ -7194,7 +9878,7 @@ See the log for more information.</source>
     <name>NumberInputDialog</name>
     <message>
         <source>[Enter your formula here]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Ovdje unesite formulu]</translation>
     </message>
     <message>
         <source>Values from data layers extents</source>
@@ -7202,19 +9886,19 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Min X</source>
-        <translation type="unfinished"></translation>
+        <translation>X min</translation>
     </message>
     <message>
         <source>Max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X max</translation>
     </message>
     <message>
         <source>Min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Min. Y</translation>
     </message>
     <message>
         <source>Max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y max</translation>
     </message>
     <message>
         <source>Cellsize</source>
@@ -7226,7 +9910,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Mean</source>
-        <translation type="unfinished">Srednje</translation>
+        <translation>Srednje</translation>
     </message>
     <message>
         <source>Std. deviation</source>
@@ -7238,7 +9922,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Min value</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum</translation>
     </message>
     <message>
         <source>Values from QGIS map canvas</source>
@@ -7246,7 +9930,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Current extent</source>
-        <translation type="unfinished">Trenutni opseg</translation>
+        <translation>Trenutni opseg</translation>
     </message>
     <message>
         <source>Full extent of all layers in map canvas</source>
@@ -7258,6 +9942,397 @@ See the log for more information.</source>
     </message>
     <message>
         <source>The expression entered is not correct</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBAlgorithm</name>
+    <message>
+        <source>Could not open OTB algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB folder is not configured. Please configure it before running OTB algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB execution command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adapter for %s not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBAlgorithmProvider</name>
+    <message>
+        <source>Could not open OTB algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB applications folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SRTM tiles folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geoid file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Orfeo Toolbox (Image analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBUtils</name>
+    <message>
+        <source>OTB execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2Ogr</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Destination Format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation>Obreži sloj</translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClipExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Clip extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGis</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Domaćin</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Korisničko ime</translation>
+    </message>
+    <message>
+        <source>Database name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Lozinka</translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation>Naziv kolone s geometrijom</translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGisList</name>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation>Naziv kolone s geometrijom</translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrSql</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>SQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SQL result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty SQL. Please enter valid SQL expression and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OpenViewerAction</name>
+    <message>
+        <source>Unable to open viewer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The current Fusion folder does not contain the viewer executable.
+Please check the configuration in the Processing settings dialog.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7321,7 +10396,7 @@ See the log for more information.</source>
     <name>OutputSelectionPanel</name>
     <message>
         <source>[Save to temporary file]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Spremi u privremenu datoteku]</translation>
     </message>
     <message>
         <source>Save to a temporary file</source>
@@ -7337,11 +10412,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Spremi datoteku</translation>
+        <translation>Spremi datoteku</translation>
     </message>
     <message>
         <source>Select directory</source>
-        <translation type="unfinished">Odaberi direktorij</translation>
+        <translation>Odaberi direktorij</translation>
     </message>
 </context>
 <context>
@@ -7355,7 +10430,7 @@ See the log for more information.</source>
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished">&amp;Tablica</translation>
+        <translation>&amp;Tablica</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
@@ -7377,7 +10452,7 @@ See the log for more information.</source>
     <name>ParameterMultipleInput</name>
     <message>
         <source>All files (*.*)</source>
-        <translation type="unfinished">Sve datoteke (*.*)</translation>
+        <translation>Sve datoteke (*.*)</translation>
     </message>
     <message>
         <source>%s files(*.%s)</source>
@@ -7406,20 +10481,9 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>ParametersDialog</name>
-    <message>
-        <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>ParametersPanel</name>
     <message>
         <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7428,25 +10492,372 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Iterate over this layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovi preko ovog sloja</translation>
     </message>
     <message>
         <source>Open output file after running algorithm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hide advanced parameters</source>
+        <source>[not set]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[not set]</source>
+        <source> (xmin, xmax, ymin, ymax)</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PeukerDouglas</name>
+    <message>
+        <source>Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Side Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Diagonal Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PointDistance</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Ulazni sloj točaka</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation>Ulazno jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Target point layer</source>
+        <translation>Ciljani sloj točaka</translation>
+    </message>
+    <message>
+        <source>Target unique ID field</source>
+        <translation>Ciljano jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Output matrix type</source>
+        <translation>Tip izlazne matrice</translation>
+    </message>
+    <message>
+        <source>Use only the nearest (k) target points</source>
+        <translation>Koristi samo (k) najbližih ciljnih točaka</translation>
+    </message>
+    <message>
+        <source>Distance matrix</source>
+        <translation>Matrica dužine</translation>
+    </message>
+</context>
+<context>
+    <name>PointsDisplacement</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Displacement distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal distribution for two point case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromLines</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation>Vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromPolygons</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation>Vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygon</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Točke</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
     </message>
 </context>
 <context>
     <name>PointsInPolygonThread</name>
     <message>
         <source>point count field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonUnique</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Točke</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonWeighted</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Točke</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>Polje težina</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+</context>
+<context>
+    <name>PointsLayerFromTable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>X field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PointsToPaths</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Ulazni sloj točaka</translation>
+    </message>
+    <message>
+        <source>Group field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date format (if order field is DateTime)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paths</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>Mapa datoteka</translation>
+    </message>
+</context>
+<context>
+    <name>PolarPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation>Ulazna tablica</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>Polje s nazivom kategorije</translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation>Polje s vrijednosti</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>PolyClipData</name>
+    <message>
+        <source>Input .las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output clipped .las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Shape attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape field index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape value</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Polygonize</name>
+    <message>
+        <source>Polygonize algorithm requires shapely module!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Processing lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Noding lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Polygonizing...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No polygons were created!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Završeno</translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Keep table structure of line layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create geometry columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PolygonsToLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>PostGISExecuteSQL</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error executing SQL:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Baza podataka</translation>
+    </message>
+    <message>
+        <source>SQL query</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7463,48 +10874,24 @@ See the log for more information.</source>
         <source>Loading resulting layers</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Problem loading output layers</source>
+        <translation>Problem pri  učitavanju izlaznih slojeva</translation>
+    </message>
 </context>
 <context>
     <name>PrepareAPIDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">Gotovo</translation>
+        <translation>Gotovo</translation>
     </message>
 </context>
 <context>
     <name>Processing</name>
-    <message>
-        <source>Pro&amp;cessing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Toolbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Graphical &amp;Modeler...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;History and Log...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Results Viewer...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Commander</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Could not load provider: %s
 %s</source>
@@ -7523,7 +10910,7 @@ See the log for more information.</source>
     <name>ProcessingConfig</name>
     <message>
         <source>General</source>
-        <translation type="unfinished">Općenito</translation>
+        <translation>Općenito</translation>
     </message>
     <message>
         <source>Show extra info in Log panel</source>
@@ -7535,7 +10922,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Use only selected features</source>
-        <translation type="unfinished">Koristi samo odabrane elemente</translation>
+        <translation>Koristi samo odabrane elemente</translation>
     </message>
     <message>
         <source>Use filename as layer name</source>
@@ -7547,7 +10934,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Output folder</source>
-        <translation type="unfinished">Izlazna mapa</translation>
+        <translation>Izlazna mapa</translation>
     </message>
     <message>
         <source>Show layer CRS definition in selection boxes</source>
@@ -7587,6 +10974,41 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>ProcessingPlugin</name>
+    <message>
+        <source>Pro&amp;cessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Toolbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Graphical &amp;Modeler...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;History and Log...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Results Viewer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Commander</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+M</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ProcessingToolbox</name>
     <message>
         <source>Processing Toolbox</source>
@@ -7594,11 +11016,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Enter algorithm name to filter list</source>
-        <translation type="unfinished">Unesi naziv algoritma za listu filtera</translation>
+        <translation>Unesi naziv algoritma za listu filtera</translation>
     </message>
     <message>
         <source>Search...</source>
-        <translation type="unfinished">Pretraži...</translation>
+        <translation>Pretraži...</translation>
     </message>
     <message>
         <source>Execute</source>
@@ -7614,6 +11036,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Recently used algorithms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing dependency</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Missing dependency. This algorithm cannot be run :-( &lt;/h3&gt;
+%s</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7652,15 +11083,23 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%s due an error when calling its classFactory() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%s due an error when calling its initGui() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Error while unloading plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its classFactory() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its initGui() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t load server plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its serverClassFactory() method</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7688,7 +11127,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">Gotovo</translation>
+        <translation>Gotovo</translation>
     </message>
     <message>
         <source>Error preparing file...</source>
@@ -7712,11 +11151,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Undo</source>
-        <translation type="unfinished">Poništi</translation>
+        <translation>Poništi</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation type="unfinished">Ponovi</translation>
+        <translation>Ponovi</translation>
     </message>
     <message>
         <source>Find Text</source>
@@ -7724,19 +11163,19 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Cut</source>
-        <translation type="unfinished">Izreži</translation>
+        <translation>Izreži</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Kopiraj</translation>
+        <translation>Kopiraj</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Zalijepi</translation>
+        <translation>Zalijepi</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">Komentar</translation>
+        <translation>Komentar</translation>
     </message>
     <message>
         <source>Uncomment</source>
@@ -7752,11 +11191,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Select All</source>
-        <translation type="unfinished">Odaberi sve</translation>
+        <translation>Odaberi sve</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Postavke</translation>
+        <translation>Postavke</translation>
     </message>
     <message>
         <source>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; was not found.</source>
@@ -7813,7 +11252,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Zatvori</translation>
+        <translation>Zatvori</translation>
     </message>
     <message>
         <source>List all tabs</source>
@@ -7880,15 +11319,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">Otvori datoteku</translation>
+        <translation>Otvori datoteku</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Spremi</translation>
+        <translation>Spremi</translation>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Spremi kao...</translation>
+        <translation>Spremi kao...</translation>
     </message>
     <message>
         <source>Run script</source>
@@ -7920,7 +11359,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Case Sensitive</source>
-        <translation type="unfinished">Osjetljivo na veličinu slova</translation>
+        <translation>Osjetljivo na veličinu slova</translation>
     </message>
     <message>
         <source>Whole Word</source>
@@ -7932,11 +11371,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Open File</source>
-        <translation type="unfinished">Otvori datoteku</translation>
-    </message>
-    <message>
-        <source>Save Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori datoteku</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
@@ -8021,14 +11456,21 @@ Use iface to access QGIS API interface or Type help(iface) for more info</source
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Pomoć</translation>
+        <translation>Pomoć</translation>
+    </message>
+</context>
+<context>
+    <name>QGISAlgorithmProvider</name>
+    <message>
+        <source>QGIS geoalgorithms</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QGis::UnitType</name>
     <message>
         <source>meters</source>
-        <translation type="unfinished"></translation>
+        <translation>metar</translation>
     </message>
     <message>
         <source>feet</source>
@@ -8407,7 +11849,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Operators</source>
-        <translation type="unfinished">Operatori</translation>
+        <translation>Operatori</translation>
     </message>
     <message>
         <source>Fields and Values</source>
@@ -8466,11 +11908,11 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekst</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Geometry</source>
@@ -8603,7 +12045,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>W</source>
@@ -8683,7 +12125,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>OGR</source>
-        <translation type="unfinished">OGR</translation>
+        <translation>OGR</translation>
     </message>
     <message>
         <source>no available replacement for internal fieldname ogc_fid found</source>
@@ -9197,11 +12639,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Write access denied. Adjust the file permissions and try again.</source>
-        <translation type="unfinished">Njie dopušteno pisanje. Podesite dozvole datoteke i pokušajte ponovno.</translation>
+        <translation>Njie dopušteno pisanje. Podesite dozvole datoteke i pokušajte ponovno.</translation>
     </message>
     <message>
         <source>Building pyramids failed.</source>
-        <translation type="unfinished">Izgradnja piramida nije uspjela.</translation>
+        <translation>Izgradnja piramida nije uspjela.</translation>
     </message>
     <message>
         <source>The file was not writable. Some formats do not support pyramid overviews. Consult the GDAL documentation if in doubt.</source>
@@ -9209,11 +12651,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Building pyramid overviews is not supported on this type of raster.</source>
-        <translation type="unfinished">Izgradnja piramidalnih pregleda nije podržaan za ovaj tip rastera.</translation>
+        <translation>Izgradnja piramidalnih pregleda nije podržaan za ovaj tip rastera.</translation>
     </message>
     <message>
         <source>Building internal pyramid overviews is not supported on raster layers with JPEG compression and your current libtiff library.</source>
-        <translation type="unfinished">Izgradnja piramidalnih pregleda nije podržana za slojeve s JPEG kompresijom i vašom trenutačnom libtiff bibliotekom.</translation>
+        <translation>Izgradnja piramidalnih pregleda nije podržana za slojeve s JPEG kompresijom i vašom trenutačnom libtiff bibliotekom.</translation>
     </message>
     <message>
         <source>Multiband color</source>
@@ -9221,7 +12663,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Paletted</source>
-        <translation type="unfinished"></translation>
+        <translation>Paleta</translation>
     </message>
     <message>
         <source>Singleband gray</source>
@@ -9333,7 +12775,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Raster Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS</translation>
     </message>
     <message>
         <source>Pixel Value</source>
@@ -9461,7 +12903,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Overlay data on a 3D globe</source>
-        <translation type="unfinished"></translation>
+        <translation>Preklopi podatke na 3D globus</translation>
     </message>
     <message>
         <source>GPS Tools</source>
@@ -9833,11 +13275,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Nearest Neighbour</source>
-        <translation type="unfinished">Najbliži susjed</translation>
+        <translation>Najbliži susjed</translation>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">Prosječno</translation>
+        <translation>Prosječno</translation>
     </message>
     <message>
         <source>Gauss</source>
@@ -9845,15 +13287,15 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Cubic</source>
-        <translation type="unfinished">Kubično</translation>
+        <translation>Kubično</translation>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Mod</translation>
+        <translation>Mod</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">Nijedan</translation>
+        <translation>Nijedan</translation>
     </message>
     <message>
         <source>Couldn&apos;t open the data source: %1</source>
@@ -9884,10 +13326,6 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     <message>
         <source>GRASS data won&apos;t be available if GISBASE is not specified.</source>
         <translation>GRASS podaci neće biti dostupni ako GISBASE nije određena.</translation>
-    </message>
-    <message>
-        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 and hopefully will be fixed in higher GRASS versions. Error message: %1</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GISBASE is not set.</source>
@@ -9999,7 +13437,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>OGR[%1] error %2: %3</source>
-        <translation type="unfinished">OGR[%1] greška %2: %3</translation>
+        <translation>OGR[%1] greška %2: %3</translation>
     </message>
     <message>
         <source>Unable to create the datasource. %1 exists and overwrite flag is false.</source>
@@ -10031,7 +13469,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>ESRI Shapefiles</source>
-        <translation type="unfinished"></translation>
+        <translation>ESRI Shapefile</translation>
     </message>
     <message>
         <source>GeoPackage</source>
@@ -10075,7 +13513,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>PostgreSQL</source>
-        <translation type="unfinished">PostgreSQL</translation>
+        <translation>PostgreSQL</translation>
     </message>
     <message>
         <source>Systematic Organization of Spatial Information [SOSI]</source>
@@ -10198,7 +13636,7 @@ Database error: %2</source>
     </message>
     <message>
         <source>PostGIS</source>
-        <translation type="unfinished">PostGIS</translation>
+        <translation>PostGIS</translation>
     </message>
     <message>
         <source>Infinite filter rectangle specified</source>
@@ -10372,19 +13810,19 @@ SQL: %1</source>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">Nedefinirano</translation>
+        <translation>Nedefinirano</translation>
     </message>
     <message>
         <source>Hidden</source>
-        <translation type="unfinished">Skriveno</translation>
+        <translation>Skriveno</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Naslov</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Grupiraj</translation>
+        <translation>Grupiraj</translation>
     </message>
     <message>
         <source>Subgroup</source>
@@ -10392,7 +13830,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Simbol</translation>
+        <translation>Simbol</translation>
     </message>
     <message>
         <source>Symbol label</source>
@@ -10481,7 +13919,7 @@ SQL: %1</source>
     <message>
         <source>Could not save symbology because:
 %1</source>
-        <translation type="unfinished">Nemoguće snimiti simbologiju zbog:
+        <translation>Nemoguće snimiti simbologiju zbog:
 %1</translation>
     </message>
     <message>
@@ -10490,11 +13928,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>Feature ID</source>
@@ -10502,7 +13940,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linearno</translation>
     </message>
     <message>
         <source>radial</source>
@@ -10546,7 +13984,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Dom Exception</source>
-        <translation type="unfinished">Dom Iznimka</translation>
+        <translation>Dom Iznimka</translation>
     </message>
     <message>
         <source>Could not get WMS capabilities: %1 at line %2 column %3
@@ -10582,15 +14020,15 @@ Response was:
     </message>
     <message>
         <source>Combo box with values that can be used within the column&apos;s type. Must be supported by the provider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Combo box s vrijednostima koje se mogu koristiti unutar tipa kolone. Mora biti podržano od pružatelja.</translation>
     </message>
     <message>
         <source>Simplifies file selection by adding a file chooser dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pojednostavluje odabir dodavanjem dijaloga za odabir datoteke.</translation>
     </message>
     <message>
         <source>A hidden attribute will be invisible - the user is not able to see it&apos;s contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriveni atribut bit će nevidljiv - korisnik ne može vidjeti sadržaj.</translation>
     </message>
     <message>
         <source>Read-only field that generates a UUID if empty.</source>
@@ -10598,62 +14036,26 @@ Response was:
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Kazalo</translation>
+        <translation>Kazalo</translation>
     </message>
     <message>
-        <source>Classification</source>
-        <translation type="unfinished">Klasifikacija</translation>
-    </message>
-    <message>
-        <source>Range</source>
+        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 but it is fixed in GRASS 7.1 and higher. Error message: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unique Values</source>
+        <source>Raster image fill</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>File Name</source>
-        <translation type="unfinished">Naziv datoteke</translation>
-    </message>
-    <message>
-        <source>Value Map</source>
+        <source>Couldn&apos;t load PyQGIS Server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enumeration</source>
-        <translation type="unfinished">Pobrojanje</translation>
-    </message>
-    <message>
-        <source>Check Box</source>
+        <source>Couldn&apos;t load qgis.user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
+        <source>NOTICE: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -11099,11 +14501,11 @@ Molimo konktaktirajte razvijatelje.
     </message>
     <message>
         <source>%1 is an invalid layer - not loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 je nevaljani sloj - nije učitan</translation>
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded. Please check the &lt;a href=&quot;#messageLog&quot;&gt;message log&lt;/a&gt; for further info.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 je nevaljani sloj i ne može se učitati. Provjerite &lt;a href=&quot;#messageLog&quot;&gt;zapisnik&lt;/a&gt; za više informacija.</translation>
     </message>
     <message>
         <source>QGIS files</source>
@@ -11209,7 +14611,7 @@ Molimo konktaktirajte razvijatelje.
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>Cannot get WFS select dialog from provider.</source>
@@ -11344,70 +14746,6 @@ Molimo konktaktirajte razvijatelje.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Classification</source>
-        <translation type="unfinished">Klasifikacija</translation>
-    </message>
-    <message>
-        <source>Range</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unique Values</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File Name</source>
-        <translation type="unfinished">Naziv datoteke</translation>
-    </message>
-    <message>
-        <source>Value Map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enumeration</source>
-        <translation type="unfinished">Pobrojanje</translation>
-    </message>
-    <message>
-        <source>Hidden</source>
-        <translation type="unfinished">Skriveno</translation>
-    </message>
-    <message>
-        <source>Check Box</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add Group</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11421,11 +14759,11 @@ Molimo konktaktirajte razvijatelje.
     </message>
     <message>
         <source>Expand All</source>
-        <translation type="unfinished"></translation>
+        <translation>Raširi sve</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished">Sažmi sve</translation>
+        <translation>Sažmi sve</translation>
     </message>
     <message>
         <source>Compiled against GEOS</source>
@@ -11567,10 +14905,6 @@ Pogreška: %1</translation>
         <source>Problem deleting features</source>
         <translation>Problem pri brisanju elemenata</translation>
     </message>
-    <message>
-        <source>A problem occured during deletion of features</source>
-        <translation>Dogodio se problem pri brisanju elemenata</translation>
-    </message>
     <message numerus="yes">
         <source>%n feature(s) deleted.</source>
         <comment>number of features deleted</comment>
@@ -11614,7 +14948,7 @@ Pogreška: %1</translation>
     </message>
     <message>
         <source> copy</source>
-        <translation type="unfinished"></translation>
+        <translation>kopiraj</translation>
     </message>
     <message>
         <source>No active layer</source>
@@ -12044,7 +15378,43 @@ Always ignore these errors?</source>
         </translation>
     </message>
     <message>
+        <source>Failed to run Python script:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The current layer has no selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rotation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current clockwise map rotation in degrees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shows the current map clockwise rotation in degrees. It also allows editing to set the rotation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (OTF)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading layer definition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error saving layer definintion file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A problem occured during deletion of %1 feature(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12074,7 +15444,7 @@ Always ignore these errors?</source>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Licenca</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -12151,6 +15521,10 @@ p, li { white-space: pre-wrap; }
         <source>Qt Image Plugin Search Paths &lt;br&gt;</source>
         <translation>Putanje za pretraživanje Qt Image dodatka &lt;br&gt;</translation>
     </message>
+    <message>
+        <source>Developers Map</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsActionMenu</name>
@@ -12182,7 +15556,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsAddAttrDialogBase</name>
     <message>
         <source>Add column</source>
-        <translation type="unfinished">Dodaj kolonu</translation>
+        <translation>Dodaj kolonu</translation>
     </message>
     <message>
         <source>N&amp;ame</source>
@@ -12203,6 +15577,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Precision</source>
         <translation>Preciznost</translation>
+    </message>
+    <message>
+        <source>Provider type</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12235,6 +15613,10 @@ p, li { white-space: pre-wrap; }
         <source>Cache join layer in virtual memory</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Custom field name prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsAddTabOrGroup</name>
@@ -12247,7 +15629,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsAddTabOrGroupBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Create category</source>
@@ -12267,6 +15649,108 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>QgsAdvancedDigitizingDockWidget</name>
+    <message>
+        <source>CAD tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some constraints are incompatible. Resulting point might be incorrect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 30%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 45%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 90%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to common angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No map tool set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools are not enabled for the current map tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools can not be used on geographic coordinates. Change the coordinates system in the project properties.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable advanced digitizing tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to vertices or segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap according to project configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to all layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsAdvancedDigitizingDockWidgetBase</name>
+    <message>
+        <source>Advanced Digitizing</source>
+        <translation>Napredno digitaliziranje</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Pogreška</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Parallel</source>
+        <translation>Paralelno</translation>
+    </message>
+    <message>
+        <source>Perpendicular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Construction mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>x</source>
+        <translation>x</translation>
+    </message>
+    <message>
+        <source>y</source>
+        <translation>Y</translation>
+    </message>
+</context>
+<context>
     <name>QgsAnnotationWidget</name>
     <message>
         <source>Select frame color</source>
@@ -12274,7 +15758,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Transparent frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentni okvir</translation>
     </message>
     <message>
         <source>Select background color</source>
@@ -12324,7 +15808,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished">&amp;Ukloni</translation>
+        <translation>&amp;Ukloni</translation>
     </message>
     <message>
         <source>&amp;Set Group CRS</source>
@@ -12340,7 +15824,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dupliciraj</translation>
     </message>
     <message>
         <source>&amp;Set Layer Scale Visibility</source>
@@ -12360,7 +15844,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Spremi kao...</translation>
+        <translation>Spremi kao...</translation>
     </message>
     <message>
         <source>Save As Layer Definition File...</source>
@@ -12372,7 +15856,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Osobine</translation>
     </message>
     <message>
         <source>Copy Style</source>
@@ -12381,6 +15865,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Paste Style</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styles</source>
+        <translation>Stilovi</translation>
     </message>
 </context>
 <context>
@@ -12440,7 +15928,7 @@ User DB Path:	%9
     </message>
     <message>
         <source>Composer</source>
-        <translation type="unfinished">Kompozer</translation>
+        <translation>Kompozer</translation>
     </message>
     <message>
         <source>No matching atlas features</source>
@@ -12481,14 +15969,14 @@ Parser error:
     </message>
     <message>
         <source>Expression based filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter temeljen na izrazu</translation>
     </message>
 </context>
 <context>
     <name>QgsAtlasCompositionWidgetBase</name>
     <message>
         <source>Atlas Generation</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlas</translation>
     </message>
     <message>
         <source>Generate an atlas</source>
@@ -12520,7 +16008,7 @@ Parser error:
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Output</source>
@@ -12544,7 +16032,7 @@ Parser error:
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi izraz</translation>
     </message>
     <message>
         <source>Missing Information</source>
@@ -12799,11 +16287,11 @@ Parser error:
     <name>QgsAttributeSelectionDialog</name>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzlazni</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Silazni</translation>
     </message>
 </context>
 <context>
@@ -12814,11 +16302,11 @@ Parser error:
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Kolone</translation>
+        <translation>Kolone</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">Vraćanje</translation>
+        <translation>Vraćanje</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -12944,7 +16432,7 @@ Parser error:
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished">=</translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>Update All</source>
@@ -13057,7 +16545,7 @@ Parser error:
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>An error occured while evaluating the calculation string:
@@ -13066,7 +16554,7 @@ Parser error:
     </message>
     <message>
         <source>Expression based filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter temeljen na izrazu</translation>
     </message>
     <message>
         <source>Attribute added</source>
@@ -13090,6 +16578,10 @@ Parser error:
     </message>
     <message>
         <source>Geometryless feature added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update Selected</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13212,7 +16704,7 @@ Database: %3</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Project</source>
@@ -13263,10 +16755,44 @@ Database:%2</source>
     </message>
     <message>
         <source>Empty extent</source>
-        <translation type="unfinished"></translation>
+        <translation>Prazan opseg</translation>
     </message>
     <message>
         <source>Reprojected extent is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import Bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XML files (*.xml *XML)</source>
+        <translation>XML datoteke (*.xml *.XML)</translation>
+    </message>
+    <message>
+        <source>Unable to create the bookmark.
+Driver: %1
+Database: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XML files( *.xml *.XML )</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13304,7 +16830,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Param</source>
-        <translation type="unfinished"></translation>
+        <translation>Mogućnosti</translation>
     </message>
     <message>
         <source>Metadata</source>
@@ -13363,11 +16889,11 @@ Database:%2</source>
     <name>QgsBrowserDirectoryPropertiesBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation type="unfinished">Putanja</translation>
+        <translation>Putanja</translation>
     </message>
 </context>
 <context>
@@ -13386,7 +16912,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Wildcard(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Džoker</translation>
     </message>
     <message>
         <source>Regular Expression</source>
@@ -13402,7 +16928,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Properties</source>
-        <translation type="unfinished">Osobine</translation>
+        <translation>Osobine</translation>
     </message>
     <message>
         <source>Fast scan this dir.</source>
@@ -13410,11 +16936,11 @@ Database:%2</source>
     </message>
     <message>
         <source>Add Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj sloj</translation>
     </message>
     <message>
         <source>Add Selected Layers</source>
-        <translation type="unfinished">Dodaj odabrane slojeve</translation>
+        <translation>Dodaj odabrane slojeve</translation>
     </message>
     <message>
         <source>Add a directory</source>
@@ -13426,14 +16952,18 @@ Database:%2</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Layer Properties</source>
-        <translation type="unfinished">Osobine sloja</translation>
+        <translation>Osobine sloja</translation>
     </message>
     <message>
         <source>Directory Properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type here to filter current item...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13452,10 +16982,6 @@ Database:%2</source>
         <translation>Dodaj odabrane slojeve</translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Dodaj</translation>
-    </message>
-    <message>
         <source>Filter Files</source>
         <translation>Filtriranje datoteka</translation>
     </message>
@@ -13471,16 +16997,12 @@ Database:%2</source>
         <source>Options</source>
         <translation>Opcije</translation>
     </message>
-    <message>
-        <source>Filter files</source>
-        <translation>Filtriranje datoteka</translation>
-    </message>
 </context>
 <context>
     <name>QgsBrowserLayerPropertiesBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Display Name</source>
@@ -13534,7 +17056,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Cross</source>
-        <translation type="unfinished"></translation>
+        <translation>Križić</translation>
     </message>
     <message>
         <source>BDiagonal</source>
@@ -13550,31 +17072,31 @@ Database:%2</source>
     </message>
     <message>
         <source>Dense 1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">1</translation>
     </message>
     <message>
         <source>Dense 2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>Dense 3</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">3</translation>
     </message>
     <message>
         <source>Dense 4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">4</translation>
     </message>
     <message>
         <source>Dense 5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">5</translation>
     </message>
     <message>
         <source>Dense 6</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">6</translation>
     </message>
     <message>
         <source>Dense 7</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">7</translation>
     </message>
 </context>
 <context>
@@ -13588,11 +17110,11 @@ Database:%2</source>
     <name>QgsCalendarConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>A calendar widget to enter a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Widget kalendara za unos datuma.</translation>
     </message>
     <message>
         <source>Date format</source>
@@ -13615,7 +17137,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Kazalo</translation>
+        <translation>Kazalo</translation>
     </message>
 </context>
 <context>
@@ -13694,7 +17216,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda brisanja</translation>
     </message>
     <message>
         <source>The classification field was changed from &apos;%1&apos; to &apos;%2&apos;.
@@ -13722,15 +17244,15 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     <name>QgsCheckBoxConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Representation for checked state</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaz za označeno stanje</translation>
     </message>
     <message>
         <source>Representation for unchecked state</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaz za neoznačeno stanje</translation>
     </message>
 </context>
 <context>
@@ -13813,7 +17335,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     <name>QgsColorButtonV2</name>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Odaberi boju</translation>
+        <translation>Odaberi boju</translation>
     </message>
     <message>
         <source>No color</source>
@@ -13866,11 +17388,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished">J</translation>
+        <translation>J</translation>
     </message>
     <message>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>R</source>
@@ -13882,11 +17404,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Opacity</source>
-        <translation type="unfinished">Stupanj prozirnosti</translation>
+        <translation>Stupanj prozirnosti</translation>
     </message>
     <message>
         <source>HTML notation</source>
@@ -13906,7 +17428,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Sample average radius</source>
@@ -13914,7 +17436,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Sample color</source>
@@ -13926,7 +17448,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>Current</source>
-        <translation type="unfinished">Trenutno</translation>
+        <translation>Trenutno</translation>
     </message>
     <message>
         <source>Old</source>
@@ -13993,11 +17515,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     <name>QgsColorDialogV2</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">Vraćanje</translation>
+        <translation>Vraćanje</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Odaberi boju</translation>
+        <translation>Odaberi boju</translation>
     </message>
     <message>
         <source>Select palette file</source>
@@ -14075,18 +17597,18 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     <name>QgsColorSchemeModel</name>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Oznaka</translation>
+        <translation>Oznaka</translation>
     </message>
 </context>
 <context>
     <name>QgsColorSliderWidget</name>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
 </context>
 <context>
@@ -14179,11 +17701,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;Uredi</translation>
+        <translation>&amp;Uredi</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalno</translation>
     </message>
     <message>
         <source>Simulate Photocopy (&amp;Grayscale)</source>
@@ -14203,7 +17725,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation type="unfinished">&amp;Prikaz</translation>
+        <translation>&amp;Prikaz</translation>
     </message>
     <message>
         <source>P&amp;anels</source>
@@ -14219,11 +17741,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>&amp;Atlas</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlas</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">Po&amp;stavke</translation>
+        <translation>Po&amp;stavke</translation>
     </message>
     <message>
         <source>Composer</source>
@@ -14255,7 +17777,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished">Normalno</translation>
+        <translation>Normalno</translation>
     </message>
     <message>
         <source>Simulate photocopy (grayscale)</source>
@@ -14275,7 +17797,7 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>Window</source>
-        <translation type="unfinished">Prozor</translation>
+        <translation>Prozor</translation>
     </message>
     <message>
         <source>Help</source>
@@ -14299,11 +17821,11 @@ Trebaju li postojeće klase biti izbrisane prije klasifikacije?</translation>
     </message>
     <message>
         <source>Atlas generation</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlas</translation>
     </message>
     <message>
         <source>Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavka</translation>
     </message>
     <message>
         <source>Set as atlas feature for %1</source>
@@ -14461,19 +17983,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source> copy</source>
-        <translation type="unfinished"></translation>
+        <translation>kopiraj</translation>
     </message>
     <message>
         <source>Duplicating composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupliciranje kompozitora...</translation>
     </message>
     <message>
         <source>Duplicate Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupliciraj kompozitor</translation>
     </message>
     <message>
         <source>Composer duplication failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspjelo dupliciranje kompozitora.</translation>
     </message>
     <message>
         <source>Save template</source>
@@ -14481,7 +18003,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Composer templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Predlošci kompozitora</translation>
     </message>
     <message>
         <source>Save error</source>
@@ -14505,7 +18027,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Composer error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška kompozitora</translation>
     </message>
     <message>
         <source>Error, could not create new composer</source>
@@ -14513,7 +18035,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Loading template into composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitavanje predloška u kompozitor...</translation>
     </message>
     <message>
         <source>Project contains WMS layers</source>
@@ -14537,7 +18059,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation type="unfinished">Pejzaž</translation>
+        <translation>Pejzaž</translation>
     </message>
 </context>
 <context>
@@ -14568,11 +18090,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Transparent outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentni okvir</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Arrow marker changed</source>
@@ -14611,7 +18133,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source> mm</source>
@@ -14670,19 +18192,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerAttributeTableColumnModel</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Atribut</translation>
+        <translation>Atribut</translation>
     </message>
     <message>
         <source>Heading</source>
@@ -14690,26 +18212,26 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">Poravnanje</translation>
+        <translation>Poravnanje</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerAttributeTableColumnModelV2</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished">Automatski</translation>
+        <translation>Automatski</translation>
     </message>
     <message>
         <source>%1 mm</source>
@@ -14717,7 +18239,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Atribut</translation>
+        <translation>Atribut</translation>
     </message>
     <message>
         <source>Heading</source>
@@ -14725,33 +18247,33 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">Poravnanje</translation>
+        <translation>Poravnanje</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Širina</translation>
+        <translation>Širina</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerAttributeTableV2</name>
     <message>
         <source>&lt;attribute table&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;attribute table&gt;</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerAttributeTableWidget</name>
     <message>
         <source>Use existing frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi postojeće okvire</translation>
     </message>
     <message>
         <source>Extend to next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Proširi na slijedeću stranicu</translation>
     </message>
     <message>
         <source>Repeat until finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovi dok nije završeno</translation>
     </message>
     <message>
         <source>Draw headers only</source>
@@ -14779,11 +18301,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Select grid color</source>
-        <translation type="unfinished">Odaberi boju mreže</translation>
+        <translation>Odaberi boju mreže</translation>
     </message>
     <message>
         <source>Select background color</source>
-        <translation type="unfinished">Boja pozadine</translation>
+        <translation>Boja pozadine</translation>
     </message>
     <message>
         <source>No background</source>
@@ -14791,7 +18313,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Mapa %1</translation>
+        <translation>Mapa %1</translation>
     </message>
     <message>
         <source>Table attribute settings</source>
@@ -14811,7 +18333,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Select Font</source>
-        <translation type="unfinished">Odaberi font</translation>
+        <translation>Odaberi font</translation>
     </message>
     <message>
         <source>Table header font</source>
@@ -14879,11 +18401,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Table feature filter modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificiran filter elemenata tablice</translation>
     </message>
     <message>
         <source>Expression based filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter temeljen na izrazu</translation>
     </message>
     <message>
         <source>Table header alignment changed</source>
@@ -14899,7 +18421,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Change resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmjeni način promjene veličine</translation>
     </message>
     <message>
         <source>Change table source</source>
@@ -14926,55 +18448,55 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerAttributeTableWidgetBase</name>
     <message>
         <source>Attribute Table</source>
-        <translation type="unfinished">Atributna tablica</translation>
+        <translation>Atributna tablica</translation>
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributna tablica</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>Refresh table data</source>
-        <translation type="unfinished"></translation>
+        <translation>Osvježi podatke tablice</translation>
     </message>
     <message>
         <source>Attributes...</source>
-        <translation type="unfinished">Atributi...</translation>
+        <translation>Atributi...</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation> mm</translation>
     </message>
     <message>
         <source>Feature filtering</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtriranje elemenata</translation>
     </message>
     <message>
         <source>Maximum rows</source>
-        <translation type="unfinished">Maksimalno redova</translation>
+        <translation>Maksimalno redova</translation>
     </message>
     <message>
         <source>Composer map</source>
-        <translation type="unfinished">Mapa kompozitora</translation>
+        <translation>Mapa kompozitora</translation>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Boja pozadine</translation>
+        <translation>Boja pozadine</translation>
     </message>
     <message>
         <source>Show empty rows</source>
@@ -14982,59 +18504,59 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Show grid</source>
-        <translation type="unfinished">Prikaži mrežu</translation>
+        <translation>Prikaži mrežu</translation>
     </message>
     <message>
         <source>Stroke width</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina poteza</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblikovanje fontova i teksta</translation>
     </message>
     <message>
         <source>Table heading</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaglavlje tablice</translation>
     </message>
     <message>
         <source>Follow column alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Slijedi poravnanje kolone</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">Poravnanje</translation>
+        <translation>Poravnanje</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Font</translation>
     </message>
     <message>
         <source>Choose font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi font...</translation>
     </message>
     <message>
         <source>Don&apos;t export page if frame is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne izvozi stranicu ako je okvir prazan</translation>
     </message>
     <message>
         <source>Don&apos;t draw background if frame is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne iscrtavaj pozadinu ako je okvir prazan</translation>
     </message>
     <message>
         <source>On first frame</source>
@@ -15042,7 +18564,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">Izvor</translation>
+        <translation>Izvor</translation>
     </message>
     <message>
         <source>Relation</source>
@@ -15062,7 +18584,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgled</translation>
     </message>
     <message>
         <source>Cell margins</source>
@@ -15090,19 +18612,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Table contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Sadržaj tablice</translation>
     </message>
     <message>
         <source>Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Okviri</translation>
     </message>
     <message>
         <source>Resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Način promjene veličine</translation>
     </message>
     <message>
         <source>Add Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj okvir</translation>
     </message>
 </context>
 <context>
@@ -15117,19 +18639,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Paper Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigacija po papiru</translation>
     </message>
     <message>
         <source>Composer Item Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Akcije stavaka kompozitora</translation>
     </message>
     <message>
         <source>Composer Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavke kompozitora</translation>
     </message>
     <message>
         <source>Atlas</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlas</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
@@ -15141,11 +18663,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Zoom full</source>
-        <translation type="unfinished"></translation>
+        <translation>Zumiraj na sve</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>Zoom in</source>
@@ -15153,7 +18675,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation type="unfinished">Ctrl++</translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
         <source>Zoom out</source>
@@ -15161,23 +18683,23 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation type="unfinished">Ctrl+-</translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Zoom to 100%</source>
-        <translation type="unfinished"></translation>
+        <translation>Zumiraj 100%</translation>
     </message>
     <message>
         <source>Ctrl+1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+1</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Približi</translation>
+        <translation>Približi</translation>
     </message>
     <message>
         <source>Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Z</translation>
     </message>
     <message>
         <source>Add new map</source>
@@ -15189,7 +18711,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Add new legend</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj novo kazalo</translation>
     </message>
     <message>
         <source>Select/Move item</source>
@@ -15197,11 +18719,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>Export as image</source>
-        <translation type="unfinished">Izvezi kao sliku</translation>
+        <translation>Izvezi kao sliku</translation>
     </message>
     <message>
         <source>Add new scalebar</source>
@@ -15213,55 +18735,55 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Show grid</source>
-        <translation type="unfinished">Prikaži mrežu</translation>
+        <translation>Prikaži mrežu</translation>
     </message>
     <message>
         <source>Ctrl+&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&apos;</translation>
     </message>
     <message>
         <source>Snap to grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Snepiraj na mrežu</translation>
     </message>
     <message>
         <source>Ctrl+Shift+&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+&apos;</translation>
     </message>
     <message>
         <source>Show guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži linije vodilje</translation>
     </message>
     <message>
         <source>Ctrl+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+;</translation>
     </message>
     <message>
         <source>Snap to guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Snepiraj na linije vodilje</translation>
     </message>
     <message>
         <source>Ctrl+Shift+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+;</translation>
     </message>
     <message>
         <source>Smart guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Pametne linije vodilje</translation>
     </message>
     <message>
         <source>Ctrl+Alt+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+;</translation>
     </message>
     <message>
         <source>Clear guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Očisti linije vodilje</translation>
     </message>
     <message>
         <source>Add image</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj sliku</translation>
     </message>
     <message>
         <source>Move item content</source>
@@ -15269,7 +18791,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>C</source>
-        <translation type="unfinished"></translation>
+        <translation>C</translation>
     </message>
     <message>
         <source>Group items</source>
@@ -15277,7 +18799,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+G</source>
-        <translation type="unfinished">Ctrl+G</translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
         <source>Ungroup items</source>
@@ -15285,7 +18807,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+Shift+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+G</translation>
     </message>
     <message>
         <source>Raise selected items</source>
@@ -15293,7 +18815,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+]</translation>
     </message>
     <message>
         <source>Lower selected items</source>
@@ -15301,7 +18823,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+[</translation>
     </message>
     <message>
         <source>Move selected items to top</source>
@@ -15309,7 +18831,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+Shift+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+]</translation>
     </message>
     <message>
         <source>Move selected items to bottom</source>
@@ -15317,15 +18839,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Ctrl+Shift+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+[</translation>
     </message>
     <message>
         <source>Zoom &amp;Full</source>
-        <translation type="unfinished"></translation>
+        <translation>Zumiraj na &amp;sve</translation>
     </message>
     <message>
         <source>Zoom &amp;In</source>
-        <translation type="unfinished"></translation>
+        <translation>Zumiraj &amp;bliže</translation>
     </message>
     <message>
         <source>Zoom &amp;Out</source>
@@ -15333,107 +18855,107 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Zoom to &amp;100%</source>
-        <translation type="unfinished"></translation>
+        <translation>Zumiraj na &amp;100%</translation>
     </message>
     <message>
         <source>Add &amp;Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;mapu</translation>
     </message>
     <message>
         <source>Add Lab&amp;el</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;oznaku</translation>
     </message>
     <message>
         <source>Add Legen&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;kazalo</translation>
     </message>
     <message>
         <source>Move &amp;Item</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni &amp;stavku</translation>
     </message>
     <message>
         <source>Export as &amp;Image...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi kao sl&amp;iku...</translation>
     </message>
     <message>
         <source>&amp;Export as PDF...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izv&amp;ezi kao PDF...</translation>
     </message>
     <message>
         <source>Export as S&amp;VG...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi kao S&amp;VG...</translation>
     </message>
     <message>
         <source>Add &amp;Scalebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj traku &amp;mjerila</translation>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">&amp;Osvježi</translation>
+        <translation>&amp;Osvježi</translation>
     </message>
     <message>
         <source>Show &amp;Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži m&amp;režu</translation>
     </message>
     <message>
         <source>S&amp;nap to Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;nepiraj na mrežu</translation>
     </message>
     <message>
         <source>Show G&amp;uides</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži linije &amp;vodilje</translation>
     </message>
     <message>
         <source>&amp;Snap to Guides</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Snepiraj na linije vodilje</translation>
     </message>
     <message>
         <source>S&amp;mart Guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;metne linije vodilje</translation>
     </message>
     <message>
         <source>&amp;Clear Guides</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Očisti linije vodilje</translation>
     </message>
     <message>
         <source>Add Im&amp;age</source>
-        <translation type="unfinished"></translation>
+        <translation>Dod&amp;aj sliku </translation>
     </message>
     <message>
         <source>Move &amp;Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni Sa&amp;držaj</translation>
     </message>
     <message>
         <source>&amp;Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Grupiranje</translation>
     </message>
     <message>
         <source>&amp;Ungroup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Degrupiranje</translation>
     </message>
     <message>
         <source>&amp;Raise</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Podigni</translation>
     </message>
     <message>
         <source>&amp;Lower</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spusti</translation>
     </message>
     <message>
         <source>Bring to &amp;Front</source>
-        <translation type="unfinished"></translation>
+        <translation>Dovedi &amp;naprijed</translation>
     </message>
     <message>
         <source>Send to &amp;Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Pošalji na&amp;trag</translation>
     </message>
     <message>
         <source>&amp;Add Items from Template...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dod&amp;aj stavke iz predloška...</translation>
     </message>
     <message>
         <source>Save as &amp;Template...</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi &amp;kao predložak...</translation>
     </message>
     <message>
         <source>Save as template</source>
@@ -15441,7 +18963,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj ulijevo</translation>
     </message>
     <message>
         <source>Align selected items left</source>
@@ -15449,7 +18971,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj po centru</translation>
     </message>
     <message>
         <source>Align center horizontal</source>
@@ -15457,7 +18979,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj udesno</translation>
     </message>
     <message>
         <source>Align selected items right</source>
@@ -15465,7 +18987,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj na vrh</translation>
     </message>
     <message>
         <source>Align selected items to top</source>
@@ -15473,7 +18995,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Center Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj po centru vertikalno</translation>
     </message>
     <message>
         <source>Align center vertical</source>
@@ -15481,7 +19003,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Align Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnaj na dno</translation>
     </message>
     <message>
         <source>Align selected items bottom</source>
@@ -15501,63 +19023,63 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Paste in P&amp;lace</source>
-        <translation type="unfinished"></translation>
+        <translation>Zalije&amp;pi na mjesto</translation>
     </message>
     <message>
         <source>D&amp;eselect All</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;eselektiraj sve</translation>
     </message>
     <message>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi &amp;sve</translation>
     </message>
     <message>
         <source>Composer &amp;Options...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opcije kompozitora...</translation>
     </message>
     <message>
         <source>Show Ru&amp;lers</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži ravna&amp;la</translation>
     </message>
     <message>
         <source>&amp;First Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prvi element</translation>
     </message>
     <message>
         <source>P&amp;revious Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rethodni element</translation>
     </message>
     <message>
         <source>&amp;Next Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Slijedeći element</translation>
     </message>
     <message>
         <source>&amp;Last Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Pos&amp;ljednji element</translation>
     </message>
     <message>
         <source>Preview &amp;Atlas</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretpregled &amp;atlasa</translation>
     </message>
     <message>
         <source>&amp;Print Atlas...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ispis atlasa...</translation>
     </message>
     <message>
         <source>Export Atlas as &amp;Images...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi atlas kao &amp;slike...</translation>
     </message>
     <message>
         <source>Export Atlas as S&amp;VG...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi atlas kao S&amp;VG...</translation>
     </message>
     <message>
         <source>&amp;Export Atlas as PDF...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izv&amp;ezi atlas kao PDF...</translation>
     </message>
     <message>
         <source>Atlas &amp;Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;stavke atlasa</translation>
     </message>
     <message>
         <source>Add arrow</source>
@@ -15565,19 +19087,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Add Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj tablicu</translation>
     </message>
     <message>
         <source>Add table</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj tablicu</translation>
     </message>
     <message>
         <source>Add attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj atributnu tablicu</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavka stranice</translation>
     </message>
     <message>
         <source>Ctrl+Shift+P</source>
@@ -15585,147 +19107,147 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation type="unfinished">&amp;Vrati</translation>
+        <translation>&amp;Vrati</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation type="unfinished">&amp;Ponovi</translation>
+        <translation>&amp;Ponovi</translation>
     </message>
     <message>
         <source>Add &amp;HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;HTML</translation>
     </message>
     <message>
         <source>Composer &amp;Manager...</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravitelj &amp;kompozitora...</translation>
     </message>
     <message>
         <source>&amp;New Composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Novi kompozitor...</translation>
     </message>
     <message>
         <source>&amp;Duplicate Composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dupliciraj kompozitor...</translation>
     </message>
     <message>
         <source>Loc&amp;k Selected Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Za&amp;ključaj odabrane stavke</translation>
     </message>
     <message>
         <source>Unl&amp;ock All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otključaj sve</translation>
     </message>
     <message>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished">Ctrl+Shift+L</translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <source>Paste in place</source>
-        <translation type="unfinished"></translation>
+        <translation>Zalijepi na mjesto</translation>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished">Ctrl+Shift+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Briši</translation>
+        <translation>&amp;Briši</translation>
     </message>
     <message>
         <source>Delete selected items</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbriši odabrane stavke</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <source>Deselect all</source>
-        <translation type="unfinished"></translation>
+        <translation>Deselektiraj sve</translation>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation type="unfinished">Ctrl+Shift+A</translation>
+        <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
         <source>Select all items</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi sve stavke</translation>
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation type="unfinished">Ctrl+A</translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>&amp;Invert Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Invertiraj odabir</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertiranje odabira</translation>
     </message>
     <message>
         <source>Select Next Item &amp;Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi slijedeću stavku &amp;ispod</translation>
     </message>
     <message>
         <source>Select next item below</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabiranje slijedeće stavke ispod</translation>
     </message>
     <message>
         <source>Ctrl+Alt+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+[</translation>
     </message>
     <message>
         <source>Select Next Item &amp;Above</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaebri slijedeću stavku i&amp;znad</translation>
     </message>
     <message>
         <source>Select next item above</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabiranje slijedeće stavke izna</translation>
     </message>
     <message>
         <source>Ctrl+Alt+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+]</translation>
     </message>
     <message>
         <source>Pan Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomakni kompozitor</translation>
     </message>
     <message>
         <source>P</source>
-        <translation type="unfinished"></translation>
+        <translation>P</translation>
     </message>
     <message>
         <source>Show rulers</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži ravnala</translation>
     </message>
     <message>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>Ctrl+&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&lt;</translation>
     </message>
     <message>
         <source>Ctrl+,</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+,</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
-        <translation type="unfinished">Ctrl+.</translation>
+        <translation>Ctrl+.</translation>
     </message>
     <message>
         <source>Ctrl+&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&gt;</translation>
     </message>
     <message>
         <source>Ctrl+Alt+/</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+/</translation>
     </message>
     <message>
         <source>Export Atlas as PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi atlas kao PDF</translation>
     </message>
     <message>
         <source>Revert last change</source>
@@ -15733,19 +19255,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Add items from template</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj stavke iz predloška</translation>
     </message>
     <message>
         <source>Add Arro&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;strelicu</translation>
     </message>
     <message>
         <source>Add Attribute &amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj atributnu &amp;tablicu</translation>
     </message>
     <message>
         <source>Pa&amp;ge Setup...</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavljanje &amp;stranice...</translation>
     </message>
     <message>
         <source>Ctrl+Z</source>
@@ -15761,31 +19283,31 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Add Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj pravokutnik</translation>
     </message>
     <message>
         <source>Add rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj pravokutnik</translation>
     </message>
     <message>
         <source>Add Triangle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj trokut</translation>
     </message>
     <message>
         <source>Add triangle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj trokut</translation>
     </message>
     <message>
         <source>Add Ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj elipsu</translation>
     </message>
     <message>
         <source>Add ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj elipsu</translation>
     </message>
     <message>
         <source>Add html frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj html okvir</translation>
     </message>
     <message>
         <source>Composer manager</source>
@@ -15793,7 +19315,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>New composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Novi kompozitor</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
@@ -15805,7 +19327,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Save project</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi projekt</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
@@ -15813,101 +19335,137 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Duplicate composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupliciraj kompozitor</translation>
     </message>
     <message>
         <source>Ctrl+L</source>
-        <translation type="unfinished">Ctrl+L</translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <source>Unlock All Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Otključaj sve stavke</translation>
+    </message>
+    <message>
+        <source>Show Bounding Boxes</source>
+        <translation>Prikaži granične kvadrate</translation>
+    </message>
+    <message>
+        <source>Show bounding boxes</source>
+        <translation>Prikaži granične kvadrate</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+B</source>
+        <translation>Ctrl+Shift+B</translation>
+    </message>
+    <message>
+        <source>Toggle Full Scr&amp;een</source>
+        <translation>Uklj/isklj pregled preko punog ekrana</translation>
+    </message>
+    <message>
+        <source>Toggle full screen mode</source>
+        <translation>Uklj/isklj pregled preko punog ekrana</translation>
+    </message>
+    <message>
+        <source>F11</source>
+        <translation>F11</translation>
+    </message>
+    <message>
+        <source>&amp;Hide Panels</source>
+        <translation>Sa&amp;krij panele</translation>
+    </message>
+    <message>
+        <source>Hide panels</source>
+        <translation>Sakrij panele</translation>
+    </message>
+    <message>
+        <source>F10</source>
+        <translation>F10</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnAlignmentDelegate</name>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnSortOrderDelegate</name>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzlazni</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Silazni</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnWidthDelegate</name>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished">Automatski</translation>
+        <translation>Automatski</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerFrame</name>
     <message>
         <source>&lt;frame&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;frame&gt;</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerHtml</name>
     <message>
         <source>&lt;html frame&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html frame&gt;</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerHtmlWidget</name>
     <message>
         <source>Use existing frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi postojeće okvire</translation>
     </message>
     <message>
         <source>Extend to next page</source>
-        <translation type="unfinished"></translation>
+        <translation>Proširi na slijedeću stranicu</translation>
     </message>
     <message>
         <source>Repeat on every page</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovi na svakoj stranici</translation>
     </message>
     <message>
         <source>Repeat until finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovi dok nije završeno</translation>
     </message>
     <message>
         <source>Change html url</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmjeni html url</translation>
     </message>
     <message>
         <source>Select HTML document</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi HTML dokument</translation>
     </message>
     <message>
         <source>Change resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmjeni način promjene veličine</translation>
     </message>
     <message>
         <source>Evaluate expressions changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmijenjen izraz za evaluaciju</translation>
     </message>
     <message>
         <source>Use smart breaks changed</source>
@@ -15919,7 +19477,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>HTML changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmijenjen HTML</translation>
     </message>
     <message>
         <source>User stylesheet changed</source>
@@ -15943,22 +19501,22 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi izraz</translation>
     </message>
     <message>
         <source>url string</source>
-        <translation type="unfinished"></translation>
+        <translation>url znakovni niz</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerHtmlWidgetBase</name>
     <message>
         <source>HTML Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML okvir</translation>
     </message>
     <message>
         <source>HTML frame</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML okvir</translation>
     </message>
     <message>
         <source>URL</source>
@@ -15970,7 +19528,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>HTML Source</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML izvorni kod</translation>
     </message>
     <message>
         <source>If checked, expressions inside [% %] tags will be evaluated prior to rendering the HTML</source>
@@ -15978,35 +19536,35 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Evaluate QGIS expressions in HTML source</source>
-        <translation type="unfinished"></translation>
+        <translation>Evaluiraj QGIS izraze u HTML izvornom kodu</translation>
     </message>
     <message>
         <source>Source:</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvor:</translation>
     </message>
     <message>
         <source>Insert an expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi izraz</translation>
     </message>
     <message>
         <source>Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Okviri</translation>
     </message>
     <message>
         <source>Don&apos;t export page if frame is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne izvozi stranicu ako je okvir prazan</translation>
     </message>
     <message>
         <source>Resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Način promjene veličine</translation>
     </message>
     <message>
         <source>Add Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj okvir</translation>
     </message>
     <message>
         <source>Don&apos;t draw background if frame is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne iscrtavaj pozadinu ako je okvir prazan</translation>
     </message>
     <message>
         <source>Use smart page breaks</source>
@@ -16014,97 +19572,97 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Maximum distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksimalna udaljenost</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>User stylesheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Korisnički stylesheet</translation>
     </message>
     <message>
         <source>Update HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovi HTML</translation>
     </message>
     <message>
         <source>Refresh HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>Osvježi HTML</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerItem</name>
     <message>
         <source>&lt;arrow&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;arrow&gt;</translation>
     </message>
     <message>
         <source>&lt;group&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;group&gt;</translation>
     </message>
     <message>
         <source>&lt;label&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;label&gt;</translation>
     </message>
     <message>
         <source>&lt;legend&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;legend&gt;</translation>
     </message>
     <message>
         <source>&lt;map&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;map&gt;</translation>
     </message>
     <message>
         <source>&lt;picture&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;picture&gt;</translation>
     </message>
     <message>
         <source>&lt;scale bar&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;scale bar&gt;</translation>
     </message>
     <message>
         <source>&lt;shape&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;shape&gt;</translation>
     </message>
     <message>
         <source>&lt;table&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;table&gt;</translation>
     </message>
     <message>
         <source>&lt;attribute table&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;attribute table&gt;</translation>
     </message>
     <message>
         <source>&lt;text table&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;text table&gt;</translation>
     </message>
     <message>
         <source>&lt;frame&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;frame&gt;</translation>
     </message>
     <message>
         <source>&lt;item&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;item&gt;</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerItemWidget</name>
     <message>
         <source>Frame color changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena boja okvira</translation>
     </message>
     <message>
         <source>Background color changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena boja pozadine</translation>
     </message>
     <message>
         <source>Item position changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijena pozicija stavke</translation>
     </message>
     <message>
         <source>Item outline width</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina obruba stavke</translation>
     </message>
     <message>
         <source>Item frame join style</source>
@@ -16116,7 +19674,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Item background toggled</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozadina stavke uključena/isključena</translation>
     </message>
     <message>
         <source>Select background color</source>
@@ -16136,11 +19694,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Item id changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjen ID stavke</translation>
     </message>
     <message>
         <source>Item rotation changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena rotacija stavke</translation>
     </message>
     <message>
         <source>Exclude from exports changed</source>
@@ -16151,15 +19709,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerItemWidgetBase</name>
     <message>
         <source>Global Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Globalne opcije</translation>
     </message>
     <message>
         <source>Position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozicija i veličina</translation>
     </message>
     <message>
         <source>Reference point</source>
-        <translation type="unfinished"></translation>
+        <translation>Referentna točka</translation>
     </message>
     <message>
         <source>X</source>
@@ -16179,39 +19737,39 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Stranica</translation>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished">Rotacija</translation>
+        <translation>Rotacija</translation>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Okvir</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Spoji stil</translation>
+        <translation>Spoji stil</translation>
     </message>
     <message>
         <source>Frame color</source>
-        <translation type="unfinished">Boja okvira</translation>
+        <translation>Boja okvira</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Boja pozadine</translation>
+        <translation>Boja pozadine</translation>
     </message>
     <message>
         <source>Rendering</source>
@@ -16239,7 +19797,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Item ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Id</source>
@@ -16250,22 +19808,22 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerLabel</name>
     <message>
         <source>&lt;HTML label&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;HTML label&gt;</translation>
     </message>
     <message>
         <source>&lt;label&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;label&gt;</translation>
     </message>
     <message>
         <source>%1...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1...</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerLabelWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Odaberi boju fonta</translation>
+        <translation>Odaberi boju fonta</translation>
     </message>
     <message>
         <source>Label text HTML state changed</source>
@@ -16289,7 +19847,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi izraz</translation>
     </message>
     <message>
         <source>Label alignment changed</source>
@@ -16308,35 +19866,35 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Render as HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži kao HTML</translation>
     </message>
     <message>
         <source>Insert an expression...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ubaci izraz...</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgled</translation>
     </message>
     <message>
         <source>Font...</source>
-        <translation type="unfinished">Font...</translation>
+        <translation>Font...</translation>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Boja fonta</translation>
+        <translation>Boja fonta</translation>
     </message>
     <message>
         <source>Horizontal alignment</source>
-        <translation type="unfinished">Horizontalno poravnanje</translation>
+        <translation>Horizontalno poravnanje</translation>
     </message>
     <message>
         <source>Vertical alignment</source>
-        <translation type="unfinished">Vertikalno poravnanje</translation>
+        <translation>Vertikalno poravnanje</translation>
     </message>
     <message>
         <source>Top</source>
@@ -16363,23 +19921,27 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
         <translation>Desno</translation>
     </message>
     <message>
-        <source>Margin</source>
-        <translation>Margina</translation>
-    </message>
-    <message>
         <source> mm</source>
         <translation> mm</translation>
+    </message>
+    <message>
+        <source>Horizontal margin</source>
+        <translation>Horizontalna margina</translation>
+    </message>
+    <message>
+        <source>Vertical margin</source>
+        <translation>Vertikalna margina</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerLegend</name>
     <message>
         <source>&lt;legend&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;legend&gt;</translation>
     </message>
     <message>
         <source>%1...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1...</translation>
     </message>
 </context>
 <context>
@@ -16404,14 +19966,14 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerLegendMenuProvider</name>
     <message>
         <source>Reset to defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavi na zadane vrijednosti</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerLegendWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Odaberi boju fonta</translation>
+        <translation>Odaberi boju fonta</translation>
     </message>
     <message>
         <source>Item wrapping changed</source>
@@ -16427,7 +19989,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Legend column count</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj stupaca kazala</translation>
     </message>
     <message>
         <source>Legend split layers</source>
@@ -16447,11 +20009,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Wms Legend width</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina WMS kazala</translation>
     </message>
     <message>
         <source>Wms Legend height</source>
-        <translation type="unfinished"></translation>
+        <translation>Visina WMS kazala</translation>
     </message>
     <message>
         <source>Legend title space bottom</source>
@@ -16503,11 +20065,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Legend item properties</source>
-        <translation type="unfinished">Osobine stavke kazala</translation>
+        <translation>Osobine stavke kazala</translation>
     </message>
     <message>
         <source>Item text</source>
-        <translation type="unfinished">Tekst stavke</translation>
+        <translation>Tekst stavke</translation>
     </message>
     <message>
         <source>Legend item edited</source>
@@ -16523,7 +20085,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Grupiraj</translation>
+        <translation>Grupiraj</translation>
     </message>
     <message>
         <source>Map %1</source>
@@ -16538,7 +20100,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerLegendWidgetBase</name>
     <message>
         <source>Legend Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije kazala</translation>
     </message>
     <message>
         <source>Legend</source>
@@ -16546,7 +20108,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>&amp;Title</source>
@@ -16574,7 +20136,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Fontovi</translation>
     </message>
     <message>
         <source>Space above text using subgroup style.</source>
@@ -16598,7 +20160,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj</translation>
     </message>
     <message>
         <source>Equal column widths</source>
@@ -16626,15 +20188,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Update whole legend. Layers are added/removed according to main application legend. User defined labels will be deleted.</source>
@@ -16642,7 +20204,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Update all</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovi sve</translation>
     </message>
     <message>
         <source>...</source>
@@ -16650,7 +20212,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Auto update</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatsko obnavljanje</translation>
     </message>
     <message>
         <source>Filter Legend By Map Content</source>
@@ -16658,23 +20220,23 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Title font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Font naslova...</translation>
     </message>
     <message>
         <source>Subgroup font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Font podgrupe...</translation>
     </message>
     <message>
         <source>Group font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Font grupe...</translation>
     </message>
     <message>
         <source>Item font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Font stavke...</translation>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Boja fonta</translation>
+        <translation>Boja fonta</translation>
     </message>
     <message>
         <source>Symbol</source>
@@ -16694,11 +20256,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Legend width</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina kazala</translation>
     </message>
     <message>
         <source>Legend height</source>
-        <translation type="unfinished"></translation>
+        <translation>Visina kazala</translation>
     </message>
     <message>
         <source>Space above text using group style.</source>
@@ -16737,11 +20299,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerManager</name>
     <message>
         <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prikaži</translation>
     </message>
     <message>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dupliciraj</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
@@ -16757,15 +20319,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Specific</source>
-        <translation type="unfinished"></translation>
+        <translation>Određeno</translation>
     </message>
     <message>
         <source>Template error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška predloška</translation>
     </message>
     <message>
         <source>Error, template file not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška, predložak nije pronađen</translation>
     </message>
     <message>
         <source>Error, could not read file</source>
@@ -16773,35 +20335,35 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Composer error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška kompozitora</translation>
     </message>
     <message>
         <source>Error, could not create composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška, ne može se stvoriti kompozitor</translation>
     </message>
     <message>
         <source>Loading template into composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitavanje predloška u kompozitor...</translation>
     </message>
     <message>
         <source>Error, could not load template file</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška, ne može se učitati datoteka predloška</translation>
     </message>
     <message>
         <source>Choose template</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi predložak</translation>
     </message>
     <message>
         <source>Composer templates</source>
-        <translation type="unfinished"></translation>
+        <translation>Predlošci kompozitora</translation>
     </message>
     <message>
         <source>File system error</source>
-        <translation type="unfinished"></translation>
+        <translation>Sustavna pogreška kompozitora</translation>
     </message>
     <message>
         <source>Error, could not open or create local directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška, ne mogu otvoriti ili stvoriti lokalnu mapu datoteka</translation>
     </message>
     <message>
         <source>Remove composer</source>
@@ -16813,19 +20375,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source> copy</source>
-        <translation type="unfinished"></translation>
+        <translation>kopiraj</translation>
     </message>
     <message>
         <source>Duplicating composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupliciranje kompozitora...</translation>
     </message>
     <message>
         <source>Duplicate Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupliciraj kompozitor</translation>
     </message>
     <message>
         <source>Composer duplication failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspjelo dupliciranje kompozitora.</translation>
     </message>
 </context>
 <context>
@@ -16836,7 +20398,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>New from template</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo iz predloška</translation>
     </message>
     <message>
         <source>Add</source>
@@ -16848,11 +20410,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Open template directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori mapu s predlošcima</translation>
     </message>
     <message>
         <source>user</source>
-        <translation type="unfinished"></translation>
+        <translation>korisnik</translation>
     </message>
     <message>
         <source>default</source>
@@ -16871,11 +20433,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Grid %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Grid %1</translation>
     </message>
     <message>
         <source>Overview %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregled %1</translation>
     </message>
 </context>
 <context>
@@ -16902,11 +20464,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Markeri</translation>
     </message>
     <message>
         <source>Decimal</source>
-        <translation type="unfinished"></translation>
+        <translation>Decimalno</translation>
     </message>
     <message>
         <source>Zebra</source>
@@ -16954,7 +20516,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Overview %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pregled %1</translation>
     </message>
     <message>
         <source>Add map overview</source>
@@ -16978,119 +20540,119 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Grid %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Grid %1</translation>
     </message>
     <message>
         <source>Frame and annotations only</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo okvir i anotacije</translation>
     </message>
     <message>
         <source>Decimal with suffix</source>
-        <translation type="unfinished"></translation>
+        <translation>Decimalni sa sufiksom</translation>
     </message>
     <message>
         <source>Degree, minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta</translation>
     </message>
     <message>
         <source>Degree, minute with suffix</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta sa sufiksom</translation>
     </message>
     <message>
         <source>Degree, minute aligned</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta poravnato</translation>
     </message>
     <message>
         <source>Degree, minute, second</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta, sekunda</translation>
     </message>
     <message>
         <source>Degree, minute, second with suffix</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta, sekunda sa sufiksom</translation>
     </message>
     <message>
         <source>Degree, minute, second aligned</source>
-        <translation type="unfinished"></translation>
+        <translation>Stupanj, minuta, sekunda poravnato</translation>
     </message>
     <message>
         <source>Transparent frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentni okvir</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Add map grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj mrežu karte</translation>
     </message>
     <message>
         <source>Draw &quot;%1&quot; grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Iscrtaj &quot;%1&quot; mrežu</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Centimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Centimetar</translation>
     </message>
     <message>
         <source>change...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmjena...</translation>
     </message>
     <message>
         <source>Grid markers style changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjen stil markera mreže</translation>
     </message>
     <message>
         <source>Cross width changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjana širina križića</translation>
     </message>
     <message>
         <source>Frame width changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena širina okvira</translation>
     </message>
     <message>
         <source>Frame left side changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjana lijeva strana okvira</translation>
     </message>
     <message>
         <source>Frame right side changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena desna strana okvira</translation>
     </message>
     <message>
         <source>Frame top side changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena gornja strana okvira</translation>
     </message>
     <message>
         <source>Frame bottom side changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena donja strana okvira</translation>
     </message>
     <message>
         <source>Interior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Unutrašnje točkice</translation>
     </message>
     <message>
         <source>Exterior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Vanjske točkice</translation>
     </message>
     <message>
         <source>Interior and exterior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Unutarnje i vanjske točkice</translation>
     </message>
     <message>
         <source>Line border</source>
-        <translation type="unfinished"></translation>
+        <translation>Granica linije</translation>
     </message>
     <message>
         <source>Changed grid unit</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena jedinica mreže</translation>
     </message>
     <message>
         <source>Grid blend mode changed</source>
@@ -17098,11 +20660,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Grid CRS changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjen CRS mreže</translation>
     </message>
     <message>
         <source>Annotation color changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjena boja anotacije</translation>
     </message>
     <message>
         <source>Grid checkbox toggled</source>
@@ -17193,10 +20755,6 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
         <translation>Horizontalno</translation>
     </message>
     <message>
-        <source>Vertical</source>
-        <translation>Vertikalno</translation>
-    </message>
-    <message>
         <source>Annotation position changed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17208,12 +20766,52 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
         <source>Map %1</source>
         <translation>Mapa %1</translation>
     </message>
+    <message>
+        <source>Frame divisions changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Annotation display changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Prikaži sve</translation>
+    </message>
+    <message>
+        <source>Show latitude only</source>
+        <translation>Prikaži samo geografsku širinu</translation>
+    </message>
+    <message>
+        <source>Show longitude only</source>
+        <translation>Prikaži samo geografsku dužinu</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Latitude/Y only</source>
+        <translation>Samo geografska širina/Y</translation>
+    </message>
+    <message>
+        <source>Longitude/X only</source>
+        <translation>Samo geografska dužina/X</translation>
+    </message>
+    <message>
+        <source>Vertical ascending</source>
+        <translation>Vertikalni rast</translation>
+    </message>
+    <message>
+        <source>Vertical descending</source>
+        <translation>Vertikalno silazno</translation>
+    </message>
 </context>
 <context>
     <name>QgsComposerMapWidgetBase</name>
     <message>
         <source>Map Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije karte</translation>
     </message>
     <message>
         <source>Map</source>
@@ -17221,7 +20819,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Update preview</source>
@@ -17233,11 +20831,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Map rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotacija mape</translation>
     </message>
     <message>
         <source>Draw map canvas items</source>
-        <translation type="unfinished"></translation>
+        <translation>Iscrtaj stavke s prikaza karte</translation>
     </message>
     <message>
         <source>Lock layers for map item</source>
@@ -17269,27 +20867,27 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>View extent in map canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži opseg u prikazu karte</translation>
     </message>
     <message>
         <source>Controlled by atlas</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrolirano od strane atlasa</translation>
     </message>
     <message>
         <source>Margin around feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Margina oko elementa</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Fixed scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksno mjerilo</translation>
     </message>
     <message>
         <source>Use one of the predefined scales of the project where the atlas feature best fits.</source>
@@ -17305,7 +20903,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Blend mode</source>
@@ -17313,7 +20911,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Interval</source>
-        <translation type="unfinished">Interval</translation>
+        <translation>Interval</translation>
     </message>
     <message>
         <source>Grid frame</source>
@@ -17333,7 +20931,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Marker style</source>
-        <translation type="unfinished">Stil markera</translation>
+        <translation>Stil markera</translation>
     </message>
     <message>
         <source>Invert overview</source>
@@ -17345,15 +20943,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>X </source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Y </source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Cross width</source>
@@ -17393,15 +20991,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Grid type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tip mreže</translation>
     </message>
     <message>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation>CRS</translation>
     </message>
     <message>
         <source>change...</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmjena...</translation>
     </message>
     <message>
         <source>Interval units</source>
@@ -17409,15 +21007,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Centimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Centimetar</translation>
     </message>
     <message>
         <source>Left side</source>
@@ -17445,19 +21043,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Interior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Unutrašnje točkice</translation>
     </message>
     <message>
         <source>Exterior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Vanjske točkice</translation>
     </message>
     <message>
         <source>Interior and exterior ticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Unutarnje i vanjske točkice</translation>
     </message>
     <message>
         <source>Line border</source>
-        <translation type="unfinished"></translation>
+        <translation>Granica linije</translation>
     </message>
     <message>
         <source>Draw coordinates</source>
@@ -17493,7 +21091,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Boja fonta</translation>
+        <translation>Boja fonta</translation>
     </message>
     <message>
         <source>Distance to map frame</source>
@@ -17521,7 +21119,23 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
+    </message>
+    <message>
+        <source>Right divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom divisions</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add a new overview</source>
@@ -17539,12 +21153,16 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
         <source>Move selected overview down</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lock layer styles for map item</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsComposerModel</name>
     <message>
         <source>Item</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavka</translation>
     </message>
 </context>
 <context>
@@ -17578,7 +21196,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerMultiFrame</name>
     <message>
         <source>&lt;frame&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;frame&gt;</translation>
     </message>
 </context>
 <context>
@@ -17654,7 +21272,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Image source</source>
@@ -17666,15 +21284,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Način promjene veličine</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Postavljanje</translation>
+        <translation>Pozicija</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Približi</translation>
+        <translation>Približi</translation>
     </message>
     <message>
         <source>Stretch</source>
@@ -17682,7 +21300,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Clip</source>
-        <translation type="unfinished">Obreži</translation>
+        <translation>Obreži</translation>
     </message>
     <message>
         <source>Zoom and resize frame</source>
@@ -17694,39 +21312,39 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Top left</source>
-        <translation type="unfinished"></translation>
+        <translation>Gore lijevo</translation>
     </message>
     <message>
         <source>Top center</source>
-        <translation type="unfinished"></translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Top right</source>
-        <translation type="unfinished"></translation>
+        <translation>Gore desno</translation>
     </message>
     <message>
         <source>Middle left</source>
-        <translation type="unfinished"></translation>
+        <translation>Sredina lijevo</translation>
     </message>
     <message>
         <source>Middle</source>
-        <translation type="unfinished">Sredina</translation>
+        <translation>Sredina</translation>
     </message>
     <message>
         <source>Middle right</source>
-        <translation type="unfinished"></translation>
+        <translation>Sredina desno</translation>
     </message>
     <message>
         <source>Bottom left</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje lijevo</translation>
     </message>
     <message>
         <source>Bottom center</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje centar</translation>
     </message>
     <message>
         <source>Bottom right</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolje desno</translation>
     </message>
     <message>
         <source>Search directories</source>
@@ -17734,11 +21352,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Loading previews...</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitavanje pretpregleda...</translation>
     </message>
     <message>
         <source>Image search paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanje za pretraživanje slika</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -17750,11 +21368,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Image rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotacija slike</translation>
     </message>
     <message>
         <source>Sync with map</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinkroniziraj s kartom</translation>
     </message>
     <message utf8="true">
         <source> °</source>
@@ -17765,27 +21383,27 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerScaleBar</name>
     <message>
         <source>units</source>
-        <translation type="unfinished"></translation>
+        <translation>jedinice</translation>
     </message>
     <message>
         <source>km</source>
-        <translation type="unfinished"></translation>
+        <translation> km</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished"></translation>
+        <translation> m</translation>
     </message>
     <message>
         <source>miles</source>
-        <translation type="unfinished"></translation>
+        <translation> milje</translation>
     </message>
     <message>
         <source>ft</source>
-        <translation type="unfinished"></translation>
+        <translation>ft</translation>
     </message>
     <message>
         <source>Nm</source>
-        <translation type="unfinished"></translation>
+        <translation>Nm</translation>
     </message>
 </context>
 <context>
@@ -17840,31 +21458,31 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Nautical Miles</source>
-        <translation type="unfinished"></translation>
+        <translation>Nautičke milje</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Select alternate fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi alternativnu boju ispune</translation>
     </message>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Odaberi boju fonta</translation>
+        <translation>Odaberi boju fonta</translation>
     </message>
     <message>
         <source>Select stroke color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju poteza</translation>
     </message>
     <message>
         <source>Transparent stroke</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentni potez</translation>
     </message>
     <message>
         <source>Map %1</source>
@@ -17971,11 +21589,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Scalebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Traka mjerila</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Map</source>
@@ -18035,7 +21653,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Labels margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Margina oznaka</translation>
     </message>
     <message>
         <source>Line width</source>
@@ -18043,11 +21661,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Spoji stil</translation>
+        <translation>Spoji stil</translation>
     </message>
     <message>
         <source>Cap style</source>
-        <translation type="unfinished">Cap stil</translation>
+        <translation>Cap stil</translation>
     </message>
     <message>
         <source>Alignment</source>
@@ -18055,23 +21673,23 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Fonts and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Fontovi i boje</translation>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Boja fonta</translation>
+        <translation>Boja fonta</translation>
     </message>
     <message>
         <source>Fill color</source>
-        <translation type="unfinished">Boja ispune</translation>
+        <translation>Boja ispune</translation>
     </message>
     <message>
         <source>Secondary fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekundarna boja ispune</translation>
     </message>
     <message>
         <source>Stroke color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja poteza</translation>
     </message>
     <message>
         <source>Font...</source>
@@ -18082,19 +21700,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsComposerShape</name>
     <message>
         <source>&lt;ellipse&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;ellipse&gt;</translation>
     </message>
     <message>
         <source>&lt;rectangle&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;rectangle&gt;</translation>
     </message>
     <message>
         <source>&lt;triangle&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;triangle&gt;</translation>
     </message>
     <message>
         <source>&lt;shape&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;shape&gt;</translation>
     </message>
 </context>
 <context>
@@ -18113,15 +21731,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Shape style changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmijenjen stil oblika</translation>
     </message>
     <message>
         <source>Shape radius changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmijenjen polumjer oblika</translation>
     </message>
     <message>
         <source>Shape type changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmijenjen tip oblika</translation>
     </message>
 </context>
 <context>
@@ -18136,68 +21754,68 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Corner radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Polumjer ugla</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Stil</translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerTableSortColumnsProxyModel</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Silazni</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzlazni</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Atribut</translation>
+        <translation>Atribut</translation>
     </message>
     <message>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Redoslijed sortiranja</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerTableSortColumnsProxyModelV2</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished"></translation>
+        <translation>Silazni</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzlazni</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Atribut</translation>
+        <translation>Atribut</translation>
     </message>
     <message>
         <source>Sort Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Redoslijed sortiranja</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerTableV2</name>
     <message>
         <source>No matching records</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema odgovarajućih zapisa</translation>
     </message>
 </context>
 <context>
@@ -18212,11 +21830,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Table feature filter modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificiran filter elemenata tablice</translation>
     </message>
     <message>
         <source>Expression based filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter temeljen na izrazu</translation>
     </message>
     <message>
         <source>Table header alignment changed</source>
@@ -18295,11 +21913,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributna tablica</translation>
     </message>
     <message>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Glavne osobine</translation>
     </message>
     <message>
         <source>Layer</source>
@@ -18311,7 +21929,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Feature filtering</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtriranje elemenata</translation>
     </message>
     <message>
         <source>Composer map</source>
@@ -18319,31 +21937,31 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblikovanje fontova i teksta</translation>
     </message>
     <message>
         <source>Table heading</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaglavlje tablice</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">Poravnanje</translation>
+        <translation>Poravnanje</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Font</translation>
     </message>
     <message>
         <source>Choose font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi font...</translation>
     </message>
     <message>
         <source>Table contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Sadržaj tablice</translation>
     </message>
     <message>
         <source>Maximum rows</source>
@@ -18359,19 +21977,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Refresh table data</source>
-        <translation type="unfinished"></translation>
+        <translation>Osvježi podatke tablice</translation>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Show grid</source>
@@ -18379,23 +21997,23 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Stroke width</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina poteza</translation>
     </message>
     <message>
         <source>Follow column alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Slijedi poravnanje kolone</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Centar</translation>
+        <translation>Centar</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
 </context>
 <context>
@@ -18445,27 +22063,27 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Label added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana oznaka</translation>
     </message>
     <message>
         <source>Scale bar added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana traka mjerila</translation>
     </message>
     <message>
         <source>Legend added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodano kazalo</translation>
     </message>
     <message>
         <source>Picture added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana slika</translation>
     </message>
     <message>
         <source>Table added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana tablica</translation>
     </message>
     <message>
         <source>Shape added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodan oblik</translation>
     </message>
     <message>
         <source>Move item content</source>
@@ -18473,15 +22091,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Arrow added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana strelica</translation>
     </message>
     <message>
         <source>Map added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana karta</translation>
     </message>
     <message>
         <source>Attribute table added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana atributna tablica</translation>
     </message>
     <message>
         <source>Attribute table frame added</source>
@@ -18489,106 +22107,106 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Html item added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana HTML stavka</translation>
     </message>
     <message>
         <source>Html frame added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodan HTML okvir</translation>
     </message>
     <message>
         <source>Item moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomaknuta stavka</translation>
     </message>
     <message>
         <source>Zoom item content</source>
-        <translation type="unfinished"></translation>
+        <translation>Približi sadržaj stavke</translation>
     </message>
 </context>
 <context>
     <name>QgsComposition</name>
     <message>
         <source>Label added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana oznaka</translation>
     </message>
     <message>
         <source>Map added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana karta</translation>
     </message>
     <message>
         <source>Arrow added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana strelica</translation>
     </message>
     <message>
         <source>Scale bar added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana traka mjerila</translation>
     </message>
     <message>
         <source>Shape added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodan oblik</translation>
     </message>
     <message>
         <source>Picture added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana slika</translation>
     </message>
     <message>
         <source>Legend added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodano kazalo</translation>
     </message>
     <message>
         <source>Table added</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodana tablica</translation>
     </message>
     <message>
         <source>Aligned items left</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate stavke ulijevo</translation>
     </message>
     <message>
         <source>Aligned items horizontal center</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate stavke horizontalno centralno</translation>
     </message>
     <message>
         <source>Aligned items vertical center</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate stavke vertikalno centralno</translation>
     </message>
     <message>
         <source>Aligned items right</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravante stavke desno</translation>
     </message>
     <message>
         <source>Aligned items top</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate stavke gore</translation>
     </message>
     <message>
         <source>Aligned items bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Poravnate stavke na dnu</translation>
     </message>
     <message>
         <source>Items locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaključane stavke</translation>
     </message>
     <message>
         <source>Items unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Otključane stavke</translation>
     </message>
     <message>
         <source>Item z-order changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Promijenjen z-redoslijed stavke</translation>
     </message>
     <message>
         <source>Remove item group</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni grupu stavke</translation>
     </message>
     <message>
         <source>Frame deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbrisan okvir</translation>
     </message>
     <message>
         <source>Item deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbrisana stavka</translation>
     </message>
     <message>
         <source>Multiframe removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiokvir uklonjen</translation>
     </message>
 </context>
 <context>
@@ -18757,11 +22375,11 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Presets</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadane postavke</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Width</source>
@@ -18777,7 +22395,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Number of pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj stranica</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -18785,7 +22403,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Export resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Izlazna rezolucija</translation>
     </message>
     <message>
         <source>Print as raster</source>
@@ -18793,19 +22411,19 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
     <message>
         <source>Page background</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozadina stranice</translation>
     </message>
     <message>
         <source>Snap tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>Snap tolerancija</translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <source> dpi</source>
@@ -18813,15 +22431,15 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>World file on</source>
-        <translation type="unfinished"></translation>
+        <translation>Uključena World datoteka</translation>
     </message>
     <message>
         <source>Guides and Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodiči i Mreža</translation>
     </message>
     <message>
         <source>Grid spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmak mreže</translation>
     </message>
     <message>
         <source> mm</source>
@@ -18829,7 +22447,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>Grid offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomak mreže</translation>
     </message>
     <message>
         <source>x: </source>
@@ -18949,22 +22567,22 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     <name>QgsContextHelp</name>
     <message>
         <source>Error starting help viewer [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri pokretanju preglednika pomoći [%1]</translation>
     </message>
     <message>
         <source>Context help</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontekstualna pomoć</translation>
     </message>
     <message>
         <source>&lt;h3&gt;Oops! QGIS can&apos;t find help for this form.&lt;/h3&gt;The help file for %1 was not found for your language&lt;br&gt;If you would like to create it, contact the QGIS development team</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Ups! QGIS ne može pronaći pomoć za ovaj okvir.&lt;/h3&gt;Pomoć za %1 nije pronađena na vašem jeziku&lt;br&gt;Ako biste ju željeli kreirati kontaktirajte razvojni QGIS tim</translation>
     </message>
 </context>
 <context>
     <name>QgsCoordinateTransform</name>
     <message>
         <source>The source spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Prostorni referentni sustav (CRS) izvora nije valjan. Koordinate ne mogu biti reprojicirane. CRS je: %1</translation>
     </message>
     <message>
         <source>CRS</source>
@@ -18972,7 +22590,7 @@ Pokušajte s nižom rezolucijom ili manjom veličinom papira</translation>
     </message>
     <message>
         <source>The destination spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Odredišni prostorni referentni sustav (CRS) nije valjan. Koordinate ne mogu biti reprojicirane. CRS je: %1</translation>
     </message>
     <message>
         <source>inverse transform</source>
@@ -19006,19 +22624,19 @@ Pogreška: %5</translation>
     <name>QgsCptCityColorRampItem</name>
     <message>
         <source>colors</source>
-        <translation type="unfinished"></translation>
+        <translation>boje</translation>
     </message>
     <message>
         <source>discrete</source>
-        <translation type="unfinished"></translation>
+        <translation>diskretni</translation>
     </message>
     <message>
         <source>continuous</source>
-        <translation type="unfinished"></translation>
+        <translation>kontinuirani</translation>
     </message>
     <message>
         <source>continuous (multi)</source>
-        <translation type="unfinished"></translation>
+        <translation>kontinuirani (multi)</translation>
     </message>
     <message>
         <source>variants</source>
@@ -19061,11 +22679,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>%1 directory details</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 detalji mape datoteka</translation>
     </message>
     <message>
         <source>%1 gradient details</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 detalji gradijenta</translation>
     </message>
 </context>
 <context>
@@ -19080,7 +22698,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenca</translation>
     </message>
     <message>
         <source>Palette</source>
@@ -19092,11 +22710,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informacija</translation>
     </message>
     <message>
         <source>Author(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Autor(i)</translation>
     </message>
     <message>
         <source>Source</source>
@@ -19104,11 +22722,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Detalji</translation>
     </message>
     <message>
         <source>Save as standard gradient</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi kao standardni gradijent</translation>
     </message>
 </context>
 <context>
@@ -19145,7 +22763,7 @@ and current file is [%3]</source>
     <name>QgsCustomLayerOrderWidget</name>
     <message>
         <source>Control rendering order</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravljanje redoslijedom prikazivanja</translation>
     </message>
 </context>
 <context>
@@ -19160,11 +22778,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>new CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>novi CRS</translation>
     </message>
     <message>
         <source>The proj4 definition of &apos;%1&apos; is not valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>proj4 definicija &apos;%1&apos; nije valjana.</translation>
     </message>
     <message>
         <source>Northing and Easthing must be in decimal form.</source>
@@ -19230,29 +22848,20 @@ and current file is [%3]</source>
         <translation>Istok</translation>
     </message>
     <message>
-        <source>Name:</source>
-        <translation>Naziv:</translation>
-    </message>
-    <message>
-        <source>Parameters:</source>
-        <translation>Parametri:</translation>
-    </message>
-    <message>
-        <source>Copy
- existing CRS</source>
-        <translation>Kopiraj postojeći CRS</translation>
-    </message>
-    <message>
         <source>Add new CRS</source>
         <translation>Dodaj novi CRS</translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation>Ukloni</translation>
-    </message>
-    <message>
         <source>Calculate</source>
         <translation>Računaj</translation>
+    </message>
+    <message>
+        <source>Remove CRS</source>
+        <translation>Ukloni CRS</translation>
+    </message>
+    <message>
+        <source>Copy existing CRS</source>
+        <translation>Kopiraj postojeći CRS</translation>
     </message>
 </context>
 <context>
@@ -19271,22 +22880,22 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Choose a customization INI file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi INI datoteku za prilagodbu</translation>
     </message>
     <message>
         <source>Customization files (*.ini)</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteke prilagodbe (*.ini)</translation>
     </message>
 </context>
 <context>
     <name>QgsCustomizationDialogBase</name>
     <message>
         <source>Customization</source>
-        <translation type="unfinished"></translation>
+        <translation>Prilagodba</translation>
     </message>
     <message>
         <source>Enable customization</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući prilagodbu</translation>
     </message>
     <message>
         <source>toolBar</source>
@@ -19294,7 +22903,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Catch</source>
-        <translation type="unfinished"></translation>
+        <translation>Uhvati</translation>
     </message>
     <message>
         <source>Switch to catching widgets in main application</source>
@@ -19318,11 +22927,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Expand All</source>
-        <translation type="unfinished"></translation>
+        <translation>Raširi sve</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished">Sažmi sve</translation>
+        <translation>Sažmi sve</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -19348,7 +22957,7 @@ and current file is [%3]</source>
     <name>QgsDataDefinedButton</name>
     <message>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>Edit...</source>
@@ -19356,7 +22965,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Zalijepi</translation>
+        <translation>Zalijepi</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -19368,27 +22977,27 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>string</source>
-        <translation type="unfinished"></translation>
+        <translation>znakovni niz</translation>
     </message>
     <message>
         <source>int</source>
-        <translation type="unfinished"></translation>
+        <translation>int</translation>
     </message>
     <message>
         <source>double</source>
-        <translation type="unfinished"></translation>
+        <translation>double</translation>
     </message>
     <message>
         <source>Field type: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tip polja:</translation>
     </message>
     <message>
         <source>integer</source>
-        <translation type="unfinished"></translation>
+        <translation>cijeli broj</translation>
     </message>
     <message>
         <source>unknown type</source>
-        <translation type="unfinished"></translation>
+        <translation>neoznat tip</translation>
     </message>
     <message>
         <source>Data defined override</source>
@@ -19396,7 +23005,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>expression</source>
-        <translation type="unfinished"></translation>
+        <translation>izraz</translation>
     </message>
     <message>
         <source>field</source>
@@ -19404,11 +23013,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiviraj</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivacija</translation>
     </message>
     <message>
         <source>Attribute field</source>
@@ -19416,7 +23025,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>No matching field types found</source>
-        <translation type="unfinished"></translation>
+        <translation>Nisu pronađeni odgovarajući tipovi polja</translation>
     </message>
     <message>
         <source>Expression</source>
@@ -19424,7 +23033,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Current: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutno:</translation>
     </message>
     <message>
         <source>Data definition description</source>
@@ -19432,15 +23041,15 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>nedefinirano</translation>
     </message>
     <message>
         <source>Parse error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška parsiranja: %1</translation>
     </message>
     <message>
         <source>&apos;%1&apos; field missing</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; polje nedostaje</translation>
     </message>
     <message>
         <source>&lt;b&gt;&lt;u&gt;Data defined override&lt;/u&gt;&lt;/b&gt;&lt;br&gt;</source>
@@ -19460,19 +23069,19 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>&lt;b&gt;Usage:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Korištenje:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Expected input:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Očekivani unos:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Valid input types:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Valjani ulazni tipovi:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Current definition %1:&lt;/b&gt;&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Trenutna definicija %1:&lt;/b&gt;&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>string </source>
@@ -19526,6 +23135,18 @@ and current file is [%3]</source>
         <source>string [&lt;b&gt;r,g,b,a&lt;/b&gt;] as int 0-255</source>
         <translation>string [&lt;b&gt;r,g,b,a&lt;/b&gt;] as int 0-255</translation>
     </message>
+    <message>
+        <source>double [0.0-1.0]</source>
+        <translation>double [0.0-10.0] {0.0-1.0]?}</translation>
+    </message>
+    <message>
+        <source>string [&lt;b&gt;filepath&lt;/b&gt;]</source>
+        <translation>string [&lt;b&gt;filepath&lt;/b&gt;]</translation>
+    </message>
+    <message>
+        <source>[&lt;b&gt;&lt;dash&gt;;&lt;space&gt;&lt;/b&gt;] e.g. &apos;8;2;1;2&apos;</source>
+        <translation>[&lt;b&gt;&lt;dash&gt;;&lt;space&gt;&lt;/b&gt;] npr. &apos;8;2;1;2&apos;</translation>
+    </message>
 </context>
 <context>
     <name>QgsDataDefinedButtonPlugin</name>
@@ -19558,19 +23179,19 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>double</source>
-        <translation type="unfinished"></translation>
+        <translation>double</translation>
     </message>
     <message>
         <source>&apos;&lt;red&gt;,&lt;green&gt;,&lt;blue&gt;,&lt;alpha&gt;&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;&lt;red&gt;,&lt;green&gt;,&lt;blue&gt;,&lt;alpha&gt;&apos;</translation>
     </message>
     <message>
         <source>&apos;&lt;filename&gt;&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;&lt;filename&gt;&apos;</translation>
     </message>
     <message>
         <source>&apos;linear&apos;|&apos;radial&apos;|&apos;conical&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;linear&apos;|&apos;radial&apos;|&apos;conical&apos;</translation>
     </message>
     <message>
         <source>&apos;feature&apos;|&apos;viewport&apos;</source>
@@ -19582,14 +23203,14 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>0 (false)|1 (true)</source>
-        <translation type="unfinished"></translation>
+        <translation>0 (false)|1 (true)</translation>
     </message>
 </context>
 <context>
     <name>QgsDateTimeEditConfig</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Format&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Examples result&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;dd.MM.yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;21.05.2001&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ddd MMMM d yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;Tue May 21 01&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;hh:mm:ss.zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;14:13:09.042&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;h:m:s ap&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;2:13:9 pm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Date output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;d&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the day as number without a leading zero (1 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the day as number with a leading zero (01 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;ddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized day name (e.g. &apos;Mon&apos; to &apos;Sun&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized day name (e.g. &apos;Monday&apos; to &apos;&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qt.html#DayOfWeek-enum&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;Qt::Sunday&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the month as number without a leading zero (1-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the month as number with a leading zero (01-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;MMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized month name (e.g. &apos;Jan&apos; to &apos;Dec&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MMMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized month name (e.g. &apos;January&apos; to &apos;December&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the year as two digit number (00-99)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the year as four digit number&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Time output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;h&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;hh&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;H&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;HH&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the minute without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;mm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the minute with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;s&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the second without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ss&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the second with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the milliseconds without leading zeroes (0 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the milliseconds with leading zeroes (000 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;AP or A&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;use AM/PM display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;A/AP&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;AM&amp;quot; or &amp;quot;PM&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ap or a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;use am/pm display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;a/ap&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;am&amp;quot; or &amp;quot;pm&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the timezone (for example &amp;quot;CEST&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -19597,27 +23218,27 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Field format</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik polja</translation>
     </message>
     <message>
         <source>date</source>
-        <translation type="unfinished"></translation>
+        <translation>datum</translation>
     </message>
     <message>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>vrijeme</translation>
     </message>
     <message>
         <source>date &amp; time</source>
-        <translation type="unfinished"></translation>
+        <translation>datum i vrijeme</translation>
     </message>
     <message>
         <source>custom format</source>
-        <translation type="unfinished"></translation>
+        <translation>prilagođeni oblik</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Widget display</source>
@@ -19629,7 +23250,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">zadano</translation>
+        <translation>zadano</translation>
     </message>
     <message>
         <source>custom</source>
@@ -19662,53 +23283,53 @@ and current file is [%3]</source>
     <name>QgsDatumTransformDialog</name>
     <message>
         <source>File &apos;%1&apos; not found in directory &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka &apos;%1&apos; nije pronađena u mapi &apos;%2&apos;</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished">nepoznato</translation>
+        <translation>nepoznato</translation>
     </message>
 </context>
 <context>
     <name>QgsDatumTransformDialogBase</name>
     <message>
         <source>Select datum transformations</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi transformacije datuma</translation>
     </message>
     <message>
         <source>src transform</source>
-        <translation type="unfinished"></translation>
+        <translation>transformacija src-a</translation>
     </message>
     <message>
         <source>dst transform</source>
-        <translation type="unfinished"></translation>
+        <translation>transformacija dst-a</translation>
     </message>
     <message>
         <source>Remember selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapamti odabir</translation>
     </message>
     <message>
         <source>Hide deprecated</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakrij zastarjelo</translation>
     </message>
     <message>
         <source>Destination CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Odredišni CRS</translation>
     </message>
     <message>
         <source>Source CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvorni CRS</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
 </context>
 <context>
     <name>QgsDbSourceSelectBase</name>
     <message>
         <source>Add PostGIS layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj PostGIS slojeve</translation>
     </message>
     <message>
         <source>Connections</source>
@@ -19749,7 +23370,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Keep dialog open</source>
-        <translation type="unfinished"></translation>
+        <translation>Drži dijalog otvorenim</translation>
     </message>
     <message>
         <source>Search options</source>
@@ -19791,7 +23412,7 @@ and current file is [%3]</source>
     <name>QgsDecorationCopyrightDialog</name>
     <message>
         <source>Copyright Label Decoration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekoracija Copyright oznake</translation>
     </message>
     <message>
         <source>Enable copyright label</source>
@@ -19807,7 +23428,11 @@ and current file is [%3]</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Verdana&apos;; font-size:10pt;&quot;&gt;© QGIS 2013&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Verdana&apos;; font-size:10pt;&quot;&gt;© QGIS 2013&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&amp;Placement</source>
@@ -19843,11 +23468,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Select text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju teksta</translation>
     </message>
 </context>
 <context>
@@ -19862,26 +23487,26 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please select a raster layer</source>
-        <translation type="unfinished">Molim odaberite rasterski sloj</translation>
+        <translation>Molim odaberite rasterski sloj</translation>
     </message>
     <message>
         <source>Invalid raster layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevaljani rasterski sloj</translation>
     </message>
     <message>
         <source>Layer CRS must be equal to project CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS sloja mora biti isti kao i CRS projekta</translation>
     </message>
 </context>
 <context>
     <name>QgsDecorationGridDialog</name>
     <message>
         <source>Grid properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Osobine mreže</translation>
     </message>
     <message>
         <source>Enable grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući mrežu</translation>
     </message>
     <message>
         <source>Interval X</source>
@@ -19893,11 +23518,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Grid type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tip mreže</translation>
     </message>
     <message>
         <source>Line symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Linijski simbol</translation>
     </message>
     <message>
         <source>Draw annotation</source>
@@ -19921,7 +23546,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Marker symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Simbol markera</translation>
     </message>
     <message>
         <source>Offset X</source>
@@ -19937,11 +23562,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Canvas Extents</source>
-        <translation type="unfinished"></translation>
+        <translation>Opseg prikaza</translation>
     </message>
     <message>
         <source>Active Raster Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivni rasterski slo</translation>
     </message>
     <message>
         <source>Line</source>
@@ -19995,7 +23620,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsDecorationNorthArrowDialog</name>
     <message>
         <source>North Arrow Decoration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekoracija strelice sjevera</translation>
     </message>
     <message>
         <source>Preview of north arrow</source>
@@ -20070,11 +23695,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Bar</source>
-        <translation type="unfinished">Stupac</translation>
+        <translation>Stupac</translation>
     </message>
     <message>
         <source>Box</source>
-        <translation type="unfinished">Kućica</translation>
+        <translation>Kućica</translation>
     </message>
     <message>
         <source> km</source>
@@ -20098,7 +23723,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source> mile</source>
-        <translation type="unfinished">milja</translation>
+        <translation>milja</translation>
     </message>
     <message>
         <source> inches</source>
@@ -20129,7 +23754,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsDecorationScaleBarDialog</name>
     <message>
         <source>Scale Bar Decoration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekoracija trake mjerila</translation>
     </message>
     <message>
         <source>Placement</source>
@@ -20205,7 +23830,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select scalebar color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju trake mjerila</translation>
     </message>
 </context>
 <context>
@@ -20213,7 +23838,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>following %1 items
 not displayed</source>
-        <translation type="unfinished"></translation>
+        <translation>slijedeće %1 stavke
+nisu prikazane</translation>
     </message>
 </context>
 <context>
@@ -20338,27 +23964,27 @@ not displayed</source>
     </message>
     <message>
         <source>Text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstualne datoteke</translation>
     </message>
     <message>
         <source>Please select an input file</source>
-        <translation type="unfinished"></translation>
+        <translation>Molimo odaberite ulaznu datoteku</translation>
     </message>
     <message>
         <source>File %1 does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka %1 ne postoji</translation>
     </message>
     <message>
         <source>Please enter a layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>Molimo unesite naziv sloja</translation>
     </message>
     <message>
         <source>At least one delimiter character must be specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Barem jedna oznaka delimitatora mora biti određena</translation>
     </message>
     <message>
         <source>Regular expression is not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Regularni je izraz nevaljan</translation>
     </message>
     <message>
         <source>^.. expression needs capture groups</source>
@@ -20370,7 +23996,7 @@ not displayed</source>
     </message>
     <message>
         <source>No data found in file</source>
-        <translation type="unfinished"></translation>
+        <translation>U datoteci nisu pronađeni podaci</translation>
     </message>
     <message>
         <source>%1 badly formatted records discarded</source>
@@ -20405,7 +24031,7 @@ not displayed</source>
     </message>
     <message>
         <source>File Name</source>
-        <translation type="unfinished">Naziv datoteke</translation>
+        <translation>Naziv datoteke</translation>
     </message>
     <message>
         <source>Full path to the delimited text file</source>
@@ -20417,7 +24043,7 @@ not displayed</source>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished">Naziv sloja</translation>
+        <translation>Naziv sloja</translation>
     </message>
     <message>
         <source>Name to display in the map legend</source>
@@ -20437,7 +24063,7 @@ not displayed</source>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished"></translation>
+        <translation>Traži...</translation>
     </message>
     <message>
         <source>Field names are read from the first record. If not selected then fields are numbered</source>
@@ -20453,95 +24079,95 @@ not displayed</source>
     </message>
     <message>
         <source>Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tab</translation>
     </message>
     <message>
         <source>Space</source>
-        <translation type="unfinished">Razmak</translation>
+        <translation>Razmak</translation>
     </message>
     <message>
         <source>Comma</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarez</translation>
     </message>
     <message>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Encoding</translation>
     </message>
     <message>
         <source>Select the file encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberite enkodiranje datoteke</translation>
     </message>
     <message>
         <source>X and Y coordinates are expressed in degrees/minutes/seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>X i Y koordinate izražene su u stupnjevima/minutama/sekundama</translation>
     </message>
     <message>
         <source>DMS coordinates</source>
-        <translation type="unfinished"></translation>
+        <translation>DMS koordinate</translation>
     </message>
     <message>
         <source>Geometry field</source>
-        <translation type="unfinished"></translation>
+        <translation>Polje geometrije</translation>
     </message>
     <message>
         <source>Name of the field containing well known text value</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv polja koje sadržava vrijednosti dobro poznatog teksta</translation>
     </message>
     <message>
         <source>Geometry type</source>
-        <translation type="unfinished">Tip geometrije</translation>
+        <translation>Tip geometrije</translation>
     </message>
     <message>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Detektiraj</translation>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Točka</translation>
+        <translation>Točka</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">Linija</translation>
+        <translation>Linija</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">Poligon</translation>
+        <translation>Poligon</translation>
     </message>
     <message>
         <source>Record options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije zapisa</translation>
     </message>
     <message>
         <source>Field options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcije polja</translation>
     </message>
     <message>
         <source>File format </source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik datoteke</translation>
     </message>
     <message>
         <source>Number of header lines to discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj linija u zaglavlju koje treba odbaciti</translation>
     </message>
     <message>
         <source>The number of lines to discard from the beginning of the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj linija koje treba zanemariti od početka datoteke</translation>
     </message>
     <message>
         <source>First record has field names</source>
-        <translation type="unfinished"></translation>
+        <translation>Prvi zapis sadržava nazive polja</translation>
     </message>
     <message>
         <source>CSV (comma separated values)</source>
-        <translation type="unfinished"></translation>
+        <translation>CSV (vrijednosti odvojene zarezom)</translation>
     </message>
     <message>
         <source>Fields are defined by the specified delimiter, quote, and escape characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Polja su određena delimiterom, navodnicima ili escape znakovima</translation>
     </message>
     <message>
         <source>Custom delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Prilagođeni delimiteri</translation>
     </message>
     <message>
         <source>Regular expression delimiter</source>
@@ -20549,107 +24175,107 @@ not displayed</source>
     </message>
     <message>
         <source>Use a spatial index to improve performance of displaying and spatially selecting features</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi prostorni index za povećanje performansi prikazivanja i prostornog odabiranja elemenata</translation>
     </message>
     <message>
         <source>Use spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi prostorni index</translation>
     </message>
     <message>
         <source>Use an index to improve performance of subset filters (set in layer properties)</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi index za povećanje performansi subset filtera (postavljenih u osobinama sloja)</translation>
     </message>
     <message>
         <source>Use subset index</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristi subset index</translation>
     </message>
     <message>
         <source>Watch for changes to the file by other applications while QGIS is running</source>
-        <translation type="unfinished"></translation>
+        <translation>Pazi na promjene datoteke od strane drugih aplikacija dok je pokrenut QGIS</translation>
     </message>
     <message>
         <source>Watch file</source>
-        <translation type="unfinished"></translation>
+        <translation>Pazi na datoteku</translation>
     </message>
     <message>
         <source>Geometry definition</source>
-        <translation type="unfinished"></translation>
+        <translation>Definicija geometrije</translation>
     </message>
     <message>
         <source>Geometry is a point defined by X and Y coordinate fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrija je točka određena poljima s X i Y koordinatom</translation>
     </message>
     <message>
         <source>Point coordinates</source>
-        <translation type="unfinished"></translation>
+        <translation>Koordinate točaka</translation>
     </message>
     <message>
         <source>Geometry is read as a well known text string from the selected fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrija se očitava kao dobro poznati tekst iz odabranih polja</translation>
     </message>
     <message>
         <source>Well known text (WKT) </source>
-        <translation type="unfinished"></translation>
+        <translation>Dobro poznati tekst (WKT)</translation>
     </message>
     <message>
         <source>The file contains only attribute information - it will not be displayed on the map</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka sadržava samo atributne informacije - neće biti prikazana na karti</translation>
     </message>
     <message>
         <source>No geometry (attribute only table)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema geometrije (tablica samo s atributima)</translation>
     </message>
     <message>
         <source>Trim leading and trailing spaces from fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Obreži početna i završna prazna mjesta iz polja</translation>
     </message>
     <message>
         <source>Trim fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Obreži polja</translation>
     </message>
     <message>
         <source>Discard empty fields in each record</source>
-        <translation type="unfinished"></translation>
+        <translation>Odbaci prazna polja u svakom zapisu</translation>
     </message>
     <message>
         <source>Discard empty fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Odbaci prazna polja</translation>
     </message>
     <message>
         <source>Number fields use comma for a decimal separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Brojčana polja koriste zarez kao decimalni separator</translation>
     </message>
     <message>
         <source>Decimal separator is comma</source>
-        <translation type="unfinished"></translation>
+        <translation>Decimalni separator je zarez</translation>
     </message>
     <message>
         <source>Comma character is one of the delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedan od delimitera je zarez</translation>
     </message>
     <message>
         <source>Tab character is one of the delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedan od delimitatora je tabulator</translation>
     </message>
     <message>
         <source>Space character is one of the delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedan od delimitatora je prazno mjesto</translation>
     </message>
     <message>
         <source>Colon character is one of the delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedan od delimitatora je točka-zarez</translation>
     </message>
     <message>
         <source>Semicolon character is one of the delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Točka-zarez je jedan od delimitatora</translation>
     </message>
     <message>
         <source>Semicolon</source>
-        <translation type="unfinished"></translation>
+        <translation>Točka-zarez</translation>
     </message>
     <message>
         <source>Other delimiters</source>
-        <translation type="unfinished"></translation>
+        <translation>Ostali delimitatori</translation>
     </message>
     <message>
         <source>Delimiters to use when splitting fields in the text file. The delimiter can be more than one character. These characters are used in addition to the comma, tab, space, colon, and semicolon options.</source>
@@ -20661,7 +24287,7 @@ not displayed</source>
     </message>
     <message>
         <source>Quote</source>
-        <translation type="unfinished"></translation>
+        <translation>Navodnik</translation>
     </message>
     <message>
         <source>The quote character(s) enclose fields which may include delimiters and new lines</source>
@@ -20669,7 +24295,7 @@ not displayed</source>
     </message>
     <message>
         <source>&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;</translation>
     </message>
     <message>
         <source>Escape</source>
@@ -20677,7 +24303,7 @@ not displayed</source>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="unfinished">Izraz</translation>
+        <translation>Izraz</translation>
     </message>
     <message>
         <source>Regular expression used to split each line into fields</source>
@@ -20697,19 +24323,19 @@ not displayed</source>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;X field&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;X polje&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Name of the field containing x values</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv polja koje sadržava X vrijednosti</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Y field&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Y polje&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Name of the field containing y values</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv polja koje sadrži vrijednosti Y</translation>
     </message>
 </context>
 <context>
@@ -20728,26 +24354,26 @@ not displayed</source>
     </message>
     <message>
         <source>Category label</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznaka kategorije</translation>
     </message>
 </context>
 <context>
     <name>QgsDiagramProperties</name>
     <message>
         <source>Select background color</source>
-        <translation type="unfinished">Boja pozadine</translation>
+        <translation>Boja pozadine</translation>
     </message>
     <message>
         <source>Transparent background</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna pozadina</translation>
     </message>
     <message>
         <source>Select pen color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju olovke</translation>
     </message>
     <message>
         <source>Transparent outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentni okvir</translation>
     </message>
     <message>
         <source>mm</source>
@@ -20759,11 +24385,11 @@ not displayed</source>
     </message>
     <message>
         <source>Around Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Oko točke</translation>
     </message>
     <message>
         <source>Over Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Iznad točke</translation>
     </message>
     <message>
         <source>Line</source>
@@ -20775,23 +24401,23 @@ not displayed</source>
     </message>
     <message>
         <source>Free</source>
-        <translation type="unfinished"></translation>
+        <translation>Slobodno</translation>
     </message>
     <message>
         <source>On line</source>
-        <translation type="unfinished"></translation>
+        <translation>Na liniji</translation>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="unfinished"></translation>
+        <translation>Iznad linije</translation>
     </message>
     <message>
         <source>Below Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispod linije</translation>
     </message>
     <message>
         <source>Map orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>Orjentacija karte</translation>
     </message>
     <message>
         <source>Pie chart</source>
@@ -20906,7 +24532,7 @@ not displayed</source>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Izgled</translation>
     </message>
     <message>
         <source>Background color</source>
@@ -21087,7 +24713,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
 </context>
 <context>
@@ -21189,7 +24815,7 @@ Parser error:
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributna tablica</translation>
     </message>
     <message>
         <source>%1 features loaded.</source>
@@ -21215,7 +24841,7 @@ Parser error:
     <name>QgsDummyConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Dummy Text</source>
@@ -21226,42 +24852,42 @@ Parser error:
     <name>QgsDxfExportDialog</name>
     <message>
         <source>Export as DXF</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvezi kao DXF</translation>
     </message>
     <message>
         <source>DXF files *.dxf *.DXF</source>
-        <translation type="unfinished"></translation>
+        <translation>DXF datoteke*.dxf *.DXF</translation>
     </message>
 </context>
 <context>
     <name>QgsDxfExportDialogBase</name>
     <message>
         <source>DXF export</source>
-        <translation type="unfinished"></translation>
+        <translation>DXF izvoz</translation>
     </message>
     <message>
         <source>Symbology mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Način Simboliziranja</translation>
     </message>
     <message>
         <source>Symbology scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjerilo Simboliziranja</translation>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished">Spremi kao</translation>
+        <translation>Spremi kao</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>No symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema simboliziranja</translation>
     </message>
     <message>
         <source>Feature symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>Simboliziranje elemenata</translation>
     </message>
     <message>
         <source>Symbol layer symbology</source>
@@ -21269,19 +24895,23 @@ Parser error:
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Odaberi sve</translation>
+        <translation>Odaberi sve</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation type="unfinished">Deselektiraj sve</translation>
-    </message>
-    <message>
-        <source>Layer attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Deselektiraj sve</translation>
     </message>
     <message>
         <source>Export features intersecting the current map extent</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visibility presets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Encoding</source>
+        <translation>Encoding</translation>
     </message>
 </context>
 <context>
@@ -21294,24 +24924,88 @@ Parser error:
         <source>Could not save unknown editor widget type &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Classification</source>
+        <translation>Klasifikacija</translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>Doseg</translation>
+    </message>
+    <message>
+        <source>Unique Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Name</source>
+        <translation>Naziv datoteke</translation>
+    </message>
+    <message>
+        <source>Value Map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enumeration</source>
+        <translation>Pobrojanje</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Skriveno</translation>
+    </message>
+    <message>
+        <source>Check Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value Relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uuid Generator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Photo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>Boja</translation>
+    </message>
+    <message>
+        <source>Relation Reference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date/Time</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsEllipseSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Select border color</source>
@@ -21319,46 +25013,6 @@ Parser error:
     </message>
     <message>
         <source>Transparent border</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Symbol width</source>
-        <translation>Širina simbola</translation>
-    </message>
-    <message>
-        <source>Symbol height</source>
-        <translation>Visina simbola</translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation>Rotacija</translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation>Širina obruba</translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation>Boja ispune</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Boja granice</translation>
-    </message>
-    <message>
-        <source>Symbol name</source>
-        <translation>Naziv simbola</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation>Pomak</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21455,30 +25109,30 @@ Parser error:
     <name>QgsErrorDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Summary&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Detailed report.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Always show details</source>
-        <translation type="unfinished"></translation>
+        <translation>Uvijek prikaži detalje</translation>
     </message>
     <message>
         <source>Details &gt;&gt;</source>
+        <translation>Detalji &gt;&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Summary&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Detailed report.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21595,18 +25249,6 @@ p, li { white-space: pre-wrap; }
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>Function list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected function help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Field values</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Load values</source>
         <translation type="unfinished"></translation>
     </message>
@@ -21617,10 +25259,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>10 samples</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Operators</source>
-        <translation>Operatori</translation>
     </message>
     <message>
         <source>Equal operator</source>
@@ -21706,6 +25344,54 @@ p, li { white-space: pre-wrap; }
         <source>Expression</source>
         <translation>Izraz</translation>
     </message>
+    <message>
+        <source>Functions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation>Vrijednosti</translation>
+    </message>
+    <message>
+        <source>Function Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run the current editor text in QGIS (also saves current script). 
+
+Use this when testing your functions.
+
+Saved scripts are auto loaded on QGIS startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run Script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new function file based on the template file.
+
+Change the name of the script and save to allow QGIS to auto load on startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the file to save. 
+
+Existing files are listed here and loaded when selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save the current script into the users function file folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>Spremi datoteku</translation>
+    </message>
 </context>
 <context>
     <name>QgsExpressionSelectionDialogBase</name>
@@ -21742,7 +25428,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsExtentGroupBox</name>
     <message>
         <source>layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>map view</source>
@@ -21761,23 +25447,23 @@ p, li { white-space: pre-wrap; }
     <name>QgsExtentGroupBoxWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>West</source>
-        <translation type="unfinished">Zapad</translation>
+        <translation>Zapad</translation>
     </message>
     <message>
         <source>East</source>
-        <translation type="unfinished">Istok</translation>
+        <translation>Istok</translation>
     </message>
     <message>
         <source>North</source>
-        <translation type="unfinished">Sjever</translation>
+        <translation>Sjever</translation>
     </message>
     <message>
         <source>South</source>
-        <translation type="unfinished">Jug</translation>
+        <translation>Jug</translation>
     </message>
     <message>
         <source>Layer extent</source>
@@ -21799,7 +25485,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsFeatureSelectionDlg</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
 </context>
 <context>
@@ -21863,7 +25549,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Create a new field</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvori novo polje</translation>
     </message>
     <message>
         <source>Output field name</source>
@@ -21887,7 +25573,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Width of complete output. For example 123,456 means 6 as field width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Širina kompletnog izlaza. Na primjer 123,456 znači 6 kao širina polja.</translation>
     </message>
     <message>
         <source>Precision</source>
@@ -21939,7 +25625,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Type</source>
@@ -21971,11 +25657,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>Field</source>
-        <translation type="unfinished">Polje</translation>
+        <translation>Polje</translation>
     </message>
     <message>
         <source>Added attribute</source>
@@ -22067,7 +25753,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Web view</source>
-        <translation type="unfinished"></translation>
+        <translation>Web</translation>
     </message>
     <message>
         <source>Color</source>
@@ -22110,7 +25796,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete column</source>
-        <translation type="unfinished">Izbriši kolonu</translation>
+        <translation>Izbriši kolonu</translation>
     </message>
     <message>
         <source>QGIS forms can have a Python function that is called when the form is opened.
@@ -22129,7 +25815,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished">Polja</translation>
+        <translation>Polja</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
@@ -22208,22 +25894,22 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     <name>QgsFileNameWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteku</translation>
     </message>
 </context>
 <context>
     <name>QgsFontMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select symbol color</source>
@@ -22278,7 +25964,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     <name>QgsGPSDetector</name>
     <message>
         <source>internal GPS</source>
-        <translation type="unfinished"></translation>
+        <translation>interni GPS</translation>
     </message>
     <message>
         <source>local gpsd</source>
@@ -22411,7 +26097,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Connecting to GPS device...</source>
-        <translation type="unfinished"></translation>
+        <translation>Spajanje s GPS uređajem...</translation>
     </message>
     <message>
         <source>Timed out!</source>
@@ -22419,7 +26105,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Failed to connect to GPS device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspješno spajanje s GPS uređajem.</translation>
     </message>
     <message>
         <source>Connected!</source>
@@ -22427,15 +26113,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Dis&amp;connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Pre&amp;kini vezu</translation>
     </message>
     <message>
         <source>Connected to GPS device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spojeno s GPS uređajem.</translation>
     </message>
     <message>
         <source>Error opening log file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri otvaranju datoteke sa zapisnikom.</translation>
     </message>
     <message>
         <source>Disconnected...</source>
@@ -22443,19 +26129,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spoji</translation>
     </message>
     <message>
         <source>Disconnected from GPS device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veza s GPS uređajem prekinuta.</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 km/h</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 km/h</translation>
     </message>
     <message>
         <source>Automatic</source>
@@ -22475,27 +26161,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>No fix</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije fix</translation>
     </message>
     <message>
         <source>Differential</source>
-        <translation type="unfinished"></translation>
+        <translation>Diferencijalno</translation>
     </message>
     <message>
         <source>Non-differential</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne-diferencijalno</translation>
     </message>
     <message>
         <source>No position</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema pozicije</translation>
     </message>
     <message>
         <source>Valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Valjano</translation>
     </message>
     <message>
         <source>Invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevaljano</translation>
     </message>
     <message>
         <source>Not enough vertices</source>
@@ -22540,11 +26226,11 @@ Pogreške: %2
     </message>
     <message>
         <source>Save GPS log file as</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi GPS zapis kao</translation>
     </message>
     <message>
         <source>NMEA files</source>
-        <translation type="unfinished"></translation>
+        <translation>NMEA datoteke</translation>
     </message>
     <message>
         <source>&amp;Add feature</source>
@@ -22552,15 +26238,15 @@ Pogreške: %2
     </message>
     <message>
         <source>&amp;Add Point</source>
-        <translation type="unfinished"></translation>
+        <translation>%Dodaj točku</translation>
     </message>
     <message>
         <source>&amp;Add Line</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj liniju</translation>
     </message>
     <message>
         <source>&amp;Add Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj poligon</translation>
     </message>
 </context>
 <context>
@@ -22581,15 +26267,21 @@ red = no fix or bad fix
 gray = no data
 
 2D/3D depends on this information being available</source>
-        <translation type="unfinished"></translation>
+        <translation>Brzi statusni indikator:
+zeleno= dobro ili 3D fix
+žiuto= dobro 2D fix
+crveno = nema fix ili loši fix
+sivo = nema podataka
+
+2D/3D ovisi o tome dali je dostupna ta informacija</translation>
     </message>
     <message>
         <source>Add track point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj točku staze</translation>
     </message>
     <message>
         <source>Reset track</source>
-        <translation type="unfinished"></translation>
+        <translation>Resetiraj stazu</translation>
     </message>
     <message>
         <source>...</source>
@@ -22601,11 +26293,11 @@ gray = no data
     </message>
     <message>
         <source>Signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Signal</translation>
     </message>
     <message>
         <source>Satellite</source>
-        <translation type="unfinished"></translation>
+        <translation>Satelit</translation>
     </message>
     <message>
         <source>Options</source>
@@ -22613,23 +26305,23 @@ gray = no data
     </message>
     <message>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Debug</translation>
     </message>
     <message>
         <source>&amp;Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spoji</translation>
     </message>
     <message>
         <source>latitude of position fix (degrees)</source>
-        <translation type="unfinished"></translation>
+        <translation>geografska širina fiksne pozicije (stupnjevi)</translation>
     </message>
     <message>
         <source>Longitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Geografska dužina</translation>
     </message>
     <message>
         <source>longitude of position fix (degrees)</source>
-        <translation type="unfinished"></translation>
+        <translation>geografska dužina fiksne pozicije (stupnjevi)</translation>
     </message>
     <message>
         <source>antenna altitude with respect to geoid (mean sea level)</source>
@@ -22657,7 +26349,7 @@ gray = no data
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished">Brzina</translation>
+        <translation>Brzina</translation>
     </message>
     <message>
         <source>track direction (degrees)</source>
@@ -22665,7 +26357,7 @@ gray = no data
     </message>
     <message>
         <source>Direction</source>
-        <translation type="unfinished">Smjer</translation>
+        <translation>Smjer</translation>
     </message>
     <message>
         <source>Horizontal Dilution of Precision</source>
@@ -22705,7 +26397,7 @@ gray = no data
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished">Dimenzije</translation>
+        <translation>Dimenzije</translation>
     </message>
     <message>
         <source>quality of the position fix: Differential, Non-differential or No position</source>
@@ -22817,23 +26509,23 @@ gray = no data
     </message>
     <message>
         <source>Log File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka zapisnika</translation>
     </message>
     <message>
         <source>browse for log file</source>
-        <translation type="unfinished"></translation>
+        <translation>pretraži za datoteku zapisnika</translation>
     </message>
     <message>
         <source>Map centering</source>
-        <translation type="unfinished"></translation>
+        <translation>Centriranje mape</translation>
     </message>
     <message>
         <source>when leaving</source>
-        <translation type="unfinished"></translation>
+        <translation>pri napuštanju</translation>
     </message>
     <message>
         <source>% of map extent</source>
-        <translation type="unfinished"></translation>
+        <translation>% opsega mape</translation>
     </message>
     <message>
         <source>never</source>
@@ -22845,7 +26537,7 @@ gray = no data
     </message>
     <message>
         <source>Cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>kursor</translation>
     </message>
     <message>
         <source>Small</source>
@@ -22860,7 +26552,7 @@ gray = no data
     <name>QgsGPSPlugin</name>
     <message>
         <source>&amp;GPS Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;GPS alati</translation>
     </message>
     <message>
         <source>&amp;Create new GPX layer</source>
@@ -22872,7 +26564,7 @@ gray = no data
     </message>
     <message>
         <source>&amp;GPS</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;GPS</translation>
     </message>
     <message>
         <source>Save new GPX file as...</source>
@@ -23005,7 +26697,7 @@ Molim odaberite valjanu datoteku.</translation>
     </message>
     <message>
         <source>GPS eXchange format</source>
-        <translation type="unfinished"></translation>
+        <translation>GPS eXchange oblik</translation>
     </message>
     <message>
         <source>Select GPX file</source>
@@ -23178,27 +26870,27 @@ Molim odaberite valjanu datoteku.</translation>
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished">Dimenzije</translation>
+        <translation>Dimenzije</translation>
     </message>
     <message>
         <source>Origin</source>
-        <translation type="unfinished"></translation>
+        <translation>Ishodište</translation>
     </message>
     <message>
         <source>Pixel Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina piksela</translation>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">Kanal</translation>
+        <translation>Kanal</translation>
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik nije podržan</translation>
     </message>
     <message>
         <source>Cannot read data</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu učitati podatke</translation>
     </message>
     <message>
         <source>Cannot get GDAL raster band: %1</source>
@@ -23231,15 +26923,15 @@ Molim odaberite valjanu datoteku.</translation>
     <name>QgsGeomColumnTypeThread</name>
     <message>
         <source>Retrieving tables of %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Povlačenje tablica %1...</translation>
     </message>
     <message>
         <source>Scanning column %1.%2.%3...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skeniranje kolona %1.%2.%3...</translation>
     </message>
     <message>
         <source>Table retrieval finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Povlačenje tablica završeno.</translation>
     </message>
 </context>
 <context>
@@ -23419,7 +27111,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsGeorefPlugin</name>
     <message>
         <source>&amp;Georeferencer...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Georeferencer...</translation>
     </message>
     <message>
         <source>&amp;Georeferencer</source>
@@ -23518,7 +27210,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Coordinate of image(column/line)</source>
-        <translation type="unfinished"></translation>
+        <translation>Koordinate slike (kolona/linija)</translation>
     </message>
     <message>
         <source>Unable to open GCP points file %1</source>
@@ -23590,7 +27282,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Mean error [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Srednja pogreška [%1]</translation>
     </message>
     <message>
         <source>Residuals</source>
@@ -23785,11 +27477,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Link Georeferencer to QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>Poveži Georeferencer na QGIS</translation>
     </message>
     <message>
         <source>Link QGIS to Georeferencer</source>
-        <translation type="unfinished"></translation>
+        <translation>Poveži QGIS na Georeferencer</translation>
     </message>
     <message>
         <source>Save GCP points as...</source>
@@ -23883,7 +27575,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsGlobePluginDialogGuiBase</name>
     <message>
         <source>Globe Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Globe postavke</translation>
     </message>
     <message>
         <source>Elevation</source>
@@ -23915,7 +27607,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">Mapa</translation>
+        <translation>Mapa</translation>
     </message>
     <message>
         <source>Base Layer</source>
@@ -23923,11 +27615,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished">TekstOznaka</translation>
+        <translation>TekstOznaka</translation>
     </message>
     <message>
         <source>Sky</source>
@@ -24039,7 +27731,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reset to defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavi na zadane vrijednosti</translation>
     </message>
     <message>
         <source>Split stereo horizontal eye mapping</source>
@@ -24051,7 +27743,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Loading GML data
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitavanje GML podataka
+%1</translation>
     </message>
     <message>
         <source>Abort</source>
@@ -24059,11 +27752,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Error: %1 on line %2, column %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška: %1 na liniji %2, kolona %3</translation>
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>GML Getfeature network request failed with error: %1</source>
@@ -24071,7 +27764,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Crveno</translation>
     </message>
 </context>
 <context>
@@ -24085,11 +27778,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsGradientFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -24097,54 +27790,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">Kut</translation>
-    </message>
-    <message>
-        <source>Gradient type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Coordinate mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spread</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (is centroid)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (is centroid)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -24156,11 +27801,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Values</source>
-        <translation type="unfinished">Vrijednosti</translation>
+        <translation>Vrijednosti</translation>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Kazalo</translation>
+        <translation>Kazalo</translation>
     </message>
 </context>
 <context>
@@ -24175,7 +27820,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
     <message>
         <source>Classes</source>
@@ -24226,7 +27871,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Invert</source>
-        <translation type="unfinished">Izokreni</translation>
+        <translation>Izokreni</translation>
     </message>
     <message>
         <source>Legend Format</source>
@@ -24234,7 +27879,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Preciznost</translation>
+        <translation>Preciznost</translation>
     </message>
     <message>
         <source>Trim</source>
@@ -24250,7 +27895,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>Delete all</source>
@@ -24282,7 +27927,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Upozorenje</translation>
+        <translation>Upozorenje</translation>
     </message>
     <message>
         <source>Natural break classification (Jenks) is O(n2) complexity, your classification may take a long time.
@@ -24424,7 +28069,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Remove the selected layer(s) from canvas before continue.</source>
@@ -24612,15 +28257,15 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Left: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijevo: %1</translation>
     </message>
     <message>
         <source> -- Middle: %1</source>
-        <translation type="unfinished"></translation>
+        <translation> -- Sredina: %1</translation>
     </message>
     <message>
         <source> -- Right: %1</source>
-        <translation type="unfinished"></translation>
+        <translation> -- Desno: %1</translation>
     </message>
 </context>
 <context>
@@ -25485,7 +29130,7 @@ na liniji %2 kolona %3</translation>
     </message>
     <message>
         <source>Region</source>
-        <translation type="unfinished"></translation>
+        <translation>Površina</translation>
     </message>
     <message>
         <source>Input layers</source>
@@ -25533,7 +29178,7 @@ na liniji %2 kolona %3</translation>
     </message>
     <message>
         <source>Cannot get provider</source>
-        <translation type="unfinished">Ne mogu naći pružatelja</translation>
+        <translation>Ne mogu naći pružatelja</translation>
     </message>
     <message>
         <source>The layer CRS (defined in QGIS) and data source CRS differ. We are not yet able to pass the layer CRS to GRASS module. Please set correct data source CRS or change layer CRS to data source CRS.</source>
@@ -25701,6 +29346,10 @@ na liniji %2 kolona %3</translation>
     <message>
         <source>New mapset successfully created and set as current working mapset.</source>
         <translation>Novi mapset je uspješno stvoren i postavljen kao trenutačni radni mapset.</translation>
+    </message>
+    <message>
+        <source>Cannot activate grass</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25934,7 +29583,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>New Mapset</source>
-        <translation type="unfinished">Novi mapset</translation>
+        <translation>Novi mapset</translation>
     </message>
     <message>
         <source>Close Mapset</source>
@@ -26066,11 +29715,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik nije podržan</translation>
     </message>
     <message>
         <source>Cannot read data</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne mogu učitati podatke</translation>
     </message>
 </context>
 <context>
@@ -26364,31 +30013,31 @@ na liniji %2 kolona %3</translation>
     <name>QgsGuiVectorLayerTools</name>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Dodaj element</translation>
+        <translation>Dodaj element</translation>
     </message>
     <message>
         <source>Start editing failed</source>
-        <translation type="unfinished">Neuspješno započeto uređivanje</translation>
+        <translation>Neuspješno započeto uređivanje</translation>
     </message>
     <message>
         <source>Provider cannot be opened for editing</source>
-        <translation type="unfinished">Pružatelj se ne može otvoriti za uređivanje</translation>
+        <translation>Pružatelj se ne može otvoriti za uređivanje</translation>
     </message>
     <message>
         <source>Stop editing</source>
-        <translation type="unfinished">Zaustavi uređivanje</translation>
+        <translation>Zaustavi uređivanje</translation>
     </message>
     <message>
         <source>Do you want to save the changes to layer %1?</source>
-        <translation type="unfinished">Želite li spremiti izmjene sloja %1?</translation>
+        <translation>Želite li spremiti izmjene sloja %1?</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Problems during roll back</source>
-        <translation type="unfinished">Problemi tokom vraćanja (roll back)</translation>
+        <translation>Problemi tokom vraćanja (roll back)</translation>
     </message>
     <message>
         <source>Commit errors</source>
@@ -26428,7 +30077,7 @@ na liniji %2 kolona %3</translation>
     </message>
     <message>
         <source>Datasource</source>
-        <translation type="unfinished">Izvor podataka</translation>
+        <translation>Izvor podataka</translation>
     </message>
     <message>
         <source>none</source>
@@ -26479,6 +30128,69 @@ na liniji %2 kolona %3</translation>
     </message>
 </context>
 <context>
+    <name>QgsHeatmapRendererWidget</name>
+    <message>
+        <source>The heatmap renderer only applies to point and multipoint layers. 
+&apos;%1&apos; is not a point layer and cannot be rendered as a heatmap.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation>Pikseli</translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>Milimetar</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>Jedinice mape</translation>
+    </message>
+</context>
+<context>
+    <name>QgsHeatmapRendererWidgetBase</name>
+    <message>
+        <source>Form</source>
+        <translation>Obrazac</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automatski</translation>
+    </message>
+    <message>
+        <source>Radius</source>
+        <translation>Polumjer</translation>
+    </message>
+    <message>
+        <source>Rendering quality</source>
+        <translation>Kvaliteta prikazivanja</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Best&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Fastest&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Uredi</translation>
+    </message>
+    <message>
+        <source>Invert</source>
+        <translation>Izokreni</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Maksimalna vrijednost</translation>
+    </message>
+    <message>
+        <source>Weight points by</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsHelpViewer</name>
     <message>
         <source>QGIS Help</source>
@@ -26504,7 +30216,7 @@ na liniji %2 kolona %3</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>html</source>
@@ -26590,7 +30302,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsIdentifyMenu</name>
     <message>
         <source>Identify</source>
-        <translation type="unfinished">Identificiraj</translation>
+        <translation>Identificiraj</translation>
     </message>
     <message>
         <source>%1 all (%2)</source>
@@ -26613,7 +30325,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>FID</source>
@@ -26621,11 +30333,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Atribut</translation>
+        <translation>Atribut</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Vrijednost</translation>
+        <translation>Vrijednost</translation>
     </message>
     <message>
         <source>...</source>
@@ -26637,7 +30349,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Pomoć</translation>
+        <translation>Pomoć</translation>
     </message>
     <message>
         <source>Select identify mode</source>
@@ -26645,7 +30357,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Mod</translation>
+        <translation>Mod</translation>
     </message>
     <message>
         <source>Select view mode for raster layers</source>
@@ -26653,7 +30365,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">Pogled</translation>
+        <translation>Pogled</translation>
     </message>
     <message>
         <source>Auto open form</source>
@@ -26688,15 +30400,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Current layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutni sloj</translation>
     </message>
     <message>
         <source>Top down, stop at first</source>
-        <translation type="unfinished"></translation>
+        <translation>Od vrha prema dolje, stani kod prvog</translation>
     </message>
     <message>
         <source>Top down</source>
-        <translation type="unfinished"></translation>
+        <translation>Od vrha prema dolje</translation>
     </message>
     <message>
         <source>Layer selection</source>
@@ -26720,11 +30432,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Tablica</translation>
+        <translation>Tablica</translation>
     </message>
     <message>
         <source>Tree</source>
-        <translation type="unfinished">Stablo</translation>
+        <translation>Stablo</translation>
     </message>
     <message>
         <source>Graph</source>
@@ -26732,7 +30444,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>feature id</source>
-        <translation type="unfinished">element id</translation>
+        <translation>element id</translation>
     </message>
     <message>
         <source>Format</source>
@@ -26993,7 +30705,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsInvertedPolygonRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Sub renderer:</source>
@@ -27342,7 +31054,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Show label</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži oznake</translation>
     </message>
     <message>
         <source>Ignores priority and permits collisions/overlaps</source>
@@ -27384,6 +31096,10 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
         <source>Rotation</source>
         <translation>Rotacija</translation>
     </message>
+    <message>
+        <source>Default</source>
+        <translation>Zadano</translation>
+    </message>
 </context>
 <context>
     <name>QgsLabelingGui</name>
@@ -27393,11 +31109,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">jedinice mape</translation>
+        <translation>jedinice mape</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>% of length</source>
@@ -27405,11 +31121,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Select text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju teksta</translation>
     </message>
     <message>
         <source>Select buffer color</source>
@@ -27433,7 +31149,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>string </source>
-        <translation type="unfinished">string </translation>
+        <translation>string </translation>
     </message>
     <message>
         <source>[&lt;b&gt;family&lt;/b&gt;|&lt;b&gt;family[foundry]&lt;/b&gt;],&lt;br&gt;e.g. Helvetica or Helvetica [Cronyx]</source>
@@ -27445,19 +31161,19 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>double [0.0-10.0]</source>
-        <translation type="unfinished"></translation>
+        <translation>double [0.0-10.0]</translation>
     </message>
     <message>
         <source>int [0-20]</source>
-        <translation type="unfinished">int [0-100] {0-20]?}</translation>
+        <translation>int [0-20]</translation>
     </message>
     <message>
         <source>int [0-2000]</source>
-        <translation type="unfinished">int [0-100] {0-2000]?}</translation>
+        <translation>int [0-2000]</translation>
     </message>
     <message>
         <source>int&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>int&lt;br&gt;</translation>
     </message>
     <message>
         <source>double coord [&lt;b&gt;in,out&lt;/b&gt; as 20.0-60.0,20.0-95.0]</source>
@@ -27473,11 +31189,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>int [1-1000]</source>
-        <translation type="unfinished">int [0-100] {1-1000]?}</translation>
+        <translation>int [1-1000]</translation>
     </message>
     <message>
         <source>int [1-10000]</source>
-        <translation type="unfinished">int [0-100] {1-10000]?}</translation>
+        <translation>int [1-10000]</translation>
     </message>
     <message>
         <source>Text/Buffer sample</source>
@@ -27513,15 +31229,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Size%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina %1</translation>
     </message>
     <message>
         <source> X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation type="unfinished">Datoteka nije pronađena</translation>
+        <translation>Datoteka nije pronađena</translation>
     </message>
 </context>
 <context>
@@ -27666,7 +31382,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">Poravnanje</translation>
+        <translation>Poravnanje</translation>
     </message>
     <message>
         <source>Paragraph style alignment of multi-line text</source>
@@ -27706,7 +31422,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>U</source>
-        <translation type="unfinished">U</translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>Strikeout text</source>
@@ -27726,7 +31442,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source> %</source>
-        <translation type="unfinished"></translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Capitalization style of text</source>
@@ -27762,7 +31478,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Data defined</source>
@@ -27834,19 +31550,19 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>left/right</source>
-        <translation type="unfinished"></translation>
+        <translation>lijevo/desno</translation>
     </message>
     <message>
         <source>above</source>
-        <translation type="unfinished"></translation>
+        <translation>iznad</translation>
     </message>
     <message>
         <source>below</source>
-        <translation type="unfinished"></translation>
+        <translation>ispod</translation>
     </message>
     <message>
         <source>Reverse direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrnuti smjer</translation>
     </message>
     <message>
         <source>Priority</source>
@@ -27862,19 +31578,19 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Around point</source>
-        <translation type="unfinished"></translation>
+        <translation>Oko točke</translation>
     </message>
     <message>
         <source>Offset from point</source>
-        <translation type="unfinished"></translation>
+        <translation>Odmak od točke</translation>
     </message>
     <message>
         <source>Parallel</source>
-        <translation type="unfinished"></translation>
+        <translation>Paralelno</translation>
     </message>
     <message>
         <source>Curved</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakrivljeno</translation>
     </message>
     <message>
         <source>Text buffer</source>
@@ -27894,15 +31610,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Size X</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina X</translation>
     </message>
     <message>
         <source>Size type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tip veličine</translation>
     </message>
     <message>
         <source>Size Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina Y</translation>
     </message>
     <message>
         <source>Fill color</source>
@@ -27934,7 +31650,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message utf8="true">
         <source>˚</source>
-        <translation type="unfinished"></translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Lowest label component</source>
@@ -27982,15 +31698,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="unfinished"></translation>
+        <translation>Iznad linije</translation>
     </message>
     <message>
         <source>On line</source>
-        <translation type="unfinished"></translation>
+        <translation>Na liniji</translation>
     </message>
     <message>
         <source>Below line</source>
-        <translation type="unfinished"></translation>
+        <translation>Ispod linije</translation>
     </message>
     <message>
         <source>Line orientation dependent position</source>
@@ -27998,15 +31714,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>Centroid</translation>
     </message>
     <message>
         <source>abc</source>
-        <translation type="unfinished"></translation>
+        <translation>abc</translation>
     </message>
     <message>
         <source>Quadrant</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvadrant</translation>
     </message>
     <message>
         <source>Distance</source>
@@ -28014,11 +31730,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>outside</source>
-        <translation type="unfinished"></translation>
+        <translation>izvan</translation>
     </message>
     <message>
         <source>inside</source>
-        <translation type="unfinished"></translation>
+        <translation>unutar</translation>
     </message>
     <message>
         <source>Maximum angle between curved characters</source>
@@ -28050,7 +31766,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fiksno</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
@@ -28070,11 +31786,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Kružnica</translation>
     </message>
     <message>
         <source>SVG</source>
-        <translation type="unfinished">SVG</translation>
+        <translation>SVG</translation>
     </message>
     <message>
         <source>Shape</source>
@@ -28158,11 +31874,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Always show</source>
-        <translation type="unfinished"></translation>
+        <translation>Uvijek prikaži</translation>
     </message>
     <message>
         <source>Show label</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži oznake</translation>
     </message>
 </context>
 <context>
@@ -28176,39 +31892,39 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsLayerTreeViewDefaultActions</name>
     <message>
         <source>&amp;Add Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Dod&amp;aj grupu</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished">&amp;Ukloni</translation>
+        <translation>&amp;Ukloni</translation>
     </message>
     <message>
         <source>&amp;Show in overview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prikaži u pregledu</translation>
     </message>
     <message>
         <source>Re&amp;name</source>
-        <translation type="unfinished">Preime&amp;nuj</translation>
+        <translation>Preime&amp;nuj</translation>
     </message>
     <message>
         <source>Show Feature Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži broj elemenata</translation>
     </message>
     <message>
         <source>&amp;Zoom to Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zumiraj na sloj</translation>
     </message>
     <message>
         <source>&amp;Zoom to Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zumiraj na grupu</translation>
     </message>
     <message>
         <source>&amp;Move to Top-level</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;makni na najvišu razinu</translation>
     </message>
     <message>
         <source>&amp;Group Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Grupiraj odabrano</translation>
     </message>
 </context>
 <context>
@@ -28219,45 +31935,29 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>No Legend Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema dostupnog kazala</translation>
     </message>
 </context>
 <context>
     <name>QgsLinePatternFillSymbolLayerWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation>Kut</translation>
-    </message>
-    <message>
-        <source>Distance</source>
-        <translation>Dužina</translation>
-    </message>
-    <message>
-        <source>Line width</source>
-        <translation>Širina linije</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Boja</translation>
+        <translation>Jedinice mape</translation>
     </message>
 </context>
 <context>
     <name>QgsLoadStyleFromDBDialogLayout</name>
     <message>
         <source>Styles related to the layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilovi u odnosu na sloj</translation>
     </message>
     <message>
         <source>Other styles on the database</source>
-        <translation type="unfinished"></translation>
+        <translation>Drugi stilovi u bazi podataka</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -28280,7 +31980,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Select connections to import</source>
-        <translation type="unfinished"></translation>
+        <translation>Odabrane poveznice za uvoz</translation>
     </message>
     <message>
         <source>Import</source>
@@ -28292,11 +31992,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Export/import error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška uvoza/izvoza</translation>
     </message>
     <message>
         <source>You should select at least one connection from list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trebali biste odabrati barem jednu poveznicu s popisa.</translation>
     </message>
     <message>
         <source>Save connections</source>
@@ -28338,11 +32038,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>The file is not an WFS connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije razmjenska datoteka WFS poveznica.</translation>
     </message>
     <message>
         <source>The file is not an WCS connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije u obliku datoteke za razmjenu WFS veza.</translation>
     </message>
     <message>
         <source>The file is not an PostGIS connections exchange file.</source>
@@ -28350,19 +32050,19 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>The file is not an MSSQL connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije u obliku datoteke za razmjenu MSSQL veza.</translation>
     </message>
     <message>
         <source>The file is not an Oracle connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije u obliku datoteke za razmjenu Oracle poveznica.</translation>
     </message>
     <message>
         <source>The file is not an %1 connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datoteka nije %1 za razmjenu poveznica.</translation>
     </message>
     <message>
         <source>Connection with name &apos;%1&apos; already exists. Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Poveznica pod nazivom &apos;%1&apos; već postoji. Prepisati?</translation>
     </message>
 </context>
 <context>
@@ -28380,7 +32080,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapCanvas</name>
     <message>
         <source>canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>platno</translation>
     </message>
     <message>
         <source>Rendering</source>
@@ -28388,7 +32088,14 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Canvas refresh: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Osvježavanje platna %1 ms</translation>
+    </message>
+</context>
+<context>
+    <name>QgsMapCanvasSnappingUtils</name>
+    <message>
+        <source>Indexing data...</source>
+        <translation>Indeksiranje podataka...</translation>
     </message>
 </context>
 <context>
@@ -28432,10 +32139,6 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
         <translation>%1 na liniji %2 kolona %3</translation>
     </message>
     <message>
-        <source>Error: qgis element could not be found in %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Loading style file %1 failed because:
 %2</source>
         <translation>Učitavanje datoteke stila %1 nije uspjelo zbog:
@@ -28449,11 +32152,11 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>The directory containing your dataset needs to be writable!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa datoteka koje sadržavaju vaš skupo podataka mora biti otvorena za pisanje!</translation>
     </message>
     <message>
         <source>Style not found in database</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil nije pronađen u bazi podataka</translation>
     </message>
     <message>
         <source>Created default style file as %1</source>
@@ -28489,11 +32192,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>ERROR: Failed to created SLD style file as %1. Check file permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>POGREŠKA: Neuspješno stvaranja SLD datoteke kao %1. Provjerite dozvole nad datotekom i pokušajte ponovno.</translation>
     </message>
     <message>
         <source>Unable to open file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne može se otvoriti datoteka %1</translation>
+    </message>
+    <message>
+        <source>Root &lt;qgis&gt; element could not be found</source>
+        <translation>Ne može se pronaći korijenski &lt;qgis&gt; element</translation>
     </message>
 </context>
 <context>
@@ -28504,6 +32211,37 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>A combo box to list the layers registered in QGIS. Layers might be filtered according to their type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsMapLayerStyleGuiUtils</name>
+    <message>
+        <source>Add</source>
+        <translation>Dodaj</translation>
+    </message>
+    <message>
+        <source>Remove Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename style</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28553,7 +32291,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Dodaj element</translation>
+        <translation>Dodaj element</translation>
     </message>
     <message>
         <source>Wrong editing tool, cannot apply the &apos;capture line&apos; tool on this vector layer</source>
@@ -28696,7 +32434,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapToolDeletePart</name>
     <message>
         <source>Delete part</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbriši dio</translation>
     </message>
     <message>
         <source>Part of multipart feature deleted</source>
@@ -28751,12 +32489,8 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
 <context>
     <name>QgsMapToolFillRing</name>
     <message>
-        <source>Fill ring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Ne mogu transformirati točku u koordinatni sustav sloja</translation>
+        <translation>Ne mogu transformirati točku u koordinatni sustav sloja</translation>
     </message>
     <message>
         <source>Ring added and filled</source>
@@ -28864,7 +32598,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapToolIdentifyAction</name>
     <message>
         <source>Identify</source>
-        <translation type="unfinished">Identificiraj</translation>
+        <translation>Identificiraj</translation>
     </message>
     <message>
         <source>Show attribute table</source>
@@ -28945,7 +32679,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapToolPan</name>
     <message>
         <source>Pan</source>
-        <translation type="unfinished">Pomakni</translation>
+        <translation>Pomakni</translation>
     </message>
 </context>
 <context>
@@ -29007,7 +32741,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapToolSelect</name>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Odabir</translation>
+        <translation>Odabir</translation>
     </message>
 </context>
 <context>
@@ -29043,12 +32777,12 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
         <translation>Pojednostavljena geometrija</translation>
     </message>
     <message>
-        <source>Multipart features are not supported for simplification.</source>
-        <translation>Višedijelni elementi nisu podržani za simplifikaciju.</translation>
+        <source>%1 feature(s): %2 to %3 vertices (%4%)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This feature cannot be simplified. Check if feature has enough vertices to be simplified.</source>
-        <translation>Ovaj se element ne može pojednostavniti. Provjerite ima li element dovoljno verteksa kako bi mogao biti pojednostavljen.</translation>
+        <source>Simplification failed!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -29145,7 +32879,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMapToolZoom</name>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Približi</translation>
+        <translation>Približi</translation>
     </message>
 </context>
 <context>
@@ -29171,31 +32905,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <name>QgsMarkerLineSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
-        <source>Interval</source>
-        <translation>Interval</translation>
-    </message>
-    <message>
-        <source>Line offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Placement</source>
-        <translation>Postavljanje</translation>
-    </message>
-    <message>
-        <source>&apos;vertex&apos;|&apos;lastvertex&apos;|&apos;firstvertex&apos;|&apos;centerpoint&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Offset along line</source>
-        <translation type="unfinished"></translation>
+        <source>string </source>
+        <translation>string </translation>
     </message>
 </context>
 <context>
@@ -29211,6 +32929,10 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     <message>
         <source>Segments</source>
         <translation>Segmenti</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -29267,6 +32989,22 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
         <source>Segments [%1]</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Meters</source>
+        <translation>Metri</translation>
+    </message>
+    <message>
+        <source>Feet</source>
+        <translation>Stope</translation>
+    </message>
+    <message>
+        <source>Degrees</source>
+        <translation>Stupnjevi</translation>
+    </message>
+    <message>
+        <source>Nautical Miles</source>
+        <translation>Nautičke milje</translation>
+    </message>
 </context>
 <context>
     <name>QgsMeasureTool</name>
@@ -29299,31 +33037,31 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Whole number (smallint - 16bit)</source>
-        <translation type="unfinished">Cijeli broj (smallint - 16bit)</translation>
+        <translation>Cijeli broj (smallint - 16bit)</translation>
     </message>
     <message>
         <source>Whole number (integer - 32bit)</source>
-        <translation type="unfinished">Cijeli broj (integer - 32bit)</translation>
+        <translation>Cijeli broj (integer - 32bit)</translation>
     </message>
     <message>
         <source>Whole number (integer - 64bit)</source>
-        <translation type="unfinished">Cijeli broj (integer - 64bit)</translation>
+        <translation>Cijeli broj (integer - 64bit)</translation>
     </message>
     <message>
         <source>Decimal number (numeric)</source>
-        <translation type="unfinished">Decimalni broj (numerički)</translation>
+        <translation>Decimalni broj (numerički)</translation>
     </message>
     <message>
         <source>Decimal number (decimal)</source>
-        <translation type="unfinished">Decimalni broj (decimalno)</translation>
+        <translation>Decimalni broj (decimalno)</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
-        <translation type="unfinished">Decimalni broj (double)</translation>
+        <translation>Decimalni broj (double)</translation>
     </message>
     <message>
         <source>Text, unlimited length (text)</source>
-        <translation type="unfinished">Tekst, neograničena dužina (text)</translation>
+        <translation>Tekst, neograničena dužina (text)</translation>
     </message>
 </context>
 <context>
@@ -29419,14 +33157,6 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
         <translation>QGIS zapisnik</translation>
     </message>
     <message>
-        <source>No messages.</source>
-        <translation>Nema poruka.</translation>
-    </message>
-    <message>
-        <source>Message(s) logged.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>General</source>
         <translation>Općenito</translation>
     </message>
@@ -29476,7 +33206,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Uvoz je bio uspješan.</translation>
+        <translation>Uvoz je bio uspješan.</translation>
     </message>
 </context>
 <context>
@@ -29531,7 +33261,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Provider/DSN</source>
@@ -29679,7 +33409,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -29727,7 +33457,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda brisanja</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -29793,7 +33523,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
@@ -29813,7 +33543,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Enter...</source>
-        <translation type="unfinished">Unos...</translation>
+        <translation>Unos...</translation>
     </message>
     <message>
         <source>Point</source>
@@ -29837,15 +33567,15 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Višestruki poligon</translation>
+        <translation>Višestruki poligon</translation>
     </message>
     <message>
         <source>No Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema geometrije</translation>
     </message>
     <message>
         <source>Unknown Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznata geometrija</translation>
     </message>
 </context>
 <context>
@@ -29868,7 +33598,7 @@ Ovo može biti problem u vašoj mrežnoj vezi ili na WMS serveru.</numerusform>
     </message>
     <message>
         <source>Clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>Obreži na MinMax</translation>
     </message>
     <message>
         <source>Red</source>
@@ -29919,7 +33649,7 @@ enhancement</source>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Crveno</translation>
     </message>
 </context>
 <context>
@@ -29952,7 +33682,7 @@ enhancement</source>
     </message>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished">QGIS</translation>
+        <translation>QGIS</translation>
     </message>
     <message>
         <source>UMN</source>
@@ -30052,6 +33782,56 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Referer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialog</name>
+    <message>
+        <source>New scratch layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialogBase</name>
+    <message>
+        <source>New Temporary Scratch Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer name</source>
+        <translation>Naziv sloja</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Vrsta</translation>
+    </message>
+    <message>
+        <source>Point</source>
+        <translation>Točka</translation>
+    </message>
+    <message>
+        <source>Line</source>
+        <translation>Linija</translation>
+    </message>
+    <message>
+        <source>Polygon</source>
+        <translation>Poligon</translation>
+    </message>
+    <message>
+        <source>Multipoint</source>
+        <translation>Višestruke točke</translation>
+    </message>
+    <message>
+        <source>Multiline</source>
+        <translation>Višestruke linije</translation>
+    </message>
+    <message>
+        <source>Multipolygon</source>
+        <translation>Višestruki poligon</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;Warning:&lt;/b&gt; Temporary scratch layers are not saved and will be discarded when QGIS is closed.&lt;/i&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30273,7 +34053,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>MultiPoint</source>
-        <translation type="unfinished"></translation>
+        <translation>Višestruke točke</translation>
     </message>
     <message>
         <source>Multiline</source>
@@ -30281,7 +34061,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Višestruki poligon</translation>
+        <translation>Višestruki poligon</translation>
     </message>
     <message>
         <source>Spatial Reference Id</source>
@@ -30309,7 +34089,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>An attribute name</source>
@@ -30372,7 +34152,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Save layer as...</source>
-        <translation type="unfinished">Spremi sloj kao...</translation>
+        <translation>Spremi sloj kao...</translation>
     </message>
 </context>
 <context>
@@ -30438,14 +34218,6 @@ Više informacija o pogrešci:
         <translation>Ukloni atribut</translation>
     </message>
     <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation>Odredi koord. referentni sustav geometrije sloja.</translation>
-    </message>
-    <message>
-        <source>Specify CRS</source>
-        <translation>Odredi CRS</translation>
-    </message>
-    <message>
         <source>File encoding</source>
         <translation type="unfinished"></translation>
     </message>
@@ -30473,7 +34245,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
     </message>
     <message>
         <source>From map canvas</source>
@@ -30573,7 +34345,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>&amp;Load into canvas when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Učitaj na prikaz kad se završi</translation>
     </message>
     <message>
         <source>Tag</source>
@@ -30581,7 +34353,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj</translation>
     </message>
     <message>
         <source>SQLite databases (*.db)</source>
@@ -30712,7 +34484,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda brisanja</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -30841,7 +34613,7 @@ Više informacija o pogrešci:
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
     <message>
         <source>Format</source>
@@ -30966,10 +34738,6 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unknown data type %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>QGIS wkbType %1 not supported</source>
         <translation type="unfinished"></translation>
     </message>
@@ -30979,6 +34747,10 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Could not open the spatialite logging database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1: Unknown data type %2. Not using type affinity for the field.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -31087,7 +34859,11 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show only editable layers</source>
+        <source>select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unselect all</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -31164,7 +34940,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>nepoznato</translation>
     </message>
     <message>
         <source>OGR error creating wkb for feature %1: %2</source>
@@ -31444,7 +35220,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Sve</translation>
+        <translation>Sve</translation>
     </message>
     <message>
         <source>Always</source>
@@ -31508,11 +35284,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Select grid color</source>
-        <translation type="unfinished">Odaberi boju mreže</translation>
+        <translation>Odaberi boju mreže</translation>
     </message>
     <message>
         <source>Solid</source>
-        <translation type="unfinished">Čvrsto</translation>
+        <translation>Čvrsto</translation>
     </message>
     <message>
         <source>Dots</source>
@@ -31520,7 +35296,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Crosses</source>
-        <translation type="unfinished">Prelazi</translation>
+        <translation>Prelazi</translation>
     </message>
     <message>
         <source>Detected active locale on your system: %1</source>
@@ -31608,7 +35384,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokruženo</translation>
     </message>
     <message>
         <source>Mitre</source>
@@ -31672,7 +35448,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Unset</source>
-        <translation type="unfinished"></translation>
+        <translation>Vraćanje</translation>
     </message>
     <message>
         <source>Prepend</source>
@@ -31791,7 +35567,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Crveno</translation>
     </message>
     <message>
         <source>Application</source>
@@ -31823,7 +35599,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Fontovi</translation>
     </message>
     <message>
         <source>Qt default</source>
@@ -31863,7 +35639,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Most recent</source>
@@ -31871,7 +35647,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Specific</source>
-        <translation type="unfinished"></translation>
+        <translation>Određeno</translation>
     </message>
     <message>
         <source>...</source>
@@ -31899,11 +35675,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Traži</translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">Vraćanje</translation>
+        <translation>Vraćanje</translation>
     </message>
     <message>
         <source>Prompt to save project and data source changes when required</source>
@@ -31947,7 +35723,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished">Primjeni</translation>
+        <translation>Primjeni</translation>
     </message>
     <message>
         <source>Variable</source>
@@ -31955,7 +35731,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Vrijednost</translation>
+        <translation>Vrijednost</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -31991,11 +35767,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>48</source>
-        <translation type="unfinished">48</translation>
+        <translation>48</translation>
     </message>
     <message>
         <source>64</source>
-        <translation type="unfinished">64</translation>
+        <translation>64</translation>
     </message>
     <message>
         <source>Use native color chooser dialogs</source>
@@ -32087,7 +35863,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Rasters</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster</translation>
     </message>
     <message>
         <source>RGB band selection</source>
@@ -32095,15 +35871,15 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Red band</source>
-        <translation type="unfinished">Crveni kanal</translation>
+        <translation>Crveni kanal</translation>
     </message>
     <message>
         <source>Green band</source>
-        <translation type="unfinished">Zeleni kanal</translation>
+        <translation>Zeleni kanal</translation>
     </message>
     <message>
         <source>Blue band</source>
-        <translation type="unfinished">Plavi kanal</translation>
+        <translation>Plavi kanal</translation>
     </message>
     <message>
         <source>Contrast enhancement</source>
@@ -32131,7 +35907,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>%</source>
@@ -32159,7 +35935,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Izvoz</translation>
+        <translation>Izvoz</translation>
     </message>
     <message>
         <source>Add color</source>
@@ -32175,7 +35951,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Uvoz</translation>
+        <translation>Uvoz</translation>
     </message>
     <message>
         <source>Default map appearance (overridden by project properties)</source>
@@ -32195,7 +35971,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Buffer</source>
-        <translation type="unfinished">Zaštita (Buff)</translation>
+        <translation>Zaštita (Buff)</translation>
     </message>
     <message>
         <source>Lines / outlines buffer in millimeters.</source>
@@ -32219,11 +35995,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Grid spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmak mreže</translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <source>Suppress attribute form pop-up after feature creation</source>
@@ -32247,7 +36023,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Composer</source>
-        <translation type="unfinished">Kompozer</translation>
+        <translation>Kompozer</translation>
     </message>
     <message>
         <source>Custom side bar style</source>
@@ -32351,7 +36127,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Nautical Miles</source>
-        <translation type="unfinished"></translation>
+        <translation>Nautičke milje</translation>
     </message>
     <message>
         <source>Preferred angle units</source>
@@ -32367,11 +36143,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source> ms</source>
-        <translation type="unfinished"></translation>
+        <translation> ms</translation>
     </message>
     <message>
         <source>Enable feature simplification by default for newly added layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući pojednostavljenje elemenata za novododane slojeve kao zadano ponašanje</translation>
     </message>
     <message>
         <source>Radians</source>
@@ -32379,7 +36155,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Decimal places</source>
-        <translation type="unfinished"></translation>
+        <translation>Decimalna mjesta</translation>
     </message>
     <message>
         <source>Keep base unit</source>
@@ -32435,11 +36211,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Import from file</source>
-        <translation type="unfinished">Uvezi iz datoteke</translation>
+        <translation>Uvezi iz datoteke</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">Izvoz u datoteku</translation>
+        <translation>Izvoz u datoteku</translation>
     </message>
     <message>
         <source>Composition defaults</source>
@@ -32459,23 +36235,23 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>Grid offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomak mreže</translation>
     </message>
     <message>
         <source>x: </source>
-        <translation type="unfinished">x: </translation>
+        <translation>x: </translation>
     </message>
     <message>
         <source>y: </source>
-        <translation type="unfinished">y: </translation>
+        <translation>y: </translation>
     </message>
     <message>
         <source>Snap tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>Snap tolerancija</translation>
     </message>
     <message>
         <source>Feature creation</source>
@@ -32559,7 +36335,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Spoji stil</translation>
+        <translation>Spoji stil</translation>
     </message>
     <message>
         <source>Quadrant segments</source>
@@ -32587,7 +36363,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>ext</source>
@@ -32599,15 +36375,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>CRS for new layers</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select...</source>
-        <translation type="unfinished">Odaberi...</translation>
     </message>
     <message>
         <source>Use &amp;project CRS</source>
@@ -32615,10 +36387,6 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Prompt for &amp;CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use default CRS displa&amp;yed below</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32635,10 +36403,6 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Automatically enable &apos;on the fly&apos; reprojection if layers have different CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always start new projects with this CRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32659,11 +36423,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Source CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvorni CRS</translation>
     </message>
     <message>
         <source>Destination CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Odredišni CRS</translation>
     </message>
     <message>
         <source>Source datum transform</source>
@@ -32765,6 +36529,22 @@ Always network: always load from network and do not check if the cache has a val
         <source>Exclude URLs (starting with)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Experimental canvas rotation support (restart required)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use a default CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always start new projects with following CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default uses system&apos;s proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsOptionsDialogBase</name>
@@ -32784,15 +36564,15 @@ Missing some of the .ui template objects:
     <name>QgsOracleColumnTypeThread</name>
     <message>
         <source>Retrieving tables of %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Povlačenje tablica %1...</translation>
     </message>
     <message>
         <source>Scanning column %1.%2.%3...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skeniranje kolona %1.%2.%3...</translation>
     </message>
     <message>
         <source>Table retrieval finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Povlačenje tablica završeno.</translation>
     </message>
 </context>
 <context>
@@ -32856,15 +36636,15 @@ error:%2
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Višestruki poligon</translation>
+        <translation>Višestruki poligon</translation>
     </message>
     <message>
         <source>No Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema geometrije</translation>
     </message>
     <message>
         <source>Unknown Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznata geometrija</translation>
     </message>
 </context>
 <context>
@@ -32875,11 +36655,11 @@ error:%2
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">Osvježi</translation>
+        <translation>Osvježi</translation>
     </message>
     <message>
         <source>Copying features...</source>
@@ -32913,7 +36693,7 @@ error:%2
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Uvoz je bio uspješan.</translation>
+        <translation>Uvoz je bio uspješan.</translation>
     </message>
 </context>
 <context>
@@ -32994,7 +36774,7 @@ error:%2
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Restrict the displayed tables to those that are in the all_sdo_geom_metadata table</source>
@@ -33064,6 +36844,10 @@ error:%2
         <source>Use estimated table metadata</source>
         <translation>Koristi procijenjene metapodatke tablice</translation>
     </message>
+    <message>
+        <source>Options</source>
+        <translation>Mogućnosti</translation>
+    </message>
 </context>
 <context>
     <name>QgsOracleOwnerItem</name>
@@ -33127,7 +36911,7 @@ error:%2
     </message>
     <message>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>GREŠKA: Polje %1 nije pronađeno.</translation>
     </message>
     <message>
         <source>Oracle</source>
@@ -33432,7 +37216,7 @@ Error: %2</source>
     <name>QgsOracleRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
 </context>
 <context>
@@ -33478,7 +37262,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -33526,7 +37310,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrda brisanja</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -33592,7 +37376,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
@@ -33635,7 +37419,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">Osvježi</translation>
+        <translation>Osvježi</translation>
     </message>
     <message>
         <source>Copying features...</source>
@@ -33669,7 +37453,15 @@ Error: %2</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Uvoz je bio uspješan.</translation>
+        <translation>Uvoz je bio uspješan.</translation>
+    </message>
+    <message>
+        <source>Connection failed</source>
+        <translation>Veza nije uspjela</translation>
+    </message>
+    <message>
+        <source>Failed to get schemas</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -33687,7 +37479,7 @@ Error: %2</source>
     <name>QgsPGRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
 </context>
 <context>
@@ -33699,6 +37491,18 @@ Error: %2</source>
     <message>
         <source>as geometryless table</source>
         <translation>kao tablica bez geometrije</translation>
+    </message>
+    <message>
+        <source>Connection failed</source>
+        <translation>Veza nije uspjela</translation>
+    </message>
+    <message>
+        <source>Failed to get layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Osvježi</translation>
     </message>
 </context>
 <context>
@@ -33721,7 +37525,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Oznaka</translation>
+        <translation>Oznaka</translation>
     </message>
 </context>
 <context>
@@ -33990,7 +37794,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -34073,7 +37877,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter...</source>
-        <translation type="unfinished">Unos...</translation>
+        <translation>Unos...</translation>
     </message>
 </context>
 <context>
@@ -34108,7 +37912,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
@@ -34116,7 +37920,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select a primary key</source>
-        <translation type="unfinished">Odaberi primarni ključ</translation>
+        <translation>Odaberi primarni ključ</translation>
     </message>
     <message>
         <source>Disable &apos;Fast Access to Features at ID&apos; capability to force keeping the attribute table in memory (e.g. in case of expensive views).</source>
@@ -34132,18 +37936,18 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter a SRID</source>
-        <translation type="unfinished">Unesi SRID</translation>
+        <translation>Unesi SRID</translation>
     </message>
     <message>
         <source>Enter...</source>
-        <translation type="unfinished">Unos...</translation>
+        <translation>Unos...</translation>
     </message>
 </context>
 <context>
     <name>QgsPhotoConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>The field contains a filename for a picture. The widget will show a preview of this picture.</source>
@@ -34155,11 +37959,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Širina</translation>
+        <translation>Širina</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Visina</translation>
+        <translation>Visina</translation>
     </message>
     <message>
         <source>Specify the size of the preview. If you leave it set to 0, an optimal size will be estimated.</source>
@@ -34174,7 +37978,7 @@ Error: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -34489,7 +38293,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Enter the repository URL, beginning with &quot;http://&quot;</source>
@@ -34753,11 +38557,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Sve</translation>
+        <translation>Sve</translation>
     </message>
     <message>
         <source>Installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Instaliran</translation>
     </message>
     <message>
         <source>Installed plugins</source>
@@ -34777,7 +38581,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Not installed plugins seen for the first time</source>
@@ -34785,7 +38589,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevaljano</translation>
     </message>
     <message>
         <source>Broken and incompatible installed plugins</source>
@@ -34801,11 +38605,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Not installed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije instalirano</translation>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">o:prazno</translation>
+        <translation>o:prazno</translation>
     </message>
     <message>
         <source>Upgrade all upgradeable plugins</source>
@@ -34909,7 +38713,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>URL</source>
@@ -34950,7 +38754,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
 </context>
 <context>
@@ -34997,7 +38801,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Font...</source>
-        <translation type="unfinished">Font...</translation>
+        <translation>Font...</translation>
     </message>
     <message>
         <source>Max scale denominator:</source>
@@ -35044,27 +38848,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsPointPatternFillSymbolLayerWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
-    </message>
-    <message>
-        <source>Horizontal distance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical distance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Horizontal displacement</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical displacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedinice mape</translation>
     </message>
 </context>
 <context>
@@ -35117,63 +38905,62 @@ The error message from the database was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Database connection was successful, but no accessible tables were found. Please verify that you have SELECT privilege on a table carrying PostGIS geometry.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Unable to get list of spatially enabled tables from the database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Retrieval of postgis version failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspješno vraćanje postgis inačice</translation>
     </message>
     <message>
         <source>Could not parse postgis version string &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nije moguće raščlaniti niz postgis inačice &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Connection error: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška spajanja: %1 vraća %2 [%3]</translation>
     </message>
     <message>
         <source>Erroneous query: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška upita: %1 vraća %2 [%3]</translation>
     </message>
     <message>
         <source>Query failed: %1
 Error: no result buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspješan upit: %1
+Pogreška: nema rezultatskog buffera</translation>
     </message>
     <message>
         <source>Query: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>Upit: % vraća %2 [%3]</translation>
     </message>
     <message>
         <source>%1 cursor states lost.
 SQL: %2
 Result: %3 (%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 izgubljenih stanja kursora.
+SQL: %2
+Rezultat: %3 (%4)</translation>
     </message>
     <message>
         <source>resetting bad connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>resetiranje loše veze.</translation>
     </message>
     <message>
         <source>retry after reset succeeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>ponovni pokušaj nakon resetiranja uspješan.</translation>
     </message>
     <message>
         <source>retry after reset failed again.</source>
-        <translation type="unfinished"></translation>
+        <translation>ponovni pokušaj nakon resetiranja neuspješan.</translation>
     </message>
     <message>
         <source>connection still bad after reset.</source>
-        <translation type="unfinished"></translation>
+        <translation>veza je još uvijek loša nakon resetiranja.</translation>
     </message>
     <message>
         <source>bad connection, not retrying.</source>
-        <translation type="unfinished"></translation>
+        <translation>loša veza, ne pokušavam dalje.</translation>
     </message>
     <message>
         <source>Point</source>
@@ -35197,15 +38984,15 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Višestruki poligon</translation>
+        <translation>Višestruki poligon</translation>
     </message>
     <message>
         <source>No Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema geometrije</translation>
     </message>
     <message>
         <source>Unknown Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepoznata geometrija</translation>
     </message>
     <message>
         <source>None</source>
@@ -35217,26 +39004,26 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Geography</source>
-        <translation type="unfinished"></translation>
+        <translation>Geografija</translation>
     </message>
     <message>
         <source>TopoGeometry</source>
-        <translation type="unfinished"></translation>
+        <translation>TopoGeometrija</translation>
     </message>
     <message>
         <source>Query could not be canceled [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Upit se ne može prekinuti [%1]</translation>
     </message>
     <message>
         <source>PQgetCancel failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PQgetCancel nije uspio</translation>
     </message>
 </context>
 <context>
     <name>QgsPostgresProvider</name>
     <message>
         <source>invalid PostgreSQL layer</source>
-        <translation type="unfinished"></translation>
+        <translation>nevaljan PostgreSQL sloj</translation>
     </message>
     <message>
         <source>PostGIS</source>
@@ -35244,11 +39031,11 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>invalid PostgreSQL topology layer</source>
-        <translation type="unfinished"></translation>
+        <translation>nevaljan sloj PostgreSQL topologije</translation>
     </message>
     <message>
         <source>PostgreSQL layer has no primary key.</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQL sloj nema primarnog ključa.</translation>
     </message>
     <message>
         <source>Whole number (smallint - 16bit)</source>
@@ -35296,15 +39083,15 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>PostgreSQL layer has unknown primary key type.</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQL sloj ima nepoznati tip primarnog ključa.</translation>
     </message>
     <message>
         <source>Read attempt on an invalid postgresql data source</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokušaj čitanja nevaljanog postgresql izvora podataka</translation>
     </message>
     <message>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>GREŠKA: Polje %1 nije pronađeno.</translation>
     </message>
     <message>
         <source>unexpected formatted field type &apos;%1&apos; for field %2</source>
@@ -35652,7 +39439,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Parameters:</source>
-        <translation type="unfinished">Parametri:</translation>
+        <translation>Parametri:</translation>
     </message>
     <message>
         <source>Select %1 from pull-down menu to adjust radii</source>
@@ -35664,7 +39451,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Odaberi boju</translation>
+        <translation>Odaberi boju</translation>
     </message>
     <message>
         <source>Select palette file</source>
@@ -35783,7 +39570,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Default styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>OWS server</source>
@@ -35904,7 +39691,7 @@ Proceed?</source>
     </message>
     <message>
         <source> %</source>
-        <translation type="unfinished"></translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Style Manager</source>
@@ -35952,11 +39739,11 @@ Proceed?</source>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Uvoz</translation>
+        <translation>Uvoz</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Izvoz</translation>
+        <translation>Izvoz</translation>
     </message>
     <message>
         <source>Service capabilities</source>
@@ -36080,7 +39867,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>Unselect all</source>
@@ -36120,6 +39907,44 @@ Proceed?</source>
     </message>
     <message>
         <source>Python macros</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsProjectionSelectionWidget</name>
+    <message>
+        <source>invalid projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selected CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Project CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsProjectionSelectionWidgetPlugin</name>
+    <message>
+        <source>A widget to select a generic projection system.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -36378,30 +40203,30 @@ p, li { white-space: pre-wrap; }
     <name>QgsRangeConfigDlg</name>
     <message>
         <source>Editable</source>
-        <translation type="unfinished">Može se urediti</translation>
+        <translation>Može se urediti</translation>
     </message>
     <message>
         <source>Slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Klizač</translation>
     </message>
     <message>
         <source>Dial</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompozer</translation>
     </message>
     <message>
         <source>Current minimum for this value is %1 and current maximum is %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutni minimum za ovu vrijednost je %1 i trenutni maksimum je %2.</translation>
     </message>
     <message>
         <source>Attribute has no integer or real type, therefore range is not usable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atribut ne sadržava cijeli ili realni broj, stoga s ene može koristiti domet.</translation>
     </message>
 </context>
 <context>
     <name>QgsRangeConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Allows setting of numeric values from a specified range. The edit widget can be either a slider or a spin box.</source>
@@ -36409,7 +40234,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Korak</translation>
     </message>
     <message>
         <source>Advanced options</source>
@@ -36425,7 +40250,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Maximum</source>
-        <translation type="unfinished">Maksimum</translation>
+        <translation>Maksimum</translation>
     </message>
     <message>
         <source>Allow NULL</source>
@@ -36433,11 +40258,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Minimum</source>
-        <translation type="unfinished">Minimum</translation>
+        <translation>Minimum</translation>
     </message>
     <message>
         <source>Local minimum/maximum = 0/0</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokalni minimum/maksimum = 0/0</translation>
     </message>
 </context>
 <context>
@@ -36610,7 +40435,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsRasterDataProvider</name>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik nije podržan</translation>
     </message>
     <message>
         <source>Value</source>
@@ -36627,6 +40452,25 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Feature</source>
         <translation>Element</translation>
+    </message>
+</context>
+<context>
+    <name>QgsRasterFillSymbolLayerWidget</name>
+    <message>
+        <source>Pixels</source>
+        <translation>Pikseli</translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>Milimetar</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>Jedinice mape</translation>
+    </message>
+    <message>
+        <source>Select image file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -36673,7 +40517,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Valjano</translation>
     </message>
     <message>
         <source>Invalid %1:
@@ -36791,7 +40635,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Prikaz</translation>
+        <translation>Prikaz</translation>
     </message>
     <message>
         <source>Draw as lines</source>
@@ -37159,7 +41003,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <source>To</source>
@@ -37292,6 +41136,26 @@ Click on help button to get valid creation options for this format.</source>
         <source>Save layer properties as style file</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Style</source>
+        <translation>Stil</translation>
+    </message>
+    <message>
+        <source>Load Style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save As Default</source>
+        <translation>Spremi kao zadano</translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerPropertiesBase</name>
@@ -37302,18 +41166,6 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <source>Resolutions</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save As Default</source>
-        <translation>Spremi kao zadano</translation>
-    </message>
-    <message>
-        <source>Load Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore Default Style</source>
-        <translation>Vrati zadani stil</translation>
     </message>
     <message>
         <source>Render type</source>
@@ -37340,16 +41192,8 @@ Click on help button to get valid creation options for this format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>Keyword list</source>
@@ -37369,7 +41213,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -37536,10 +41380,6 @@ p, li { white-space: pre-wrap; }
         <translation>Popis transparentnih piksela</translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add values manually</source>
         <translation>Ručno dodaj vrijednosti</translation>
     </message>
@@ -37598,14 +41438,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Coordinate reference system</source>
         <translation>Koordinatni referentni sustav</translation>
-    </message>
-    <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation>Odredi koord. referentni sustav geometrije sloja.</translation>
-    </message>
-    <message>
-        <source>Specify...</source>
-        <translation>Odredi...</translation>
     </message>
     <message>
         <source>Thumbnail</source>
@@ -37671,12 +41503,20 @@ p, li { white-space: pre-wrap; }
         <source>Histogram</source>
         <translation>Histogram</translation>
     </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerSaveAsDialog</name>
     <message>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <source>To</source>
@@ -37700,11 +41540,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>GeoTIFF</source>
-        <translation type="unfinished">GeoTIFF</translation>
+        <translation>GeoTIFF</translation>
     </message>
     <message>
         <source>layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>user defined</source>
@@ -37712,18 +41552,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Resolution (current: %1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Layer (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Project (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected (%1, %2)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -37772,19 +41600,15 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished"></translation>
+        <translation>Traži...</translation>
     </message>
     <message>
         <source>CRS</source>
         <translation>CRS</translation>
     </message>
     <message>
-        <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
-    </message>
-    <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
     </message>
     <message>
         <source>Resolution</source>
@@ -37918,11 +41742,11 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
     </message>
     <message>
         <source>Full</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukupno</translation>
     </message>
     <message>
         <source>Current</source>
@@ -37952,7 +41776,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj</translation>
     </message>
 </context>
 <context>
@@ -38105,7 +41929,7 @@ standard deviation ×</source>
     <name>QgsRasterTerrainAnalysisDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Elevation layer</source>
@@ -38270,7 +42094,7 @@ standard deviation ×</source>
     <name>QgsRelReferenceConfigDlgBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Display expression</source>
@@ -38294,6 +42118,10 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order by value</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -38343,11 +42171,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
 </context>
 <context>
@@ -38358,7 +42186,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Dodaj element</translation>
+        <translation>Dodaj element</translation>
     </message>
     <message>
         <source>Delete feature</source>
@@ -38380,6 +42208,10 @@ standard deviation ×</source>
         <source>Table view</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Save layer edits</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRelationEditorWidgetPlugin</name>
@@ -38392,11 +42224,11 @@ standard deviation ×</source>
     <name>QgsRelationManagerDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dijalog</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Referencing Layer</source>
@@ -38416,7 +42248,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <source>Add Relation</source>
@@ -38588,11 +42420,11 @@ standard deviation ×</source>
     <name>QgsRendererV2Widget</name>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Kopiraj</translation>
+        <translation>Kopiraj</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Zalijepi</translation>
+        <translation>Zalijepi</translation>
     </message>
     <message>
         <source>Change color</source>
@@ -38679,7 +42511,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj</translation>
     </message>
     <message>
         <source>Duplicate count</source>
@@ -38830,7 +42662,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
@@ -38852,7 +42684,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Uvoz je bio uspješan.</translation>
+        <translation>Uvoz je bio uspješan.</translation>
     </message>
 </context>
 <context>
@@ -38870,7 +42702,7 @@ standard deviation ×</source>
     <name>QgsSLRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
     <message>
         <source>Create database...</source>
@@ -38901,24 +42733,20 @@ standard deviation ×</source>
 <context>
     <name>QgsSVGFillSymbolLayerWidget</name>
     <message>
-        <source>Texture width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>SVG file</source>
         <translation>SVG datoteka</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Select border color</source>
@@ -38930,23 +42758,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">Sve datoteke</translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation>Rotacija</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Boja</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Boja granice</translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation>Širina granice</translation>
+        <translation>Sve datoteke</translation>
     </message>
 </context>
 <context>
@@ -38984,7 +42796,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>UI</source>
@@ -39027,10 +42839,6 @@ standard deviation ×</source>
         <source>Maximum scale, i.e. minimum scale denominator. This limit is inclusive, that means the layer will be displayed on this scale.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>current</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QgsScaleRangeWidgetPlugin</name>
@@ -39047,6 +42855,17 @@ standard deviation ×</source>
     <name>QgsScaleVisibilityDialog</name>
     <message>
         <source>Scale visibility </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsScaleWidgetPlugin</name>
+    <message>
+        <source>A widget to define the scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A widget to define the scale.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39238,11 +43057,11 @@ Pogreška je:
     <name>QgsShapeburstFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -39253,31 +43072,7 @@ Pogreška je:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blur radius</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Integer between 0 and 18</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use whole shape</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Maximum distance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Ignore rings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39285,19 +43080,19 @@ Pogreška je:
     <name>QgsSimpleFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Select border color</source>
@@ -39306,76 +43101,40 @@ Pogreška je:
     <message>
         <source>Transparent border</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Boja</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Boja granice</translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation>Širina granice</translation>
     </message>
 </context>
 <context>
     <name>QgsSimpleLineSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select line color</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pen width</source>
-        <translation type="unfinished">Širina pera</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation>Pomak</translation>
-    </message>
-    <message>
-        <source>Dash pattern</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Join style</source>
-        <translation type="unfinished">Spoji stil</translation>
-    </message>
-    <message>
-        <source>Cap style</source>
-        <translation type="unfinished">Cap stil</translation>
     </message>
 </context>
 <context>
     <name>QgsSimpleMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Transparent fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparentna ispuna</translation>
     </message>
     <message>
         <source>Select border color</source>
@@ -39386,36 +43145,8 @@ Pogreška je:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Naziv</translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation>Boja ispune</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Boja granice</translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation>Širina obruba</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation>Kut</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation>Pomak</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
-        <translation type="unfinished"></translation>
+        <source>string </source>
+        <translation>string </translation>
     </message>
 </context>
 <context>
@@ -39442,7 +43173,7 @@ Pogreška je:
     </message>
     <message>
         <source>Clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>Obreži na MinMax</translation>
     </message>
 </context>
 <context>
@@ -39639,7 +43370,7 @@ enhancement</source>
     </message>
     <message>
         <source>Invert</source>
-        <translation type="unfinished">Izokreni</translation>
+        <translation>Izokreni</translation>
     </message>
     <message>
         <source>Classify</source>
@@ -39696,7 +43427,7 @@ enhancement</source>
     </message>
     <message>
         <source>The Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Simbol</translation>
     </message>
 </context>
 <context>
@@ -39767,6 +43498,26 @@ enhancement</source>
         <source>pixels</source>
         <translation>pikseli</translation>
     </message>
+    <message>
+        <source>To vertex</source>
+        <translation>Na verteks</translation>
+    </message>
+    <message>
+        <source>To segment</source>
+        <translation>Na segment</translation>
+    </message>
+    <message>
+        <source>To vertex and segment</source>
+        <translation>Na verteks i segment</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>layer units</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsSnappingDialogBase</name>
@@ -39806,6 +43557,34 @@ enhancement</source>
         <source>Enable snapping on intersection</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Snapping mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current layer</source>
+        <translation>Trenutni sloj</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>Napredno</translation>
+    </message>
+    <message>
+        <source>Snap to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>map units</source>
+        <translation>jedinice mape</translation>
+    </message>
+    <message>
+        <source>pixels</source>
+        <translation>pikseli</translation>
+    </message>
+    <message>
+        <source>All layers</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsSpatiaLiteConnection</name>
@@ -39843,7 +43622,7 @@ enhancement</source>
     </message>
     <message>
         <source>POLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>Poligon</translation>
     </message>
     <message>
         <source>MULTIPOINT</source>
@@ -39855,7 +43634,7 @@ enhancement</source>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>Višestruki poligon</translation>
     </message>
     <message>
         <source>GEOMETRYCOLLECTION</source>
@@ -39903,7 +43682,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>GREŠKA: Polje %1 nije pronađeno.</translation>
     </message>
 </context>
 <context>
@@ -39914,7 +43693,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Databases</source>
-        <translation type="unfinished">Baze podataka</translation>
+        <translation>Baze podataka</translation>
     </message>
     <message>
         <source>&amp;Update statistics</source>
@@ -39997,7 +43776,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Cannot add connection &apos;%1&apos; : a connection with the same name already exists.</source>
@@ -40194,7 +43973,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>user</source>
-        <translation type="unfinished"></translation>
+        <translation>korisnik</translation>
     </message>
     <message>
         <source>Map &quot;%1&quot; &quot;on the fly&quot; transformation.</source>
@@ -40450,7 +44229,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished">Shapefiles</translation>
+        <translation>Shapefiles</translation>
     </message>
     <message>
         <source>All files</source>
@@ -40843,7 +44622,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Export/import error</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška uvoza/izvoza</translation>
     </message>
     <message>
         <source>You should select at least one symbol/color ramp.</source>
@@ -41199,6 +44978,14 @@ There was a problem with your symbol database.</source>
         <source>There was some error while editing the smart group.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Cannot rename item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name is already taken by another item. Choose a different name.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsStyleV2ManagerDialogBase</name>
@@ -41236,7 +45023,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi</translation>
     </message>
     <message>
         <source>Remove item</source>
@@ -41283,7 +45070,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Select All</source>
-        <translation type="unfinished">Odaberi sve</translation>
+        <translation>Odaberi sve</translation>
     </message>
 </context>
 <context>
@@ -41305,7 +45092,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Briši</translation>
     </message>
     <message>
         <source>Select SVG file</source>
@@ -41313,7 +45100,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>SVG files</source>
-        <translation type="unfinished">SVG datoteke</translation>
+        <translation>SVG datoteke</translation>
     </message>
 </context>
 <context>
@@ -41324,7 +45111,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>SVG</source>
-        <translation type="unfinished">SVG</translation>
+        <translation>SVG</translation>
     </message>
     <message>
         <source>SVG request error [status: %1 - reason phrase: %2]</source>
@@ -41354,15 +45141,15 @@ There was a problem with your symbol database.</source>
     <name>QgsSvgMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi boju ispune</translation>
     </message>
     <message>
         <source>Select border color</source>
@@ -41375,38 +45162,6 @@ There was a problem with your symbol database.</source>
     <message>
         <source>SVG files</source>
         <translation>SVG datoteke</translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation>Širina granice</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation>Kut</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation>Pomak</translation>
-    </message>
-    <message>
-        <source>SVG file</source>
-        <translation>SVG datoteka</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Boja</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Boja granice</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41439,11 +45194,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSymbolLayerV2Widget</name>
     <message>
         <source>Size</source>
-        <translation type="unfinished">Veličina</translation>
+        <translation>Veličina</translation>
     </message>
     <message>
         <source>area</source>
-        <translation type="unfinished">površina</translation>
+        <translation>površina</translation>
     </message>
     <message>
         <source>diameter</source>
@@ -41476,7 +45231,7 @@ There was a problem with your symbol database.</source>
     <name>QgsSymbolV2SelectorDialog</name>
     <message>
         <source>Symbol name</source>
-        <translation type="unfinished">Naziv simbola</translation>
+        <translation>Naziv simbola</translation>
     </message>
     <message>
         <source>Please enter name for the symbol:</source>
@@ -41527,18 +45282,18 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Spremi</translation>
+        <translation>Spremi</translation>
     </message>
 </context>
 <context>
     <name>QgsSymbolsListWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished">Milimetar</translation>
+        <translation>Milimetar</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Jedinice mape</translation>
+        <translation>Jedinice mape</translation>
     </message>
     <message>
         <source>Select color</source>
@@ -41546,7 +45301,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Symbol name</source>
-        <translation type="unfinished">Naziv simbola</translation>
+        <translation>Naziv simbola</translation>
     </message>
     <message>
         <source>Please enter name for the symbol:</source>
@@ -41637,11 +45392,11 @@ There was a problem with your symbol database.</source>
     <name>QgsTextEditConfigDlg</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">Višestruke linije</translation>
+        <translation>Višestruke linije</translation>
     </message>
     <message>
         <source>HTML</source>
@@ -41987,7 +45742,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Thin Plate Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Thin plate spline (TPS)</translation>
     </message>
     <message>
         <source>Projective</source>
@@ -42031,22 +45786,22 @@ p, li { white-space: pre-wrap; }
     <name>QgsUniqueValuesConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>The user can select one of the values already used in the attribute. If editable, a line edit is shown with autocompletion support, otherwise a combo box is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korisink može odabrati jednu od vrijednosti već korištenih kao atribut. Ako se može uređivati pojavljuje se redak s podrškom za auto-završavanje, inače se koristi combo box.</translation>
     </message>
     <message>
         <source>Editable</source>
-        <translation type="unfinished">Može se urediti</translation>
+        <translation>Može se urediti</translation>
     </message>
 </context>
 <context>
     <name>QgsUnitSelectionWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Adjust scaling range</source>
@@ -42057,47 +45812,48 @@ p, li { white-space: pre-wrap; }
     <name>QgsValueMapConfigDlg</name>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteku</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Pogreška</translation>
+        <translation>Pogreška</translation>
     </message>
     <message>
         <source>Could not open file %1
 Error was:%2</source>
-        <translation type="unfinished"></translation>
+        <translation>NE mogu otvoriti datoteku %1
+Pogreška je:%2</translation>
     </message>
 </context>
 <context>
     <name>QgsValueMapWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Combo box with predefined items. Value is stored in the attribute, description is shown in the combo box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Combo box s preddefiniranim stavkama. Vrijednost je pohranjena u atributu, ois je prikazan u combo box.</translation>
     </message>
     <message>
         <source>Load Data from layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj podatke iz sloja</translation>
     </message>
     <message>
         <source>Load Data from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitaj podatke iz CSV datoteke</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Vrijednost</translation>
+        <translation>Vrijednost</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni odabrano</translation>
     </message>
 </context>
 <context>
@@ -42111,7 +45867,7 @@ Error was:%2</source>
     <name>QgsValueRelationConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Select layer, key column and value column</source>
@@ -42119,11 +45875,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>Key column</source>
-        <translation type="unfinished">Ključna kolona</translation>
+        <translation>Ključna kolona</translation>
     </message>
     <message>
         <source>Value column</source>
@@ -42147,14 +45903,14 @@ Error was:%2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QgsValueRelationWidgetWrapper</name>
     <message>
         <source>(no selection)</source>
-        <translation type="unfinished"></translation>
+        <translation>(nema odabira)</translation>
     </message>
 </context>
 <context>
@@ -42227,11 +45983,11 @@ Error was:%2</source>
     <name>QgsVectorFieldSymbolLayerWidget</name>
     <message>
         <source>X attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Y attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Length attribute</source>
@@ -42333,7 +46089,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -42417,10 +46173,6 @@ Error was:%2</source>
     </message>
     <message>
         <source>Attribute field info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Error: qgis element could not be found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42637,7 +46389,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Unesi izraz</translation>
     </message>
     <message>
         <source>This button opens the query builder and allows you to create a subset of features to display on the map canvas rather than displaying all features in the layer</source>
@@ -42649,7 +46401,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Not supported</source>
-        <translation type="unfinished">Nije podržano</translation>
+        <translation>Nije podržano</translation>
     </message>
     <message>
         <source>Spatial Index</source>
@@ -42701,7 +46453,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load Style</source>
-        <translation type="unfinished">Učitaj stil</translation>
+        <translation>Učitaj stil</translation>
     </message>
     <message>
         <source>Style saved</source>
@@ -42727,24 +46479,32 @@ Error was:%2</source>
         <source>Save Style</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>QgsVectorLayerPropertiesBase</name>
     <message>
-        <source>Layer Properties</source>
-        <translation>Osobine sloja</translation>
+        <source>Style</source>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Load Style...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore Default Style</source>
-        <translation>Vrati zadani stil</translation>
+        <source>Save Style...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save As Default</source>
         <translation>Spremi kao zadano</translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsVectorLayerPropertiesBase</name>
+    <message>
+        <source>Layer Properties</source>
+        <translation>Osobine sloja</translation>
     </message>
     <message>
         <source>A widget to define the scale visibility</source>
@@ -42760,7 +46520,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>OpisOpis</translation>
     </message>
     <message>
         <source>Keyword list</source>
@@ -42780,7 +46540,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -42835,10 +46595,6 @@ Error was:%2</source>
         <translation>Općenito</translation>
     </message>
     <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation>Odredi koord. referentni sustav geometrije sloja.</translation>
-    </message>
-    <message>
         <source>Query Builder</source>
         <translation>Izgradi Upit</translation>
     </message>
@@ -42848,7 +46604,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Rendering</source>
-        <translation type="unfinished">Prikazivanje</translation>
+        <translation>Prikazivanje</translation>
     </message>
     <message>
         <source>Layer info</source>
@@ -42867,12 +46623,8 @@ Error was:%2</source>
         <translation>Koordinatni referentni sustav</translation>
     </message>
     <message>
-        <source>Specify...</source>
-        <translation>Odredi...</translation>
-    </message>
-    <message>
         <source>Create spatial index</source>
-        <translation type="unfinished">Stvori prostorni indeks</translation>
+        <translation>Stvori prostorni indeks</translation>
     </message>
     <message>
         <source>Update extents</source>
@@ -42904,7 +46656,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">pikseli</translation>
+        <translation>pikseli</translation>
     </message>
     <message>
         <source>Simplify on provider side if possible</source>
@@ -42947,10 +46699,6 @@ Error was:%2</source>
         <translation>Polje</translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Layer name</source>
         <translation>Naziv sloja</translation>
     </message>
@@ -42976,7 +46724,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Joins</source>
-        <translation type="unfinished"></translation>
+        <translation>Spoji</translation>
     </message>
     <message>
         <source>Join layer</source>
@@ -42998,24 +46746,12 @@ Error was:%2</source>
 <context>
     <name>QgsVectorLayerSaveAsDialog</name>
     <message>
-        <source>Layer CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Project CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>No symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema simboliziranja</translation>
     </message>
     <message>
         <source>Feature symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>Simboliziranje elemenata</translation>
     </message>
     <message>
         <source>Symbol layer symbology</source>
@@ -43075,10 +46811,6 @@ Error was:%2</source>
     <message>
         <source>Format</source>
         <translation>Oblik</translation>
-    </message>
-    <message>
-        <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
     </message>
     <message>
         <source>Save only selected features</source>
@@ -43182,7 +46914,7 @@ Error was:%2</source>
     <name>QgsWCSRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
 </context>
 <context>
@@ -43226,7 +46958,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -43265,7 +46997,7 @@ Error was:%2</source>
     <name>QgsWFSRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
     <message>
         <source>Create a new WFS connection</source>
@@ -43343,7 +47075,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
     <message>
         <source>Filter:</source>
@@ -43375,7 +47107,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load connections from file</source>
-        <translation type="unfinished">Učitaj poveznice iz datoteke</translation>
+        <translation>Učitaj poveznice iz datoteke</translation>
     </message>
     <message>
         <source>Load</source>
@@ -43425,7 +47157,7 @@ Error was:%2</source>
     <name>QgsWMSRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">Nova poveznica...</translation>
+        <translation>Nova poveznica...</translation>
     </message>
 </context>
 <context>
@@ -43630,7 +47362,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load connections from file</source>
-        <translation type="unfinished">Učitaj poveznice iz datoteke</translation>
+        <translation>Učitaj poveznice iz datoteke</translation>
     </message>
     <message>
         <source>Load</source>
@@ -43642,7 +47374,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Izmijeni...</translation>
+        <translation>Izmijeni...</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -43731,6 +47463,10 @@ Error was:%2</source>
     <message>
         <source>Add selected row to WMS list</source>
         <translation>Dodaj odabrani red na WMS popis</translation>
+    </message>
+    <message>
+        <source>Use contextual WMS Legend</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44090,7 +47826,7 @@ Response was:
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik nije podržan</translation>
     </message>
     <message>
         <source>Read data error</source>
@@ -44105,7 +47841,7 @@ Response was:
     <name>QgsWebViewWidgetConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Field contains a filename or URL for a webpage</source>
@@ -44113,33 +47849,33 @@ Response was:
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Širina</translation>
+        <translation>Širina</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Visina</translation>
+        <translation>Visina</translation>
     </message>
 </context>
 <context>
     <name>QgsWebViewWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi datoteku</translation>
     </message>
 </context>
 <context>
     <name>QgsWmsCapabilitiesDownload</name>
     <message>
         <source>%1 of %2 bytes of capabilities downloaded.</source>
-        <translation type="unfinished">%1 od %2 bajta mogućnosti skinuto.</translation>
+        <translation>%1 od %2 bajta mogućnosti skinuto.</translation>
     </message>
     <message>
         <source>Capabilities request redirected.</source>
-        <translation type="unfinished">Preusmjeren zahtjev za mogućnostima.</translation>
+        <translation>Preusmjeren zahtjev za mogućnostima.</translation>
     </message>
     <message>
         <source>Redirect loop detected: %1</source>
@@ -44147,15 +47883,15 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>empty of capabilities: %1</source>
-        <translation type="unfinished">nema mogućnosti: %1</translation>
+        <translation>nema mogućnosti: %1</translation>
     </message>
     <message>
         <source>Download of capabilities failed: %1</source>
-        <translation type="unfinished">Neuspješno skidanje mogućnosti: %1</translation>
+        <translation>Neuspješno skidanje mogućnosti: %1</translation>
     </message>
 </context>
 <context>
@@ -44166,7 +47902,7 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Returned image is flawed [Content-Type:%1; URL:%2]</source>
@@ -44190,6 +47926,30 @@ Response was:
     </message>
     <message>
         <source>%1 of %2 bytes of map downloaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsWmsLegendDownloadHandler</name>
+    <message>
+        <source>Redirect loop detected: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WMS</source>
+        <translation>WMS</translation>
+    </message>
+    <message>
+        <source>GetLegendGraphic request error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status: %1
+Reason phrase: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Returned legend image is flawed [URL: %1]</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44277,15 +48037,6 @@ Response was:
     </message>
     <message>
         <source>unexpected image size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Status: %1
-Reason phrase: %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Redirect loop detected: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44591,7 +48342,7 @@ Response was:
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">Mjerilo</translation>
+        <translation>Mjerilo</translation>
     </message>
     <message>
         <source>Tile size [px]</source>
@@ -44615,27 +48366,27 @@ Response was:
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Širina</translation>
+        <translation>Širina</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Visina</translation>
+        <translation>Visina</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Vrh</translation>
+        <translation>Vrh</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Dno</translation>
+        <translation>Dno</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message numerus="yes">
         <source>%n missing row(s)</source>
@@ -44687,7 +48438,7 @@ Response was:
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik nije podržan</translation>
     </message>
     <message>
         <source>Context not fully specified (extent was defined but width and/or height was not).</source>
@@ -44730,22 +48481,6 @@ Response was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>GetLegendGraphic request redirected.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>GetLegendGraphic request error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Returned legend image is flawed [URL: %1]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download of GetLegendGraphic failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 of %2 bytes of GetLegendGraphic downloaded.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44767,7 +48502,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Tile request error (Status:%1; Content-Type:%2; Length:%3; URL: %4)</source>
@@ -44852,10 +48587,6 @@ Reason phrase: %2</source>
 <context>
     <name>QgsZonalStatisticsDialogBase</name>
     <message>
-        <source>Dialog</source>
-        <translation>Dijalog</translation>
-    </message>
-    <message>
         <source>Raster layer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44865,6 +48596,10 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Output column prefix:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zonal Statistics</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44884,14 +48619,328 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
-    <name>RangePanel</name>
+    <name>RAlgorithm</name>
     <message>
-        <source>Min</source>
-        <translation type="unfinished">Min</translation>
+        <source>Could not load R script: %s.
+ Problem with line %s</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Max</source>
-        <translation type="unfinished">Max</translation>
+        <source>R Console Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately it seems that R is not installed in your system or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. A test to check if R is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The script you have executed needs the following packages:&lt;/p&gt;&lt;ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;/ul&gt;&lt;p&gt;Make sure they are installed in your R environment before trying to execute this script.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href= &quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAlgorithmProvider</name>
+    <message>
+        <source>Create new R script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R Scripts folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use 64 bit version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not load R script: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RUtils</name>
+    <message>
+        <source>R execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h2&gt;R Output&lt;/h2&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately, it seems that R is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtract</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtractWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set correct value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsAlongLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Nasumične točke</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsExtent</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Nasumične točke</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Nasumične točke</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsFixed</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number or density of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Nasumične točke</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsVariable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Nasumične točke</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelectionWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>ID Field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44902,31 +48951,89 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo modeler alati</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>min X</source>
-        <translation type="unfinished"></translation>
+        <translation>X min</translation>
     </message>
     <message>
         <source>max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X max</translation>
     </message>
     <message>
         <source>min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y min</translation>
     </message>
     <message>
         <source>max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y max</translation>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>Tablica izlaznog rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerStatistics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>Minimalna vrijednost</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Maksimalna vrijednost</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation>Srednja vrijednost</translation>
+    </message>
+    <message>
+        <source>valid cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No-data cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
+        <translation>Standardna devijacija</translation>
     </message>
 </context>
 <context>
@@ -44937,6 +49044,33 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
+    <name>RegularPoints</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Point spacing/count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initial inset from corner (LH side)</source>
+        <translation>Početni pomak unutra od kuta (L strana)</translation>
+    </message>
+    <message>
+        <source>Apply random offset to point spacing</source>
+        <translation>Primjeni nasumični pomak na razmak točaka</translation>
+    </message>
+    <message>
+        <source>Use point spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regular points</source>
+        <translation>Regularne točke</translation>
+    </message>
+</context>
+<context>
     <name>RenderingStyleFilePanel</name>
     <message>
         <source>Select style file</source>
@@ -44944,6 +49078,21 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>QGIS Layer Style File (*.qml *.QML)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ReprojectLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reprojected layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45018,7 +49167,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Reverse direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrnuti smjer</translation>
     </message>
     <message>
         <source>Cost</source>
@@ -45096,7 +49245,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Time</source>
-        <translation type="unfinished">Vrijeme</translation>
+        <translation>Vrijeme</translation>
     </message>
     <message>
         <source>Calculate</source>
@@ -45154,6 +49303,10 @@ Reason phrase: %2</source>
         <source>Path not found</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Could not find start vertex. Please check your input data.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RoadGraphPlugin</name>
@@ -45178,11 +49331,96 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished"></translation>
+        <translation>Baza po&amp;dataka</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished">Baza podataka nije odabrana ili niste povezani sa njom.</translation>
+        <translation>Baza podataka nije odabrana ili niste povezani sa njom.</translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm212</name>
+    <message>
+        <source>Unsupported file format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer %s has more than one band.
+Multiband layers are not supported by SAGA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layers do not have the same grid extent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm213</name>
+    <message>
+        <source>Unsupported file format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithmProvider</name>
+    <message>
+        <source>SAGA folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable SAGA Import/Export optimizations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: SAGA was not found or is not correctly installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: installed SAGA version (%s) is not supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaUtils</name>
+    <message>
+        <source>SAGA execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SaveSelectedFeatures</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45222,7 +49460,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>Skripte</translation>
     </message>
 </context>
 <context>
@@ -45247,6 +49485,99 @@ Problem with line %d</source>
         <source>Unable to save edits. Reason:
  %s</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in script. Continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SelectByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>Atribut odabira</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation>Operator</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vrijednost</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation>Operatori %s mogu se koristiti samo s poljima sa znakovnim nizovima.</translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation>Numeričko polje</translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation>Polje znakovnog niza</translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation>Polje s datumom</translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation>Nepodržani tip polja &quot;%s&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>SelectByExpression</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Expression</source>
+        <translation>Izraz</translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>SelectByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation>Sloj iz kojeg se odabire</translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation>Dodatni sloj (presječni sloj)</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Odabir</translation>
     </message>
 </context>
 <context>
@@ -45293,6 +49624,36 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SetRasterStyle</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SetVectorStyle</name>
+    <message>
+        <source>Vector layer</source>
+        <translation>Vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SettingsDialogPythonConsole</name>
     <message>
         <source>Editor</source>
@@ -45328,7 +49689,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished">Komentar:</translation>
+        <translation>Komentar:</translation>
     </message>
     <message>
         <source>Comment block:</source>
@@ -45463,18 +49824,206 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SimplifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation>Tolerancija</translation>
+    </message>
+    <message>
+        <source>Simplified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplify: Input geometries have been simplified from %s to %s points</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SimplifyLineDialog</name>
-    <message>
-        <source>Simplify line tolerance</source>
-        <translation>Pojednostavni toleranciju linije</translation>
-    </message>
-    <message>
-        <source>Set tolerance</source>
-        <translation>Postavi toleranciju</translation>
-    </message>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>Simplification Tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Map units</source>
+        <translation>Jedinice mape</translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation>Tolerancija</translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation>Pikseli</translation>
+    </message>
+</context>
+<context>
+    <name>SinglePartsToMultiparts</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Invalid unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SlopeArea</name>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpatialJoin</name>
+    <message>
+        <source>Target vector layer</source>
+        <translation>Ciljani vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Join vector layer</source>
+        <translation>Vektorski sloj spoja</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute summary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics for summary (comma separated)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>Tablica izlaznog rezultata</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>SplitLinesWithLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Split layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while splitting</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SplitRGBBands</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output R band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output G band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output B band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StatisticsByCategories</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Ulazni vektorski sloj</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>Polje po kojemu treba računati statistiku</translation>
+    </message>
+    <message>
+        <source>Field with categories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SumLines</name>
+    <message>
+        <source>Lines</source>
+        <translation>Linije</translation>
+    </message>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lines length field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lines count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
     </message>
 </context>
 <context>
@@ -45493,7 +50042,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Boja</translation>
     </message>
     <message>
         <source>Open Library</source>
@@ -45506,10 +50055,6 @@ Problem with line %d</source>
     <message>
         <source>Rotation</source>
         <translation>Rotacija</translation>
-    </message>
-    <message utf8="true">
-        <source>°</source>
-        <translation>°</translation>
     </message>
     <message>
         <source>Width</source>
@@ -45526,6 +50071,121 @@ Problem with line %d</source>
     <message>
         <source>Advanced</source>
         <translation>Napredno</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+</context>
+<context>
+    <name>SymetricalDifference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation>Sloj razlike</translation>
+    </message>
+    <message>
+        <source>Symetrical difference</source>
+        <translation>Simetrična razlika</translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithm</name>
+    <message>
+        <source>Could not load TauDEM algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithmProvider</name>
+    <message>
+        <source>TauDEM command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MPICH2/OpenMPI bin directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of MPI parallel processes to use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open TauDEM algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM (hydrologic analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMUtils</name>
+    <message>
+        <source>TauDEM execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM command:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextToFloat</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Text attribute to convert to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>TinSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation>Ulazni las sloj</translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>XY jedinice</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z jedinice</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45544,6 +50204,13 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>TreeProviderItem</name>
+    <message>
+        <source> [{0} geoalgorithms]</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UndoWidget</name>
     <message>
         <source>Undo/Redo</source>
@@ -45556,6 +50223,60 @@ Problem with line %d</source>
     <message>
         <source>Redo</source>
         <translation>Ponovi</translation>
+    </message>
+</context>
+<context>
+    <name>Union</name>
+    <message>
+        <source>Feature exception while computing union</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Union</source>
+        <translation>Unija</translation>
+    </message>
+    <message>
+        <source>Feature exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UniqueValues</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Target field</source>
+        <translation>Ciljno polje</translation>
+    </message>
+    <message>
+        <source>Unique values</source>
+        <translation>Jedinstvene vrijednosti</translation>
+    </message>
+    <message>
+        <source>Total unique values</source>
+        <translation>Ukupno jedinstvenih vrijednosti</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Total unique values: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Unique values:&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45599,7 +50320,7 @@ Problem with line %d</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished">Pogreška pri učitavanju izlazne shape datoteke:
+        <translation>Pogreška pri učitavanju izlazne shape datoteke:
 %s</translation>
     </message>
     <message>
@@ -45618,6 +50339,52 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>VariableDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Distance field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>Segmenti</translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>Zaštita (Buff)</translation>
+    </message>
+</context>
+<context>
+    <name>VectorGrid</name>
+    <message>
+        <source>Grid extent</source>
+        <translation>Opseg mreže (extent)</translation>
+    </message>
+    <message>
+        <source>X spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid type</source>
+        <translation>Tip mreže</translation>
+    </message>
+    <message>
+        <source>Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>VectorLayerBoundsAlgorithm</name>
     <message>
         <source>Vector layer bounds</source>
@@ -45625,31 +50392,84 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo modeler alati</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Sloj</translation>
+        <translation>Sloj</translation>
     </message>
     <message>
         <source>min X</source>
-        <translation type="unfinished"></translation>
+        <translation>X min</translation>
     </message>
     <message>
         <source>max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X max</translation>
     </message>
     <message>
         <source>min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y min</translation>
     </message>
     <message>
         <source>max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y max</translation>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">Opseg</translation>
+        <translation>Opseg</translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerScatterplot</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>X attribute</source>
+        <translation>X</translation>
+    </message>
+    <message>
+        <source>Y attribute</source>
+        <translation>X</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+</context>
+<context>
+    <name>VectorSplit</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Jedinstveno ID polje</translation>
+    </message>
+    <message>
+        <source>Output directory</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45708,6 +50528,25 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>VoronoiPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Buffer region</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Voronoi polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WidgetCentroidFill</name>
     <message>
         <source>Form</source>
@@ -45738,7 +50577,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -45746,11 +50585,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Vrh</translation>
+        <translation>Vrh</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -45758,7 +50597,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Dno</translation>
+        <translation>Dno</translation>
     </message>
     <message>
         <source>Outline style</source>
@@ -45777,10 +50616,6 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
-    </message>
-    <message>
         <source>Offset X,Y</source>
         <translation>Pomak X, Y</translation>
     </message>
@@ -45791,6 +50626,14 @@ Problem with line %d</source>
     <message>
         <source>Symbol height</source>
         <translation>Visina simbola</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45813,7 +50656,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -45821,11 +50664,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Vrh</translation>
+        <translation>Vrh</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -45833,7 +50676,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Dno</translation>
+        <translation>Dno</translation>
     </message>
     <message>
         <source>Size</source>
@@ -45848,7 +50691,7 @@ Problem with line %d</source>
         <translation>Font obitelj</translation>
     </message>
     <message utf8="true">
-        <source>°</source>
+        <source> °</source>
         <translation>°</translation>
     </message>
 </context>
@@ -45856,7 +50699,7 @@ Problem with line %d</source>
     <name>WidgetGradientFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Two color</source>
@@ -45868,7 +50711,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi</translation>
     </message>
     <message>
         <source>Gradient type</source>
@@ -45876,7 +50719,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Linear</source>
-        <translation type="unfinished">Linearno</translation>
+        <translation>Linearno</translation>
     </message>
     <message>
         <source>Radial</source>
@@ -45920,15 +50763,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>x</source>
-        <translation type="unfinished">x</translation>
+        <translation>x</translation>
     </message>
     <message>
         <source>y</source>
-        <translation type="unfinished">y</translation>
-    </message>
-    <message>
-        <source>Feature centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Reference Point 2</source>
@@ -45936,19 +50775,23 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">Kut</translation>
+        <translation>Kut</translation>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">Pomak X, Y</translation>
+        <translation>Pomak X, Y</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Centroid</source>
+        <translation>Centroid</translation>
     </message>
 </context>
 <context>
@@ -45962,16 +50805,20 @@ Problem with line %d</source>
         <translation>Kut</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
-    </message>
-    <message>
         <source>Distance</source>
         <translation>Dužina</translation>
     </message>
     <message>
         <source>Offset</source>
         <translation>Pomak</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46013,12 +50860,12 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties</source>
-        <translation>Osobine definirane podacima</translation>
-    </message>
-    <message>
         <source>on central point</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46036,16 +50883,67 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
-    </message>
-    <message>
         <source>Horizontal displacement</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal distance</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+</context>
+<context>
+    <name>WidgetRasterFill</name>
+    <message>
+        <source>Form</source>
+        <translation>Obrazac</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Image width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Coord mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Viewport</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rotation</source>
+        <translation>Rotacija</translation>
+    </message>
+    <message>
+        <source>Original</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%</source>
+        <translation>%</translation>
+    </message>
+    <message>
+        <source>Opacity</source>
+        <translation>Stupanj prozirnosti</translation>
+    </message>
+    <message>
+        <source>Offset X,Y</source>
+        <translation>Pomak X, Y</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
     </message>
 </context>
 <context>
@@ -46079,10 +50977,6 @@ Problem with line %d</source>
         <translation>Granica</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
-    </message>
-    <message>
         <source>SVG Groups</source>
         <translation type="unfinished"></translation>
     </message>
@@ -46094,12 +50988,16 @@ Problem with line %d</source>
         <source>...</source>
         <translation>...</translation>
     </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
 </context>
 <context>
     <name>WidgetShapeburstFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <translation>Obrazac</translation>
     </message>
     <message>
         <source>Gradient colors</source>
@@ -46115,7 +51013,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi</translation>
     </message>
     <message>
         <source>Shading style</source>
@@ -46139,11 +51037,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">Pomak X, Y</translation>
+        <translation>Pomak X, Y</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46174,11 +51072,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Spoji stil</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
+        <translation>Spoji stil</translation>
     </message>
     <message>
         <source>Fill</source>
@@ -46187,6 +51081,10 @@ Problem with line %d</source>
     <message>
         <source>Border</source>
         <translation>Granica</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46228,16 +51126,12 @@ Problem with line %d</source>
         <translation>Koristi prilagođeni uzorak crtica</translation>
     </message>
     <message>
-        <source>Dash pattern unit</source>
-        <translation>Jedinica uzorka crtica</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation>Osobine definirane podacima...</translation>
-    </message>
-    <message>
         <source>Draw line only inside polygon</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46272,7 +51166,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46280,11 +51174,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Vrh</translation>
+        <translation>Vrh</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46292,11 +51186,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Dno</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
+        <translation>Dno</translation>
     </message>
     <message>
         <source>Colors</source>
@@ -46308,11 +51198,15 @@ Problem with line %d</source>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
         <translation>Pomak X, Y</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46343,7 +51237,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Lijevo</translation>
+        <translation>Lijevo</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46351,11 +51245,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Desno</translation>
+        <translation>Desno</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Vrh</translation>
+        <translation>Vrh</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46363,11 +51257,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Dno</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished">Osobine definirane podacima...</translation>
+        <translation>Dno</translation>
     </message>
     <message>
         <source>Border width</source>
@@ -46392,6 +51282,10 @@ Problem with line %d</source>
     <message>
         <source>...</source>
         <translation>...</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
     </message>
 </context>
 <context>
@@ -46429,7 +51323,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Y attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Scale</source>
@@ -46437,7 +51331,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>X attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Vector field type</source>
@@ -46469,7 +51363,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Angle orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>Orijentacija</translation>
     </message>
     <message>
         <source>Counterclockwise from east</source>
@@ -46500,6 +51394,33 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>ZonalStatistics</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer containing zones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output column prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load whole raster in memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
     <name>[pluginname]GuiBase</name>
     <message>
         <source>QGIS Plugin Template</source>
@@ -46508,6 +51429,132 @@ Problem with line %d</source>
     <message>
         <source>Plugin Template</source>
         <translation>Predložak dodatka</translation>
+    </message>
+</context>
+<context>
+    <name>aspect</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return trigonometric angle (instead of azimuth)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return 0 for flat (instead of -9999)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2demPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2isoPro</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>buildvrt</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resolution</source>
+        <translation>Rezolucija</translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow projection difference</source>
+        <translation>Dozvoli razliku projekcije</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
@@ -48069,6 +53116,20 @@ Click on one of the icons along the top of the composer window to select what ty
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
+There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
+&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
+To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
+A single right mouse click stops the measuring.
+&lt;h4&gt;Measuring Areas&lt;/h4&gt;
+To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
+A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
+&lt;h4&gt;Measuring Angles&lt;/h4&gt;
+To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;Attribute table&lt;/h3&gt;
 The attribute table displays features of a selected layer. Each row in the table represents one map feature with its attributes shown in several columns. The features in the table can be searched, selected, moved or even edited.  By default the attribute table is a separate window. If you opened it and cannot see it anymore, it is most likely hidden under the main QGIS window. You can make it also a docked window, by checking &lt;label&gt;Open attribute table in a dock window&lt;/label&gt; in &lt;label&gt;Settings &gt; Options &gt; Data Sources&lt;/label&gt;.&lt;p&gt;
 
@@ -48126,23 +53187,32 @@ The vector layer needs to be in editing mode, before you can click on the &lt;la
 &lt;a name=&quot;FieldCalcBar&quot;&gt;
 &lt;h4&gt;Field Calculator Bar&lt;/h4&gt;
 &lt;/a&gt;
-When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows to quickly edit values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
+When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows quick editing values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
 To edit values, select the field to modify with the filter button on the left and fill the text box with the new value or an expression to calculate new value. Then, press &lt;label&gt;Update all&lt;/label&gt; button to update all the rows of the attribute table or &lt;label&gt;Update selected&lt;/label&gt; button if some features are selected or a filter is applied on the attribute table display. You can also use the &lt;label&gt;Expression builder&lt;/label&gt; button to calculate the new value in the column.&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>contour</name>
     <message>
-        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
-There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
-&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
-To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
-A single right mouse click stops the measuring.
-&lt;h4&gt;Measuring Areas&lt;/h4&gt;
-To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
-A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
-&lt;h4&gt;Measuring Angles&lt;/h4&gt;
-To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
-</source>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Interval between contour lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute name (if not set, no elevation attribute is attached)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file for contour lines (vector)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -48811,7 +53881,7 @@ Base Path (i.e. keep only filename from attribute)</source>
     <name>fTools</name>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>Detektirana inačica QGIS-a:</translation>
     </message>
     <message>
         <source>This version of fTools requires at least QGIS version 1.0.0
@@ -48917,7 +53987,7 @@ Dodatak neće biti omogućen.</translation>
     </message>
     <message>
         <source>Eliminate Sliver Polygons...</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminiraj iscjepane poligone...</translation>
     </message>
     <message>
         <source>Export/Add Geometry Columns...</source>
@@ -49002,6 +54072,98 @@ Dodatak neće biti omogućen.</translation>
     <message>
         <source>&amp;Data Management Tools</source>
         <translation>Alati za upravljanje po&amp;dacima</translation>
+    </message>
+</context>
+<context>
+    <name>fillnodata</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Search distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smooth iterations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Band to operate on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not use default validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToCHM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToDTMandDSM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToSingleCHMpitFree</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -51364,6 +56526,112 @@ Convert a string into Qt data time type.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
+Returns tangent of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
+In atlas generation, returns the current feature number that is iterated over on the coverage layer.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+None
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
+Returns the value of the natural logarithm of the passed expression.
+&lt;br&gt;
+This function takes one argument.
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;geometry function&lt;/h3&gt;
+Returns the feature&apos;s geometry
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;geometry( f )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+f &amp;rarr; QgsFeature
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; POINT(6 50)&lt;/pre&gt;
+&lt;pre&gt; intersects( $geometry, geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; 1&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;transform function&lt;/h3&gt;
+Returns the geometry transformed from the source CRS to the dest CRS.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;transform( geom, sAuthId, dAuthId )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+geom &amp;rarr; QgsGeometry
+
+sCrsId &amp;rarr; the Source Auth CRS Id
+
+dCrsId &amp;rarr; the Dest Auth CRS Id
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( transform( $geometry, &apos;EPSG:2154&apos;, &apos;EPSG:4326&apos; ) ) &amp;rarr; POINT(0 51)&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;format_date() function&lt;/h3&gt;
 Format a date type or string into a custom string format. Uses Qt data time format strings.  See &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
 
@@ -51537,80 +56805,51 @@ Format a date type or string into a custom string format. Uses Qt data time form
 
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
-&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.MM.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>gdal2xyz</name>
     <message>
-        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
-Returns tangent of an angle.
-
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
-</source>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
-In atlas generation, returns the current feature number that is iterated over on the coverage layer.
-
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;pre&gt;$feature&lt;/pre&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-None
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
-
-</source>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>gdaladdo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Overview levels</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
-Returns the value of the natural logarithm of the passed expression.
-&lt;br&gt;
-This function takes one argument.
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;code&gt;value&lt;/code&gt; - any positive number.
-&lt;br&gt;
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
-</source>
+        <source>Remove all existing overviews</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
-Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
-&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
-&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
-&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
-</source>
+        <source>Resampling method</source>
+        <translation>Metoda Resampling</translation>
+    </message>
+    <message>
+        <source>Overview format</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
     </message>
 </context>
 <context>
@@ -52700,7 +57939,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Input table</source>
-        <translation type="unfinished"></translation>
+        <translation>Ulazna tablica</translation>
     </message>
     <message>
         <source>Interpolate surface</source>
@@ -52796,7 +58035,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Metadata support</source>
-        <translation type="unfinished"></translation>
+        <translation>Meta podaci</translation>
     </message>
     <message>
         <source>Minimum size for each basin (number of cells)</source>
@@ -53400,6 +58639,1098 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
+    <name>hillshade</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z factor (vertical exaggeration)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Azimuth of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Altitude of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileGroundClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileNormalize</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>information</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Suppress GCP info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suppress metadata info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2demPro</name>
+    <message>
+        <source>attribute (what to interpolate)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>product (how to output per pixel)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2shp</name>
+    <message>
+        <source>use PointZ instead of MultiPointZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>number of points per record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txt</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txtPro</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundary</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundaryPro</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopy</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopyPro</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasclip</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascolor</name>
+    <message>
+        <source>Input ortho</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascontrol</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicate</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates to LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicatePro</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgrid</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgridPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasground</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgroundPro</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheight</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheightPro</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindex</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindexPro</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfo</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfoPro</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasmerge</name>
+    <message>
+        <source>2nd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3rd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>7th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoise</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoisePro</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverage</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoveragePro</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlap</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlapPro</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasprecision</name>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasquery</name>
+    <message>
+        <source>area of interest</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassort</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassortPro</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassplit</name>
+    <message>
+        <source>number of digits for file names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>how to split</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interval or number</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthin</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthinPro</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastile</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>make tiling reversible (advanced, usually not needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastilePro</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>more than 2000 tiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using sydney.laz creates sydney_274000_4714000.laz)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidate</name>
+    <message>
+        <source>save report to &apos;*_LVS.xml&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidatePro</name>
+    <message>
+        <source>generate one &apos;*_LVS.xml&apos; report per file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasview</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasviewPro</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszip</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszipPro</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>merge</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grab pseudocolor table from first layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>nearblack</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>How far from black (white)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for nearly white pixels instead of nearly black</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>nviz</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>nviz7</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>optionsDialog</name>
     <message>
         <source>Warning!</source>
@@ -53435,6 +59766,172 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <source>Loading Connections</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>pct2rgb</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band to convert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>polygonize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Output field name</source>
+        <translation>Naziv izlaznog polja</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>proximity</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation>Vrijednosti</translation>
+    </message>
+    <message>
+        <source>Distance units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max distance (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed buf value (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>rasterize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Attribute field</source>
+        <translation>Polje atributa</translation>
+    </message>
+    <message>
+        <source>Write values inside an existing raster layer(*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set output raster size (ignored if above option is checked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal</source>
+        <translation>Horizontalno</translation>
+    </message>
+    <message>
+        <source>Vertical</source>
+        <translation>Vertikalno</translation>
+    </message>
+    <message>
+        <source>Raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer: mandatory to choose an existing raster layer if the (*) option is selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>rgb2pct</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Number of colors</source>
+        <translation>Broj boja</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>roughness</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
     </message>
 </context>
 <context>
@@ -53482,6 +59979,79 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <source>Delete Rule</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test</source>
+        <translation>Test</translation>
+    </message>
+    <message>
+        <source>No tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>shp2las</name>
+    <message>
+        <source>Input SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>sieve</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixel connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+</context>
+<context>
+    <name>slope</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope expressed as percent (instead of degrees)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
     </message>
 </context>
 <context>
@@ -53560,6 +60130,245 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Second layer not found in registry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have invalid geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>segments must have minimum length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have dangles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have pseudos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have gaps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have multi-part geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>features must not be closer than tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by endpoints of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>end points must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be inside</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must contain</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tpi</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>translate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Set the size of the output file (In pixels or %)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output size is a percentage of input size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output projection for output file [leave blank to use input projection]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subset based on georeferenced coordinates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy all subdatasets of this file to individual output files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tri</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Datoteka rezultata</translation>
+    </message>
+</context>
+<context>
+    <name>txt2las</name>
+    <message>
+        <source>Input ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>txt2lasPro</name>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -53643,29 +60452,70 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
-    <name>widgetNumberInput</name>
+    <name>warp</name>
     <message>
-        <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <source>Input layer</source>
+        <translation>Ulazni sloj</translation>
     </message>
     <message>
-        <source>Open number input dialog</source>
+        <source>Source SRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-</context>
-<context>
-    <name>widgetOutputSelect</name>
-    <message>
-        <source>Form</source>
-        <translation type="unfinished">Obrazac</translation>
+        <source>Destination SRS</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Output file resolution in target georeferenced units (leave 0 for no change)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resampling method</source>
+        <translation>Metoda Resampling</translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Izazni sloj</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

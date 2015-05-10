@@ -43,7 +43,12 @@ Builder::Builder( std::string theFname,
     , fetchedprims( 0 )
     , fetchedtexts( 0 )
     , ignoringBlock( false )
+    , current_polyline_willclose( false )
+    , store_next_vertex_for_polyline_close( false )
     , current_polyline_pointcount( 0 )
+    , closePolyX( 0.0 )
+    , closePolyY( 0.0 )
+    , closePolyZ( 0.0 )
     , currentBlockX( 0.0 )
     , currentBlockY( 0.0 )
 {
@@ -324,8 +329,8 @@ void Builder::addArc( const DL_ArcData& data )
     return;
   }
 
-  register int i = 0;
-  register long shpIndex = 0;
+  int i = 0;
+  long shpIndex = 0;
 
   // Approximate the arc
 
@@ -406,7 +411,7 @@ void Builder::addCircle( const DL_CircleData& data )
   DL_PointData myPoint;
 
   // Approximate the circle with 360 line segments connecting points along that circle
-  register long shpIndex = 0;
+  long shpIndex = 0;
   for ( double i = 0.0; i <= 2*M_PI; i += M_PI / 180.0, shpIndex++ )
   {
     myPoint.x = data.radius * cos( i ) + data.cx + currentBlockX;

@@ -34,7 +34,7 @@ email                : morb at ozemail dot com dot au
 
 #include <QDebug>
 
-#ifndef Q_WS_WIN
+#ifndef Q_OS_WIN
 #include <netinet/in.h>
 #else
 #include <winsock.h>
@@ -190,12 +190,17 @@ static unsigned int getNumGeosPoints( const GEOSGeometry *geom )
   return n;
 }
 
-static GEOSGeometry *createGeosPoint( const QgsPoint &point )
+static GEOSGeometry *createGeosPoint( const double x, const double y )
 {
   GEOSCoordSequence *coord = GEOSCoordSeq_create_r( geosinit.ctxt, 1, 2 );
-  GEOSCoordSeq_setX_r( geosinit.ctxt, coord, 0, point.x() );
-  GEOSCoordSeq_setY_r( geosinit.ctxt, coord, 0, point.y() );
+  GEOSCoordSeq_setX_r( geosinit.ctxt, coord, 0, x );
+  GEOSCoordSeq_setY_r( geosinit.ctxt, coord, 0, y );
   return GEOSGeom_createPoint_r( geosinit.ctxt, coord );
+}
+
+static GEOSGeometry *createGeosPoint( const QgsPoint &point )
+{
+  return createGeosPoint( point.x(), point.y() );
 }
 
 static GEOSCoordSequence *createGeosCoordSequence( const QgsPolyline& points )
@@ -509,6 +514,40 @@ QgsGeometry* QgsGeometry::fromRect( const QgsRectangle& rect )
   return fromPolygon( polygon );
 }
 
+QgsGeometry *QgsGeometry::fromQPointF( const QPointF &point )
+{
+  return fromGeosGeom( createGeosPoint( point.x(), point.y() ) );
+}
+
+QgsGeometry *QgsGeometry::fromQPolygonF( const QPolygonF &polygon )
+{
+  if ( polygon.isClosed() )
+  {
+    return QgsGeometry::fromPolygon( createPolygonFromQPolygonF( polygon ) );
+  }
+  else
+  {
+    return QgsGeometry::fromPolyline( createPolylineFromQPolygonF( polygon ) );
+  }
+}
+
+QgsPolygon QgsGeometry::createPolygonFromQPolygonF( const QPolygonF &polygon )
+{
+  QgsPolygon result;
+  result << createPolylineFromQPolygonF( polygon );
+  return result;
+}
+
+QgsPolyline QgsGeometry::createPolylineFromQPolygonF( const QPolygonF &polygon )
+{
+  QgsPolyline result;
+  QPolygonF::const_iterator it = polygon.constBegin();
+  for ( ; it != polygon.constEnd(); ++it )
+  {
+    result.append( QgsPoint( *it ) );
+  }
+  return result;
+}
 
 QgsGeometry & QgsGeometry::operator=( QgsGeometry const & rhs )
 {
@@ -610,7 +649,7 @@ QGis::WkbType QgsGeometry::wkbType() const
 }
 
 
-QGis::GeometryType QgsGeometry::type()
+QGis::GeometryType QgsGeometry::type() const
 {
   if ( mDirtyWkb )
     exportGeosToWkb();
@@ -640,7 +679,7 @@ QGis::GeometryType QgsGeometry::type()
   }
 }
 
-bool QgsGeometry::isMultipart()
+bool QgsGeometry::isMultipart() const
 {
   if ( mDirtyWkb )
     exportGeosToWkb();
@@ -698,6 +737,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
   {
     case QGis::WKBPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPoint:
     {
       double x, y;
@@ -710,6 +750,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int nPoints;
@@ -737,6 +778,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -784,6 +826,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
@@ -810,6 +853,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -853,6 +897,7 @@ QgsPoint QgsGeometry::closestVertex( const QgsPoint& point, int& atVertex, int& 
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolys;
@@ -969,6 +1014,7 @@ void QgsGeometry::adjacentVertices( int atVertex, int& beforeVertex, int& afterV
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -1016,6 +1062,7 @@ void QgsGeometry::adjacentVertices( int atVertex, int& beforeVertex, int& afterV
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -1054,6 +1101,7 @@ void QgsGeometry::adjacentVertices( int atVertex, int& beforeVertex, int& afterV
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolys;
@@ -1216,6 +1264,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
   {
     case QGis::WKBPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPoint:
     {
       if ( atVertex != 0 )
@@ -1228,6 +1277,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int pointIndex = 0;
@@ -1242,6 +1292,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
@@ -1264,6 +1315,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -1284,6 +1336,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nLines;
@@ -1302,6 +1355,7 @@ bool QgsGeometry::moveVertex( double x, double y, int atVertex )
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolygons;
@@ -1847,6 +1901,7 @@ QgsPoint QgsGeometry::vertexAt( int atVertex )
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       // get number of points in the line
@@ -1867,6 +1922,7 @@ QgsPoint QgsGeometry::vertexAt( int atVertex )
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -1896,6 +1952,7 @@ QgsPoint QgsGeometry::vertexAt( int atVertex )
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       // get number of points in the line
@@ -1914,6 +1971,7 @@ QgsPoint QgsGeometry::vertexAt( int atVertex )
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -1945,6 +2003,7 @@ QgsPoint QgsGeometry::vertexAt( int atVertex )
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolygons;
@@ -2058,7 +2117,7 @@ double QgsGeometry::closestSegmentWithContext(
   double *leftOf,
   double epsilon )
 {
-  QgsDebugMsg( "Entering." );
+  QgsDebugMsgLevel( "Entering.", 3 );
 
   // TODO: implement with GEOS
   if ( mDirtyWkb ) //convert latest geos to mGeometry
@@ -2093,6 +2152,7 @@ double QgsGeometry::closestSegmentWithContext(
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int nPoints;
@@ -2130,6 +2190,7 @@ double QgsGeometry::closestSegmentWithContext(
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -2174,6 +2235,7 @@ double QgsGeometry::closestSegmentWithContext(
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -2218,6 +2280,7 @@ double QgsGeometry::closestSegmentWithContext(
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolygons;
@@ -2271,8 +2334,8 @@ double QgsGeometry::closestSegmentWithContext(
       break;
   } // switch (wkbType)
 
-  QgsDebugMsg( QString( "Exiting with nearest point %1, dist %2." )
-               .arg( point.toString() ).arg( sqrDist ) );
+  QgsDebugMsgLevel( QString( "Exiting with nearest point %1, dist %2." )
+                    .arg( point.toString() ).arg( sqrDist ), 3 );
 
   return sqrDist;
 }
@@ -2667,7 +2730,7 @@ int QgsGeometry::addPart( GEOSGeometry *newPart )
   return 0;
 }
 
-int QgsGeometry::translate( double dx, double dy )
+int QgsGeometry::transform( const QTransform& t )
 {
   if ( mDirtyWkb )
     exportGeosToWkb();
@@ -2678,34 +2741,36 @@ int QgsGeometry::translate( double dx, double dy )
     return 1;
   }
 
+  bool hasZValue = false;
   QgsWkbPtr wkbPtr( mGeometry + 1 );
   QGis::WkbType wkbType;
   wkbPtr >> wkbType;
 
-  bool hasZValue = false;
   switch ( wkbType )
   {
     case QGis::WKBPoint25D:
     case QGis::WKBPoint:
     {
-      translateVertex( wkbPtr, dx, dy, hasZValue );
+      transformVertex( wkbPtr, t, hasZValue );
     }
     break;
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int nPoints;
       wkbPtr >> nPoints;
       for ( int index = 0; index < nPoints; ++index )
-        translateVertex( wkbPtr, dx, dy, hasZValue );
+        transformVertex( wkbPtr, t, hasZValue );
 
       break;
     }
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -2715,7 +2780,7 @@ int QgsGeometry::translate( double dx, double dy )
         int nPoints;
         wkbPtr >> nPoints;
         for ( int index2 = 0; index2 < nPoints; ++index2 )
-          translateVertex( wkbPtr, dx, dy, hasZValue );
+          transformVertex( wkbPtr, t, hasZValue );
 
       }
       break;
@@ -2723,21 +2788,22 @@ int QgsGeometry::translate( double dx, double dy )
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
       wkbPtr >> nPoints;
-
       for ( int index = 0; index < nPoints; ++index )
       {
         wkbPtr += 1 + sizeof( int );
-        translateVertex( wkbPtr, dx, dy, hasZValue );
+        transformVertex( wkbPtr, t, hasZValue );
       }
       break;
     }
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -2748,13 +2814,15 @@ int QgsGeometry::translate( double dx, double dy )
         int nPoints;
         wkbPtr >> nPoints;
         for ( int index2 = 0; index2 < nPoints; ++index2 )
-          translateVertex( wkbPtr, dx, dy, hasZValue );
+          transformVertex( wkbPtr, t, hasZValue );
+
       }
       break;
     }
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolys;
@@ -2762,19 +2830,17 @@ int QgsGeometry::translate( double dx, double dy )
       for ( int index = 0; index < nPolys; ++index )
       {
         wkbPtr += 1 + sizeof( int ); //skip endian and polygon type
-
         int nRings;
         wkbPtr >> nRings;
-
         for ( int index2 = 0; index2 < nRings; ++index2 )
         {
           int nPoints;
           wkbPtr >> nPoints;
           for ( int index3 = 0; index3 < nPoints; ++index3 )
-            translateVertex( wkbPtr, dx, dy, hasZValue );
+            transformVertex( wkbPtr, t, hasZValue );
+
         }
       }
-      break;
     }
 
     default:
@@ -2782,6 +2848,19 @@ int QgsGeometry::translate( double dx, double dy )
   }
   mDirtyGeos = true;
   return 0;
+}
+
+int QgsGeometry::translate( double dx, double dy )
+{
+  return transform( QTransform::fromTranslate( dx, dy ) );
+}
+
+int QgsGeometry::rotate( double rotation, const QgsPoint& center )
+{
+  QTransform t = QTransform::fromTranslate( center.x(), center.y() );
+  t.rotate( -rotation );
+  t.translate( -center.x(), -center.y() );
+  return transform( t );
 }
 
 int QgsGeometry::transform( const QgsCoordinateTransform& ct )
@@ -2811,6 +2890,7 @@ int QgsGeometry::transform( const QgsCoordinateTransform& ct )
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int nPoints;
@@ -2823,6 +2903,7 @@ int QgsGeometry::transform( const QgsCoordinateTransform& ct )
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       int nRings;
@@ -2840,6 +2921,7 @@ int QgsGeometry::transform( const QgsCoordinateTransform& ct )
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
@@ -2854,6 +2936,7 @@ int QgsGeometry::transform( const QgsCoordinateTransform& ct )
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -2872,6 +2955,7 @@ int QgsGeometry::transform( const QgsCoordinateTransform& ct )
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolys;
@@ -3195,6 +3279,7 @@ QgsRectangle QgsGeometry::boundingBox()
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
@@ -3225,6 +3310,7 @@ QgsRectangle QgsGeometry::boundingBox()
     }
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       // get number of points in the line
@@ -3254,6 +3340,7 @@ QgsRectangle QgsGeometry::boundingBox()
     }
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -3289,6 +3376,7 @@ QgsRectangle QgsGeometry::boundingBox()
     }
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       // get number of rings in the polygon
@@ -3325,6 +3413,7 @@ QgsRectangle QgsGeometry::boundingBox()
     }
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       // get the number of polygons
@@ -3539,6 +3628,7 @@ QString QgsGeometry::exportToWkt( const int &precision ) const
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
       int nPoints;
@@ -3564,6 +3654,7 @@ QString QgsGeometry::exportToWkt( const int &precision ) const
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
       wkt += "POLYGON(";
@@ -3603,6 +3694,7 @@ QString QgsGeometry::exportToWkt( const int &precision ) const
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       int nPoints;
@@ -3628,6 +3720,7 @@ QString QgsGeometry::exportToWkt( const int &precision ) const
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       int nLines;
@@ -3663,6 +3756,7 @@ QString QgsGeometry::exportToWkt( const int &precision ) const
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
       int nPolygons;
@@ -3751,6 +3845,7 @@ QString QgsGeometry::exportToGeoJSON( const int &precision ) const
 
     case QGis::WKBLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBLineString:
     {
 
@@ -3776,6 +3871,7 @@ QString QgsGeometry::exportToGeoJSON( const int &precision ) const
 
     case QGis::WKBPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBPolygon:
     {
 
@@ -3816,6 +3912,7 @@ QString QgsGeometry::exportToGeoJSON( const int &precision ) const
 
     case QGis::WKBMultiPoint25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPoint:
     {
       wkt += "{ \"type\": \"MultiPoint\", \"coordinates\": [ ";
@@ -3840,6 +3937,7 @@ QString QgsGeometry::exportToGeoJSON( const int &precision ) const
 
     case QGis::WKBMultiLineString25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiLineString:
     {
       wkt += "{ \"type\": \"MultiLineString\", \"coordinates\": [ ";
@@ -3876,6 +3974,7 @@ QString QgsGeometry::exportToGeoJSON( const int &precision ) const
 
     case QGis::WKBMultiPolygon25D:
       hasZValue = true;
+      //intentional fall-through
     case QGis::WKBMultiPolygon:
     {
 
@@ -3975,6 +4074,7 @@ bool QgsGeometry::exportWkbToGeos() const
 
       case QGis::WKBMultiPoint25D:
         hasZValue = true;
+        //intentional fall-through
       case QGis::WKBMultiPoint:
       {
         QVector<GEOSGeometry *> points;
@@ -3998,6 +4098,7 @@ bool QgsGeometry::exportWkbToGeos() const
 
       case QGis::WKBLineString25D:
         hasZValue = true;
+        //intentional fall-through
       case QGis::WKBLineString:
       {
         QgsPolyline sequence;
@@ -4020,6 +4121,7 @@ bool QgsGeometry::exportWkbToGeos() const
 
       case QGis::WKBMultiLineString25D:
         hasZValue = true;
+        //intentional fall-through
       case QGis::WKBMultiLineString:
       {
         QVector<GEOSGeometry*> lines;
@@ -4054,6 +4156,7 @@ bool QgsGeometry::exportWkbToGeos() const
 
       case QGis::WKBPolygon25D:
         hasZValue = true;
+        //intentional fall-through
       case QGis::WKBPolygon:
       {
         // get number of rings in the polygon
@@ -4092,6 +4195,7 @@ bool QgsGeometry::exportWkbToGeos() const
 
       case QGis::WKBMultiPolygon25D:
         hasZValue = true;
+        //intentional fall-through
       case QGis::WKBMultiPolygon:
       {
         QVector<GEOSGeometry*> polygons;
@@ -4573,21 +4677,14 @@ bool QgsGeometry::convertToMultiType()
   return true;
 }
 
-void QgsGeometry::translateVertex( QgsWkbPtr &wkbPtr, double dx, double dy, bool hasZValue )
+void QgsGeometry::transformVertex( QgsWkbPtr &wkbPtr, const QTransform& trans, bool hasZValue )
 {
-  double x, y, translated_x, translated_y;
+  double x, y, rotated_x, rotated_y;
 
-  //x-coordinate
-  memcpy( &x, wkbPtr, sizeof( double ) );
-  translated_x = x + dx;
-  memcpy( wkbPtr, &translated_x, sizeof( double ) );
-  wkbPtr += sizeof( double );
-
-  //y-coordinate
-  memcpy( &y, wkbPtr, sizeof( double ) );
-  translated_y = y + dy;
-  memcpy( wkbPtr, &translated_y, sizeof( double ) );
-  wkbPtr += sizeof( double );
+  QgsWkbPtr tmp = wkbPtr;
+  tmp >> x >> y;
+  trans.map( x, y, &rotated_x, &rotated_y );
+  wkbPtr << rotated_x << rotated_y;
 
   if ( hasZValue )
     wkbPtr += sizeof( double );
@@ -4595,19 +4692,15 @@ void QgsGeometry::translateVertex( QgsWkbPtr &wkbPtr, double dx, double dy, bool
 
 void QgsGeometry::transformVertex( QgsWkbPtr &wkbPtr, const QgsCoordinateTransform& ct, bool hasZValue )
 {
-  double x, y, z;
+  double x, y, z = 0.0;
 
-  memcpy( &x, wkbPtr, sizeof( double ) );
-  memcpy( &y, wkbPtr + sizeof( double ), sizeof( double ) );
-  z = 0.0; // Ignore Z for now.
-
+  QgsWkbPtr tmp = wkbPtr;
+  tmp >> x >> y;
   ct.transformInPlace( x, y, z );
-
-  // new coordinate
   wkbPtr << x << y;
+
   if ( hasZValue )
     wkbPtr += sizeof( double );
-
 }
 
 GEOSGeometry* QgsGeometry::linePointDifference( GEOSGeometry* GEOSsplitPoint )
@@ -4622,7 +4715,10 @@ GEOSGeometry* QgsGeometry::linePointDifference( GEOSGeometry* GEOSsplitPoint )
   else
     return 0;
 
-  QgsPoint splitPoint = fromGeosGeom( GEOSsplitPoint )->asPoint();
+  // GEOSsplitPoint will be deleted in the caller, so make a clone
+  QgsGeometry* geosPoint = fromGeosGeom( GEOSGeom_clone_r( geosinit.ctxt, GEOSsplitPoint ) );
+  QgsPoint splitPoint = geosPoint->asPoint();
+  delete geosPoint;
 
   QgsMultiPolyline lines;
   QgsPolyline line;
@@ -4650,9 +4746,9 @@ GEOSGeometry* QgsGeometry::linePointDifference( GEOSGeometry* GEOSsplitPoint )
   }
   QgsGeometry* splitLines = fromMultiPolyline( lines );
   GEOSGeometry* splitGeom = GEOSGeom_clone_r( geosinit.ctxt, splitLines->asGeos() );
+  delete splitLines;
 
   return splitGeom;
-
 }
 
 int QgsGeometry::splitLinearGeometry( GEOSGeometry *splitLine, QList<QgsGeometry*>& newGeometries )
@@ -4705,9 +4801,7 @@ int QgsGeometry::splitLinearGeometry( GEOSGeometry *splitLine, QList<QgsGeometry
 
   if ( lineGeoms.size() > 0 )
   {
-    GEOSGeom_destroy_r( geosinit.ctxt, mGeos );
-    mGeos = lineGeoms[0];
-    mDirtyWkb = true;
+    fromGeos( lineGeoms[0] );
   }
 
   for ( int i = 1; i < lineGeoms.size(); ++i )
@@ -5901,6 +5995,41 @@ QList<QgsGeometry*> QgsGeometry::asGeometryCollection() const
   return geomCollection;
 }
 
+QPointF QgsGeometry::asQPointF() const
+{
+  QgsPoint point = asPoint();
+  return point.toQPointF();
+}
+
+QPolygonF QgsGeometry::asQPolygonF() const
+{
+  QPolygonF result;
+  QgsPolyline polyline;
+  QGis::WkbType type = wkbType();
+  if ( type == QGis::WKBLineString || type == QGis::WKBLineString25D )
+  {
+    polyline = asPolyline();
+  }
+  else if ( type == QGis::WKBPolygon || type == QGis::WKBPolygon25D )
+  {
+    QgsPolygon polygon = asPolygon();
+    if ( polygon.size() < 1 )
+      return result;
+    polyline = polygon.at( 0 );
+  }
+  else
+  {
+    return result;
+  }
+
+  QgsPolyline::const_iterator lineIt = polyline.constBegin();
+  for ( ; lineIt != polyline.constEnd(); ++lineIt )
+  {
+    result << lineIt->toQPointF();
+  }
+  return result;
+}
+
 bool QgsGeometry::deleteRing( int ringNum, int partNum )
 {
   if ( ringNum <= 0 || partNum < 0 )
@@ -6233,7 +6362,7 @@ QgsGeometry* QgsGeometry::convertToPoint( bool destMultipart )
 
     case QGis::Polygon:
     {
-      // can only transfrom if destination is multipoint
+      // can only transform if destination is multipoint
       if ( !destMultipart )
         return 0;
 

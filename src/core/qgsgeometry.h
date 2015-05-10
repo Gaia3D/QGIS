@@ -106,6 +106,20 @@ class CORE_EXPORT QgsGeometry
     static QgsGeometry* fromMultiPolygon( const QgsMultiPolygon& multipoly );
     /** construct geometry from a rectangle */
     static QgsGeometry* fromRect( const QgsRectangle& rect );
+    /**Construct geometry from a QPointF
+     * @param point source QPointF
+     * @note added in QGIS 2.7
+    */
+    static QgsGeometry* fromQPointF( const QPointF& point );
+
+    /**Construct geometry from a QPolygonF. If the polygon is closed than
+     * the resultant geometry will be a polygon, if it is open than the
+     * geometry will be a polyline.
+     * @param polygon source QPolygonF
+     * @note added in QGIS 2.7
+    */
+    static QgsGeometry* fromQPolygonF( const QPolygonF& polygon );
+
     /**
       Set the geometry, feeding in a geometry in GEOS format.
       This class will take ownership of the buffer.
@@ -138,18 +152,18 @@ class CORE_EXPORT QgsGeometry
     QGis::WkbType wkbType() const;
 
     /** Returns type of the vector */
-    QGis::GeometryType type();
+    QGis::GeometryType type() const;
 
     /** Returns true if wkb of the geometry is of WKBMulti* type */
-    bool isMultipart();
+    bool isMultipart() const;
 
-    /** compare geometries using GEOS  */
+    /** compare geometries using GEOS */
     bool isGeosEqual( QgsGeometry & );
 
     /** check validity using GEOS */
     bool isGeosValid();
 
-    /** check if geometry is empty using GEOS  */
+    /** check if geometry is empty using GEOS */
     bool isGeosEmpty();
 
     /** get area of geometry using GEOS */
@@ -279,6 +293,18 @@ class CORE_EXPORT QgsGeometry
      @return 0 in case of success*/
     int transform( const QgsCoordinateTransform& ct );
 
+    /**Transform this geometry as described by QTransform ct
+     @note added in 2.8
+     @return 0 in case of success*/
+    int transform( const QTransform& ct );
+
+    /**Rotate this geometry around the Z axis
+     @note added in 2.8
+     @param rotation clockwise rotation in degrees
+     @param center rotation center
+     @return 0 in case of success*/
+    int rotate( double rotation, const QgsPoint& center );
+
     /**Splits this geometry according to a given line. Note that the geometry is only split once. If there are several intersections
      between geometry and splitLine, only the first one is considered.
     @param splitLine the line that splits the geometry
@@ -406,7 +432,6 @@ class CORE_EXPORT QgsGeometry
      */
     QgsGeometry* convertToType( QGis::GeometryType destType, bool destMultipart = false );
 
-
     /* Accessor functions for getting geometry data */
 
     /** return contents of the geometry as a point
@@ -436,15 +461,26 @@ class CORE_EXPORT QgsGeometry
     /** return contents of the geometry as a list of geometries */
     QList<QgsGeometry*> asGeometryCollection() const;
 
+    /**Return contents of the geometry as a QPointF if wkbType is WKBPoint,
+     * otherwise returns a null QPointF.
+     * @note added in QGIS 2.7
+    */
+    QPointF asQPointF() const;
+
+    /**Return contents of the geometry as a QPolygonF. If geometry is a linestring,
+     * then the result will be an open QPolygonF. If the geometry is a polygon,
+     * then the result will be a closed QPolygonF of the geometry's exterior ring.
+     * @note added in QGIS 2.7
+    */
+    QPolygonF asQPolygonF() const;
+
     /** delete a ring in polygon or multipolygon.
       Ring 0 is outer ring and can't be deleted.
-      @return true on success
-       */
+      @return true on success */
     bool deleteRing( int ringNum, int partNum = 0 );
 
     /** delete part identified by the part number
-      @return true on success
-       */
+      @return true on success */
     bool deletePart( int partNum );
 
     /**Converts single type geometry into multitype geometry
@@ -541,12 +577,11 @@ class CORE_EXPORT QgsGeometry
                        const GEOSCoordSequence*  old_sequence,
                        GEOSCoordSequence** new_sequence );
 
-    /**Translates a single vertex by dx and dy.
+    /**Transform a single vertex by QTransform
     @param wkbPtr pointer to current position in wkb array. Is increased automatically by the function
-    @param dx translation of x coordinate
-    @param dy translation of y coordinate
+    @param trans transform matrix
     @param hasZValue 25D type?*/
-    void translateVertex( QgsWkbPtr &wkbPtr, double dx, double dy, bool hasZValue );
+    void transformVertex( QgsWkbPtr &wkbPtr, const QTransform& trans, bool hasZValue );
 
     /**Transforms a single vertex by ct.
     @param wkbPtr pointer to current position in wkb. Is increased automatically by the function
@@ -632,6 +667,9 @@ class CORE_EXPORT QgsGeometry
     QgsGeometry* convertToLine( bool destMultipart );
     /** try to convert the geometry to a polygon */
     QgsGeometry* convertToPolygon( bool destMultipart );
+
+    static QgsPolyline createPolylineFromQPolygonF( const QPolygonF &polygon );
+    static QgsPolygon createPolygonFromQPolygonF( const QPolygonF &polygon );
 }; // class QgsGeometry
 
 Q_DECLARE_METATYPE( QgsGeometry );

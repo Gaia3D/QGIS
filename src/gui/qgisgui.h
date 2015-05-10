@@ -17,8 +17,9 @@
 
 #include <Qt>
 #include <QPair>
+#include <QStringList>
 
-class QStringList;
+class QFont;
 
 /** \ingroup gui
  * /namespace QgisGui
@@ -91,7 +92,24 @@ namespace QgisGui
     call.  The regular express, glob, will have both all lower and upper
     case versions added.
   */
-  QString createFileFilter_( QString const &longName, QString const &glob );
+  QString GUI_EXPORT createFileFilter_( QString const &longName, QString const &glob );
+
+  /**
+   * Create file filters suitable for use with QFileDialog
+   *
+   * @param format extension e.g. "png"
+   * @return QString e.g. "PNG format (*.png, *.PNG)"
+   */
+  QString GUI_EXPORT createFileFilter_( QString const &format );
+
+  /**
+   * Show font selection dialog
+   * @param ok true on ok, false on cancel
+   * @param initial initial font
+   * @param title optional dialog title
+   * @return QFont the selected fon
+   */
+  QFont GUI_EXPORT getFont( bool &ok, const QFont &initial, const QString &title = QString() );
 }
 
 #endif

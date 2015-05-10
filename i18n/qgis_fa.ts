@@ -14,7 +14,7 @@
     <message>
         <source>&lt;html&gt;&lt;body&gt;&lt;h2&gt;Algorithm description&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;h2&gt;توصیف الگوریتم &lt;/h2&gt;</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
@@ -30,212 +30,419 @@
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;مولف الگوریتم: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Help author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;راهنمای مولف: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm version: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uncaught error executing %s.
-See log for more information</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;نسخه الگوریتم: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Executing iteration %s/%s...</source>
-        <translation type="unfinished"></translation>
+        <translation>اجرا مکرر %s/%s...</translation>
     </message>
 </context>
 <context>
     <name>APIsDialogPythonConsole</name>
     <message>
         <source>Generating prepared API file (please wait)...</source>
+        <translation>فایل دستورالعمل ها در حال ساخت است .(لططفا صبر کنید )... </translation>
+    </message>
+</context>
+<context>
+    <name>ASCII2DTM</name>
+    <message>
+        <source>Input ESRI ASCII layer</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>واحد نقطه</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>واحد ارتفاع</translation>
+    </message>
+    <message>
+        <source>Coordinate system</source>
+        <translation>سیستم مختصات</translation>
+    </message>
+    <message>
+        <source>Coordinate system zone (&apos;0&apos; for unknown)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output surface</source>
+        <translation>خروجی نقشه</translation>
     </message>
 </context>
 <context>
     <name>AddModelFromFileAction</name>
     <message>
         <source>Add model from file</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن فایل مدل</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
     <message>
         <source>Open model</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مدل</translation>
     </message>
     <message>
         <source>Processing model files (*.model *.MODEL)</source>
-        <translation type="unfinished"></translation>
+        <translation>پردازش فایل مدل(*.model *.MODEL)</translation>
     </message>
     <message>
         <source>Error reading model</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در خواندن مدل</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid model</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل انتخاب شده حاوی مدل معتبر نیست</translation>
     </message>
     <message>
         <source>Cannot read file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خوانده نشده است</translation>
     </message>
 </context>
 <context>
     <name>AddScriptFromFileAction</name>
     <message>
         <source>Add script from file</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن فایل اسکریپت</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
     <message>
         <source>Script files</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل اسکریپت</translation>
     </message>
     <message>
         <source>Script files (*.py *.PY)</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل اسکریپت (*.py *.PY)</translation>
     </message>
     <message>
         <source>Error reading script</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا در خواندن اسکریپت</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid script</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل انتخاب شده حاوی اسکریپت معتبر نیست</translation>
+    </message>
+</context>
+<context>
+    <name>AddTableField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Field name</source>
+        <translation>نام فیلد</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>نوع فیلد</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>طول فیلد</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>دقت فیلد</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>AlgorithmDialog</name>
+    <message>
+        <source>Unmatching CRS&apos;s</source>
+        <translation>سیستم مختصات مطابق نیست</translation>
+    </message>
+    <message>
+        <source>Layers do not all use the same CRS. This can cause unexpected results.
+Do you want to continue?</source>
+        <translation>در این لایه از سیستم مختصات استفاده نشده است. برای ارائه جواب با مشکل مواجه می شوید.
+شما تمایل به ادامه کار هستید؟</translation>
+    </message>
+    <message>
+        <source>Unable to execute algorithm</source>
+        <translation>نمی توان الگوریتم را اجرا کرد</translation>
+    </message>
+    <message>
+        <source>Processing algorithm...</source>
+        <translation>پردازش الگوریتم</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <translation>&lt;b&gt; %sشروع الگوریتم &lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <translation>&lt;b&gt;مقادیر پارامترها از دست رفته: %s&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wrong or missing parameter values</source>
+        <translation>مقادیر پارامترها اشتباه یا از دست رفته است</translation>
+    </message>
+    <message>
+        <source>HTML output has been generated by this algorithm.
+Open the results dialog to check it.</source>
+        <translation>خروجی استاندارد HTML ساخته شده با الگوریتم.
+بازکردن نتیجه در پنجره محاوره .</translation>
     </message>
 </context>
 <context>
     <name>AlgorithmProvider</name>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>فعال</translation>
     </message>
     <message>
         <source>Generic algorithm provider</source>
+        <translation>ارائه دهنده الگوریتم ژنتیک</translation>
+    </message>
+</context>
+<context>
+    <name>AutoincrementalField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>BarPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation>جدول ورودی</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>دسته بندی نام فیلد</translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation>مقدار فیلد</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>BasicStatisticsNumbers</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>ایجاد لایه برداری</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>فیلد محاسبه آماری</translation>
+    </message>
+    <message>
+        <source>Statistics for numeric field</source>
+        <translation>آمار برای فیلد عددی</translation>
+    </message>
+    <message>
+        <source>Coefficient of Variation</source>
+        <translation>ضریب تغییرات</translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>کمترين مقدار</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>بيشترين مقدار</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>مجموع</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation>مقدار متوسط</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>تعداد</translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>محدوده</translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>میانه</translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation>تعداد مقادیر یکتا</translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
+        <translation>انحراف معیار</translation>
+    </message>
+</context>
+<context>
+    <name>BasicStatisticsStrings</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>ایجاد لایه برداری</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>فیلد محاسبه آماری</translation>
+    </message>
+    <message>
+        <source>Statistics for text field</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum length</source>
+        <translation>کمترین طول</translation>
+    </message>
+    <message>
+        <source>Maximum length</source>
+        <translation>بیشتریم طول</translation>
+    </message>
+    <message>
+        <source>Mean length</source>
+        <translation>متوسط طول</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>تعدا</translation>
+    </message>
+    <message>
+        <source>Number of empty values</source>
+        <translation>تعداد مقادیر خالی</translation>
+    </message>
+    <message>
+        <source>Number of non-empty values</source>
+        <translation>تعداد مقادیر غیر خالی</translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation>تعداد مقادیر یکتا</translation>
+    </message>
+</context>
+<context>
+    <name>BatchAlgorithmDialog</name>
+    <message>
+        <source>Batch Processing - %s</source>
+        <translation>پردازش دسته ای - %s</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Missing parameter value: %s (row %d)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;مقادیر پارامترها از دست رفته: %s (سطر %d)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Wrong or missing parameter value: %s (row %d)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;مقادیر پارامترها اشتباه یا از دست رفته است: %s (سطر%d)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Processing algorithm %d/%d...</source>
+        <translation>پردازش الگوریتم %d/%d...</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <translation>&lt;b&gt; %sشروع الگوریتم &lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Algorithm %s correctly executed...</source>
+        <translation>اجراء صحیح %s الگوریتم ...</translation>
+    </message>
+    <message>
+        <source>Batch processing</source>
+        <translation>پردازش دسته ای</translation>
+    </message>
+    <message>
+        <source>Batch processing successfully completed!</source>
+        <translation>پردازش دسته ای به درستی انجام شد!</translation>
     </message>
 </context>
 <context>
     <name>BatchInputSelectionPanel</name>
     <message>
         <source>Select from open layers</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب از لایه های باز شده</translation>
     </message>
     <message>
         <source>Select from filesystem</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب از فایلهای سیستمی</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">باز کردن فایل</translation>
+        <translation>باز کردن فایل</translation>
     </message>
     <message>
         <source>All files(*.*);;</source>
-        <translation type="unfinished"></translation>
+        <translation>همه نوع فایل(*.*);;</translation>
     </message>
 </context>
 <context>
     <name>BatchOutputSelectionPanel</name>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">ذخیره فایل</translation>
+        <translation>ذخیره فایل</translation>
+    </message>
+    <message>
+        <source>Select directory</source>
+        <translation type="unfinished">انتخاب یک مسیر</translation>
     </message>
 </context>
 <context>
-    <name>BatchProcessingDialog</name>
-    <message>
-        <source>Batch Processing - %s</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add row</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delete row</source>
-        <translation type="unfinished"></translation>
-    </message>
+    <name>BatchPanel</name>
     <message>
         <source>Load in QGIS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Missing parameter value: %s (row %d)&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Wrong or missing parameter value: %s (row %d)&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Processing algorithm %d/%d...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Algorithm %s correctly executed...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Batch processing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Batch processing successfully completed!</source>
-        <translation type="unfinished"></translation>
+        <translation>بارگذاری در کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>بله</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hide advanced parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>خیر</translation>
     </message>
 </context>
 <context>
     <name>CalculatorModelerAlgorithm</name>
     <message>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>محاسبه</translation>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل تنها ابزار</translation>
     </message>
     <message>
         <source>Formula</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمول</translation>
     </message>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>نتیجه</translation>
     </message>
     <message>
         <source>Wrong formula: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمول اشتباه : %s</translation>
     </message>
 </context>
 <context>
@@ -243,20 +450,142 @@ See log for more information</source>
     <message>
         <source>You can refer to model values in your formula, using single-letter variables, as follows:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>شما می توانید به مقادیر مدل در فرمول خود مراجعه کنید، استفاده از تکه متنها، به شرح زیر است:
+</translation>
     </message>
     <message>
         <source>
  - No numerical variables are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+- متغییرهای عددی در دسترس نیستند.</translation>
     </message>
     <message>
         <source>[Enter your formula here]</source>
-        <translation type="unfinished"></translation>
+        <translation>[نام فرمول را اینجا وارد کنید]</translation>
     </message>
     <message>
         <source>Calculator</source>
+        <translation>محاسبه</translation>
+    </message>
+</context>
+<context>
+    <name>CanopyMaxima</name>
+    <message>
+        <source>Input FUSION canopy height model</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground .dtm layer [optional]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height threshold</source>
+        <translation>آستانه ارتفاع</translation>
+    </message>
+    <message>
+        <source>Variable window size: parameter A</source>
+        <translation>متغیر اندازه پنجره: پارامتر A</translation>
+    </message>
+    <message>
+        <source>Parameter C</source>
+        <translation>ورودی سی</translation>
+    </message>
+    <message>
+        <source>Summary (tree height summary statistics)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file with maxima</source>
+        <translation>فایل خروجی با حداکثر</translation>
+    </message>
+</context>
+<context>
+    <name>CanopyModel</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation>اندازه سلول</translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>واحد نقطه</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>واحد ارتفاع</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation>خروجی لایه سطح DTM</translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation>ورود لایه زمین DTM</translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>میانه</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation>صاف</translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>شیب</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation>اصلاح اضافی</translation>
+    </message>
+</context>
+<context>
+    <name>Catalog</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output files</source>
+        <translation>فایل خروجی</translation>
+    </message>
+    <message>
+        <source>Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Intensity - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation>اصلاح اضافی</translation>
+    </message>
+</context>
+<context>
+    <name>Centroids</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Error calculating centroid</source>
+        <translation>خطا محاسبه مرکز جرم</translation>
     </message>
 </context>
 <context>
@@ -267,6 +596,206 @@ See log for more information</source>
     </message>
 </context>
 <context>
+    <name>Clip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation>برش لایه</translation>
+    </message>
+    <message>
+        <source>Clipped</source>
+        <translation>کوتاه</translation>
+    </message>
+    <message>
+        <source>GEOS geoprocessing error: One or more input features have invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Clipping extent</source>
+        <translation>برش چهار چوب</translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation>ایجاد پارامترهای میانبر</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByMask</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation>لایه ی ماسک</translation>
+    </message>
+    <message>
+        <source>Create and output alpha band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep resolution of output raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation>ایجاد پارامترهای میانبر</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipData</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extent</source>
+        <translation>حوزه</translation>
+    </message>
+    <message>
+        <source>Shape</source>
+        <translation>فرم</translation>
+    </message>
+    <message>
+        <source>Output clipped las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CloudMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file with tabular metric information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Above</source>
+        <translation>روي</translation>
+    </message>
+    <message>
+        <source>First Impulse</source>
+        <translation>اول ایمپالس</translation>
+    </message>
+    <message>
+        <source>First Return</source>
+        <translation>بازگشت به ابتدا</translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ColorRelief</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color configuration file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Matching mode</source>
+        <translation>حالت تطبیق</translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>CommanderWindow</name>
+    <message>
+        <source>Missing dependency</source>
+        <translation>وابستگی پیدا نشد</translation>
+    </message>
+</context>
+<context>
+    <name>ConcaveHull</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>انتخاب لایه نقطه‌ای</translation>
+    </message>
+    <message>
+        <source>Threshold (0-1, where 1 is equivalent with Convex Hull)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split multipart geometry into singleparts geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Concave hull</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computing edges max length...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing features...</source>
+        <translation>حذف ویژگی ها ...</translation>
+    </message>
+    <message>
+        <source>Dissolving Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saving data...</source>
+        <translation>ذخیره داده ...</translation>
+    </message>
+</context>
+<context>
     <name>ConfigDialog</name>
     <message>
         <source>Search...</source>
@@ -274,27 +803,27 @@ See log for more information</source>
     </message>
     <message>
         <source>Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>تنظيمات</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>ارزش</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">عمومی</translation>
+        <translation>عمومی</translation>
     </message>
     <message>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل ها</translation>
     </message>
     <message>
         <source>Scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>اسکریپت</translation>
     </message>
     <message>
         <source>Providers</source>
-        <translation type="unfinished">ارائه دهنده خدمات</translation>
+        <translation>ارائه دهنده خدمات</translation>
     </message>
     <message>
         <source>Wrong value</source>
@@ -305,6 +834,29 @@ See log for more information</source>
 %1</source>
         <translation>مقدار پارامتر اشتباه:⏎
 %1</translation>
+    </message>
+</context>
+<context>
+    <name>ConvexHull</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Field (optional, only used if creating convex hulls by classes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Convex hull</source>
+        <translation>پوسته محدب (Convex hull)</translation>
+    </message>
+    <message>
+        <source>Exception while computing convex hull</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -351,142 +903,192 @@ See log for more information</source>
     </message>
 </context>
 <context>
-    <name>CouldNotLoadResultsDialog</name>
+    <name>Cover</name>
     <message>
-        <source>Problem loading output layers</source>
+        <source>Input las layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <source>Input ground DTM layer</source>
+        <translation>ورود لایه زمین DTM</translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation>اندازه سلول</translation>
+    </message>
+    <message>
+        <source>Heightbreak</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>واحد نقطه</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>واحد ارتفاع</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation>پوشش</translation>
+    </message>
+</context>
+<context>
+    <name>CreateConstantRaster</name>
+    <message>
+        <source>Reference layer</source>
+        <translation>لایه مرجع</translation>
+    </message>
+    <message>
+        <source>Constant value</source>
+        <translation>مقدار ثابت</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
     <name>CreateNewModelAction</name>
     <message>
         <source>Create new model</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد مدل جدید</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
 </context>
 <context>
     <name>CreateNewScriptAction</name>
     <message>
         <source>Tools</source>
+        <translation>ابزار</translation>
+    </message>
+</context>
+<context>
+    <name>Csv2Grid</name>
+    <message>
+        <source>CSV Files</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Column</source>
+        <translation>ستون</translation>
+    </message>
+    <message>
+        <source>Raster Output file</source>
+        <translation>فایل خروجی رستر</translation>
     </message>
 </context>
 <context>
     <name>DBManager</name>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>پایگاه داده انتخاب نشده یا اتصال با مشکل روبه رو شده است</translation>
     </message>
     <message>
         <source>Select the table you want export to file.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب جدول برای ایجاد خروجی</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">اطلاعات</translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>پیش دید</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">&amp;پایگاه داده‌ها</translation>
+        <translation>&amp;پایگاه داده‌ها</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;طرح</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جدول</translation>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;به روز رسانی</translation>
     </message>
     <message>
         <source>&amp;SQL window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جدول SQL</translation>
     </message>
     <message>
         <source>&amp;Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خروج</translation>
     </message>
     <message>
         <source>&amp;Import layer/file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;وارد کردن لایه</translation>
     </message>
     <message>
         <source>&amp;Export to file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خروجی گرفتن از لایه</translation>
     </message>
 </context>
 <context>
     <name>DBManagerPlugin</name>
     <message>
         <source>Unable to find a valid unique field</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلد یکتا معتبر یافت نشد</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>Select an empty schema for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب طرح خالی برای حذف.</translation>
     </message>
     <message>
         <source>Select a table for editation.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب جدول برای ویرایش.</translation>
     </message>
     <message>
         <source>Select a table/view for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب جدول یا نمایه برای حذف.</translation>
     </message>
     <message>
         <source>Select a table to empty it.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک جدول خالی.</translation>
     </message>
     <message>
         <source>Select a table/view.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب جدول یا نمایه</translation>
     </message>
     <message>
         <source>Server version: </source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه سرور:</translation>
     </message>
     <message>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>میزبان:</translation>
     </message>
     <message>
         <source>User:</source>
-        <translation type="unfinished"></translation>
+        <translation>کاربر:</translation>
     </message>
     <message>
         <source>Library:</source>
-        <translation type="unfinished"></translation>
+        <translation>کتابخانه:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; geometry_columns table doesn&apos;t exist!
@@ -495,23 +1097,23 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>create new schemas</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد طرح جدید</translation>
     </message>
     <message>
         <source>create temporary tables</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد جدول موقت</translation>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>عدم اتصال</translation>
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished"></translation>
+        <translation>جزئیات اتصال</translation>
     </message>
     <message>
         <source>General info</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات عمومی</translation>
     </message>
     <message>
         <source>&lt;warning&gt; %s support not enabled!</source>
@@ -519,167 +1121,163 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt;  این کاربر هیچ امتیازی ندارد!</translation>
     </message>
     <message>
         <source>User has privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>مزایا کاربر:</translation>
     </message>
     <message>
         <source>Privileges</source>
-        <translation type="unfinished"></translation>
+        <translation>مزایا</translation>
     </message>
     <message>
         <source>Owner:</source>
-        <translation type="unfinished"></translation>
+        <translation>مالک:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>توضیح:</translation>
     </message>
     <message>
         <source>create new objects</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد اشیاء جدید</translation>
     </message>
     <message>
         <source>access objects</source>
-        <translation type="unfinished"></translation>
+        <translation>دسترسی اشیاء</translation>
     </message>
     <message>
         <source>Schema details</source>
-        <translation type="unfinished"></translation>
+        <translation>جزئیات طرح</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt;این کاربر هیچ امتیازی برای دسترسی به این طرح را ندارد!</translation>
     </message>
     <message>
         <source>Relation type:</source>
-        <translation type="unfinished"></translation>
+        <translation>نوع اتصال:</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>سطر:</translation>
     </message>
     <message>
         <source>Unknown (&lt;a href=&quot;action:rows/count&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>ناشناخته (&lt;a href=&quot;action:rows/count&quot;&gt;پیداشد&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>خالی</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">پیش فرض</translation>
+        <translation>پیش فرض</translation>
     </message>
     <message>
         <source>Column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون(ها)</translation>
     </message>
     <message>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>تابع</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This is not a spatial table.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt; این یک جدول اطلاعت جغرافیائی نیست.</translation>
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدها</translation>
     </message>
     <message>
         <source>Constraints</source>
-        <translation type="unfinished">اضافه کردن محدودیت</translation>
+        <translation>اضافه کردن محدودیت</translation>
     </message>
     <message>
         <source>Indexes</source>
-        <translation type="unfinished">شاخص</translation>
+        <translation>شاخص</translation>
     </message>
     <message>
         <source>Triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>محرکها</translation>
     </message>
     <message>
         <source>View definition</source>
-        <translation type="unfinished"></translation>
+        <translation>تعریف مشخصات</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون ها:</translation>
     </message>
     <message>
         <source>Geometry:</source>
-        <translation type="unfinished"></translation>
+        <translation>هندسی:</translation>
     </message>
     <message>
         <source>Dimension:</source>
-        <translation type="unfinished"></translation>
+        <translation>ابعاد:</translation>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>تعریف نشده</translation>
     </message>
     <message>
         <source>Spatial ref:</source>
-        <translation type="unfinished"></translation>
+        <translation>سیستم مختصات</translation>
     </message>
     <message>
         <source>Estimated extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>میزان برآورد:</translation>
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>(ناشناخته) (&lt;a href=&quot;action:extent/get&quot;&gt;پیداشد&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
-        <translation type="unfinished"></translation>
+        <translation>حوزه:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No spatial index defined (&lt;a href=&quot;action:spatialindex/create&quot;&gt;create it&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;warning&gt;بدون شاخص فضایی تعریف شده (&lt;a href=&quot;action:spatialindex/create&quot;&gt;ایجاد شد در آن&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Pages:</source>
-        <translation type="unfinished"></translation>
+        <translation>صفحه ها:</translation>
     </message>
     <message>
         <source>Rows (estimation):</source>
-        <translation type="unfinished"></translation>
+        <translation>ردیف(تخمین):</translation>
     </message>
     <message>
         <source>Privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>مزایا:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>این کاربر امتیازات مورد نیاز برای استفاده از این طرح را ندارد!</translation>
     </message>
     <message>
         <source>Rows (counted):</source>
-        <translation type="unfinished"></translation>
+        <translation>ردیف(تعداد):</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has read-only privileges.</source>
@@ -695,7 +1293,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Scripts:</source>
-        <translation type="unfinished"></translation>
+        <translation>اسکریپت:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
@@ -709,19 +1307,19 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">طول</translation>
+        <translation>طول</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>فعال</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>بله</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
@@ -729,119 +1327,123 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Definition</source>
-        <translation type="unfinished"></translation>
+        <translation>مشخصات</translation>
     </message>
     <message>
         <source>Rules</source>
-        <translation type="unfinished"></translation>
+        <translation>قوانین</translation>
     </message>
     <message>
         <source>&amp;Versioning</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نسخه</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جدول</translation>
     </message>
     <message>
         <source>&quot;{0}&quot; not found</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;{0}&quot; پیدا نشد</translation>
     </message>
     <message>
         <source>Filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>نام فایل:</translation>
     </message>
     <message>
         <source>SQLite version:</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه SQLite:</translation>
     </message>
     <message>
         <source>Error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا:
+%s</translation>
     </message>
     <message>
         <source>
 
 Query:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+پرس و جو:
+%s</translation>
     </message>
     <message>
         <source>&amp;Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;اتصال مجدد</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">&amp;پایگاه داده‌ها</translation>
+        <translation>&amp;پایگاه داده‌ها</translation>
     </message>
     <message>
         <source>&amp;Create schema</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ایجاد طرح</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;طرح</translation>
     </message>
     <message>
         <source>&amp;Delete (empty) schema</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حذف طرح (خالی)</translation>
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف انتخاب شده‌</translation>
     </message>
     <message>
         <source>&amp;Create table</source>
-        <translation type="unfinished"></translation>
+        <translation>ايجاد جدول</translation>
     </message>
     <message>
         <source>&amp;Edit table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ویرایش جدول</translation>
     </message>
     <message>
         <source>&amp;Delete table/view</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف جدول/نمایش</translation>
     </message>
     <message>
         <source>&amp;Empty table</source>
-        <translation type="unfinished"></translation>
+        <translation>جدول &amp;خالی</translation>
     </message>
     <message>
         <source>&amp;Move to schema</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جابجائی طرح</translation>
     </message>
     <message>
         <source>Cannot delete the selected item.</source>
-        <translation type="unfinished"></translation>
+        <translation>گزسنه انتخاب شده را نمی توان حذف نمود.</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>پایگاه داده انتخاب نشده یا اتصال با مشکل روبه رو شده است</translation>
     </message>
     <message>
         <source>New schema</source>
-        <translation type="unfinished"></translation>
+        <translation>طرح جدید</translation>
     </message>
     <message>
         <source>Enter new schema name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام جدید طرح</translation>
     </message>
     <message>
         <source>hey!</source>
-        <translation type="unfinished"></translation>
+        <translation>هی!</translation>
     </message>
     <message>
         <source>Really delete schema %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>واقعا میخواهید شمای %s پاک شود؟</translation>
     </message>
     <message>
         <source>Really delete table/view %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>واقعا میخواهید جدول/نمای %s حذف شود؟</translation>
     </message>
     <message>
         <source>Really delete all items from table %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>واقعا میخواهید تمامی اطلاعات از جدول %s حذف شود؟</translation>
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
@@ -849,7 +1451,7 @@ Query:
     </message>
     <message>
         <source>Table triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>محرکهای جدول</translation>
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
@@ -857,7 +1459,7 @@ Query:
     </message>
     <message>
         <source>Table trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>محرک جدول</translation>
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
@@ -865,73 +1467,88 @@ Query:
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخص سیستم مختصات</translation>
     </message>
     <message>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>بررسی</translation>
     </message>
     <message>
         <source>Primary key</source>
-        <translation type="unfinished">کليد اصلي</translation>
+        <translation>کليد اصلي</translation>
     </message>
     <message>
         <source>Foreign key</source>
-        <translation type="unfinished"></translation>
+        <translation>کلید خارجی</translation>
     </message>
     <message>
         <source>Unique</source>
-        <translation type="unfinished">يکتا</translation>
+        <translation>يکتا</translation>
     </message>
     <message>
         <source>Exclusion</source>
-        <translation type="unfinished"></translation>
+        <translation>خارج کردن</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ناشناخته</translation>
+    </message>
+    <message>
+        <source>&lt;warning&gt; There is no entry in geometry_columns!</source>
+        <translation>&lt;warning&gt; فاقد ستون داده های جغرافیادی است!</translation>
     </message>
 </context>
 <context>
     <name>DBModel</name>
     <message>
         <source>Databases</source>
-        <translation type="unfinished"></translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Invalid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه نامعتبر</translation>
     </message>
     <message>
         <source>Unable to load the layer %s</source>
-        <translation type="unfinished"></translation>
+        <translation>قادر به بارگیری لایه %s نیست</translation>
     </message>
 </context>
 <context>
     <name>DBTree</name>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییرنام</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Add to canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن به صفحه ترسیم</translation>
     </message>
     <message>
         <source>Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>اتصال مجدد</translation>
     </message>
     <message>
         <source>%1 is an invalid layer - not loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه %1 معتبر نیست - بارگذاری نمی شود</translation>
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded. Please check the &lt;a href=&quot;#messageLog&quot;&gt;message log&lt;/a&gt; for further info.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DTM2TIF</name>
+    <message>
+        <source>Input .dtm layer</source>
+        <translation>ورود لایه  dtm.</translation>
+    </message>
+    <message>
+        <source>Output file name</source>
+        <translation>نام فایل خروجی</translation>
     </message>
 </context>
 <context>
@@ -1187,7 +1804,7 @@ Query:
     </message>
     <message>
         <source>Drop existing table</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف جدول های موجود</translation>
     </message>
 </context>
 <context>
@@ -1202,11 +1819,11 @@ Query:
     </message>
     <message>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>مرتب</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>&amp;Execute (F5)</source>
@@ -1341,32 +1958,103 @@ columns</source>
     </message>
 </context>
 <context>
+    <name>Delaunay</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Delaunay triangulation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DeleteColumn</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Field to delete</source>
+        <translation>حذف فیلد</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>DeleteDuplicateGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
     <name>DeleteModelAction</name>
     <message>
         <source>Delete model</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف مدل</translation>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>تایید</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this model?</source>
-        <translation type="unfinished"></translation>
+        <translation>آیا مطمئن هستید که می خواهید این مدل را حذف کنید؟</translation>
     </message>
 </context>
 <context>
     <name>DeleteScriptAction</name>
     <message>
         <source>Delete script</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف اسکریپت</translation>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>تایید</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this script?</source>
+        <translation>آیا مطمئن هستید که می خواهید این اسکریپت را حذف کنید؟</translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Vertices to add</source>
+        <translation>اضافه کردن راس</translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometriesInterval</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Interval between vertices to add</source>
+        <translation>فاصله بین راس برای اضافه کردن</translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2066,7 +2754,8 @@ This may cause unexpected results.</source>
     <message>
         <source>Can&apos;t delete existing shapefile
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>نمی توان فایلهای ترسیم شده را حذف نمود
+%s</translation>
     </message>
     <message>
         <source>Split vector layer</source>
@@ -2102,19 +2791,22 @@ This may cause unexpected results.</source>
     </message>
     <message>
         <source>Can&apos;t delete file %s</source>
-        <translation type="unfinished"></translation>
+        <translation>نمی توان حذف کرد فایل %s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>خطای در بارگذاری فایل ترسیمی خروجی: 
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد خروجی فایل ترسیمی در مسیر:
+%s
+می خواهید لایه را اضافه کنید ؟</translation>
     </message>
     <message>
         <source>Please specify input vector layer</source>
@@ -2127,7 +2819,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Defined Projection For:
 %s.shp</source>
-        <translation type="unfinished"></translation>
+        <translation>تعریف طرح ریزی برای :
+%s.shp</translation>
     </message>
     <message>
         <source>Random Points</source>
@@ -2159,26 +2852,30 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Selected features: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>عوارض انتخاب شده : %1</translation>
     </message>
     <message>
         <source>Commit error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>بروز خطا:
+%1</translation>
     </message>
     <message>
         <source>Could not replace geometry of feature with id %s</source>
-        <translation type="unfinished"></translation>
+        <translation>جایگزین کردن عارضه هندسی با این شناسه امکانپذیر نیست:
+%1</translation>
     </message>
     <message>
         <source>Could not eliminate features with these ids:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>برش زدن عوارض با این شناسه ها امکانپذیر نیست:
+%1</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد خروجی فایل ترسیمی :
+%s</translation>
     </message>
     <message>
         <source>Line intersections</source>
@@ -2208,7 +2905,9 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Currently QGIS doesn&apos;t allow simultaneous access from different threads to the same datasource. Make sure your layer&apos;s attribute tables are closed. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال حاضر QGIS دسترسی موضوعات مختلف بصورت همزمان
+                                 به همان منبع را اجازه نمی دهد . اطمینان حاصل کنید که
+                                 لایه خود را در جدول ویژگی ها بسته اید . ادامه می دهید ؟</translation>
     </message>
     <message>
         <source>Distance matrix</source>
@@ -2233,11 +2932,6 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Please specify target unique ID field</source>
         <translation>لطفا هدف فیلد یکتا را معیین کنید</translation>
-    </message>
-    <message>
-        <source>Created output matrix:
-</source>
-        <translation>ایجاد ماتریکس خروجی :</translation>
     </message>
     <message>
         <source>Finished</source>
@@ -2341,7 +3035,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Please specify an input layer</source>
-        <translation type="unfinished">لطفا لایه ورودی را مشخص کنید</translation>
+        <translation>لطفا لایه ورودی را مشخص کنید</translation>
     </message>
     <message>
         <source>Simplify results</source>
@@ -2377,19 +3071,19 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Include input features that touch the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>ویژگی های ورودی است که شامل لمس ویژگی های انتخاب است</translation>
     </message>
     <message>
         <source>Include input features that overlap/cross the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>ویژگی های ورودی است که شامل همپوشانی / متقابل ویژگی های انتخاب است</translation>
     </message>
     <message>
         <source>Include input features completely within the selection features</source>
-        <translation type="unfinished"></translation>
+        <translation>ویژگی های ورودی است که به طور کامل در داخل ویژگی های انتخاب است</translation>
     </message>
     <message>
         <source>Only selected features</source>
-        <translation type="unfinished"></translation>
+        <translation>مشخصه‌های انتخاب شده</translation>
     </message>
     <message>
         <source>Please specify select layer</source>
@@ -2415,12 +3109,234 @@ Are you sure you want to proceed?</source>
         <source>Could not add features</source>
         <translation>امکان افزودن عوارض نیست</translation>
     </message>
+    <message>
+        <source>Dialog</source>
+        <translation>محاوره</translation>
+    </message>
+    <message>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>راهنما</translation>
+    </message>
+    <message>
+        <source>about:blank</source>
+        <translation>راجع به: خالی</translation>
+    </message>
+    <message>
+        <source>Include input features that intersect the selection features</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Difference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation>اختلاف لایه</translation>
+    </message>
+    <message>
+        <source>Difference</source>
+        <translation>اختلاف</translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistDown</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Raster Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weight Path Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistUp</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Proportion Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Distance Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum2</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Dissolve</name>
+    <message>
+        <source>Geometry exception while dissolving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Dissolve all (do not use field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>مشخصه فیلد یکتا</translation>
+    </message>
+    <message>
+        <source>Dissolved</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DlgAddGeometryColumn</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2469,7 +3385,7 @@ Are you sure you want to proceed?</source>
     <name>DlgCreateIndex</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Please enter some name for the index</source>
@@ -2480,15 +3396,15 @@ Are you sure you want to proceed?</source>
     <name>DlgCreateTable</name>
     <message>
         <source>&amp;Create</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ایجاد</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>no field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدی انتخاب نشده است</translation>
     </message>
     <message>
         <source>field is at top already</source>
@@ -2496,7 +3412,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>No field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدی انتخاب نشده</translation>
     </message>
     <message>
         <source>field is at bottom already</source>
@@ -2535,7 +3451,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل وکتور Esri</translation>
     </message>
     <message>
         <source>Export to file</source>
@@ -2567,7 +3483,7 @@ Are you sure you want to proceed?</source>
     <name>DlgFieldProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2579,6 +3495,13 @@ Are you sure you want to proceed?</source>
     </message>
 </context>
 <context>
+    <name>DlgFixedTable</name>
+    <message>
+        <source>Fixed table</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DlgGetScriptsAndModels</name>
     <message>
         <source>Get scripts and models</source>
@@ -2586,7 +3509,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished"></translation>
+        <translation>راجع به: خالی</translation>
     </message>
 </context>
 <context>
@@ -2619,15 +3542,15 @@ Are you sure you want to proceed?</source>
     <name>DlgImportVector</name>
     <message>
         <source>Choose the file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب فایل برای ورود</translation>
     </message>
     <message>
         <source>Import to database</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن به پایگاه داده</translation>
     </message>
     <message>
         <source>Input layer missing or not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه واردشده گم شده یا معتبر نیست</translation>
     </message>
     <message>
         <source>Output table name is required</source>
@@ -2648,7 +3571,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">ورود موفق بود.</translation>
+        <translation>ورود موفق بود.</translation>
     </message>
 </context>
 <context>
@@ -2659,15 +3582,15 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Open model</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن مدل</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -2705,6 +3628,22 @@ Are you sure you want to proceed?</source>
         <source>Enter group name here</source>
         <translation>نام گروه را اینجا وارد کنید</translation>
     </message>
+    <message>
+        <source>Ctrl+O</source>
+        <translation>Ctrl+O</translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
 </context>
 <context>
     <name>DlgMultipleSelection</name>
@@ -2732,15 +3671,15 @@ Are you sure you want to proceed?</source>
     <name>DlgRenderingStyles</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">خروجی</translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
 </context>
 <context>
@@ -2762,11 +3701,11 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -2786,7 +3725,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -2794,11 +3733,51 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Undo</source>
-        <translation type="unfinished">خنثی کردن</translation>
+        <translation>خنثی کردن</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation type="unfinished">ازنو</translation>
+        <translation>ازنو</translation>
+    </message>
+    <message>
+        <source>Open script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+O, Return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
+    <message>
+        <source>Ctrl+X</source>
+        <translation>Ctrl+X</translation>
+    </message>
+    <message>
+        <source>Ctrl+C</source>
+        <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <source>Ctrl+V</source>
+        <translation>Ctrl+V</translation>
+    </message>
+    <message>
+        <source>Ctrl+Z</source>
+        <translation>Ctrl+Z</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+Z</source>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
 </context>
 <context>
@@ -2809,7 +3788,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>You must fill the required fields: 
@@ -2822,7 +3801,7 @@ geometry column - column with unique integer values</source>
     <name>DlgTableProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
     <message>
         <source>nothing selected</source>
@@ -2917,6 +3896,53 @@ geometry column - column with unique integer values</source>
     </message>
 </context>
 <context>
+    <name>DropAnalysis</name>
+    <message>
+        <source>D8 Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accumulated Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spacing for Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>EditModelAction</name>
     <message>
         <source>Edit model</source>
@@ -2928,6 +3954,145 @@ geometry column - column with unique integer values</source>
     <message>
         <source>Edit script</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Eliminate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Use current selection in input layer (works only if called from toolbox)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>انتخاب ویژگی</translation>
+    </message>
+    <message>
+        <source>Comparison</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ارزش</translation>
+    </message>
+    <message>
+        <source>Merge selection with the neighbouring polygon with the</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cleaned layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to integer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to unicode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with system date format %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with format string &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the date and the date format, e.g. &quot;07.26.2011&quot; &quot;MM.dd.yyyy&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%s&quot; can only be used with string fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error in selection input: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s: (No selection in input layer &quot;%s&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not replace geometry of feature with id %s</source>
+        <translation>جایگزین کردن عارضه هندسی با این شناسه امکانپذیر نیست:
+%1</translation>
+    </message>
+</context>
+<context>
+    <name>EquivalentNumField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation>کلاس فیلد</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>ExampleAlgorithm</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation>خروجی لایه با انتخاب ویژگی ها</translation>
+    </message>
+</context>
+<context>
+    <name>Explode</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>ExportGeometryInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Calculate using</source>
+        <translation>استفاده از محاسبه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>ExtentFromLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Calculate extent for each feature separately</source>
+        <translation>محاسبات در چهار چوب برای موضوع بصورت جداگانه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
@@ -2948,28 +4113,120 @@ geometry column - column with unique integer values</source>
         <source>Use min covering extent from input layers</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Select extent</source>
+        <translation>انتخاب چهارچوب</translation>
+    </message>
+    <message>
+        <source>Use extent from</source>
+        <translation>استفاده از  چهارچوب خارجی</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>انتخاب ویژگی</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation>عملگر</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ارزش</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation>فیلد عددی</translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation>فیلد متنی</translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation>حذف فیلد</translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractNodes</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractProjection</name>
+    <message>
+        <source>Input file</source>
+        <translation>فایل ورودی</translation>
+    </message>
+    <message>
+        <source>Create also .prj file</source>
+        <translation>همچنین یک فایل Prj نیز ایجاد می‌کند</translation>
+    </message>
 </context>
 <context>
     <name>FieldsCalculator</name>
     <message>
         <source>Field calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>ماشین حساب فیلد</translation>
     </message>
     <message>
         <source>Create a new field</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد فیلد جدید</translation>
     </message>
     <message>
         <source>Output field name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام فیلد خروجی</translation>
     </message>
     <message>
         <source>Output field type</source>
-        <translation type="unfinished"></translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Output field width</source>
-        <translation type="unfinished"></translation>
+        <translation>عرض فیلد خروجی</translation>
     </message>
     <message>
         <source>Width of complete output. For example 123,456 means 6 as field width.</source>
@@ -2977,23 +4234,68 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Input layer</source>
-        <translation type="unfinished">انتخاب لایه</translation>
+        <translation>انتخاب لایه</translation>
     </message>
     <message>
         <source>Update existing field</source>
-        <translation type="unfinished"></translation>
+        <translation>به روز رسانی های موجود فیلد</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation>نام فیلد خروجی</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>نوع فیلد</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>طول فیلد</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>دقت فیلد</translation>
+    </message>
+    <message>
+        <source>Create new field</source>
+        <translation>ايجاد فايل جديد</translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>فرمول</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Evaluation error: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occured while evaluating the calculation string:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field name is not set. Please enter a field name</source>
+        <translation>نام فیلد وارد نشده. لطفا نام فیلد را وارد کنید</translation>
+    </message>
+    <message>
+        <source>Output is not set. Please specify valid filename</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3004,14 +4306,94 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">ذخیره فایل</translation>
+        <translation>ذخیره فایل</translation>
     </message>
     <message>
         <source>Unable to execute algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>نمی توان الگوریتم را اجرا کرد</translation>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
+        <translation>مقادیر پارامترها اشتباه یا از دست رفته است</translation>
+    </message>
+</context>
+<context>
+    <name>FieldsMapper</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Fields mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Parser error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Evaluation error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occurred while evaluating the calculation string:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FieldsPyculator</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation>نام فیلد خروجی</translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation>نوع فیلد</translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation>طول فیلد</translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation>دقت فیلد</translation>
+    </message>
+    <message>
+        <source>Global expression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>فرمول</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Global code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Field code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error
+Field code block does not return &apos;%s1&apos; variable! Please declare this variable in your code!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3019,49 +4401,102 @@ geometry column - column with unique integer values</source>
     <name>FileDirectorySelector</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select directory</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک مسیر</translation>
     </message>
     <message>
         <source>Select file</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک فایل</translation>
     </message>
     <message>
         <source>All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>همه نوع فایل(*.*)</translation>
     </message>
 </context>
 <context>
     <name>FileSelectionPanel</name>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Select folder</source>
+        <translation>انتخاب شاخه</translation>
     </message>
     <message>
-        <source>Select folder</source>
+        <source>Select file</source>
+        <translation>انتخاب یک فایل</translation>
+    </message>
+</context>
+<context>
+    <name>FilterData</name>
+    <message>
+        <source>Input las layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open file</source>
-        <translation type="unfinished">باز کردن فایل</translation>
+        <source>Standard Deviation multiplier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Window size</source>
+        <translation>اندازه پنجره</translation>
+    </message>
+    <message>
+        <source>Output filtered las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FirstLastReturn</name>
+    <message>
+        <source>Input .las</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use LAS info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layers</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>FixedDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Distance</source>
+        <translation>فاصله</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>بخش</translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
+        <translation>نتیجه تلاقی</translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>بافر</translation>
     </message>
 </context>
 <context>
     <name>FixedTableDialog</name>
     <message>
-        <source>Fixed Table</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add row</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن سطر</translation>
     </message>
     <message>
-        <source>Remove row</source>
-        <translation type="unfinished"></translation>
+        <source>Remove row(s)</source>
+        <translation>حذف سطر(ها)</translation>
+    </message>
+    <message>
+        <source>Remove all</source>
+        <translation>حذف همه</translation>
     </message>
 </context>
 <context>
@@ -3070,9 +4505,162 @@ geometry column - column with unique integer values</source>
         <source>Fixed table %dx%d</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>فرم</translation>
+    </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Toggle advanced mode</source>
+        <translation>حالت پیشرفته</translation>
+    </message>
+    <message>
+        <source>Add row</source>
+        <translation>اضافه کردن سطر</translation>
+    </message>
+    <message>
+        <source>Remove row(s)</source>
+        <translation>حذف سطر(ها)</translation>
+    </message>
+    <message>
+        <source>Iterate over this layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open number input dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced parameters</source>
+        <translation>پارامترهای پیشرفته</translation>
+    </message>
+    <message>
+        <source>Min</source>
+        <translation>حداقل</translation>
+    </message>
+    <message>
+        <source>Max</source>
+        <translation>حد بالا</translation>
+    </message>
+    <message>
+        <source>Fields</source>
+        <translation>فیلدها</translation>
+    </message>
+    <message>
+        <source>Add new field</source>
+        <translation>اضافه کردن فيلد جدید</translation>
+    </message>
+    <message>
+        <source>add</source>
+        <translation>اضافه</translation>
+    </message>
+    <message>
+        <source>Delete selected field</source>
+        <translation>حذف فیلد انتخاب شده‌</translation>
+    </message>
+    <message>
+        <source>delete</source>
+        <translation>حذف</translation>
+    </message>
+    <message>
+        <source>Move selected field up</source>
+        <translation>انتقال فیلد انتخاب شده به بالا</translation>
+    </message>
+    <message>
+        <source>up</source>
+        <translation>بالا</translation>
+    </message>
+    <message>
+        <source>Move selected field down</source>
+        <translation>انتقال فیلد انتخاب شده به پائین</translation>
+    </message>
+    <message>
+        <source>down</source>
+        <translation>پايين</translation>
+    </message>
+    <message>
+        <source>Reset all fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields from layer</source>
+        <translation>بارگزاری فیلدها از لایه ها</translation>
+    </message>
+    <message>
+        <source>Load fields from selected layer</source>
+        <translation>انتخاب لایه برای بارگزاری فیلدها</translation>
+    </message>
+    <message>
+        <source>Load fields</source>
+        <translation>بارگذاری فیلدها</translation>
+    </message>
+    <message>
+        <source>equals</source>
+        <translation>برابر</translation>
+    </message>
+    <message>
+        <source>contains</source>
+        <translation>شامل</translation>
+    </message>
+    <message>
+        <source>touches</source>
+        <translation>لمس</translation>
+    </message>
+    <message>
+        <source>intersects</source>
+        <translation>برخورد</translation>
+    </message>
+    <message>
+        <source>within</source>
+        <translation>داخل</translation>
+    </message>
+    <message>
+        <source>overlaps</source>
+        <translation>همپوشانی</translation>
+    </message>
+    <message>
+        <source>crosses</source>
+        <translation>تلاقی</translation>
+    </message>
+    <message>
+        <source>disjoint</source>
+        <translation>متلاشی شدن</translation>
+    </message>
+</context>
+<context>
+    <name>FusionAlgorithm</name>
+    <message>
+        <source>Fusion folder is not configured.
+Please configure it before running Fusion algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation>اصلاح اضافی</translation>
+    </message>
+</context>
+<context>
+    <name>FusionUtils</name>
+    <message>
+        <source>Fusion execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GdalOgrAlgorithmProvider</name>
+    <message>
+        <source>GDAL/OGR</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3113,7 +4701,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>ورژن Quantum GIS شناسایی شد:</translation>
     </message>
     <message>
         <source>This version of Gdal Tools requires at least QGIS version 1.0.0
@@ -3127,91 +4715,91 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Warp (Reproject)...</source>
-        <translation type="unfinished"></translation>
+        <translation>عمل Warp (دوباره تصویرکردن)...</translation>
     </message>
     <message>
         <source>Assign Projection...</source>
-        <translation type="unfinished"></translation>
+        <translation>تخصیص طرح نقشه...</translation>
     </message>
     <message>
         <source>Extract Projection...</source>
-        <translation type="unfinished"></translation>
+        <translation>استخراج تصویر کردن...</translation>
     </message>
     <message>
         <source>Rasterize (Vector to Raster)...</source>
-        <translation type="unfinished"></translation>
+        <translation>رستری کردن(تبدیل بردار به تصویر)...</translation>
     </message>
     <message>
         <source>Polygonize (Raster to Vector)...</source>
-        <translation type="unfinished"></translation>
+        <translation>چند ضلعی کردن(تبدیل رستر به بردار)...</translation>
     </message>
     <message>
         <source>Translate (Convert Format)...</source>
-        <translation type="unfinished"></translation>
+        <translation>تفسیر کردن(تبدیل فرمت)...</translation>
     </message>
     <message>
         <source>RGB to PCT...</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر RGB به PCT</translation>
     </message>
     <message>
         <source>PCT to RGB...</source>
-        <translation type="unfinished"></translation>
+        <translation>تبدیل PCT به RGB</translation>
     </message>
     <message>
         <source>Contour...</source>
-        <translation type="unfinished"></translation>
+        <translation>حد فاصل</translation>
     </message>
     <message>
         <source>Clipper...</source>
-        <translation type="unfinished"></translation>
+        <translation>کلیپر</translation>
     </message>
     <message>
         <source>Sieve...</source>
-        <translation type="unfinished"></translation>
+        <translation>غربال کردن</translation>
     </message>
     <message>
         <source>Near Black...</source>
-        <translation type="unfinished"></translation>
+        <translation>بلوک نزدیک...</translation>
     </message>
     <message>
         <source>Fill nodata...</source>
-        <translation type="unfinished"></translation>
+        <translation>پرکردن با Nodata...</translation>
     </message>
     <message>
         <source>Proximity (Raster Distance)...</source>
-        <translation type="unfinished"></translation>
+        <translation>مجاورت(فاصله رستری)...</translation>
     </message>
     <message>
         <source>Grid (Interpolation)...</source>
-        <translation type="unfinished"></translation>
+        <translation>شبکه(درونیابی)...</translation>
     </message>
     <message>
         <source>DEM (Terrain Models)...</source>
-        <translation type="unfinished"></translation>
+        <translation>DEM(مدل زمین)...</translation>
     </message>
     <message>
         <source>Build Virtual Raster (Catalog)...</source>
-        <translation type="unfinished"></translation>
+        <translation>ساخت Raster مجازی (کاتالوگ)...</translation>
     </message>
     <message>
         <source>Merge...</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام</translation>
     </message>
     <message>
         <source>Information...</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>Build Overviews (Pyramids)...</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد یک دید کلی(از نوع هرمی)...</translation>
     </message>
     <message>
         <source>Tile Index...</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایه کاشی...</translation>
     </message>
     <message>
         <source>GdalTools Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>تنظیمات GdaTools...</translation>
     </message>
     <message>
         <source>Warp an image into a new coordinate system</source>
@@ -3489,11 +5077,11 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Output size or resolution required</source>
-        <translation type="unfinished"></translation>
+        <translation>اندازه خروجی وضوح لازم است</translation>
     </message>
     <message>
         <source>The output file doesn&apos;t exist. You must set up the output size or resolution to create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی موجود نیست.باید برای ایجاد آن اندازه خروجی را تنظیم کنید.</translation>
     </message>
     <message>
         <source>Select the input file for Translate</source>
@@ -3810,7 +5398,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Recurse subdirectories</source>
-        <translation type="unfinished">جستجوی بازگشتی زیرفهرستها</translation>
+        <translation>جستجوی بازگشتی زیرفهرستها</translation>
     </message>
     <message>
         <source>&amp;Output file</source>
@@ -3902,7 +5490,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Batch mode (for processing whole directory)</source>
-        <translation type="unfinished">حالت پردازش دسته‌ای(برای پردازش تمام فهرست)</translation>
+        <translation>حالت پردازش دسته‌ای(برای پردازش تمام فهرست)</translation>
     </message>
     <message>
         <source>&amp;Input file</source>
@@ -3914,19 +5502,19 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Band to convert</source>
-        <translation type="unfinished"></translation>
+        <translation>تبدیل به باند</translation>
     </message>
     <message>
         <source>DEM (Terrain models)</source>
-        <translation type="unfinished"></translation>
+        <translation>DEM(مدل زمین)</translation>
     </message>
     <message>
         <source>&amp;Input file (DEM raster)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فایل ورودی (DEM Raster)</translation>
     </message>
     <message>
         <source>&amp;Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;باند</translation>
     </message>
     <message>
         <source>Compute &amp;edges</source>
@@ -3946,7 +5534,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Slope</source>
-        <translation type="unfinished"></translation>
+        <translation>شیب</translation>
     </message>
     <message>
         <source>Aspect</source>
@@ -4006,7 +5594,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Matching mode</source>
-        <translation type="unfinished"></translation>
+        <translation>حالت تطبیق</translation>
     </message>
     <message>
         <source>Exact color (otherwise &quot;0,0,0,0&quot; RGBA)</source>
@@ -4058,7 +5646,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Grid (Interpolation)</source>
-        <translation type="unfinished"></translation>
+        <translation>شبکه(درونیابی)</translation>
     </message>
     <message>
         <source>&amp;Z Field</source>
@@ -4130,7 +5718,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Range</source>
-        <translation type="unfinished"></translation>
+        <translation>محدوده</translation>
     </message>
     <message>
         <source>Resize</source>
@@ -4150,7 +5738,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Raster info</source>
-        <translation type="unfinished"></translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>Suppress GCP printing</source>
@@ -4162,7 +5750,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام</translation>
     </message>
     <message>
         <source>Layer stack</source>
@@ -4190,7 +5778,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Build overviews (Pyramids)</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد یک دید کلی(از نوع هرمی)</translation>
     </message>
     <message>
         <source>Remove all overviews.</source>
@@ -4202,7 +5790,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Polygonize (Raster to vector)</source>
-        <translation type="unfinished"></translation>
+        <translation>پلیگون(چند ضلعی) کردن(تبدیل رستر به بردار)</translation>
     </message>
     <message>
         <source>&amp;Output file for polygons (shapefile)</source>
@@ -4222,7 +5810,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Assign projection</source>
-        <translation type="unfinished">تخصیص طرح نقشه</translation>
+        <translation>تخصیص طرح نقشه</translation>
     </message>
     <message>
         <source>WARNING: current projection definition will be cleared</source>
@@ -4240,11 +5828,11 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished">انتخاب ...</translation>
+        <translation>انتخاب ...</translation>
     </message>
     <message>
         <source>Proximity (Raster distance)</source>
-        <translation type="unfinished"></translation>
+        <translation>مجاورت(فاصله رستری)</translation>
     </message>
     <message>
         <source>&amp;Values</source>
@@ -4280,7 +5868,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Rasterize (Vector to raster)</source>
-        <translation type="unfinished"></translation>
+        <translation>رستری کردن(تبدیل بردار به تصویر)</translation>
     </message>
     <message>
         <source>&amp;Input file (shapefile)</source>
@@ -4308,7 +5896,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Vertical</source>
@@ -4316,7 +5904,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Sieve</source>
-        <translation type="unfinished"></translation>
+        <translation>غربال کردن</translation>
     </message>
     <message>
         <source>&amp;Threshold</source>
@@ -4364,7 +5952,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Translate (Convert format)</source>
-        <translation type="unfinished"></translation>
+        <translation>تفسیر کردن(تبدیل فرمت)</translation>
     </message>
     <message>
         <source>&amp;Target SRS</source>
@@ -4380,7 +5968,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Assign a specified nodata value to output bands.</source>
@@ -4434,7 +6022,7 @@ The &apos;gray&apos; value (from GDAL 1.7.0) enables to expand a dataset with a 
     </message>
     <message>
         <source>Warp (Reproject)</source>
-        <translation type="unfinished"></translation>
+        <translation>عمل Warp (دوباره تصویرکردن)</translation>
     </message>
     <message>
         <source>&amp;Source SRS</source>
@@ -4516,6 +6104,25 @@ See log for more details</source>
     </message>
 </context>
 <context>
+    <name>GeometryConvert</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>New geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Cannot convert from %s to %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>GeometryDialog</name>
     <message>
         <source>Merge all</source>
@@ -4523,15 +6130,15 @@ See log for more details</source>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished">هندسی</translation>
+        <translation>هندسی</translation>
     </message>
     <message>
         <source>Please specify input vector layer</source>
-        <translation type="unfinished">لطفا  لایه برداری را معین کنید</translation>
+        <translation>لطفا  لایه برداری را معین کنید</translation>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation type="unfinished">لطفا فایل خروجی را معین کنید</translation>
+        <translation>لطفا فایل خروجی را معین کنید</translation>
     </message>
     <message>
         <source>Please specify valid tolerance value</source>
@@ -4547,7 +6154,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Output shapefile</source>
-        <translation type="unfinished">خروجی shapefile</translation>
+        <translation>خروجی shapefile</translation>
     </message>
     <message>
         <source>Multipart to singleparts</source>
@@ -4563,7 +6170,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input polygon vector layer</source>
-        <translation type="unfinished">انتخاب لایه چندضلعی برداری</translation>
+        <translation>انتخاب لایه چندضلعی برداری</translation>
     </message>
     <message>
         <source>Export/Add geometry columns</source>
@@ -4571,7 +6178,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input vector layer</source>
-        <translation type="unfinished">ایجاد لایه برداری</translation>
+        <translation>ایجاد لایه برداری</translation>
     </message>
     <message>
         <source>Layer CRS</source>
@@ -4591,7 +6198,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation type="unfinished">مقصد خروجی فایل (shapefile)</translation>
+        <translation>مقصد خروجی فایل (shapefile)</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -4599,7 +6206,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input point vector layer</source>
-        <translation type="unfinished">انتخاب لایه نقطه‌ای برداری</translation>
+        <translation>انتخاب لایه نقطه‌ای برداری</translation>
     </message>
     <message>
         <source>Voronoi polygon</source>
@@ -4615,7 +6222,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input line vector layer</source>
-        <translation type="unfinished">انتخاب لایه خطی برداری</translation>
+        <translation>انتخاب لایه خطی برداری</translation>
     </message>
     <message>
         <source>Polygon from layer extent</source>
@@ -4635,11 +6242,13 @@ See log for more details</source>
     </message>
     <message>
         <source>Currently QGIS doesn&apos;t allow simultaneous access from different threads to the same datasource. Make sure your layer&apos;s attribute tables are closed. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>در حال حاضر QGIS دسترسی موضوعات مختلف بصورت همزمان
+                                 به همان منبع را اجازه نمی دهد . اطمینان حاصل کنید که
+                                 لایه خود را در جدول ویژگی ها بسته اید . ادامه می دهید ؟</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Error processing specified tolerance!
@@ -4663,7 +6272,8 @@ Please choose another field...</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>خطای در بارگذاری فایل ترسیمی خروجی: 
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -4688,7 +6298,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Geoprocessing</source>
-        <translation type="unfinished">پردازش جغرافیایی</translation>
+        <translation>پردازش جغرافیایی</translation>
     </message>
     <message>
         <source>Please specify an input layer</source>
@@ -4708,7 +6318,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation type="unfinished">لطفا فایل خروجی را معین کنید</translation>
+        <translation>لطفا فایل خروجی را معین کنید</translation>
     </message>
     <message>
         <source>No features selected, please uncheck &apos;Use selected&apos; or make a selection</source>
@@ -4716,7 +6326,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Buffer(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>بافر</translation>
     </message>
     <message>
         <source>Create single minimum convex hull</source>
@@ -4728,7 +6338,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Convex hull(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>پوسته محدب (Convex hull)</translation>
     </message>
     <message>
         <source>Dissolve</source>
@@ -4736,15 +6346,15 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Difference layer</source>
-        <translation type="unfinished"></translation>
+        <translation>اختلاف لایه</translation>
     </message>
     <message>
         <source>Difference</source>
-        <translation type="unfinished"></translation>
+        <translation>اختلاف</translation>
     </message>
     <message>
         <source>Intersect layer</source>
-        <translation type="unfinished">برش لایه</translation>
+        <translation>برش لایه</translation>
     </message>
     <message>
         <source>Intersect</source>
@@ -4752,7 +6362,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Clip layer</source>
-        <translation type="unfinished"></translation>
+        <translation>برش لایه</translation>
     </message>
     <message>
         <source>Clip</source>
@@ -4772,11 +6382,11 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <source>No output created. File creation error:
@@ -4792,7 +6402,8 @@ Please choose another field...</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>خطای در بارگذاری فایل ترسیمی خروجی: 
+%s</translation>
     </message>
     <message>
         <source>
@@ -4839,7 +6450,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
     <message>
         <source>Connection problem</source>
@@ -4858,7 +6469,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
     <message>
         <source>Connection problem</source>
@@ -4871,10 +6482,6 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
 </context>
 <context>
     <name>GetScriptsAndModelsDialog</name>
-    <message>
-        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Upgradable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Installed</source>
         <translation type="unfinished"></translation>
@@ -4911,6 +6518,10 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
         <source>Could not download file: %s</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Updatable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>GlobePlugin</name>
@@ -4944,10 +6555,568 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
 </context>
 <context>
+    <name>Grass7Algorithm</name>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. Unfortunately, it seems that GRASS GIS 7 is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. A test to check if GRASS GIS 7 is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7AlgorithmProvider</name>
+    <message>
+        <source>GRASS7 folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7Utils</name>
+    <message>
+        <source>GRASS GIS 7 execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS GIS 7 folder does not contain a valid set of GRASS GIS 7 modules.
+Please, go to the Processing settings dialog, and check that the GRASS GIS 7
+folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS GIS 7 is not correctly installed and configured in your system.
+Please install it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS GIS 7 installation. GRASS GIS 7 might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithm</name>
+    <message>
+        <source>Could not open GRASS algorithm: %s.
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. Unfortunately, it seems that GRASS is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. A test to check if GRASS is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithmProvider</name>
+    <message>
+        <source>GRASS folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassUtils</name>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS folder does not contain a valid set of GRASS modules. Please, go to the Processing settings dialog, and check that the GRASS folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS is not correctly installed and configured in your system.
+Please install it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS installation. GRASS might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grid</name>
+    <message>
+        <source>Grid type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid extent</source>
+        <translation>اندازه صفحه شطرنجی</translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridAverage</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>زاویه</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>GridDataMetrics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Metrics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>زاویه</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>GridInvDist</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Power</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>زاویه</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+    <message>
+        <source>Smoothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation>ورود لایه زمین DTM</translation>
+    </message>
+    <message>
+        <source>Height break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation>اندازه سلول</translation>
+    </message>
+    <message>
+        <source>Output table with grid metrics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OUTPUT CSV INTENSITY</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlier:low,high</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridNearest</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>زاویه</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>GridNet</name>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Longest Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Strahler Network Order Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation>اندازه سلول</translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>واحد نقطه</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>واحد ارتفاع</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation>خروجی لایه سطح DTM</translation>
+    </message>
+    <message>
+        <source>Spike (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>میانه</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation>صاف</translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>شیب</translation>
+    </message>
+    <message>
+        <source>Minimum (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class(es)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation>اصلاح اضافی</translation>
+    </message>
+</context>
+<context>
+    <name>Gridify</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to gridify feature with FID %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GroundFilter</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize for intermediate surfaces</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ground las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Heatmap</name>
     <message>
         <source>Heatmap...</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشه حرارتی</translation>
     </message>
     <message>
         <source>Creates a heatmap raster for the input point vector.</source>
@@ -4987,7 +7156,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Heatmap generation aborted</source>
@@ -5057,7 +7226,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output values</source>
@@ -5065,7 +7234,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Input point layer</source>
-        <translation type="unfinished">انتخاب لایه نقطه‌ای</translation>
+        <translation>انتخاب لایه نقطه‌ای</translation>
     </message>
     <message>
         <source>Output raster</source>
@@ -5085,15 +7254,15 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>meters</source>
-        <translation type="unfinished">متر</translation>
+        <translation>متر</translation>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">سطر</translation>
+        <translation>سطر</translation>
     </message>
     <message>
         <source>Cell size X</source>
@@ -5101,7 +7270,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون</translation>
     </message>
     <message>
         <source>Cell size Y</source>
@@ -5162,13 +7331,13 @@ are stored on the installation folder</source>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
 </source>
-        <translation type="unfinished">&lt;h2&gt;پارامترهای ورودی&lt;/h2&gt;
+        <translation>&lt;h2&gt;پارامترهای ورودی&lt;/h2&gt;
 </translation>
     </message>
     <message>
         <source>&lt;h2&gt;Outputs&lt;/h2&gt;
 </source>
-        <translation type="unfinished">&lt;h2&gt;خروجی&lt;/h2&gt;
+        <translation>&lt;h2&gt;خروجی&lt;/h2&gt;
 </translation>
     </message>
     <message>
@@ -5200,7 +7369,7 @@ are stored on the installation folder</source>
     <name>HistoryDialog</name>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">تمیز</translation>
+        <translation>تمیز</translation>
     </message>
     <message>
         <source>Clear history and log</source>
@@ -5208,7 +7377,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">ذخیره به ...</translation>
+        <translation>ذخیره به ...</translation>
     </message>
     <message>
         <source>Save history and log</source>
@@ -5216,7 +7385,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>تایید</translation>
     </message>
     <message>
         <source>Are you sure you want to clear log?</source>
@@ -5224,7 +7393,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">ذخیره فایل</translation>
+        <translation>ذخیره فایل</translation>
     </message>
     <message>
         <source>Log files (*.log *.LOG)</source>
@@ -5239,7 +7408,7 @@ are stored on the installation folder</source>
     <name>HistoryDialogPythonConsole</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -5247,6 +7416,156 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save</source>
+        <translation>ذخیره</translation>
+    </message>
+</context>
+<context>
+    <name>HubDistance</name>
+    <message>
+        <source>Source points layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Destination hubs layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub layer name attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output shape type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement unit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HubLines</name>
+    <message>
+        <source>Hub point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HypsometricCurves</name>
+    <message>
+        <source>DEM to analyze</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boundary layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use % of area instead of absolute value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature %d does not intersect raster or entirely located in NODATA area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area</source>
+        <translation>منطقه</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ImportIntoPostGIS</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error importing to PostGIS
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer to import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema (schema name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table to import to (leave blank to use layer name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column</source>
+        <translation>ستون هندسی</translation>
+    </message>
+    <message>
+        <source>Overwrite</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create spatial index</source>
+        <translation>ايجاد اندکس مکاني</translation>
+    </message>
+    <message>
+        <source>Convert field names to lowercase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drop length constraints on character fields</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5254,13 +7573,36 @@ are stored on the installation folder</source>
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت بانک اطلاعاتی</translation>
     </message>
 </context>
 <context>
     <name>InputLayerSelectorPanel</name>
     <message>
-        <source>All files(*.*);;</source>
+        <source>Select file</source>
+        <translation>انتخاب یک فایل</translation>
+    </message>
+    <message>
+        <source>All files (*.*);;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Intersection</name>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>برش لایه</translation>
+    </message>
+    <message>
+        <source>Intersection</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5268,15 +7610,7 @@ are stored on the installation folder</source>
     <name>InvalidParameterValue</name>
     <message>
         <source>Run</source>
-        <translation type="unfinished">اجرا</translation>
-    </message>
-    <message>
-        <source>Parameters</source>
-        <translation type="unfinished">ورودی‌ها</translation>
-    </message>
-    <message>
-        <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>اجرا</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -5286,38 +7620,186 @@ are stored on the installation folder</source>
         <source>&lt;h2&gt;Could not open help file :-( &lt;/h2&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>JoinAttributes</name>
     <message>
-        <source>Unmatching CRS&apos;s</source>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation>انتخاب لایه 2</translation>
+    </message>
+    <message>
+        <source>Table field</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Layers do not all use the same CRS. This can cause unexpected results.
-Do you want to continue?</source>
+        <source>Table field 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to execute algorithm</source>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsAlgorithm</name>
+    <message>
+        <source>LAStools folder is not configured.
+Please configure it before running LAStools algorithms.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Processing algorithm...</source>
+        <source>verbose</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <source>open LAStools GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <source>number of cores</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Wrong or missing parameter values</source>
+        <source>input LAS/LAZ file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HTML output has been generated by this algorithm.
-Open the results dialog to check it.</source>
+        <source>input directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input wildcard(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>merge all input files on-the-fly into one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>horizontal feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>vertical feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>files are flightlines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>apply file source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>step size / pixel size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output vector file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output appendix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>empty temporary directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>additional command line parameter(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>third filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsUtils</name>
+    <message>
+        <source>LAStools command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LAStools console output</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5334,6 +7816,86 @@ Open the results dialog to check it.</source>
     <message>
         <source>This layer doesn&apos;t have any editable properties</source>
         <translation>خصوصیات لایه مورد نظر ویرایش نمی شود</translation>
+    </message>
+</context>
+<context>
+    <name>LengthArea</name>
+    <message>
+        <source>Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LidarToolsAlgorithmProvider</name>
+    <message>
+        <source>LAStools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wine folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tools for LiDAR data</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LinesIntersection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>برش لایه</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation>انتخاب فیلد منحصر به فرد</translation>
+    </message>
+    <message>
+        <source>Intersect unique ID field</source>
+        <translation>فیلد منحصر به فرد اشتراک</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>LinesToPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
@@ -5444,39 +8006,27 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>Ctrl+Shift+S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save as Image...</source>
-        <translation>ذخیره به صورت تصویری...</translation>
-    </message>
-    <message>
-        <source>&amp;New Print Composer</source>
-        <translation>&amp;ساختن پرینت جدید</translation>
+        <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Composer Manager...</source>
         <translation>مدیریت سازنده ...</translation>
-    </message>
-    <message>
-        <source>P&amp;roject</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New From Template</source>
@@ -5500,7 +8050,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;جدید</translation>
+        <translation>&amp;جدید</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
@@ -5516,11 +8066,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Exit QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation type="unfinished">Ctrl+Q</translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
@@ -5528,7 +8078,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Z</source>
-        <translation type="unfinished">Ctrl+Z</translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
@@ -5536,7 +8086,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+Z</source>
-        <translation type="unfinished">Ctrl+Shift+Z</translation>
+        <translation>Ctrl+Shift+Z</translation>
     </message>
     <message>
         <source>Cut Features</source>
@@ -5544,7 +8094,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <source>Copy Features</source>
@@ -5552,7 +8102,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>Paste Features</source>
@@ -5560,7 +8110,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <source>Add Feature</source>
@@ -5568,7 +8118,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+.</translation>
     </message>
     <message>
         <source>Move Feature(s)</source>
@@ -5627,10 +8177,6 @@ Open the results dialog to check it.</source>
         <translation>نچرخش نماد نقطه</translation>
     </message>
     <message>
-        <source>Snapping Options...</source>
-        <translation>تنظیمات چسبیدن ...</translation>
-    </message>
-    <message>
         <source>Pan Map</source>
         <translation>حرک دادن نقشه</translation>
     </message>
@@ -5640,7 +8186,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
         <source>Zoom Out</source>
@@ -5648,7 +8194,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Select Features by Polygon</source>
@@ -5672,7 +8218,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+I</translation>
     </message>
     <message>
         <source>Measure Line</source>
@@ -5680,7 +8226,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+M</translation>
     </message>
     <message>
         <source>Measure Area</source>
@@ -5688,31 +8234,19 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <source>Measure Angle</source>
         <translation>اندازه گیری زاویه‌ای</translation>
     </message>
     <message>
-        <source>Zoom Full</source>
-        <translation>نمایش همه</translation>
-    </message>
-    <message>
         <source>Ctrl+Shift+F</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Zoom to Layer</source>
-        <translation>نمایش لایه</translation>
-    </message>
-    <message>
-        <source>Zoom to Selection</source>
-        <translation>نمایش موجودیتهای انتخاب شده</translation>
+        <translation>Ctrl+Shift+F</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <source>Zoom Last</source>
@@ -5744,7 +8278,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
         <source>Show Bookmarks</source>
@@ -5752,7 +8286,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+B</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -5784,11 +8318,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+N</translation>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
         <source>Add Vector Layer...</source>
@@ -5796,7 +8330,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished">Ctrl+Shift+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <source>Add Raster Layer...</source>
@@ -5804,7 +8338,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+R</translation>
     </message>
     <message>
         <source>Add PostGIS Layers...</source>
@@ -5812,7 +8346,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+D</translation>
     </message>
     <message>
         <source>Add SpatiaLite Layer...</source>
@@ -5820,7 +8354,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <source>Add MSSQL Spatial Layer...</source>
@@ -5832,7 +8366,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+O</translation>
     </message>
     <message>
         <source>Add WMS/WMTS Layer...</source>
@@ -5840,11 +8374,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open Attribute Table</source>
-        <translation>باز کردن جدول خصوصیات</translation>
+        <translation>Ctrl+Shift+W</translation>
     </message>
     <message>
         <source>Toggle Editing</source>
@@ -5861,10 +8391,6 @@ Open the results dialog to check it.</source>
     <message>
         <source>Save edits to current layer, but continue editing</source>
         <translation>ذخیره تغییرات در لایه جاری و ادامه دادن به کار ویرایش</translation>
-    </message>
-    <message>
-        <source>Save As...</source>
-        <translation>ذخیره به ...</translation>
     </message>
     <message>
         <source>Remove Layer/Group</source>
@@ -5940,7 +8466,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>نرمال</translation>
     </message>
     <message>
         <source>Normal preview mode</source>
@@ -5992,7 +8518,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>New SpatiaLite Layer...</source>
@@ -6008,15 +8534,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+C</source>
-        <translation type="unfinished">Ctrl+Shift+C</translation>
+        <translation>Ctrl+Shift+C</translation>
     </message>
     <message>
         <source>Set Project CRS from Layer</source>
         <translation>تغییر CRS پروژه از لایه</translation>
-    </message>
-    <message>
-        <source>Properties...</source>
-        <translation>خصوصیات ...</translation>
     </message>
     <message>
         <source>Query...</source>
@@ -6040,7 +8562,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+U</translation>
     </message>
     <message>
         <source>Hide All Layers</source>
@@ -6048,7 +8570,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+Shift+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+H</translation>
     </message>
     <message>
         <source>Manage and Install Plugins...</source>
@@ -6096,27 +8618,19 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <source>F11</source>
-        <translation type="unfinished">F11</translation>
-    </message>
-    <message>
-        <source>Project Properties...</source>
-        <translation>مشخصات پروژه ...</translation>
+        <translation>F11</translation>
     </message>
     <message>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Options...</source>
-        <translation>مشخصات ...</translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <source>Custom CRS...</source>
@@ -6136,7 +8650,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>F1</source>
-        <translation type="unfinished">F1</translation>
+        <translation>F1</translation>
     </message>
     <message>
         <source>QGIS Home Page</source>
@@ -6144,7 +8658,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <source>Check QGIS Version</source>
@@ -6201,7 +8715,7 @@ Ctl (Cmd) increments by 15 deg.</source>
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Embed Layers and Groups...</source>
@@ -6377,18 +8891,78 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Select features using an expression</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب کنید ویژگی های را با استفاده از یک عبارت </translation>
     </message>
     <message>
         <source>DXF Export...</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی DXF ...</translation>
     </message>
     <message>
         <source>Fill Ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open Recent</source>
+        <source>Open &amp;Recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pro&amp;ject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save as &amp;Image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New &amp;Print Composer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Snapping Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom &amp;Full</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open &amp;Attribute Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Save As...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Project Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+P</source>
+        <translation>Ctrl+Alt+P</translation>
+    </message>
+    <message>
+        <source>New Temporary Scratch Layer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New temporary scratch layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6396,27 +8970,27 @@ Acts on currently active editable layer</source>
     <name>ManageConnectionsDialog</name>
     <message>
         <source>Manage connections</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت اتصال ها</translation>
     </message>
     <message>
         <source>Save to file</source>
-        <translation type="unfinished">ذخیره در فایل</translation>
+        <translation>ذخیره در فایل</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Load from file</source>
-        <translation type="unfinished">بارگذاری از فایل</translation>
+        <translation>بارگذاری از فایل</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>eXtensible Markup Language (*.xml *.XML)</source>
@@ -6424,7 +8998,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Save connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -6432,7 +9006,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Save Connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Saved to %s</source>
@@ -6448,14 +9022,86 @@ Acts on currently active editable layer</source>
     </message>
 </context>
 <context>
-    <name>MessageBarProgress</name>
+    <name>MeanAndStdDevPlot</name>
     <message>
-        <source>Executing algorithm</source>
+        <source>Input table</source>
+        <translation>جدول ورودی</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>دسته بندی نام فیلد</translation>
+    </message>
+    <message>
+        <source>Mean field</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>StdDev field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>MeanCoords</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>فیلد میزان</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>مشخصه فیلد یکتا</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+</context>
+<context>
+    <name>Merge</name>
+    <message>
+        <source>Input layer 1</source>
+        <translation>انتخاب لایه 1</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation>انتخاب لایه 2</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Merged layers must have be same type of geometry</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MergeData</name>
+    <message>
+        <source>Input LAS files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output merged LAS file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MessageBarProgress</name>
+    <message>
+        <source>Executing algorithm</source>
+        <translation>اجراء الگوریتم</translation>
+    </message>
+    <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
 </context>
 <context>
@@ -6485,11 +9131,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished"></translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Set global</source>
@@ -6501,19 +9147,19 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>-180</source>
-        <translation type="unfinished"></translation>
+        <translation>-180</translation>
     </message>
     <message>
         <source>90</source>
-        <translation type="unfinished">90</translation>
+        <translation>90</translation>
     </message>
     <message>
         <source>-90</source>
-        <translation type="unfinished"></translation>
+        <translation>-90</translation>
     </message>
     <message>
         <source>180</source>
-        <translation type="unfinished">180</translation>
+        <translation>180</translation>
     </message>
     <message>
         <source>        From</source>
@@ -6525,31 +9171,31 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Xmax</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداکثر</translation>
     </message>
     <message>
         <source>Ymax</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداکثر</translation>
     </message>
     <message>
         <source>Xmin</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداقل</translation>
     </message>
     <message>
         <source>Ymin</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداقل</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">نتایج</translation>
+        <translation>نتایج</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>&lt;&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;&gt;</translation>
     </message>
     <message>
         <source>Add WCS</source>
@@ -6561,11 +9207,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>Add WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن WFS</translation>
     </message>
     <message>
         <source>Double click to see full record information</source>
@@ -6573,71 +9219,71 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>View search results as XML</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش نتایج جستجو با فرمت XML</translation>
     </message>
     <message>
         <source>&gt;&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;&lt;</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation type="unfinished"></translation>
+        <translation>سرویس ها</translation>
     </message>
     <message>
         <source>Service info</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات سرویس</translation>
     </message>
     <message>
         <source>GetCapabilities response</source>
-        <translation type="unfinished"></translation>
+        <translation>گرفتن توانایی های پاسخ دهنده</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Add default services</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن خدمات به طور پیش فرض</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>Results paging</source>
-        <translation type="unfinished"></translation>
+        <translation>نتایج صفحه بندی</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>results at a time</source>
-        <translation type="unfinished"></translation>
+        <translation>نتایج در یک زمان</translation>
     </message>
     <message>
         <source>No services/connections defined. To get started with MetaSearch, create a new connection by clicking &apos;New&apos; or click &apos;Add default services&apos;.</source>
@@ -6645,11 +9291,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>New Catalogue service</source>
-        <translation type="unfinished"></translation>
+        <translation>خدمات جدید</translation>
     </message>
     <message>
         <source>Edit Catalogue service</source>
-        <translation type="unfinished"></translation>
+        <translation>خدمات ویرایش کاتالوگ</translation>
     </message>
     <message>
         <source>Remove service %s?</source>
@@ -6657,7 +9303,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Confirm delete</source>
-        <translation type="unfinished"></translation>
+        <translation>تایید حذف</translation>
     </message>
     <message>
         <source>%s exists.  Overwrite?</source>
@@ -6677,7 +9323,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Connection error</source>
-        <translation type="unfinished"></translation>
+        <translation>خطای اتصال</translation>
     </message>
     <message>
         <source>Connection error: %s</source>
@@ -6697,7 +9343,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>ناوبری</translation>
     </message>
     <message>
         <source>Start of results. Go to end?</source>
@@ -6741,21 +9387,13 @@ Acts on currently active editable layer</source>
             <numerusform></numerusform>
         </translation>
     </message>
-</context>
-<context>
-    <name>MissingDependencyDialog</name>
     <message>
-        <source>&lt;h3&gt;Missing dependency.This algorithm cannot be run :-( &lt;/h3&gt;
-%s</source>
+        <source>Server timeout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Missing dependency</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <source>seconds</source>
+        <translation>ثانیه ها</translation>
     </message>
 </context>
 <context>
@@ -6802,7 +9440,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Models</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل ها</translation>
     </message>
     <message>
         <source>Could not load model %s</source>
@@ -6818,7 +9456,7 @@ Acts on currently active editable layer</source>
     <name>ModelerDialog</name>
     <message>
         <source>Search...</source>
-        <translation type="unfinished">جستجو ...</translation>
+        <translation>جستجو ...</translation>
     </message>
     <message>
         <source>[Enter model name here]</source>
@@ -6826,14 +9464,6 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>[Enter group name here]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are unsaved changes in model. Close modeler without saving?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6850,7 +9480,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Please enter group and model names before saving</source>
@@ -6921,14 +9551,22 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">ورودی‌ها</translation>
+        <translation>ورودی‌ها</translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in model. Continue?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ModelerOnlyAlgorithmProvider</name>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل تنها ابزار</translation>
     </message>
 </context>
 <context>
@@ -6955,11 +9593,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>بله</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>Shape type</source>
@@ -6971,15 +9609,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>Mandatory</source>
@@ -7007,11 +9645,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">رستر</translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Min/Max values</source>
@@ -7019,7 +9657,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Default value</source>
-        <translation type="unfinished">مقدار پيش فرض</translation>
+        <translation>مقدار پيش فرض</translation>
     </message>
     <message>
         <source>0</source>
@@ -7027,15 +9665,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">پرونده</translation>
+        <translation>پرونده</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشه</translation>
     </message>
     <message>
         <source>Unable to define parameter</source>
@@ -7047,14 +9685,14 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>مقادیر پارامترها اشتباه یا از دست رفته است</translation>
     </message>
 </context>
 <context>
     <name>ModelerParametersDialog</name>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Show advanced parameters</source>
@@ -7066,7 +9704,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">ورودی‌ها</translation>
+        <translation>ورودی‌ها</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -7090,7 +9728,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>مقادیر پارامترها اشتباه یا از دست رفته است</translation>
     </message>
 </context>
 <context>
@@ -7101,32 +9739,36 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputDialog</name>
+    <name>MultipartToSingleparts</name>
     <message>
-        <source>Multiple selection</source>
-        <translation type="unfinished"></translation>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
     </message>
     <message>
-        <source>Select the file(s) to use</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputPanel</name>
+    <name>MultipleFileInputDialog</name>
     <message>
-        <source>0 elements selected</source>
+        <source>All files (*.*)</source>
+        <translation>همه نوع فایل(*.*)</translation>
+    </message>
+    <message>
+        <source>Add file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Remove file(s)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%d elements selected</source>
+        <source>Remove all</source>
+        <translation>حذف همه</translation>
+    </message>
+    <message>
+        <source>Select file(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7134,7 +9776,7 @@ See the log for more information.</source>
     <name>MultipleInputDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
     <message>
         <source>Clear selection</source>
@@ -7146,6 +9788,48 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>MultipleInputPanel</name>
+    <message>
+        <source>0 elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NearestNeighbourAnalysis</name>
+    <message>
+        <source>Points</source>
+        <translation>نقطه</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+    <message>
+        <source>Observed mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expected mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nearest neighbour index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z-Score</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NewConnectionDialog</name>
     <message>
         <source>Create a new Catalogue connection</source>
@@ -7153,15 +9837,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished">ذخیره اتصال</translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Both Name and URL must be provided</source>
@@ -7183,7 +9867,7 @@ See the log for more information.</source>
     <name>NumberInputDialog</name>
     <message>
         <source>[Enter your formula here]</source>
-        <translation type="unfinished"></translation>
+        <translation>[نام فرمول را اینجا وارد کنید]</translation>
     </message>
     <message>
         <source>Values from data layers extents</source>
@@ -7191,23 +9875,23 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Min X</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداقل</translation>
     </message>
     <message>
         <source>Max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداکثر</translation>
     </message>
     <message>
         <source>Min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداقل</translation>
     </message>
     <message>
         <source>Max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداکثر</translation>
     </message>
     <message>
         <source>Cellsize</source>
-        <translation type="unfinished"></translation>
+        <translation>اندازه سلول</translation>
     </message>
     <message>
         <source>Values from raster layers statistics</source>
@@ -7215,7 +9899,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Mean</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Std. deviation</source>
@@ -7223,11 +9907,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Max value</source>
-        <translation type="unfinished"></translation>
+        <translation>بیشترین</translation>
     </message>
     <message>
         <source>Min value</source>
-        <translation type="unfinished"></translation>
+        <translation>کمترين</translation>
     </message>
     <message>
         <source>Values from QGIS map canvas</source>
@@ -7251,6 +9935,397 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>OTBAlgorithm</name>
+    <message>
+        <source>Could not open OTB algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB folder is not configured. Please configure it before running OTB algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB execution command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adapter for %s not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBAlgorithmProvider</name>
+    <message>
+        <source>Could not open OTB algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB applications folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SRTM tiles folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geoid file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Orfeo Toolbox (Image analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBUtils</name>
+    <message>
+        <source>OTB execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2Ogr</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Destination Format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation>برش لایه</translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClipExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Clip extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGis</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>میزبان</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>درگاه</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>کاربری</translation>
+    </message>
+    <message>
+        <source>Database name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>کلمه عبور</translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation>نام طرح</translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGisList</name>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation>نام طرح</translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrSql</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>SQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SQL result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty SQL. Please enter valid SQL expression and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OpenViewerAction</name>
+    <message>
+        <source>Unable to open viewer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The current Fusion folder does not contain the viewer executable.
+Please check the configuration in the Processing settings dialog.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>OracleConnectGuiBase</name>
     <message>
         <source>Create Oracle Connection</source>
@@ -7258,7 +10333,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -7270,11 +10345,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Save Password</source>
@@ -7326,11 +10401,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">ذخیره فایل</translation>
+        <translation>ذخیره فایل</translation>
     </message>
     <message>
         <source>Select directory</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک مسیر</translation>
     </message>
 </context>
 <context>
@@ -7344,7 +10419,7 @@ See the log for more information.</source>
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جدول</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
@@ -7366,7 +10441,7 @@ See the log for more information.</source>
     <name>ParameterMultipleInput</name>
     <message>
         <source>All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>همه نوع فایل(*.*)</translation>
     </message>
     <message>
         <source>%s files(*.%s)</source>
@@ -7395,20 +10470,9 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>ParametersDialog</name>
-    <message>
-        <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>ParametersPanel</name>
     <message>
         <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7424,12 +10488,138 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hide advanced parameters</source>
+        <source>[not set]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[not set]</source>
+        <source> (xmin, xmax, ymin, ymax)</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PeukerDouglas</name>
+    <message>
+        <source>Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Side Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Diagonal Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PointDistance</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>انتخاب لایه نقطه‌ای</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation>انتخاب فیلد منحصر به فرد</translation>
+    </message>
+    <message>
+        <source>Target point layer</source>
+        <translation>لایه نقطه‌ای خروجی</translation>
+    </message>
+    <message>
+        <source>Target unique ID field</source>
+        <translation>فیلد منحصر به فرد خروجی</translation>
+    </message>
+    <message>
+        <source>Output matrix type</source>
+        <translation>نوع ماتریس خروجی</translation>
+    </message>
+    <message>
+        <source>Use only the nearest (k) target points</source>
+        <translation>استفاده از نزدیکترین نقطه (K)</translation>
+    </message>
+    <message>
+        <source>Distance matrix</source>
+        <translation>طول ماتریکس</translation>
+    </message>
+</context>
+<context>
+    <name>PointsDisplacement</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Displacement distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal distribution for two point case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromLines</name>
+    <message>
+        <source>Raster layer</source>
+        <translation>لایه رستر</translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation>لایه برداری</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromPolygons</name>
+    <message>
+        <source>Raster layer</source>
+        <translation>لایه رستر</translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation>لایه برداری</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygon</name>
+    <message>
+        <source>Polygons</source>
+        <translation>چند ضلعی ها</translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>نقطه</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
     </message>
 </context>
 <context>
@@ -7437,6 +10627,227 @@ See the log for more information.</source>
     <message>
         <source>point count field</source>
         <translation>فیلد شمارش نقطه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonUnique</name>
+    <message>
+        <source>Polygons</source>
+        <translation>چند ضلعی ها</translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>نقطه</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation>کلاس فیلد</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonWeighted</name>
+    <message>
+        <source>Polygons</source>
+        <translation>چند ضلعی ها</translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>نقطه</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>فیلد میزان</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsLayerFromTable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>X field</source>
+        <translation>فیلد X</translation>
+    </message>
+    <message>
+        <source>Y field</source>
+        <translation>فیلد Y</translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PointsToPaths</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>انتخاب لایه نقطه‌ای</translation>
+    </message>
+    <message>
+        <source>Group field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date format (if order field is DateTime)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paths</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>نقشه</translation>
+    </message>
+</context>
+<context>
+    <name>PolarPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation>جدول ورودی</translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation>دسته بندی نام فیلد</translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation>مقدار فیلد</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>PolyClipData</name>
+    <message>
+        <source>Input .las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation>لایه ی ماسک</translation>
+    </message>
+    <message>
+        <source>Output clipped .las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Shape attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape field index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape value</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Polygonize</name>
+    <message>
+        <source>Polygonize algorithm requires shapely module!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Processing lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Noding lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Polygonizing...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No polygons were created!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>تمام شده</translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Keep table structure of line layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create geometry columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PolygonsToLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>PostGISExecuteSQL</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error executing SQL:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>پایگاه داده</translation>
+    </message>
+    <message>
+        <source>SQL query</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7452,48 +10863,24 @@ See the log for more information.</source>
         <source>Loading resulting layers</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Problem loading output layers</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrepareAPIDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">انجام شده</translation>
+        <translation>انجام شده</translation>
     </message>
 </context>
 <context>
     <name>Processing</name>
-    <message>
-        <source>Pro&amp;cessing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Toolbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Graphical &amp;Modeler...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;History and Log...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Results Viewer...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Commander</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Could not load provider: %s
 %s</source>
@@ -7512,7 +10899,7 @@ See the log for more information.</source>
     <name>ProcessingConfig</name>
     <message>
         <source>General</source>
-        <translation type="unfinished">عمومی</translation>
+        <translation>عمومی</translation>
     </message>
     <message>
         <source>Show extra info in Log panel</source>
@@ -7524,7 +10911,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Use only selected features</source>
-        <translation type="unfinished">استفاده از مشخصه‌های انتخاب شده</translation>
+        <translation>استفاده از مشخصه‌های انتخاب شده</translation>
     </message>
     <message>
         <source>Use filename as layer name</source>
@@ -7536,7 +10923,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Output folder</source>
-        <translation type="unfinished">پوشه خروجی</translation>
+        <translation>پوشه خروجی</translation>
     </message>
     <message>
         <source>Show layer CRS definition in selection boxes</source>
@@ -7576,6 +10963,41 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>ProcessingPlugin</name>
+    <message>
+        <source>Pro&amp;cessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Toolbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Graphical &amp;Modeler...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;History and Log...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Results Viewer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Commander</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+M</source>
+        <translation>Ctrl+Alt+M</translation>
+    </message>
+</context>
+<context>
     <name>ProcessingToolbox</name>
     <message>
         <source>Processing Toolbox</source>
@@ -7583,11 +11005,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Enter algorithm name to filter list</source>
-        <translation type="unfinished">برای فیلتر کردن لیست نام الگوریتم را وارد کنید</translation>
+        <translation>برای فیلتر کردن لیست نام الگوریتم را وارد کنید</translation>
     </message>
     <message>
         <source>Search...</source>
-        <translation type="unfinished">جستجو ...</translation>
+        <translation>جستجو ...</translation>
     </message>
     <message>
         <source>Execute</source>
@@ -7603,6 +11025,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Recently used algorithms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing dependency</source>
+        <translation>وابستگی پیدا نشد</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Missing dependency. This algorithm cannot be run :-( &lt;/h3&gt;
+%s</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7630,7 +11061,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Python error</source>
-        <translation type="unfinished">خطای پایتون</translation>
+        <translation>خطای پایتون</translation>
     </message>
     <message>
         <source>Couldn&apos;t load plugin &apos;%s&apos; from [&apos;%s&apos;]</source>
@@ -7641,15 +11072,23 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%s due an error when calling its classFactory() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%s due an error when calling its initGui() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Error while unloading plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its classFactory() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its initGui() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t load server plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its serverClassFactory() method</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7657,7 +11096,7 @@ See the log for more information.</source>
     <name>PythonConsole</name>
     <message>
         <source>Python Console</source>
-        <translation type="unfinished">کنسول پایتون</translation>
+        <translation>کنسول پایتون</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -7677,7 +11116,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">انجام شده</translation>
+        <translation>انجام شده</translation>
     </message>
     <message>
         <source>Error preparing file...</source>
@@ -7701,11 +11140,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Undo</source>
-        <translation type="unfinished">خنثی کردن</translation>
+        <translation>خنثی کردن</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation type="unfinished">ازنو</translation>
+        <translation>ازنو</translation>
     </message>
     <message>
         <source>Find Text</source>
@@ -7717,7 +11156,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -7725,7 +11164,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">توضیح</translation>
+        <translation>توضیح</translation>
     </message>
     <message>
         <source>Uncomment</source>
@@ -7741,11 +11180,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Select All</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; was not found.</source>
@@ -7802,7 +11241,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <source>List all tabs</source>
@@ -7826,7 +11265,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره به </translation>
     </message>
     <message>
         <source>The file {0} could not be opened. Error: {1}
@@ -7869,15 +11308,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">باز کردن فایل</translation>
+        <translation>باز کردن فایل</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">ذخیره به ...</translation>
+        <translation>ذخیره به ...</translation>
     </message>
     <message>
         <source>Run script</source>
@@ -7924,10 +11363,6 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7958,7 +11393,7 @@ Use iface to access QGIS API interface or Type help(iface) for more info</source
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Clear File</source>
@@ -8010,7 +11445,14 @@ Use iface to access QGIS API interface or Type help(iface) for more info</source
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
+    </message>
+</context>
+<context>
+    <name>QGISAlgorithmProvider</name>
+    <message>
+        <source>QGIS geoalgorithms</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8300,7 +11742,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation>پا</translation>
     </message>
     <message>
         <source> mile</source>
@@ -8459,7 +11901,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Geometry</source>
@@ -8590,23 +12032,23 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>W</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>N</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>No QGIS data provider plugins found in:
@@ -8721,7 +12163,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>ESRI Shapefile</source>
-        <translation type="unfinished">فایل وکتور Esri</translation>
+        <translation>فایل وکتور Esri</translation>
     </message>
     <message>
         <source>DBF file</source>
@@ -9085,7 +12527,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Override the header file used - in place of header.dxf.</source>
@@ -9218,7 +12660,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Singleband color data</source>
-        <translation>Singleband color data</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All Ramps</source>
@@ -9338,7 +12780,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Version 0.9</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه 0.9</translation>
     </message>
     <message>
         <source>Coordinate Capture</source>
@@ -9354,11 +12796,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Version 0.1</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه  0.1</translation>
     </message>
     <message>
         <source>Version 0.2</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه  0.2</translation>
     </message>
     <message>
         <source>Layers</source>
@@ -9382,11 +12824,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Version 1.1.0</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه  1.1.0</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -9422,7 +12864,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Version 3.1.9</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه 3.1.9</translation>
     </message>
     <message>
         <source>Fit to a linear transform requires at least 2 points.</source>
@@ -9690,7 +13132,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Version 0.001</source>
-        <translation type="unfinished"></translation>
+        <translation> 0.001نسخه</translation>
     </message>
     <message>
         <source>OfflineEditing</source>
@@ -9822,7 +13264,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Gauss</source>
@@ -9834,11 +13276,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Couldn&apos;t open the data source: %1</source>
@@ -9867,10 +13309,6 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>GRASS data won&apos;t be available if GISBASE is not specified.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 and hopefully will be fixed in higher GRASS versions. Error message: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10015,7 +13453,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>ESRI Shapefiles</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل وکتور Esri</translation>
     </message>
     <message>
         <source>GeoPackage</source>
@@ -10091,7 +13529,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>Duplicate field (10 significant characters): %1</source>
@@ -10356,7 +13794,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>تعریف نشده</translation>
     </message>
     <message>
         <source>Hidden</source>
@@ -10364,11 +13802,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">گروه</translation>
+        <translation>گروه</translation>
     </message>
     <message>
         <source>Subgroup</source>
@@ -10432,7 +13870,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>overlaps</source>
-        <translation type="unfinished"></translation>
+        <translation>همپوشانی</translation>
     </message>
     <message>
         <source>gaps</source>
@@ -10473,11 +13911,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Feature ID</source>
@@ -10581,62 +14019,26 @@ Response was:
     </message>
     <message>
         <source>Legend</source>
+        <translation>رسته</translation>
+    </message>
+    <message>
+        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 but it is fixed in GRASS 7.1 and higher. Error message: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Classification</source>
+        <source>Raster image fill</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Range</source>
+        <source>Couldn&apos;t load PyQGIS Server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unique Values</source>
+        <source>Couldn&apos;t load qgis.user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>File Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enumeration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Check Box</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
+        <source>NOTICE: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10838,7 +14240,7 @@ Response was:
     <message>
         <source>Ctrl+M</source>
         <comment>Minimize Window</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Minimizes the active window to the dock</source>
@@ -10862,7 +14264,7 @@ Response was:
     </message>
     <message>
         <source>Current Edits</source>
-        <translation type="unfinished">تغییرات کنونی</translation>
+        <translation>تغییرات کنونی</translation>
     </message>
     <message>
         <source>Error</source>
@@ -10874,7 +14276,7 @@ Response was:
     </message>
     <message>
         <source>QGIS </source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>Multiple instances of QGIS application object detected.
@@ -11080,7 +14482,7 @@ Please contact the developers.
     </message>
     <message>
         <source>%1 is an invalid layer - not loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه %1 معتبر نیست - بارگذاری نمی شود</translation>
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded. Please check the &lt;a href=&quot;#messageLog&quot;&gt;message log&lt;/a&gt; for further info.</source>
@@ -11138,7 +14540,7 @@ Please contact the developers.
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Cannot get SpatiaLite select dialog from provider.</source>
@@ -11258,7 +14660,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Enable macros</source>
-        <translation type="unfinished">فعال کردن ماکروها</translation>
+        <translation>فعال کردن ماکروها</translation>
     </message>
     <message>
         <source>Project loaded</source>
@@ -11298,7 +14700,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Labeling</source>
-        <translation type="unfinished">بر چسب زدن</translation>
+        <translation>بر چسب زدن</translation>
     </message>
     <message>
         <source>Font for layer &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; was not found (&lt;i&gt;%2&lt;/i&gt;). %3</source>
@@ -11321,70 +14723,6 @@ Please contact the developers.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Classification</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Range</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unique Values</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enumeration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hidden</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Check Box</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add Group</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11398,11 +14736,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Expand All</source>
-        <translation type="unfinished">باز کردن همه</translation>
+        <translation>باز کردن همه</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished">بستن همه</translation>
+        <translation>بستن همه</translation>
     </message>
     <message>
         <source>Compiled against GEOS</source>
@@ -11542,10 +14880,6 @@ Error: %1</source>
         <source>Problem deleting features</source>
         <translation>اشکال در حذف ویژگی ها</translation>
     </message>
-    <message>
-        <source>A problem occured during deletion of features</source>
-        <translation>مشکل رخ داده در هنگام حذف برخی ویژگی ها</translation>
-    </message>
     <message numerus="yes">
         <source>%n feature(s) deleted.</source>
         <comment>number of features deleted</comment>
@@ -11639,7 +14973,7 @@ Error: %1</source>
     </message>
     <message>
         <source>No active vector layer</source>
-        <translation type="unfinished">لایه فعال انتخاب نشده</translation>
+        <translation>لایه وکتود وجود ندارد</translation>
     </message>
     <message>
         <source>To select features, choose a vector layer in the legend</source>
@@ -11679,7 +15013,7 @@ Error: %1</source>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>No features in clipboard.</source>
@@ -11742,31 +15076,31 @@ Errors: %3
     </message>
     <message>
         <source>rollback</source>
-        <translation type="unfinished"></translation>
+        <translation>برگشت</translation>
     </message>
     <message>
         <source>cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>all</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Rollback</source>
-        <translation type="unfinished"></translation>
+        <translation>برگشت</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Current edits</source>
-        <translation type="unfinished"></translation>
+        <translation>ویرایش فعلی</translation>
     </message>
     <message>
         <source>%1 current changes for %2 layer(s)?</source>
@@ -11774,7 +15108,7 @@ Errors: %3
     </message>
     <message>
         <source>copy</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه برداری</translation>
     </message>
     <message>
         <source>Plugin layer</source>
@@ -11928,7 +15262,7 @@ Errors: %3
     </message>
     <message>
         <source>Raster layer</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه رستر</translation>
     </message>
     <message>
         <source>%1 is not a supported raster data source</source>
@@ -11940,7 +15274,7 @@ Errors: %3
     </message>
     <message>
         <source>Exit QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <source>Do you really want to quit QGIS?</source>
@@ -11965,7 +15299,7 @@ Errors: %3
     </message>
     <message>
         <source>Project file is older</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخه فایل قدیمی است</translation>
     </message>
     <message>
         <source>This project file was saved by an older version of QGIS</source>
@@ -12015,7 +15349,43 @@ Always ignore these errors?</source>
         </translation>
     </message>
     <message>
+        <source>Failed to run Python script:</source>
+        <translation>کد چایتون اجرا نشد:</translation>
+    </message>
+    <message>
         <source>The current layer has no selected features</source>
+        <translation>در لایه پیشفرض اطلاعات انتخاب شده است</translation>
+    </message>
+    <message>
+        <source>Rotation:</source>
+        <translation>چرخش:</translation>
+    </message>
+    <message>
+        <source>Current clockwise map rotation in degrees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shows the current map clockwise rotation in degrees. It also allows editing to set the rotation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (OTF)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Messages</source>
+        <translation>پیغامها</translation>
+    </message>
+    <message>
+        <source>Error loading layer definition</source>
+        <translation>خطا تعریف لایه بارگذاری</translation>
+    </message>
+    <message>
+        <source>Error saving layer definintion file</source>
+        <translation>خطا ذخیره فایل تعریف لایه بارگذاری</translation>
+    </message>
+    <message>
+        <source>A problem occured during deletion of %1 feature(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12041,7 +15411,7 @@ Always ignore these errors?</source>
     </message>
     <message>
         <source>About QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>درباره کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>License</source>
@@ -12122,6 +15492,10 @@ p, li { white-space: pre-wrap; }
         <source>Qt Image Plugin Search Paths &lt;br&gt;</source>
         <translation>جستجوی پلاگین های تصویر در مسیر &lt;br&gt;</translation>
     </message>
+    <message>
+        <source>Developers Map</source>
+        <translation>توسعه دهنده نقشه</translation>
+    </message>
 </context>
 <context>
     <name>QgsActionMenu</name>
@@ -12175,6 +15549,10 @@ p, li { white-space: pre-wrap; }
         <source>Precision</source>
         <translation>دقت</translation>
     </message>
+    <message>
+        <source>Provider type</source>
+        <translation>نوع ارائه دهنده</translation>
+    </message>
 </context>
 <context>
     <name>QgsAddJoinDialogBase</name>
@@ -12200,11 +15578,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Choose which fields are joined</source>
-        <translation type="unfinished"></translation>
+        <translation>استفاده از فیلد برای اتصال</translation>
     </message>
     <message>
         <source>Cache join layer in virtual memory</source>
         <translation>حافظه نهان لایه در حافظه مجازی ملحق شوند</translation>
+    </message>
+    <message>
+        <source>Custom field name prefix</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12218,11 +15600,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsAddTabOrGroupBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Create category</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد گروه</translation>
     </message>
     <message>
         <source>as</source>
@@ -12238,6 +15620,108 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>QgsAdvancedDigitizingDockWidget</name>
+    <message>
+        <source>CAD tools</source>
+        <translation>ابزار ویرایش</translation>
+    </message>
+    <message>
+        <source>Some constraints are incompatible. Resulting point might be incorrect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 30%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 45%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 90%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to common angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No map tool set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools are not enabled for the current map tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools can not be used on geographic coordinates. Change the coordinates system in the project properties.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable advanced digitizing tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to vertices or segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap according to project configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to all layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsAdvancedDigitizingDockWidgetBase</name>
+    <message>
+        <source>Advanced Digitizing</source>
+        <translation>دیجیتالی نمودن پیشرفته</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>خطا</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Parallel</source>
+        <translation>موازی</translation>
+    </message>
+    <message>
+        <source>Perpendicular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Construction mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>x</source>
+        <translation>x</translation>
+    </message>
+    <message>
+        <source>y</source>
+        <translation>Y</translation>
+    </message>
+</context>
+<context>
     <name>QgsAnnotationWidget</name>
     <message>
         <source>Select frame color</source>
@@ -12245,7 +15729,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Transparent frame</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت فریم</translation>
     </message>
     <message>
         <source>Select background color</source>
@@ -12253,7 +15737,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت</translation>
     </message>
 </context>
 <context>
@@ -12287,31 +15771,31 @@ p, li { white-space: pre-wrap; }
     <name>QgsAppLayerTreeViewMenuProvider</name>
     <message>
         <source>&amp;Expand All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;باز کردن همه</translation>
     </message>
     <message>
         <source>&amp;Collapse All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;بستن همه</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حذف</translation>
     </message>
     <message>
         <source>&amp;Set Group CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تنظیم CRS گروه</translation>
     </message>
     <message>
         <source>&amp;Zoom to Best Scale (100%)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;زوم به بهترین مقیاس 100%</translation>
     </message>
     <message>
         <source>&amp;Stretch Using Current Extent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;کشش با وسعت کنونی</translation>
     </message>
     <message>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تکراری</translation>
     </message>
     <message>
         <source>&amp;Set Layer Scale Visibility</source>
@@ -12319,19 +15803,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Set Layer CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تنظیم CRS لایه</translation>
     </message>
     <message>
         <source>Set &amp;Project CRS from Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تنظیم CRS پروژه برای لایه ها</translation>
     </message>
     <message>
         <source>&amp;Open Attribute Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;باز کردن جدول خصوصیات</translation>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">ذخیره به ...</translation>
+        <translation>ذخیره به ...</translation>
     </message>
     <message>
         <source>Save As Layer Definition File...</source>
@@ -12339,19 +15823,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فیلتر...</translation>
     </message>
     <message>
         <source>&amp;Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خصوصیات</translation>
     </message>
     <message>
         <source>Copy Style</source>
-        <translation type="unfinished"></translation>
+        <translation>کپی پوسته</translation>
     </message>
     <message>
         <source>Paste Style</source>
-        <translation type="unfinished"></translation>
+        <translation>چسیاندن پوسته</translation>
+    </message>
+    <message>
+        <source>Styles</source>
+        <translation>سبک</translation>
     </message>
 </context>
 <context>
@@ -12459,15 +15947,15 @@ Parser error:
     <name>QgsAtlasCompositionWidgetBase</name>
     <message>
         <source>Atlas Generation</source>
-        <translation type="unfinished"></translation>
+        <translation>تولید اطلس</translation>
     </message>
     <message>
         <source>Generate an atlas</source>
-        <translation type="unfinished"></translation>
+        <translation>تولید اطلس</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>Coverage layer </source>
@@ -12479,23 +15967,23 @@ Parser error:
     </message>
     <message>
         <source>Sort by</source>
-        <translation type="unfinished"></translation>
+        <translation>مرتب کردن</translation>
     </message>
     <message>
         <source>Sort direction</source>
-        <translation type="unfinished"></translation>
+        <translation>مرتب کردن مسیر</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">خروجی</translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Single file export when possible</source>
@@ -12515,7 +16003,7 @@ Parser error:
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished">قرار دادن عبارت</translation>
+        <translation>قرار دادن عبارت</translation>
     </message>
     <message>
         <source>Missing Information</source>
@@ -12551,7 +16039,7 @@ Parser error:
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">باز کردن فایل</translation>
+        <translation>باز کردن فایل</translation>
     </message>
     <message>
         <source>Search on web based on attribute&apos;s value</source>
@@ -12574,11 +16062,11 @@ Parser error:
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Action</source>
@@ -12614,23 +16102,23 @@ Parser error:
     </message>
     <message>
         <source>Python</source>
-        <translation type="unfinished"></translation>
+        <translation>پلیتون</translation>
     </message>
     <message>
         <source>Mac</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows</translation>
     </message>
     <message>
         <source>Unix</source>
-        <translation type="unfinished"></translation>
+        <translation>Unix</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>بازکردن</translation>
     </message>
     <message>
         <source>Captures any output from the action</source>
@@ -12682,7 +16170,7 @@ Parser error:
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Inserts an expression into the action</source>
@@ -12702,7 +16190,7 @@ Parser error:
     </message>
     <message>
         <source>Insert field</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن فیلد</translation>
     </message>
     <message>
         <source>Inserts the action into the list above</source>
@@ -12732,7 +16220,7 @@ Parser error:
     <name>QgsAttributeForm</name>
     <message>
         <source>Attributes changed</source>
-        <translation type="unfinished">ویژگیهای تغییر داده شده</translation>
+        <translation>ویژگیهای تغییر داده شده</translation>
     </message>
 </context>
 <context>
@@ -12781,19 +16269,19 @@ Parser error:
     <name>QgsAttributeSelectionDialogBase</name>
     <message>
         <source>Select attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب ویژگی</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>مرتب سازی</translation>
     </message>
 </context>
 <context>
@@ -12827,7 +16315,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+U</translation>
     </message>
     <message>
         <source>Move selection to top (Ctrl+T)</source>
@@ -12835,7 +16323,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <source>Invert selection (Ctrl+R)</source>
@@ -12843,7 +16331,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>Copy selected rows to clipboard (Ctrl+C)</source>
@@ -12851,7 +16339,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>Zoom map to the selected rows (Ctrl+J)</source>
@@ -12859,7 +16347,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+J</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <source>Pan map to the selected rows (Ctrl+P)</source>
@@ -12867,7 +16355,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Toggle editing mode (Ctrl+E)</source>
@@ -12875,7 +16363,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <source>Save Edits (Ctrl+S)</source>
@@ -12887,7 +16375,7 @@ Parser error:
     </message>
     <message>
         <source>Select features using an expression</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب کنید ویژگی های را با استفاده از یک عبارت </translation>
     </message>
     <message>
         <source>New column (Ctrl+W)</source>
@@ -12895,11 +16383,11 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">فیلتر</translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Filters the visible features according to the current filter selection and filter string.</source>
@@ -12911,15 +16399,15 @@ Parser error:
     </message>
     <message>
         <source>Table View</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش جداول</translation>
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished"></translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>Update All</source>
-        <translation type="unfinished"></translation>
+        <translation>بروزرسانی همه</translation>
     </message>
     <message>
         <source>Advanced Filter (Expression)</source>
@@ -12931,15 +16419,15 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <source>Show All Features</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش همه ویژگی ها</translation>
     </message>
     <message>
         <source>Show Selected Features</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش ویژگیهای انتخاب شده</translation>
     </message>
     <message>
         <source>Show Edited and New Features</source>
@@ -12947,7 +16435,7 @@ Parser error:
     </message>
     <message>
         <source>Show Features Visible On Map</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش ویژگیها در نقشه</translation>
     </message>
     <message>
         <source>The filter defines which features are currently shown in the list or on the table</source>
@@ -12967,7 +16455,7 @@ Parser error:
     </message>
     <message>
         <source>Column Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر ستون</translation>
     </message>
     <message>
         <source>Filter all the features which have been edited but not yet saved</source>
@@ -12979,7 +16467,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <source>Add feature</source>
@@ -12991,7 +16479,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message numerus="yes">
         <source>Attribute table - %1 (%n Feature(s))</source>
@@ -13026,7 +16514,7 @@ Parser error:
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>An error occured while evaluating the calculation string:
@@ -13061,6 +16549,10 @@ Parser error:
         <source>Geometryless feature added</source>
         <translation>اضافه نمودن مشخصه های بدون مدل هندسی</translation>
     </message>
+    <message>
+        <source>Update Selected</source>
+        <translation>بروزرسانی انتخاب شده ها</translation>
+    </message>
 </context>
 <context>
     <name>QgsAttributeTableModel</name>
@@ -13073,7 +16565,7 @@ Parser error:
     <name>QgsAttributeTableView</name>
     <message>
         <source>Select All</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
 </context>
 <context>
@@ -13088,7 +16580,7 @@ Parser error:
     </message>
     <message>
         <source>Label on top</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب در بالای صفحه</translation>
     </message>
     <message>
         <source>Edit Widget Properties - %1 (%2)</source>
@@ -13099,7 +16591,7 @@ Parser error:
     <name>QgsBlendModeComboBox</name>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>نرمال</translation>
     </message>
     <message>
         <source>Lighten</source>
@@ -13107,7 +16599,7 @@ Parser error:
     </message>
     <message>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>Dodge</source>
@@ -13143,7 +16635,7 @@ Parser error:
     </message>
     <message>
         <source>Difference</source>
-        <translation type="unfinished"></translation>
+        <translation>اختلاف</translation>
     </message>
     <message>
         <source>Subtract</source>
@@ -13177,11 +16669,11 @@ Database: %3</source>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">شناسه</translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Project</source>
@@ -13189,23 +16681,23 @@ Database: %3</source>
     </message>
     <message>
         <source>xMin</source>
-        <translation type="unfinished"></translation>
+        <translation>xMin</translation>
     </message>
     <message>
         <source>yMin</source>
-        <translation type="unfinished"></translation>
+        <translation>yMin</translation>
     </message>
     <message>
         <source>xMax</source>
-        <translation type="unfinished"></translation>
+        <translation>xMax</translation>
     </message>
     <message>
         <source>yMax</source>
-        <translation type="unfinished"></translation>
+        <translation>yMax</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>New bookmark</source>
@@ -13230,10 +16722,46 @@ Database:%2</source>
     </message>
     <message>
         <source>Empty extent</source>
-        <translation type="unfinished">چهار چوب خالی</translation>
+        <translation>چهار چوب خالی</translation>
     </message>
     <message>
         <source>Reprojected extent is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Share</source>
+        <translation>&amp;اشتراک</translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;خروجی</translation>
+    </message>
+    <message>
+        <source>&amp;Import</source>
+        <translation>&amp;واردکردن</translation>
+    </message>
+    <message>
+        <source>Import Bookmarks</source>
+        <translation>اصافه کردن &amp;نشانه</translation>
+    </message>
+    <message>
+        <source>XML files (*.xml *XML)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create the bookmark.
+Driver: %1
+Database: %2</source>
+        <translation>نمی توان نشانه ایجاد کرد.
+راه انداز:%1
+پایگاه داده:%2</translation>
+    </message>
+    <message>
+        <source>Export bookmarks</source>
+        <translation>&amp;خروجی نشانه ها</translation>
+    </message>
+    <message>
+        <source>XML files( *.xml *.XML )</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13252,7 +16780,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Cannot get WMS select dialog from provider.</source>
-        <translation type="unfinished">نمی توان سرویس نقشه را دریافت نمود از پنجره محاوره ارائه دهنده .</translation>
+        <translation>نمی توان سرویس نقشه را دریافت نمود از پنجره محاوره ارائه دهنده .</translation>
     </message>
     <message>
         <source>CRS</source>
@@ -13267,19 +16795,19 @@ Database:%2</source>
     <name>QgsBrowserBase</name>
     <message>
         <source>QGIS Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>مرورگر کوانتم</translation>
     </message>
     <message>
         <source>Param</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>Metadata</source>
-        <translation type="unfinished">متاداده</translation>
+        <translation>متاداده</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>پیش دید</translation>
     </message>
     <message>
         <source>Stop rendering</source>
@@ -13287,7 +16815,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished">خصوصیات</translation>
+        <translation>خصوصیات</translation>
     </message>
     <message>
         <source>toolBar</source>
@@ -13299,15 +16827,15 @@ Database:%2</source>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+N</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Set layer CRS</source>
@@ -13323,7 +16851,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+W</translation>
     </message>
 </context>
 <context>
@@ -13349,7 +16877,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>نرمال</translation>
     </message>
     <message>
         <source>Wildcard(s)</source>
@@ -13393,7 +16921,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Layer Properties</source>
@@ -13401,6 +16929,10 @@ Database:%2</source>
     </message>
     <message>
         <source>Directory Properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type here to filter current item...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13412,15 +16944,11 @@ Database:%2</source>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>Add Selected Layers</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add</source>
-        <translation type="unfinished">اضافه</translation>
     </message>
     <message>
         <source>Filter Files</source>
@@ -13428,19 +16956,15 @@ Database:%2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished">بستن همه</translation>
+        <translation>بستن همه</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Filter files</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
 </context>
 <context>
@@ -13493,7 +17017,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Vertical</source>
@@ -13517,45 +17041,45 @@ Database:%2</source>
     </message>
     <message>
         <source>Dense 1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">1</translation>
     </message>
     <message>
         <source>Dense 2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>Dense 3</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">3</translation>
     </message>
     <message>
         <source>Dense 4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">4</translation>
     </message>
     <message>
         <source>Dense 5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">5</translation>
     </message>
     <message>
         <source>Dense 6</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">6</translation>
     </message>
     <message>
         <source>Dense 7</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">7</translation>
     </message>
 </context>
 <context>
     <name>QgsBusyIndicatorDialog</name>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
 </context>
 <context>
     <name>QgsCalendarConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>A calendar widget to enter a date.</source>
@@ -13582,7 +17106,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"></translation>
+        <translation>رسته</translation>
     </message>
 </context>
 <context>
@@ -13613,11 +17137,11 @@ Database:%2</source>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">اضافه</translation>
+        <translation>اضافه</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Delete all</source>
@@ -13637,7 +17161,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Symbol levels...</source>
-        <translation type="unfinished">سطوح نماد ...</translation>
+        <translation>سطوح نماد ...</translation>
     </message>
     <message>
         <source>High number of classes!</source>
@@ -13649,7 +17173,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
@@ -13688,7 +17212,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsCheckBoxConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Representation for checked state</source>
@@ -13832,7 +17356,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>V</source>
@@ -13852,7 +17376,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>تاری</translation>
     </message>
     <message>
         <source>HTML notation</source>
@@ -13872,7 +17396,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Sample average radius</source>
@@ -13880,7 +17404,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished">پيکسل</translation>
+        <translation>پيکسل</translation>
     </message>
     <message>
         <source>Sample color</source>
@@ -13959,7 +17483,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsColorDialogV2</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Select Color</source>
@@ -14041,18 +17565,18 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsColorSchemeModel</name>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
 </context>
 <context>
     <name>QgsColorSliderWidget</name>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
 </context>
 <context>
@@ -14118,7 +17642,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsCompassPluginGuiBase</name>
     <message>
         <source>Internal Compass</source>
-        <translation type="unfinished">قطب نما داخلی</translation>
+        <translation>قطب نما داخلی</translation>
     </message>
     <message>
         <source>Azimut</source>
@@ -14129,11 +17653,11 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsComposer</name>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>&amp;Composer</source>
@@ -14145,7 +17669,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;ویرایش</translation>
+        <translation>&amp;ویرایش</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
@@ -14169,7 +17693,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation type="unfinished">&amp;نمایش</translation>
+        <translation>&amp;نمایش</translation>
     </message>
     <message>
         <source>P&amp;anels</source>
@@ -14189,7 +17713,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;تنظیمات</translation>
+        <translation>&amp;تنظیمات</translation>
     </message>
     <message>
         <source>Composer</source>
@@ -14209,7 +17733,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -14221,7 +17745,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>نرمال</translation>
     </message>
     <message>
         <source>Simulate photocopy (grayscale)</source>
@@ -14241,11 +17765,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Window</source>
-        <translation type="unfinished">پنجره</translation>
+        <translation>پنجره</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -14345,7 +17869,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Big image</source>
@@ -14357,7 +17881,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Choose a file name to save the map image as</source>
-        <translation type="unfinished">با انتخاب نام فایل نقشه در عکس ذخیره می شود در</translation>
+        <translation>با انتخاب نام فایل نقشه در عکس ذخیره می شود در</translation>
     </message>
     <message>
         <source>Memory Allocation Error</source>
@@ -14386,7 +17910,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Don&apos;t show this message again</source>
-        <translation type="unfinished">این پیام دوباره نشان داده نشود</translation>
+        <translation>این پیام دوباره نشان داده نشود</translation>
     </message>
     <message>
         <source>&lt;p&gt;The SVG export function in QGIS has several problems due to bugs and deficiencies in the </source>
@@ -14450,7 +17974,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Save error</source>
-        <translation type="unfinished">ذخیره خطا</translation>
+        <translation>ذخیره خطا</translation>
     </message>
     <message>
         <source>Error, could not save file</source>
@@ -14502,7 +18026,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Landscape</source>
-        <translation type="unfinished"></translation>
+        <translation>افقی</translation>
     </message>
 </context>
 <context>
@@ -14568,7 +18092,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerArrowWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Arrow</source>
@@ -14580,7 +18104,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Arrow head width</source>
@@ -14596,11 +18120,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">پیش فرض</translation>
+        <translation>پیش فرض</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>SVG</source>
@@ -14624,7 +18148,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>End marker</source>
@@ -14635,15 +18159,15 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerAttributeTableColumnModel</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Attribute</source>
@@ -14655,26 +18179,26 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">هم ترازی</translation>
+        <translation>هم ترازی</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerAttributeTableColumnModelV2</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished">اتوماتیک</translation>
+        <translation>اتوماتیک</translation>
     </message>
     <message>
         <source>%1 mm</source>
@@ -14690,11 +18214,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">هم ترازی</translation>
+        <translation>هم ترازی</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
 </context>
 <context>
@@ -14748,7 +18272,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select background color</source>
-        <translation type="unfinished">انتخاب رنگ پس زمینه</translation>
+        <translation>انتخاب رنگ پس زمینه</translation>
     </message>
     <message>
         <source>No background</source>
@@ -14756,7 +18280,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
     </message>
     <message>
         <source>Table attribute settings</source>
@@ -14776,7 +18300,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب فونت</translation>
     </message>
     <message>
         <source>Table header font</source>
@@ -14891,11 +18415,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerAttributeTableWidgetBase</name>
     <message>
         <source>Attribute Table</source>
-        <translation type="unfinished">مشخصات جدول</translation>
+        <translation>مشخصات جدول</translation>
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>مشخصات جدول</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -14903,11 +18427,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Refresh table data</source>
-        <translation type="unfinished"></translation>
+        <translation>بروزرسانی جداول اطلاعات</translation>
     </message>
     <message>
         <source>Attributes...</source>
@@ -14915,7 +18439,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Feature filtering</source>
@@ -14923,7 +18447,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Maximum rows</source>
-        <translation type="unfinished">بيشترين سطر</translation>
+        <translation>بيشترين سطر</translation>
     </message>
     <message>
         <source>Composer map</source>
@@ -14931,15 +18455,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">رنگ پس زمینه</translation>
+        <translation>رنگ پس زمینه</translation>
     </message>
     <message>
         <source>Show empty rows</source>
@@ -14947,7 +18471,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Show grid</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش گرید</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -14955,7 +18479,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
@@ -14971,23 +18495,23 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">هم ترازی</translation>
+        <translation>هم ترازی</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">قلم</translation>
+        <translation>قلم</translation>
     </message>
     <message>
         <source>Choose font...</source>
@@ -15007,7 +18531,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">منبع</translation>
+        <translation>منبع</translation>
     </message>
     <message>
         <source>Relation</source>
@@ -15063,7 +18587,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Resize mode</source>
-        <translation type="unfinished">حالت تغییر اندازه</translation>
+        <translation>حالت تغییر اندازه</translation>
     </message>
     <message>
         <source>Add Frame</source>
@@ -15102,7 +18626,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Zoom full</source>
@@ -15110,7 +18634,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
         <source>Zoom in</source>
@@ -15118,7 +18642,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
         <source>Zoom out</source>
@@ -15126,7 +18650,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Zoom to 100%</source>
@@ -15134,11 +18658,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+1</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">بزرگنمایی</translation>
+        <translation>بزرگنمایی</translation>
     </message>
     <message>
         <source>Z</source>
@@ -15178,15 +18702,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Show grid</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش گرید</translation>
     </message>
     <message>
         <source>Ctrl+&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&apos;</translation>
     </message>
     <message>
         <source>Snap to grid</source>
@@ -15194,7 +18718,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+&apos;</translation>
     </message>
     <message>
         <source>Show guides</source>
@@ -15202,7 +18726,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+;</translation>
     </message>
     <message>
         <source>Snap to guides</source>
@@ -15210,7 +18734,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+;</translation>
     </message>
     <message>
         <source>Smart guides</source>
@@ -15218,7 +18742,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Alt+;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+;</translation>
     </message>
     <message>
         <source>Clear guides</source>
@@ -15242,7 +18766,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
         <source>Ungroup items</source>
@@ -15250,7 +18774,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+G</translation>
     </message>
     <message>
         <source>Raise selected items</source>
@@ -15258,7 +18782,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+]</translation>
     </message>
     <message>
         <source>Lower selected items</source>
@@ -15266,7 +18790,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+[</translation>
     </message>
     <message>
         <source>Move selected items to top</source>
@@ -15274,7 +18798,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+]</translation>
     </message>
     <message>
         <source>Move selected items to bottom</source>
@@ -15282,7 +18806,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+[</translation>
     </message>
     <message>
         <source>Zoom &amp;Full</source>
@@ -15334,7 +18858,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;به روز رسانی</translation>
     </message>
     <message>
         <source>Show &amp;Grid</source>
@@ -15546,15 +19070,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation type="unfinished">&amp;برگشت</translation>
+        <translation>&amp;برگشت</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation type="unfinished">&amp;ازنو</translation>
+        <translation>&amp;ازنو</translation>
     </message>
     <message>
         <source>Add &amp;HTML</source>
@@ -15582,7 +19106,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <source>Paste in place</source>
@@ -15590,11 +19114,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished">Ctrl+Shift+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;حذف</translation>
+        <translation>&amp;حذف</translation>
     </message>
     <message>
         <source>Delete selected items</source>
@@ -15610,7 +19134,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
         <source>Select all items</source>
@@ -15618,7 +19142,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>&amp;Invert Selection</source>
@@ -15638,7 +19162,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Alt+[</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+[</translation>
     </message>
     <message>
         <source>Select Next Item &amp;Above</source>
@@ -15650,7 +19174,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Alt+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+]</translation>
     </message>
     <message>
         <source>Pan Composer</source>
@@ -15666,27 +19190,27 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <source>Ctrl+&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&lt;</translation>
     </message>
     <message>
         <source>Ctrl+,</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+,</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+.</translation>
     </message>
     <message>
         <source>Ctrl+&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&gt;</translation>
     </message>
     <message>
         <source>Ctrl+Alt+/</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+/</translation>
     </message>
     <message>
         <source>Export Atlas as PDF</source>
@@ -15754,7 +19278,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Composer manager</source>
-        <translation type="unfinished">مدیریت سازنده</translation>
+        <translation>مدیریت سازنده</translation>
     </message>
     <message>
         <source>New composer</source>
@@ -15762,11 +19286,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>&amp;Save Project</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ذخیره پروژه</translation>
     </message>
     <message>
         <source>Save project</source>
@@ -15774,7 +19298,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>Duplicate composer</source>
@@ -15782,48 +19306,84 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <source>Unlock All Items</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show Bounding Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show bounding boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+B</source>
+        <translation>Ctrl+Shift+B</translation>
+    </message>
+    <message>
+        <source>Toggle Full Scr&amp;een</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle full screen mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F11</source>
+        <translation>F11</translation>
+    </message>
+    <message>
+        <source>&amp;Hide Panels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide panels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F10</source>
+        <translation type="unfinished">F10</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnAlignmentDelegate</name>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnSortOrderDelegate</name>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">صعودی</translation>
+        <translation>صعودی</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">نزولی</translation>
+        <translation>نزولی</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnWidthDelegate</name>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished">اتوماتیک</translation>
+        <translation>اتوماتیک</translation>
     </message>
 </context>
 <context>
@@ -15908,7 +19468,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished">قرار دادن عبارت</translation>
+        <translation>قرار دادن عبارت</translation>
     </message>
     <message>
         <source>url string</source>
@@ -15983,7 +19543,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>User stylesheet</source>
@@ -16030,7 +19590,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>&lt;shape&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;shape&gt;</translation>
     </message>
     <message>
         <source>&lt;table&gt;</source>
@@ -16085,11 +19645,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select background color</source>
-        <translation type="unfinished">انتخاب رنگ پس زمینه</translation>
+        <translation>انتخاب رنگ پس زمینه</translation>
     </message>
     <message>
         <source>Select frame color</source>
-        <translation type="unfinished">انتخاب رنگ چهارچوب</translation>
+        <translation>انتخاب رنگ چهارچوب</translation>
     </message>
     <message>
         <source>Item blend mode changed</source>
@@ -16128,27 +19688,27 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>X</source>
-        <translation type="unfinished">X</translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Y</source>
-        <translation type="unfinished">Y</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>صفحه</translation>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message utf8="true">
         <source> °</source>
@@ -16156,7 +19716,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -16164,23 +19724,23 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">اتصال سبک ها</translation>
+        <translation>اتصال سبک ها</translation>
     </message>
     <message>
         <source>Frame color</source>
-        <translation type="unfinished">رنگ چهار چوب</translation>
+        <translation>رنگ چهار چوب</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">رنگ پس زمینه</translation>
+        <translation>رنگ پس زمینه</translation>
     </message>
     <message>
         <source>Rendering</source>
-        <translation type="unfinished">رندر</translation>
+        <translation>رندر</translation>
     </message>
     <message>
         <source>Blending mode</source>
@@ -16200,7 +19760,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">شفافیت</translation>
+        <translation>شفافیت</translation>
     </message>
     <message>
         <source>Item ID</source>
@@ -16208,7 +19768,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
 </context>
 <context>
@@ -16230,7 +19790,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerLabelWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">انتخاب رنگ قلم</translation>
+        <translation>انتخاب رنگ قلم</translation>
     </message>
     <message>
         <source>Label text HTML state changed</source>
@@ -16293,15 +19853,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">رنگ فونت</translation>
+        <translation>رنگ فونت</translation>
     </message>
     <message>
         <source>Horizontal alignment</source>
-        <translation type="unfinished">تراز افقی</translation>
+        <translation>تراز افقی</translation>
     </message>
     <message>
         <source>Vertical alignment</source>
-        <translation type="unfinished">تراز عمودی</translation>
+        <translation>تراز عمودی</translation>
     </message>
     <message>
         <source>Top</source>
@@ -16328,12 +19888,16 @@ Please try a lower resolution or a smaller papersize</source>
         <translation>راست</translation>
     </message>
     <message>
-        <source>Margin</source>
+        <source> mm</source>
+        <translation>میلی متر</translation>
+    </message>
+    <message>
+        <source>Horizontal margin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <source>Vertical margin</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -16376,7 +19940,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerLegendWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">انتخاب رنگ قلم</translation>
+        <translation>انتخاب رنگ قلم</translation>
     </message>
     <message>
         <source>Item wrapping changed</source>
@@ -16468,11 +20032,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Legend item properties</source>
-        <translation type="unfinished">خصوصیات اقلام رسته</translation>
+        <translation>خصوصیات اقلام رسته</translation>
     </message>
     <message>
         <source>Item text</source>
-        <translation type="unfinished">نوشته اقلام</translation>
+        <translation>نوشته اقلام</translation>
     </message>
     <message>
         <source>Legend item edited</source>
@@ -16488,7 +20052,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">گروه</translation>
+        <translation>گروه</translation>
     </message>
     <message>
         <source>Map %1</source>
@@ -16507,7 +20071,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"></translation>
+        <translation>رسته</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -16563,7 +20127,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>تعدا</translation>
     </message>
     <message>
         <source>Equal column widths</source>
@@ -16591,15 +20155,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Update whole legend. Layers are added/removed according to main application legend. User defined labels will be deleted.</source>
@@ -16611,7 +20175,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Auto update</source>
@@ -16639,7 +20203,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">رنگ فونت</translation>
+        <translation>رنگ فونت</translation>
     </message>
     <message>
         <source>Symbol</source>
@@ -16706,15 +20270,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تکراری</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حذف</translation>
     </message>
     <message>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تغییر نام</translation>
     </message>
     <message>
         <source>Empty composer</source>
@@ -16809,7 +20373,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Open template directory</source>
@@ -16851,11 +20415,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Render</source>
-        <translation type="unfinished">رندر</translation>
+        <translation>رندر</translation>
     </message>
     <message>
         <source>Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>مستطیل</translation>
     </message>
     <message>
         <source>Solid</source>
@@ -16891,7 +20455,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">انتخاب رنگ قلم</translation>
+        <translation>انتخاب رنگ قلم</translation>
     </message>
     <message>
         <source>Select grid frame color</source>
@@ -16915,7 +20479,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Overview %1</source>
@@ -16979,7 +20543,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Transparent frame</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت فریم</translation>
     </message>
     <message>
         <source>Transparent fill</source>
@@ -16995,11 +20559,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Centimeter</source>
@@ -17071,7 +20635,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Grid checkbox toggled</source>
-        <translation type="unfinished"></translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Overview blend mode changed</source>
@@ -17155,11 +20719,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
-    </message>
-    <message>
-        <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Annotation position changed</source>
@@ -17171,7 +20731,47 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
+    </message>
+    <message>
+        <source>Frame divisions changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Annotation display changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show latitude only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show longitude only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Latitude/Y only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Longitude/X only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical descending</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -17182,7 +20782,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">نقشه</translation>
+        <translation>نقشه</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -17210,19 +20810,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Extents</source>
-        <translation type="unfinished"></translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>X max</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداکثر</translation>
     </message>
     <message>
         <source>Y min</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداقل</translation>
     </message>
     <message>
         <source>Y max</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداکثر</translation>
     </message>
     <message>
         <source>Set to map canvas extent</source>
@@ -17230,11 +20830,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>X min</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداقل</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>View extent in map canvas</source>
@@ -17250,7 +20850,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Fixed scale</source>
@@ -17266,11 +20866,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">افست</translation>
+        <translation>افست</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Blend mode</source>
@@ -17298,7 +20898,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Marker style</source>
-        <translation type="unfinished">سبک نشانگر</translation>
+        <translation>سبک نشانگر</translation>
     </message>
     <message>
         <source>Invert overview</source>
@@ -17310,7 +20910,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>X </source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message utf8="true">
         <source> °</source>
@@ -17318,7 +20918,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Y </source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Cross width</source>
@@ -17334,7 +20934,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Grids</source>
-        <translation type="unfinished"></translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>Add a new grid</source>
@@ -17362,7 +20962,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS</translation>
     </message>
     <message>
         <source>change...</source>
@@ -17374,11 +20974,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Centimeter</source>
@@ -17430,27 +21030,27 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">قلم</translation>
+        <translation>قلم</translation>
     </message>
     <message>
         <source>Font...</source>
@@ -17458,7 +21058,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">رنگ فونت</translation>
+        <translation>رنگ فونت</translation>
     </message>
     <message>
         <source>Distance to map frame</source>
@@ -17489,6 +21089,22 @@ Please try a lower resolution or a smaller papersize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Right divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Add a new overview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17504,6 +21120,10 @@ Please try a lower resolution or a smaller papersize</source>
         <source>Move selected overview down</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lock layer styles for map item</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsComposerModel</name>
@@ -17516,7 +21136,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerMouseHandles</name>
     <message>
         <source>Change item position</source>
-        <translation type="unfinished"></translation>
+        <translation>تغییر مکان فقره</translation>
     </message>
     <message>
         <source>Change item size</source>
@@ -17600,7 +21220,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
     </message>
     <message>
         <source>Creating icon for file %1</source>
@@ -17627,19 +21247,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Resize mode</source>
-        <translation type="unfinished">حالت تغییر اندازه</translation>
+        <translation>حالت تغییر اندازه</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
+        <translation>موقعیت</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">بزرگنمایی</translation>
+        <translation>بزرگنمایی</translation>
     </message>
     <message>
         <source>Stretch</source>
@@ -17675,7 +21295,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Middle</source>
-        <translation type="unfinished">وسط</translation>
+        <translation>وسط</translation>
     </message>
     <message>
         <source>Middle right</source>
@@ -17707,7 +21327,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Add...</source>
@@ -17746,7 +21366,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>ft</source>
-        <translation type="unfinished"></translation>
+        <translation>پا</translation>
     </message>
     <message>
         <source>Nm</source>
@@ -17781,27 +21401,27 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Middle</source>
-        <translation type="unfinished">وسط</translation>
+        <translation>وسط</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحدهای نقشه</translation>
     </message>
     <message>
         <source>Meters</source>
-        <translation type="unfinished">متر</translation>
+        <translation>متر</translation>
     </message>
     <message>
         <source>Feet</source>
-        <translation type="unfinished">پا</translation>
+        <translation>پا</translation>
     </message>
     <message>
         <source>Nautical Miles</source>
@@ -17821,7 +21441,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">انتخاب رنگ قلم</translation>
+        <translation>انتخاب رنگ قلم</translation>
     </message>
     <message>
         <source>Select stroke color</source>
@@ -17833,7 +21453,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
     </message>
     <message>
         <source>Scalebar map changed</source>
@@ -17944,19 +21564,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">نقشه</translation>
+        <translation>نقشه</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Map units per bar unit</source>
@@ -17964,67 +21584,67 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Segments</source>
-        <translation type="unfinished">بخش</translation>
+        <translation>بخش</translation>
     </message>
     <message>
         <source>left </source>
-        <translation type="unfinished"></translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>right </source>
-        <translation type="unfinished"></translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source> units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">نمایش</translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Box margin</source>
-        <translation type="unfinished"></translation>
+        <translation>جعبه حاشیه</translation>
     </message>
     <message>
         <source>Labels margin</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب حاشیه</translation>
     </message>
     <message>
         <source>Line width</source>
-        <translation type="unfinished">عرض خط</translation>
+        <translation>عرض خط</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">اتصال سبک ها</translation>
+        <translation>اتصال سبک ها</translation>
     </message>
     <message>
         <source>Cap style</source>
-        <translation type="unfinished">سبک کلاهک</translation>
+        <translation>سبک کلاهک</translation>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">هم ترازی</translation>
+        <translation>هم ترازی</translation>
     </message>
     <message>
         <source>Fonts and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>فونت و رنگ</translation>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">رنگ فونت</translation>
+        <translation>رنگ فونت</translation>
     </message>
     <message>
         <source>Fill color</source>
@@ -18047,11 +21667,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerShape</name>
     <message>
         <source>&lt;ellipse&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;ellipse&gt;</translation>
     </message>
     <message>
         <source>&lt;rectangle&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;rectangle&gt;</translation>
     </message>
     <message>
         <source>&lt;triangle&gt;</source>
@@ -18059,18 +21679,18 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>&lt;shape&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;shape&gt;</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerShapeWidget</name>
     <message>
         <source>Ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>بیضی</translation>
     </message>
     <message>
         <source>Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>مستطیل</translation>
     </message>
     <message>
         <source>Triangle</source>
@@ -18093,11 +21713,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerShapeWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Shape</source>
-        <translation type="unfinished"></translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -18109,11 +21729,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Change...</source>
@@ -18124,11 +21744,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableSortColumnsProxyModel</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">نزولی</translation>
+        <translation>نزولی</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">صعودی</translation>
+        <translation>صعودی</translation>
     </message>
     <message>
         <source>Attribute</source>
@@ -18143,11 +21763,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableSortColumnsProxyModelV2</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">نزولی</translation>
+        <translation>نزولی</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">صعودی</translation>
+        <translation>صعودی</translation>
     </message>
     <message>
         <source>Attribute</source>
@@ -18169,7 +21789,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableWidget</name>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
     </message>
     <message>
         <source>Table feature filter toggled</source>
@@ -18213,7 +21833,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select Font</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب فونت</translation>
     </message>
     <message>
         <source>Table header font</source>
@@ -18256,11 +21876,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableWidgetBase</name>
     <message>
         <source>Attribute Table</source>
-        <translation type="unfinished">مشخصات جدول</translation>
+        <translation>مشخصات جدول</translation>
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>مشخصات جدول</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -18268,7 +21888,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Attributes...</source>
@@ -18284,7 +21904,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
@@ -18296,11 +21916,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Alignment</source>
-        <translation type="unfinished">هم ترازی</translation>
+        <translation>هم ترازی</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">قلم</translation>
+        <translation>قلم</translation>
     </message>
     <message>
         <source>Choose font...</source>
@@ -18316,7 +21936,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>حاشیه</translation>
     </message>
     <message>
         <source>Show only visible features</source>
@@ -18324,23 +21944,23 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Refresh table data</source>
-        <translation type="unfinished"></translation>
+        <translation>بروزرسانی جداول اطلاعات</translation>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Show grid</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش گرید</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -18352,15 +21972,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">مرکز</translation>
+        <translation>مرکز</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
 </context>
 <context>
@@ -18406,47 +22026,47 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerView</name>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>Label added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن برچسب</translation>
     </message>
     <message>
         <source>Scale bar added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن مقیاس</translation>
     </message>
     <message>
         <source>Legend added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن راهنمای نقشه</translation>
     </message>
     <message>
         <source>Picture added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن عکس</translation>
     </message>
     <message>
         <source>Table added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن جدول</translation>
     </message>
     <message>
         <source>Shape added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن شکل</translation>
     </message>
     <message>
         <source>Move item content</source>
-        <translation type="unfinished">انتقال محتوا آیتم</translation>
+        <translation>انتقال محتوا آیتم</translation>
     </message>
     <message>
         <source>Arrow added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن جهت</translation>
     </message>
     <message>
         <source>Map added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن نقشه</translation>
     </message>
     <message>
         <source>Attribute table added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن جدول اطلاعات</translation>
     </message>
     <message>
         <source>Attribute table frame added</source>
@@ -18462,7 +22082,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Item moved</source>
-        <translation type="unfinished"></translation>
+        <translation>جابجائی مورد</translation>
     </message>
     <message>
         <source>Zoom item content</source>
@@ -18473,35 +22093,35 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposition</name>
     <message>
         <source>Label added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن برچسب</translation>
     </message>
     <message>
         <source>Map added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن نقشه</translation>
     </message>
     <message>
         <source>Arrow added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن جهت</translation>
     </message>
     <message>
         <source>Scale bar added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن مقیاس</translation>
     </message>
     <message>
         <source>Shape added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن شکل</translation>
     </message>
     <message>
         <source>Picture added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن تصویر</translation>
     </message>
     <message>
         <source>Legend added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن لجاند</translation>
     </message>
     <message>
         <source>Table added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن جدول</translation>
     </message>
     <message>
         <source>Aligned items left</source>
@@ -18564,42 +22184,42 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Paper</source>
-        <translation type="unfinished"></translation>
+        <translation>صفحه</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
 </context>
 <context>
     <name>QgsCompositionWidget</name>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>inch</source>
-        <translation type="unfinished"></translation>
+        <translation>اینچ</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation type="unfinished"></translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Portrait</source>
@@ -18607,103 +22227,103 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">نقشه %1</translation>
+        <translation>نقشه %1</translation>
     </message>
     <message>
         <source>A5 (148x210 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A5 (148x210 mm)</translation>
     </message>
     <message>
         <source>A4 (210x297 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A4 (210x297 mm)</translation>
     </message>
     <message>
         <source>A3 (297x420 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A3 (297x420 mm)</translation>
     </message>
     <message>
         <source>A2 (420x594 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A2 (420x594 mm)</translation>
     </message>
     <message>
         <source>A1 (594x841 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A1 (594x841 mm)</translation>
     </message>
     <message>
         <source>A0 (841x1189 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A0 (841x1189 mm)</translation>
     </message>
     <message>
         <source>B5 (176 x 250 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B5 (176 x 250 mm)</translation>
     </message>
     <message>
         <source>B4 (250 x 353 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B4 (250 x 353 mm)</translation>
     </message>
     <message>
         <source>B3 (353 x 500 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B3 (353 x 500 mm)</translation>
     </message>
     <message>
         <source>B2 (500 x 707 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B2 (500 x 707 mm)</translation>
     </message>
     <message>
         <source>B1 (707 x 1000 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B1 (707 x 1000 mm)</translation>
     </message>
     <message>
         <source>B0 (1000 x 1414 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B0 (1000 x 1414 mm)</translation>
     </message>
     <message>
         <source>Legal (8.5x14 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Legal (8.5x14 in)</translation>
     </message>
     <message>
         <source>ANSI A (Letter; 8.5x11 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI A (Letter; 8.5x11 in)</translation>
     </message>
     <message>
         <source>ANSI B (Tabloid; 11x17 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI B (Tabloid; 11x17 in)</translation>
     </message>
     <message>
         <source>ANSI C (17x22 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI C (17x22 in)</translation>
     </message>
     <message>
         <source>ANSI D (22x34 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI D (22x34 in)</translation>
     </message>
     <message>
         <source>ANSI E (34x44 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI E (34x44 in)</translation>
     </message>
     <message>
         <source>Arch A (9x12 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch A (9x12 in)</translation>
     </message>
     <message>
         <source>Arch B (12x18 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch B (12x18 in)</translation>
     </message>
     <message>
         <source>Arch C (18x24 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch C (18x24 in)</translation>
     </message>
     <message>
         <source>Arch D (24x36 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch D (24x36 in)</translation>
     </message>
     <message>
         <source>Arch E (36x48 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch E (36x48 in)</translation>
     </message>
     <message>
         <source>Arch E1 (30x42 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Arch E1 (30x42 in)</translation>
     </message>
     <message>
         <source>Custom</source>
@@ -18726,27 +22346,27 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحدها</translation>
     </message>
     <message>
         <source>Number of pages</source>
-        <translation type="unfinished"></translation>
+        <translation>تعداد صفحات</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Export resolution</source>
@@ -18762,19 +22382,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Page background</source>
-        <translation type="unfinished"></translation>
+        <translation>صفحه پیش زمینه</translation>
     </message>
     <message>
         <source>Snap tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>بازه چسبیدن</translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished">پيکسل</translation>
+        <translation>پيکسل</translation>
     </message>
     <message>
         <source> dpi</source>
-        <translation type="unfinished"></translation>
+        <translation>dpi</translation>
     </message>
     <message>
         <source>World file on</source>
@@ -18786,23 +22406,23 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Grid spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>فضای شبکه</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Grid offset</source>
-        <translation type="unfinished"></translation>
+        <translation>انحراف شبکه</translation>
     </message>
     <message>
         <source>x: </source>
-        <translation type="unfinished"></translation>
+        <translation>x:</translation>
     </message>
     <message>
         <source>y: </source>
-        <translation type="unfinished"></translation>
+        <translation>y:</translation>
     </message>
 </context>
 <context>
@@ -18821,7 +22441,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished">تغییر</translation>
+        <translation>تغییر</translation>
     </message>
     <message>
         <source>Set none</source>
@@ -18849,7 +22469,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>Saving shortcuts</source>
@@ -18888,7 +22508,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Set default (%1)</source>
@@ -19048,11 +22668,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Path</source>
-        <translation type="unfinished">مسیر</translation>
+        <translation>مسیر</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>Author(s)</source>
@@ -19060,7 +22680,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">منبع</translation>
+        <translation>منبع</translation>
     </message>
     <message>
         <source>Details</source>
@@ -19151,7 +22771,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">شناسه</translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>You can define your own custom Coordinate Reference System (CRS) here. The definition must conform to the proj4 format for specifying a CRS.</source>
@@ -19190,29 +22810,20 @@ and current file is [%3]</source>
         <translation>شرق</translation>
     </message>
     <message>
-        <source>Name:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Parameters:</source>
-        <translation type="unfinished">ورودی‌ها:</translation>
-    </message>
-    <message>
-        <source>Copy
- existing CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add new CRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
-    </message>
-    <message>
         <source>Calculate</source>
         <translation>بر اورد کردن</translation>
+    </message>
+    <message>
+        <source>Remove CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy existing CRS</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -19308,11 +22919,11 @@ and current file is [%3]</source>
     <name>QgsDataDefinedButton</name>
     <message>
         <source>Description...</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">ویرایش ...</translation>
+        <translation>ویرایش ...</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -19320,11 +22931,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">تمیز</translation>
+        <translation>تمیز</translation>
     </message>
     <message>
         <source>string</source>
@@ -19360,7 +22971,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>field</source>
-        <translation type="unfinished">فیلد</translation>
+        <translation>فیلد</translation>
     </message>
     <message>
         <source>Deactivate</source>
@@ -19368,11 +22979,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>فعال</translation>
     </message>
     <message>
         <source>Attribute field</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلد ویژگی</translation>
     </message>
     <message>
         <source>No matching field types found</source>
@@ -19412,11 +23023,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>yes</source>
-        <translation type="unfinished">بلی</translation>
+        <translation>بلی</translation>
     </message>
     <message>
         <source>no</source>
-        <translation type="unfinished">خیر</translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>&lt;b&gt;Usage:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
@@ -19486,6 +23097,18 @@ and current file is [%3]</source>
         <source>string [&lt;b&gt;r,g,b,a&lt;/b&gt;] as int 0-255</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>double [0.0-1.0]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>string [&lt;b&gt;filepath&lt;/b&gt;]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[&lt;b&gt;&lt;dash&gt;;&lt;space&gt;&lt;/b&gt;] e.g. &apos;8;2;1;2&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsDataDefinedButtonPlugin</name>
@@ -19514,7 +23137,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>double</source>
@@ -19549,7 +23172,7 @@ and current file is [%3]</source>
     <name>QgsDateTimeEditConfig</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Format&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Examples result&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;dd.MM.yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;21.05.2001&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ddd MMMM d yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;Tue May 21 01&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;hh:mm:ss.zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;14:13:09.042&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;h:m:s ap&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;2:13:9 pm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Date output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;d&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the day as number without a leading zero (1 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the day as number with a leading zero (01 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;ddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized day name (e.g. &apos;Mon&apos; to &apos;Sun&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized day name (e.g. &apos;Monday&apos; to &apos;&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qt.html#DayOfWeek-enum&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;Qt::Sunday&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the month as number without a leading zero (1-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the month as number with a leading zero (01-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;MMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized month name (e.g. &apos;Jan&apos; to &apos;Dec&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MMMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized month name (e.g. &apos;January&apos; to &apos;December&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the year as two digit number (00-99)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the year as four digit number&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Time output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;h&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;hh&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;H&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;HH&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the minute without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;mm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the minute with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;s&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the second without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ss&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the second with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the milliseconds without leading zeroes (0 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the milliseconds with leading zeroes (000 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;AP or A&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;use AM/PM display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;A/AP&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;AM&amp;quot; or &amp;quot;PM&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ap or a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;use am/pm display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;a/ap&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;am&amp;quot; or &amp;quot;pm&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the timezone (for example &amp;quot;CEST&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -19577,7 +23200,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Widget display</source>
@@ -19626,7 +23249,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished">مجهول</translation>
+        <translation>مجهول</translation>
     </message>
 </context>
 <context>
@@ -19661,7 +23284,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
 </context>
 <context>
@@ -19775,19 +23398,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished">پایین چپ</translation>
+        <translation>پایین چپ</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished">بالا چپ</translation>
+        <translation>بالا چپ</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished">پایین راست</translation>
+        <translation>پایین راست</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished">بالا راست</translation>
+        <translation>بالا راست</translation>
     </message>
     <message>
         <source>&amp;Orientation</source>
@@ -19795,7 +23418,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Vertical</source>
@@ -19803,7 +23426,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Select text color</source>
@@ -19865,7 +23488,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Annotation direction</source>
-        <translation type="unfinished"></translation>
+        <translation>جهت</translation>
     </message>
     <message>
         <source>Font...</source>
@@ -19905,15 +23528,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Marker</source>
-        <translation type="unfinished">نشانگر</translation>
+        <translation>نشانگر</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Vertical</source>
@@ -19963,11 +23586,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
+        <translation>جایگذاری</translation>
     </message>
     <message>
         <source>Placement on screen</source>
@@ -19975,19 +23598,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished">بالا چپ</translation>
+        <translation>بالا چپ</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished">بالا راست</translation>
+        <translation>بالا راست</translation>
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished">پایین چپ</translation>
+        <translation>پایین چپ</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished">پایین راست</translation>
+        <translation>پایین راست</translation>
     </message>
     <message>
         <source>Enable North Arrow</source>
@@ -19999,26 +23622,26 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Pixmap not found</source>
-        <translation type="unfinished">نگاشت تصویر دانهای یافت نشد</translation>
+        <translation>نگاشت تصویر دانهای یافت نشد</translation>
     </message>
 </context>
 <context>
     <name>QgsDecorationScaleBar</name>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished">پایین چپ</translation>
+        <translation>پایین چپ</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished">بالا چپ</translation>
+        <translation>بالا چپ</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished">بالا راست</translation>
+        <translation>بالا راست</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished">پایین راست</translation>
+        <translation>پایین راست</translation>
     </message>
     <message>
         <source>Tick Down</source>
@@ -20034,31 +23657,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Box</source>
-        <translation type="unfinished">جعبه</translation>
+        <translation>جعبه</translation>
     </message>
     <message>
         <source> km</source>
-        <translation type="unfinished">کیاومتر</translation>
+        <translation>کیاومتر</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished">سانتی متر</translation>
+        <translation>سانتی متر</translation>
     </message>
     <message>
         <source> m</source>
-        <translation type="unfinished">متر</translation>
+        <translation>متر</translation>
     </message>
     <message>
         <source> miles</source>
-        <translation type="unfinished"></translation>
+        <translation>مایل</translation>
     </message>
     <message>
         <source> mile</source>
-        <translation type="unfinished">مایل</translation>
+        <translation>مایل</translation>
     </message>
     <message>
         <source> inches</source>
@@ -20066,23 +23689,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source> foot</source>
-        <translation type="unfinished">فوت (پا)</translation>
+        <translation>فوت (پا)</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation>پا</translation>
     </message>
     <message>
         <source> degree</source>
-        <translation type="unfinished">درجه</translation>
+        <translation>درجه</translation>
     </message>
     <message>
         <source> degrees</source>
-        <translation type="unfinished">درجه ها</translation>
+        <translation>درجه ها</translation>
     </message>
     <message>
         <source> unknown</source>
-        <translation type="unfinished">ناشناخته</translation>
+        <translation>ناشناخته</translation>
     </message>
 </context>
 <context>
@@ -20093,23 +23716,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
+        <translation>جایگذاری</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished">بالا چپ</translation>
+        <translation>بالا چپ</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished">بالا راست</translation>
+        <translation>بالا راست</translation>
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished">پایین چپ</translation>
+        <translation>پایین چپ</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished">پایین راست</translation>
+        <translation>پایین راست</translation>
     </message>
     <message>
         <source>Scale bar style</source>
@@ -20129,7 +23752,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Box</source>
-        <translation type="unfinished">جعبه</translation>
+        <translation>جعبه</translation>
     </message>
     <message>
         <source>Bar</source>
@@ -20161,7 +23784,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source> degrees</source>
-        <translation type="unfinished">درجه ها</translation>
+        <translation>درجه ها</translation>
     </message>
     <message>
         <source>Select scalebar color</source>
@@ -20354,7 +23977,7 @@ not displayed</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
 </context>
 <context>
@@ -20377,7 +24000,7 @@ not displayed</source>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Name to display in the map legend</source>
@@ -20397,7 +24020,7 @@ not displayed</source>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">فهرست...</translation>
+        <translation>فهرست...</translation>
     </message>
     <message>
         <source>Field names are read from the first record. If not selected then fields are numbered</source>
@@ -20417,7 +24040,7 @@ not displayed</source>
     </message>
     <message>
         <source>Space</source>
-        <translation type="unfinished">فضای خالی</translation>
+        <translation>فضای خالی</translation>
     </message>
     <message>
         <source>Comma</source>
@@ -20425,7 +24048,7 @@ not displayed</source>
     </message>
     <message>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>رمز گذاري</translation>
     </message>
     <message>
         <source>Select the file encoding</source>
@@ -20457,15 +24080,15 @@ not displayed</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>Record options</source>
@@ -20695,7 +24318,7 @@ not displayed</source>
     <name>QgsDiagramProperties</name>
     <message>
         <source>Select background color</source>
-        <translation type="unfinished">انتخاب رنگ پس زمینه</translation>
+        <translation>انتخاب رنگ پس زمینه</translation>
     </message>
     <message>
         <source>Transparent background</source>
@@ -20711,11 +24334,11 @@ not displayed</source>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحدهای نقشه</translation>
     </message>
     <message>
         <source>Around Point</source>
@@ -20727,11 +24350,11 @@ not displayed</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Free</source>
@@ -20739,11 +24362,11 @@ not displayed</source>
     </message>
     <message>
         <source>On line</source>
-        <translation type="unfinished">در خط</translation>
+        <translation>در خط</translation>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="unfinished">بالاتر از خط</translation>
+        <translation>بالاتر از خط</translation>
     </message>
     <message>
         <source>Below Line</source>
@@ -20767,7 +24390,7 @@ not displayed</source>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>x-height</source>
@@ -20775,7 +24398,7 @@ not displayed</source>
     </message>
     <message>
         <source>Area</source>
-        <translation type="unfinished">منطقه</translation>
+        <translation>منطقه</translation>
     </message>
     <message>
         <source>Diameter</source>
@@ -20783,23 +24406,23 @@ not displayed</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Unknown diagram type.</source>
@@ -20858,11 +24481,11 @@ not displayed</source>
     </message>
     <message>
         <source>Low</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>High</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Appearance</source>
@@ -20870,15 +24493,15 @@ not displayed</source>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">رنگ پس زمینه</translation>
+        <translation>رنگ پس زمینه</translation>
     </message>
     <message>
         <source>Line color</source>
-        <translation type="unfinished">رنگ خط</translation>
+        <translation>رنگ خط</translation>
     </message>
     <message>
         <source>Line width</source>
-        <translation type="unfinished">عرض خط</translation>
+        <translation>عرض خط</translation>
     </message>
     <message>
         <source>Font...</source>
@@ -20918,7 +24541,7 @@ not displayed</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Fixed size</source>
@@ -20967,11 +24590,11 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Position</source>
-        <translation type="unfinished">موقعیت</translation>
+        <translation>موقعیت</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
+        <translation>جایگذاری</translation>
     </message>
     <message>
         <source>Line Options</source>
@@ -20979,7 +24602,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished">فاصله</translation>
+        <translation>فاصله</translation>
     </message>
     <message>
         <source>Data defined position</source>
@@ -20987,11 +24610,11 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>x</source>
-        <translation type="unfinished">x</translation>
+        <translation>x</translation>
     </message>
     <message>
         <source>y</source>
-        <translation type="unfinished">y</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Automated placement settings</source>
@@ -20999,7 +24622,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>Label placement</source>
@@ -21011,23 +24634,23 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">پايين</translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished">خصوصیات</translation>
+        <translation>خصوصیات</translation>
     </message>
     <message>
         <source>Available attributes</source>
@@ -21047,7 +24670,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
 </context>
 <context>
@@ -21137,7 +24760,7 @@ Parser error:
     </message>
     <message>
         <source>Open form</source>
-        <translation type="unfinished"></translation>
+        <translation>باز کردن فرم</translation>
     </message>
     <message>
         <source>Loading features...</source>
@@ -21145,22 +24768,22 @@ Parser error:
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>مشخصات جدول</translation>
     </message>
     <message>
         <source>%1 features loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 بارگزاری ویژگی .</translation>
     </message>
 </context>
 <context>
     <name>QgsDualViewBase</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Expression</source>
@@ -21175,7 +24798,7 @@ Parser error:
     <name>QgsDummyConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Dummy Text</source>
@@ -21209,11 +24832,11 @@ Parser error:
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره در</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>No symbology</source>
@@ -21229,19 +24852,23 @@ Parser error:
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation type="unfinished">عدم انتخاب همه</translation>
-    </message>
-    <message>
-        <source>Layer attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>عدم انتخاب همه</translation>
     </message>
     <message>
         <source>Export features intersecting the current map extent</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visibility presets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Encoding</source>
+        <translation>رمز گذاري</translation>
     </message>
 </context>
 <context>
@@ -21254,16 +24881,80 @@ Parser error:
         <source>Could not save unknown editor widget type &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Classification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>محدوده</translation>
+    </message>
+    <message>
+        <source>Unique Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value Map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enumeration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value Relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uuid Generator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Photo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>رنگ</translation>
+    </message>
+    <message>
+        <source>Relation Reference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date/Time</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsEllipseSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select fill color</source>
@@ -21279,46 +24970,6 @@ Parser error:
     </message>
     <message>
         <source>Transparent border</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Symbol width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Symbol height</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Symbol name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished">افست</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21365,15 +25016,15 @@ Parser error:
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>(i.e. including colliding objects)</source>
@@ -21415,23 +25066,7 @@ Parser error:
     <name>QgsErrorDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Summary&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Detailed report.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Always show details</source>
@@ -21439,6 +25074,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Details &gt;&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Summary&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Detailed report.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21469,7 +25120,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Addition operator</source>
@@ -21552,19 +25203,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsExpressionBuilderWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
-    </message>
-    <message>
-        <source>Function list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected function help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Field values</source>
-        <translation type="unfinished"></translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Load values</source>
@@ -21579,16 +25218,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Operators</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Equal operator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished"></translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>Addition operator</source>
@@ -21596,7 +25231,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>Subtraction operator</source>
@@ -21604,7 +25239,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>Division operator</source>
@@ -21620,7 +25255,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>*</source>
-        <translation type="unfinished"></translation>
+        <translation>*</translation>
     </message>
     <message>
         <source>Power operator</source>
@@ -21666,6 +25301,54 @@ p, li { white-space: pre-wrap; }
         <source>Expression</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Functions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation>مقادير</translation>
+    </message>
+    <message>
+        <source>Function Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run the current editor text in QGIS (also saves current script). 
+
+Use this when testing your functions.
+
+Saved scripts are auto loaded on QGIS startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run Script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new function file based on the template file.
+
+Change the name of the script and save to allow QGIS to auto load on startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the file to save. 
+
+Existing files are listed here and loaded when selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save the current script into the users function file folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>ذخیره فایل</translation>
+    </message>
 </context>
 <context>
     <name>QgsExpressionSelectionDialogBase</name>
@@ -21675,15 +25358,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">انتخاب</translation>
+        <translation>انتخاب</translation>
     </message>
     <message>
         <source>Add to selection</source>
@@ -21702,7 +25385,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsExtentGroupBox</name>
     <message>
         <source>layer</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>map view</source>
@@ -21721,23 +25404,23 @@ p, li { white-space: pre-wrap; }
     <name>QgsExtentGroupBoxWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>West</source>
-        <translation type="unfinished">غرب</translation>
+        <translation>غرب</translation>
     </message>
     <message>
         <source>East</source>
-        <translation type="unfinished">شرق</translation>
+        <translation>شرق</translation>
     </message>
     <message>
         <source>North</source>
-        <translation type="unfinished">شمال</translation>
+        <translation>شمال</translation>
     </message>
     <message>
         <source>South</source>
-        <translation type="unfinished">جنوب</translation>
+        <translation>جنوب</translation>
     </message>
     <message>
         <source>Layer extent</source>
@@ -21759,7 +25442,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsFeatureSelectionDlg</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
 </context>
 <context>
@@ -21774,7 +25457,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Evaluation error</source>
-        <translation type="unfinished">خطا ارزیابی</translation>
+        <translation>خطا ارزیابی</translation>
     </message>
     <message>
         <source>Provider error</source>
@@ -21786,7 +25469,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>An error occured while evaluating the calculation string:
@@ -21807,7 +25490,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsFieldCalculatorBase</name>
     <message>
         <source>Field calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>ماشین حساب فیلد</translation>
     </message>
     <message>
         <source>Only update selected features</source>
@@ -21823,15 +25506,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Create a new field</source>
-        <translation type="unfinished"></translation>
+        <translation>ایجاد فیلد جدید</translation>
     </message>
     <message>
         <source>Output field name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام فیلد خروجی</translation>
     </message>
     <message>
         <source>Output field type</source>
-        <translation type="unfinished"></translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>&lt;p&gt;A virtual field will be recalculated every time it is used. Its definition will be saved in the project file. It will not be saved in the dataprovider and therefore its values not be available in other software.&lt;/p&gt;</source>
@@ -21843,7 +25526,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Output field width</source>
-        <translation type="unfinished"></translation>
+        <translation>عرض فیلد خروجی</translation>
     </message>
     <message>
         <source>Width of complete output. For example 123,456 means 6 as field width.</source>
@@ -21851,11 +25534,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Update existing field</source>
-        <translation type="unfinished"></translation>
+        <translation>به روز رسانی های موجود فیلد</translation>
     </message>
 </context>
 <context>
@@ -21891,15 +25574,15 @@ p, li { white-space: pre-wrap; }
     <name>QgsFieldsProperties</name>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Type</source>
@@ -21911,15 +25594,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">طول</translation>
+        <translation>طول</translation>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">توضیح</translation>
+        <translation>توضیح</translation>
     </message>
     <message>
         <source>Edit widget</source>
@@ -21931,7 +25614,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Field</source>
@@ -21959,7 +25642,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Unique values</source>
-        <translation type="unfinished"></translation>
+        <translation>مقادير يکتا</translation>
     </message>
     <message>
         <source>Unique values editable</source>
@@ -21971,7 +25654,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Value map</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشه ي مقادير</translation>
     </message>
     <message>
         <source>Edit range</source>
@@ -22015,7 +25698,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Value relation</source>
-        <translation type="unfinished"></translation>
+        <translation>ارتباط مقدار</translation>
     </message>
     <message>
         <source>UUID generator</source>
@@ -22027,11 +25710,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Web view</source>
-        <translation type="unfinished"></translation>
+        <translation>وب</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Editor Widget</source>
@@ -22050,7 +25733,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsFieldsPropertiesBase</name>
     <message>
         <source>Field calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>ماشین حساب فیلد</translation>
     </message>
     <message>
         <source>Click to toggle table editing</source>
@@ -22066,7 +25749,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>Delete column</source>
@@ -22089,11 +25772,11 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدها</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <source>Relations</source>
@@ -22101,7 +25784,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Edit UI</source>
@@ -22109,15 +25792,15 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>^</source>
@@ -22133,7 +25816,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">پیش فرض</translation>
+        <translation>پیش فرض</translation>
     </message>
     <message>
         <source>On</source>
@@ -22168,22 +25851,22 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     <name>QgsFileNameWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک فایل</translation>
     </message>
 </context>
 <context>
     <name>QgsFontMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select symbol color</source>
@@ -22272,15 +25955,15 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">بروزرسانی</translation>
+        <translation>بروزرسانی</translation>
     </message>
     <message>
         <source>Device name</source>
@@ -22363,7 +26046,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">متصل شده ...</translation>
+        <translation>متصل شده ...</translation>
     </message>
     <message>
         <source>Connecting to GPS device...</source>
@@ -22399,7 +26082,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Connect</source>
-        <translation type="unfinished">&amp;اتصال</translation>
+        <translation>&amp;اتصال</translation>
     </message>
     <message>
         <source>Disconnected from GPS device.</source>
@@ -22415,11 +26098,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished">اتوماتیک</translation>
+        <translation>اتوماتیک</translation>
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished">دستی</translation>
+        <translation>دستی</translation>
     </message>
     <message>
         <source>3D</source>
@@ -22467,11 +26150,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Feature added</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن ویژگی</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Could not commit changes to layer %1
@@ -22482,11 +26165,11 @@ Errors: %2
     </message>
     <message>
         <source>The feature could not be added because removing the polygon intersections would change the geometry type</source>
-        <translation type="unfinished">ویژگی نمی تواند اضافه شود . دلیل آن از بین بردن تقاطع چند ضلعی نوع هندسی است</translation>
+        <translation>ویژگی نمی تواند اضافه شود . دلیل آن از بین بردن تقاطع چند ضلعی نوع هندسی است</translation>
     </message>
     <message>
         <source>An error was reported during intersection removal</source>
-        <translation type="unfinished">خطا در هنگام حذف تقاطع گزارش شد</translation>
+        <translation>خطا در هنگام حذف تقاطع گزارش شد</translation>
     </message>
     <message>
         <source>Cannot add feature. Unknown WKB type. Choose a different layer and try again.</source>
@@ -22547,7 +26230,7 @@ gray = no data
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Position</source>
@@ -22659,7 +26342,7 @@ gray = no data
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished"></translation>
+        <translation>اندازه ها</translation>
     </message>
     <message>
         <source>quality of the position fix: Differential, Non-differential or No position</source>
@@ -22715,7 +26398,7 @@ gray = no data
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished">میزبان</translation>
+        <translation>میزبان</translation>
     </message>
     <message>
         <source>Device</source>
@@ -22735,7 +26418,7 @@ gray = no data
     </message>
     <message>
         <source>Digitizing</source>
-        <translation type="unfinished">دیجیتالی نمودن</translation>
+        <translation>دیجیتالی نمودن</translation>
     </message>
     <message>
         <source>Track</source>
@@ -22795,7 +26478,7 @@ gray = no data
     </message>
     <message>
         <source>always</source>
-        <translation type="unfinished"></translation>
+        <translation>همیشه</translation>
     </message>
     <message>
         <source>Cursor</source>
@@ -22867,7 +26550,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Could not import data from %1!
@@ -22985,7 +26668,7 @@ Please reselect a valid file.</source>
     <name>QgsGPSPluginGuiBase</name>
     <message>
         <source>GPS Tools</source>
-        <translation type="unfinished">ابزار GPS</translation>
+        <translation>ابزار GPS</translation>
     </message>
     <message>
         <source>Load GPX file</source>
@@ -22993,11 +26676,11 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">پرونده</translation>
+        <translation>پرونده</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">فهرست...</translation>
+        <translation>فهرست...</translation>
     </message>
     <message>
         <source>Feature types</source>
@@ -23029,7 +26712,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>GPX output file</source>
@@ -23037,7 +26720,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">ذخیره به ...</translation>
+        <translation>ذخیره به ...</translation>
     </message>
     <message>
         <source>(Note: Selecting correct file type in browser dialog important!)</source>
@@ -23057,15 +26740,15 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">درگاه</translation>
+        <translation>درگاه</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی</translation>
     </message>
     <message>
         <source>Upload to GPS</source>
@@ -23089,7 +26772,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Conversion</source>
-        <translation type="unfinished">تبدیل</translation>
+        <translation>تبدیل</translation>
     </message>
 </context>
 <context>
@@ -23123,7 +26806,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished"></translation>
+        <translation>اندازه ها</translation>
     </message>
     <message>
         <source>Origin</source>
@@ -23135,11 +26818,11 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">باند</translation>
+        <translation>باند</translation>
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمت پشتیبانی نمی شود</translation>
     </message>
     <message>
         <source>Cannot read data</source>
@@ -23191,51 +26874,51 @@ Please reselect a valid file.</source>
     <name>QgsGeorefConfigDialog</name>
     <message>
         <source>A5 (148x210 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A5 (148x210 mm)</translation>
     </message>
     <message>
         <source>A4 (210x297 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A4 (210x297 mm)</translation>
     </message>
     <message>
         <source>A3 (297x420 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A3 (297x420 mm)</translation>
     </message>
     <message>
         <source>A2 (420x594 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A2 (420x594 mm)</translation>
     </message>
     <message>
         <source>A1 (594x841 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A1 (594x841 mm)</translation>
     </message>
     <message>
         <source>A0 (841x1189 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>A0 (841x1189 mm)</translation>
     </message>
     <message>
         <source>B5 (176 x 250 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B5 (176 x 250 mm)</translation>
     </message>
     <message>
         <source>B4 (250 x 353 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B4 (250 x 353 mm)</translation>
     </message>
     <message>
         <source>B3 (353 x 500 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B3 (353 x 500 mm)</translation>
     </message>
     <message>
         <source>B2 (500 x 707 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B2 (500 x 707 mm)</translation>
     </message>
     <message>
         <source>B1 (707 x 1000 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B1 (707 x 1000 mm)</translation>
     </message>
     <message>
         <source>B0 (1000 x 1414 mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>B0 (1000 x 1414 mm)</translation>
     </message>
     <message>
         <source>Legal (8.5x14 inches)</source>
@@ -23322,15 +27005,15 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>فاصله از چپ</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>فاصله از راست</translation>
     </message>
     <message>
         <source>Show Georeferencer window docked</source>
@@ -23407,7 +27090,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">اطلاعات</translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>GDAL scripting is not supported for %1 transformation</source>
@@ -23435,15 +27118,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>Panels</source>
-        <translation type="unfinished">پنل‌ها</translation>
+        <translation>پنل‌ها</translation>
     </message>
     <message>
         <source>Toolbars</source>
-        <translation type="unfinished">نوار ابزار</translation>
+        <translation>نوار ابزار</translation>
     </message>
     <message>
         <source>Current transform parametrisation</source>
@@ -23455,11 +27138,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Current map coordinate</source>
-        <translation type="unfinished">مختصال جاری نقشه</translation>
+        <translation>مختصال جاری نقشه</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Coordinate of image(column/line)</source>
@@ -23495,7 +27178,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Could not write to %1</source>
@@ -23503,11 +27186,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">پیکسل</translation>
+        <translation>پیکسل</translation>
     </message>
     <message>
         <source>Transformation parameters</source>
@@ -23543,11 +27226,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>yes</source>
-        <translation type="unfinished">بلی</translation>
+        <translation>بلی</translation>
     </message>
     <message>
         <source>no</source>
-        <translation type="unfinished">خیر</translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>Translation (%1, %2)</source>
@@ -23630,19 +27313,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">پرونده</translation>
+        <translation>پرونده</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>GCP table</source>
@@ -23658,35 +27341,35 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation type="unfinished">بزرگنمایی به داخل</translation>
+        <translation>بزرگنمایی به داخل</translation>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation type="unfinished">بزرگنمایی به خارج</translation>
+        <translation>بزرگنمایی به خارج</translation>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Zoom to Layer</source>
-        <translation type="unfinished">نمایش لایه</translation>
+        <translation>نمایش لایه</translation>
     </message>
     <message>
         <source>Ctrl+Shift+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+F</translation>
     </message>
     <message>
         <source>Pan</source>
-        <translation type="unfinished"></translation>
+        <translation>جابجائی</translation>
     </message>
     <message>
         <source>Transformation settings</source>
@@ -23694,23 +27377,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add point</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن نقطه</translation>
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>Delete point</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف نقطه</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation type="unfinished">خروج</translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <source>Start georeferencing</source>
@@ -23718,7 +27401,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>Generate GDAL script</source>
@@ -23726,7 +27409,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>Link Georeferencer to QGIS</source>
@@ -23742,7 +27425,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>Load GCP points</source>
@@ -23750,7 +27433,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <source>Configure Georeferencer</source>
@@ -23758,7 +27441,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Raster properties</source>
@@ -23770,11 +27453,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Zoom Next</source>
-        <translation type="unfinished">نمایش حالت بعدی</translation>
+        <translation>نمایش حالت بعدی</translation>
     </message>
     <message>
         <source>Zoom Last</source>
-        <translation type="unfinished">نمایش حالت قبلی</translation>
+        <translation>نمایش حالت قبلی</translation>
     </message>
     <message>
         <source>Local histogram stretch</source>
@@ -23782,7 +27465,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Full histogram stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>کشش کامل هیستوگرام</translation>
     </message>
 </context>
 <context>
@@ -23840,7 +27523,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">رستر</translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>TMS</source>
@@ -23852,15 +27535,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">نقشه</translation>
+        <translation>نقشه</translation>
     </message>
     <message>
         <source>Base Layer</source>
@@ -23868,11 +27551,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished">برچسب متن</translation>
+        <translation>برچسب متن</translation>
     </message>
     <message>
         <source>Sky</source>
@@ -23896,15 +27579,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">پايين</translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">اضافه</translation>
+        <translation>اضافه</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Cache</source>
@@ -23912,7 +27595,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Path</source>
-        <translation type="unfinished">مسیر</translation>
+        <translation>مسیر</translation>
     </message>
     <message>
         <source>Video</source>
@@ -24000,7 +27683,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Error: %1 on line %2, column %3</source>
@@ -24016,7 +27699,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">شبکه</translation>
+        <translation>قرمز</translation>
     </message>
 </context>
 <context>
@@ -24030,11 +27713,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsGradientFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -24042,55 +27725,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
-    </message>
-    <message>
-        <source>Gradient type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Coordinate mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spread</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (is centroid)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (is centroid)</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت</translation>
     </message>
 </context>
 <context>
@@ -24101,11 +27736,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Values</source>
-        <translation type="unfinished">مقادير</translation>
+        <translation>مقادير</translation>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"></translation>
+        <translation>رسته</translation>
     </message>
 </context>
 <context>
@@ -24124,7 +27759,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Classes</source>
-        <translation type="unfinished">کلاس</translation>
+        <translation>کلاس</translation>
     </message>
     <message>
         <source>Color ramp</source>
@@ -24147,7 +27782,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>Equal Interval</source>
@@ -24179,7 +27814,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Trim</source>
@@ -24195,7 +27830,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Delete all</source>
@@ -24211,11 +27846,11 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Symbol levels...</source>
-        <translation type="unfinished">سطوح نماد ...</translation>
+        <translation>سطوح نماد ...</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
@@ -24227,7 +27862,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Natural break classification (Jenks) is O(n2) complexity, your classification may take a long time.
@@ -24259,11 +27894,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>ERROR</source>
@@ -24271,7 +27906,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">تایید</translation>
+        <translation>تایید</translation>
     </message>
 </context>
 <context>
@@ -24302,7 +27937,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Delete selected category</source>
@@ -24310,14 +27945,14 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
 </context>
 <context>
     <name>QgsGrassBrowser</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ابزار</translation>
     </message>
     <message>
         <source>Add selected map to canvas</source>
@@ -24341,7 +27976,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>New name</source>
@@ -24353,7 +27988,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot copy map %1@%2</source>
@@ -24369,7 +28004,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>Remove the selected layer(s) from canvas before continue.</source>
@@ -24399,7 +28034,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     <name>QgsGrassEdit</name>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>You are not owner of the mapset, cannot open the vector for editing.</source>
@@ -24415,7 +28050,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>New point</source>
-        <translation type="unfinished">نقطه جدید</translation>
+        <translation>نقطه جدید</translation>
     </message>
     <message>
         <source>New line</source>
@@ -24427,7 +28062,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>New centroid</source>
-        <translation type="unfinished">نقطه جدید مرکری</translation>
+        <translation>نقطه جدید مرکری</translation>
     </message>
     <message>
         <source>Move vertex</source>
@@ -24439,7 +28074,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Delete vertex</source>
-        <translation type="unfinished">حذف راس</translation>
+        <translation>حذف راس</translation>
     </message>
     <message>
         <source>Move element</source>
@@ -24459,7 +28094,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
     <message>
         <source>Background</source>
@@ -24475,11 +28110,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Boundary (no area)</source>
@@ -24527,7 +28162,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">اطلاعات</translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>The table was created</source>
@@ -24600,15 +28235,15 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>Snapping in screen pixels</source>
@@ -24620,11 +28255,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Line width</source>
-        <translation type="unfinished">عرض خط</translation>
+        <translation>عرض خط</translation>
     </message>
     <message>
         <source>Marker size</source>
-        <translation type="unfinished">اندازه نشانگر</translation>
+        <translation>اندازه نشانگر</translation>
     </message>
     <message>
         <source>Disp</source>
@@ -24632,7 +28267,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Type</source>
@@ -24644,7 +28279,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Column</source>
@@ -24652,7 +28287,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">طول</translation>
+        <translation>طول</translation>
     </message>
     <message>
         <source>Add Column</source>
@@ -24768,11 +28403,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     <name>QgsGrassElementDialog</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>تایید</translation>
     </message>
     <message>
         <source>&lt;font color=&apos;red&apos;&gt;Enter a name!&lt;/font&gt;</source>
@@ -24799,7 +28434,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Add map</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن نقشه</translation>
     </message>
     <message>
         <source>Add constant value</source>
@@ -24815,23 +28450,23 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Select item</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب آیتم</translation>
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف انتخاب شده‌</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>بازکردن</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره در</translation>
     </message>
     <message>
         <source>Addition</source>
@@ -24859,35 +28494,35 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Equal</source>
-        <translation type="unfinished"></translation>
+        <translation>برابر</translation>
     </message>
     <message>
         <source>Not equal</source>
-        <translation type="unfinished"></translation>
+        <translation>نابرابر</translation>
     </message>
     <message>
         <source>Greater than</source>
-        <translation type="unfinished"></translation>
+        <translation>بزرگتراز</translation>
     </message>
     <message>
         <source>Greater than or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>بزرگتر برابر</translation>
     </message>
     <message>
         <source>Less than</source>
-        <translation type="unfinished"></translation>
+        <translation>کوچکتراز</translation>
     </message>
     <message>
         <source>Less than or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>کوچکتر برابر</translation>
     </message>
     <message>
         <source>And</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Or</source>
-        <translation type="unfinished"></translation>
+        <translation>یا</translation>
     </message>
     <message>
         <source>Absolute value of x</source>
@@ -24963,15 +28598,15 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Largest value</source>
-        <translation type="unfinished"></translation>
+        <translation>بيشترين</translation>
     </message>
     <message>
         <source>Median value</source>
-        <translation type="unfinished"></translation>
+        <translation>میانه</translation>
     </message>
     <message>
         <source>Smallest value</source>
-        <translation type="unfinished"></translation>
+        <translation>کمترين</translation>
     </message>
     <message>
         <source>Mode value</source>
@@ -24987,7 +28622,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>NULL value</source>
-        <translation type="unfinished"></translation>
+        <translation>مقدار خالی</translation>
     </message>
     <message>
         <source>Random value between a and b</source>
@@ -25026,11 +28661,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">خروجی</translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot get current region</source>
@@ -25118,7 +28753,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>The module file (%1) not found.</source>
@@ -25164,7 +28799,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished">اجرا</translation>
+        <translation>اجرا</translation>
     </message>
     <message>
         <source>Cannot get input region</source>
@@ -25192,7 +28827,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>توقف</translation>
     </message>
     <message>
         <source>&lt;B&gt;Successfully finished&lt;/B&gt;</source>
@@ -25215,11 +28850,11 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">خروجی</translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Manual</source>
@@ -25227,7 +28862,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished">برچسب متن</translation>
+        <translation>برچسب متن</translation>
     </message>
     <message>
         <source>Run</source>
@@ -25239,7 +28874,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">بستن</translation>
+        <translation>بستن</translation>
     </message>
 </context>
 <context>
@@ -25261,11 +28896,11 @@ at line %2 column %3</source>
     <name>QgsGrassModuleFile</name>
     <message>
         <source>File</source>
-        <translation type="unfinished">پرونده</translation>
+        <translation>پرونده</translation>
     </message>
     <message>
         <source>%1:&amp;nbsp;missing value</source>
-        <translation type="unfinished">%1 :&amp;nbsp ; ارزش از دست رفته</translation>
+        <translation>%1 :&amp;nbsp ; ارزش از دست رفته</translation>
     </message>
     <message>
         <source>%1:&amp;nbsp;directory does not exist</source>
@@ -25280,7 +28915,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot find layeroption %1</source>
@@ -25292,11 +28927,11 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Select a layer</source>
-        <translation type="unfinished">انتخاب یک لایه</translation>
+        <translation>انتخاب یک لایه</translation>
     </message>
     <message>
         <source>PostGIS driver in OGR does not support schemas!&lt;br&gt;Only the table name will be used.&lt;br&gt;It can result in wrong input if more tables of the same name&lt;br&gt;are present in the database.</source>
@@ -25311,11 +28946,11 @@ at line %2 column %3</source>
     <name>QgsGrassModuleInput</name>
     <message>
         <source>Input</source>
-        <translation type="unfinished">ورودي</translation>
+        <translation>ورودي</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot find typeoption %1</source>
@@ -25339,7 +28974,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Select a layer</source>
-        <translation type="unfinished">انتخاب یک لایه</translation>
+        <translation>انتخاب یک لایه</translation>
     </message>
     <message>
         <source>%1 (band %2)</source>
@@ -25358,11 +28993,11 @@ at line %2 column %3</source>
     <name>QgsGrassModuleOption</name>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی</translation>
     </message>
     <message>
         <source>GeoTIFF</source>
@@ -25396,7 +29031,7 @@ at line %2 column %3</source>
     <name>QgsGrassModuleStandardOptions</name>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot find module %1</source>
@@ -25422,7 +29057,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Region</source>
-        <translation type="unfinished"></translation>
+        <translation>منطقه</translation>
     </message>
     <message>
         <source>Input layers</source>
@@ -25489,7 +29124,7 @@ at line %2 column %3</source>
     <name>QgsGrassNewMapset</name>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Location 1</source>
@@ -25533,7 +29168,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot create projection.</source>
@@ -25637,6 +29272,10 @@ at line %2 column %3</source>
         <source>New mapset successfully created and set as current working mapset.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Cannot activate grass</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsGrassNewMapsetBase</name>
@@ -25654,7 +29293,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">توضیح</translation>
+        <translation>توضیح</translation>
     </message>
     <message>
         <source>Example directory tree:</source>
@@ -25670,7 +29309,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Database Error</source>
-        <translation type="unfinished">خطاي پايگاه داده</translation>
+        <translation>خطاي پايگاه داده</translation>
     </message>
     <message>
         <source>Database:</source>
@@ -25678,7 +29317,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">فهرست...</translation>
+        <translation>فهرست...</translation>
     </message>
     <message>
         <source>Select existing directory or create a new one:</source>
@@ -25690,7 +29329,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">محل</translation>
+        <translation>محل</translation>
     </message>
     <message>
         <source>Select location</source>
@@ -25722,7 +29361,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Coordinate system</source>
-        <translation type="unfinished"></translation>
+        <translation>سیستم مختصات</translation>
     </message>
     <message>
         <source>Not defined</source>
@@ -25754,19 +29393,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>W</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <source>N</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>Mapset</source>
@@ -25786,7 +29425,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">مالک</translation>
+        <translation>مالک</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -25825,7 +29464,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished">پلاگین‌ها</translation>
+        <translation>پلاگین‌ها</translation>
     </message>
     <message>
         <source>Add GRASS raster layer</source>
@@ -25901,7 +29540,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Cannot open vector %1 in mapset %2 on level 2 (topology not available, try to rebuild topology using v.build module).</source>
@@ -25984,7 +29623,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمت پشتیبانی نمی شود</translation>
     </message>
     <message>
         <source>Cannot read data</source>
@@ -26022,23 +29661,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>North</source>
-        <translation type="unfinished">شمال</translation>
+        <translation>شمال</translation>
     </message>
     <message>
         <source>West</source>
-        <translation type="unfinished">غرب</translation>
+        <translation>غرب</translation>
     </message>
     <message>
         <source>East</source>
-        <translation type="unfinished">شرق</translation>
+        <translation>شرق</translation>
     </message>
     <message>
         <source>South</source>
-        <translation type="unfinished">جنوب</translation>
+        <translation>جنوب</translation>
     </message>
     <message>
         <source>Select the extent by dragging on canvas 
@@ -26063,7 +29702,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">سطر</translation>
+        <translation>سطر</translation>
     </message>
     <message>
         <source>Border</source>
@@ -26071,11 +29710,11 @@ or change the following values</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
 </context>
 <context>
@@ -26137,7 +29776,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">محل</translation>
+        <translation>محل</translation>
     </message>
     <message>
         <source>Mapset</source>
@@ -26153,11 +29792,11 @@ or change the following values</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">فهرست...</translation>
+        <translation>فهرست...</translation>
     </message>
 </context>
 <context>
@@ -26219,7 +29858,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>GRASS Shell is not compiled.</source>
@@ -26256,7 +29895,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Modules List</source>
@@ -26264,7 +29903,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">فیلتر</translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Direct Modules Tree</source>
@@ -26279,31 +29918,31 @@ at line %2 column %3</source>
     <name>QgsGuiVectorLayerTools</name>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">اضافه نمودن موجودیت</translation>
+        <translation>اضافه نمودن موجودیت</translation>
     </message>
     <message>
         <source>Start editing failed</source>
-        <translation type="unfinished">ویرایش شروع نشد</translation>
+        <translation>ویرایش شروع نشد</translation>
     </message>
     <message>
         <source>Provider cannot be opened for editing</source>
-        <translation type="unfinished">ارائه دهنده خدمات برای ویرایش اجرا نمی شود </translation>
+        <translation>ارائه دهنده خدمات برای ویرایش اجرا نمی شود </translation>
     </message>
     <message>
         <source>Stop editing</source>
-        <translation type="unfinished">توقف ویرایش</translation>
+        <translation>توقف ویرایش</translation>
     </message>
     <message>
         <source>Do you want to save the changes to layer %1?</source>
-        <translation type="unfinished">آیا شما می خواهید تغییرات در لایه ذخیره شود %1؟</translation>
+        <translation>آیا شما می خواهید تغییرات در لایه ذخیره شود %1؟</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Problems during roll back</source>
-        <translation type="unfinished">مشکلات در هنگام برگشت</translation>
+        <translation>مشکلات در هنگام برگشت</translation>
     </message>
     <message>
         <source>Commit errors</source>
@@ -26327,11 +29966,11 @@ at line %2 column %3</source>
     <name>QgsHandleBadLayers</name>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Type</source>
@@ -26339,7 +29978,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Provider</source>
-        <translation type="unfinished">ارائه دهنده خدمات</translation>
+        <translation>ارائه دهنده خدمات</translation>
     </message>
     <message>
         <source>Datasource</source>
@@ -26384,10 +30023,73 @@ at line %2 column %3</source>
     <name>QgsHandleBadLayersHandler</name>
     <message>
         <source>Handle bad layers</source>
-        <translation type="unfinished">دسته لایه های بد</translation>
+        <translation>دسته لایه های بد</translation>
     </message>
     <message>
         <source>%1 of %2 bad layers were not fixable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsHeatmapRendererWidget</name>
+    <message>
+        <source>The heatmap renderer only applies to point and multipoint layers. 
+&apos;%1&apos; is not a point layer and cannot be rendered as a heatmap.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>میلی متر</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>واحد نقشه</translation>
+    </message>
+</context>
+<context>
+    <name>QgsHeatmapRendererWidgetBase</name>
+    <message>
+        <source>Form</source>
+        <translation>فرم</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>اتوماتیک</translation>
+    </message>
+    <message>
+        <source>Radius</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rendering quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Best&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Fastest&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ویرایش</translation>
+    </message>
+    <message>
+        <source>Invert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>بيشترين مقدار</translation>
+    </message>
+    <message>
+        <source>Weight points by</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -26448,7 +30150,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>عدم اتصال</translation>
     </message>
     <message>
         <source>Looking up &apos;%1&apos;</source>
@@ -26487,7 +30189,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIDWInterpolatorDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Distance coefficient P</source>
@@ -26498,7 +30200,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIdentifyMenu</name>
     <message>
         <source>Identify</source>
-        <translation type="unfinished">شناسایی</translation>
+        <translation>شناسایی</translation>
     </message>
     <message>
         <source>%1 all (%2)</source>
@@ -26521,7 +30223,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>FID</source>
@@ -26533,11 +30235,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>ارزش</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Clear Results</source>
@@ -26545,7 +30247,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>Select identify mode</source>
@@ -26553,7 +30255,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>Select view mode for raster layers</source>
@@ -26561,7 +30263,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Auto open form</source>
@@ -26584,11 +30286,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIdentifyResultsDialog</name>
     <message>
         <source>Identify Results</source>
-        <translation type="unfinished">شناسایی نمایش نتایج</translation>
+        <translation>شناسایی نمایش نتایج</translation>
     </message>
     <message>
         <source>Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>ویژگی</translation>
     </message>
     <message>
         <source>Value</source>
@@ -26628,7 +30330,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Tree</source>
@@ -26640,11 +30342,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>feature id</source>
-        <translation type="unfinished">شناسه ویژگی</translation>
+        <translation>شناسه ویژگی</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>No attributes.</source>
@@ -26652,7 +30354,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Zoom to feature</source>
-        <translation type="unfinished">بزرگ نمايي به عارضه</translation>
+        <translation>بزرگ نمايي به عارضه</translation>
     </message>
     <message>
         <source>Copy feature</source>
@@ -26708,7 +30410,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Attributes changed</source>
-        <translation type="unfinished">ویژگیهای تغییر داده شده</translation>
+        <translation>ویژگیهای تغییر داده شده</translation>
     </message>
     <message>
         <source>Cannot print</source>
@@ -26723,7 +30425,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIdentifyResultsWebView</name>
     <message>
         <source>Print</source>
-        <translation type="unfinished"></translation>
+        <translation>چاپ</translation>
     </message>
 </context>
 <context>
@@ -26776,7 +30478,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Points</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Save interpolated raster as...</source>
@@ -26791,7 +30493,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Input</source>
-        <translation type="unfinished">ورودي</translation>
+        <translation>ورودي</translation>
     </message>
     <message>
         <source>Vector layers</source>
@@ -26807,15 +30509,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">اضافه</translation>
+        <translation>اضافه</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Vector layer</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه برداری</translation>
     </message>
     <message>
         <source>Attribute</source>
@@ -26827,15 +30529,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">خروجی</translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Interpolation method</source>
-        <translation type="unfinished">روش الحاق</translation>
+        <translation>روش الحاق</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Number of columns</source>
@@ -26855,19 +30557,19 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>X min</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداقل</translation>
     </message>
     <message>
         <source>X max</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداکثر</translation>
     </message>
     <message>
         <source>Y min</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداقل</translation>
     </message>
     <message>
         <source>Y max</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداکثر</translation>
     </message>
     <message>
         <source>Set to current extent</source>
@@ -26901,7 +30603,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsInvertedPolygonRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Sub renderer:</source>
@@ -26946,11 +30648,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
+        <translation>جایگذاری</translation>
     </message>
     <message>
         <source>Below Right</source>
-        <translation type="unfinished"></translation>
+        <translation>بالا راست</translation>
     </message>
     <message>
         <source>Right</source>
@@ -26958,15 +30660,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Below</source>
-        <translation type="unfinished"></translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>Over</source>
-        <translation type="unfinished"></translation>
+        <translation>روي</translation>
     </message>
     <message>
         <source>Above</source>
-        <translation type="unfinished"></translation>
+        <translation>روي</translation>
     </message>
     <message>
         <source>Left</source>
@@ -26974,7 +30676,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Below Left</source>
-        <translation type="unfinished"></translation>
+        <translation>پايين چپ</translation>
     </message>
     <message>
         <source>Above Right</source>
@@ -27014,11 +30716,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Transparency </source>
@@ -27026,7 +30728,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">افست</translation>
+        <translation>افست</translation>
     </message>
     <message>
         <source>X offset </source>
@@ -27134,11 +30836,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>X Coordinate</source>
-        <translation type="unfinished">مختصاتX</translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Y Coordinate</source>
-        <translation type="unfinished">مختصاتY</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>X Offset (pts)</source>
@@ -27188,7 +30890,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Available typeface styles</source>
-        <translation type="unfinished">سبک حروف موجود</translation>
+        <translation>سبک حروف موجود</translation>
     </message>
     <message>
         <source>Size</source>
@@ -27196,7 +30898,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Underlined text</source>
@@ -27208,11 +30910,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Strikeout text</source>
-        <translation type="unfinished">متن خارج شده</translation>
+        <translation>متن خارج شده</translation>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>Bold text
@@ -27292,20 +30994,24 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Rotation</source>
         <translation>چرخش</translation>
     </message>
+    <message>
+        <source>Default</source>
+        <translation>پیش فرض</translation>
+    </message>
 </context>
 <context>
     <name>QgsLabelingGui</name>
     <message>
         <source>points</source>
-        <translation type="unfinished"></translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>% of length</source>
@@ -27425,7 +31131,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source> X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>File not found</source>
@@ -27496,7 +31202,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">متن</translation>
+        <translation>متن</translation>
     </message>
     <message>
         <source>Formatting</source>
@@ -27508,7 +31214,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Rendering</source>
-        <translation type="unfinished">رندر</translation>
+        <translation>رندر</translation>
     </message>
     <message>
         <source>letter</source>
@@ -27622,7 +31328,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>Style</source>
@@ -27678,11 +31384,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>X</source>
-        <translation type="unfinished">X</translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Y</source>
-        <translation type="unfinished">Y</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Coordinate</source>
@@ -27726,7 +31432,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>Scale-based visibility</source>
@@ -27918,7 +31624,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished">فاصله</translation>
+        <translation>فاصله</translation>
     </message>
     <message>
         <source>outside</source>
@@ -27942,11 +31648,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">افست</translation>
+        <translation>افست</translation>
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">مقیاس</translation>
+        <translation>مقیاس</translation>
     </message>
     <message>
         <source>Background</source>
@@ -27962,23 +31668,23 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <translation>افست X,Y</translation>
     </message>
     <message>
         <source>Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>مستطیل</translation>
     </message>
     <message>
         <source>Square</source>
-        <translation type="unfinished">چارگوش</translation>
+        <translation>چارگوش</translation>
     </message>
     <message>
         <source>Ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>بیضی</translation>
     </message>
     <message>
         <source>Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>دایره</translation>
     </message>
     <message>
         <source>SVG</source>
@@ -27986,7 +31692,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Shape</source>
-        <translation type="unfinished"></translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Sync with label</source>
@@ -28002,7 +31708,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
+        <translation>عرض حاشیه</translation>
     </message>
     <message>
         <source>symbol units</source>
@@ -28046,7 +31752,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>always</source>
-        <translation type="unfinished"></translation>
+        <translation>همیشه</translation>
     </message>
     <message>
         <source>Limit number of features to be labeled to</source>
@@ -28066,7 +31772,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Always show</source>
-        <translation type="unfinished"></translation>
+        <translation>همیشه نمایش بده</translation>
     </message>
     <message>
         <source>Show label</source>
@@ -28084,31 +31790,31 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsLayerTreeViewDefaultActions</name>
     <message>
         <source>&amp;Add Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;اضافه کردن گروه</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حذف</translation>
     </message>
     <message>
         <source>&amp;Show in overview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نمایش بازنگری</translation>
     </message>
     <message>
         <source>Re&amp;name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تغییر نام</translation>
     </message>
     <message>
         <source>Show Feature Count</source>
-        <translation type="unfinished"></translation>
+        <translation>نمایش تعداد موجودیت ها</translation>
     </message>
     <message>
         <source>&amp;Zoom to Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نمایش لایه</translation>
     </message>
     <message>
         <source>&amp;Zoom to Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;انتقال نمایش به گروه</translation>
     </message>
     <message>
         <source>&amp;Move to Top-level</source>
@@ -28116,7 +31822,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Group Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;انتخاب گروه</translation>
     </message>
 </context>
 <context>
@@ -28134,27 +31840,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsLinePatternFillSymbolLayerWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
-    </message>
-    <message>
-        <source>Distance</source>
-        <translation type="unfinished">فاصله</translation>
-    </message>
-    <message>
-        <source>Line width</source>
-        <translation type="unfinished">عرض خط</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>واحد نقشه</translation>
     </message>
 </context>
 <context>
@@ -28169,7 +31859,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Load Style</source>
@@ -28180,7 +31870,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsManageConnectionsDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
     <message>
         <source>Clear selection</source>
@@ -28192,11 +31882,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Export/import error</source>
@@ -28208,15 +31898,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Save connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML files (*.xml *.XML)</translation>
+        <translation>XML files (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Saving connections</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Cannot write file %1:
@@ -28274,11 +31964,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsManageConnectionsDialogBase</name>
     <message>
         <source>Manage connections</source>
-        <translation type="unfinished"></translation>
+        <translation>مدیریت اتصال ها</translation>
     </message>
     <message>
         <source>Select connections to export</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب اتصال ها برای خروجی</translation>
     </message>
 </context>
 <context>
@@ -28289,10 +31979,17 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Rendering</source>
-        <translation type="unfinished">رندر</translation>
+        <translation>رندر</translation>
     </message>
     <message>
         <source>Canvas refresh: %1 ms</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsMapCanvasSnappingUtils</name>
+    <message>
+        <source>Indexing data...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28334,10 +32031,6 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>%1 at line %2 column %3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Error: qgis element could not be found in %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28398,6 +32091,10 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Unable to open file %1</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Root &lt;qgis&gt; element could not be found</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsMapLayerComboBoxPlugin</name>
@@ -28407,6 +32104,37 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>A combo box to list the layers registered in QGIS. Layers might be filtered according to their type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsMapLayerStyleGuiUtils</name>
+    <message>
+        <source>Add</source>
+        <translation>اضافه</translation>
+    </message>
+    <message>
+        <source>Remove Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename style</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28456,7 +32184,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">اضافه نمودن موجودیت</translation>
+        <translation>اضافه نمودن موجودیت</translation>
     </message>
     <message>
         <source>Wrong editing tool, cannot apply the &apos;capture line&apos; tool on this vector layer</source>
@@ -28542,7 +32270,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
+        <translation>نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
     </message>
     <message>
         <source>Ring added</source>
@@ -28599,7 +32327,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolDeletePart</name>
     <message>
         <source>Delete part</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف قسمت</translation>
     </message>
     <message>
         <source>Part of multipart feature deleted</source>
@@ -28629,11 +32357,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolEdit</name>
     <message>
         <source>No active vector layer</source>
-        <translation type="unfinished">لایه فعال انتخاب نشده</translation>
+        <translation>لایه وکتود وجود ندارد</translation>
     </message>
     <message>
         <source>Layer not editable</source>
-        <translation type="unfinished">لایه ویرایش نشده است</translation>
+        <translation>لایه ویرایش نشده است</translation>
     </message>
 </context>
 <context>
@@ -28654,12 +32382,8 @@ This may be a problem in your network connection or at the WMS server.</source>
 <context>
     <name>QgsMapToolFillRing</name>
     <message>
-        <source>Fill ring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
+        <translation>نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
     </message>
     <message>
         <source>Ring added and filled</source>
@@ -28767,7 +32491,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolIdentifyAction</name>
     <message>
         <source>Identify</source>
-        <translation type="unfinished">شناسایی</translation>
+        <translation>شناسایی</translation>
     </message>
     <message>
         <source>Show attribute table</source>
@@ -28775,7 +32499,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>No features at this position found.</source>
-        <translation type="unfinished">هیچ ویژگی در این موقعیت وجود نداشت.</translation>
+        <translation>هیچ ویژگی در این موقعیت وجود نداشت.</translation>
     </message>
 </context>
 <context>
@@ -28848,7 +32572,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolPan</name>
     <message>
         <source>Pan</source>
-        <translation type="unfinished"></translation>
+        <translation>جابجائی</translation>
     </message>
 </context>
 <context>
@@ -28870,7 +32594,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolReshape</name>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
+        <translation>نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
     </message>
     <message>
         <source>Reshape</source>
@@ -28910,7 +32634,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSelect</name>
     <message>
         <source>Select</source>
-        <translation type="unfinished">انتخاب</translation>
+        <translation>انتخاب</translation>
     </message>
 </context>
 <context>
@@ -28946,11 +32670,11 @@ This may be a problem in your network connection or at the WMS server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Multipart features are not supported for simplification.</source>
+        <source>%1 feature(s): %2 to %3 vertices (%4%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This feature cannot be simplified. Check if feature has enough vertices to be simplified.</source>
+        <source>Simplification failed!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28958,11 +32682,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSplitFeatures</name>
     <message>
         <source>Coordinate transform error</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا تبدیل مختصات</translation>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
+        <translation>نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
     </message>
     <message>
         <source>Features split</source>
@@ -29001,11 +32725,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSplitParts</name>
     <message>
         <source>Coordinate transform error</source>
-        <translation type="unfinished"></translation>
+        <translation>خطا تبدیل مختصات</translation>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
+        <translation>نقطه به لایه سیستم مختصات قابل تبدیل نیست</translation>
     </message>
     <message>
         <source>Parts split</source>
@@ -29048,7 +32772,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolZoom</name>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">بزرگنمایی</translation>
+        <translation>بزرگنمایی</translation>
     </message>
 </context>
 <context>
@@ -29074,30 +32798,14 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMarkerLineSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
-        <source>Interval</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Line offset</source>
-        <translation type="unfinished">انحراف خط</translation>
-    </message>
-    <message>
-        <source>Placement</source>
-        <translation type="unfinished">جایگذاری</translation>
-    </message>
-    <message>
-        <source>&apos;vertex&apos;|&apos;lastvertex&apos;|&apos;firstvertex&apos;|&apos;centerpoint&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Offset along line</source>
+        <source>string </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -29115,12 +32823,16 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Segments</source>
         <translation>بخش</translation>
     </message>
+    <message>
+        <source>Info</source>
+        <translation>اطلاعات</translation>
+    </message>
 </context>
 <context>
     <name>QgsMeasureDialog</name>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;جدید</translation>
+        <translation>&amp;جدید</translation>
     </message>
     <message>
         <source>The calculations are based on:</source>
@@ -29170,6 +32882,22 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Segments [%1]</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Meters</source>
+        <translation>متر</translation>
+    </message>
+    <message>
+        <source>Feet</source>
+        <translation>پا</translation>
+    </message>
+    <message>
+        <source>Degrees</source>
+        <translation>درجه</translation>
+    </message>
+    <message>
+        <source>Nautical Miles</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsMeasureTool</name>
@@ -29198,7 +32926,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">زمان</translation>
+        <translation>زمان</translation>
     </message>
     <message>
         <source>Whole number (smallint - 16bit)</source>
@@ -29237,11 +32965,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>ادغام</translation>
     </message>
     <message>
         <source>Feature %1</source>
@@ -29257,11 +32985,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Median</source>
-        <translation type="unfinished">میانه</translation>
+        <translation>میانه</translation>
     </message>
     <message>
         <source>Sum</source>
-        <translation type="unfinished">مجموع</translation>
+        <translation>مجموع</translation>
     </message>
     <message>
         <source>Concatenation</source>
@@ -29269,7 +32997,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Mean</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Skipped</source>
@@ -29320,16 +33048,8 @@ This may be a problem in your network connection or at the WMS server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No messages.</source>
-        <translation>بدون پیام.</translation>
-    </message>
-    <message>
-        <source>Message(s) logged.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>General</source>
-        <translation type="unfinished">عمومی</translation>
+        <translation>عمومی</translation>
     </message>
 </context>
 <context>
@@ -29403,7 +33123,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Test connection</source>
-        <translation type="unfinished">آزمون اتصال</translation>
+        <translation>آزمون اتصال</translation>
     </message>
     <message>
         <source>Connection failed - Host name hasn&apos;t been specified.
@@ -29436,7 +33156,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Provider/DSN</source>
@@ -29444,19 +33164,19 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished">میزبان</translation>
+        <translation>میزبان</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -29484,7 +33204,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Also list tables with no geometry</source>
-        <translation type="unfinished">لیست جداول بدون هندسه </translation>
+        <translation>لیست جداول بدون هندسه </translation>
     </message>
     <message>
         <source>Use estimated table parameters</source>
@@ -29519,7 +33239,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">اعداد اعشاری ( اعشاری )</translation>
+        <translation>اعداد اعشاری ( اعشاری )</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
@@ -29576,7 +33296,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -29584,7 +33304,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -29596,15 +33316,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">طرح</translation>
+        <translation>طرح</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
@@ -29616,15 +33336,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Primary key column</source>
-        <translation type="unfinished">ستون کليد اصلي</translation>
+        <translation>ستون کليد اصلي</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
@@ -29656,11 +33376,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>توقف</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished">متصل شدن</translation>
+        <translation>متصل شدن</translation>
     </message>
 </context>
 <context>
@@ -29674,35 +33394,35 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMssqlTableModel</name>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">طرح</translation>
+        <translation>طرح</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary key column</source>
-        <translation type="unfinished">ستون کليد اصلي</translation>
+        <translation>ستون کليد اصلي</translation>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Detecting...</source>
@@ -29710,7 +33430,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished">انتخاب ...</translation>
+        <translation>انتخاب ...</translation>
     </message>
     <message>
         <source>Disable &apos;Fast Access to Features at ID&apos; capability to force keeping the attribute table in memory (e.g. in case of expensive views).</source>
@@ -29722,27 +33442,27 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">تعدادی نقطه</translation>
+        <translation>تعدادی نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">تعدادی خط</translation>
+        <translation>تعدادی خط</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">تعدادی چند ضلعی</translation>
+        <translation>تعدادی چند ضلعی</translation>
     </message>
     <message>
         <source>No Geometry</source>
@@ -29761,38 +33481,38 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>No enhancement</source>
-        <translation type="unfinished">هیچ ارتقاء</translation>
+        <translation>هیچ ارتقاء</translation>
     </message>
     <message>
         <source>Stretch to MinMax</source>
-        <translation type="unfinished">کشش به حداقل حداکثر</translation>
+        <translation>کشش به حداقل حداکثر</translation>
     </message>
     <message>
         <source>Stretch and clip to MinMax</source>
-        <translation type="unfinished">کشش و کلیپ به حداقل حداکثر</translation>
+        <translation>کشش و کلیپ به حداقل حداکثر</translation>
     </message>
     <message>
         <source>Clip to MinMax</source>
-        <translation type="unfinished">کلیپ به حداقل حداکثر</translation>
+        <translation>کلیپ به حداقل حداکثر</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation type="unfinished">قرمز</translation>
+        <translation>قرمز</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation type="unfinished">سبز</translation>
+        <translation>سبز</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation type="unfinished">آبی</translation>
+        <translation>آبی</translation>
     </message>
 </context>
 <context>
     <name>QgsMultiBandColorRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Contrast
@@ -29805,15 +33525,15 @@ enhancement</source>
     </message>
     <message>
         <source>Red band</source>
-        <translation type="unfinished">گروه قرمز</translation>
+        <translation>گروه قرمز</translation>
     </message>
     <message>
         <source>Green band</source>
-        <translation type="unfinished">گروه سبز</translation>
+        <translation>گروه سبز</translation>
     </message>
     <message>
         <source>Blue band</source>
-        <translation type="unfinished">گروه آبی</translation>
+        <translation>گروه آبی</translation>
     </message>
 </context>
 <context>
@@ -29849,7 +33569,7 @@ enhancement</source>
     </message>
     <message>
         <source>all</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>off</source>
@@ -29857,7 +33577,7 @@ enhancement</source>
     </message>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>UMN</source>
@@ -29877,11 +33597,11 @@ enhancement</source>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished">ذخیره اتصال</translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished"></translation>
+        <translation>باید اتصال موجود در %1 بازنویسی شود ؟</translation>
     </message>
     <message>
         <source>Saving passwords</source>
@@ -29901,7 +33621,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished"></translation>
+        <translation>جزئیات اتصال</translation>
     </message>
     <message>
         <source>DPI-Mode</source>
@@ -29909,7 +33629,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>If the service requires basic authentication, enter a user name and optional password</source>
@@ -29917,7 +33637,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>&amp;User name</source>
@@ -29925,7 +33645,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -29957,6 +33677,56 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Referer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialog</name>
+    <message>
+        <source>New scratch layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialogBase</name>
+    <message>
+        <source>New Temporary Scratch Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer name</source>
+        <translation>نام لایه</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>نوع</translation>
+    </message>
+    <message>
+        <source>Point</source>
+        <translation>نقطه</translation>
+    </message>
+    <message>
+        <source>Line</source>
+        <translation>خطی</translation>
+    </message>
+    <message>
+        <source>Polygon</source>
+        <translation>چند ضلعی</translation>
+    </message>
+    <message>
+        <source>Multipoint</source>
+        <translation>تعدادی نقطه</translation>
+    </message>
+    <message>
+        <source>Multiline</source>
+        <translation>تعدادی خط</translation>
+    </message>
+    <message>
+        <source>Multipolygon</source>
+        <translation>تعدادی چند ضلعی</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;Warning:&lt;/b&gt; Temporary scratch layers are not saved and will be discarded when QGIS is closed.&lt;/i&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30005,7 +33775,7 @@ Extended error information:
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -30013,23 +33783,23 @@ Extended error information:
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished">میزبان</translation>
+        <translation>میزبان</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">درگاه</translation>
+        <translation>درگاه</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Save Password</source>
@@ -30137,7 +33907,7 @@ Extended error information:
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Create a new Spatialite database</source>
@@ -30145,11 +33915,11 @@ Extended error information:
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Name for the new layer</source>
@@ -30157,7 +33927,7 @@ Extended error information:
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>geometry</source>
@@ -30169,27 +33939,27 @@ Extended error information:
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>MultiPoint</source>
-        <translation type="unfinished"></translation>
+        <translation>تعدادی نقطه</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">تعدادی خط</translation>
+        <translation>تعدادی خط</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">تعدادی چند ضلعی</translation>
+        <translation>تعدادی چند ضلعی</translation>
     </message>
     <message>
         <source>Spatial Reference Id</source>
@@ -30217,7 +33987,7 @@ Extended error information:
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>An attribute name</source>
@@ -30260,7 +34030,7 @@ Extended error information:
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">زمان</translation>
+        <translation>زمان</translation>
     </message>
     <message>
         <source>ESRI Shapefile</source>
@@ -30299,31 +34069,31 @@ Extended error information:
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>New attribute</source>
-        <translation type="unfinished">ویژگی جدید</translation>
+        <translation>ویژگی جدید</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Add attribute to list</source>
@@ -30343,15 +34113,7 @@ Extended error information:
     </message>
     <message>
         <source>Remove attribute</source>
-        <translation type="unfinished">حذف صفت</translation>
-    </message>
-    <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Specify CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>حذف صفت</translation>
     </message>
     <message>
         <source>File encoding</source>
@@ -30381,11 +34143,11 @@ Extended error information:
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>From map canvas</source>
-        <translation type="unfinished">از بوم نقشه</translation>
+        <translation>از بوم نقشه</translation>
     </message>
     <message>
         <source>From layer</source>
@@ -30393,15 +34155,15 @@ Extended error information:
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished">دستی</translation>
+        <translation>دستی</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>OpenStreetMap files (*.osm)</source>
@@ -30449,7 +34211,7 @@ Extended error information:
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Export type</source>
@@ -30481,7 +34243,7 @@ Extended error information:
     </message>
     <message>
         <source>&amp;Load into canvas when finished</source>
-        <translation type="unfinished">&amp;بارگذاری به داخل کانواس(چارچوب تصویر) پس از اتمام</translation>
+        <translation>&amp;بارگذاری به داخل کانواس(چارچوب تصویر) پس از اتمام</translation>
     </message>
     <message>
         <source>Tag</source>
@@ -30489,7 +34251,7 @@ Extended error information:
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>تعدا</translation>
     </message>
     <message>
         <source>SQLite databases (*.db)</source>
@@ -30526,7 +34288,7 @@ Extended error information:
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output SpatiaLite DB file</source>
@@ -30581,7 +34343,7 @@ Extended error information:
     <name>QgsOWSRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished">اتصال جدید ...</translation>
+        <translation>اتصال جدید ...</translation>
     </message>
 </context>
 <context>
@@ -30592,7 +34354,7 @@ Extended error information:
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>Add selected layers to map</source>
@@ -30671,27 +34433,27 @@ Extended error information:
     </message>
     <message>
         <source>Ready</source>
-        <translation type="unfinished">خواندن</translation>
+        <translation>خواندن</translation>
     </message>
     <message>
         <source>Layers</source>
-        <translation type="unfinished">لایه‌ها</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>C&amp;onnect</source>
-        <translation type="unfinished">&amp;اتصال</translation>
+        <translation>&amp;اتصال</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;جدید</translation>
+        <translation>&amp;جدید</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Load connections from file</source>
@@ -30699,15 +34461,15 @@ Extended error information:
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished">ذخیره اتصال در فایل</translation>
+        <translation>ذخیره اتصال در فایل</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Adds a few example WMS servers</source>
@@ -30719,19 +34481,19 @@ Extended error information:
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">شناسه</translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Time</source>
@@ -30751,15 +34513,15 @@ Extended error information:
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Tile size</source>
@@ -30796,7 +34558,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Move selected layer DOWN</source>
@@ -30804,15 +34566,15 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">پايين</translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Tilesets</source>
@@ -30820,11 +34582,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>CRS</source>
@@ -30836,15 +34598,15 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Add selected row to WMS list</source>
@@ -30872,10 +34634,6 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unknown data type %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>QGIS wkbType %1 not supported</source>
         <translation type="unfinished"></translation>
     </message>
@@ -30885,6 +34643,10 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Could not open the spatialite logging database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1: Unknown data type %2. Not using type affinity for the field.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30959,7 +34721,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>Offline Editing Plugin</source>
@@ -30993,8 +34755,12 @@ Always network: always load from network and do not check if the cache has a val
         <translation>انتخاب لایه های از راه دور</translation>
     </message>
     <message>
-        <source>Show only editable layers</source>
-        <translation>نمایش فقط لایه های قابل ویرایش</translation>
+        <source>select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unselect all</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -31046,19 +34812,19 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Whole number (integer)</source>
-        <translation type="unfinished">مجموع اعداد ( صحیح )</translation>
+        <translation>مجموع اعداد ( صحیح )</translation>
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">اعداد اعشاری ( اعشاری )</translation>
+        <translation>اعداد اعشاری ( اعشاری )</translation>
     </message>
     <message>
         <source>Text (string)</source>
-        <translation type="unfinished">متن ( رشته )</translation>
+        <translation>متن ( رشته )</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">زمان</translation>
+        <translation>زمان</translation>
     </message>
     <message>
         <source>Date &amp; Time</source>
@@ -31070,7 +34836,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ناشناخته</translation>
     </message>
     <message>
         <source>OGR error creating wkb for feature %1: %2</source>
@@ -31173,7 +34939,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Save raster as:</source>
@@ -31185,7 +34951,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>The selected file is not a valid raster file.</source>
@@ -31260,15 +35026,15 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">پرونده</translation>
+        <translation>پرونده</translation>
     </message>
     <message>
         <source>Directory</source>
-        <translation type="unfinished">فهرست</translation>
+        <translation>نقشه</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Protocol</source>
@@ -31276,7 +35042,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>رمز گذاري</translation>
     </message>
     <message>
         <source>Type</source>
@@ -31284,11 +35050,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>URI</source>
-        <translation type="unfinished"></translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">منبع</translation>
+        <translation>منبع</translation>
     </message>
     <message>
         <source>Dataset</source>
@@ -31296,23 +35062,23 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Connections</source>
-        <translation type="unfinished">ارتباط</translation>
+        <translation>ارتباط</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
 </context>
 <context>
@@ -31350,7 +35116,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Always</source>
@@ -31362,7 +35128,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished">هرگز</translation>
+        <translation>هرگز</translation>
     </message>
     <message>
         <source>Load all</source>
@@ -31378,7 +35144,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>Basic scan</source>
@@ -31446,11 +35212,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">پیکسل</translation>
+        <translation>پیکسل</translation>
     </message>
     <message>
         <source>Semi transparent circle</source>
@@ -31462,7 +35228,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>QGIS files</source>
@@ -31506,7 +35272,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>کوانتم جی ای اس</translation>
     </message>
     <message>
         <source>GEOS</source>
@@ -31514,7 +35280,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>گرد</translation>
     </message>
     <message>
         <source>Mitre</source>
@@ -31522,7 +35288,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Bevel</source>
-        <translation type="unfinished">مورب</translation>
+        <translation>مورب</translation>
     </message>
     <message>
         <source>Save default project</source>
@@ -31578,7 +35344,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Unset</source>
-        <translation type="unfinished"></translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Prepend</source>
@@ -31594,23 +35360,23 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Enter scale</source>
-        <translation type="unfinished">مقیاس را</translation>
+        <translation>مقیاس را</translation>
     </message>
     <message>
         <source>Scale denominator</source>
-        <translation type="unfinished">مقیاس مخرج کسر</translation>
+        <translation>مقیاس مخرج کسر</translation>
     </message>
     <message>
         <source>Load scales</source>
-        <translation type="unfinished">بارگذاری مقیاس</translation>
+        <translation>بارگذاری مقیاس</translation>
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML files (*.xml *.XML)</translation>
+        <translation>XML files (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Save scales</source>
-        <translation type="unfinished">ذخیره مقیاس</translation>
+        <translation>ذخیره مقیاس</translation>
     </message>
     <message>
         <source>No Stretch</source>
@@ -31618,7 +35384,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Stretch To MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>کشش به حداقل حداکثر</translation>
     </message>
     <message>
         <source>Stretch And Clip To MinMax</source>
@@ -31661,7 +35427,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Canvas &amp; Legend</source>
@@ -32037,11 +35803,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Standard deviation multiplier</source>
@@ -32049,7 +35815,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Debugging</source>
-        <translation type="unfinished"></translation>
+        <translation>اشکال زدایی کردن</translation>
     </message>
     <message>
         <source>Show these events in the Log Message panel (under Rendering tab)</source>
@@ -32065,7 +35831,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Add color</source>
@@ -32081,7 +35847,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن</translation>
     </message>
     <message>
         <source>Default map appearance (overridden by project properties)</source>
@@ -32101,7 +35867,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>بافر</translation>
     </message>
     <message>
         <source>Lines / outlines buffer in millimeters.</source>
@@ -32125,11 +35891,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Grid spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>فضای شبکه</translation>
     </message>
     <message>
         <source> px</source>
-        <translation type="unfinished">پيکسل</translation>
+        <translation>پيکسل</translation>
     </message>
     <message>
         <source>Suppress attribute form pop-up after feature creation</source>
@@ -32365,23 +36131,23 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished">میلی متر</translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Grid offset</source>
-        <translation type="unfinished"></translation>
+        <translation>انحراف شبکه</translation>
     </message>
     <message>
         <source>x: </source>
-        <translation type="unfinished"></translation>
+        <translation>x:</translation>
     </message>
     <message>
         <source>y: </source>
-        <translation type="unfinished"></translation>
+        <translation>y:</translation>
     </message>
     <message>
         <source>Snap tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>بازه چسبیدن</translation>
     </message>
     <message>
         <source>Feature creation</source>
@@ -32433,7 +36199,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">پیکسل</translation>
+        <translation>پیکسل</translation>
     </message>
     <message>
         <source>Open snapping options in a dock window (QGIS restart required)</source>
@@ -32512,19 +36278,11 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select...</source>
-        <translation>انتخاب ...</translation>
-    </message>
-    <message>
         <source>Use &amp;project CRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Prompt for &amp;CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use default CRS displa&amp;yed below</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32542,10 +36300,6 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <source>Automatically enable &apos;on the fly&apos; reprojection if layers have different CRS</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always start new projects with this CRS</source>
-        <translation>همیشه پروژه های جدید با این CRS شروع</translation>
     </message>
     <message>
         <source>Enable &apos;on the &amp;fly&apos; reprojection by default</source>
@@ -32671,6 +36425,22 @@ Always network: always load from network and do not check if the cache has a val
         <source>Exclude URLs (starting with)</source>
         <translation>محروم کردن آدرس ها (با شروع از)</translation>
     </message>
+    <message>
+        <source>Experimental canvas rotation support (restart required)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use a default CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always start new projects with following CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default uses system&apos;s proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsOptionsDialogBase</name>
@@ -32742,27 +36512,27 @@ error:%2
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">تعدادی نقطه</translation>
+        <translation>تعدادی نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">تعدادی خط</translation>
+        <translation>تعدادی خط</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">تعدادی چند ضلعی</translation>
+        <translation>تعدادی چند ضلعی</translation>
     </message>
     <message>
         <source>No Geometry</source>
@@ -32777,15 +36547,15 @@ error:%2
     <name>QgsOracleConnectionItem</name>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">ویرایش ...</translation>
+        <translation>ویرایش ...</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>Copying features...</source>
@@ -32793,7 +36563,7 @@ error:%2
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Import layer</source>
@@ -32801,11 +36571,11 @@ error:%2
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1 لایه وکتود وجود ندارد!</translation>
+        <translation>%1 لایه وکتود وجود ندارد!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1 : تایید!</translation>
+        <translation>%1 : تایید!</translation>
     </message>
     <message>
         <source>Import to Oracle database</source>
@@ -32815,31 +36585,31 @@ error:%2
         <source>Failed to import some layers!
 
 </source>
-        <translation type="unfinished">ورود برخی از لایه های ناموفق بود!
+        <translation>ورود برخی از لایه های ناموفق بود!
 
 </translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">ورود موفق بود.</translation>
+        <translation>ورود موفق بود.</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleLayerItem</name>
     <message>
         <source>Delete layer</source>
-        <translation type="unfinished">حذف لایه</translation>
+        <translation>حذف لایه</translation>
     </message>
     <message>
         <source>Layer deleted successfully.</source>
-        <translation type="unfinished">لایه حذف شده است .</translation>
+        <translation>لایه حذف شده است .</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleNewConnection</name>
     <message>
         <source>Saving passwords</source>
-        <translation type="unfinished">ذخیره کلمه عبور</translation>
+        <translation>ذخیره کلمه عبور</translation>
     </message>
     <message>
         <source>WARNING: You have opted to save your password. It will be stored in plain text in your project files and in your home directory on Unix-like systems, or in your user profile on Windows. If you do not want this to happen, please press the Cancel button.
@@ -32848,19 +36618,19 @@ error:%2
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished">ذخیره اتصال</translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished"></translation>
+        <translation>باید اتصال موجود در %1 بازنویسی شود ؟</translation>
     </message>
     <message>
         <source>Test connection</source>
-        <translation type="unfinished">آزمون اتصال</translation>
+        <translation>آزمون اتصال</translation>
     </message>
     <message>
         <source>Connection to %1 was successful</source>
-        <translation type="unfinished">اتصال به %1 موفقیت آمیز بود</translation>
+        <translation>اتصال به %1 موفقیت آمیز بود</translation>
     </message>
     <message>
         <source>Connection failed - Check settings and try again.
@@ -32881,7 +36651,7 @@ error:%2
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Save Username</source>
@@ -32889,7 +36659,7 @@ error:%2
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -32897,11 +36667,11 @@ error:%2
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Restrict the displayed tables to those that are in the all_sdo_geom_metadata table</source>
@@ -32937,11 +36707,11 @@ error:%2
     </message>
     <message>
         <source>Also list tables with no geometry</source>
-        <translation type="unfinished">لیست جداول بدون هندسه </translation>
+        <translation>لیست جداول بدون هندسه </translation>
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">درگاه</translation>
+        <translation>درگاه</translation>
     </message>
     <message>
         <source>1521</source>
@@ -32957,7 +36727,7 @@ error:%2
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished">میزبان</translation>
+        <translation>میزبان</translation>
     </message>
     <message>
         <source>Use estimated table statistics for the layer metadata.</source>
@@ -32971,16 +36741,20 @@ error:%2
         <source>Use estimated table metadata</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Options</source>
+        <translation>گزينه ها</translation>
+    </message>
 </context>
 <context>
     <name>QgsOracleOwnerItem</name>
     <message>
         <source>%1 as %2 in %3</source>
-        <translation type="unfinished">%1 از %2 در %3</translation>
+        <translation>%1 از %2 در %3</translation>
     </message>
     <message>
         <source>as geometryless table</source>
-        <translation type="unfinished">بدون جدول هندسی</translation>
+        <translation>بدون جدول هندسی</translation>
     </message>
 </context>
 <context>
@@ -32998,7 +36772,7 @@ error:%2
     <name>QgsOracleProvider</name>
     <message>
         <source>Whole number</source>
-        <translation type="unfinished">عدد صحیح</translation>
+        <translation>عدد صحیح</translation>
     </message>
     <message>
         <source>Whole big number</source>
@@ -33014,7 +36788,7 @@ error:%2
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">اعداد اعشاری ( اعشاری )</translation>
+        <translation>اعداد اعشاری ( اعشاری )</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
@@ -33377,7 +37151,7 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -33385,7 +37159,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -33397,15 +37171,15 @@ Error: %2</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">مالک</translation>
+        <translation>مالک</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
@@ -33413,7 +37187,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33421,11 +37195,11 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
@@ -33453,11 +37227,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>توقف</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished">متصل شدن</translation>
+        <translation>متصل شدن</translation>
     </message>
 </context>
 <context>
@@ -33475,11 +37249,11 @@ Error: %2</source>
     <name>QgsOracleTableModel</name>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">مالک</translation>
+        <translation>مالک</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
@@ -33487,11 +37261,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33499,11 +37273,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Specify a geometry type</source>
@@ -33511,7 +37285,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Select a primary key</source>
@@ -33519,7 +37293,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished">انتخاب ...</translation>
+        <translation>انتخاب ...</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -33534,23 +37308,23 @@ Error: %2</source>
     <name>QgsPGConnectionItem</name>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">ویرایش ...</translation>
+        <translation>ویرایش ...</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">به روز رسانی</translation>
+        <translation>به روز رسانی</translation>
     </message>
     <message>
         <source>Copying features...</source>
-        <translation type="unfinished">کپي کردن عوارض</translation>
+        <translation>کپي کردن عوارض</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Import layer</source>
@@ -33558,11 +37332,11 @@ Error: %2</source>
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1 لایه وکتود وجود ندارد!</translation>
+        <translation>%1 لایه وکتود وجود ندارد!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1 : تایید!</translation>
+        <translation>%1 : تایید!</translation>
     </message>
     <message>
         <source>Import to PostGIS database</source>
@@ -33572,13 +37346,21 @@ Error: %2</source>
         <source>Failed to import some layers!
 
 </source>
-        <translation type="unfinished">ورود برخی از لایه های ناموفق بود!
+        <translation>ورود برخی از لایه های ناموفق بود!
 
 </translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">ورود موفق بود.</translation>
+        <translation>ورود موفق بود.</translation>
+    </message>
+    <message>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get schemas</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -33609,6 +37391,18 @@ Error: %2</source>
         <source>as geometryless table</source>
         <translation>بدون جدول هندسی</translation>
     </message>
+    <message>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>به روز رسانی</translation>
+    </message>
 </context>
 <context>
     <name>QgsPalettedRendererWidgetBase</name>
@@ -33630,7 +37424,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
 </context>
 <context>
@@ -33729,7 +37523,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Saving passwords</source>
-        <translation type="unfinished">ذخیره کلمه عبور</translation>
+        <translation>ذخیره کلمه عبور</translation>
     </message>
     <message>
         <source>WARNING: You have opted to save your password. It will be stored in plain text in your project files and in your home directory on Unix-like systems, or in your user profile on Windows. If you do not want this to happen, please press the Cancel button.
@@ -33738,19 +37532,19 @@ Error: %2</source>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished">ذخیره اتصال</translation>
+        <translation>ذخیره اتصال</translation>
     </message>
     <message>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished"></translation>
+        <translation>باید اتصال موجود در %1 بازنویسی شود ؟</translation>
     </message>
     <message>
         <source>Test connection</source>
-        <translation type="unfinished">آزمون اتصال</translation>
+        <translation>آزمون اتصال</translation>
     </message>
     <message>
         <source>Connection to %1 was successful</source>
-        <translation type="unfinished">اتصال به %1 موفقیت آمیز بود</translation>
+        <translation>اتصال به %1 موفقیت آمیز بود</translation>
     </message>
     <message>
         <source>Connection failed - Check settings and try again.
@@ -33771,7 +37565,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Service</source>
@@ -33779,15 +37573,15 @@ Error: %2</source>
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished">میزبان</translation>
+        <translation>میزبان</translation>
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">درگاه</translation>
+        <translation>درگاه</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">پایگاه داده</translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>SSL mode</source>
@@ -33795,11 +37589,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -33867,7 +37661,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Also list tables with no geometry</source>
-        <translation type="unfinished">لیست جداول بدون هندسه </translation>
+        <translation>لیست جداول بدون هندسه </translation>
     </message>
     <message>
         <source>Don&apos;t resolve type of unrestricted columns (GEOMETRY)</source>
@@ -33882,7 +37676,7 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -33890,7 +37684,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -33902,15 +37696,15 @@ Error: %2</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">طرح</translation>
+        <translation>طرح</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
@@ -33918,7 +37712,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33926,11 +37720,11 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
@@ -33958,11 +37752,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>توقف</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished">متصل شدن</translation>
+        <translation>متصل شدن</translation>
     </message>
 </context>
 <context>
@@ -33980,11 +37774,11 @@ Error: %2</source>
     <name>QgsPgTableModel</name>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">طرح</translation>
+        <translation>طرح</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Column</source>
@@ -34000,7 +37794,7 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary Key</source>
@@ -34008,11 +37802,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Select a primary key</source>
@@ -34024,7 +37818,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished">انتخاب ...</translation>
+        <translation>انتخاب ...</translation>
     </message>
     <message>
         <source>Specify a geometry type</source>
@@ -34032,7 +37826,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -34043,7 +37837,7 @@ Error: %2</source>
     <name>QgsPhotoConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>The field contains a filename for a picture. The widget will show a preview of this picture.</source>
@@ -34055,11 +37849,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>Specify the size of the preview. If you leave it set to 0, an optimal size will be estimated.</source>
@@ -34074,7 +37868,7 @@ Error: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -34093,7 +37887,7 @@ Error: %2</source>
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation type="unfinished">نصب پلاگین پایتون در کیو جی ای اس</translation>
+        <translation>نصب پلاگین پایتون در کیو جی ای اس</translation>
     </message>
     <message>
         <source>If you haven&apos;t cancelled the download manually, it was most likely caused by a timeout. In this case consider increasing the connection timeout value in QGIS options window.</source>
@@ -34250,7 +38044,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">متصل شده ...</translation>
+        <translation>متصل شده ...</translation>
     </message>
     <message>
         <source>Host connected. Sending request...</source>
@@ -34270,7 +38064,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
 </context>
 <context>
@@ -34308,7 +38102,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">متصل شده ...</translation>
+        <translation>متصل شده ...</translation>
     </message>
     <message>
         <source>Host connected. Sending request...</source>
@@ -34328,7 +38122,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Failed to unzip the plugin package. Probably it&apos;s broken or missing from the repository. You may also want to make sure that you have write permission to the plugin directory:</source>
@@ -34388,7 +38182,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Enter the repository URL, beginning with &quot;http://&quot;</source>
@@ -34400,7 +38194,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">ورودی‌ها</translation>
+        <translation>ورودی‌ها</translation>
     </message>
     <message>
         <source>?qgis=</source>
@@ -34408,18 +38202,18 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>فعال</translation>
     </message>
 </context>
 <context>
     <name>QgsPluginManager</name>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished">پلاگین‌ها</translation>
+        <translation>پلاگین‌ها</translation>
     </message>
     <message>
         <source>sort by name</source>
@@ -34652,7 +38446,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Installed</source>
@@ -34676,7 +38470,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Not installed plugins seen for the first time</source>
@@ -34692,11 +38486,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">تنظیمات</translation>
+        <translation>تنظیمات</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Not installed</source>
@@ -34704,7 +38498,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished"></translation>
+        <translation>راجع به: خالی</translation>
     </message>
     <message>
         <source>Upgrade all upgradeable plugins</source>
@@ -34804,11 +38598,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Reload repository contents
@@ -34837,7 +38631,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">ویرایش ...</translation>
+        <translation>ویرایش ...</translation>
     </message>
     <message>
         <source>Remove the selected repository</source>
@@ -34845,7 +38639,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
 </context>
 <context>
@@ -34872,7 +38666,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsPointDisplacementRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Center symbol:</source>
@@ -34920,7 +38714,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Label attribute:</source>
@@ -34939,27 +38733,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsPointPatternFillSymbolLayerWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Horizontal distance</source>
-        <translation type="unfinished">فاصله افقی</translation>
-    </message>
-    <message>
-        <source>Vertical distance</source>
-        <translation type="unfinished">فاصله عمودی</translation>
-    </message>
-    <message>
-        <source>Horizontal displacement</source>
-        <translation type="unfinished">جابجایی افقی</translation>
-    </message>
-    <message>
-        <source>Vertical displacement</source>
-        <translation type="unfinished">جابجایی عمودی</translation>
+        <translation>واحد نقشه</translation>
     </message>
 </context>
 <context>
@@ -35009,10 +38787,6 @@ error:%3
         <source>Database connection was successful, but the accessible tables could not be determined.
 The error message from the database was:
 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Database connection was successful, but no accessible tables were found. Please verify that you have SELECT privilege on a table carrying PostGIS geometry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -35072,27 +38846,27 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">تعدادی نقطه</translation>
+        <translation>تعدادی نقطه</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">تعدادی خط</translation>
+        <translation>تعدادی خط</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">تعدادی چند ضلعی</translation>
+        <translation>تعدادی چند ضلعی</translation>
     </message>
     <message>
         <source>No Geometry</source>
@@ -35104,11 +38878,11 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished">هندسی</translation>
+        <translation>هندسی</translation>
     </message>
     <message>
         <source>Geography</source>
@@ -35167,7 +38941,7 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">اعداد اعشاری ( اعشاری )</translation>
+        <translation>اعداد اعشاری ( اعشاری )</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
@@ -35187,7 +38961,7 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">زمان</translation>
+        <translation>زمان</translation>
     </message>
     <message>
         <source>PostgreSQL layer has unknown primary key type.</source>
@@ -35323,7 +39097,7 @@ SQL: %2</source>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished">مجهول</translation>
+        <translation>مجهول</translation>
     </message>
     <message>
         <source>PostgreSQL not connected</source>
@@ -35429,7 +39203,7 @@ Choose ignore to continue loading without the missing layers. Choose cancel to r
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -35842,11 +39616,11 @@ Proceed?</source>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Service capabilities</source>
@@ -36014,6 +39788,44 @@ Proceed?</source>
     </message>
 </context>
 <context>
+    <name>QgsProjectionSelectionWidget</name>
+    <message>
+        <source>invalid projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selected CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Project CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsProjectionSelectionWidgetPlugin</name>
+    <message>
+        <source>A widget to select a generic projection system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsProjectionSelector</name>
     <message>
         <source>User Defined Coordinate Systems</source>
@@ -36064,11 +39876,11 @@ Because of this the projection selector will not work...</source>
     </message>
     <message>
         <source>Authority ID</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">شناسه</translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Coordinate reference systems of the world</source>
@@ -36139,7 +39951,7 @@ The data provider said:
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدها</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -36168,7 +39980,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Sample</source>
-        <translation type="unfinished"></translation>
+        <translation>آزمودن</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -36179,7 +39991,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Use unfiltered layer</source>
@@ -36191,11 +40003,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished"></translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>NOT</source>
@@ -36207,11 +40019,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>AND</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>IN</source>
@@ -36227,7 +40039,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>LIKE</source>
@@ -36277,7 +40089,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsRangeConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Allows setting of numeric values from a specified range. The edit widget can be either a slider or a spin box.</source>
@@ -36301,7 +40113,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Maximum</source>
-        <translation type="unfinished">بيشترين</translation>
+        <translation>بيشترين</translation>
     </message>
     <message>
         <source>Allow NULL</source>
@@ -36309,11 +40121,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Minimum</source>
-        <translation type="unfinished">کمترين</translation>
+        <translation>کمترين</translation>
     </message>
     <message>
         <source>Local minimum/maximum = 0/0</source>
-        <translation type="unfinished"></translation>
+        <translation>کمترين / بيشترين محلي = 0/0 </translation>
     </message>
 </context>
 <context>
@@ -36347,11 +40159,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Output layer</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی لایه</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Current layer extent</source>
@@ -36359,19 +40171,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>X min</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداقل</translation>
     </message>
     <message>
         <source>XMax</source>
-        <translation type="unfinished"></translation>
+        <translation>X حداکثر</translation>
     </message>
     <message>
         <source>Y min</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداقل</translation>
     </message>
     <message>
         <source>Y max</source>
-        <translation type="unfinished"></translation>
+        <translation>Y حداکثر</translation>
     </message>
     <message>
         <source>Columns</source>
@@ -36379,7 +40191,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">سطر</translation>
+        <translation>سطر</translation>
     </message>
     <message>
         <source>Output format</source>
@@ -36395,11 +40207,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>*</source>
-        <translation type="unfinished"></translation>
+        <translation>*</translation>
     </message>
     <message>
         <source>sqrt</source>
@@ -36423,7 +40235,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>/</source>
@@ -36451,15 +40263,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished"></translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>OR</source>
@@ -36467,7 +40279,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>AND</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>&lt;=</source>
@@ -36486,7 +40298,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsRasterDataProvider</name>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمت پشتیبانی نمی شود</translation>
     </message>
     <message>
         <source>Value</source>
@@ -36494,11 +40306,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">متن</translation>
+        <translation>متن</translation>
     </message>
     <message>
         <source>Html</source>
-        <translation type="unfinished"></translation>
+        <translation>متنی</translation>
     </message>
     <message>
         <source>Feature</source>
@@ -36506,10 +40318,29 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>QgsRasterFillSymbolLayerWidget</name>
+    <message>
+        <source>Pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>میلی متر</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>واحد نقشه</translation>
+    </message>
+    <message>
+        <source>Select image file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsRasterFormatSaveOptionsWidget</name>
     <message>
         <source>Default</source>
-        <translation type="unfinished">پیش فرض</translation>
+        <translation>پیش فرض</translation>
     </message>
     <message>
         <source>No compression</source>
@@ -36584,19 +40415,19 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterFormatSaveOptionsWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Profile</source>
@@ -36604,7 +40435,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Value</source>
@@ -36612,7 +40443,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>Validate</source>
@@ -36620,11 +40451,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>Insert KEY=VALUE pairs separated by spaces</source>
@@ -36667,7 +40498,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">نمایش</translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Draw as lines</source>
@@ -36679,11 +40510,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Actions</source>
-        <translation type="unfinished">اکشن</translation>
+        <translation>اکشن</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Load min/max</source>
@@ -36723,14 +40554,14 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Choose a file name to save the map image as</source>
-        <translation type="unfinished">با انتخاب نام فایل نقشه در عکس ذخیره می شود در</translation>
+        <translation>با انتخاب نام فایل نقشه در عکس ذخیره می شود در</translation>
     </message>
 </context>
 <context>
     <name>QgsRasterHistogramWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Set min/max style for</source>
@@ -36738,7 +40569,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Min</source>
-        <translation type="unfinished">حد پایین</translation>
+        <translation>حداقل</translation>
     </message>
     <message>
         <source>Pick Min value on graph</source>
@@ -36746,11 +40577,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished">حد بالا</translation>
+        <translation>حد بالا</translation>
     </message>
     <message>
         <source>Pick Max value on graph</source>
@@ -36777,7 +40608,7 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterInterface</name>
     <message>
         <source>Identify</source>
-        <translation type="unfinished">شناسایی</translation>
+        <translation>شناسایی</translation>
     </message>
     <message>
         <source>Build Pyramids</source>
@@ -36793,7 +40624,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">باند</translation>
+        <translation>باند</translation>
     </message>
 </context>
 <context>
@@ -36808,7 +40639,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">رستر</translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>No Data Value</source>
@@ -36892,7 +40723,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">باند</translation>
+        <translation>باند</translation>
     </message>
     <message>
         <source>Band No</source>
@@ -36908,19 +40739,19 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Min Val</source>
-        <translation type="unfinished"></translation>
+        <translation>کمترين</translation>
     </message>
     <message>
         <source>Max Val</source>
-        <translation type="unfinished"></translation>
+        <translation>حد بالا</translation>
     </message>
     <message>
         <source>Range</source>
-        <translation type="unfinished"></translation>
+        <translation>محدوده</translation>
     </message>
     <message>
         <source>Mean</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Sum of squares</source>
@@ -37111,7 +40942,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>ارزش</translation>
     </message>
     <message>
         <source>Write access denied. Adjust the file permissions and try again.
@@ -37163,6 +40994,26 @@ Click on help button to get valid creation options for this format.</source>
         <source>Save layer properties as style file</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Style</source>
+        <translation>سبک</translation>
+    </message>
+    <message>
+        <source>Load Style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save As Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerPropertiesBase</name>
@@ -37172,18 +41023,6 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Resolutions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save As Default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Load Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore Default Style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -37200,35 +41039,27 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">شفافیت</translation>
+        <translation>شفافیت</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Layer info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Keyword list</source>
-        <translation type="unfinished">لیست کلمات کلیدی</translation>
+        <translation>لیست کلمات کلیدی</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Data Url</source>
@@ -37240,7 +41071,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -37248,7 +41079,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>LegendUrl</source>
@@ -37280,7 +41111,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Saturation</source>
-        <translation type="unfinished">اشباع</translation>
+        <translation>اشباع</translation>
     </message>
     <message>
         <source>Off</source>
@@ -37300,7 +41131,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hue</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Blending mode</source>
@@ -37328,7 +41159,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Reset all color rendering options to default</source>
@@ -37336,7 +41167,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Zoomed: in</source>
@@ -37352,7 +41183,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished">هیچ یک</translation>
+        <translation>هیچ یک</translation>
     </message>
     <message>
         <source> 00%</source>
@@ -37407,16 +41238,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add values manually</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Remove selected row</source>
@@ -37436,11 +41263,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">عمومی</translation>
+        <translation>عمومی</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>displayed as</source>
@@ -37452,11 +41279,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون</translation>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">سطر</translation>
+        <translation>سطر</translation>
     </message>
     <message>
         <source>No Data</source>
@@ -37471,20 +41298,12 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Specify...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Thumbnail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"></translation>
+        <translation>رسته</translation>
     </message>
     <message>
         <source>Palette</source>
@@ -37492,15 +41311,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Metadata</source>
-        <translation type="unfinished">متاداده</translation>
+        <translation>متاداده</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Pyramids</source>
@@ -37508,7 +41327,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Nearest Neighbour</source>
@@ -37542,16 +41361,24 @@ p, li { white-space: pre-wrap; }
         <source>Histogram</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerSaveAsDialog</name>
     <message>
         <source>From</source>
-        <translation type="unfinished">از</translation>
+        <translation>از</translation>
     </message>
     <message>
         <source>To</source>
-        <translation type="unfinished">به</translation>
+        <translation>به</translation>
     </message>
     <message>
         <source>Select output directory</source>
@@ -37559,7 +41386,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>The directory %1 contains files which will be overwritten: %2</source>
@@ -37575,7 +41402,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>layer</source>
-        <translation type="unfinished"></translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>user defined</source>
@@ -37583,18 +41410,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Resolution (current: %1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Layer (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Project (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected (%1, %2)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -37626,7 +41441,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Create GDAL Virtual Format composed of multiple 
@@ -37639,23 +41454,19 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره در</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">فهرست...</translation>
+        <translation>فهرست...</translation>
     </message>
     <message>
         <source>CRS</source>
         <translation>سیستم مختصات مرجع</translation>
     </message>
     <message>
-        <source>Change...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>Resolution</source>
@@ -37663,15 +41474,15 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون</translation>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">سطر</translation>
+        <translation>سطر</translation>
     </message>
     <message>
         <source>Layer resolution</source>
@@ -37731,7 +41542,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>No data values</source>
-        <translation type="unfinished">مقادیر داده ها موجود نمی باشد</translation>
+        <translation>مقادیر داده ها موجود نمی باشد</translation>
     </message>
     <message>
         <source>Add values manually</source>
@@ -37739,7 +41550,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Load user defined fully transparent (100%) values </source>
@@ -37769,7 +41580,7 @@ datasets with maximum width and height specified below.</source>
     <name>QgsRasterMinMaxWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Load min/max values</source>
@@ -37777,11 +41588,11 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Min / max</source>
@@ -37789,11 +41600,11 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>Full</source>
-        <translation type="unfinished"></translation>
+        <translation>مجموع</translation>
     </message>
     <message>
         <source>Current</source>
@@ -37823,14 +41634,14 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
 </context>
 <context>
     <name>QgsRasterPyramidsOptionsWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Insert positive integer values separated by spaces</source>
@@ -37862,7 +41673,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">میانگین</translation>
+        <translation>میانگین</translation>
     </message>
     <message>
         <source>Nearest Neighbour</source>
@@ -37881,7 +41692,7 @@ standard deviation ×</source>
     <name>QgsRasterRenderer</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ناشناخته</translation>
     </message>
     <message>
         <source>User defined</source>
@@ -37918,7 +41729,7 @@ standard deviation ×</source>
     <message>
         <source>%1 %2 of %3.</source>
         <comment>min/max origin label in raster properties, where %1 - estimated/exact, %2 - values (min/max, stddev, etc.), %3 - extent</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 از %3. {1 %2 ?}</translation>
     </message>
 </context>
 <context>
@@ -37953,7 +41764,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Enter result file</source>
-        <translation type="unfinished">ثبت فایل خروجی</translation>
+        <translation>ثبت فایل خروجی</translation>
     </message>
     <message>
         <source>Enter lower elevation class bound</source>
@@ -37976,7 +41787,7 @@ standard deviation ×</source>
     <name>QgsRasterTerrainAnalysisDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Elevation layer</source>
@@ -37984,11 +41795,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Output layer</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی لایه</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output format</source>
@@ -38028,19 +41839,19 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">پايين</translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished"></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>Lower bound</source>
@@ -38052,7 +41863,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Export colors...</source>
@@ -38067,7 +41878,7 @@ standard deviation ×</source>
     <name>QgsRasterTerrainAnalysisPlugin</name>
     <message>
         <source>Slope</source>
-        <translation type="unfinished"></translation>
+        <translation>شیب</translation>
     </message>
     <message>
         <source>Aspect</source>
@@ -38107,7 +41918,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>Calculating relief...</source>
@@ -38141,7 +41952,7 @@ standard deviation ×</source>
     <name>QgsRelReferenceConfigDlgBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Display expression</source>
@@ -38165,6 +41976,10 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order by value</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -38214,11 +42029,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
 </context>
 <context>
@@ -38229,7 +42044,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">اضافه نمودن موجودیت</translation>
+        <translation>اضافه نمودن موجودیت</translation>
     </message>
     <message>
         <source>Delete feature</source>
@@ -38251,6 +42066,10 @@ standard deviation ×</source>
         <source>Table view</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Save layer edits</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRelationEditorWidgetPlugin</name>
@@ -38263,11 +42082,11 @@ standard deviation ×</source>
     <name>QgsRelationManagerDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Referencing Layer</source>
@@ -38287,7 +42106,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Add Relation</source>
@@ -38352,23 +42171,23 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">فیلتر</translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Test</source>
-        <translation type="unfinished">آزمودن</translation>
+        <translation>آزمودن</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Scale range</source>
@@ -38380,7 +42199,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Filter expression parsing error:
@@ -38389,7 +42208,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Evaluation error</source>
-        <translation type="unfinished">خطا ارزیابی</translation>
+        <translation>خطا ارزیابی</translation>
     </message>
     <message numerus="yes">
         <source>Filter returned %n feature(s)</source>
@@ -38457,7 +42276,7 @@ standard deviation ×</source>
     <name>QgsRendererV2Widget</name>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">کپی</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -38485,7 +42304,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">شفافیت</translation>
+        <translation>شفافیت</translation>
     </message>
     <message>
         <source>Change symbol transparency [%]</source>
@@ -38501,15 +42320,15 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Change symbol width</source>
@@ -38517,7 +42336,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Change symbol size</source>
@@ -38548,7 +42367,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>تعدا</translation>
     </message>
     <message>
         <source>Duplicate count</source>
@@ -38635,7 +42454,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>&quot;%1&quot; is not valid scale denominator, ignoring it.</source>
@@ -38647,7 +42466,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
 </context>
 <context>
@@ -38699,15 +42518,15 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1 لایه وکتود وجود ندارد!</translation>
+        <translation>%1 لایه وکتود وجود ندارد!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1 : تایید!</translation>
+        <translation>%1 : تایید!</translation>
     </message>
     <message>
         <source>Import to SpatiaLite database</source>
@@ -38717,13 +42536,13 @@ standard deviation ×</source>
         <source>Failed to import some layers!
 
 </source>
-        <translation type="unfinished">ورود برخی از لایه های ناموفق بود!
+        <translation>ورود برخی از لایه های ناموفق بود!
 
 </translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">ورود موفق بود.</translation>
+        <translation>ورود موفق بود.</translation>
     </message>
 </context>
 <context>
@@ -38749,11 +42568,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>New SpatiaLite Database File</source>
-        <translation type="unfinished">فایل جدید بانک اطلاعات SpatiaLite</translation>
+        <translation>فایل جدید بانک اطلاعات SpatiaLite</translation>
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Create SpatiaLite database</source>
@@ -38772,20 +42591,16 @@ standard deviation ×</source>
 <context>
     <name>QgsSVGFillSymbolLayerWidget</name>
     <message>
-        <source>Texture width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>SVG file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select fill color</source>
@@ -38801,23 +42616,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
+        <translation>همه فایلها</translation>
     </message>
 </context>
 <context>
@@ -38855,7 +42654,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>UI</source>
@@ -38898,10 +42697,6 @@ standard deviation ×</source>
         <source>Maximum scale, i.e. minimum scale denominator. This limit is inclusive, that means the layer will be displayed on this scale.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>current</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QgsScaleRangeWidgetPlugin</name>
@@ -38922,6 +42717,17 @@ standard deviation ×</source>
     </message>
 </context>
 <context>
+    <name>QgsScaleWidgetPlugin</name>
+    <message>
+        <source>A widget to define the scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A widget to define the scale.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsSearchQueryBuilder</name>
     <message>
         <source>Search query builder</source>
@@ -38929,11 +42735,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>&amp;Test</source>
-        <translation type="unfinished">&amp;تست</translation>
+        <translation>&amp;تست</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تمیز</translation>
     </message>
     <message>
         <source>&amp;Save...</source>
@@ -38968,7 +42774,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Evaluation error</source>
-        <translation type="unfinished">خطا ارزیابی</translation>
+        <translation>خطا ارزیابی</translation>
     </message>
     <message>
         <source>Error during search</source>
@@ -38988,7 +42794,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Could not open file for writing</source>
@@ -39004,7 +42810,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>Could not open file for reading</source>
@@ -39031,7 +42837,7 @@ standard deviation ×</source>
     <name>QgsSelectedFeature</name>
     <message>
         <source>Validation started.</source>
-        <translation type="unfinished">شروع اعتبار سنجی .</translation>
+        <translation>شروع اعتبار سنجی .</translation>
     </message>
     <message numerus="yes">
         <source>Validation finished (%n error(s) found).</source>
@@ -39103,11 +42909,11 @@ The error was:
     <name>QgsShapeburstFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -39115,34 +42921,10 @@ The error was:
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blur radius</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت</translation>
     </message>
     <message>
         <source>Integer between 0 and 18</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use whole shape</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Maximum distance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Ignore rings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39150,11 +42932,11 @@ The error was:
     <name>QgsSimpleFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select fill color</source>
@@ -39171,68 +42953,32 @@ The error was:
     <message>
         <source>Transparent border</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
     </message>
 </context>
 <context>
     <name>QgsSimpleLineSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select line color</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
-    </message>
-    <message>
-        <source>Pen width</source>
-        <translation type="unfinished">پهنا قلم</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished">افست</translation>
-    </message>
-    <message>
-        <source>Dash pattern</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Join style</source>
-        <translation type="unfinished">اتصال سبک ها</translation>
-    </message>
-    <message>
-        <source>Cap style</source>
-        <translation type="unfinished">سبک کلاهک</translation>
     </message>
 </context>
 <context>
     <name>QgsSimpleMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select fill color</source>
@@ -39251,35 +42997,7 @@ The error was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation type="unfinished">نام</translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished">افست</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
+        <source>string </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39374,7 +43092,7 @@ enhancement</source>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">باز کردن فایل</translation>
+        <translation>باز کردن فایل</translation>
     </message>
     <message>
         <source>Textfile (*.txt)</source>
@@ -39402,7 +43120,7 @@ enhancement</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">ذخیره فایل</translation>
+        <translation>ذخیره فایل</translation>
     </message>
     <message>
         <source>QGIS Generated Color Map Export File</source>
@@ -39423,11 +43141,11 @@ enhancement</source>
     <name>QgsSingleBandPseudoColorRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">باند</translation>
+        <translation>باند</translation>
     </message>
     <message>
         <source>Color interpolation</source>
@@ -39439,7 +43157,7 @@ enhancement</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Remove selected row</source>
@@ -39467,11 +43185,11 @@ enhancement</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Clip</source>
@@ -39483,19 +43201,19 @@ enhancement</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>Classes</source>
-        <translation type="unfinished">کلاس</translation>
+        <translation>کلاس</translation>
     </message>
     <message>
         <source>Min</source>
-        <translation type="unfinished">حد پایین</translation>
+        <translation>حداقل</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished">حد بالا</translation>
+        <translation>حد بالا</translation>
     </message>
     <message>
         <source>Invert</source>
@@ -39621,11 +43339,31 @@ enhancement</source>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">پیکسل</translation>
+        <translation>پیکسل</translation>
+    </message>
+    <message>
+        <source>To vertex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To vertex and segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>layer units</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -39636,19 +43374,19 @@ enhancement</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">حالت</translation>
+        <translation>حالت</translation>
     </message>
     <message>
         <source>Tolerance</source>
-        <translation type="unfinished">دامنه تغییرات</translation>
+        <translation>دامنه تغییرات</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد</translation>
     </message>
     <message>
         <source>Avoid intersections</source>
@@ -39664,6 +43402,34 @@ enhancement</source>
     </message>
     <message>
         <source>Enable snapping on intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snapping mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>map units</source>
+        <translation>واحد نقشه</translation>
+    </message>
+    <message>
+        <source>pixels</source>
+        <translation>پیکسل</translation>
+    </message>
+    <message>
+        <source>All layers</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39703,7 +43469,7 @@ enhancement</source>
     </message>
     <message>
         <source>POLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>چند ضلعی</translation>
     </message>
     <message>
         <source>MULTIPOINT</source>
@@ -39715,7 +43481,7 @@ enhancement</source>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>تعدادی چند ضلعی</translation>
     </message>
     <message>
         <source>GEOMETRYCOLLECTION</source>
@@ -39730,7 +43496,7 @@ enhancement</source>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">متن</translation>
+        <translation>متن</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
@@ -39738,7 +43504,7 @@ enhancement</source>
     </message>
     <message>
         <source>Whole number (integer)</source>
-        <translation type="unfinished">مجموع اعداد ( صحیح )</translation>
+        <translation>مجموع اعداد ( صحیح )</translation>
     </message>
     <message>
         <source>Retrieval of spatialite version failed</source>
@@ -39746,7 +43512,7 @@ enhancement</source>
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Could not parse spatialite version string &apos;%1&apos;</source>
@@ -39774,7 +43540,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Databases</source>
-        <translation type="unfinished"></translation>
+        <translation>پایگاه داده</translation>
     </message>
     <message>
         <source>&amp;Update statistics</source>
@@ -39782,7 +43548,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -39798,11 +43564,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>همه</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">جدول</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>Type</source>
@@ -39810,11 +43576,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished"></translation>
+        <translation>ستون هندسی</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished">اس کیو ال</translation>
+        <translation>اس کیو ال</translation>
     </message>
     <message>
         <source>Are you sure you want to update the internal statistics for DB: %1?
@@ -39841,7 +43607,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>@</source>
-        <translation type="unfinished">@</translation>
+        <translation>@</translation>
     </message>
     <message>
         <source>Choose a SpatiaLite/SQLite DB to open</source>
@@ -39853,11 +43619,11 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Cannot add connection &apos;%1&apos; : a connection with the same name already exists.</source>
@@ -40008,7 +43774,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>%1 of %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 از %2</translation>
     </message>
     <message>
         <source>all = %1</source>
@@ -40237,7 +44003,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Authority</source>
@@ -40249,15 +44015,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">فیلتر</translation>
+        <translation>فیلتر</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
 </context>
 <context>
@@ -40280,7 +44046,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">طرح</translation>
+        <translation>طرح</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the [%1] connection and all associated settings?</source>
@@ -40296,11 +44062,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل وکتور Esri</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">همه فایلها</translation>
+        <translation>همه فایلها</translation>
     </message>
     <message>
         <source>The following Shapefile(s) could not be loaded:
@@ -40431,7 +44197,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -40503,7 +44269,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished">متصل شدن</translation>
+        <translation>متصل شدن</translation>
     </message>
     <message>
         <source>Create a new PostGIS connection</source>
@@ -40511,7 +44277,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">جدید</translation>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>Edit the current PostGIS connection</source>
@@ -40519,7 +44285,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Remove the current PostGIS connection</source>
@@ -40527,7 +44293,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Import options and shapefile list</source>
@@ -40547,7 +44313,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Set the SRID to the default value</source>
@@ -40571,7 +44337,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">اضافه</translation>
+        <translation>اضافه</translation>
     </message>
     <message>
         <source>Remove the selected shapefile from the import list</source>
@@ -40637,7 +44403,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsStyleV2ExportImportDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
     <message>
         <source>Clear selection</source>
@@ -40661,7 +44427,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن</translation>
     </message>
     <message>
         <source>Export style(s)</source>
@@ -40669,7 +44435,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Export/import error</source>
@@ -40685,7 +44451,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML files (*.xml *.XML)</translation>
+        <translation>XML files (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Error when saving selected symbols to file:
@@ -40799,11 +44565,11 @@ Overwrite?</source>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>وارد کردن</translation>
     </message>
     <message>
         <source>Group Actions</source>
@@ -40978,7 +44744,7 @@ Kindly select a group or smart group you might want to delete.</source>
     </message>
     <message>
         <source>Error!</source>
-        <translation type="unfinished">خطا!</translation>
+        <translation>خطا!</translation>
     </message>
     <message>
         <source>New group could not be created.
@@ -40991,7 +44757,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Database Error</source>
-        <translation type="unfinished">خطاي پايگاه داده</translation>
+        <translation>خطاي پايگاه داده</translation>
     </message>
     <message>
         <source>There was a problem with the Symbols database while regrouping.</source>
@@ -41029,24 +44795,32 @@ There was a problem with your symbol database.</source>
         <source>There was some error while editing the smart group.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Cannot rename item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name is already taken by another item. Choose a different name.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsStyleV2ManagerDialogBase</name>
     <message>
         <source>Style Manager</source>
-        <translation type="unfinished">مدیریت سبک نگارش </translation>
+        <translation>مدیریت سبک نگارش </translation>
     </message>
     <message>
         <source>Marker</source>
-        <translation type="unfinished">نشانگر</translation>
+        <translation>نشانگر</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished">خطی</translation>
+        <translation>خطی</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Color ramp</source>
@@ -41066,7 +44840,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Remove item</source>
@@ -41085,11 +44859,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Layer ID</source>
-        <translation type="unfinished"></translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Number of features</source>
@@ -41109,11 +44883,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation type="unfinished">انتخاب همه</translation>
+        <translation>انتخاب همه</translation>
     </message>
 </context>
 <context>
@@ -41124,7 +44898,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
 </context>
 <context>
@@ -41135,15 +44909,15 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Select SVG file</source>
-        <translation type="unfinished">انتخاب فایل SVG</translation>
+        <translation>انتخاب فایل SVG</translation>
     </message>
     <message>
         <source>SVG files</source>
-        <translation type="unfinished">فایل SVG</translation>
+        <translation>فایل SVG</translation>
     </message>
 </context>
 <context>
@@ -41184,11 +44958,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSvgMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select fill color</source>
@@ -41206,38 +44980,6 @@ There was a problem with your symbol database.</source>
         <source>SVG files</source>
         <translation>فایل SVG</translation>
     </message>
-    <message>
-        <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished">افست</translation>
-    </message>
-    <message>
-        <source>SVG file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QgsSvgSelectorGroupsModel</name>
@@ -41254,11 +44996,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSvgSelectorWidget</name>
     <message>
         <source>Select SVG file</source>
-        <translation type="unfinished">انتخاب فایل SVG</translation>
+        <translation>انتخاب فایل SVG</translation>
     </message>
     <message>
         <source>SVG files</source>
-        <translation type="unfinished">فایل SVG</translation>
+        <translation>فایل SVG</translation>
     </message>
     <message>
         <source>File not found</source>
@@ -41269,11 +45011,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSymbolLayerV2Widget</name>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>area</source>
-        <translation type="unfinished">مساحت</translation>
+        <translation>مساحت</translation>
     </message>
     <message>
         <source>diameter</source>
@@ -41357,18 +45099,18 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
 </context>
 <context>
     <name>QgsSymbolsListWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>میلی متر</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished"></translation>
+        <translation>واحد نقشه</translation>
     </message>
     <message>
         <source>Select color</source>
@@ -41396,7 +45138,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Transparency %1%</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت %1%</translation>
     </message>
 </context>
 <context>
@@ -41467,11 +45209,11 @@ There was a problem with your symbol database.</source>
     <name>QgsTextEditConfigDlg</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished">تعدادی خط</translation>
+        <translation>تعدادی خط</translation>
     </message>
     <message>
         <source>HTML</source>
@@ -41686,7 +45428,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsTransformOptionsDialog</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">محاوره</translation>
+        <translation>محاوره</translation>
     </message>
     <message>
         <source>Select transformation type:</source>
@@ -41761,7 +45503,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Target SRS:</source>
@@ -41777,7 +45519,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">افقی</translation>
+        <translation>افقی</translation>
     </message>
     <message>
         <source>Vertical</source>
@@ -41825,7 +45567,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">اطلاعات</translation>
+        <translation>اطلاعات</translation>
     </message>
     <message>
         <source>Please set output name</source>
@@ -41861,7 +45603,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsUniqueValuesConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>The user can select one of the values already used in the attribute. If editable, a line edit is shown with autocompletion support, otherwise a combo box is used.</source>
@@ -41876,7 +45618,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsUnitSelectionWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Adjust scaling range</source>
@@ -41887,11 +45629,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsValueMapConfigDlg</name>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک فایل</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Could not open file %1
@@ -41903,7 +45645,7 @@ Error was:%2</source>
     <name>QgsValueMapWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Combo box with predefined items. Value is stored in the attribute, description is shown in the combo box.</source>
@@ -41919,11 +45661,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>ارزش</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Remove Selected</source>
@@ -41941,7 +45683,7 @@ Error was:%2</source>
     <name>QgsValueRelationConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Select layer, key column and value column</source>
@@ -41949,19 +45691,19 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Key column</source>
-        <translation type="unfinished">کليد ستون</translation>
+        <translation>کليد ستون</translation>
     </message>
     <message>
         <source>Value column</source>
-        <translation type="unfinished"></translation>
+        <translation>مقدار ستون</translation>
     </message>
     <message>
         <source>Allow null value</source>
-        <translation type="unfinished"></translation>
+        <translation>مجاز به خالي بودن مقدار</translation>
     </message>
     <message>
         <source>Order by value</source>
@@ -41977,14 +45719,14 @@ Error was:%2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QgsValueRelationWidgetWrapper</name>
     <message>
         <source>(no selection)</source>
-        <translation type="unfinished"></translation>
+        <translation>( انتخاب نشده )</translation>
     </message>
 </context>
 <context>
@@ -42084,7 +45826,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Transparent</source>
-        <translation type="unfinished"></translation>
+        <translation>شفافیت</translation>
     </message>
     <message>
         <source>Discrete</source>
@@ -42151,7 +45893,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Offset (%)</source>
@@ -42159,22 +45901,22 @@ Error was:%2</source>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>پیش دید</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>اطلاعات</translation>
     </message>
 </context>
 <context>
     <name>QgsVectorLayer</name>
     <message>
         <source>Updating feature count for layer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>به روز رسانی تعداد ویژگی برای لایه %1</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
     <message>
         <source>ERROR: no provider</source>
@@ -42191,7 +45933,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">عمومی</translation>
+        <translation>عمومی</translation>
     </message>
     <message>
         <source>Layer comment</source>
@@ -42227,7 +45969,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Extents</source>
-        <translation type="unfinished"></translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>In layer spatial reference system units</source>
@@ -42247,10 +45989,6 @@ Error was:%2</source>
     </message>
     <message>
         <source>Attribute field info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Error: qgis element could not be found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42275,15 +46013,15 @@ Error was:%2</source>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">طول</translation>
+        <translation>طول</translation>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">دقت</translation>
+        <translation>دقت</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">توضیح</translation>
+        <translation>توضیح</translation>
     </message>
 </context>
 <context>
@@ -42421,7 +46159,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load from file</source>
-        <translation type="unfinished">بارگذاری از فایل</translation>
+        <translation>بارگذاری از فایل</translation>
     </message>
     <message>
         <source>Load from database</source>
@@ -42433,7 +46171,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer Properties - %1</source>
-        <translation type="unfinished">خواص  لایه - %1</translation>
+        <translation>خواص  لایه - %1</translation>
     </message>
     <message>
         <source>Stop editing mode to enable this.</source>
@@ -42441,7 +46179,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Insert expression</source>
-        <translation type="unfinished">قرار دادن عبارت</translation>
+        <translation>قرار دادن عبارت</translation>
     </message>
     <message>
         <source>This button opens the query builder and allows you to create a subset of features to display on the map canvas rather than displaying all features in the layer</source>
@@ -42457,7 +46195,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished"></translation>
+        <translation>شاخص سیستم مختصات</translation>
     </message>
     <message>
         <source>Creation of spatial index successful</source>
@@ -42473,7 +46211,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Local database</source>
@@ -42485,7 +46223,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Default Style</source>
-        <translation type="unfinished">پوسته پيش فرض</translation>
+        <translation>پوسته پيش فرض</translation>
     </message>
     <message>
         <source>Loaded from Provider</source>
@@ -42517,7 +46255,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Saved Style</source>
-        <translation type="unfinished">ذخیره پوسته</translation>
+        <translation>ذخیره پوسته</translation>
     </message>
     <message>
         <source>Error occured retrieving styles from database</source>
@@ -42531,23 +46269,31 @@ Error was:%2</source>
         <source>Save Style</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>QgsVectorLayerPropertiesBase</name>
     <message>
-        <source>Layer Properties</source>
-        <translation type="unfinished"></translation>
+        <source>Style</source>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Load Style...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore Default Style</source>
+        <source>Save Style...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save As Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsVectorLayerPropertiesBase</name>
+    <message>
+        <source>Layer Properties</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42564,11 +46310,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>Keyword list</source>
-        <translation type="unfinished">لیست کلمات کلیدی</translation>
+        <translation>لیست کلمات کلیدی</translation>
     </message>
     <message>
         <source>DataUrl</source>
@@ -42576,7 +46322,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Attribution</source>
@@ -42584,7 +46330,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -42592,7 +46338,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">نوع</translation>
+        <translation>نوع</translation>
     </message>
     <message>
         <source>LegendUrl</source>
@@ -42616,11 +46362,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>برچسب</translation>
     </message>
     <message>
         <source>Labels (deprecated)</source>
@@ -42632,15 +46378,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>فیلدها</translation>
     </message>
     <message>
         <source>General</source>
         <translation>عمومی</translation>
-    </message>
-    <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Query Builder</source>
@@ -42648,11 +46390,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">نمایش</translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Rendering</source>
-        <translation type="unfinished">رندر</translation>
+        <translation>رندر</translation>
     </message>
     <message>
         <source>Layer info</source>
@@ -42671,12 +46413,8 @@ Error was:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Specify...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Create spatial index</source>
-        <translation type="unfinished">ايجاد اندکس مکاني</translation>
+        <translation>ايجاد اندکس مکاني</translation>
     </message>
     <message>
         <source>Update extents</source>
@@ -42708,7 +46446,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">پیکسل</translation>
+        <translation>پیکسل</translation>
     </message>
     <message>
         <source>Simplify on provider side if possible</source>
@@ -42740,7 +46478,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Insert field</source>
-        <translation type="unfinished"></translation>
+        <translation>اضافه کردن فیلد</translation>
     </message>
     <message>
         <source>HTML</source>
@@ -42751,12 +46489,8 @@ Error was:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>displayed as</source>
@@ -42764,15 +46498,15 @@ Error was:%2</source>
     </message>
     <message>
         <source>Metadata</source>
-        <translation type="unfinished">متاداده</translation>
+        <translation>متاداده</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -42784,7 +46518,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Join layer</source>
-        <translation type="unfinished">لایه عضویت</translation>
+        <translation>لایه عضویت</translation>
     </message>
     <message>
         <source>Join field</source>
@@ -42801,18 +46535,6 @@ Error was:%2</source>
 </context>
 <context>
     <name>QgsVectorLayerSaveAsDialog</name>
-    <message>
-        <source>Layer CRS</source>
-        <translation type="unfinished">لايه سیستم مختصات مرجع</translation>
-    </message>
-    <message>
-        <source>Project CRS</source>
-        <translation>پروژه سیستم مختصات مرجع</translation>
-    </message>
-    <message>
-        <source>Selected CRS</source>
-        <translation>سیستم مختصات مرجع انتخاب شده</translation>
-    </message>
     <message>
         <source>No symbology</source>
         <translation type="unfinished"></translation>
@@ -42846,11 +46568,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>رمز گذاري</translation>
     </message>
     <message>
         <source>CRS</source>
@@ -42874,15 +46596,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره در</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
-    </message>
-    <message>
-        <source>Change...</source>
-        <translation type="unfinished"></translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Save only selected features</source>
@@ -42894,7 +46612,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>This allows one to surpress attribute creation as some OGR drivers (eg. DGN, DXF) don&apos;t support it.</source>
@@ -43080,7 +46798,7 @@ Error was:%2</source>
     <name>QgsWFSSourceSelect</name>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>&amp;Build query</source>
@@ -43104,7 +46822,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>No Layers</source>
@@ -43116,11 +46834,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Create a new WFS connection</source>
-        <translation type="unfinished">ایجاد اتصال جدید به WFS</translation>
+        <translation>ایجاد اتصال جدید به WFS</translation>
     </message>
     <message>
         <source>Modify WFS connection</source>
-        <translation type="unfinished">اصلاح کردن اتصال WFS</translation>
+        <translation>اصلاح کردن اتصال WFS</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
@@ -43163,19 +46881,19 @@ Error was:%2</source>
     </message>
     <message>
         <source>C&amp;onnect</source>
-        <translation type="unfinished">&amp;اتصال</translation>
+        <translation>&amp;اتصال</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;جدید</translation>
+        <translation>&amp;جدید</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Load connections from file</source>
@@ -43183,15 +46901,15 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished">ذخیره اتصال در فایل</translation>
+        <translation>ذخیره اتصال در فایل</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Use title for layer name</source>
@@ -43236,7 +46954,7 @@ Error was:%2</source>
     <name>QgsWMSSourceSelect</name>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;اضافه</translation>
+        <translation>&amp;اضافه</translation>
     </message>
     <message>
         <source>Add selected layers to map</source>
@@ -43368,27 +47086,27 @@ Error was:%2</source>
     <name>QgsWMSSourceSelectBase</name>
     <message>
         <source>Ready</source>
-        <translation type="unfinished">خواندن</translation>
+        <translation>خواندن</translation>
     </message>
     <message>
         <source>Layers</source>
-        <translation type="unfinished">لایه‌ها</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>C&amp;onnect</source>
-        <translation type="unfinished">&amp;اتصال</translation>
+        <translation>&amp;اتصال</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;جدید</translation>
+        <translation>&amp;جدید</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">حذف</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Adds a few example WMS servers</source>
@@ -43400,19 +47118,19 @@ Error was:%2</source>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">شناسه</translation>
+        <translation>شناسه</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Image encoding</source>
@@ -43420,11 +47138,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished">ذخیره اتصال در فایل</translation>
+        <translation>ذخیره اتصال در فایل</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>ذخیره</translation>
     </message>
     <message>
         <source>Load connections from file</source>
@@ -43432,11 +47150,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">بارگذاری</translation>
+        <translation>بارگذاری</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>Change...</source>
@@ -43444,7 +47162,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>نام لایه</translation>
     </message>
     <message>
         <source>Coordinate Reference System</source>
@@ -43476,7 +47194,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Move selected layer DOWN</source>
@@ -43484,15 +47202,15 @@ Error was:%2</source>
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">پايين</translation>
+        <translation>پايين</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">سبک</translation>
+        <translation>سبک</translation>
     </message>
     <message>
         <source>Tilesets</source>
@@ -43500,7 +47218,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">قالب</translation>
+        <translation>قالب</translation>
     </message>
     <message>
         <source>Tileset</source>
@@ -43516,18 +47234,22 @@ Error was:%2</source>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">جستجو</translation>
+        <translation>جستجو</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>سرنوشت</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">مسیر </translation>
+        <translation>مسیر </translation>
     </message>
     <message>
         <source>Add selected row to WMS list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use contextual WMS Legend</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -43556,7 +47278,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished">WCS</translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>%1 of %2 bytes of capabilities downloaded.</source>
@@ -43564,7 +47286,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>Exception</source>
-        <translation type="unfinished">استثنا</translation>
+        <translation>استثنا</translation>
     </message>
     <message>
         <source>Could not get WCS capabilities: %1</source>
@@ -43607,7 +47329,7 @@ Response was:
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished">WCS</translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>Map request error:&lt;br&gt;Title: %1&lt;br&gt;Error: %2&lt;br&gt;URL: &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;)</source>
@@ -43678,7 +47400,7 @@ Response was:
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished">WCS</translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>Rotating raster</source>
@@ -43790,11 +47512,11 @@ Response was:
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Fixed Width</source>
@@ -43885,7 +47607,7 @@ Response was:
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمت پشتیبانی نمی شود</translation>
     </message>
     <message>
         <source>Read data error</source>
@@ -43900,7 +47622,7 @@ Response was:
     <name>QgsWebViewWidgetConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Field contains a filename or URL for a webpage</source>
@@ -43908,22 +47630,22 @@ Response was:
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
 </context>
 <context>
     <name>QgsWebViewWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>انتخاب یک فایل</translation>
     </message>
 </context>
 <context>
@@ -43942,7 +47664,7 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>empty of capabilities: %1</source>
@@ -43961,7 +47683,7 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Returned image is flawed [Content-Type:%1; URL:%2]</source>
@@ -43989,6 +47711,30 @@ Response was:
     </message>
 </context>
 <context>
+    <name>QgsWmsLegendDownloadHandler</name>
+    <message>
+        <source>Redirect loop detected: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WMS</source>
+        <translation>WMS</translation>
+    </message>
+    <message>
+        <source>GetLegendGraphic request error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status: %1
+Reason phrase: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Returned legend image is flawed [URL: %1]</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsWmsProvider</name>
     <message>
         <source>Cannot parse URI</source>
@@ -44008,7 +47754,7 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Number of tile layers must be one</source>
@@ -44064,15 +47810,6 @@ Response was:
     </message>
     <message>
         <source>unexpected image size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Status: %1
-Reason phrase: %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Redirect loop detected: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44153,7 +47890,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">نام</translation>
+        <translation>نام</translation>
     </message>
     <message>
         <source>Visibility</source>
@@ -44169,11 +47906,11 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">عنوان</translation>
+        <translation>عنوان</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished">چکیده</translation>
+        <translation>چکیده</translation>
     </message>
     <message>
         <source>Can Identify</source>
@@ -44181,11 +47918,11 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>بله</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>خیر</translation>
     </message>
     <message>
         <source>Can be Transparent</source>
@@ -44364,7 +48101,7 @@ Response was:
     </message>
     <message>
         <source>Bounding Box</source>
-        <translation type="unfinished"></translation>
+        <translation>حوزه</translation>
     </message>
     <message>
         <source>Available Tilesets</source>
@@ -44376,7 +48113,7 @@ Response was:
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">مقیاس</translation>
+        <translation>مقیاس</translation>
     </message>
     <message>
         <source>Tile size [px]</source>
@@ -44400,27 +48137,27 @@ Response was:
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">ارتفاع</translation>
+        <translation>ارتفاع</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message numerus="yes">
         <source>%n missing row(s)</source>
@@ -44468,7 +48205,7 @@ Response was:
     </message>
     <message>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>فرمت پشتیبانی نمی شود</translation>
     </message>
     <message>
         <source>Context not fully specified (extent was defined but width and/or height was not).</source>
@@ -44511,22 +48248,6 @@ Response was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>GetLegendGraphic request redirected.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>GetLegendGraphic request error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Returned legend image is flawed [URL: %1]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download of GetLegendGraphic failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 of %2 bytes of GetLegendGraphic downloaded.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44548,7 +48269,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Tile request error (Status:%1; Content-Type:%2; Length:%3; URL: %4)</source>
@@ -44625,10 +48346,6 @@ Reason phrase: %2</source>
 <context>
     <name>QgsZonalStatisticsDialogBase</name>
     <message>
-        <source>Dialog</source>
-        <translation>محاوره</translation>
-    </message>
-    <message>
         <source>Raster layer:</source>
         <translation>لایه رستر :</translation>
     </message>
@@ -44639,6 +48356,10 @@ Reason phrase: %2</source>
     <message>
         <source>Output column prefix:</source>
         <translation>پیشوند ستون خروجی:</translation>
+    </message>
+    <message>
+        <source>Zonal Statistics</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44657,14 +48378,328 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
-    <name>RangePanel</name>
+    <name>RAlgorithm</name>
     <message>
-        <source>Min</source>
-        <translation type="unfinished">حد پایین</translation>
+        <source>Could not load R script: %s.
+ Problem with line %s</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Max</source>
-        <translation type="unfinished">حد بالا</translation>
+        <source>R Console Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately it seems that R is not installed in your system or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. A test to check if R is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The script you have executed needs the following packages:&lt;/p&gt;&lt;ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;/ul&gt;&lt;p&gt;Make sure they are installed in your R environment before trying to execute this script.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href= &quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAlgorithmProvider</name>
+    <message>
+        <source>Create new R script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R Scripts folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use 64 bit version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not load R script: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RUtils</name>
+    <message>
+        <source>R execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h2&gt;R Output&lt;/h2&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately, it seems that R is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtract</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtractWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set correct value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsAlongLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsExtent</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsFixed</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number or density of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsVariable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelectionWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>ID Field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44675,11 +48710,11 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل تنها ابزار</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>min X</source>
@@ -44699,7 +48734,65 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>جدول خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerStatistics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>کمترين مقدار</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>بيشترين مقدار</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>مجموع</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation>مقدار متوسط</translation>
+    </message>
+    <message>
+        <source>valid cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No-data cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
+        <translation>انحراف معیار</translation>
     </message>
 </context>
 <context>
@@ -44710,6 +48803,33 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
+    <name>RegularPoints</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Point spacing/count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initial inset from corner (LH side)</source>
+        <translation>الحاق اولیه از گوشه سمت (LH)</translation>
+    </message>
+    <message>
+        <source>Apply random offset to point spacing</source>
+        <translation>اعمال حاشیه تصادفی به فضای نقطه‌ای</translation>
+    </message>
+    <message>
+        <source>Use point spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regular points</source>
+        <translation>نقطه های متقارن</translation>
+    </message>
+</context>
+<context>
     <name>RenderingStyleFilePanel</name>
     <message>
         <source>Select style file</source>
@@ -44717,6 +48837,21 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>QGIS Layer Style File (*.qml *.QML)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ReprojectLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reprojected layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44743,7 +48878,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>Direction field</source>
@@ -44779,7 +48914,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Direction</source>
-        <translation type="unfinished">جهت</translation>
+        <translation>جهت</translation>
     </message>
     <message>
         <source>Two-way direction</source>
@@ -44803,7 +48938,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished">سرعت</translation>
+        <translation>سرعت</translation>
     </message>
     <message>
         <source>Always use default</source>
@@ -44857,7 +48992,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>توقف</translation>
     </message>
     <message>
         <source>Criterion</source>
@@ -44865,7 +49000,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">طول</translation>
+        <translation>طول</translation>
     </message>
     <message>
         <source>Time</source>
@@ -44873,19 +49008,19 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Calculate</source>
-        <translation type="unfinished">بر اورد کردن</translation>
+        <translation>بر اورد کردن</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>خروجی</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">تمیز</translation>
+        <translation>تمیز</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">راهنما</translation>
+        <translation>راهنما</translation>
     </message>
     <message>
         <source>Point not selected</source>
@@ -44927,6 +49062,10 @@ Reason phrase: %2</source>
         <source>Path not found</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Could not find start vertex. Please check your input data.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RoadGraphPlugin</name>
@@ -44936,7 +49075,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Road graph plugin settings</source>
-        <translation type="unfinished">تنظیمات پلاگین گراف</translation>
+        <translation>تنظیمات پلاگین گراف</translation>
     </message>
     <message>
         <source>Road graph</source>
@@ -44951,11 +49090,96 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">&amp;پایگاه داده‌ها</translation>
+        <translation>&amp;پایگاه داده‌ها</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
+        <translation>پایگاه داده انتخاب نشده یا اتصال با مشکل روبه رو شده است</translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm212</name>
+    <message>
+        <source>Unsupported file format</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer %s has more than one band.
+Multiband layers are not supported by SAGA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layers do not have the same grid extent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm213</name>
+    <message>
+        <source>Unsupported file format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithmProvider</name>
+    <message>
+        <source>SAGA folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable SAGA Import/Export optimizations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: SAGA was not found or is not correctly installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: installed SAGA version (%s) is not supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaUtils</name>
+    <message>
+        <source>SAGA execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SaveSelectedFeatures</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation>خروجی لایه با انتخاب ویژگی ها</translation>
     </message>
 </context>
 <context>
@@ -44995,7 +49219,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>اسکریپت</translation>
     </message>
 </context>
 <context>
@@ -45020,6 +49244,99 @@ Problem with line %d</source>
         <source>Unable to save edits. Reason:
  %s</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in script. Continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SelectByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation>انتخاب ویژگی</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation>عملگر</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ارزش</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation>فیلد عددی</translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation>فیلد متنی</translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation>حذف فیلد</translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SelectByExpression</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Expression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>SelectByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>انتخاب</translation>
     </message>
 </context>
 <context>
@@ -45066,6 +49383,36 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SetRasterStyle</name>
+    <message>
+        <source>Raster layer</source>
+        <translation>لایه رستر</translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SetVectorStyle</name>
+    <message>
+        <source>Vector layer</source>
+        <translation>لایه برداری</translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SettingsDialogPythonConsole</name>
     <message>
         <source>Editor</source>
@@ -45101,7 +49448,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>توضیح:</translation>
     </message>
     <message>
         <source>Comment block:</source>
@@ -45189,11 +49536,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished">قلم</translation>
+        <translation>قلم</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Enable Object Inspector (switching between tabs may be slow)</source>
@@ -45201,7 +49548,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Console</source>
-        <translation type="unfinished">کنسول</translation>
+        <translation>کنسول</translation>
     </message>
     <message>
         <source>APIs</source>
@@ -45213,7 +49560,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Path</source>
-        <translation type="unfinished">مسیر</translation>
+        <translation>مسیر</translation>
     </message>
     <message>
         <source>Using prepared APIs file</source>
@@ -45236,25 +49583,213 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SimplifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation>دامنه تغییرات</translation>
+    </message>
+    <message>
+        <source>Simplified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplify: Input geometries have been simplified from %s to %s points</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SimplifyLineDialog</name>
-    <message>
-        <source>Simplify line tolerance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Set tolerance</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>OK</source>
         <translation>تایید</translation>
+    </message>
+    <message>
+        <source>Simplification Tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Map units</source>
+        <translation>واحدهای نقشه</translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation>دامنه تغییرات</translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SinglePartsToMultiparts</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>مشخصه فیلد یکتا</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Invalid unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SlopeArea</name>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpatialJoin</name>
+    <message>
+        <source>Target vector layer</source>
+        <translation>لایه برداری خروجی</translation>
+    </message>
+    <message>
+        <source>Join vector layer</source>
+        <translation>ادغام لایه‌ برداری</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute summary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics for summary (comma separated)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>جدول خروجی</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>SplitLinesWithLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Split layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while splitting</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SplitRGBBands</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output R band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output G band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output B band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StatisticsByCategories</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>ایجاد لایه برداری</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation>فیلد محاسبه آماری</translation>
+    </message>
+    <message>
+        <source>Field with categories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SumLines</name>
+    <message>
+        <source>Lines</source>
+        <translation>خط</translation>
+    </message>
+    <message>
+        <source>Polygons</source>
+        <translation>چند ضلعی ها</translation>
+    </message>
+    <message>
+        <source>Lines length field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lines count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
     </message>
 </context>
 <context>
     <name>SymbolsListWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Unit</source>
@@ -45262,11 +49797,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>تاری</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Open Library</source>
@@ -45274,19 +49809,15 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message utf8="true">
-        <source>°</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">عرض</translation>
+        <translation>عرض</translation>
     </message>
     <message>
         <source>Symbols in group</source>
@@ -45298,6 +49829,121 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SymetricalDifference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation>اختلاف لایه</translation>
+    </message>
+    <message>
+        <source>Symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithm</name>
+    <message>
+        <source>Could not load TauDEM algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithmProvider</name>
+    <message>
+        <source>TauDEM command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MPICH2/OpenMPI bin directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of MPI parallel processes to use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open TauDEM algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM (hydrologic analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMUtils</name>
+    <message>
+        <source>TauDEM execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM command:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextToFloat</name>
+    <message>
+        <source>Input Layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Text attribute to convert to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>TinSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation>اندازه سلول</translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation>واحد نقطه</translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>واحد ارتفاع</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation>خروجی لایه سطح DTM</translation>
+    </message>
+    <message>
+        <source>Class</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45317,6 +49963,13 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>TreeProviderItem</name>
+    <message>
+        <source> [{0} geoalgorithms]</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UndoWidget</name>
     <message>
         <source>Undo/Redo</source>
@@ -45329,6 +49982,60 @@ Problem with line %d</source>
     <message>
         <source>Redo</source>
         <translation>ازنو</translation>
+    </message>
+</context>
+<context>
+    <name>Union</name>
+    <message>
+        <source>Feature exception while computing union</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation>انتخاب لایه 2</translation>
+    </message>
+    <message>
+        <source>Union</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UniqueValues</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Target field</source>
+        <translation>فیلد مشخص</translation>
+    </message>
+    <message>
+        <source>Unique values</source>
+        <translation>مقادير يکتا</translation>
+    </message>
+    <message>
+        <source>Total unique values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Total unique values: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Unique values:&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45351,7 +50058,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Please specify input vector layer</source>
-        <translation type="unfinished">لطفا  لایه برداری را معین کنید</translation>
+        <translation>لطفا  لایه برداری را معین کنید</translation>
     </message>
     <message>
         <source>Please specify input field</source>
@@ -45359,7 +50066,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation type="unfinished">لطفا فایل خروجی را معین کنید</translation>
+        <translation>لطفا فایل خروجی را معین کنید</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -45367,12 +50074,13 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished">هندسی</translation>
+        <translation>هندسی</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>خطای در بارگذاری فایل ترسیمی خروجی: 
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -45390,6 +50098,52 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>VariableDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Distance field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>بخش</translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
+        <translation>نتیجه تلاقی</translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>بافر</translation>
+    </message>
+</context>
+<context>
+    <name>VectorGrid</name>
+    <message>
+        <source>Grid extent</source>
+        <translation>اندازه صفحه شطرنجی</translation>
+    </message>
+    <message>
+        <source>X spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid</source>
+        <translation>جدول</translation>
+    </message>
+</context>
+<context>
     <name>VectorLayerBoundsAlgorithm</name>
     <message>
         <source>Vector layer bounds</source>
@@ -45397,11 +50151,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Modeler-only tools</source>
-        <translation type="unfinished"></translation>
+        <translation>مدل تنها ابزار</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">لایه</translation>
+        <translation>لایه</translation>
     </message>
     <message>
         <source>min X</source>
@@ -45421,18 +50175,71 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Extent</source>
-        <translation type="unfinished">حوزه</translation>
+        <translation>حوزه</translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerScatterplot</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>X attribute</source>
+        <translation>مشخصه X</translation>
+    </message>
+    <message>
+        <source>Y attribute</source>
+        <translation>مشخصه Y</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>VectorSplit</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>مشخصه فیلد یکتا</translation>
+    </message>
+    <message>
+        <source>Output directory</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>VisualDialog</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished">خطا!</translation>
+        <translation>خطا!</translation>
     </message>
     <message>
         <source>Please specify input vector layer</source>
-        <translation type="unfinished">لطفا  لایه برداری را معین کنید</translation>
+        <translation>لطفا  لایه برداری را معین کنید</translation>
     </message>
     <message>
         <source>Please specify input field</source>
@@ -45444,7 +50251,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Unique values</source>
-        <translation type="unfinished"></translation>
+        <translation>مقادير يکتا</translation>
     </message>
     <message>
         <source>Total unique values</source>
@@ -45468,7 +50275,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">لغو</translation>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>Parameter</source>
@@ -45477,6 +50284,25 @@ Problem with line %d</source>
     <message>
         <source>Value</source>
         <translation>مقدار</translation>
+    </message>
+</context>
+<context>
+    <name>VoronoiPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Buffer region</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Voronoi polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45494,15 +50320,15 @@ Problem with line %d</source>
     <name>WidgetEllipseBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Border</source>
@@ -45510,7 +50336,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -45518,11 +50344,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -45530,7 +50356,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Outline style</source>
@@ -45542,19 +50368,15 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Anchor point</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <translation>افست X,Y</translation>
     </message>
     <message>
         <source>Symbol width</source>
@@ -45564,20 +50386,28 @@ Problem with line %d</source>
         <source>Symbol height</source>
         <translation type="unfinished"></translation>
     </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
 </context>
 <context>
     <name>WidgetFontMarker</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <translation>افست X,Y</translation>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Anchor point</source>
@@ -45585,7 +50415,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -45593,11 +50423,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -45605,22 +50435,22 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">رنگ</translation>
+        <translation>رنگ</translation>
     </message>
     <message>
         <source>Font family</source>
-        <translation type="unfinished"></translation>
+        <translation>قلم</translation>
     </message>
     <message utf8="true">
-        <source>°</source>
+        <source> °</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45628,7 +50458,7 @@ Problem with line %d</source>
     <name>WidgetGradientFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Two color</source>
@@ -45640,7 +50470,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Gradient type</source>
@@ -45692,15 +50522,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>x</source>
-        <translation type="unfinished">x</translation>
+        <translation>x</translation>
     </message>
     <message>
         <source>y</source>
-        <translation type="unfinished">y</translation>
-    </message>
-    <message>
-        <source>Feature centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Reference Point 2</source>
@@ -45708,19 +50534,23 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
+        <translation>زاویه</translation>
     </message>
     <message utf8="true">
         <source> °</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <source>Offset X,Y</source>
+        <translation>افست X,Y</translation>
     </message>
     <message>
-        <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Centroid</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45734,16 +50564,20 @@ Problem with line %d</source>
         <translation>زاویه</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Distance</source>
         <translation>فاصله</translation>
     </message>
     <message>
         <source>Offset</source>
         <translation>افست</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45785,12 +50619,12 @@ Problem with line %d</source>
         <translation>انحراف خط</translation>
     </message>
     <message>
-        <source>Data defined properties</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>on central point</source>
         <translation>در نقطه مرکزی</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45808,10 +50642,6 @@ Problem with line %d</source>
         <translation>جابجایی عمودی</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Horizontal displacement</source>
         <translation>جابجایی افقی</translation>
     </message>
@@ -45819,20 +50649,75 @@ Problem with line %d</source>
         <source>Horizontal distance</source>
         <translation>فاصله افقی</translation>
     </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+</context>
+<context>
+    <name>WidgetRasterFill</name>
+    <message>
+        <source>Form</source>
+        <translation>فرم</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Image width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Coord mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Viewport</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rotation</source>
+        <translation>زاویه</translation>
+    </message>
+    <message>
+        <source>Original</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%</source>
+        <translation>%</translation>
+    </message>
+    <message>
+        <source>Opacity</source>
+        <translation>تاری</translation>
+    </message>
+    <message>
+        <source>Offset X,Y</source>
+        <translation>افست X,Y</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WidgetSVGFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
+        <translation>عرض حاشیه</translation>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Texture width</source>
@@ -45840,18 +50725,14 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Border</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -45864,14 +50745,18 @@ Problem with line %d</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WidgetShapeburstFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Gradient colors</source>
@@ -45887,7 +50772,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">ویرایش</translation>
+        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Shading style</source>
@@ -45911,11 +50796,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <translation>افست X,Y</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45938,7 +50823,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Border style</source>
@@ -45946,19 +50831,19 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">اتصال سبک ها</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>اتصال سبک ها</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Border</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46000,16 +50885,12 @@ Problem with line %d</source>
         <translation>استفاده از الگوی سفارشی فاصله</translation>
     </message>
     <message>
-        <source>Dash pattern unit</source>
-        <translation>واحد الگوی خط تیره</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Draw line only inside polygon</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46024,7 +50905,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Border</source>
@@ -46044,7 +50925,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46052,11 +50933,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46064,15 +50945,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Angle</source>
@@ -46086,20 +50963,24 @@ Problem with line %d</source>
         <source>Offset X,Y</source>
         <translation>افست X,Y</translation>
     </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
 </context>
 <context>
     <name>WidgetSvgMarker</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">رنگ ها</translation>
+        <translation>رنگ ها</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">پر کردن</translation>
+        <translation>پر کردن</translation>
     </message>
     <message>
         <source>Border</source>
@@ -46107,7 +50988,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Offset X,Y</source>
-        <translation type="unfinished">افست X,Y</translation>
+        <translation>افست X,Y</translation>
     </message>
     <message>
         <source>Anchor point</source>
@@ -46115,7 +50996,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">چپ</translation>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46123,11 +51004,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">راست</translation>
+        <translation>راست</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">بالا</translation>
+        <translation>بالا</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46135,23 +51016,19 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">پایین</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">عرض حاشیه</translation>
+        <translation>عرض حاشیه</translation>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">زاویه</translation>
+        <translation>زاویه</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">اندازه</translation>
+        <translation>اندازه</translation>
     </message>
     <message>
         <source>SVG Groups</source>
@@ -46163,14 +51040,18 @@ Problem with line %d</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WidgetSvgSelector</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>SVG Images</source>
@@ -46182,7 +51063,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Generated path will be relative to current SVG search directories or to Project file</source>
@@ -46197,11 +51078,11 @@ Problem with line %d</source>
     <name>WidgetVectorFieldBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <translation>فرم</translation>
     </message>
     <message>
         <source>Y attribute</source>
-        <translation type="unfinished">مشخصه Y</translation>
+        <translation>مشخصه Y</translation>
     </message>
     <message>
         <source>Scale</source>
@@ -46209,7 +51090,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>X attribute</source>
-        <translation type="unfinished">مشخصه X</translation>
+        <translation>مشخصه X</translation>
     </message>
     <message>
         <source>Vector field type</source>
@@ -46233,11 +51114,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Degrees</source>
-        <translation type="unfinished">درجه</translation>
+        <translation>درجه</translation>
     </message>
     <message>
         <source>Radians</source>
-        <translation type="unfinished">رادیان</translation>
+        <translation>رادیان</translation>
     </message>
     <message>
         <source>Angle orientation</source>
@@ -46253,7 +51134,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Distance unit</source>
-        <translation type="unfinished">واحد فاصله</translation>
+        <translation>واحد فاصله</translation>
     </message>
 </context>
 <context>
@@ -46272,6 +51153,33 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>ZonalStatistics</name>
+    <message>
+        <source>Raster layer</source>
+        <translation>لایه رستر</translation>
+    </message>
+    <message>
+        <source>Raster band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer containing zones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output column prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load whole raster in memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
     <name>[pluginname]GuiBase</name>
     <message>
         <source>QGIS Plugin Template</source>
@@ -46280,6 +51188,132 @@ Problem with line %d</source>
     <message>
         <source>Plugin Template</source>
         <translation>قالب پلاگین</translation>
+    </message>
+</context>
+<context>
+    <name>aspect</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return trigonometric angle (instead of azimuth)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return 0 for flat (instead of -9999)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2demPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2isoPro</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>buildvrt</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resolution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow projection difference</source>
+        <translation>صدور مجوز برای وجود تفاوت در طرح</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
@@ -46376,7 +51410,7 @@ Run topology check again.</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>ناتمام</translation>
     </message>
 </context>
 <context>
@@ -47841,6 +52875,20 @@ Click on one of the icons along the top of the composer window to select what ty
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
+There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
+&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
+To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
+A single right mouse click stops the measuring.
+&lt;h4&gt;Measuring Areas&lt;/h4&gt;
+To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
+A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
+&lt;h4&gt;Measuring Angles&lt;/h4&gt;
+To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;Attribute table&lt;/h3&gt;
 The attribute table displays features of a selected layer. Each row in the table represents one map feature with its attributes shown in several columns. The features in the table can be searched, selected, moved or even edited.  By default the attribute table is a separate window. If you opened it and cannot see it anymore, it is most likely hidden under the main QGIS window. You can make it also a docked window, by checking &lt;label&gt;Open attribute table in a dock window&lt;/label&gt; in &lt;label&gt;Settings &gt; Options &gt; Data Sources&lt;/label&gt;.&lt;p&gt;
 
@@ -47898,23 +52946,32 @@ The vector layer needs to be in editing mode, before you can click on the &lt;la
 &lt;a name=&quot;FieldCalcBar&quot;&gt;
 &lt;h4&gt;Field Calculator Bar&lt;/h4&gt;
 &lt;/a&gt;
-When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows to quickly edit values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
+When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows quick editing values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
 To edit values, select the field to modify with the filter button on the left and fill the text box with the new value or an expression to calculate new value. Then, press &lt;label&gt;Update all&lt;/label&gt; button to update all the rows of the attribute table or &lt;label&gt;Update selected&lt;/label&gt; button if some features are selected or a filter is applied on the attribute table display. You can also use the &lt;label&gt;Expression builder&lt;/label&gt; button to calculate the new value in the column.&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>contour</name>
     <message>
-        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
-There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
-&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
-To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
-A single right mouse click stops the measuring.
-&lt;h4&gt;Measuring Areas&lt;/h4&gt;
-To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
-A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
-&lt;h4&gt;Measuring Angles&lt;/h4&gt;
-To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
-</source>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Interval between contour lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute name (if not set, no elevation attribute is attached)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation>ایجاد پارامترهای میانبر</translation>
+    </message>
+    <message>
+        <source>Output file for contour lines (vector)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -47945,11 +53002,11 @@ To measure angles, select the tool and click on three points to create an angle 
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished"></translation>
+        <translation>فایل خروجی</translation>
     </message>
     <message>
         <source>Export text labels</source>
@@ -47965,15 +53022,15 @@ To measure angles, select the tool and click on three points to create an angle 
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished">چند ضلعی</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">نقطه</translation>
+        <translation>نقطه</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>Please specify a file to convert.</source>
@@ -48045,7 +53102,7 @@ For support send a mail to scala@itc.cnr.it
     <name>eVisDatabaseConnectionGui</name>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>تعریف نشده</translation>
     </message>
     <message>
         <source>No predefined queries loaded</source>
@@ -48163,7 +53220,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">کاربری</translation>
+        <translation>کاربری</translation>
     </message>
     <message>
         <source>Enter the port through which the database must be accessed if a MYSQL database is used.</source>
@@ -48175,7 +53232,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished">متصل شدن</translation>
+        <translation>متصل شدن</translation>
     </message>
     <message>
         <source>User name to access the database.</source>
@@ -48191,7 +53248,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">کلمه عبور</translation>
+        <translation>کلمه عبور</translation>
     </message>
     <message>
         <source>Database Type</source>
@@ -48199,7 +53256,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">درگاه</translation>
+        <translation>درگاه</translation>
     </message>
     <message>
         <source>SQL Query</source>
@@ -48246,11 +53303,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Y Coordinate</source>
-        <translation type="unfinished">مختصاتY</translation>
+        <translation>مختصاتY</translation>
     </message>
     <message>
         <source>X Coordinate</source>
-        <translation type="unfinished">مختصاتX</translation>
+        <translation>مختصاتX</translation>
     </message>
     <message>
         <source>Name of New Layer</source>
@@ -48273,7 +53330,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">هشدار</translation>
+        <translation>هشدار</translation>
     </message>
     <message>
         <source>This tool only supports vector data</source>
@@ -48285,7 +53342,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">خطا</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <source>Unable to connect to either the map canvas or application interface</source>
@@ -48320,7 +53377,7 @@ p, li { white-space: pre-wrap; }
     <name>eVisGenericEventBrowserGuiBase</name>
     <message>
         <source>Display</source>
-        <translation type="unfinished">نمایش</translation>
+        <translation>نمایش</translation>
     </message>
     <message>
         <source>Use the Previous button to display the previous photo when more than one photo is available for display.</source>
@@ -48344,7 +53401,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Image display area</source>
@@ -48356,7 +53413,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>گزينه ها</translation>
     </message>
     <message>
         <source>File path</source>
@@ -48396,7 +53453,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">بارگزاری مجدد</translation>
+        <translation>بارگزاری مجدد</translation>
     </message>
     <message>
         <source>Compass bearing</source>
@@ -48432,7 +53489,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished">دستی</translation>
+        <translation>دستی</translation>
     </message>
     <message>
         <source>A value to be added to the compass bearing. This allows you to compensate for declination (adjust bearings collected using magnetic bearings to true north bearings). East declinations should be entered using positive values and west declinations should use negative values. </source>
@@ -48529,7 +53586,7 @@ Base Path (i.e. keep only filename from attribute)</source>
     </message>
     <message>
         <source>Application</source>
-        <translation type="unfinished">برنامه کاربردی</translation>
+        <translation>برنامه کاربردی</translation>
     </message>
     <message>
         <source>Add new file type</source>
@@ -48579,7 +53636,7 @@ Base Path (i.e. keep only filename from attribute)</source>
     <name>fTools</name>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>ورژن Quantum GIS شناسایی شد:</translation>
     </message>
     <message>
         <source>This version of fTools requires at least QGIS version 1.0.0
@@ -48768,6 +53825,98 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>&amp;Data Management Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fillnodata</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Search distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smooth iterations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Band to operate on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not use default validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToCHM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToDTMandDSM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToSingleCHMpitFree</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -51131,6 +56280,112 @@ Convert a string into Qt data time type.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
+Returns tangent of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
+In atlas generation, returns the current feature number that is iterated over on the coverage layer.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+None
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
+Returns the value of the natural logarithm of the passed expression.
+&lt;br&gt;
+This function takes one argument.
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;geometry function&lt;/h3&gt;
+Returns the feature&apos;s geometry
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;geometry( f )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+f &amp;rarr; QgsFeature
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; POINT(6 50)&lt;/pre&gt;
+&lt;pre&gt; intersects( $geometry, geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; 1&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;transform function&lt;/h3&gt;
+Returns the geometry transformed from the source CRS to the dest CRS.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;transform( geom, sAuthId, dAuthId )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+geom &amp;rarr; QgsGeometry
+
+sCrsId &amp;rarr; the Source Auth CRS Id
+
+dCrsId &amp;rarr; the Dest Auth CRS Id
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( transform( $geometry, &apos;EPSG:2154&apos;, &apos;EPSG:4326&apos; ) ) &amp;rarr; POINT(0 51)&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;format_date() function&lt;/h3&gt;
 Format a date type or string into a custom string format. Uses Qt data time format strings.  See &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
 
@@ -51304,87 +56559,58 @@ Format a date type or string into a custom string format. Uses Qt data time form
 
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
-&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.MM.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>gdal2xyz</name>
     <message>
-        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
-Returns tangent of an angle.
-
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
-</source>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>gdaladdo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Overview levels</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
-In atlas generation, returns the current feature number that is iterated over on the coverage layer.
-
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;pre&gt;$feature&lt;/pre&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-None
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
-
-</source>
+        <source>Remove all existing overviews</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
-Returns the value of the natural logarithm of the passed expression.
-&lt;br&gt;
-This function takes one argument.
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;code&gt;value&lt;/code&gt; - any positive number.
-&lt;br&gt;
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
-</source>
+        <source>Resampling method</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
-Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
-&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
-&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
-&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
-</source>
+        <source>Overview format</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
     </message>
 </context>
 <context>
     <name>geometryThread</name>
     <message>
         <source>Merge all</source>
-        <translation type="unfinished">ادغام کردن همه</translation>
+        <translation>ادغام کردن همه</translation>
     </message>
     <message>
         <source>Polygon area</source>
@@ -52563,7 +57789,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Metadata support</source>
-        <translation type="unfinished"></translation>
+        <translation>متاداده</translation>
     </message>
     <message>
         <source>Minimum size for each basin (number of cells)</source>
@@ -52607,7 +57833,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Others</source>
-        <translation type="unfinished"></translation>
+        <translation>دیگران</translation>
     </message>
     <message>
         <source>Output GML file</source>
@@ -52687,7 +57913,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">رستر</translation>
+        <translation>رستر</translation>
     </message>
     <message>
         <source>Raster buffer</source>
@@ -53095,7 +58321,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Vector</source>
-        <translation type="unfinished">وکتور</translation>
+        <translation>وکتور</translation>
     </message>
     <message>
         <source>Vector buffer</source>
@@ -53167,6 +58393,1098 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
+    <name>hillshade</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z factor (vertical exaggeration)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Azimuth of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Altitude of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileGroundClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileNormalize</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>information</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Suppress GCP info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suppress metadata info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2demPro</name>
+    <message>
+        <source>attribute (what to interpolate)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>product (how to output per pixel)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2shp</name>
+    <message>
+        <source>use PointZ instead of MultiPointZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>number of points per record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txt</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txtPro</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundary</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundaryPro</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopy</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopyPro</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasclip</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascolor</name>
+    <message>
+        <source>Input ortho</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascontrol</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicate</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates to LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicatePro</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgrid</name>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgridPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasground</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgroundPro</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheight</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheightPro</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindex</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindexPro</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfo</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfoPro</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasmerge</name>
+    <message>
+        <source>2nd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3rd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>7th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoise</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoisePro</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverage</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoveragePro</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlap</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlapPro</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasprecision</name>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasquery</name>
+    <message>
+        <source>area of interest</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassort</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassortPro</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassplit</name>
+    <message>
+        <source>number of digits for file names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>how to split</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interval or number</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthin</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthinPro</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastile</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>make tiling reversible (advanced, usually not needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastilePro</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>more than 2000 tiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using sydney.laz creates sydney_274000_4714000.laz)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidate</name>
+    <message>
+        <source>save report to &apos;*_LVS.xml&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidatePro</name>
+    <message>
+        <source>generate one &apos;*_LVS.xml&apos; report per file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasview</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasviewPro</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszip</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszipPro</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>merge</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grab pseudocolor table from first layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>nearblack</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>How far from black (white)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for nearly white pixels instead of nearly black</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>nviz</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>nviz7</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>optionsDialog</name>
     <message>
         <source>Warning!</source>
@@ -53205,6 +59523,172 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
+    <name>pct2rgb</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band to convert</source>
+        <translation>تبدیل به باند</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>polygonize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Output field name</source>
+        <translation>نام فیلد خروجی</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>proximity</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation>مقادير</translation>
+    </message>
+    <message>
+        <source>Distance units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max distance (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed buf value (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>rasterize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Attribute field</source>
+        <translation>فیلد ویژگی</translation>
+    </message>
+    <message>
+        <source>Write values inside an existing raster layer(*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set output raster size (ignored if above option is checked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal</source>
+        <translation>افقی</translation>
+    </message>
+    <message>
+        <source>Vertical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer: mandatory to choose an existing raster layer if the (*) option is selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>rgb2pct</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Number of colors</source>
+        <translation>تعداد رنگها</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>roughness</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
     <name>rulesDialog</name>
     <message>
         <source>Topology Rule Settings</source>
@@ -53220,7 +59704,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Rule</source>
-        <translation type="unfinished">قانون</translation>
+        <translation>قانون</translation>
     </message>
     <message>
         <source>Layer #1</source>
@@ -53232,7 +59716,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Tolerance</source>
-        <translation type="unfinished">دامنه تغییرات</translation>
+        <translation>دامنه تغییرات</translation>
     </message>
     <message>
         <source>Layer1ID</source>
@@ -53244,11 +59728,84 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>No layer</source>
-        <translation type="unfinished">لایه ای نیست</translation>
+        <translation>لایه ای نیست</translation>
     </message>
     <message>
         <source>Delete Rule</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test</source>
+        <translation>آزمودن</translation>
+    </message>
+    <message>
+        <source>No tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>shp2las</name>
+    <message>
+        <source>Input SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>sieve</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixel connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+</context>
+<context>
+    <name>slope</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope expressed as percent (instead of degrees)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
     </message>
 </context>
 <context>
@@ -53327,6 +59884,245 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Second layer not found in registry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have invalid geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>segments must have minimum length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have dangles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have pseudos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have gaps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have multi-part geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>features must not be closer than tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by endpoints of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>end points must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be inside</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must contain</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tpi</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>translate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Set the size of the output file (In pixels or %)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output size is a percentage of input size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output projection for output file [leave blank to use input projection]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subset based on georeferenced coordinates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy all subdatasets of this file to individual output files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation>ایجاد پارامترهای میانبر</translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tri</name>
+    <message>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation>شماره باند</translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>فایل خروجی</translation>
+    </message>
+</context>
+<context>
+    <name>txt2las</name>
+    <message>
+        <source>Input ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>txt2lasPro</name>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -53410,29 +60206,70 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
-    <name>widgetNumberInput</name>
+    <name>warp</name>
     <message>
-        <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <source>Input layer</source>
+        <translation>انتخاب لایه</translation>
     </message>
     <message>
-        <source>Open number input dialog</source>
+        <source>Source SRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-</context>
-<context>
-    <name>widgetOutputSelect</name>
-    <message>
-        <source>Form</source>
-        <translation type="unfinished">فرم</translation>
+        <source>Destination SRS</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Output file resolution in target georeferenced units (leave 0 for no change)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resampling method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation>ایجاد پارامترهای میانبر</translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>خروجی لایه</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

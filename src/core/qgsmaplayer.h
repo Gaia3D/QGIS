@@ -19,23 +19,24 @@
 #define QGSMAPLAYER_H
 
 #include <QDateTime>
+#include <QDomNode>
+#include <QImage>
 #include <QObject>
+#include <QPainter>
 #include <QUndoStack>
 #include <QVariant>
-#include <QImage>
-#include <QDomNode>
-#include <QPainter>
 
 #include "qgis.h"
 #include "qgserror.h"
-#include "qgsrectangle.h"
 #include "qgsmaprenderer.h"
 #include "qgsobjectcustomproperties.h"
+#include "qgsrectangle.h"
 
 class QgsRenderContext;
 class QgsCoordinateReferenceSystem;
 class QgsMapLayerLegend;
 class QgsMapLayerRenderer;
+class QgsMapLayerStyleManager;
 
 class QDomDocument;
 class QKeyEvent;
@@ -226,7 +227,7 @@ class CORE_EXPORT QgsMapLayer : public QObject
     /** Creates a new layer from a layer defininition document
     */
     static QList<QgsMapLayer*> fromLayerDefinition( QDomDocument& document );
-    static QList<QgsMapLayer*> fromLayerDefinitionFile( const QString qlrfile );
+    static QList<QgsMapLayer*> fromLayerDefinitionFile( const QString &qlrfile );
 
     /** Set a custom property for layer. Properties are stored in a map and saved in project file. */
     void setCustomProperty( const QString& key, const QVariant& value );
@@ -294,7 +295,16 @@ class CORE_EXPORT QgsMapLayer : public QObject
 
     virtual bool loadNamedStyleFromDb( const QString &db, const QString &theURI, QString &qml );
 
-    //TODO edit infos
+    /**
+     * Import the properties of this layer from a QDomDocument
+     * @param doc source QDomDocument
+     * @param errorMsg this QString will be initialized on error
+     * during the execution of readSymbology
+     * @return true on success
+     * @note added in 2.8
+     */
+    virtual bool importNamedStyle( QDomDocument& doc, QString &errorMsg );
+
     /**
      * Export the properties of this layer as named style in a QDomDocument
      * @param doc the target QDomDocument
@@ -387,22 +397,73 @@ class CORE_EXPORT QgsMapLayer : public QObject
      */
     QgsMapLayerLegend* legend() const;
 
+    /**
+     * Get access to the layer's style manager. Style manager allows switching between multiple styles.
+     * @note added in 2.8
+     */
+    QgsMapLayerStyleManager* styleManager() const;
+
+    /**Returns the minimum scale denominator at which the layer is visible.
+     * Scale based visibility is only used if hasScaleBasedVisibility is true.
+     * @returns minimum scale denominator at which the layer will render
+     * @see setMinimumScale
+     * @see maximumScale
+     * @see hasScaleBasedVisibility
+     */
+    float minimumScale() const;
+
+    /**Returns the maximum scale denominator at which the layer is visible.
+     * Scale based visibility is only used if hasScaleBasedVisibility is true.
+     * @returns minimum scale denominator at which the layer will render
+     * @see setMaximumScale
+     * @see minimumScale
+     * @see hasScaleBasedVisibility
+     */
+    float maximumScale() const;
+
+    /**Returns whether scale based visibility is enabled for the layer.
+     * @returns true if scale based visibility is enabled
+     * @see minimumScale
+     * @see maximumScale
+     * @see setScaleBasedVisibility
+    */
+    bool hasScaleBasedVisibility() const;
+
   public slots:
 
     /** Event handler for when a coordinate transform fails due to bad vertex error */
     virtual void invalidTransformInput();
 
-    /** Accessor and mutator for the minimum scale denominator member */
-    void setMinimumScale( float theMinScale );
-    float minimumScale() const;
+    /**Sets the minimum scale denominator at which the layer will be visible.
+     * Scale based visibility is only used if setScaleBasedVisibility is set to true.
+     * @param theMinScale minimum scale denominator at which the layer should render
+     * @see minimumScale
+     * @see setMaximumScale
+     * @see setScaleBasedVisibility
+     */
+    void setMinimumScale( const float theMinScale );
 
-    /** Accessor and mutator for the maximum scale denominator member */
-    void setMaximumScale( float theMaxScale );
-    float maximumScale() const;
+    /**Sets the maximum scale denominator at which the layer will be visible.
+     * Scale based visibility is only used if setScaleBasedVisibility is set to true.
+     * @param theMaxScale maximum scale denominator at which the layer should render
+     * @see maximumScale
+     * @see setMinimumScale
+     * @see setScaleBasedVisibility
+     */
+    void setMaximumScale( const float theMaxScale );
 
-    /** Accessor and mutator for the scale based visilibility flag */
-    void toggleScaleBasedVisibility( bool theVisibilityFlag );
-    bool hasScaleBasedVisibility() const;
+    /**Sets whether scale based visibility is enabled for the layer.
+     * @param enabled set to true to enable scale based visibility
+     * @see setMinimumScale
+     * @see setMaximumScale
+     * @see scaleBasedVisibility
+     */
+    void setScaleBasedVisibility( const bool enabled );
+
+    /**Accessor for the scale based visilibility flag
+     * @deprecated use setScaleBasedVisibility instead
+    */
+    Q_DECL_DEPRECATED void toggleScaleBasedVisibility( bool theVisibilityFlag );
 
     /** Clear cached image
      *  @deprecated in 2.4 - use triggerRepaint() - caches automatically listen to repaintRequested() signal to invalidate the cached image */
@@ -488,8 +549,15 @@ class CORE_EXPORT QgsMapLayer : public QObject
     /** Write custom properties to project file. */
     void writeCustomProperties( QDomNode & layerNode, QDomDocument & doc ) const;
 
+    /** Read style manager's configuration (if any). To be called by subclasses. */
+    void readStyleManager( const QDomNode& layerNode );
+    /** Write style manager's configuration (if exists). To be called by subclasses. */
+    void writeStyleManager( QDomNode& layerNode, QDomDocument& doc ) const;
+
+#if 0
     /** debugging member - invoked when a connect() is made to this object */
-    void connectNotify( const char * signal );
+    void connectNotify( const char * signal ) override;
+#endif
 
     /** Add error message */
     void appendError( const QgsErrorMessage & theMessage ) { mError.append( theMessage );}
@@ -576,6 +644,9 @@ class CORE_EXPORT QgsMapLayer : public QObject
 
     //! Controller of legend items of this layer
     QgsMapLayerLegend* mLegend;
+
+    //! Manager of multiple styles available for a layer (may be null)
+    QgsMapLayerStyleManager* mStyleManager;
 };
 
 #endif

@@ -62,7 +62,7 @@ QgsGrassNewMapset::QgsGrassNewMapset( QgisInterface *iface,
   QgsDebugMsg( "QgsGrassNewMapset()" );
 
   setupUi( this );
-#ifdef Q_WS_MAC
+#ifdef Q_OS_MAC
   setWizardStyle( QWizard::ClassicStyle );
 #endif
 
@@ -1263,7 +1263,8 @@ void QgsGrassNewMapset::createMapset()
 
     // TODO: add QgsGrass::setLocation or G_make_location with
     //       database path
-    QgsGrass::activeMode(); // because it calls private gsGrass::init()
+    QgsGrass::activeMode(); // because it calls private QgsGrass::init()
+
 #if defined(WIN32)
     G__setenv(( char * ) "GISDBASE", QgsGrass::shortPath( mDatabaseLineEdit->text() ).toUtf8().data() );
 #else

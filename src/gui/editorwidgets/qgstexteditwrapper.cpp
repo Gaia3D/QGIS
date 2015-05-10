@@ -22,7 +22,10 @@
 #include <QSettings>
 
 QgsTextEditWrapper::QgsTextEditWrapper( QgsVectorLayer* vl, int fieldIdx, QWidget* editor, QWidget* parent )
-    :  QgsEditorWidgetWrapper( vl, fieldIdx, editor, parent )
+    : QgsEditorWidgetWrapper( vl, fieldIdx, editor, parent )
+    , mTextEdit( NULL )
+    , mPlainTextEdit( NULL )
+    , mLineEdit( NULL )
 {
 }
 
@@ -55,8 +58,12 @@ QVariant QgsTextEditWrapper::value()
   if (( v.isEmpty() && ( field().type() == QVariant::Int || field().type() == QVariant::Double || field().type() == QVariant::LongLong || field().type() == QVariant::Date ) ) ||
       v == QSettings().value( "qgis/nullValue", "NULL" ).toString() )
     return QVariant( field().type() );
+
+  QVariant res( v );
+  if ( field().convertCompatible( res ) )
+    return res;
   else
-    return QVariant( v );
+    return QVariant( field().type() );
 }
 
 QWidget* QgsTextEditWrapper::createWidget( QWidget* parent )

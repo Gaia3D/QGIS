@@ -80,20 +80,27 @@ void QgsLabelPropertyDialog::init( const QString& layerId, int featureId, const 
     if ( !labelFieldName.isEmpty() )
     {
       mCurLabelField = vlayer->fieldNameIndex( labelFieldName );
-      mLabelTextLineEdit->setText( attributeValues[mCurLabelField].toString() );
-      const QgsFields& layerFields = vlayer->pendingFields();
-      switch ( layerFields[mCurLabelField].type() )
+      if ( mCurLabelField >= 0 )
       {
-        case QVariant::Double:
-          mLabelTextLineEdit->setValidator( new QDoubleValidator( this ) );
-          break;
-        case QVariant::Int:
-        case QVariant::UInt:
-        case QVariant::LongLong:
-          mLabelTextLineEdit->setValidator( new QIntValidator( this ) );
-          break;
-        default:
-          break;
+        mLabelTextLineEdit->setText( attributeValues[mCurLabelField].toString() );
+        const QgsFields& layerFields = vlayer->pendingFields();
+        switch ( layerFields[mCurLabelField].type() )
+        {
+          case QVariant::Double:
+            mLabelTextLineEdit->setValidator( new QDoubleValidator( this ) );
+            break;
+          case QVariant::Int:
+          case QVariant::UInt:
+          case QVariant::LongLong:
+            mLabelTextLineEdit->setValidator( new QIntValidator( this ) );
+            break;
+          default:
+            break;
+        }
+      }
+      else
+      {
+        mLabelTextLineEdit->setEnabled( false );
       }
     }
   }
@@ -104,7 +111,8 @@ void QgsLabelPropertyDialog::init( const QString& layerId, int featureId, const 
   updateFont( mLabelFont, false );
 
   //set all the gui elements to the default layer-level values
-  mBufferColorButton->setColor( layerSettings.textColor );
+  mFontColorButton->setColor( layerSettings.textColor );
+  mBufferColorButton->setColor( layerSettings.bufferColor );
   mLabelDistanceSpinBox->setValue( layerSettings.dist );
   mBufferSizeSpinBox->setValue( layerSettings.bufferSize );
   mMinScaleSpinBox->setValue( layerSettings.scaleMin );
@@ -261,8 +269,19 @@ void QgsLabelPropertyDialog::init( const QString& layerId, int featureId, const 
         mFontItalicBtn->setEnabled( true );
         break;
       case QgsPalLayerSettings::Size:
+      {
         mFontSizeSpinBox->setEnabled( true );
+        double size = mCurLabelFeat.attribute( ddIndx ).toDouble( &ok );
+        if ( ok )
+        {
+          mFontSizeSpinBox->setValue( size );
+        }
+        else
+        {
+          mFontSizeSpinBox->setValue( 0 );
+        }
         break;
+      }
       default:
         break;
     }
@@ -328,13 +347,13 @@ void QgsLabelPropertyDialog::updateFont( const QFont& font, bool block )
 
   if ( block )
     blockElementSignals( true );
+
   mFontFamilyCmbBx->setCurrentFont( mLabelFont );
   populateFontStyleComboBox();
   mFontUnderlineBtn->setChecked( mLabelFont.underline() );
   mFontStrikethroughBtn->setChecked( mLabelFont.strikeOut() );
   mFontBoldBtn->setChecked( mLabelFont.bold() );
   mFontItalicBtn->setChecked( mLabelFont.italic() );
-  mFontSizeSpinBox->setValue( mLabelFont.pointSizeF() );
   if ( block )
     blockElementSignals( false );
 }
@@ -451,12 +470,18 @@ void QgsLabelPropertyDialog::on_mFontItalicBtn_toggled( bool ckd )
 
 void QgsLabelPropertyDialog::on_mFontSizeSpinBox_valueChanged( double d )
 {
-  insertChangedValue( QgsPalLayerSettings::Size, d );
+  QVariant size( d );
+  if ( d <= 0 )
+  {
+    //null value so that font size is reset to default
+    size.clear();
+  }
+  insertChangedValue( QgsPalLayerSettings::Size, size );
 }
 
 void QgsLabelPropertyDialog::on_mBufferSizeSpinBox_valueChanged( double d )
 {
-  insertChangedValue( QgsPalLayerSettings::PositionX, d );
+  insertChangedValue( QgsPalLayerSettings::BufferSize, d );
 }
 
 void QgsLabelPropertyDialog::on_mRotationSpinBox_valueChanged( double d )

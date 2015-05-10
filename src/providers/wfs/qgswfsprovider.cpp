@@ -64,7 +64,9 @@ QgsWFSProvider::QgsWFSProvider( const QString& uri )
     , mSourceCRS( 0 )
     , mFeatureCount( 0 )
     , mValid( true )
+    , mCached( false )
     , mPendingRetrieval( false )
+    , mCapabilities( 0 )
 #if 0
     , mLayer( 0 )
     , mGetRenderedOnly( false )
@@ -928,7 +930,8 @@ int QgsWFSProvider::readAttributesFromSchema( QDomDocument& schemaDoc, QString& 
     //is it a geometry attribute?
     //MH 090428: sometimes the <element> tags for geometry attributes have only attribute ref="gml:polygonProperty" and no name
     QRegExp gmlPT( "gml:(.*)PropertyType" );
-    if ( type.indexOf( gmlPT ) == 0 || name.isEmpty() )
+    // the GeometryAssociationType has been seen in #11785
+    if ( type.indexOf( gmlPT ) == 0 || type == "gml:GeometryAssociationType" || name.isEmpty() )
     {
       foundGeometryAttribute = true;
       geometryAttribute = name;
@@ -1176,8 +1179,6 @@ int QgsWFSProvider::getFeaturesFromGML2( const QDomElement& wfsCollectionElement
   QDomNode currentAttributeChild;
   QDomElement currentAttributeElement;
   QgsFeature* f = 0;
-  unsigned char* wkb = 0;
-  int wkbSize = 0;
   mFeatureCount = 0;
 
   for ( int i = 0; i < featureTypeNodeList.size(); ++i )
@@ -1216,7 +1217,7 @@ int QgsWFSProvider::getFeaturesFromGML2( const QDomElement& wfsCollectionElement
       }
       currentAttributeChild = currentAttributeChild.nextSibling();
     }
-    if ( wkb && wkbSize > 0 )
+    if ( f->geometry() )
     {
       //insert bbox and pointer to feature into search tree
       mSpatialIndex->insertFeature( *f );

@@ -191,12 +191,12 @@ void QgsPgNewConnection::testConnection()
                               tr( "Connection to %1 was successful" ).arg( txtDatabase->text() ) );
 
     // free pg connection resources
-    conn->disconnect();
+    conn->unref();
   }
   else
   {
     QMessageBox::information( this,
                               tr( "Test connection" ),
-                              tr( "Connection failed - Check settings and try again.\n\n" ) );
+                              tr( "Connection failed - consult message log for details.\n\n" ) );
   }
 }

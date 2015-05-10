@@ -14,38 +14,36 @@
     <message>
         <source>&lt;html&gt;&lt;body&gt;&lt;h2&gt;Algorithm description&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;h2&gt;Алгоритмын тайлбар&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;оролтын параметрүүд&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Outputs&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Гаралтууд&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Алгоритм зохиогч: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Help author: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Тусламж цэс зохиогч: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p align=&quot;right&quot;&gt;Algorithm version: %s&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uncaught error executing %s.
-See log for more information</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;right&quot;&gt;Алгоритмын хувилбар: %s&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Executing iteration %s/%s...</source>
-        <translation type="unfinished"></translation>
+        <translation>Давталтыг гүйцэтгэж байна %s/%s...</translation>
     </message>
 </context>
 <context>
@@ -56,60 +54,153 @@ See log for more information</source>
     </message>
 </context>
 <context>
+    <name>ASCII2DTM</name>
+    <message>
+        <source>Input ESRI ASCII layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z Нэгж</translation>
+    </message>
+    <message>
+        <source>Coordinate system</source>
+        <translation>Координатын систем</translation>
+    </message>
+    <message>
+        <source>Coordinate system zone (&apos;0&apos; for unknown)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AddModelFromFileAction</name>
     <message>
         <source>Add model from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар ажил дуудах</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
     </message>
     <message>
         <source>Open model</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар ажил нээх</translation>
     </message>
     <message>
         <source>Processing model files (*.model *.MODEL)</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар ажлуудыг боловсруулж байна (*.model *.MODEL)</translation>
     </message>
     <message>
         <source>Error reading model</source>
-        <translation type="unfinished"></translation>
+        <translation>Загварыг уншихад алдаа гарлаа</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid model</source>
-        <translation type="unfinished"></translation>
+        <translation>
+</translation>
     </message>
     <message>
         <source>Cannot read file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг уншиж болохгүй байна</translation>
     </message>
 </context>
 <context>
     <name>AddScriptFromFileAction</name>
     <message>
         <source>Add script from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрипт ажил нэмэх</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
     </message>
     <message>
         <source>Script files</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрипт ажлууд</translation>
     </message>
     <message>
         <source>Script files (*.py *.PY)</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрипт ажлууд (*.py *.PY)</translation>
     </message>
     <message>
         <source>Error reading script</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрипт уншихад алдаа гарлаа</translation>
     </message>
     <message>
         <source>The selected file does not contain a valid script</source>
+        <translation>Сонгосон ажил нь скрипт агуулаагүй байна</translation>
+    </message>
+</context>
+<context>
+    <name>AddTableField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>AlgorithmDialog</name>
+    <message>
+        <source>Unmatching CRS&apos;s</source>
+        <translation>CRS-ууд тохирохгүй байна</translation>
+    </message>
+    <message>
+        <source>Layers do not all use the same CRS. This can cause unexpected results.
+Do you want to continue?</source>
+        <translation>Давхаргууд нь бүгд ижил бус CRS-тэй байна. Энэ нь алдаатай үр дүнд хүргэж болзошгүй.
+Та үргэлжлүүлэх үү?</translation>
+    </message>
+    <message>
+        <source>Unable to execute algorithm</source>
+        <translation>Алгоритмийг гүйцэтгэх боломжгүй</translation>
+    </message>
+    <message>
+        <source>Processing algorithm...</source>
+        <translation>Алгоритмийг боловсруулж байна...</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Алгоритм %s эхлэж байна...&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Гээгдсэн параметрийн утга: %s&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wrong or missing parameter values</source>
+        <translation>Буруу эсвэл гээгдсэн параметрийн утгууд</translation>
+    </message>
+    <message>
+        <source>HTML output has been generated by this algorithm.
+Open the results dialog to check it.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -117,7 +208,7 @@ See log for more information</source>
     <name>AlgorithmProvider</name>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>Идэвхжүүлэх</translation>
     </message>
     <message>
         <source>Generic algorithm provider</source>
@@ -125,51 +216,137 @@ See log for more information</source>
     </message>
 </context>
 <context>
-    <name>BatchInputSelectionPanel</name>
+    <name>AutoincrementalField</name>
     <message>
-        <source>Select from open layers</source>
-        <translation type="unfinished"></translation>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
     </message>
     <message>
-        <source>Select from filesystem</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open file</source>
-        <translation type="unfinished">Ажил нээх</translation>
-    </message>
-    <message>
-        <source>All files(*.*);;</source>
-        <translation>Бүх ажил (*.*);;</translation>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
-    <name>BatchOutputSelectionPanel</name>
+    <name>BarPlot</name>
     <message>
-        <source>Save file</source>
-        <translation>Ажлыг хадгалах</translation>
+        <source>Input table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
     </message>
 </context>
 <context>
-    <name>BatchProcessingDialog</name>
+    <name>BasicStatisticsNumbers</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Вектор давхаргыг сонгох</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics for numeric field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Coefficient of Variation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>Хамгийн бага утга</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Хамгийн их утга</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>Нийт</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Тоолох</translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>Хязгаар</translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Голын утга</translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BasicStatisticsStrings</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Вектор давхаргыг сонгох</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics for text field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mean length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Тоолох</translation>
+    </message>
+    <message>
+        <source>Number of empty values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of non-empty values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of unique values</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BatchAlgorithmDialog</name>
     <message>
         <source>Batch Processing - %s</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add row</source>
-        <translation>Мөр нэмэх</translation>
-    </message>
-    <message>
-        <source>Delete row</source>
-        <translation>Мөр устгах</translation>
-    </message>
-    <message>
-        <source>Load in QGIS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -186,7 +363,7 @@ See log for more information</source>
     </message>
     <message>
         <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Алгоритм %s эхлэж байна...&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Algorithm %s correctly executed...</source>
@@ -200,6 +377,43 @@ See log for more information</source>
         <source>Batch processing successfully completed!</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>BatchInputSelectionPanel</name>
+    <message>
+        <source>Select from open layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select from filesystem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>Ажил нээх</translation>
+    </message>
+    <message>
+        <source>All files(*.*);;</source>
+        <translation>Бүх ажил (*.*);;</translation>
+    </message>
+</context>
+<context>
+    <name>BatchOutputSelectionPanel</name>
+    <message>
+        <source>Save file</source>
+        <translation>Ажлыг хадгалах</translation>
+    </message>
+    <message>
+        <source>Select directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BatchPanel</name>
+    <message>
+        <source>Load in QGIS</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Yes</source>
         <translation>Тийм</translation>
@@ -207,10 +421,6 @@ See log for more information</source>
     <message>
         <source>No</source>
         <translation>Үгүй</translation>
-    </message>
-    <message>
-        <source>Hide advanced parameters</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -258,10 +468,330 @@ See log for more information</source>
     </message>
 </context>
 <context>
+    <name>CanopyMaxima</name>
+    <message>
+        <source>Input FUSION canopy height model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground .dtm layer [optional]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Variable window size: parameter A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Parameter C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary (tree height summary statistics)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file with maxima</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CanopyModel</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z Нэгж</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Голын утга</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>Налуу</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Catalog</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Density - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Intensity - area, min, max (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Centroids</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Error calculating centroid</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CharacterWidget</name>
     <message>
         <source>&lt;p&gt;Character: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Value: 0x%3</source>
         <translation>&lt;p&gt;Тэмдэгт: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Утга: 0x%3</translation>
+    </message>
+</context>
+<context>
+    <name>Clip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clipped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GEOS geoprocessing error: One or more input features have invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Clipping extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipByMask</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create and output alpha band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep resolution of output raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ClipData</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape</source>
+        <translation>Хэлбэр</translation>
+    </message>
+    <message>
+        <source>Output clipped las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CloudMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file with tabular metric information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Above</source>
+        <translation>Дээд</translation>
+    </message>
+    <message>
+        <source>First Impulse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ColorRelief</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color configuration file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Matching mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>CommanderWindow</name>
+    <message>
+        <source>Missing dependency</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ConcaveHull</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Цэгэн давхаргыг заах</translation>
+    </message>
+    <message>
+        <source>Threshold (0-1, where 1 is equivalent with Convex Hull)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split multipart geometry into singleparts geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Concave hull</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Computing edges max length...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing features...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dissolving Delaunay triangles...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saving data...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -280,7 +810,7 @@ See log for more information</source>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">Ерөнхий</translation>
+        <translation>Ерөнхий</translation>
     </message>
     <message>
         <source>Models</source>
@@ -303,6 +833,29 @@ See log for more information</source>
 %1</source>
         <translation>Буруу параметр утга:
 %1</translation>
+    </message>
+</context>
+<context>
+    <name>ConvexHull</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Field (optional, only used if creating convex hulls by classes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Convex hull</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exception while computing convex hull</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -349,32 +902,82 @@ See log for more information</source>
     </message>
 </context>
 <context>
-    <name>CouldNotLoadResultsDialog</name>
+    <name>Cover</name>
     <message>
-        <source>Problem loading output layers</source>
+        <source>Input las layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Close</source>
-        <translation type="unfinished">Хаах</translation>
+        <source>Input ground DTM layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Heightbreak</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z Нэгж</translation>
+    </message>
+    <message>
+        <source>Cover</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CreateConstantRaster</name>
+    <message>
+        <source>Reference layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Constant value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
     <name>CreateNewModelAction</name>
     <message>
         <source>Create new model</source>
-        <translation type="unfinished"></translation>
+        <translation>Шинэ загвар үүсгэх</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
     </message>
 </context>
 <context>
     <name>CreateNewScriptAction</name>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
+    </message>
+</context>
+<context>
+    <name>Csv2Grid</name>
+    <message>
+        <source>CSV Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Column</source>
+        <translation>Багана</translation>
+    </message>
+    <message>
+        <source>Raster Output file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -582,7 +1185,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Default</source>
@@ -650,10 +1253,6 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Extent:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -788,7 +1387,7 @@ Query:
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished">Сонгосон объект хасах</translation>
+        <translation>Сонгосон объект хасах</translation>
     </message>
     <message>
         <source>&amp;Create table</source>
@@ -816,7 +1415,7 @@ Query:
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished">Өгөгдлийн сан сонгогдоогүй эсвэл та холбогдоогүй байна.</translation>
+        <translation>Өгөгдлийн сан сонгогдоогүй эсвэл та холбогдоогүй байна.</translation>
     </message>
     <message>
         <source>New schema</source>
@@ -864,7 +1463,7 @@ Query:
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished">Оронзайн Индекс</translation>
+        <translation>Оронзайн Индекс</translation>
     </message>
     <message>
         <source>Check</source>
@@ -880,7 +1479,7 @@ Query:
     </message>
     <message>
         <source>Unique</source>
-        <translation type="unfinished">Үл давтагдах</translation>
+        <translation>Үл давтагдах</translation>
     </message>
     <message>
         <source>Exclusion</source>
@@ -889,6 +1488,10 @@ Query:
     <message>
         <source>Unknown</source>
         <translation>Үлмэдэгдэх</translation>
+    </message>
+    <message>
+        <source>&lt;warning&gt; There is no entry in geometry_columns!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -930,6 +1533,17 @@ Query:
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded. Please check the &lt;a href=&quot;#messageLog&quot;&gt;message log&lt;/a&gt; for further info.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DTM2TIF</name>
+    <message>
+        <source>Input .dtm layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file name</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1068,7 +1682,7 @@ Query:
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished">Гаралтын ажил</translation>
+        <translation>Гаралтын ажил</translation>
     </message>
     <message>
         <source>...</source>
@@ -1142,11 +1756,11 @@ Query:
     </message>
     <message>
         <source>Output table</source>
-        <translation type="unfinished">Гарах хүснэгт</translation>
+        <translation>Гарах хүснэгт</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
@@ -1154,15 +1768,15 @@ Query:
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>Primary key</source>
-        <translation type="unfinished">Үндсэн түлхүүр</translation>
+        <translation>Үндсэн түлхүүр</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Source SRID</source>
@@ -1182,7 +1796,7 @@ Query:
     </message>
     <message>
         <source>Create spatial index</source>
-        <translation type="unfinished">Оронзайн Индекс Үүсгэх</translation>
+        <translation>Оронзайн Индекс Үүсгэх</translation>
     </message>
     <message>
         <source>Drop existing table</source>
@@ -1338,6 +1952,47 @@ columns</source>
     </message>
 </context>
 <context>
+    <name>Delaunay</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Delaunay triangulation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DeleteColumn</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Field to delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>DeleteDuplicateGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
     <name>DeleteModelAction</name>
     <message>
         <source>Delete model</source>
@@ -1364,6 +2019,36 @@ columns</source>
     </message>
     <message>
         <source>Are you sure you want to delete this script?</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Vertices to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DensifyGeometriesInterval</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Interval between vertices to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Densified layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1759,7 +2444,7 @@ columns</source>
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Бүгдийг сонгох</translation>
+        <translation>Бүгдийг сонгох</translation>
     </message>
     <message>
         <source>Select none</source>
@@ -1855,7 +2540,7 @@ columns</source>
     </message>
     <message>
         <source>Grid extent</source>
-        <translation type="unfinished"></translation>
+        <translation>Өргөтгөл</translation>
     </message>
     <message>
         <source>Update extents from layer</source>
@@ -2230,17 +2915,12 @@ Would you like to add the new layer to the TOC?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Created output matrix:
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Дууссан</translation>
     </message>
     <message>
         <source>Processing completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Боловсруулалт дууссан. </translation>
     </message>
     <message>
         <source>Select directory with shapefiles to merge</source>
@@ -2330,7 +3010,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Please specify an input layer</source>
@@ -2408,12 +3088,234 @@ Are you sure you want to proceed?</source>
         <source>Could not add features</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Dialog</source>
+        <translation>Харилцах цонх</translation>
+    </message>
+    <message>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Тусламж</translation>
+    </message>
+    <message>
+        <source>about:blank</source>
+        <translation>тухай:хоосон</translation>
+    </message>
+    <message>
+        <source>Include input features that intersect the selection features</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Difference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Difference</source>
+        <translation>Зөрүү</translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistDown</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Raster Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weight Path Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfDistUp</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistical Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Proportion Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Distance Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DinfTransLimAccum2</name>
+    <message>
+        <source>D-Infinity Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Supply Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Capacity Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for edge contamination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Transport Limited Accumulation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deposition Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output Concentration Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Dissolve</name>
+    <message>
+        <source>Geometry exception while dissolving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Dissolve all (do not use field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Үл давтагдах утгын талбар</translation>
+    </message>
+    <message>
+        <source>Dissolved</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DlgAddGeometryColumn</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2444,7 +3346,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Parameter to use</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметр</translation>
     </message>
 </context>
 <context>
@@ -2477,7 +3379,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
     <message>
         <source>no field selected</source>
@@ -2528,11 +3430,11 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished">Shapefile-ууд</translation>
+        <translation>ESRI Shapefile</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Output table name is required</source>
@@ -2560,7 +3462,7 @@ Are you sure you want to proceed?</source>
     <name>DlgFieldProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
@@ -2572,6 +3474,13 @@ Are you sure you want to proceed?</source>
     </message>
 </context>
 <context>
+    <name>DlgFixedTable</name>
+    <message>
+        <source>Fixed table</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DlgGetScriptsAndModels</name>
     <message>
         <source>Get scripts and models</source>
@@ -2579,7 +3488,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">тухай:хоосон</translation>
+        <translation>тухай:хоосон</translation>
     </message>
 </context>
 <context>
@@ -2590,7 +3499,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">тухай:хоосон</translation>
+        <translation>тухай:хоосон</translation>
     </message>
     <message>
         <source>Select element to edit</source>
@@ -2641,7 +3550,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Оролт амжилттай боллоо.</translation>
+        <translation>Оролт амжилттай боллоо.</translation>
     </message>
 </context>
 <context>
@@ -2652,7 +3561,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Open model</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар ажил нээх</translation>
     </message>
     <message>
         <source>...</source>
@@ -2697,6 +3606,22 @@ Are you sure you want to proceed?</source>
     <message>
         <source>Enter group name here</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+O</source>
+        <translation>Ctrl+O</translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
     </message>
 </context>
 <context>
@@ -2744,7 +3669,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">тухай:хоосон</translation>
+        <translation>тухай:хоосон</translation>
     </message>
 </context>
 <context>
@@ -2793,6 +3718,46 @@ Are you sure you want to proceed?</source>
         <source>Redo</source>
         <translation>Дахих</translation>
     </message>
+    <message>
+        <source>Open script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+O, Return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation>Ctrl+Shift+S</translation>
+    </message>
+    <message>
+        <source>F5</source>
+        <translation>F5</translation>
+    </message>
+    <message>
+        <source>Ctrl+X</source>
+        <translation>Ctrl+X</translation>
+    </message>
+    <message>
+        <source>Ctrl+C</source>
+        <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <source>Ctrl+V</source>
+        <translation>Ctrl+V</translation>
+    </message>
+    <message>
+        <source>Ctrl+Z</source>
+        <translation>Ctrl+Z</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+Z</source>
+        <translation>Ctrl+Shift+Z</translation>
+    </message>
 </context>
 <context>
     <name>DlgSqlWindow</name>
@@ -2802,7 +3767,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
     <message>
         <source>You must fill the required fields: 
@@ -2814,7 +3779,7 @@ geometry column - column with unique integer values</source>
     <name>DlgTableProperties</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
     <message>
         <source>nothing selected</source>
@@ -2865,7 +3830,7 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
@@ -2909,6 +3874,53 @@ geometry column - column with unique integer values</source>
     </message>
 </context>
 <context>
+    <name>DropAnalysis</name>
+    <message>
+        <source>D8 Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pit Filled Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accumulated Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spacing for Threshold Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>D-Infinity Drop to Stream Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>EditModelAction</name>
     <message>
         <source>Edit model</source>
@@ -2920,6 +3932,144 @@ geometry column - column with unique integer values</source>
     <message>
         <source>Edit script</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Eliminate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Use current selection in input layer (works only if called from toolbox)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comparison</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Утга</translation>
+    </message>
+    <message>
+        <source>Merge selection with the neighbouring polygon with the</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cleaned layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to integer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to unicode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with system date format %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot convert &quot;%s&quot; to date with format string &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the date and the date format, e.g. &quot;07.26.2011&quot; &quot;MM.dd.yyyy&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%s&quot; can only be used with string fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error in selection input: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s: (No selection in input layer &quot;%s&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not replace geometry of feature with id %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>EquivalentNumField</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>ExampleAlgorithm</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Explode</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>ExportGeometryInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Calculate using</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>ExtentFromLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Calculate extent for each feature separately</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
@@ -2940,6 +4090,98 @@ geometry column - column with unique integer values</source>
         <source>Use min covering extent from input layers</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Select extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use extent from</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Утга</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExtractNodes</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>ExtractProjection</name>
+    <message>
+        <source>Input file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create also .prj file</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FieldsCalculator</name>
@@ -2953,15 +4195,15 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Output field name</source>
-        <translation type="unfinished">Гаргах талбарын нэр</translation>
+        <translation>Гаргах талбарын нэр</translation>
     </message>
     <message>
         <source>Output field type</source>
-        <translation type="unfinished">Гаргах Талбарын төрөл</translation>
+        <translation>Гаргах Талбарын төрөл</translation>
     </message>
     <message>
         <source>Output field width</source>
-        <translation type="unfinished">Гаргах талбарын өргөн</translation>
+        <translation>Гаргах талбарын өргөн</translation>
     </message>
     <message>
         <source>Width of complete output. For example 123,456 means 6 as field width.</source>
@@ -2977,15 +4219,60 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Update existing field</source>
-        <translation type="unfinished">Одоогийн талбарыг шинэчлэх</translation>
+        <translation>Одоогийн талбарыг шинэчлэх</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished">Гаралтын ажил</translation>
+        <translation>Гаралтын ажил</translation>
     </message>
     <message>
         <source>...</source>
         <translation>...</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>Томьёо</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Evaluation error: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occured while evaluating the calculation string:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field name is not set. Please enter a field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output is not set. Please specify valid filename</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3000,10 +4287,90 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Unable to execute algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Алгоритмийг гүйцэтгэх боломжгүй</translation>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
+        <translation>Буруу эсвэл гээгдсэн параметрийн утгууд</translation>
+    </message>
+</context>
+<context>
+    <name>FieldsMapper</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Fields mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Parser error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Evaluation error in expression &quot;{}&quot;: {}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occurred while evaluating the calculation string:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FieldsPyculator</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Result field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field precision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Global expression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Formula</source>
+        <translation>Томьёо</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Global code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error.Field code block can&apos;t be executed!
+%s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FieldPyculator code execute error
+Field code block does not return &apos;%s1&apos; variable! Please declare this variable in your code!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3029,30 +4396,83 @@ geometry column - column with unique integer values</source>
 <context>
     <name>FileSelectionPanel</name>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-    <message>
         <source>Select folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open file</source>
-        <translation type="unfinished">Ажил нээх</translation>
+        <source>Select file</source>
+        <translation>Файлыг сонгох</translation>
+    </message>
+</context>
+<context>
+    <name>FilterData</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Standard Deviation multiplier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Window size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output filtered las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FirstLastReturn</name>
+    <message>
+        <source>Input .las</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use LAS info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FixedDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Distance</source>
+        <translation>Зай</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>Буфер</translation>
     </message>
 </context>
 <context>
     <name>FixedTableDialog</name>
     <message>
-        <source>Fixed Table</source>
+        <source>Add row</source>
+        <translation>Мөр нэмэх</translation>
+    </message>
+    <message>
+        <source>Remove row(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Add row</source>
-        <translation type="unfinished">Мөр нэмэх</translation>
-    </message>
-    <message>
-        <source>Remove row</source>
+        <source>Remove all</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3062,9 +4482,162 @@ geometry column - column with unique integer values</source>
         <source>Fixed table %dx%d</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>Форм</translation>
+    </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Toggle advanced mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add row</source>
+        <translation>Мөр нэмэх</translation>
+    </message>
+    <message>
+        <source>Remove row(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iterate over this layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open number input dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min</source>
+        <translation>ХБ</translation>
+    </message>
+    <message>
+        <source>Max</source>
+        <translation>ХИ</translation>
+    </message>
+    <message>
+        <source>Fields</source>
+        <translation>Талбар</translation>
+    </message>
+    <message>
+        <source>Add new field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete selected field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selected field up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move selected field down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset all fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields from layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields from selected layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>equals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>contains</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>touches</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>intersects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>within</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>overlaps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>crosses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FusionAlgorithm</name>
+    <message>
+        <source>Fusion folder is not configured.
+Please configure it before running Fusion algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FusionUtils</name>
+    <message>
+        <source>Fusion execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GdalOgrAlgorithmProvider</name>
+    <message>
+        <source>GDAL/OGR</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3191,7 +4764,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
     <message>
         <source>Build Overviews (Pyramids)...</source>
@@ -3901,7 +5474,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>DEM (Terrain models)</source>
-        <translation type="unfinished"></translation>
+        <translation>DEM (Гадаргуун Загвар)</translation>
     </message>
     <message>
         <source>&amp;Input file (DEM raster)</source>
@@ -3929,7 +5502,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Slope</source>
-        <translation type="unfinished">Налуу</translation>
+        <translation>Налуу</translation>
     </message>
     <message>
         <source>Aspect</source>
@@ -4017,7 +5590,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Output format</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаралтын Төрөл</translation>
     </message>
     <message>
         <source>Search distance</source>
@@ -4133,7 +5706,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Raster info</source>
-        <translation type="unfinished"></translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>Suppress GCP printing</source>
@@ -4323,11 +5896,11 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>Input directory</source>
-        <translation type="unfinished">Оролтын ажлын хавтас</translation>
+        <translation>Оролтын ажлын хавтас</translation>
     </message>
     <message>
         <source>Output shapefile</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаралтын shapefile</translation>
     </message>
     <message>
         <source>Tile index field</source>
@@ -4417,7 +5990,7 @@ The &apos;gray&apos; value (from GDAL 1.7.0) enables to expand a dataset with a 
     </message>
     <message>
         <source>Warp (Reproject)</source>
-        <translation type="unfinished"></translation>
+        <translation>Проекц</translation>
     </message>
     <message>
         <source>&amp;Source SRS</source>
@@ -4499,6 +6072,25 @@ See log for more details</source>
     </message>
 </context>
 <context>
+    <name>GeometryConvert</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>New geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Cannot convert from %s to %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>GeometryDialog</name>
     <message>
         <source>Merge all</source>
@@ -4546,7 +6138,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input polygon vector layer</source>
-        <translation type="unfinished">Оролтын полигон давхарга</translation>
+        <translation>Оролтын полигон давхарга</translation>
     </message>
     <message>
         <source>Export/Add geometry columns</source>
@@ -4554,7 +6146,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input vector layer</source>
-        <translation type="unfinished">Вектор давхаргыг сонгох</translation>
+        <translation>Вектор давхаргыг сонгох</translation>
     </message>
     <message>
         <source>Layer CRS</source>
@@ -4574,7 +6166,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation type="unfinished">Цэгэн файлын гаргалт</translation>
+        <translation>Цэгэн файлын гаргалт</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -4582,7 +6174,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input point vector layer</source>
-        <translation type="unfinished">Оролтын цэгэн давхарга</translation>
+        <translation>Оролтын цэгэн давхарга</translation>
     </message>
     <message>
         <source>Voronoi polygon</source>
@@ -4598,7 +6190,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input line vector layer</source>
-        <translation type="unfinished">Оролтын шулуун давхарга</translation>
+        <translation>Оролтын шулуун давхарга</translation>
     </message>
     <message>
         <source>Polygon from layer extent</source>
@@ -4606,7 +6198,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Input layer</source>
-        <translation type="unfinished">Оролтын Давхарга</translation>
+        <translation>Оролтын Давхарга</translation>
     </message>
     <message>
         <source>Output polygon shapefile</source>
@@ -4622,7 +6214,7 @@ See log for more details</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>Error processing specified tolerance!
@@ -4671,7 +6263,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Geoprocessing</source>
-        <translation type="unfinished">Оронзайн боловсруулалт</translation>
+        <translation>Оронзайн боловсруулалт</translation>
     </message>
     <message>
         <source>Please specify an input layer</source>
@@ -4691,7 +6283,7 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation type="unfinished">Гаралтын ажлыг зааж өгнө үү</translation>
+        <translation>Гаралтын ажлыг зааж өгнө үү</translation>
     </message>
     <message>
         <source>No features selected, please uncheck &apos;Use selected&apos; or make a selection</source>
@@ -4723,11 +6315,11 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Difference</source>
-        <translation type="unfinished"></translation>
+        <translation>Зөрүү</translation>
     </message>
     <message>
         <source>Intersect layer</source>
-        <translation type="unfinished">Огтолцох давхарга</translation>
+        <translation>Огтолцох давхарга</translation>
     </message>
     <message>
         <source>Intersect</source>
@@ -4747,11 +6339,11 @@ Please choose another field...</source>
     </message>
     <message>
         <source>Union</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэгтгэх</translation>
     </message>
     <message>
         <source>Unable to delete existing shapefile.</source>
-        <translation type="unfinished">Байгаа shp файлыг усгах боломжгүй.</translation>
+        <translation>Байгаа shp файлыг усгах боломжгүй.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -4823,7 +6415,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
     </message>
     <message>
         <source>Connection problem</source>
@@ -4842,7 +6434,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Хэрэгсэл</translation>
+        <translation>Хэрэгсэл</translation>
     </message>
     <message>
         <source>Connection problem</source>
@@ -4856,12 +6448,8 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
 <context>
     <name>GetScriptsAndModelsDialog</name>
     <message>
-        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Upgradable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Installed</source>
-        <translation type="unfinished">Суусан</translation>
+        <translation>Суусан</translation>
     </message>
     <message>
         <source>Updatable</source>
@@ -4869,7 +6457,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Not installed</source>
-        <translation type="unfinished">Суугаагүй байна</translation>
+        <translation>Суугаагүй байна</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt; %s&lt;/p&gt;</source>
@@ -4893,6 +6481,10 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Could not download file: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt; Processing resources manager &lt;/h3&gt;&lt;p&gt;Check/uncheck algorithms in the tree to select the ones that you want to install or remove&lt;/p&gt;&lt;p&gt;Algorithms are divided in 3 groups:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Installed:&lt;/b&gt; Algorithms already in your system, with the latest version available&lt;/li&gt;&lt;li&gt;&lt;b&gt;Updatable:&lt;/b&gt; Algorithms already in your system, but with a newer version available in the server&lt;/li&gt;&lt;li&gt;&lt;b&gt;Not installed:&lt;/b&gt; Algorithms not installed in your system&lt;/li&gt;&lt;/ul&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4925,6 +6517,564 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     <message>
         <source>&amp;Globe</source>
         <translation>&amp;Глоб</translation>
+    </message>
+</context>
+<context>
+    <name>Grass7Algorithm</name>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. Unfortunately, it seems that GRASS GIS 7 is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS GIS 7 to be run. A test to check if GRASS GIS 7 is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS GIS 7 to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7AlgorithmProvider</name>
+    <message>
+        <source>GRASS7 folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS GIS 7 algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grass7Utils</name>
+    <message>
+        <source>GRASS GIS 7 execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS GIS 7 folder is not configured. Please configure it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS GIS 7 folder does not contain a valid set of GRASS GIS 7 modules.
+Please, go to the Processing settings dialog, and check that the GRASS GIS 7
+folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS GIS 7 is not correctly installed and configured in your system.
+Please install it before running GRASS GIS 7 algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS GIS 7 installation. GRASS GIS 7 might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithm</name>
+    <message>
+        <source>Could not open GRASS algorithm: %s.
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. Unfortunately, it seems that GRASS is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires GRASS to be run. A test to check if GRASS is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure GRASS to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassAlgorithmProvider</name>
+    <message>
+        <source>GRASS folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Msys folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open GRASS algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GrassUtils</name>
+    <message>
+        <source>GRASS folder is not configured.
+Please configure it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The specified GRASS folder does not contain a valid set of GRASS modules. Please, go to the Processing settings dialog, and check that the GRASS folder is correctly configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems that GRASS is not correctly installed and configured in your system.
+Please install it before running GRASS algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error while checking GRASS installation. GRASS might not be correctly configured.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Grid</name>
+    <message>
+        <source>Grid type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid extent</source>
+        <translation>Өргөтгөл</translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing is too small for the covered area</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridAverage</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation>Доод цэг</translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Өнцөг</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>GridDataMetrics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Metrics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation>Доод цэг</translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Өнцөг</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>GridInvDist</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Power</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max points</source>
+        <translation>Дээд цэг</translation>
+    </message>
+    <message>
+        <source>Min points</source>
+        <translation>Доод цэг</translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Өнцөг</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+    <message>
+        <source>Smoothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridMetrics</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input ground DTM layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height break</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table with grid metrics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OUTPUT CSV INTENSITY</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlier:low,high</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Htmin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridNearest</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Z field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radius 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Angle</source>
+        <translation>Өнцөг</translation>
+    </message>
+    <message>
+        <source>Nodata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>GridNet</name>
+    <message>
+        <source>D8 Flow Direction Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Outlets Shapefile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Longest Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Upslope Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Strahler Network Order Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GridSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z Нэгж</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spike (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Median</source>
+        <translation>Голын утга</translation>
+    </message>
+    <message>
+        <source>Smooth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope</source>
+        <translation>Налуу</translation>
+    </message>
+    <message>
+        <source>Minimum (set blank if not used)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class(es)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional modifiers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Gridify</name>
+    <message>
+        <source>Input Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Invalid grid spacing: %s/%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to gridify feature with FID %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>GroundFilter</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize for intermediate surfaces</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ground las file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5049,7 +7199,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Input point layer</source>
-        <translation type="unfinished">Цэгэн давхаргыг заах</translation>
+        <translation>Цэгэн давхаргыг заах</translation>
     </message>
     <message>
         <source>Output raster</source>
@@ -5057,7 +7207,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Output format</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаралтын Төрөл</translation>
     </message>
     <message>
         <source>Radius</source>
@@ -5073,7 +7223,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">зургийн нэгж</translation>
+        <translation>зургийн нэгж</translation>
     </message>
     <message>
         <source>Rows</source>
@@ -5085,7 +7235,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Cell size Y</source>
@@ -5117,7 +7267,7 @@ GEOS geoprocessing error: One or more input features have invalid geometry.</sou
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">Нэмэлт</translation>
+        <translation>Нэмэлт</translation>
     </message>
 </context>
 <context>
@@ -5146,12 +7296,14 @@ are stored on the installation folder</source>
     <message>
         <source>&lt;h2&gt;Input parameters&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;оролтын параметрүүд&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Outputs&lt;/h2&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h2&gt;Гаралтууд&lt;/h2&gt;
+</translation>
     </message>
     <message>
         <source>Algorithm description</source>
@@ -5163,7 +7315,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Outputs</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаралт</translation>
     </message>
     <message>
         <source>Algorithm created by</source>
@@ -5182,7 +7334,7 @@ are stored on the installation folder</source>
     <name>HistoryDialog</name>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Цэвэрлэх</translation>
+        <translation>Цэвэрлэх</translation>
     </message>
     <message>
         <source>Clear history and log</source>
@@ -5190,7 +7342,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Өөрөөр хадгалах...</translation>
+        <translation>Өөрөөр хадгалах...</translation>
     </message>
     <message>
         <source>Save history and log</source>
@@ -5206,7 +7358,7 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг хадгалах</translation>
     </message>
     <message>
         <source>Log files (*.log *.LOG)</source>
@@ -5221,7 +7373,7 @@ are stored on the installation folder</source>
     <name>HistoryDialogPythonConsole</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -5229,36 +7381,201 @@ are stored on the installation folder</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
+    </message>
+</context>
+<context>
+    <name>HubDistance</name>
+    <message>
+        <source>Source points layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Destination hubs layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub layer name attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output shape type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement unit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HubLines</name>
+    <message>
+        <source>Hub point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hub ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spoke ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Same layer given for both hubs and spokes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>HypsometricCurves</name>
+    <message>
+        <source>DEM to analyze</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boundary layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Алхам</translation>
+    </message>
+    <message>
+        <source>Use % of area instead of absolute value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature %d does not intersect raster or entirely located in NODATA area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area</source>
+        <translation>Талбай</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ImportIntoPostGIS</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error importing to PostGIS
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer to import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema (schema name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table to import to (leave blank to use layer name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column</source>
+        <translation>Геометр багана</translation>
+    </message>
+    <message>
+        <source>Overwrite</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create spatial index</source>
+        <translation>Оронзайн Индекс Үүсгэх</translation>
+    </message>
+    <message>
+        <source>Convert field names to lowercase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drop length constraints on character fields</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished">ӨС-ийн Менежер</translation>
+        <translation>ӨС-ийн Менежер</translation>
     </message>
 </context>
 <context>
     <name>InputLayerSelectorPanel</name>
     <message>
-        <source>All files(*.*);;</source>
-        <translation type="unfinished">Бүх ажил (*.*);;</translation>
+        <source>Select file</source>
+        <translation>Файлыг сонгох</translation>
+    </message>
+    <message>
+        <source>All files (*.*);;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Intersection</name>
+    <message>
+        <source>Feature geometry error: One or more output features ignored due to invalid geometry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>Огтолцох давхарга</translation>
+    </message>
+    <message>
+        <source>Intersection</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InvalidParameterValue</name>
     <message>
         <source>Run</source>
-        <translation type="unfinished">Ажиллуулах</translation>
-    </message>
-    <message>
-        <source>Parameters</source>
-        <translation type="unfinished">Параметр</translation>
-    </message>
-    <message>
-        <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажиллуулах</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -5268,38 +7585,186 @@ are stored on the installation folder</source>
         <source>&lt;h2&gt;Could not open help file :-( &lt;/h2&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>JoinAttributes</name>
     <message>
-        <source>Unmatching CRS&apos;s</source>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Layers do not all use the same CRS. This can cause unexpected results.
-Do you want to continue?</source>
+        <source>Table field</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to execute algorithm</source>
+        <source>Table field 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Processing algorithm...</source>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsAlgorithm</name>
+    <message>
+        <source>LAStools folder is not configured.
+Please configure it before running LAStools algorithms.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Algorithm %s starting...&lt;/b&gt;</source>
+        <source>verbose</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;Missing parameter value: %s&lt;/b&gt;</source>
+        <source>open LAStools GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Wrong or missing parameter values</source>
+        <source>number of cores</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HTML output has been generated by this algorithm.
-Open the results dialog to check it.</source>
+        <source>input LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input wildcard(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>merge all input files on-the-fly into one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>horizontal feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>vertical feet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>files are flightlines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>apply file source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>step size / pixel size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output vector file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>output appendix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>empty temporary directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>additional command line parameter(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>third filter (by return, classification, flags)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second filter (by coordinate, intensity, GPS time, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (coordinates)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>value for second transform (intensities, scan angles, GPS times, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LAStoolsUtils</name>
+    <message>
+        <source>LAStools command line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LAStools console output</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5307,7 +7772,7 @@ Open the results dialog to check it.</source>
     <name>LayerPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Symbol layer type</source>
@@ -5316,6 +7781,86 @@ Open the results dialog to check it.</source>
     <message>
         <source>This layer doesn&apos;t have any editable properties</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LengthArea</name>
+    <message>
+        <source>Length Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LidarToolsAlgorithmProvider</name>
+    <message>
+        <source>LAStools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wine folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tools for LiDAR data</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LinesIntersection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Intersect layer</source>
+        <translation>Огтолцох давхарга</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Intersect unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>LinesToPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
@@ -5414,15 +7959,15 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Vector</source>
-        <translation type="unfinished"></translation>
+        <translation>Вектор</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">Өгөгдлийн сан</translation>
+        <translation>Өгөгдлийн сан</translation>
     </message>
     <message>
         <source>Web</source>
-        <translation type="unfinished">Веб</translation>
+        <translation>Веб</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
@@ -5441,23 +7986,11 @@ Open the results dialog to check it.</source>
         <translation>Ctrl+Shift+S</translation>
     </message>
     <message>
-        <source>Save as Image...</source>
-        <translation>Дүрсээр Хадгалах...</translation>
-    </message>
-    <message>
-        <source>&amp;New Print Composer</source>
-        <translation>&amp;Шинэ Хэвлэлийн Эх</translation>
-    </message>
-    <message>
         <source>Ctrl+P</source>
         <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Composer Manager...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>P&amp;roject</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5482,7 +8015,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;Шинэ</translation>
+        <translation>&amp;Шинэ</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
@@ -5609,10 +8142,6 @@ Open the results dialog to check it.</source>
         <translation>Цэгэн тэмдэглэгээг эргүүлэх</translation>
     </message>
     <message>
-        <source>Snapping Options...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Pan Map</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5677,20 +8206,8 @@ Open the results dialog to check it.</source>
         <translation>Өнцөг хэмжих</translation>
     </message>
     <message>
-        <source>Zoom Full</source>
-        <translation>Бүгдийш Багтаах</translation>
-    </message>
-    <message>
         <source>Ctrl+Shift+F</source>
         <translation>Ctrl+Shift+F</translation>
-    </message>
-    <message>
-        <source>Zoom to Layer</source>
-        <translation>Давхаргаар Багтаах</translation>
-    </message>
-    <message>
-        <source>Zoom to Selection</source>
-        <translation>Сонгосон обьект рүү томсгох</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -5754,7 +8271,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Labeling</source>
-        <translation type="unfinished"></translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Layer Labeling Options</source>
@@ -5825,10 +8342,6 @@ Open the results dialog to check it.</source>
         <translation>Ctrl+Shift+W</translation>
     </message>
     <message>
-        <source>Open Attribute Table</source>
-        <translation>Атрибут хүснэгтийг нээх</translation>
-    </message>
-    <message>
         <source>Toggle Editing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5843,10 +8356,6 @@ Open the results dialog to check it.</source>
     <message>
         <source>Save edits to current layer, but continue editing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save As...</source>
-        <translation>Өөрөөр хадгалах...</translation>
     </message>
     <message>
         <source>Remove Layer/Group</source>
@@ -5997,10 +8506,6 @@ Open the results dialog to check it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Query...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6046,11 +8551,11 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>Add Delimited Text Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Зааглагдсан Текстэн Давхарга Нэмэх</translation>
     </message>
     <message>
         <source>New Vector Layer</source>
-        <translation type="unfinished">Шинэ Вектор Давхарга</translation>
+        <translation>Шинэ Вектор Давхарга</translation>
     </message>
     <message>
         <source>Paste features in clipboard into a new OGR vector layer.</source>
@@ -6078,7 +8583,7 @@ Open the results dialog to check it.</source>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -6089,16 +8594,8 @@ Open the results dialog to check it.</source>
         <translation type="unfinished">F11</translation>
     </message>
     <message>
-        <source>Project Properties...</source>
-        <translation>Төслийн Үзүүлэлт...</translation>
-    </message>
-    <message>
         <source>Ctrl+Shift+P</source>
         <translation>Ctrl+Shift+P</translation>
-    </message>
-    <message>
-        <source>Options...</source>
-        <translation>Сонголтууд...</translation>
     </message>
     <message>
         <source>Custom CRS...</source>
@@ -6364,7 +8861,67 @@ Acts on currently active editable layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open Recent</source>
+        <source>Open &amp;Recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pro&amp;ject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save as &amp;Image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New &amp;Print Composer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Snapping Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom &amp;Full</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom to &amp;Selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open &amp;Attribute Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Save As...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Project Properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+P</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Temporary Scratch Layer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New temporary scratch layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6372,7 +8929,7 @@ Acts on currently active editable layer</source>
     <name>ManageConnectionsDialog</name>
     <message>
         <source>Manage connections</source>
-        <translation type="unfinished">Холболтуулыг цэгцлэх</translation>
+        <translation>Холболтуулыг цэгцлэх</translation>
     </message>
     <message>
         <source>Save to file</source>
@@ -6380,7 +8937,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Load from file</source>
@@ -6388,11 +8945,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
     <message>
         <source>eXtensible Markup Language (*.xml *.XML)</source>
@@ -6400,11 +8957,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Save connections</source>
-        <translation type="unfinished">Холболтуудыг хадгалах</translation>
+        <translation>Холболтуудыг хадгалах</translation>
     </message>
     <message>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг дуудах</translation>
     </message>
     <message>
         <source>Save Connections</source>
@@ -6424,6 +8981,78 @@ Acts on currently active editable layer</source>
     </message>
 </context>
 <context>
+    <name>MeanAndStdDevPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mean field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>StdDev field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>MeanCoords</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>Жингийн багана</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Үл давтагдах утгын талбар</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+</context>
+<context>
+    <name>Merge</name>
+    <message>
+        <source>Input layer 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Merged layers must have be same type of geometry</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MergeData</name>
+    <message>
+        <source>Input LAS files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output merged LAS file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MessageBarProgress</name>
     <message>
         <source>Executing algorithm</source>
@@ -6431,7 +9060,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
 </context>
 <context>
@@ -6461,7 +9090,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Хайх</translation>
+        <translation>Хайх</translation>
     </message>
     <message>
         <source>Find</source>
@@ -6497,31 +9126,31 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Keywords</source>
-        <translation type="unfinished">Түлхүүр үгс</translation>
+        <translation>Түлхүүр үгс</translation>
     </message>
     <message>
         <source>Xmax</source>
-        <translation type="unfinished"></translation>
+        <translation>X ХИ</translation>
     </message>
     <message>
         <source>Ymax</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХИ</translation>
     </message>
     <message>
         <source>Xmin</source>
-        <translation type="unfinished"></translation>
+        <translation>Х ХБ</translation>
     </message>
     <message>
         <source>Ymin</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХБ</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">Үр дүнгүүд</translation>
+        <translation>Үр дүнгүүд</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>&lt;&lt;</source>
@@ -6537,7 +9166,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished">&lt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>Add WFS</source>
@@ -6549,11 +9178,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Гарчиг</translation>
+        <translation>Гарчиг</translation>
     </message>
     <message>
         <source>View search results as XML</source>
@@ -6577,19 +9206,19 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">Шинэ</translation>
+        <translation>Шинэ</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Өөрчлөх</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
     <message>
         <source>Add default services</source>
@@ -6597,11 +9226,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Тохиргоо</translation>
     </message>
     <message>
         <source>Results paging</source>
@@ -6718,21 +9347,13 @@ Acts on currently active editable layer</source>
             <numerusform></numerusform>
         </translation>
     </message>
-</context>
-<context>
-    <name>MissingDependencyDialog</name>
     <message>
-        <source>&lt;h3&gt;Missing dependency.This algorithm cannot be run :-( &lt;/h3&gt;
-%s</source>
+        <source>Server timeout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Missing dependency</source>
+        <source>seconds</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished">Хаах</translation>
     </message>
 </context>
 <context>
@@ -6806,14 +9427,6 @@ Acts on currently active editable layer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are unsaved changes in model. Close modeler without saving?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Empty model</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6827,7 +9440,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Please enter group and model names before saving</source>
@@ -6898,7 +9511,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">Параметр</translation>
+        <translation>Параметр</translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in model. Continue?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6932,11 +9553,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">Тийм</translation>
+        <translation>Тийм</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished">Үгүй</translation>
+        <translation>Үгүй</translation>
     </message>
     <message>
         <source>Shape type</source>
@@ -6948,15 +9569,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>Mandatory</source>
@@ -6984,11 +9605,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">Растер</translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Min/Max values</source>
@@ -6996,23 +9617,23 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Default value</source>
-        <translation type="unfinished">Өгөгдмөл утга</translation>
+        <translation>Өгөгдмөл утга</translation>
     </message>
     <message>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished">Ажил</translation>
+        <translation>Ажил</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Зураг</translation>
     </message>
     <message>
         <source>Unable to define parameter</source>
@@ -7024,14 +9645,14 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>Буруу эсвэл гээгдсэн параметрийн утгууд</translation>
     </message>
 </context>
 <context>
     <name>ModelerParametersDialog</name>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Show advanced parameters</source>
@@ -7043,7 +9664,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">Параметр</translation>
+        <translation>Параметр</translation>
     </message>
     <message>
         <source>&lt;h2&gt;Sorry, no help is available for this algorithm.&lt;/h2&gt;</source>
@@ -7067,7 +9688,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Wrong or missing parameter values</source>
-        <translation type="unfinished"></translation>
+        <translation>Буруу эсвэл гээгдсэн параметрийн утгууд</translation>
     </message>
 </context>
 <context>
@@ -7078,32 +9699,36 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputDialog</name>
+    <name>MultipartToSingleparts</name>
     <message>
-        <source>Multiple selection</source>
-        <translation type="unfinished"></translation>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
     </message>
     <message>
-        <source>Select the file(s) to use</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>All files (*.*)</source>
-        <translation type="unfinished">Бүх файл (*.*) </translation>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
-    <name>MultipleFileInputPanel</name>
+    <name>MultipleFileInputDialog</name>
     <message>
-        <source>0 elements selected</source>
+        <source>All files (*.*)</source>
+        <translation>Бүх файл (*.*) </translation>
+    </message>
+    <message>
+        <source>Add file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Remove file(s)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%d elements selected</source>
+        <source>Remove all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select file(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7111,7 +9736,7 @@ See the log for more information.</source>
     <name>MultipleInputDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Бүгдийг сонгох</translation>
+        <translation>Бүгдийг сонгох</translation>
     </message>
     <message>
         <source>Clear selection</source>
@@ -7123,6 +9748,48 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>MultipleInputPanel</name>
+    <message>
+        <source>0 elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%d elements selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NearestNeighbourAnalysis</name>
+    <message>
+        <source>Points</source>
+        <translation>Цэг</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+    <message>
+        <source>Observed mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expected mean distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nearest neighbour index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z-Score</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NewConnectionDialog</name>
     <message>
         <source>Create a new Catalogue connection</source>
@@ -7130,15 +9797,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Нэр</translation>
+        <translation>Нэр</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг хадгалах</translation>
     </message>
     <message>
         <source>Both Name and URL must be provided</source>
@@ -7168,19 +9835,19 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Min X</source>
-        <translation type="unfinished"></translation>
+        <translation>Х ХБ</translation>
     </message>
     <message>
         <source>Max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X ХИ</translation>
     </message>
     <message>
         <source>Min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХБ</translation>
     </message>
     <message>
         <source>Max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХИ</translation>
     </message>
     <message>
         <source>Cellsize</source>
@@ -7192,7 +9859,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Mean</source>
-        <translation type="unfinished">Дундаж</translation>
+        <translation>Дундаж</translation>
     </message>
     <message>
         <source>Std. deviation</source>
@@ -7204,7 +9871,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Min value</source>
-        <translation type="unfinished"></translation>
+        <translation>Хамгийн бага</translation>
     </message>
     <message>
         <source>Values from QGIS map canvas</source>
@@ -7224,6 +9891,397 @@ See the log for more information.</source>
     </message>
     <message>
         <source>The expression entered is not correct</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBAlgorithm</name>
+    <message>
+        <source>Could not open OTB algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB folder is not configured. Please configure it before running OTB algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB execution command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adapter for %s not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBAlgorithmProvider</name>
+    <message>
+        <source>Could not open OTB algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OTB applications folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SRTM tiles folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geoid file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Orfeo Toolbox (Image analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OTBUtils</name>
+    <message>
+        <source>OTB execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2Ogr</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Destination Format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClip</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Clip layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrClipExtent</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Clip extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGis</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Толгой компьютер</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Хэрэглэгчийн нэр</translation>
+    </message>
+    <message>
+        <source>Database name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Нэвтрэх үг</translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation>Геометр баганын нэр</translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Ogr2OgrToPostGisList</name>
+    <message>
+        <source>Database (connection name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output geometry type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Schema name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table name, leave blank to use input name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry column name</source>
+        <translation>Геометр баганын нэр</translation>
+    </message>
+    <message>
+        <source>Vector dimensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance tolerance for simplification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum distance between 2 nodes (densification)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features by extent (defined in input layer CRS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clip the input layer using the above (rectangle) extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select features using a SQL &quot;WHERE&quot; statement (Ex: column=&quot;value&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Group N features per transaction (Default: 20000)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Append and add new fields to existing table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not launder columns/table names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not create spatial index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue after a failure, skipping the failed feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign an output CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reproject to this CRS on output </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override source CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (new field)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Primary key (existing field, used if the above option is left empty)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Promote to Multipart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep width and precision of input attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrInfo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OgrSql</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>SQL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SQL result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Empty SQL. Please enter valid SQL expression and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OpenViewerAction</name>
+    <message>
+        <source>Unable to open viewer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The current Fusion folder does not contain the viewer executable.
+Please check the configuration in the Processing settings dialog.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7303,7 +10361,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг хадгалах</translation>
     </message>
     <message>
         <source>Select directory</source>
@@ -7321,7 +10379,7 @@ See the log for more information.</source>
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished">&amp;Хүснэгт</translation>
+        <translation>&amp;Хүснэгт</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
@@ -7343,7 +10401,7 @@ See the log for more information.</source>
     <name>ParameterMultipleInput</name>
     <message>
         <source>All files (*.*)</source>
-        <translation type="unfinished">Бүх файл (*.*) </translation>
+        <translation>Бүх файл (*.*) </translation>
     </message>
     <message>
         <source>%s files(*.%s)</source>
@@ -7372,20 +10430,9 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
-    <name>ParametersDialog</name>
-    <message>
-        <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>ParametersPanel</name>
     <message>
         <source>[Not selected]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show advanced parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7401,18 +10448,365 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hide advanced parameters</source>
+        <source>[not set]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[not set]</source>
+        <source> (xmin, xmax, ymin, ymax)</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PeukerDouglas</name>
+    <message>
+        <source>Elevation Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Side Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Diagonal Smoothing Weight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stream Source Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PointDistance</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Цэгэн давхаргыг заах</translation>
+    </message>
+    <message>
+        <source>Input unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target point layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output matrix type</source>
+        <translation>Гаралтын матрицын төрөл</translation>
+    </message>
+    <message>
+        <source>Use only the nearest (k) target points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance matrix</source>
+        <translation>Зайн матриц</translation>
+    </message>
+</context>
+<context>
+    <name>PointsDisplacement</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Displacement distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal distribution for two point case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromLines</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PointsFromPolygons</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygon</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Цэг</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
     </message>
 </context>
 <context>
     <name>PointsInPolygonThread</name>
     <message>
         <source>point count field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonUnique</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Цэг</translation>
+    </message>
+    <message>
+        <source>Class field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+</context>
+<context>
+    <name>PointsInPolygonWeighted</name>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>Цэг</translation>
+    </message>
+    <message>
+        <source>Weight field</source>
+        <translation>Жингийн багана</translation>
+    </message>
+    <message>
+        <source>Count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+</context>
+<context>
+    <name>PointsLayerFromTable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>X field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PointsToPaths</name>
+    <message>
+        <source>Input point layer</source>
+        <translation>Цэгэн давхаргыг заах</translation>
+    </message>
+    <message>
+        <source>Group field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date format (if order field is DateTime)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paths</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>Хавтас</translation>
+    </message>
+</context>
+<context>
+    <name>PolarPlot</name>
+    <message>
+        <source>Input table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category name field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>PolyClipData</name>
+    <message>
+        <source>Input .las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mask layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output clipped .las file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Shape attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape field index</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape value</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Polygonize</name>
+    <message>
+        <source>Polygonize algorithm requires shapely module!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Processing lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Noding lines...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Polygonizing...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No polygons were created!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Дууссан</translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Keep table structure of line layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create geometry columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PolygonsToLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>PostGISExecuteSQL</name>
+    <message>
+        <source>Wrong database connection name: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t connect to database:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error executing SQL:
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Өгөгдлийн сан</translation>
+    </message>
+    <message>
+        <source>SQL query</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7429,48 +10823,24 @@ See the log for more information.</source>
         <source>Loading resulting layers</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Problem loading output layers</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrepareAPIDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">Хийгдсэн</translation>
+        <translation>Хийгдсэн</translation>
     </message>
 </context>
 <context>
     <name>Processing</name>
-    <message>
-        <source>Pro&amp;cessing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Toolbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Graphical &amp;Modeler...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;History and Log...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Results Viewer...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Commander</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Could not load provider: %s
 %s</source>
@@ -7489,7 +10859,7 @@ See the log for more information.</source>
     <name>ProcessingConfig</name>
     <message>
         <source>General</source>
-        <translation type="unfinished">Ерөнхий</translation>
+        <translation>Ерөнхий</translation>
     </message>
     <message>
         <source>Show extra info in Log panel</source>
@@ -7501,7 +10871,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Use only selected features</source>
-        <translation type="unfinished">Зөвхөн сонгосон обьектуудыг хэрэглэ</translation>
+        <translation>Зөвхөн сонгосон обьектуудыг хэрэглэ</translation>
     </message>
     <message>
         <source>Use filename as layer name</source>
@@ -7513,7 +10883,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Output folder</source>
-        <translation type="unfinished">Гаргах хавтас</translation>
+        <translation>Гаргах хавтас</translation>
     </message>
     <message>
         <source>Show layer CRS definition in selection boxes</source>
@@ -7553,6 +10923,41 @@ See the log for more information.</source>
     </message>
 </context>
 <context>
+    <name>ProcessingPlugin</name>
+    <message>
+        <source>Pro&amp;cessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Toolbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Graphical &amp;Modeler...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;History and Log...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Options...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Results Viewer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Commander</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Alt+M</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ProcessingToolbox</name>
     <message>
         <source>Processing Toolbox</source>
@@ -7580,6 +10985,15 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Recently used algorithms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing dependency</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;Missing dependency. This algorithm cannot be run :-( &lt;/h3&gt;
+%s</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7618,15 +11032,23 @@ See the log for more information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%s due an error when calling its classFactory() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%s due an error when calling its initGui() method</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Error while unloading plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its classFactory() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its initGui() method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t load server plugin %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%s due to an error when calling its serverClassFactory() method</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7634,7 +11056,7 @@ See the log for more information.</source>
     <name>PythonConsole</name>
     <message>
         <source>Python Console</source>
-        <translation type="unfinished">Пайтон Консол</translation>
+        <translation>Пайтон Консол</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -7654,7 +11076,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">Хийгдсэн</translation>
+        <translation>Хийгдсэн</translation>
     </message>
     <message>
         <source>Error preparing file...</source>
@@ -7678,11 +11100,11 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Undo</source>
-        <translation type="unfinished">Буцаах</translation>
+        <translation>Буцаах</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation type="unfinished">Дахих</translation>
+        <translation>Дахих</translation>
     </message>
     <message>
         <source>Find Text</source>
@@ -7690,19 +11112,19 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Cut</source>
-        <translation type="unfinished">Тасдах</translation>
+        <translation>Тасдах</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Хуулах</translation>
+        <translation>Хуулах</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Буулгах</translation>
+        <translation>Буулгах</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Uncomment</source>
@@ -7722,7 +11144,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Тохиргоо</translation>
     </message>
     <message>
         <source>&lt;b&gt;&quot;{0}&quot;&lt;/b&gt; was not found.</source>
@@ -7854,7 +11276,7 @@ See the log for more information.</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Өөрөөр хадгалах...</translation>
+        <translation>Өөрөөр хадгалах...</translation>
     </message>
     <message>
         <source>Run script</source>
@@ -7899,10 +11321,6 @@ See the log for more information.</source>
     <message>
         <source>Open File</source>
         <translation>Ажил Нээх</translation>
-    </message>
-    <message>
-        <source>Save Error</source>
-        <translation>Алдааг Санах</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;{0}&lt;/b&gt; could not be saved. Error: {1}</source>
@@ -7988,6 +11406,13 @@ Use iface to access QGIS API interface or Type help(iface) for more info</source
     <message>
         <source>Help</source>
         <translation>Тусламж</translation>
+    </message>
+</context>
+<context>
+    <name>QGISAlgorithmProvider</name>
+    <message>
+        <source>QGIS geoalgorithms</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8142,7 +11567,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     </message>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished">Өргөтгөл</translation>
+        <translation>Хэрэгслүүд</translation>
     </message>
     <message>
         <source>Plugin &quot;%1&quot; is not compatible with this version of QGIS.
@@ -8373,7 +11798,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Operators</source>
-        <translation type="unfinished">Оператор</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <source>Fields and Values</source>
@@ -8432,7 +11857,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>Color</source>
@@ -8440,7 +11865,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished">Геометр</translation>
+        <translation>Геометр</translation>
     </message>
     <message>
         <source>Record</source>
@@ -8568,7 +11993,7 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>W</source>
@@ -8695,11 +12120,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Comma Separated Value</source>
-        <translation type="unfinished">Таслалаар Тусгаарлагдсан Утга</translation>
+        <translation>Таслалаар Тусгаарлагдсан Утга</translation>
     </message>
     <message>
         <source>ESRI Shapefile</source>
-        <translation type="unfinished">ESRI Shapefile</translation>
+        <translation>ESRI Shapefile</translation>
     </message>
     <message>
         <source>DBF file</source>
@@ -9063,7 +12488,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Override the header file used - in place of header.dxf.</source>
@@ -9184,7 +12609,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Paletted</source>
-        <translation type="unfinished"></translation>
+        <translation>Өнгөний хослол</translation>
     </message>
     <message>
         <source>Singleband gray</source>
@@ -9204,7 +12629,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Single Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэг Тэмдэг</translation>
     </message>
     <message>
         <source>Categorized</source>
@@ -9288,7 +12713,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>QGIS rocks!</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS-ийн Хад!</translation>
     </message>
     <message>
         <source>&lt;html&gt;QGIS rocks!&lt;/html&gt;</source>
@@ -9328,7 +12753,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Vector</source>
-        <translation type="unfinished"></translation>
+        <translation>Вектор</translation>
     </message>
     <message>
         <source>Version 0.1</source>
@@ -9340,7 +12765,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Давхаргууд</translation>
     </message>
     <message>
         <source>Dxf2Shp Converter</source>
@@ -9388,7 +12813,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">Растер</translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>Could not reproject view extent: %1</source>
@@ -9424,7 +12849,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Overlay data on a 3D globe</source>
-        <translation type="unfinished">3-н хэмжээт глоб дээр өгөгдөл нэсэх</translation>
+        <translation>3-н хэмжээт глоб дээр өгөгдөл нэсэх</translation>
     </message>
     <message>
         <source>GPS Tools</source>
@@ -9796,7 +13221,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Nearest Neighbour</source>
-        <translation type="unfinished">Ойрын Хөрш</translation>
+        <translation>Ойрын Хөрш</translation>
     </message>
     <message>
         <source>Average</source>
@@ -9812,11 +13237,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Горим</translation>
+        <translation>Горим</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Couldn&apos;t open the data source: %1</source>
@@ -9847,10 +13272,6 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     <message>
         <source>GRASS data won&apos;t be available if GISBASE is not specified.</source>
         <translation>GISBASE-ийн замыг зааж өгөхгүй бол GRASS-ийн мэдээг унших боломжгүй.</translation>
-    </message>
-    <message>
-        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 and hopefully will be fixed in higher GRASS versions. Error message: %1</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GISBASE is not set.</source>
@@ -10014,7 +13435,7 @@ Would you like to specify path (GISBASE) to your GRASS installation?</source>
     </message>
     <message>
         <source>Mapinfo File</source>
-        <translation type="unfinished">Mapinfo Ажил</translation>
+        <translation>Mapinfo Ажил</translation>
     </message>
     <message>
         <source>MySQL</source>
@@ -10161,7 +13582,7 @@ Database error: %2</source>
     </message>
     <message>
         <source>PostGIS</source>
-        <translation type="unfinished">PostGIS</translation>
+        <translation>PostGIS</translation>
     </message>
     <message>
         <source>Infinite filter rectangle specified</source>
@@ -10335,19 +13756,19 @@ SQL: %1</source>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">Тодорхойлогдоогүй</translation>
+        <translation>Тодорхойлогдоогүй</translation>
     </message>
     <message>
         <source>Hidden</source>
-        <translation type="unfinished">Далд</translation>
+        <translation>Далд</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Гарчиг</translation>
+        <translation>Гарчиг</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Бүлэг</translation>
+        <translation>Бүлэг</translation>
     </message>
     <message>
         <source>Subgroup</source>
@@ -10355,7 +13776,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Symbol label</source>
@@ -10452,11 +13873,11 @@ SQL: %1</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Feature ID</source>
@@ -10464,7 +13885,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Шугаман</translation>
     </message>
     <message>
         <source>radial</source>
@@ -10560,62 +13981,26 @@ Response was:
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Томъёолсон тэмдэг</translation>
+        <translation>Томъёолсон тэмдэг</translation>
     </message>
     <message>
-        <source>Classification</source>
+        <source>Fatal error occurred in GRASS library. QGIS gets over the error but any next fatal error will cause QGIS exit without warning. This is a problem of GRASS 7.0.0beta1 but it is fixed in GRASS 7.1 and higher. Error message: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Range</source>
+        <source>Raster image fill</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unique Values</source>
+        <source>Couldn&apos;t load PyQGIS Server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>File Name</source>
+        <source>Couldn&apos;t load qgis.user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Value Map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enumeration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Check Box</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished">Зураг</translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
+        <source>NOTICE: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10867,11 +14252,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Panels</source>
-        <translation type="unfinished">Самбар</translation>
+        <translation>Самбар</translation>
     </message>
     <message>
         <source>Toolbars</source>
-        <translation type="unfinished">Хэрэгсэлүүд</translation>
+        <translation>Хэрэгсэлүүд</translation>
     </message>
     <message>
         <source>Window</source>
@@ -10883,7 +14268,7 @@ Please contact the developers.
     </message>
     <message>
         <source>&amp;Web</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб</translation>
     </message>
     <message>
         <source>Progress bar that displays the status of rendering layers and other time-intensive operations</source>
@@ -11047,7 +14432,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Vector</source>
-        <translation type="unfinished"></translation>
+        <translation>Вектор</translation>
     </message>
     <message>
         <source>PostgreSQL</source>
@@ -11067,7 +14452,7 @@ Please contact the developers.
     </message>
     <message>
         <source>QGIS files</source>
-        <translation type="unfinished">QGIS ажил</translation>
+        <translation>QGIS ажил</translation>
     </message>
     <message>
         <source>Merging features can only be done for layers in editing mode. To use the merge tool, go to Layer-&gt;Toggle editing</source>
@@ -11119,7 +14504,7 @@ Please contact the developers.
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Cannot get SpatiaLite select dialog from provider.</source>
@@ -11159,7 +14544,7 @@ Please contact the developers.
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>Cannot get WCS select dialog from provider.</source>
@@ -11167,7 +14552,7 @@ Please contact the developers.
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>Cannot get WFS select dialog from provider.</source>
@@ -11279,7 +14664,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Labeling</source>
-        <translation type="unfinished"></translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Font for layer &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; was not found (&lt;i&gt;%2&lt;/i&gt;). %3</source>
@@ -11299,70 +14684,6 @@ Please contact the developers.
     </message>
     <message>
         <source>defaulting to CRS %1 - %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Classification</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Range</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unique Values</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Map</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enumeration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hidden</source>
-        <translation type="unfinished">Далд</translation>
-    </message>
-    <message>
-        <source>Check Box</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Value Relation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Uuid Generator</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Photo</source>
-        <translation type="unfinished">Зураг</translation>
-    </message>
-    <message>
-        <source>Web View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Өнгө</translation>
-    </message>
-    <message>
-        <source>Relation Reference</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date/Time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -11523,10 +14844,6 @@ Error: %1</source>
         <source>Problem deleting features</source>
         <translation>Объект устгахад асуудалтай</translation>
     </message>
-    <message>
-        <source>A problem occured during deletion of features</source>
-        <translation>Объектийг устгах явцад асуудал үүслээ</translation>
-    </message>
     <message numerus="yes">
         <source>%n feature(s) deleted.</source>
         <comment>number of features deleted</comment>
@@ -11569,7 +14886,7 @@ Error: %1</source>
     </message>
     <message>
         <source> copy</source>
-        <translation type="unfinished">хуулах</translation>
+        <translation>хуулах</translation>
     </message>
     <message>
         <source>No active layer</source>
@@ -11621,7 +14938,7 @@ Error: %1</source>
     </message>
     <message>
         <source>No active vector layer</source>
-        <translation type="unfinished">Идэвхтэй вектор давхарга алга</translation>
+        <translation>Идэвхтэй вектор давхарга алга</translation>
     </message>
     <message>
         <source>To select features, choose a vector layer in the legend</source>
@@ -11732,7 +15049,7 @@ Errors: %3
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
     <message>
         <source>all</source>
@@ -11744,7 +15061,7 @@ Errors: %3
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>Current edits</source>
@@ -11886,7 +15203,7 @@ Errors: %3
     </message>
     <message>
         <source>Extents:</source>
-        <translation type="unfinished"></translation>
+        <translation>Хүрээ:</translation>
     </message>
     <message>
         <source>Maptips require an active layer</source>
@@ -11914,11 +15231,11 @@ Errors: %3
     </message>
     <message>
         <source>%1 is not a supported raster data source</source>
-        <translation type="unfinished">%1 нь танигдахгүй растер өгөгдөл байна</translation>
+        <translation>%1 нь танигдахгүй растер өгөгдөл байна</translation>
     </message>
     <message>
         <source>Unsupported Data Source</source>
-        <translation type="unfinished">Танигдахгүй өгөгдлийн эх</translation>
+        <translation>Танигдахгүй өгөгдлийн эх</translation>
     </message>
     <message>
         <source>Exit QGIS</source>
@@ -11998,7 +15315,43 @@ Always ignore these errors?</source>
         </translation>
     </message>
     <message>
+        <source>Failed to run Python script:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The current layer has no selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rotation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current clockwise map rotation in degrees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shows the current map clockwise rotation in degrees. It also allows editing to set the rotation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 (OTF)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error loading layer definition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error saving layer definintion file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A problem occured during deletion of %1 feature(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12055,7 +15408,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">тухай:хоосон</translation>
+        <translation>тухай:хоосон</translation>
     </message>
     <message>
         <source>What&apos;s New</source>
@@ -12105,6 +15458,10 @@ p, li { white-space: pre-wrap; }
         <source>Qt Image Plugin Search Paths &lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Developers Map</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsActionMenu</name>
@@ -12121,7 +15478,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsAddAttrDialog</name>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Invalid field name. This field name is reserved and cannot be used.</source>
@@ -12158,6 +15515,10 @@ p, li { white-space: pre-wrap; }
         <source>Precision</source>
         <translation>Нарийвчлал</translation>
     </message>
+    <message>
+        <source>Provider type</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsAddJoinDialogBase</name>
@@ -12189,6 +15550,10 @@ p, li { white-space: pre-wrap; }
         <source>Cache join layer in virtual memory</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Custom field name prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsAddTabOrGroup</name>
@@ -12201,7 +15566,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsAddTabOrGroupBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Create category</source>
@@ -12218,6 +15583,108 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>a group in container</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsAdvancedDigitizingDockWidget</name>
+    <message>
+        <source>CAD tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some constraints are incompatible. Resulting point might be incorrect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 30%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 45%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to 90%1 angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to common angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No map tool set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools are not enabled for the current map tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAD tools can not be used on geographic coordinates. Change the coordinates system in the project properties.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable advanced digitizing tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not snap to vertices or segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap according to project configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snap to all layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsAdvancedDigitizingDockWidgetBase</name>
+    <message>
+        <source>Advanced Digitizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Алдаа</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Parallel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Perpendicular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Construction mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>x</source>
+        <translation>x</translation>
+    </message>
+    <message>
+        <source>y</source>
+        <translation>Ү</translation>
     </message>
 </context>
 <context>
@@ -12259,7 +15726,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Дэвсгэр өнгө</translation>
+        <translation>Дэвсгэр өнгө</translation>
     </message>
     <message>
         <source>Frame color</source>
@@ -12278,7 +15745,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished">&amp;Хасах</translation>
+        <translation>&amp;Хасах</translation>
     </message>
     <message>
         <source>&amp;Set Group CRS</source>
@@ -12314,7 +15781,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Өөрөөр хадгалах...</translation>
+        <translation>Өөрөөр хадгалах...</translation>
     </message>
     <message>
         <source>Save As Layer Definition File...</source>
@@ -12335,6 +15802,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Paste Style</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styles</source>
+        <translation>Загвар</translation>
     </message>
 </context>
 <context>
@@ -12474,11 +15945,11 @@ Parser error:
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">Гаралт</translation>
+        <translation>Гаралт</translation>
     </message>
     <message>
         <source>Single file export when possible</source>
@@ -12534,7 +16005,7 @@ Parser error:
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">Ажил нээх</translation>
+        <translation>Ажил нээх</translation>
     </message>
     <message>
         <source>Search on web based on attribute&apos;s value</source>
@@ -12565,7 +16036,7 @@ Parser error:
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished">Үйлдэл</translation>
+        <translation>Үйлдэл</translation>
     </message>
     <message>
         <source>Capture</source>
@@ -12613,7 +16084,7 @@ Parser error:
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished">Нээх</translation>
+        <translation>Нээх</translation>
     </message>
     <message>
         <source>Captures any output from the action</source>
@@ -12715,7 +16186,7 @@ Parser error:
     <name>QgsAttributeForm</name>
     <message>
         <source>Attributes changed</source>
-        <translation type="unfinished">Атрибут өөрчлөгдсөн</translation>
+        <translation>Атрибут өөрчлөгдсөн</translation>
     </message>
 </context>
 <context>
@@ -12768,7 +16239,7 @@ Parser error:
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -12850,7 +16321,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished">Ctrl+P</translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Toggle editing mode (Ctrl+E)</source>
@@ -12882,7 +16353,7 @@ Parser error:
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">Шүүлтүүр</translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Filters the visible features according to the current filter selection and filter string.</source>
@@ -12898,7 +16369,7 @@ Parser error:
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished">=</translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>Update All</source>
@@ -12914,7 +16385,7 @@ Parser error:
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation type="unfinished">Ctrl+F</translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <source>Show All Features</source>
@@ -13045,6 +16516,10 @@ Parser error:
         <source>Geometryless feature added</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Update Selected</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsAttributeTableModel</name>
@@ -13091,7 +16566,7 @@ Parser error:
     </message>
     <message>
         <source>Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>Dodge</source>
@@ -13127,7 +16602,7 @@ Parser error:
     </message>
     <message>
         <source>Difference</source>
-        <translation type="unfinished"></translation>
+        <translation>Зөрүү</translation>
     </message>
     <message>
         <source>Subtract</source>
@@ -13161,7 +16636,7 @@ Database: %3</source>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Name</source>
@@ -13189,7 +16664,7 @@ Database: %3</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>New bookmark</source>
@@ -13219,6 +16694,40 @@ Database:%2</source>
     </message>
     <message>
         <source>Reprojected extent is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import Bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XML files (*.xml *XML)</source>
+        <translation>XML ажил (*.xml *XML)</translation>
+    </message>
+    <message>
+        <source>Unable to create the bookmark.
+Driver: %1
+Database: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XML files( *.xml *.XML )</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13256,15 +16765,15 @@ Database:%2</source>
     </message>
     <message>
         <source>Param</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>Metadata (Мэдээллийн лавлах)</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Урьдчилан харах</translation>
     </message>
     <message>
         <source>Stop rendering</source>
@@ -13272,7 +16781,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>toolBar</source>
@@ -13284,15 +16793,15 @@ Database:%2</source>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <translation type="unfinished">Ctrl+Shift+N</translation>
+        <translation>Ctrl+Shift+N</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">Сэргээх</translation>
+        <translation>Сэргээх</translation>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Set layer CRS</source>
@@ -13308,14 +16817,14 @@ Database:%2</source>
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished">Ctrl+Shift+W</translation>
+        <translation>Ctrl+Shift+W</translation>
     </message>
 </context>
 <context>
     <name>QgsBrowserDirectoryPropertiesBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Path</source>
@@ -13382,10 +16891,14 @@ Database:%2</source>
     </message>
     <message>
         <source>Layer Properties</source>
-        <translation type="unfinished">Давхаргын Мөнчанар</translation>
+        <translation>Давхаргын Мөнчанар</translation>
     </message>
     <message>
         <source>Directory Properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type here to filter current item...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13404,10 +16917,6 @@ Database:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Нэмэх</translation>
-    </message>
-    <message>
         <source>Filter Files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13421,18 +16930,14 @@ Database:%2</source>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Filter files</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
 </context>
 <context>
     <name>QgsBrowserLayerPropertiesBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Display Name</source>
@@ -13448,7 +16953,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Metadata</source>
-        <translation type="unfinished"></translation>
+        <translation>Metadata (Мэдээллийн лавлах)</translation>
     </message>
 </context>
 <context>
@@ -13470,7 +16975,7 @@ Database:%2</source>
     <name>QgsBrushStyleComboBox</name>
     <message>
         <source>Solid</source>
-        <translation type="unfinished">Битүү</translation>
+        <translation>Битүү</translation>
     </message>
     <message>
         <source>No Brush</source>
@@ -13502,31 +17007,31 @@ Database:%2</source>
     </message>
     <message>
         <source>Dense 1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">1</translation>
     </message>
     <message>
         <source>Dense 2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>Dense 3</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">3</translation>
     </message>
     <message>
         <source>Dense 4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">4</translation>
     </message>
     <message>
         <source>Dense 5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">5</translation>
     </message>
     <message>
         <source>Dense 6</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">6</translation>
     </message>
     <message>
         <source>Dense 7</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">7</translation>
     </message>
 </context>
 <context>
@@ -13540,11 +17045,11 @@ Database:%2</source>
     <name>QgsCalendarConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>A calendar widget to enter a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Огноо оруулах Хуанли Виджет.</translation>
     </message>
     <message>
         <source>Date format</source>
@@ -13559,26 +17064,26 @@ Database:%2</source>
     <name>QgsCategorizedSymbolRendererV2Model</name>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Томъёолсон тэмдэг</translation>
+        <translation>Томъёолсон тэмдэг</translation>
     </message>
 </context>
 <context>
     <name>QgsCategorizedSymbolRendererV2Widget</name>
     <message>
         <source>Column</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Change...</source>
@@ -13614,7 +17119,7 @@ Database:%2</source>
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">Нэмэлт</translation>
+        <translation>Нэмэлт</translation>
     </message>
     <message>
         <source>Random colors</source>
@@ -13646,12 +17151,13 @@ Database:%2</source>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>The classification field was changed from &apos;%1&apos; to &apos;%2&apos;.
 Should the existing classes be deleted before classification?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ангилал хийх талбар %1-ээс %2 болон өөрчлөгдлөө.
+Хуучин ангилалыг устгах уу?</translation>
     </message>
 </context>
 <context>
@@ -13673,7 +17179,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsCheckBoxConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Representation for checked state</source>
@@ -13757,14 +17263,14 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsColorButtonPlugin</name>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
 </context>
 <context>
     <name>QgsColorButtonV2</name>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>No color</source>
@@ -13776,7 +17282,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Copy color</source>
-        <translation type="unfinished">Өнгө хуулах</translation>
+        <translation>Өнгө хуулах</translation>
     </message>
     <message>
         <source>Paste color</source>
@@ -13795,7 +17301,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsColorButtonV2Plugin</name>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
 </context>
 <context>
@@ -13813,27 +17319,27 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>H</source>
-        <translation type="unfinished"></translation>
+        <translation>H</translation>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished">Ө</translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>R</source>
-        <translation type="unfinished"></translation>
+        <translation>R</translation>
     </message>
     <message>
         <source>G</source>
-        <translation type="unfinished"></translation>
+        <translation>G</translation>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Opacity</source>
@@ -13857,7 +17363,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Sample average radius</source>
@@ -13948,7 +17454,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Select palette file</source>
@@ -14015,7 +17521,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsColorRampComboBox</name>
     <message>
         <source>Random colors</source>
-        <translation type="unfinished">Тохиолдлын өнгүүд</translation>
+        <translation>Тохиолдлын өнгүүд</translation>
     </message>
     <message>
         <source>New color ramp...</source>
@@ -14030,14 +17536,14 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
 </context>
 <context>
     <name>QgsColorSliderWidget</name>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
 </context>
 <context>
@@ -14089,7 +17595,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
 </context>
 <context>
@@ -14114,7 +17620,7 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsComposer</name>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Хаах</translation>
+        <translation>Хаах</translation>
     </message>
     <message>
         <source>QGIS</source>
@@ -14130,7 +17636,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;Засах</translation>
+        <translation>&amp;Засах</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
@@ -14154,7 +17660,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation type="unfinished">&amp;Харагдалт</translation>
+        <translation>&amp;Харагдалт</translation>
     </message>
     <message>
         <source>P&amp;anels</source>
@@ -14174,7 +17680,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Тохируулга</translation>
+        <translation>&amp;Тохируулга</translation>
     </message>
     <message>
         <source>Composer</source>
@@ -14186,7 +17692,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Cut</source>
-        <translation type="unfinished">Тасдах</translation>
+        <translation>Тасдах</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -14194,7 +17700,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Хуулах</translation>
+        <translation>Хуулах</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -14202,7 +17708,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Буулгах</translation>
+        <translation>Буулгах</translation>
     </message>
     <message>
         <source>Normal</source>
@@ -14230,7 +17736,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -14238,7 +17744,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Composition</source>
-        <translation type="unfinished">Бүрдэл</translation>
+        <translation>Бүрдэл</translation>
     </message>
     <message>
         <source>Item properties</source>
@@ -14290,7 +17796,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>PDF Format</source>
-        <translation type="unfinished">PDF Төрөл</translation>
+        <translation>PDF Төрөл</translation>
     </message>
     <message>
         <source>Empty filename pattern</source>
@@ -14330,7 +17836,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Big image</source>
@@ -14371,7 +17877,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Don&apos;t show this message again</source>
-        <translation type="unfinished">Энэ захиаг дахин битгий харуул</translation>
+        <translation>Энэ захиаг дахин битгий харуул</translation>
     </message>
     <message>
         <source>&lt;p&gt;The SVG export function in QGIS has several problems due to bugs and deficiencies in the </source>
@@ -14411,7 +17917,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> copy</source>
-        <translation type="unfinished">хуулах</translation>
+        <translation>хуулах</translation>
     </message>
     <message>
         <source>Duplicating composer...</source>
@@ -14487,7 +17993,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Landscape</source>
-        <translation type="unfinished">Хэвтээ</translation>
+        <translation>Хэвтээ</translation>
     </message>
 </context>
 <context>
@@ -14565,7 +18071,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Arrow head width</source>
@@ -14581,11 +18087,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">Өгөгдмөл</translation>
+        <translation>Өгөгдмөл</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>SVG</source>
@@ -14601,7 +18107,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Arrow outline width</source>
-        <translation type="unfinished"></translation>
+        <translation>Сумны хүрээний өргөн</translation>
     </message>
     <message>
         <source>Start marker</source>
@@ -14620,19 +18126,19 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerAttributeTableColumnModel</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Heading</source>
@@ -14647,19 +18153,19 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerAttributeTableColumnModelV2</name>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматаар</translation>
     </message>
     <message>
         <source>%1 mm</source>
@@ -14667,7 +18173,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Heading</source>
@@ -14679,7 +18185,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
 </context>
 <context>
@@ -14741,11 +18247,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Зураг %1</translation>
+        <translation>Зураг %1</translation>
     </message>
     <message>
         <source>Table attribute settings</source>
-        <translation type="unfinished">Хүснэгтийн атрибут тохиргоо</translation>
+        <translation>Хүснэгтийн атрибут тохиргоо</translation>
     </message>
     <message>
         <source>Table map changed</source>
@@ -14761,7 +18267,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select Font</source>
-        <translation type="unfinished">Үсгийн фонтыг сонго</translation>
+        <translation>Үсгийн фонтыг сонго</translation>
     </message>
     <message>
         <source>Table header font</source>
@@ -14845,7 +18351,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Table layer changed</source>
-        <translation type="unfinished">Хүснэгт давхарга өөрчлөгдлөө</translation>
+        <translation>Хүснэгт давхарга өөрчлөгдлөө</translation>
     </message>
     <message>
         <source>Change resize mode</source>
@@ -14876,7 +18382,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerAttributeTableWidgetBase</name>
     <message>
         <source>Attribute Table</source>
-        <translation type="unfinished">Атирбут Хүснэгт</translation>
+        <translation>Атирбут Хүснэгт</translation>
     </message>
     <message>
         <source>Attribute table</source>
@@ -14888,7 +18394,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Refresh table data</source>
@@ -14896,11 +18402,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Attributes...</source>
-        <translation type="unfinished">Атрибут...</translation>
+        <translation>Атрибут...</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation> мм</translation>
     </message>
     <message>
         <source>Feature filtering</source>
@@ -14916,15 +18422,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Дэвсгэр өнгө</translation>
+        <translation>Дэвсгэр өнгө</translation>
     </message>
     <message>
         <source>Show empty rows</source>
@@ -14940,7 +18446,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
@@ -14956,15 +18462,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Alignment</source>
@@ -14972,11 +18478,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Үсгийн хэв</translation>
     </message>
     <message>
         <source>Choose font...</source>
-        <translation type="unfinished">Үсгийн хэв сонгох...</translation>
+        <translation>Үсгийн хэв сонгох...</translation>
     </message>
     <message>
         <source>Don&apos;t export page if frame is empty</source>
@@ -14992,7 +18498,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">Эх</translation>
+        <translation>Эх</translation>
     </message>
     <message>
         <source>Relation</source>
@@ -15087,7 +18593,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation type="unfinished">Ctrl+P</translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>Zoom full</source>
@@ -15095,23 +18601,23 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation type="unfinished">Томруулах</translation>
+        <translation>Томруулах</translation>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation type="unfinished">Ctrl++</translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation type="unfinished">Багасгах</translation>
+        <translation>Багасгах</translation>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation type="unfinished">Ctrl+-</translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Zoom to 100%</source>
@@ -15119,11 +18625,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ctrl+O {1?}</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Өсгөх</translation>
+        <translation>Өсгөх</translation>
     </message>
     <message>
         <source>Z</source>
@@ -15147,7 +18653,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>Export as image</source>
@@ -15163,7 +18669,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Show grid</source>
@@ -15219,7 +18725,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>C</source>
-        <translation type="unfinished"></translation>
+        <translation>C</translation>
     </message>
     <message>
         <source>Group items</source>
@@ -15227,7 +18733,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
         <source>Ungroup items</source>
@@ -15235,7 +18741,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+G</translation>
     </message>
     <message>
         <source>Raise selected items</source>
@@ -15243,7 +18749,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+]</translation>
     </message>
     <message>
         <source>Lower selected items</source>
@@ -15319,7 +18825,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished">&amp;Сэргээх</translation>
+        <translation>&amp;Сэргээх</translation>
     </message>
     <message>
         <source>Show &amp;Grid</source>
@@ -15443,7 +18949,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Quit</source>
-        <translation type="unfinished">Гарах</translation>
+        <translation>Гарах</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -15531,15 +19037,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished">Ctrl+Shift+P</translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation type="unfinished">&amp;Буцаах</translation>
+        <translation>&amp;Буцаах</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation type="unfinished">&amp;Дахих</translation>
+        <translation>&amp;Дахих</translation>
     </message>
     <message>
         <source>Add &amp;HTML</source>
@@ -15567,7 +19073,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+L</source>
-        <translation type="unfinished">Ctrl+Shift+L</translation>
+        <translation>Ctrl+Shift+L</translation>
     </message>
     <message>
         <source>Paste in place</source>
@@ -15575,11 +19081,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation type="unfinished">Ctrl+Shift+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Delete selected items</source>
@@ -15595,7 +19101,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation type="unfinished">Ctrl+Shift+A</translation>
+        <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
         <source>Select all items</source>
@@ -15603,7 +19109,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation type="unfinished">Ctrl+A</translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>&amp;Invert Selection</source>
@@ -15651,7 +19157,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+R</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>Ctrl+&lt;</source>
@@ -15663,7 +19169,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+.</source>
-        <translation type="unfinished">Ctrl+.</translation>
+        <translation>Ctrl+.</translation>
     </message>
     <message>
         <source>Ctrl+&gt;</source>
@@ -15739,7 +19245,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Composer manager</source>
-        <translation type="unfinished">Хэвлэлийн эх бэлтгэгч</translation>
+        <translation>Хэвлэлийн эх бэлтгэгч</translation>
     </message>
     <message>
         <source>New composer</source>
@@ -15747,11 +19253,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation type="unfinished">Ctrl+N</translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>&amp;Save Project</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Төсөл Хадгалах</translation>
     </message>
     <message>
         <source>Save project</source>
@@ -15759,7 +19265,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>Duplicate composer</source>
@@ -15767,48 +19273,84 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Ctrl+L</source>
-        <translation type="unfinished">Ctrl+L</translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <source>Unlock All Items</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show Bounding Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show bounding boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+B</source>
+        <translation>Ctrl+Shift+B</translation>
+    </message>
+    <message>
+        <source>Toggle Full Scr&amp;een</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle full screen mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F11</source>
+        <translation type="unfinished">F11</translation>
+    </message>
+    <message>
+        <source>&amp;Hide Panels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide panels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F10</source>
+        <translation type="unfinished">F10</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnAlignmentDelegate</name>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnSortOrderDelegate</name>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">Өсөх эрэмбээр</translation>
+        <translation>Өсөх эрэмбээр</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">Буурах эрэмбээр</translation>
+        <translation>Буурах эрэмбээр</translation>
     </message>
 </context>
 <context>
     <name>QgsComposerColumnWidthDelegate</name>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматаар</translation>
     </message>
 </context>
 <context>
@@ -15912,7 +19454,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>...</source>
@@ -15968,7 +19510,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>User stylesheet</source>
@@ -16074,7 +19616,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select frame color</source>
-        <translation type="unfinished">Хүрээний өнгийг сонгоно уу</translation>
+        <translation>Хүрээний өнгийг сонгоно уу</translation>
     </message>
     <message>
         <source>Item blend mode changed</source>
@@ -16113,19 +19655,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Ү</translation>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>Page</source>
@@ -16133,11 +19675,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished">Эргэлт</translation>
+        <translation>Эргэлт</translation>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>...</source>
@@ -16149,19 +19691,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Нэгтгэх хэлбэр</translation>
+        <translation>Нэгтгэх хэлбэр</translation>
     </message>
     <message>
         <source>Frame color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
+        <translation>Хүрээний өнгө</translation>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Дэвсгэр өнгө</translation>
+        <translation>Дэвсгэр өнгө</translation>
     </message>
     <message>
         <source>Rendering</source>
@@ -16185,7 +19727,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">Тунгалагжилт</translation>
+        <translation>Тунгалагжилт</translation>
     </message>
     <message>
         <source>Item ID</source>
@@ -16193,7 +19735,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
 </context>
 <context>
@@ -16215,7 +19757,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerLabelWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Үсгийн өнгийг сонгох</translation>
+        <translation>Үсгийн өнгийг сонгох</translation>
     </message>
     <message>
         <source>Label text HTML state changed</source>
@@ -16254,7 +19796,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -16278,7 +19820,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Үсгийн өнгө</translation>
+        <translation>Үсгийн өнгө</translation>
     </message>
     <message>
         <source>Horizontal alignment</source>
@@ -16290,7 +19832,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>Middle</source>
@@ -16298,26 +19840,30 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Доод</translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
-    </message>
-    <message>
-        <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source> mm</source>
+        <translation>мм</translation>
+    </message>
+    <message>
+        <source>Horizontal margin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical margin</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -16361,7 +19907,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerLegendWidget</name>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Үсгийн өнгийг сонгох</translation>
+        <translation>Үсгийн өнгийг сонгох</translation>
     </message>
     <message>
         <source>Item wrapping changed</source>
@@ -16453,11 +19999,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Legend item properties</source>
-        <translation type="unfinished">Таних тэмдэгийн шинж чанар</translation>
+        <translation>Таних тэмдэгийн шинж чанар</translation>
     </message>
     <message>
         <source>Item text</source>
-        <translation type="unfinished">Бичвэр</translation>
+        <translation>Бичвэр</translation>
     </message>
     <message>
         <source>Legend item edited</source>
@@ -16473,15 +20019,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Бүлэг</translation>
+        <translation>Бүлэг</translation>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Зураг %1</translation>
+        <translation>Зураг %1</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
 </context>
 <context>
@@ -16492,7 +20038,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Томъёолсон тэмдэг</translation>
+        <translation>Томъёолсон тэмдэг</translation>
     </message>
     <message>
         <source>Main properties</source>
@@ -16504,7 +20050,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">Зураг</translation>
+        <translation>Зураг</translation>
     </message>
     <message>
         <source>Wrap text on</source>
@@ -16544,11 +20090,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Count</source>
-        <translation type="unfinished">Тоолох</translation>
+        <translation>Тоолох</translation>
     </message>
     <message>
         <source>Equal column widths</source>
@@ -16576,15 +20122,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Update whole legend. Layers are added/removed according to main application legend. User defined labels will be deleted.</source>
@@ -16624,19 +20170,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Үсгийн өнгө</translation>
+        <translation>Үсгийн өнгө</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Symbol width</source>
-        <translation type="unfinished">Таних тэмдгийн өргөн</translation>
+        <translation>Таних тэмдгийн өргөн</translation>
     </message>
     <message>
         <source>Symbol height</source>
-        <translation type="unfinished">Таних тэмдэгийн өндөр</translation>
+        <translation>Таних тэмдэгийн өндөр</translation>
     </message>
     <message>
         <source>WMS LegendGraphic</source>
@@ -16719,7 +20265,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Error, could not read file</source>
-        <translation type="unfinished">Алдаа, ажлыг уншихад</translation>
+        <translation>Алдаа, ажлыг уншихад</translation>
     </message>
     <message>
         <source>Composer error</source>
@@ -16836,7 +20382,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Render</source>
-        <translation type="unfinished">Орлуулга</translation>
+        <translation>Орлуулга</translation>
     </message>
     <message>
         <source>Rectangle</source>
@@ -16876,7 +20422,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Үсгийн өнгийг сонгох</translation>
+        <translation>Үсгийн өнгийг сонгох</translation>
     </message>
     <message>
         <source>Select grid frame color</source>
@@ -16900,7 +20446,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Overview %1</source>
@@ -16980,11 +20526,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Centimeter</source>
@@ -17143,10 +20689,6 @@ Please try a lower resolution or a smaller papersize</source>
         <translation>Хэвтээ</translation>
     </message>
     <message>
-        <source>Vertical</source>
-        <translation>Босоо</translation>
-    </message>
-    <message>
         <source>Annotation position changed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17157,6 +20699,46 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <source>Map %1</source>
         <translation>Зураг %1</translation>
+    </message>
+    <message>
+        <source>Frame divisions changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Annotation display changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show latitude only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show longitude only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Latitude/Y only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Longitude/X only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vertical descending</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -17235,7 +20817,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Fixed scale</source>
@@ -17255,7 +20837,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Blend mode</source>
@@ -17295,15 +20877,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>X </source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Y </source>
-        <translation type="unfinished"></translation>
+        <translation>Ү</translation>
     </message>
     <message>
         <source>Cross width</source>
@@ -17319,7 +20901,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Grids</source>
-        <translation type="unfinished"></translation>
+        <translation>Растерууд</translation>
     </message>
     <message>
         <source>Add a new grid</source>
@@ -17359,11 +20941,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Centimeter</source>
@@ -17415,7 +20997,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Left</source>
@@ -17443,7 +21025,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Үсгийн өнгө</translation>
+        <translation>Үсгийн өнгө</translation>
     </message>
     <message>
         <source>Distance to map frame</source>
@@ -17474,6 +21056,22 @@ Please try a lower resolution or a smaller papersize</source>
         <translation>Өөрчлөх ...</translation>
     </message>
     <message>
+        <source>Right divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom divisions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Add a new overview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17489,6 +21087,10 @@ Please try a lower resolution or a smaller papersize</source>
         <source>Move selected overview down</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lock layer styles for map item</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsComposerModel</name>
@@ -17501,7 +21103,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerMouseHandles</name>
     <message>
         <source>Change item position</source>
-        <translation type="unfinished"></translation>
+        <translation>Байрлалыг өөрчлөх</translation>
     </message>
     <message>
         <source>Change item size</source>
@@ -17585,7 +21187,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Зураг %1</translation>
+        <translation>Зураг %1</translation>
     </message>
     <message>
         <source>Creating icon for file %1</source>
@@ -17620,11 +21222,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
+        <translation>Байрлал</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Өсгөх</translation>
+        <translation>Өсгөх</translation>
     </message>
     <message>
         <source>Stretch</source>
@@ -17708,7 +21310,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
 </context>
 <context>
@@ -17719,11 +21321,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>km</source>
-        <translation type="unfinished"></translation>
+        <translation> км</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished"></translation>
+        <translation> м</translation>
     </message>
     <message>
         <source>miles</source>
@@ -17766,7 +21368,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Middle</source>
@@ -17774,7 +21376,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Map units</source>
@@ -17782,11 +21384,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Meters</source>
-        <translation type="unfinished">Метр</translation>
+        <translation>Метр</translation>
     </message>
     <message>
         <source>Feet</source>
-        <translation type="unfinished"></translation>
+        <translation>Feet</translation>
     </message>
     <message>
         <source>Nautical Miles</source>
@@ -17794,7 +21396,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Transparent fill</source>
@@ -17806,7 +21408,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Select font color</source>
-        <translation type="unfinished">Үсгийн өнгийг сонгох</translation>
+        <translation>Үсгийн өнгийг сонгох</translation>
     </message>
     <message>
         <source>Select stroke color</source>
@@ -17818,7 +21420,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Зураг %1</translation>
+        <translation>Зураг %1</translation>
     </message>
     <message>
         <source>Scalebar map changed</source>
@@ -17929,19 +21531,19 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">Зураг</translation>
+        <translation>Зураг</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished">Нэгж</translation>
+        <translation>Нэгж</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Map units per bar unit</source>
@@ -17961,7 +21563,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">Хэмжээ</translation>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source> units</source>
@@ -17969,15 +21571,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Дэлгэц</translation>
+        <translation>Дэлгэц</translation>
     </message>
     <message>
         <source>Box margin</source>
@@ -17989,11 +21591,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Line width</source>
-        <translation type="unfinished">Шугамын өргөн</translation>
+        <translation>Шугамын өргөн</translation>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Нэгтгэх хэлбэр</translation>
+        <translation>Нэгтгэх хэлбэр</translation>
     </message>
     <message>
         <source>Cap style</source>
@@ -18009,11 +21611,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Font color</source>
-        <translation type="unfinished">Үсгийн өнгө</translation>
+        <translation>Үсгийн өнгө</translation>
     </message>
     <message>
         <source>Fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Дүүргэх өнгө</translation>
     </message>
     <message>
         <source>Secondary fill color</source>
@@ -18051,11 +21653,11 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerShapeWidget</name>
     <message>
         <source>Ellipse</source>
-        <translation type="unfinished">Зууван</translation>
+        <translation>Зууван</translation>
     </message>
     <message>
         <source>Rectangle</source>
-        <translation type="unfinished">Тэгш өнцөгт</translation>
+        <translation>Тэгш өнцөгт</translation>
     </message>
     <message>
         <source>Triangle</source>
@@ -18094,11 +21696,11 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Change...</source>
@@ -18109,15 +21711,15 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableSortColumnsProxyModel</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">Буурах эрэмбээр</translation>
+        <translation>Буурах эрэмбээр</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">Өсөх эрэмбээр</translation>
+        <translation>Өсөх эрэмбээр</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Sort Order</source>
@@ -18128,15 +21730,15 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableSortColumnsProxyModelV2</name>
     <message>
         <source>Descending</source>
-        <translation type="unfinished">Буурах эрэмбээр</translation>
+        <translation>Буурах эрэмбээр</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation type="unfinished">Өсөх эрэмбээр</translation>
+        <translation>Өсөх эрэмбээр</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Sort Order</source>
@@ -18241,7 +21843,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsComposerTableWidgetBase</name>
     <message>
         <source>Attribute Table</source>
-        <translation type="unfinished">Атирбут Хүснэгт</translation>
+        <translation>Атирбут Хүснэгт</translation>
     </message>
     <message>
         <source>Attribute table</source>
@@ -18253,7 +21855,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Attributes...</source>
@@ -18269,7 +21871,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Fonts and text styling</source>
@@ -18313,7 +21915,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Filter with</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>...</source>
@@ -18337,15 +21939,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation type="unfinished">Төв</translation>
+        <translation>Төв</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
 </context>
 <context>
@@ -18368,15 +21970,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Давхаргууд</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Бүлэг</translation>
+        <translation>Бүлэг</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Box</source>
@@ -18592,7 +22194,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Map %1</source>
-        <translation type="unfinished">Зураг %1</translation>
+        <translation>Зураг %1</translation>
     </message>
     <message>
         <source>A5 (148x210 mm)</source>
@@ -18699,7 +22301,7 @@ Please try a lower resolution or a smaller papersize</source>
     <name>QgsCompositionWidgetBase</name>
     <message>
         <source>Composition</source>
-        <translation type="unfinished">Бүрдэл</translation>
+        <translation>Бүрдэл</translation>
     </message>
     <message>
         <source>Paper and quality</source>
@@ -18715,15 +22317,15 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>Units</source>
-        <translation type="unfinished">Нэгж</translation>
+        <translation>Нэгж</translation>
     </message>
     <message>
         <source>Number of pages</source>
@@ -18731,7 +22333,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Orientation</source>
-        <translation type="unfinished">Чиглэл</translation>
+        <translation>Эргэлт</translation>
     </message>
     <message>
         <source>Export resolution</source>
@@ -18775,7 +22377,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Grid offset</source>
@@ -18798,7 +22400,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished">Үйлдэл</translation>
+        <translation>Үйлдэл</translation>
     </message>
     <message>
         <source>Shortcut</source>
@@ -18806,7 +22408,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished">Өөрчлөх</translation>
+        <translation>Өөрчлөх</translation>
     </message>
     <message>
         <source>Set none</source>
@@ -18834,7 +22436,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">Бүх ажил</translation>
+        <translation>Бүх ажил</translation>
     </message>
     <message>
         <source>Saving shortcuts</source>
@@ -18873,7 +22475,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Set default (%1)</source>
@@ -18944,7 +22546,7 @@ Error: %5</source>
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
 </context>
 <context>
@@ -19029,7 +22631,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Palette</source>
-        <translation type="unfinished">Өнгөний хослол</translation>
+        <translation>Өнгөний хослол</translation>
     </message>
     <message>
         <source>Path</source>
@@ -19037,7 +22639,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
     <message>
         <source>Author(s)</source>
@@ -19045,7 +22647,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">Эх</translation>
+        <translation>Эх</translation>
     </message>
     <message>
         <source>Details</source>
@@ -19121,7 +22723,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
 </context>
 <context>
@@ -19136,7 +22738,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>You can define your own custom Coordinate Reference System (CRS) here. The definition must conform to the proj4 format for specifying a CRS.</source>
@@ -19148,7 +22750,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">Параметр</translation>
+        <translation>Параметр</translation>
     </message>
     <message>
         <source>Test</source>
@@ -19168,36 +22770,27 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>North</source>
-        <translation type="unfinished">Хойд</translation>
+        <translation>Хойд</translation>
     </message>
     <message>
         <source>East</source>
-        <translation type="unfinished">Дорнод</translation>
-    </message>
-    <message>
-        <source>Name:</source>
-        <translation>Нэр:</translation>
-    </message>
-    <message>
-        <source>Parameters:</source>
-        <translation type="unfinished">Параметр:</translation>
-    </message>
-    <message>
-        <source>Copy
- existing CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>Дорнод</translation>
     </message>
     <message>
         <source>Add new CRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation type="unfinished">Хасах</translation>
-    </message>
-    <message>
         <source>Calculate</source>
         <translation>Berechnen</translation>
+    </message>
+    <message>
+        <source>Remove CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy existing CRS</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -19208,11 +22801,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Choose a customization INI file</source>
@@ -19247,7 +22840,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
     <message>
         <source>Save to file</source>
@@ -19255,7 +22848,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
     <message>
         <source>Load from file</source>
@@ -19301,15 +22894,15 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Буулгах</translation>
+        <translation>Буулгах</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Хуулах</translation>
+        <translation>Хуулах</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Цэвэрлэх</translation>
+        <translation>Цэвэрлэх</translation>
     </message>
     <message>
         <source>string</source>
@@ -19345,7 +22938,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>field</source>
-        <translation type="unfinished">талбар</translation>
+        <translation>Талбар</translation>
     </message>
     <message>
         <source>Deactivate</source>
@@ -19353,11 +22946,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>Идэвхжүүлэх</translation>
     </message>
     <message>
         <source>Attribute field</source>
-        <translation type="unfinished"></translation>
+        <translation>Атирбут талбар</translation>
     </message>
     <message>
         <source>No matching field types found</source>
@@ -19365,7 +22958,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="unfinished">Илэрхийлэл</translation>
+        <translation>Илэрхийлэл</translation>
     </message>
     <message>
         <source>Current: </source>
@@ -19397,11 +22990,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>yes</source>
-        <translation type="unfinished">тийм</translation>
+        <translation>тийм</translation>
     </message>
     <message>
         <source>no</source>
-        <translation type="unfinished">үгүй</translation>
+        <translation>үгүй</translation>
     </message>
     <message>
         <source>&lt;b&gt;Usage:&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;</source>
@@ -19471,6 +23064,18 @@ and current file is [%3]</source>
         <source>string [&lt;b&gt;r,g,b,a&lt;/b&gt;] as int 0-255</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>double [0.0-1.0]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>string [&lt;b&gt;filepath&lt;/b&gt;]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[&lt;b&gt;&lt;dash&gt;;&lt;space&gt;&lt;/b&gt;] e.g. &apos;8;2;1;2&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsDataDefinedButtonPlugin</name>
@@ -19491,15 +23096,15 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Property</source>
-        <translation type="unfinished">Мөнчанар</translation>
+        <translation>Мөнчанар</translation>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="unfinished">Илэрхийлэл</translation>
+        <translation>Илэрхийлэл</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>double</source>
@@ -19534,7 +23139,7 @@ and current file is [%3]</source>
     <name>QgsDateTimeEditConfig</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Format&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Examples result&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;dd.MM.yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;21.05.2001&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ddd MMMM d yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;Tue May 21 01&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;hh:mm:ss.zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;14:13:09.042&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;h:m:s ap&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;2:13:9 pm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Date output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;d&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the day as number without a leading zero (1 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the day as number with a leading zero (01 to 31)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;ddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized day name (e.g. &apos;Mon&apos; to &apos;Sun&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;dddd&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized day name (e.g. &apos;Monday&apos; to &apos;&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qt.html#DayOfWeek-enum&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;Qt::Sunday&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the month as number without a leading zero (1-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the month as number with a leading zero (01-12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;MMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the abbreviated localized month name (e.g. &apos;Jan&apos; to &apos;Dec&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;MMMM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the long localized month name (e.g. &apos;January&apos; to &apos;December&apos;). Uses the system locale to localize the name, i.e.&lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/qlocale.html#system&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial,FreeSans,sans-serif&apos;; font-size:12px; font-weight:600; text-decoration: underline; color:#00732f;&quot;&gt;QLocale::system&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt;().&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;yy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the year as two digit number (00-99)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;yyyy&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the year as four digit number&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f6f6f6&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Expression&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot; vertical-align:top; padding-left:10; padding-right:15; padding-top:5; padding-bottom:5;&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:12px; font-weight:600; color:#363534;&quot;&gt;Time output&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;h&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;hh&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;H&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the hour without a leading zero (0 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;HH&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the hour with a leading zero (00 to 23, even with AM/PM display)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the minute without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;mm&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the minute with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;s&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the second without a leading zero (0 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ss&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the second with a leading zero (00 to 59)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the milliseconds without leading zeroes (0 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;zzz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;the milliseconds with leading zeroes (000 to 999)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;AP or A&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;use AM/PM display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;A/AP&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;AM&amp;quot; or &amp;quot;PM&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;ap or a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#ffffff&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#ffffff;&quot;&gt;use am/pm display.&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; font-style:italic; color:#66666e;&quot;&gt;a/ap&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e;&quot;&gt; will be replaced by either &amp;quot;am&amp;quot; or &amp;quot;pm&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#f6f6f6&quot; style=&quot; vertical-align:top; padding-left:10; padding-right:10; padding-top:3; padding-bottom:3;&quot;&gt;&lt;p&gt;&lt;span style=&quot; font-family:&apos;Open Sans,sans-serif&apos;; font-size:11px; color:#66666e; background-color:#f6f6f6;&quot;&gt;the timezone (for example &amp;quot;CEST&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -19574,7 +23179,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished">өгөгдмөл</translation>
+        <translation>өгөгдмөл</translation>
     </message>
     <message>
         <source>custom</source>
@@ -19611,7 +23216,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>үлмэдэгдэх</translation>
     </message>
 </context>
 <context>
@@ -19646,7 +23251,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
 </context>
 <context>
@@ -19657,15 +23262,15 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Connections</source>
-        <translation type="unfinished">Холболтууд</translation>
+        <translation>Холболтууд</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">Шинэ</translation>
+        <translation>Шинэ</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -19678,15 +23283,15 @@ and current file is [%3]</source>
     <message>
         <source>Load</source>
         <comment>Load connections from file</comment>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг файл болгон хадгалах</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
     <message>
         <source>Also list tables with no geometry</source>
@@ -19698,11 +23303,11 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Search options</source>
-        <translation type="unfinished"></translation>
+        <translation>Хайлтын тохиогоо</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Хайх</translation>
+        <translation>Хайх</translation>
     </message>
     <message>
         <source>Search mode</source>
@@ -19710,7 +23315,7 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Search in columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Баганад хайх</translation>
     </message>
 </context>
 <context>
@@ -19760,19 +23365,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Доод</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Дээд</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Доод</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Дээд</translation>
     </message>
     <message>
         <source>&amp;Orientation</source>
@@ -19780,15 +23385,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Хэвтээ</translation>
+        <translation>Хэвтээ</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished">Босоо</translation>
+        <translation>Босоо</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Select text color</source>
@@ -19799,11 +23404,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsDecorationGrid</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>No active layer</source>
-        <translation type="unfinished">Идэвхтэй давхарга алга</translation>
+        <translation>Идэвхтэй давхарга алга</translation>
     </message>
     <message>
         <source>Please select a raster layer</source>
@@ -19858,7 +23463,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Distance to map frame</source>
-        <translation type="unfinished">Зургийн хүрээ хүртэлх зай</translation>
+        <translation>Зургийн хүрээ хүртэлх зай</translation>
     </message>
     <message>
         <source>Coordinate precision</source>
@@ -19890,7 +23495,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Marker</source>
@@ -19898,11 +23503,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Хэвтээ</translation>
+        <translation>Хэвтээ</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished">Босоо</translation>
+        <translation>Босоо</translation>
     </message>
     <message>
         <source>Boundary direction</source>
@@ -19948,11 +23553,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">Өнцөг</translation>
+        <translation>Өнцөг</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
+        <translation>Байршуулах</translation>
     </message>
     <message>
         <source>Placement on screen</source>
@@ -19960,19 +23565,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Дээд</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Дээд</translation>
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Доод</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Доод</translation>
     </message>
     <message>
         <source>Enable North Arrow</source>
@@ -19991,19 +23596,19 @@ p, li { white-space: pre-wrap; }
     <name>QgsDecorationScaleBar</name>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Доод</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Дээд</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Дээд</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Доод</translation>
     </message>
     <message>
         <source>Tick Down</source>
@@ -20019,31 +23624,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Box</source>
-        <translation type="unfinished">Хайрцаг</translation>
+        <translation>Хайрцаг</translation>
     </message>
     <message>
         <source> km</source>
-        <translation type="unfinished"> км</translation>
+        <translation> км</translation>
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source> cm</source>
-        <translation type="unfinished"> см</translation>
+        <translation> см</translation>
     </message>
     <message>
         <source> m</source>
-        <translation type="unfinished"> м</translation>
+        <translation> м</translation>
     </message>
     <message>
         <source> miles</source>
-        <translation type="unfinished"></translation>
+        <translation>мил</translation>
     </message>
     <message>
         <source> mile</source>
-        <translation type="unfinished">мил</translation>
+        <translation>мил</translation>
     </message>
     <message>
         <source> inches</source>
@@ -20051,23 +23656,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source> foot</source>
-        <translation type="unfinished">фут</translation>
+        <translation>фут</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished">фут</translation>
+        <translation>фут</translation>
     </message>
     <message>
         <source> degree</source>
-        <translation type="unfinished">градус</translation>
+        <translation>градус</translation>
     </message>
     <message>
         <source> degrees</source>
-        <translation type="unfinished">градус</translation>
+        <translation>градус</translation>
     </message>
     <message>
         <source> unknown</source>
-        <translation type="unfinished">үлмэдэгдэх</translation>
+        <translation>үлмэдэгдэх</translation>
     </message>
 </context>
 <context>
@@ -20078,23 +23683,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
+        <translation>Байршуулах</translation>
     </message>
     <message>
         <source>Top Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Дээд</translation>
     </message>
     <message>
         <source>Top Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Дээд</translation>
     </message>
     <message>
         <source>Bottom Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Зүүн Доод</translation>
     </message>
     <message>
         <source>Bottom Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Баруун Доод</translation>
     </message>
     <message>
         <source>Scale bar style</source>
@@ -20114,7 +23719,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Box</source>
-        <translation type="unfinished">Хайрцаг</translation>
+        <translation>Хайрцаг</translation>
     </message>
     <message>
         <source>Bar</source>
@@ -20146,7 +23751,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source> degrees</source>
-        <translation type="unfinished">градус</translation>
+        <translation>градус</translation>
     </message>
     <message>
         <source>Select scalebar color</source>
@@ -20339,7 +23944,7 @@ not displayed</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">Бүх ажил</translation>
+        <translation>Бүх ажил</translation>
     </message>
 </context>
 <context>
@@ -20402,7 +24007,7 @@ not displayed</source>
     </message>
     <message>
         <source>Space</source>
-        <translation type="unfinished">Хоорондын зай</translation>
+        <translation>Хоорондын зай</translation>
     </message>
     <message>
         <source>Comma</source>
@@ -20434,7 +24039,7 @@ not displayed</source>
     </message>
     <message>
         <source>Geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>Геометр төрөл</translation>
     </message>
     <message>
         <source>Detect</source>
@@ -20442,15 +24047,15 @@ not displayed</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>Record options</source>
@@ -20622,7 +24227,7 @@ not displayed</source>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="unfinished">Илэрхийлэл</translation>
+        <translation>Илэрхийлэл</translation>
     </message>
     <message>
         <source>Regular expression used to split each line into fields</source>
@@ -20696,7 +24301,7 @@ not displayed</source>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished">мм</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Map units</source>
@@ -20712,11 +24317,11 @@ not displayed</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Хэвтээ</translation>
+        <translation>Хэвтээ</translation>
     </message>
     <message>
         <source>Free</source>
@@ -20724,11 +24329,11 @@ not displayed</source>
     </message>
     <message>
         <source>On line</source>
-        <translation type="unfinished">Шугаман дээр</translation>
+        <translation>Шугаман дээр</translation>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="unfinished">Шугаман дээгүүр</translation>
+        <translation>Шугаман дээгүүр</translation>
     </message>
     <message>
         <source>Below Line</source>
@@ -20748,11 +24353,11 @@ not displayed</source>
     </message>
     <message>
         <source>Histogram</source>
-        <translation type="unfinished">Гистограм</translation>
+        <translation>Гистограм</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>x-height</source>
@@ -20760,7 +24365,7 @@ not displayed</source>
     </message>
     <message>
         <source>Area</source>
-        <translation type="unfinished">Талбай</translation>
+        <translation>Талбай</translation>
     </message>
     <message>
         <source>Diameter</source>
@@ -20768,23 +24373,23 @@ not displayed</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Доод</translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Unknown diagram type.</source>
@@ -20843,11 +24448,11 @@ not displayed</source>
     </message>
     <message>
         <source>Low</source>
-        <translation type="unfinished">Доод</translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>High</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>Appearance</source>
@@ -20855,15 +24460,15 @@ not displayed</source>
     </message>
     <message>
         <source>Background color</source>
-        <translation type="unfinished">Дэвсгэр өнгө</translation>
+        <translation>Дэвсгэр өнгө</translation>
     </message>
     <message>
         <source>Line color</source>
-        <translation type="unfinished">Шугамын өнгө</translation>
+        <translation>Шугамын өнгө</translation>
     </message>
     <message>
         <source>Line width</source>
-        <translation type="unfinished">Шугамын өргөн</translation>
+        <translation>Шугамын өргөн</translation>
     </message>
     <message>
         <source>Font...</source>
@@ -20895,15 +24500,15 @@ not displayed</source>
     </message>
     <message>
         <source>Minimum</source>
-        <translation type="unfinished">Хамгийн бага</translation>
+        <translation>Хамгийн бага</translation>
     </message>
     <message>
         <source>Maximum</source>
-        <translation type="unfinished">Хамгийн их</translation>
+        <translation>Хамгийн их</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">Хэмжээ</translation>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Fixed size</source>
@@ -20919,7 +24524,7 @@ not displayed</source>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Edit expression</source>
@@ -20936,7 +24541,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">Масштаб</translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <source>Will scale diagrams with a size smaller than the minimum size to the minimum size</source>
@@ -20952,11 +24557,11 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Position</source>
-        <translation type="unfinished">Байрлал</translation>
+        <translation>Байрлал</translation>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
+        <translation>Байршуулах</translation>
     </message>
     <message>
         <source>Line Options</source>
@@ -20964,7 +24569,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished">Зай</translation>
+        <translation>Зай</translation>
     </message>
     <message>
         <source>Data defined position</source>
@@ -20972,11 +24577,11 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>x</source>
-        <translation type="unfinished">x</translation>
+        <translation>x</translation>
     </message>
     <message>
         <source>y</source>
-        <translation type="unfinished">y</translation>
+        <translation>Ү</translation>
     </message>
     <message>
         <source>Automated placement settings</source>
@@ -20984,7 +24589,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>Label placement</source>
@@ -20996,23 +24601,23 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished">Дээшээ</translation>
+        <translation>Дээшээ</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation type="unfinished">Доошоо</translation>
+        <translation>Доошоо</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished">Атрибут</translation>
+        <translation>Атрибут</translation>
     </message>
     <message>
         <source>Available attributes</source>
@@ -21032,7 +24637,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
 </context>
 <context>
@@ -21043,11 +24648,11 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">Хэмжээ</translation>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">Огноо</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Permissions</source>
@@ -21055,15 +24660,15 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">Эзэмшигч</translation>
+        <translation>Эзэмшигч</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished">Бүлэг</translation>
+        <translation>Бүлэг</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>folder</source>
@@ -21130,7 +24735,7 @@ Parser error:
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Attribute table</source>
@@ -21145,11 +24750,11 @@ Parser error:
     <name>QgsDualViewBase</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="unfinished">Илэрхийлэл</translation>
+        <translation>Илэрхийлэл</translation>
     </message>
     <message>
         <source>Column Preview</source>
@@ -21160,7 +24765,7 @@ Parser error:
     <name>QgsDummyConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Dummy Text</source>
@@ -21194,11 +24799,11 @@ Parser error:
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished">Нэрлэж хадгалах</translation>
+        <translation>Нэрлэж хадгалах</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>No symbology</source>
@@ -21214,18 +24819,22 @@ Parser error:
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Бүгдийг сонгох</translation>
+        <translation>Бүгдийг сонгох</translation>
     </message>
     <message>
         <source>Unselect all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Layer attribute</source>
+        <source>Export features intersecting the current map extent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Export features intersecting the current map extent</source>
+        <source>Visibility presets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Encoding</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21239,20 +24848,84 @@ Parser error:
         <source>Could not save unknown editor widget type &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Classification</source>
+        <translation>Ангилал</translation>
+    </message>
+    <message>
+        <source>Range</source>
+        <translation>Хязгаар</translation>
+    </message>
+    <message>
+        <source>Unique Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Name</source>
+        <translation>Ажлын нэр</translation>
+    </message>
+    <message>
+        <source>Value Map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enumeration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Далд</translation>
+    </message>
+    <message>
+        <source>Check Box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value Relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Uuid Generator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Photo</source>
+        <translation>Зураг</translation>
+    </message>
+    <message>
+        <source>Web View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>Өнгө</translation>
+    </message>
+    <message>
+        <source>Relation Reference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date/Time</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsEllipseSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Transparent fill</source>
@@ -21260,50 +24933,10 @@ Parser error:
     </message>
     <message>
         <source>Select border color</source>
-        <translation type="unfinished">Хүрээний өнгө сонгох</translation>
+        <translation>Хүрээний өнгө сонгох</translation>
     </message>
     <message>
         <source>Transparent border</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Symbol width</source>
-        <translation type="unfinished">Таних тэмдгийн өргөн</translation>
-    </message>
-    <message>
-        <source>Symbol height</source>
-        <translation type="unfinished">Таних тэмдэгийн өндөр</translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation type="unfinished">Эргэлт</translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
-    </message>
-    <message>
-        <source>Symbol name</source>
-        <translation type="unfinished">Таних тэмдэгийн Нэр</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21393,30 +25026,14 @@ Parser error:
     <name>QgsErrorDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
 </context>
 <context>
     <name>QgsErrorDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Summary&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Detailed report.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Always show details</source>
@@ -21424,6 +25041,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Details &gt;&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Summary&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:10pt;&quot;&gt;Detailed report.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21537,19 +25170,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsExpressionBuilderWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Function list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected function help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Field values</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Load values</source>
@@ -21562,10 +25183,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>10 samples</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Operators</source>
-        <translation type="unfinished">Оператор</translation>
     </message>
     <message>
         <source>Equal operator</source>
@@ -21651,6 +25268,54 @@ p, li { white-space: pre-wrap; }
         <source>Expression</source>
         <translation>Илэрхийлэл</translation>
     </message>
+    <message>
+        <source>Functions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Function Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run the current editor text in QGIS (also saves current script). 
+
+Use this when testing your functions.
+
+Saved scripts are auto loaded on QGIS startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run Script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new function file based on the template file.
+
+Change the name of the script and save to allow QGIS to auto load on startup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name of the file to save. 
+
+Existing files are listed here and loaded when selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save the current script into the users function file folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>Ажлыг хадгалах</translation>
+    </message>
 </context>
 <context>
     <name>QgsExpressionSelectionDialogBase</name>
@@ -21706,7 +25371,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsExtentGroupBoxWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>West</source>
@@ -21808,7 +25473,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Create a new field</source>
-        <translation type="unfinished">Шинэ талбар үүсгэх</translation>
+        <translation>Шинэ талбар үүсгэх</translation>
     </message>
     <message>
         <source>Output field name</source>
@@ -21876,11 +25541,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsFieldsProperties</name>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <source>Name</source>
@@ -21900,7 +25565,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Нарийвчлал</translation>
+        <translation>Нарийвчлал</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -21944,7 +25609,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Unique values</source>
-        <translation type="unfinished">Үл давтагдах утгууд</translation>
+        <translation>Үл давтагдах утгууд</translation>
     </message>
     <message>
         <source>Unique values editable</source>
@@ -21952,7 +25617,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Classification</source>
-        <translation type="unfinished"></translation>
+        <translation>Ангилал</translation>
     </message>
     <message>
         <source>Value map</source>
@@ -21984,7 +25649,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hidden</source>
-        <translation type="unfinished">Далд</translation>
+        <translation>Далд</translation>
     </message>
     <message>
         <source>Checkbox</source>
@@ -22012,7 +25677,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Web view</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб</translation>
     </message>
     <message>
         <source>Color</source>
@@ -22055,7 +25720,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete column</source>
-        <translation type="unfinished">Багана устгах</translation>
+        <translation>Багана устгах</translation>
     </message>
     <message>
         <source>QGIS forms can have a Python function that is called when the form is opened.
@@ -22118,7 +25783,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">Өгөгдмөл</translation>
+        <translation>Өгөгдмөл</translation>
     </message>
     <message>
         <source>On</source>
@@ -22153,11 +25818,11 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     <name>QgsFileNameWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг сонгох</translation>
     </message>
 </context>
 <context>
@@ -22168,7 +25833,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select symbol color</source>
@@ -22281,7 +25946,7 @@ MyForms.py must live on PYTHONPATH, .qgis/python, or inside the project folder.<
     </message>
     <message>
         <source>Track download</source>
-        <translation type="unfinished"></translation>
+        <translation>Удирдамж</translation>
     </message>
     <message>
         <source>Route upload</source>
@@ -22510,7 +26175,7 @@ Errors: %2
     </message>
     <message>
         <source>&amp;Add feature</source>
-        <translation type="unfinished">&amp;Обьект нэмэх</translation>
+        <translation>&amp;Обьект нэмэх</translation>
     </message>
     <message>
         <source>Quick status indicator:
@@ -22596,7 +26261,7 @@ gray = no data
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Хур</translation>
     </message>
     <message>
         <source>track direction (degrees)</source>
@@ -22604,7 +26269,7 @@ gray = no data
     </message>
     <message>
         <source>Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Чиглэл</translation>
     </message>
     <message>
         <source>Horizontal Dilution of Precision</source>
@@ -22636,7 +26301,7 @@ gray = no data
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Горим</translation>
+        <translation>Горим</translation>
     </message>
     <message>
         <source>position fix dimensions: 2D, 3D or No fix</source>
@@ -22644,7 +26309,7 @@ gray = no data
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished">Хэмжээс</translation>
+        <translation>Хэмжээс</translation>
     </message>
     <message>
         <source>quality of the position fix: Differential, Non-differential or No position</source>
@@ -22660,7 +26325,7 @@ gray = no data
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Статус</translation>
     </message>
     <message>
         <source>number of satellites used in the position fix</source>
@@ -22720,7 +26385,7 @@ gray = no data
     </message>
     <message>
         <source>Digitizing</source>
-        <translation type="unfinished">Давхарлан зурах</translation>
+        <translation>Давхарлан зурах</translation>
     </message>
     <message>
         <source>Track</source>
@@ -22819,7 +26484,7 @@ gray = no data
     </message>
     <message>
         <source>GPS eXchange file</source>
-        <translation type="unfinished">GPS eXchange файл</translation>
+        <translation>GPS eXchange файл</translation>
     </message>
     <message>
         <source>Could not create file</source>
@@ -22925,15 +26590,15 @@ Please reselect a valid file.</source>
     <name>QgsGPSPluginGui</name>
     <message>
         <source>Waypoints</source>
-        <translation type="unfinished">Өртөө</translation>
+        <translation>Өртөө</translation>
     </message>
     <message>
         <source>Routes</source>
-        <translation type="unfinished">Чиглэл</translation>
+        <translation>Чиглэл</translation>
     </message>
     <message>
         <source>Tracks</source>
-        <translation type="unfinished">Мөр</translation>
+        <translation>Мөр</translation>
     </message>
     <message>
         <source>Choose a file name to save under</source>
@@ -22988,7 +26653,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">Зам заах...</translation>
+        <translation>Зам заах...</translation>
     </message>
     <message>
         <source>Feature types</source>
@@ -23028,7 +26693,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Save As...</source>
-        <translation type="unfinished">Өөрөөр хадгалах...</translation>
+        <translation>Өөрөөр хадгалах...</translation>
     </message>
     <message>
         <source>(Note: Selecting correct file type in browser dialog important!)</source>
@@ -23126,7 +26791,7 @@ Please reselect a valid file.</source>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">Суваг</translation>
+        <translation>Суваг</translation>
     </message>
     <message>
         <source>Format not supported</source>
@@ -23709,7 +27374,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
         <source>Generate GDAL script</source>
@@ -23819,7 +27484,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsGlobePluginDialogGuiBase</name>
     <message>
         <source>Globe Settings</source>
-        <translation type="unfinished">Тохиргоо</translation>
+        <translation>Тохиргоо</translation>
     </message>
     <message>
         <source>Elevation</source>
@@ -23851,7 +27516,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Map</source>
-        <translation type="unfinished">Зураг</translation>
+        <translation>Зураг</translation>
     </message>
     <message>
         <source>Base Layer</source>
@@ -23859,11 +27524,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>ТекстШошго</translation>
     </message>
     <message>
         <source>Sky</source>
@@ -23991,7 +27656,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Error: %1 on line %2, column %3</source>
@@ -23999,7 +27664,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>GML Getfeature network request failed with error: %1</source>
@@ -24007,7 +27672,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Сүлжээ</translation>
+        <translation>Улаан</translation>
     </message>
 </context>
 <context>
@@ -24021,11 +27686,11 @@ p, li { white-space: pre-wrap; }
     <name>QgsGradientFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -24035,60 +27700,12 @@ p, li { white-space: pre-wrap; }
         <source>Transparent</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">Өнцөг</translation>
-    </message>
-    <message>
-        <source>Gradient type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Coordinate mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spread</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 1 (is centroid)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (x)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (y)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference Point 2 (is centroid)</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QgsGraduatedSymbolRendererV2Model</name>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Values</source>
@@ -24096,26 +27713,26 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished">Томъёолсон тэмдэг</translation>
+        <translation>Томъёолсон тэмдэг</translation>
     </message>
 </context>
 <context>
     <name>QgsGraduatedSymbolRendererV2Widget</name>
     <message>
         <source>Column</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation type="unfinished">Таних тэмдэг</translation>
+        <translation>Таних тэмдэг</translation>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
+        <translation>Өөрчлөх ...</translation>
     </message>
     <message>
         <source>Classes</source>
-        <translation type="unfinished">Ангий</translation>
+        <translation>Ангий</translation>
     </message>
     <message>
         <source>Color ramp</source>
@@ -24138,11 +27755,11 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Горим</translation>
+        <translation>Горим</translation>
     </message>
     <message>
         <source>Equal Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Тэнцүү интервал</translation>
     </message>
     <message>
         <source>Quantile (Equal Count)</source>
@@ -24154,7 +27771,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Standard Deviation</source>
-        <translation type="unfinished">Стандарт Хазайц</translation>
+        <translation>Стандарт Хазайц</translation>
     </message>
     <message>
         <source>Pretty Breaks</source>
@@ -24170,7 +27787,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Нарийвчлал</translation>
+        <translation>Нарийвчлал</translation>
     </message>
     <message>
         <source>Trim</source>
@@ -24186,11 +27803,11 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Delete all</source>
-        <translation type="unfinished">Бүгдийг устгах</translation>
+        <translation>Бүгдийг устгах</translation>
     </message>
     <message>
         <source>Link class boundaries</source>
@@ -24198,7 +27815,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">Нэмэлт</translation>
+        <translation>Нэмэлт</translation>
     </message>
     <message>
         <source>Symbol levels...</source>
@@ -24206,7 +27823,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
@@ -24218,7 +27835,7 @@ Use &quot;%1&quot; for the lower bound of the classification, and &quot;%2&quot;
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Natural break classification (Jenks) is O(n2) complexity, your classification may take a long time.
@@ -24238,19 +27855,19 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     <name>QgsGrassAttributes</name>
     <message>
         <source>Column</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -24262,7 +27879,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">Тийм</translation>
+        <translation>Тийм</translation>
     </message>
 </context>
 <context>
@@ -24360,7 +27977,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
     <message>
         <source>Remove the selected layer(s) from canvas before continue.</source>
@@ -24596,7 +28213,7 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -24624,11 +28241,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Index</source>
@@ -24640,11 +28257,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Column</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">Урт</translation>
+        <translation>Урт</translation>
     </message>
     <message>
         <source>Add Column</source>
@@ -24760,11 +28377,11 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     <name>QgsGrassElementDialog</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Тийм</translation>
     </message>
     <message>
         <source>&lt;font color=&apos;red&apos;&gt;Enter a name!&lt;/font&gt;</source>
@@ -24955,15 +28572,15 @@ Press cancel to abort breaks calculation or OK to continue.</source>
     </message>
     <message>
         <source>Largest value</source>
-        <translation type="unfinished"></translation>
+        <translation>Хамгийн их</translation>
     </message>
     <message>
         <source>Median value</source>
-        <translation type="unfinished"></translation>
+        <translation>Голын утга</translation>
     </message>
     <message>
         <source>Smallest value</source>
-        <translation type="unfinished"></translation>
+        <translation>Хамгийн бага</translation>
     </message>
     <message>
         <source>Mode value</source>
@@ -25219,7 +28836,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>ТекстШошго</translation>
     </message>
     <message>
         <source>Run</source>
@@ -25284,7 +28901,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэвтрэх үг</translation>
     </message>
     <message>
         <source>Select a layer</source>
@@ -25350,11 +28967,11 @@ at line %2 column %3</source>
     <name>QgsGrassModuleOption</name>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished">Гаралтын ажил</translation>
+        <translation>Гаралтын ажил</translation>
     </message>
     <message>
         <source>GeoTIFF</source>
@@ -25362,7 +28979,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Cannot parse version_min %1</source>
@@ -25414,7 +29031,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Region</source>
-        <translation type="unfinished"></translation>
+        <translation>Талбай</translation>
     </message>
     <message>
         <source>Input layers</source>
@@ -25591,7 +29208,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Mapset: </source>
-        <translation type="unfinished"></translation>
+        <translation>Багцзураг:</translation>
     </message>
     <message>
         <source>Create location</source>
@@ -25627,6 +29244,10 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>New mapset successfully created and set as current working mapset.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot activate grass</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -25762,7 +29383,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Mapset</source>
-        <translation type="unfinished">Багцзураг</translation>
+        <translation>Багцзураг</translation>
     </message>
     <message>
         <source>New mapset:</source>
@@ -25805,19 +29426,19 @@ p, li { white-space: pre-wrap; }
     <name>QgsGrassPlugin</name>
     <message>
         <source>GrassVector</source>
-        <translation type="unfinished"></translation>
+        <translation>GrassVector</translation>
     </message>
     <message>
         <source>0.1</source>
-        <translation type="unfinished">0.1</translation>
+        <translation>0.1</translation>
     </message>
     <message>
         <source>GRASS layer</source>
-        <translation type="unfinished">GRASS давхарга</translation>
+        <translation>GRASS давхарга</translation>
     </message>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished">Өргөтгөл</translation>
+        <translation>Хэрэгслүүд</translation>
     </message>
     <message>
         <source>Add GRASS raster layer</source>
@@ -25999,7 +29620,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Cannot write region</source>
@@ -26018,19 +29639,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>North</source>
-        <translation type="unfinished">Хойд</translation>
+        <translation>Хойд</translation>
     </message>
     <message>
         <source>West</source>
-        <translation type="unfinished">Өрнөд</translation>
+        <translation>Өрнөд</translation>
     </message>
     <message>
         <source>East</source>
-        <translation type="unfinished">Дорнод</translation>
+        <translation>Дорнод</translation>
     </message>
     <message>
         <source>South</source>
-        <translation type="unfinished">Өмнөд</translation>
+        <translation>Өмнөд</translation>
     </message>
     <message>
         <source>Select the extent by dragging on canvas 
@@ -26051,7 +29672,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Rows</source>
@@ -26059,7 +29680,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Border</source>
-        <translation type="unfinished">Хүрээ</translation>
+        <translation>Хүрээ</translation>
     </message>
     <message>
         <source>Color</source>
@@ -26149,7 +29770,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">Зам заах...</translation>
+        <translation>Зам заах...</translation>
     </message>
 </context>
 <context>
@@ -26164,7 +29785,7 @@ or change the following values</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>Cannot rename the lock file %1</source>
@@ -26271,11 +29892,11 @@ at line %2 column %3</source>
     <name>QgsGuiVectorLayerTools</name>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Обьект нэмэх</translation>
+        <translation>Обьект нэмэх</translation>
     </message>
     <message>
         <source>Start editing failed</source>
-        <translation type="unfinished">Засварын горим эхэлсэнгүй</translation>
+        <translation>Засварын горим эхэлсэнгүй</translation>
     </message>
     <message>
         <source>Provider cannot be opened for editing</source>
@@ -26291,7 +29912,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Problems during roll back</source>
@@ -26319,7 +29940,7 @@ at line %2 column %3</source>
     <name>QgsHandleBadLayers</name>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -26327,7 +29948,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Provider</source>
@@ -26385,10 +30006,73 @@ at line %2 column %3</source>
     </message>
 </context>
 <context>
+    <name>QgsHeatmapRendererWidget</name>
+    <message>
+        <source>The heatmap renderer only applies to point and multipoint layers. 
+&apos;%1&apos; is not a point layer and cannot be rendered as a heatmap.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation>Пикселүүд</translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>Миллиметр</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>Зургийн нэгж</translation>
+    </message>
+</context>
+<context>
+    <name>QgsHeatmapRendererWidgetBase</name>
+    <message>
+        <source>Form</source>
+        <translation>Форм</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Автоматаар</translation>
+    </message>
+    <message>
+        <source>Radius</source>
+        <translation>Тойрог</translation>
+    </message>
+    <message>
+        <source>Rendering quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Best&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Fastest&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Өөрчлөх</translation>
+    </message>
+    <message>
+        <source>Invert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Хамгийн их утга</translation>
+    </message>
+    <message>
+        <source>Weight points by</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsHelpViewer</name>
     <message>
         <source>QGIS Help</source>
-        <translation type="unfinished">QGIS Hilfe</translation>
+        <translation>QGIS Hilfe</translation>
     </message>
 </context>
 <context>
@@ -26410,11 +30094,11 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>html</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML</translation>
     </message>
 </context>
 <context>
@@ -26441,7 +30125,7 @@ at line %2 column %3</source>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished">Холбогдоогүй байна</translation>
+        <translation>Холбогдоогүй байна</translation>
     </message>
     <message>
         <source>Looking up &apos;%1&apos;</source>
@@ -26515,7 +30199,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>FID</source>
@@ -26531,7 +30215,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Clear Results</source>
@@ -26539,7 +30223,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>Select identify mode</source>
@@ -26547,7 +30231,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Горим</translation>
+        <translation>Горим</translation>
     </message>
     <message>
         <source>Select view mode for raster layers</source>
@@ -26555,7 +30239,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">Харагдалт</translation>
+        <translation>Харагдалт</translation>
     </message>
     <message>
         <source>Auto open form</source>
@@ -26578,7 +30262,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIdentifyResultsDialog</name>
     <message>
         <source>Identify Results</source>
-        <translation type="unfinished">Үр дүнг Тодорхойлох</translation>
+        <translation>Үр дүнг Тодорхойлох</translation>
     </message>
     <message>
         <source>Feature</source>
@@ -26586,7 +30270,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Current layer</source>
@@ -26622,7 +30306,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Tree</source>
@@ -26638,7 +30322,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>No attributes.</source>
@@ -26702,7 +30386,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Attributes changed</source>
-        <translation type="unfinished">Атрибут өөрчлөгдсөн</translation>
+        <translation>Атрибут өөрчлөгдсөн</translation>
     </message>
     <message>
         <source>Cannot print</source>
@@ -26770,7 +30454,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Points</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Save interpolated raster as...</source>
@@ -26781,7 +30465,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsInterpolationDialogBase</name>
     <message>
         <source>Interpolation plugin</source>
-        <translation type="unfinished">Интерполяц хэрэгсэл</translation>
+        <translation>Интерполяц хэрэгсэл</translation>
     </message>
     <message>
         <source>Input</source>
@@ -26801,11 +30485,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">Нэмэх</translation>
+        <translation>Нэмэх</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Хасах</translation>
+        <translation>Хасах</translation>
     </message>
     <message>
         <source>Vector layer</source>
@@ -26817,19 +30501,19 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Output</source>
-        <translation type="unfinished">Гаралт</translation>
+        <translation>Гаралт</translation>
     </message>
     <message>
         <source>Interpolation method</source>
-        <translation type="unfinished">Интерполяцийн арга</translation>
+        <translation>Интерполяцийн арга</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Number of columns</source>
@@ -26849,19 +30533,19 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>X min</source>
-        <translation type="unfinished"></translation>
+        <translation>Х ХБ</translation>
     </message>
     <message>
         <source>X max</source>
-        <translation type="unfinished">X ХИ</translation>
+        <translation>X ХИ</translation>
     </message>
     <message>
         <source>Y min</source>
-        <translation type="unfinished">Y ХБ</translation>
+        <translation>Y ХБ</translation>
     </message>
     <message>
         <source>Y max</source>
-        <translation type="unfinished">Y ХИ</translation>
+        <translation>Y ХИ</translation>
     </message>
     <message>
         <source>Set to current extent</source>
@@ -26873,7 +30557,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Add result to project</source>
-        <translation type="unfinished">Үр дүнг төсөлд нэмэх</translation>
+        <translation>Үр дүнг төсөлд нэмэх</translation>
     </message>
 </context>
 <context>
@@ -26895,7 +30579,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsInvertedPolygonRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Sub renderer:</source>
@@ -26980,7 +30664,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Use scale dependent rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэмжээст холбосон хамаарлыг ашиглах</translation>
     </message>
     <message>
         <source>Maximum</source>
@@ -27174,11 +30858,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">Текст</translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Үсгийн хэв</translation>
     </message>
     <message>
         <source>Available typeface styles</source>
@@ -27186,11 +30870,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished">Хэмжээ</translation>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Underlined text</source>
@@ -27198,7 +30882,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>U</source>
-        <translation type="unfinished">U</translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>Strikeout text</source>
@@ -27206,7 +30890,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished">Ө</translation>
+        <translation>З</translation>
     </message>
     <message>
         <source>Bold text
@@ -27215,7 +30899,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Italic text
@@ -27224,11 +30908,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>I</source>
-        <translation type="unfinished">I</translation>
+        <translation>I</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Дэлгэц</translation>
+        <translation>Дэлгэц</translation>
     </message>
     <message>
         <source>Scale-based</source>
@@ -27236,11 +30920,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Min </source>
-        <translation type="unfinished"></translation>
+        <translation>ХБ</translation>
     </message>
     <message>
         <source>Max </source>
-        <translation type="unfinished"></translation>
+        <translation>ХИ</translation>
     </message>
     <message>
         <source>Show label</source>
@@ -27256,15 +30940,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Buffer</source>
-        <translation type="unfinished">Буфер</translation>
+        <translation>Буфер</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation type="unfinished">Байрлал</translation>
+        <translation>Байрлал</translation>
     </message>
     <message>
         <source>Label distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Зай</translation>
     </message>
     <message>
         <source>X Coordinate</source>
@@ -27284,7 +30968,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished">Эргэлт</translation>
+        <translation>Эргэлт</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Өгөгдмөл</translation>
     </message>
 </context>
 <context>
@@ -27295,7 +30983,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">зургийн нэгж</translation>
+        <translation>зургийн нэгж</translation>
     </message>
     <message>
         <source>mm</source>
@@ -27307,7 +30995,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Select text color</source>
@@ -27319,7 +31007,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Select border color</source>
-        <translation type="unfinished">Хүрээний өнгө сонгох</translation>
+        <translation>Хүрээний өнгө сонгох</translation>
     </message>
     <message>
         <source>Select shadow color</source>
@@ -27419,7 +31107,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source> X</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>File not found</source>
@@ -27438,7 +31126,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Lorem Ipsum</source>
@@ -27490,7 +31178,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">Текст</translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>Formatting</source>
@@ -27531,7 +31219,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Italic text
@@ -27540,7 +31228,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>I</source>
-        <translation type="unfinished">I</translation>
+        <translation>I</translation>
     </message>
     <message>
         <source>Font is missing.</source>
@@ -27616,15 +31304,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>S</source>
-        <translation type="unfinished">Ө</translation>
+        <translation>З</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">Тунгалагжилт</translation>
+        <translation>Тунгалагжилт</translation>
     </message>
     <message>
         <source> %</source>
@@ -27656,7 +31344,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Buffer</source>
-        <translation type="unfinished">Буфер</translation>
+        <translation>Буфер</translation>
     </message>
     <message>
         <source>Labels will not show if larger than this on screen</source>
@@ -27732,7 +31420,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
+        <translation>Байршуулах</translation>
     </message>
     <message>
         <source>left/right</source>
@@ -27808,11 +31496,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Fill color</source>
-        <translation type="unfinished"></translation>
+        <translation>Дүүргэх өнгө</translation>
     </message>
     <message>
         <source>Border color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
+        <translation>Хүрээний өнгө</translation>
     </message>
     <message>
         <source>Draw drop shadow</source>
@@ -27836,7 +31524,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message utf8="true">
         <source>˚</source>
-        <translation type="unfinished"></translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Lowest label component</source>
@@ -27880,7 +31568,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Rotation</source>
-        <translation type="unfinished">Эргэлт</translation>
+        <translation>Эргэлт</translation>
     </message>
     <message>
         <source>Above line</source>
@@ -27912,7 +31600,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished">Зай</translation>
+        <translation>Зай</translation>
     </message>
     <message>
         <source>outside</source>
@@ -27940,7 +31628,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">Масштаб</translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <source>Background</source>
@@ -27996,7 +31684,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
+        <translation>Хүрээний өргөн</translation>
     </message>
     <message>
         <source>symbol units</source>
@@ -28082,7 +31770,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished">&amp;Хасах</translation>
+        <translation>&amp;Хасах</translation>
     </message>
     <message>
         <source>&amp;Show in overview</source>
@@ -28090,7 +31778,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Re&amp;name</source>
-        <translation type="unfinished">Өөр&amp;нэр</translation>
+        <translation>Өөр&amp;нэр</translation>
     </message>
     <message>
         <source>Show Feature Count</source>
@@ -28132,23 +31820,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation>Өнцөг</translation>
-    </message>
-    <message>
-        <source>Distance</source>
-        <translation>Зай</translation>
-    </message>
-    <message>
-        <source>Line width</source>
-        <translation type="unfinished">Шугамын өргөн</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Өнгө</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
 </context>
 <context>
@@ -28206,7 +31878,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *.XML)</translation>
+        <translation>XML ажил (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Saving connections</source>
@@ -28291,6 +31963,13 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
 </context>
 <context>
+    <name>QgsMapCanvasSnappingUtils</name>
+    <message>
+        <source>Indexing data...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsMapCoordsDialog</name>
     <message>
         <source>From map canvas</source>
@@ -28328,10 +32007,6 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>%1 at line %2 column %3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Error: qgis element could not be found in %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28392,6 +32067,10 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Unable to open file %1</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Root &lt;qgis&gt; element could not be found</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsMapLayerComboBoxPlugin</name>
@@ -28401,6 +32080,37 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>A combo box to list the layers registered in QGIS. Layers might be filtered according to their type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsMapLayerStyleGuiUtils</name>
+    <message>
+        <source>Add</source>
+        <translation>Нэмэх</translation>
+    </message>
+    <message>
+        <source>Remove Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename style</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28442,7 +32152,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
+        <translation>Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
     </message>
     <message>
         <source>Wrong editing tool, cannot apply the &apos;capture point&apos; tool on this vector layer</source>
@@ -28450,7 +32160,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Обьект нэмэх</translation>
+        <translation>Обьект нэмэх</translation>
     </message>
     <message>
         <source>Wrong editing tool, cannot apply the &apos;capture line&apos; tool on this vector layer</source>
@@ -28536,7 +32246,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
+        <translation>Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
     </message>
     <message>
         <source>Ring added</source>
@@ -28593,7 +32303,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolDeletePart</name>
     <message>
         <source>Delete part</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэсгийг устгах</translation>
     </message>
     <message>
         <source>Part of multipart feature deleted</source>
@@ -28623,11 +32333,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolEdit</name>
     <message>
         <source>No active vector layer</source>
-        <translation type="unfinished">Идэвхтэй вектор давхарга алга</translation>
+        <translation>Идэвхтэй вектор давхарга алга</translation>
     </message>
     <message>
         <source>Layer not editable</source>
-        <translation type="unfinished">Давхарга засварлагдах боломжгүй</translation>
+        <translation>Давхарга засварлагдах боломжгүй</translation>
     </message>
 </context>
 <context>
@@ -28648,12 +32358,8 @@ This may be a problem in your network connection or at the WMS server.</source>
 <context>
     <name>QgsMapToolFillRing</name>
     <message>
-        <source>Fill ring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
+        <translation>Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
     </message>
     <message>
         <source>Ring added and filled</source>
@@ -28904,7 +32610,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSelect</name>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Сонгох</translation>
+        <translation>Сонгох</translation>
     </message>
 </context>
 <context>
@@ -28940,11 +32646,11 @@ This may be a problem in your network connection or at the WMS server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Multipart features are not supported for simplification.</source>
+        <source>%1 feature(s): %2 to %3 vertices (%4%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This feature cannot be simplified. Check if feature has enough vertices to be simplified.</source>
+        <source>Simplification failed!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28952,11 +32658,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSplitFeatures</name>
     <message>
         <source>Coordinate transform error</source>
-        <translation type="unfinished"></translation>
+        <translation>Солбицлын хөрвүүлэлтийн алдаа</translation>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
+        <translation>Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
     </message>
     <message>
         <source>Features split</source>
@@ -28995,11 +32701,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolSplitParts</name>
     <message>
         <source>Coordinate transform error</source>
-        <translation type="unfinished"></translation>
+        <translation>Солбицлын хөрвүүлэлтийн алдаа</translation>
     </message>
     <message>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation type="unfinished">Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
+        <translation>Цэгийг давхаргын солбицолд хөрвүүлэх боломжгүй</translation>
     </message>
     <message>
         <source>Parts split</source>
@@ -29042,7 +32748,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMapToolZoom</name>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Өсгөх</translation>
+        <translation>Өсгөх</translation>
     </message>
 </context>
 <context>
@@ -29072,26 +32778,10 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
-        <source>Interval</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Line offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Placement</source>
-        <translation type="unfinished">Байршуулах</translation>
-    </message>
-    <message>
-        <source>&apos;vertex&apos;|&apos;lastvertex&apos;|&apos;firstvertex&apos;|&apos;centerpoint&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Offset along line</source>
+        <source>string </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -29108,6 +32798,10 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <source>Segments</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Мэдээлэл</translation>
     </message>
 </context>
 <context>
@@ -29164,6 +32858,22 @@ This may be a problem in your network connection or at the WMS server.</source>
         <source>Segments [%1]</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Meters</source>
+        <translation>Метр</translation>
+    </message>
+    <message>
+        <source>Feet</source>
+        <translation>Feet</translation>
+    </message>
+    <message>
+        <source>Degrees</source>
+        <translation>Градус</translation>
+    </message>
+    <message>
+        <source>Nautical Miles</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsMeasureTool</name>
@@ -29216,7 +32926,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Decimal number (double)</source>
-        <translation type="unfinished">Аравтын тоо (double)</translation>
+        <translation>Аравтын тоо (double)</translation>
     </message>
     <message>
         <source>Text, unlimited length (text)</source>
@@ -29255,7 +32965,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Sum</source>
-        <translation type="unfinished">Нийт</translation>
+        <translation>Нийт</translation>
     </message>
     <message>
         <source>Concatenation</source>
@@ -29315,16 +33025,8 @@ This may be a problem in your network connection or at the WMS server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No messages.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Message(s) logged.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>General</source>
-        <translation type="unfinished">Ерөнхий</translation>
+        <translation>Ерөнхий</translation>
     </message>
 </context>
 <context>
@@ -29346,7 +33048,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">Засах...</translation>
+        <translation>Засах...</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -29354,11 +33056,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1: Вектор давхарга биш байна!</translation>
+        <translation>%1: Вектор давхарга биш байна!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1: Боллоо!</translation>
+        <translation>%1: Боллоо!</translation>
     </message>
     <message>
         <source>Import to MSSQL database</source>
@@ -29372,7 +33074,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Оролт амжилттай боллоо.</translation>
+        <translation>Оролт амжилттай боллоо.</translation>
     </message>
 </context>
 <context>
@@ -29388,15 +33090,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг хадгалах</translation>
     </message>
     <message>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 хоболтыг даран хадгалах уу?</translation>
     </message>
     <message>
         <source>Test connection</source>
-        <translation type="unfinished">Холболтыг шалгах</translation>
+        <translation>Холболтыг шалгах</translation>
     </message>
     <message>
         <source>Connection failed - Host name hasn&apos;t been specified.
@@ -29412,7 +33114,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Connection to %1 was successful</source>
-        <translation type="unfinished">%1 -д амжилттай холбогдлоо</translation>
+        <translation> %1 -д амжилттай холбогдлоо</translation>
     </message>
 </context>
 <context>
@@ -29423,7 +33125,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Connection Information</source>
-        <translation type="unfinished">Холболтын мэдээлэл</translation>
+        <translation>Холболтын мэдээлэл</translation>
     </message>
     <message>
         <source>Name</source>
@@ -29435,11 +33137,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Толгой компьютер</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">Өгөгдлийн сан</translation>
+        <translation>Өгөгдлийн сан</translation>
     </message>
     <message>
         <source>Username</source>
@@ -29447,7 +33149,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэвтрэх үг</translation>
     </message>
     <message>
         <source>Name of the new connection</source>
@@ -29463,11 +33165,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Test Connect</source>
-        <translation type="unfinished">&amp;Холболтыг шалгах</translation>
+        <translation>&amp;Холболтыг шалгах</translation>
     </message>
     <message>
         <source>Save Password</source>
-        <translation type="unfinished">Нууц үгийг хадгалах</translation>
+        <translation>Нэвтрэх нууц үг санах</translation>
     </message>
     <message>
         <source>Only look in the geometry_columns metadata table</source>
@@ -29510,11 +33212,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">Аравтын тоо (бодит)</translation>
+        <translation>Аравтын тоо (бодит)</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
-        <translation type="unfinished">Аравтын тоо (double)</translation>
+        <translation>Аравтын тоо (double)</translation>
     </message>
     <message>
         <source>Text, fixed length (char)</source>
@@ -29545,7 +33247,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsMssqlRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished"></translation>
+        <translation>Шинэ Холболт...</translation>
     </message>
 </context>
 <context>
@@ -29567,7 +33269,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;Нэмэх</translation>
+        <translation>&amp;Нэмэх</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -29575,7 +33277,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -29587,23 +33289,23 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -29611,31 +33313,31 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг дуудах</translation>
     </message>
     <message>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *XML)</translation>
+        <translation>XML ажил (*.xml *XML)</translation>
     </message>
     <message>
         <source>Select Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Хүснэгт Сонгох</translation>
     </message>
     <message>
         <source>You must select a table in order to add a layer.</source>
@@ -29647,41 +33349,41 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished">Зогсоох</translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
 </context>
 <context>
     <name>QgsMssqlSourceSelectDelegate</name>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
 </context>
 <context>
     <name>QgsMssqlTableModel</name>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -29689,11 +33391,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Detecting...</source>
@@ -29701,7 +33403,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
     <message>
         <source>Disable &apos;Fast Access to Features at ID&apos; capability to force keeping the attribute table in memory (e.g. in case of expensive views).</source>
@@ -29713,42 +33415,42 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">Олонцэг</translation>
+        <translation>Олонцэг</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished"></translation>
+        <translation>Олоншулуун</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Олон полигон</translation>
+        <translation>Олон полигон</translation>
     </message>
     <message>
         <source>No Geometry</source>
-        <translation type="unfinished">Геометргүй</translation>
+        <translation>Геометргүй</translation>
     </message>
     <message>
         <source>Unknown Geometry</source>
-        <translation type="unfinished">Үлмэдэгдэх Геометр</translation>
+        <translation>Үлмэдэгдэх Геометр</translation>
     </message>
 </context>
 <context>
     <name>QgsMultiBandColorRendererWidget</name>
     <message>
         <source>Not set</source>
-        <translation type="unfinished">Тохируулаагүй</translation>
+        <translation>Тохируулаагүй</translation>
     </message>
     <message>
         <source>No enhancement</source>
@@ -29768,22 +33470,22 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Red</source>
-        <translation type="unfinished">Улаан</translation>
+        <translation>Улаан</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation type="unfinished">Ногоон</translation>
+        <translation>Ногоон</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation type="unfinished">Цэнхэр</translation>
+        <translation>Цэнхэр</translation>
     </message>
 </context>
 <context>
     <name>QgsMultiBandColorRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Contrast
@@ -29796,11 +33498,11 @@ enhancement</source>
     </message>
     <message>
         <source>Red band</source>
-        <translation type="unfinished">Улаан суваг</translation>
+        <translation>Улаан суваг</translation>
     </message>
     <message>
         <source>Green band</source>
-        <translation type="unfinished">Ногоон суваг</translation>
+        <translation>Ногоон суваг</translation>
     </message>
     <message>
         <source>Blue band</source>
@@ -29815,7 +33517,7 @@ enhancement</source>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">Сүлжээ</translation>
+        <translation>Улаан</translation>
     </message>
 </context>
 <context>
@@ -29892,7 +33594,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished">Холболтын дэлгэрэнгүй</translation>
+        <translation>Холболтын дэлгэрэнгүй</translation>
     </message>
     <message>
         <source>DPI-Mode</source>
@@ -29908,7 +33610,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэвтрэх үг</translation>
     </message>
     <message>
         <source>&amp;User name</source>
@@ -29948,6 +33650,56 @@ Note: giving the password is optional. It will be requested interactivly, when n
     </message>
     <message>
         <source>Referer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialog</name>
+    <message>
+        <source>New scratch layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsNewMemoryLayerDialogBase</name>
+    <message>
+        <source>New Temporary Scratch Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer name</source>
+        <translation>Давхаргын нэр</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Төрөл</translation>
+    </message>
+    <message>
+        <source>Point</source>
+        <translation>Цэг</translation>
+    </message>
+    <message>
+        <source>Line</source>
+        <translation>Шулуун</translation>
+    </message>
+    <message>
+        <source>Polygon</source>
+        <translation>Полигон</translation>
+    </message>
+    <message>
+        <source>Multipoint</source>
+        <translation>Олонцэг</translation>
+    </message>
+    <message>
+        <source>Multiline</source>
+        <translation>Олоншулуун</translation>
+    </message>
+    <message>
+        <source>Multipolygon</source>
+        <translation>Олон полигон</translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;&lt;b&gt;Warning:&lt;/b&gt; Temporary scratch layers are not saved and will be discarded when QGIS is closed.&lt;/i&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30110,11 +33862,11 @@ Extended error information:
     </message>
     <message>
         <source>Invalid Layer</source>
-        <translation type="unfinished">Буруу Давхарга</translation>
+        <translation>Буруу Давхарга</translation>
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 алдаатай давхарга тул ачаалагдахгүй.</translation>
     </message>
 </context>
 <context>
@@ -30133,7 +33885,7 @@ Extended error information:
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -30185,7 +33937,7 @@ Extended error information:
     </message>
     <message>
         <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished">Давхаргын геометрийн солбицлын системийн зааж өгнө үү.</translation>
+        <translation>Давхаргын геометрийн солбицлын системийн зааж өгнө үү.</translation>
     </message>
     <message>
         <source>Specify CRS</source>
@@ -30268,7 +34020,7 @@ Extended error information:
     </message>
     <message>
         <source>Save layer as...</source>
-        <translation type="unfinished">Давхаргыг хадгалах...</translation>
+        <translation>Давхаргыг хадгалах...</translation>
     </message>
 </context>
 <context>
@@ -30311,7 +34063,7 @@ Extended error information:
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Нарийвчлал</translation>
+        <translation>Нарийвчлал</translation>
     </message>
     <message>
         <source>Add attribute to list</source>
@@ -30332,14 +34084,6 @@ Extended error information:
     <message>
         <source>Remove attribute</source>
         <translation>Атрибутыг арилгах</translation>
-    </message>
-    <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished">Давхаргын геометрийн солбицлын системийн зааж өгнө үү.</translation>
-    </message>
-    <message>
-        <source>Specify CRS</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File encoding</source>
@@ -30373,7 +34117,7 @@ Extended error information:
     </message>
     <message>
         <source>From map canvas</source>
-        <translation type="unfinished">Зургийн канвасаас</translation>
+        <translation>Зургийн канвасаас</translation>
     </message>
     <message>
         <source>From layer</source>
@@ -30381,11 +34125,11 @@ Extended error information:
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished">Гараар</translation>
+        <translation>Гараар</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished">Гаралтын ажил</translation>
+        <translation>Гаралтын ажил</translation>
     </message>
     <message>
         <source>...</source>
@@ -30481,7 +34225,7 @@ Extended error information:
     </message>
     <message>
         <source>SQLite databases (*.db)</source>
-        <translation type="unfinished">SQLite өгөгдлийн сан (*.db)</translation>
+        <translation>SQLite өгөгдлийн сан (*.db)</translation>
     </message>
     <message>
         <source>Unable to open database:
@@ -30506,7 +34250,7 @@ Extended error information:
     <name>QgsOSMImportDialog</name>
     <message>
         <source>OpenStreetMap Import</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap оролт</translation>
     </message>
     <message>
         <source>Input XML file (.osm)</source>
@@ -30584,7 +34328,7 @@ Extended error information:
     </message>
     <message>
         <source>Add selected layers to map</source>
-        <translation type="unfinished">Зурагт сонгогдсон давхаргуудыг нэмэх</translation>
+        <translation>Зурагт сонгогдсон давхаргуудыг нэмэх</translation>
     </message>
     <message>
         <source>Always cache</source>
@@ -30604,11 +34348,11 @@ Extended error information:
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -30616,7 +34360,7 @@ Extended error information:
     </message>
     <message>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *XML)</translation>
+        <translation>XML ажил (*.xml *XML)</translation>
     </message>
     <message numerus="yes">
         <source>Coordinate Reference System (%n available)</source>
@@ -30649,14 +34393,14 @@ Extended error information:
     </message>
     <message>
         <source>network error: %1</source>
-        <translation type="unfinished">сүлжээний алдаа: %1</translation>
+        <translation>сүлжээний алдаа: %1</translation>
     </message>
 </context>
 <context>
     <name>QgsOWSSourceSelectBase</name>
     <message>
         <source>Add Layer(s) from a Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Ёерверээс дэвхарга нэмэх</translation>
     </message>
     <message>
         <source>Ready</source>
@@ -30684,15 +34428,15 @@ Extended error information:
     </message>
     <message>
         <source>Load connections from file</source>
-        <translation type="unfinished">Файлаас холболт дуудах</translation>
+        <translation>Файлаас холболт дуудах</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг файл болгон хадгалах</translation>
     </message>
     <message>
         <source>Save</source>
@@ -30708,7 +34452,7 @@ Extended error information:
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Name</source>
@@ -30736,15 +34480,15 @@ Extended error information:
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
+        <translation>Өөрчлөх ...</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -30777,7 +34521,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Layer Order</source>
-        <translation type="unfinished">Давхаргын дараалал</translation>
+        <translation>Давхаргын дараалал</translation>
     </message>
     <message>
         <source>Move selected layer UP</source>
@@ -30801,7 +34545,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Tilesets</source>
@@ -30809,7 +34553,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Size</source>
@@ -30821,7 +34565,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Server Search</source>
-        <translation type="unfinished">Сервер Хайх</translation>
+        <translation>Сервер Хайх</translation>
     </message>
     <message>
         <source>Search</source>
@@ -30861,10 +34605,6 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unknown data type %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>QGIS wkbType %1 not supported</source>
         <translation type="unfinished"></translation>
     </message>
@@ -30874,6 +34614,10 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Could not open the spatialite logging database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1: Unknown data type %2. Not using type affinity for the field.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30982,7 +34726,11 @@ Always network: always load from network and do not check if the cache has a val
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show only editable layers</source>
+        <source>select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unselect all</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -31154,7 +34902,7 @@ Always network: always load from network and do not check if the cache has a val
     <name>QgsOpenRasterDialog</name>
     <message>
         <source>Open raster</source>
-        <translation type="unfinished">Растер нээх</translation>
+        <translation>Растер нээх</translation>
     </message>
     <message>
         <source>Raster file:</source>
@@ -31202,11 +34950,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Add vector layer</source>
@@ -31222,7 +34970,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation type="unfinished">Нэвтрэх үгээ оруулна уу:</translation>
+        <translation>Нэвтрэх үгээ оруулна уу:</translation>
     </message>
     <message>
         <source>No protocol URI entered.</source>
@@ -31241,7 +34989,7 @@ Always network: always load from network and do not check if the cache has a val
     <name>QgsOpenVectorLayerDialogBase</name>
     <message>
         <source>Add vector layer</source>
-        <translation type="unfinished">Вектор давхарга нэмэх</translation>
+        <translation>Вектор давхарга нэмэх</translation>
     </message>
     <message>
         <source>Source type</source>
@@ -31253,7 +35001,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Directory</source>
-        <translation type="unfinished">Хавтас</translation>
+        <translation>Хавтас</translation>
     </message>
     <message>
         <source>Database</source>
@@ -31273,11 +35021,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>URI</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished">Эх</translation>
+        <translation>Эх</translation>
     </message>
     <message>
         <source>Dataset</source>
@@ -31285,7 +35033,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Connections</source>
@@ -31339,7 +35087,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Always</source>
@@ -31411,11 +35159,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Dots</source>
-        <translation type="unfinished"></translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Crosses</source>
-        <translation type="unfinished">Зөрөх</translation>
+        <translation>Хэрээс</translation>
     </message>
     <message>
         <source>Detected active locale on your system: %1</source>
@@ -31435,7 +35183,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">зургийн нэгж</translation>
+        <translation>зургийн нэгж</translation>
     </message>
     <message>
         <source>pixels</source>
@@ -31451,7 +35199,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>QGIS files</source>
@@ -31459,7 +35207,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Select palette file</source>
@@ -31503,7 +35251,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Round</source>
-        <translation type="unfinished"></translation>
+        <translation>Дугуй</translation>
     </message>
     <message>
         <source>Mitre</source>
@@ -31511,7 +35259,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Bevel</source>
-        <translation type="unfinished">Налуу</translation>
+        <translation>Налуу</translation>
     </message>
     <message>
         <source>Save default project</source>
@@ -31650,7 +35398,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Canvas &amp; Legend</source>
@@ -31794,7 +35542,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -32054,7 +35802,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Add color</source>
@@ -32070,7 +35818,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Оруулах</translation>
+        <translation>Оруулах</translation>
     </message>
     <message>
         <source>Default map appearance (overridden by project properties)</source>
@@ -32090,7 +35838,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Buffer</source>
-        <translation type="unfinished">Буфер</translation>
+        <translation>Буфер</translation>
     </message>
     <message>
         <source>Lines / outlines buffer in millimeters.</source>
@@ -32298,7 +36046,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished">Өсгөх</translation>
+        <translation>Өсгөх</translation>
     </message>
     <message>
         <source>Zoom and recenter</source>
@@ -32330,11 +36078,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Import from file</source>
-        <translation type="unfinished">Файлаас оруулах</translation>
+        <translation>Файлаас оруулах</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Composition defaults</source>
@@ -32354,7 +36102,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source> mm</source>
-        <translation type="unfinished"></translation>
+        <translation>мм</translation>
     </message>
     <message>
         <source>Grid offset</source>
@@ -32438,7 +36186,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Marker size</source>
-        <translation type="unfinished">Тэмдгийн хэмжээ</translation>
+        <translation>Тэмдгийн хэмжээ</translation>
     </message>
     <message>
         <source>Show markers only for selected features</source>
@@ -32454,7 +36202,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Нэгтгэх хэлбэр</translation>
+        <translation>Нэгтгэх хэлбэр</translation>
     </message>
     <message>
         <source>Quadrant segments</source>
@@ -32494,15 +36242,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>CRS for new layers</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select...</source>
-        <translation>Сонгох...</translation>
     </message>
     <message>
         <source>Use &amp;project CRS</source>
@@ -32510,10 +36254,6 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Prompt for &amp;CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use default CRS displa&amp;yed below</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32530,10 +36270,6 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Automatically enable &apos;on the fly&apos; reprojection if layers have different CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always start new projects with this CRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32660,6 +36396,22 @@ Always network: always load from network and do not check if the cache has a val
         <source>Exclude URLs (starting with)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Experimental canvas rotation support (restart required)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use a default CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always start new projects with following CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default uses system&apos;s proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsOptionsDialogBase</name>
@@ -32715,7 +36467,7 @@ error:%2
     </message>
     <message>
         <source>Database connection was successful, but the accessible tables could not be determined.</source>
-        <translation type="unfinished">Өгөгдлийн сангийн холболт амжилттай боллоо, гэхдээ ачааллах боломжтой хүснэгтүүд тодорхойлогдосонгүй:</translation>
+        <translation>Өгөгдлийн сангийн холболт амжилттай боллоо, гэхдээ ачааллах боломжтой хүснэгтүүд тодорхойлогдосонгүй:</translation>
     </message>
     <message>
         <source>Unable to get list of spatially enabled tables from the database</source>
@@ -32731,50 +36483,50 @@ error:%2
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">Олонцэг</translation>
+        <translation>Олонцэг</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished"></translation>
+        <translation>Олоншулуун</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Олон полигон</translation>
+        <translation>Олон полигон</translation>
     </message>
     <message>
         <source>No Geometry</source>
-        <translation type="unfinished">Геометргүй</translation>
+        <translation>Геометргүй</translation>
     </message>
     <message>
         <source>Unknown Geometry</source>
-        <translation type="unfinished">Үлмэдэгдэх Геометр</translation>
+        <translation>Үлмэдэгдэх Геометр</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleConnectionItem</name>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">Засах...</translation>
+        <translation>Засах...</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">Сэргээх</translation>
+        <translation>Сэргээх</translation>
     </message>
     <message>
         <source>Copying features...</source>
@@ -32782,7 +36534,7 @@ error:%2
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Import layer</source>
@@ -32790,11 +36542,11 @@ error:%2
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1: Вектор давхарга биш байна!</translation>
+        <translation>%1: Вектор давхарга биш байна!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1: Боллоо!</translation>
+        <translation>%1: Боллоо!</translation>
     </message>
     <message>
         <source>Import to Oracle database</source>
@@ -32808,18 +36560,18 @@ error:%2
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Оролт амжилттай боллоо.</translation>
+        <translation>Оролт амжилттай боллоо.</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleLayerItem</name>
     <message>
         <source>Delete layer</source>
-        <translation type="unfinished">Давхарга устгах</translation>
+        <translation>Давхарга устгах</translation>
     </message>
     <message>
         <source>Layer deleted successfully.</source>
-        <translation type="unfinished">Давхарга амжилттай устгагдлаа.</translation>
+        <translation>Давхарга амжилттай устгагдлаа.</translation>
     </message>
 </context>
 <context>
@@ -32835,19 +36587,19 @@ error:%2
     </message>
     <message>
         <source>Save connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг хадгалах</translation>
     </message>
     <message>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 хоболтыг даран хадгалах уу?</translation>
     </message>
     <message>
         <source>Test connection</source>
-        <translation type="unfinished">Холболтыг шалгах</translation>
+        <translation>Холболтыг шалгах</translation>
     </message>
     <message>
         <source>Connection to %1 was successful</source>
-        <translation type="unfinished">%1 -д амжилттай холбогдлоо</translation>
+        <translation> %1 -д амжилттай холбогдлоо</translation>
     </message>
     <message>
         <source>Connection failed - Check settings and try again.
@@ -32864,11 +36616,11 @@ error:%2
     </message>
     <message>
         <source>Connection Information</source>
-        <translation type="unfinished">Холболтын мэдээлэл</translation>
+        <translation>Холболтын мэдээлэл</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэвтрэх үг</translation>
     </message>
     <message>
         <source>Save Username</source>
@@ -32884,7 +36636,7 @@ error:%2
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished">Өгөгдлийн сан</translation>
+        <translation>Өгөгдлийн сан</translation>
     </message>
     <message>
         <source>Name</source>
@@ -32928,7 +36680,7 @@ error:%2
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">Порт</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <source>1521</source>
@@ -32936,15 +36688,15 @@ error:%2
     </message>
     <message>
         <source>&amp;Test Connect</source>
-        <translation type="unfinished">&amp;Холболтыг шалгах</translation>
+        <translation>&amp;Холболтыг шалгах</translation>
     </message>
     <message>
         <source>Save Password</source>
-        <translation type="unfinished">Нууц үгийг хадгалах</translation>
+        <translation>Нэвтрэх нууц үг санах</translation>
     </message>
     <message>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Толгой компьютер</translation>
     </message>
     <message>
         <source>Use estimated table statistics for the layer metadata.</source>
@@ -32957,6 +36709,10 @@ error:%2
     <message>
         <source>Use estimated table metadata</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Сонголтууд</translation>
     </message>
 </context>
 <context>
@@ -32985,7 +36741,7 @@ error:%2
     <name>QgsOracleProvider</name>
     <message>
         <source>Whole number</source>
-        <translation type="unfinished">Бүхэл тоо</translation>
+        <translation>Бүхэл тоо</translation>
     </message>
     <message>
         <source>Whole big number</source>
@@ -33001,11 +36757,11 @@ error:%2
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">Аравтын тоо (бодит)</translation>
+        <translation>Аравтын тоо (бодит)</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
-        <translation type="unfinished">Аравтын тоо (double)</translation>
+        <translation>Аравтын тоо (double)</translation>
     </message>
     <message>
         <source>Text, fixed length (char)</source>
@@ -33021,7 +36777,7 @@ error:%2
     </message>
     <message>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished">АЛДАА: Талбар %1 олдсонгүй.</translation>
+        <translation>АЛДАА: Талбар %1 олдсонгүй.</translation>
     </message>
     <message>
         <source>Oracle</source>
@@ -33326,18 +37082,18 @@ Error: %2</source>
     <name>QgsOracleRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished"></translation>
+        <translation>Шинэ Холболт...</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleSelectGeoraster</name>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Password for %1/&lt;password&gt;@%2</source>
@@ -33345,7 +37101,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation type="unfinished">Нэвтрэх үгээ оруулна уу:</translation>
+        <translation>Нэвтрэх үгээ оруулна уу:</translation>
     </message>
     <message>
         <source>Open failed</source>
@@ -33364,7 +37120,7 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;Нэмэх</translation>
+        <translation>&amp;Нэмэх</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -33372,7 +37128,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -33384,23 +37140,23 @@ Error: %2</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">Эзэмшигч</translation>
+        <translation>Эзэмшигч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33408,31 +37164,31 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг дуудах</translation>
     </message>
     <message>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *XML)</translation>
+        <translation>XML ажил (*.xml *XML)</translation>
     </message>
     <message>
         <source>Select Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Хүснэгт Сонгох</translation>
     </message>
     <message>
         <source>You must select a table in order to add a layer.</source>
@@ -33440,18 +37196,18 @@ Error: %2</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished">Зогсоох</translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
 </context>
 <context>
     <name>QgsOracleSourceSelectDelegate</name>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -33462,23 +37218,23 @@ Error: %2</source>
     <name>QgsOracleTableModel</name>
     <message>
         <source>Owner</source>
-        <translation type="unfinished">Эзэмшигч</translation>
+        <translation>Эзэмшигч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33486,11 +37242,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Specify a geometry type</source>
@@ -33498,7 +37254,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Select a primary key</source>
@@ -33506,7 +37262,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -33521,15 +37277,15 @@ Error: %2</source>
     <name>QgsPGConnectionItem</name>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">Засах...</translation>
+        <translation>Засах...</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished">Сэргээх</translation>
+        <translation>Сэргээх</translation>
     </message>
     <message>
         <source>Copying features...</source>
@@ -33537,7 +37293,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Import layer</source>
@@ -33545,11 +37301,11 @@ Error: %2</source>
     </message>
     <message>
         <source>%1: Not a vector layer!</source>
-        <translation type="unfinished">%1: Вектор давхарга биш байна!</translation>
+        <translation>%1: Вектор давхарга биш байна!</translation>
     </message>
     <message>
         <source>%1: OK!</source>
-        <translation type="unfinished">%1: Боллоо!</translation>
+        <translation>%1: Боллоо!</translation>
     </message>
     <message>
         <source>Import to PostGIS database</source>
@@ -33563,25 +37319,33 @@ Error: %2</source>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">Оролт амжилттай боллоо.</translation>
+        <translation>Оролт амжилттай боллоо.</translation>
+    </message>
+    <message>
+        <source>Connection failed</source>
+        <translation>Холболт амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Failed to get schemas</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QgsPGLayerItem</name>
     <message>
         <source>Delete layer</source>
-        <translation type="unfinished">Давхарга устгах</translation>
+        <translation>Давхарга устгах</translation>
     </message>
     <message>
         <source>Layer deleted successfully.</source>
-        <translation type="unfinished">Давхарга амжилттай устгагдлаа.</translation>
+        <translation>Давхарга амжилттай устгагдлаа.</translation>
     </message>
 </context>
 <context>
     <name>QgsPGRootItem</name>
     <message>
         <source>New Connection...</source>
-        <translation type="unfinished"></translation>
+        <translation>Шинэ Холболт...</translation>
     </message>
 </context>
 <context>
@@ -33594,28 +37358,40 @@ Error: %2</source>
         <source>as geometryless table</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Connection failed</source>
+        <translation>Холболт амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Failed to get layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Сэргээх</translation>
+    </message>
 </context>
 <context>
     <name>QgsPalettedRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">Суваг</translation>
+        <translation>Суваг</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
 </context>
 <context>
@@ -33867,7 +37643,7 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;Нэмэх</translation>
+        <translation>&amp;Нэмэх</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -33875,7 +37651,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Wildcard</source>
@@ -33887,23 +37663,23 @@ Error: %2</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Primary key column</source>
@@ -33911,31 +37687,31 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг дуудах</translation>
     </message>
     <message>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *XML)</translation>
+        <translation>XML ажил (*.xml *XML)</translation>
     </message>
     <message>
         <source>Select Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Хүснэгт Сонгох</translation>
     </message>
     <message>
         <source>You must select a table in order to add a layer.</source>
@@ -33943,18 +37719,18 @@ Error: %2</source>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished">Зогсоох</translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
 </context>
 <context>
     <name>QgsPgSourceSelectDelegate</name>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -33965,15 +37741,15 @@ Error: %2</source>
     <name>QgsPgTableModel</name>
     <message>
         <source>Schema</source>
-        <translation type="unfinished">Бүдүүвч</translation>
+        <translation>Бүдүүвч</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Column</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Data Type</source>
@@ -33985,7 +37761,7 @@ Error: %2</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Primary Key</source>
@@ -33993,11 +37769,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Select at id</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Select a primary key</source>
@@ -34009,7 +37785,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Select...</source>
-        <translation type="unfinished"></translation>
+        <translation>Select...</translation>
     </message>
     <message>
         <source>Specify a geometry type</source>
@@ -34017,7 +37793,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Enter...</source>
@@ -34028,7 +37804,7 @@ Error: %2</source>
     <name>QgsPhotoConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>The field contains a filename for a picture. The widget will show a preview of this picture.</source>
@@ -34040,11 +37816,11 @@ Error: %2</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>Specify the size of the preview. If you leave it set to 0, an optimal size will be estimated.</source>
@@ -34059,7 +37835,7 @@ Error: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -34078,7 +37854,7 @@ Error: %2</source>
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation type="unfinished">QGIS Python Хэрэгсэл Суулгагч</translation>
+        <translation>QGIS Python Хэрэгсэл Суулгагч</translation>
     </message>
     <message>
         <source>If you haven&apos;t cancelled the download manually, it was most likely caused by a timeout. In this case consider increasing the connection timeout value in QGIS options window.</source>
@@ -34098,7 +37874,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation type="unfinished">Үл мэдэгдэх алдаa</translation>
+        <translation>Үл мэдэгдэх алдаa</translation>
     </message>
     <message>
         <source>Missing metadata file</source>
@@ -34130,15 +37906,15 @@ Error: %2</source>
     </message>
     <message>
         <source>Are you sure you want to downgrade the plugin to the latest available version? The installed one is newer!</source>
-        <translation type="unfinished"></translation>
+        <translation>Та хэрэгслийн хувилбарыг буулгахдаа итгэлтэй байна уу? Одоогийнн нь шинэ байна!</translation>
     </message>
     <message>
         <source>Plugin installation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэлийн суулгалт амжилтгүй боллоо</translation>
     </message>
     <message>
         <source>Plugin has disappeared</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл алга болсон</translation>
     </message>
     <message>
         <source>The plugin seems to have been installed but I don&apos;t know where. Probably the plugin package contained a wrong named directory.
@@ -34147,11 +37923,11 @@ Please search the list of installed plugins. I&apos;m nearly sure you&apos;ll fi
     </message>
     <message>
         <source>Plugin installed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл амжилттай суулаа</translation>
     </message>
     <message>
         <source>Plugin reinstalled successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл дахин амжилттай суулаа</translation>
     </message>
     <message>
         <source>Python plugin reinstalled.
@@ -34235,7 +38011,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Connecting...</source>
-        <translation type="unfinished">Холбогдож байна...</translation>
+        <translation>Холбогдож байна...</translation>
     </message>
     <message>
         <source>Host connected. Sending request...</source>
@@ -34243,7 +38019,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Downloading data...</source>
-        <translation type="unfinished">Татан авч буй өгөгдөл...</translation>
+        <translation>Татан авч буй өгөгдөл...</translation>
     </message>
     <message>
         <source>Idle</source>
@@ -34251,7 +38027,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Closing connection...</source>
-        <translation type="unfinished">Холболтыг хааж байна...</translation>
+        <translation>Холболтыг хааж байна...</translation>
     </message>
     <message>
         <source>Error</source>
@@ -34301,7 +38077,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Downloading data...</source>
-        <translation type="unfinished">Татан авч буй өгөгдөл...</translation>
+        <translation>Татан авч буй өгөгдөл...</translation>
     </message>
     <message>
         <source>Idle</source>
@@ -34404,7 +38180,7 @@ You need to restart QGIS in order to reload it.</source>
     <name>QgsPluginManager</name>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished">Өргөтгөл</translation>
+        <translation>Хэрэгслүүд</translation>
     </message>
     <message>
         <source>sort by name</source>
@@ -34466,11 +38242,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>This plugin requires a missing module</source>
-        <translation type="unfinished"></translation>
+        <translation>Энэ хэрэгсэл гээгдсэн модулыг шаардаж байна</translation>
     </message>
     <message>
         <source>This plugin is broken</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл гэмтсэн байна</translation>
     </message>
     <message>
         <source>There is a new version available</source>
@@ -34494,7 +38270,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Категори</translation>
+        <translation>Категори</translation>
     </message>
     <message>
         <source>Tags</source>
@@ -34542,19 +38318,19 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Upgrade plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгслийг шинэчлэх</translation>
     </message>
     <message>
         <source>Downgrade plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгслийн хувилбарыг буулгах</translation>
     </message>
     <message>
         <source>Install plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл суулгах</translation>
     </message>
     <message>
         <source>Reinstall plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл дахин суулгах</translation>
     </message>
     <message>
         <source>Reload all repositories</source>
@@ -34570,7 +38346,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>connected</source>
-        <translation type="unfinished"></translation>
+        <translation>холбогдсон</translation>
     </message>
     <message>
         <source>The repository is connected</source>
@@ -34578,7 +38354,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>боломжгүй</translation>
     </message>
     <message>
         <source>The repository is enabled, but unavailable</source>
@@ -34586,7 +38362,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>идэвхгүй</translation>
     </message>
     <message>
         <source>The repository is disabled</source>
@@ -34689,7 +38465,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>about:blank</source>
-        <translation type="unfinished">тухай:хоосон</translation>
+        <translation>тухай:хоосон</translation>
     </message>
     <message>
         <source>Upgrade all upgradeable plugins</source>
@@ -34697,7 +38473,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Upgrade all</source>
-        <translation type="unfinished"></translation>
+        <translation>Бүгдийг шинэчлэх</translation>
     </message>
     <message>
         <source>Uninstall the selected plugin</source>
@@ -34709,11 +38485,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Install, reinstall or upgrade the selected plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонгосон хэрэгслүүдийг суулгах, шинэчлэх</translation>
     </message>
     <message>
         <source>Reinstall plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Хэрэгсэл дахин суулгах</translation>
     </message>
     <message>
         <source>The settings on this tab are only applicable for Python Plugins. No Python support detected, thus no settings available.</source>
@@ -34721,31 +38497,31 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Check for updates on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхлүүлэх бүрд шинэчлэлтийг шалгах</translation>
     </message>
     <message>
         <source>every time QGIS starts</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS-ийг эхлүүлэх болгонд</translation>
     </message>
     <message>
         <source>once a day</source>
-        <translation type="unfinished"></translation>
+        <translation>өдөрт нэг</translation>
     </message>
     <message>
         <source>every 3 days</source>
-        <translation type="unfinished"></translation>
+        <translation>гурван өдөр дутамд</translation>
     </message>
     <message>
         <source>every week</source>
-        <translation type="unfinished"></translation>
+        <translation>7 хоног бүр</translation>
     </message>
     <message>
         <source>every 2 weeks</source>
-        <translation type="unfinished"></translation>
+        <translation>хоёр 7 хоног бүр</translation>
     </message>
     <message>
         <source>every month</source>
-        <translation type="unfinished"></translation>
+        <translation>сар дутамд</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -34785,7 +38561,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Статус</translation>
     </message>
     <message>
         <source>Name</source>
@@ -34793,7 +38569,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Reload repository contents
@@ -34814,7 +38590,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add...</source>
-        <translation type="unfinished">Нэмэх...</translation>
+        <translation>Нэмэх...</translation>
     </message>
     <message>
         <source>Edit the selected repository</source>
@@ -34822,7 +38598,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Edit...</source>
-        <translation type="unfinished">Засах...</translation>
+        <translation>Засах...</translation>
     </message>
     <message>
         <source>Remove the selected repository</source>
@@ -34830,7 +38606,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
 </context>
 <context>
@@ -34841,7 +38617,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Label Font</source>
@@ -34857,7 +38633,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsPointDisplacementRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Center symbol:</source>
@@ -34877,7 +38653,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Font...</source>
-        <translation type="unfinished">Үсгийн хэв...</translation>
+        <translation>Үсгийн хэв...</translation>
     </message>
     <message>
         <source>Max scale denominator:</source>
@@ -34905,7 +38681,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Labels</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Label attribute:</source>
@@ -34928,23 +38704,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
-    </message>
-    <message>
-        <source>Horizontal distance</source>
-        <translation type="unfinished">Хэвтээ зай</translation>
-    </message>
-    <message>
-        <source>Vertical distance</source>
-        <translation type="unfinished">Босоо зай</translation>
-    </message>
-    <message>
-        <source>Horizontal displacement</source>
-        <translation type="unfinished">Хэвтээ шилжилт</translation>
-    </message>
-    <message>
-        <source>Vertical displacement</source>
-        <translation type="unfinished">Босоо шилжилт</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
 </context>
 <context>
@@ -34994,10 +38754,6 @@ error:%3
         <source>Database connection was successful, but the accessible tables could not be determined.
 The error message from the database was:
 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Database connection was successful, but no accessible tables were found. Please verify that you have SELECT privilege on a table carrying PostGIS geometry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -35089,7 +38845,7 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Geometry</source>
@@ -35152,11 +38908,11 @@ Result: %3 (%4)</source>
     </message>
     <message>
         <source>Decimal number (real)</source>
-        <translation type="unfinished">Аравтын тоо (бодит)</translation>
+        <translation>Аравтын тоо (бодит)</translation>
     </message>
     <message>
         <source>Decimal number (double)</source>
-        <translation type="unfinished">Аравтын тоо (double)</translation>
+        <translation>Аравтын тоо (double)</translation>
     </message>
     <message>
         <source>Text, fixed length (char)</source>
@@ -35392,7 +39148,7 @@ Choose ignore to continue loading without the missing layers. Choose cancel to r
     </message>
     <message>
         <source>QGIS files</source>
-        <translation type="unfinished">QGIS ажил</translation>
+        <translation>QGIS ажил</translation>
     </message>
     <message>
         <source>Recursive embedding not possible</source>
@@ -35511,7 +39267,7 @@ Proceed?</source>
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *.XML)</translation>
+        <translation>XML ажил (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Save scales</source>
@@ -35539,7 +39295,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Select Color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Select palette file</source>
@@ -35618,7 +39374,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Measure tool</source>
-        <translation type="unfinished">Хэмжих багаж</translation>
+        <translation>Хэмжих багаж</translation>
     </message>
     <message>
         <source>Semi-minor</source>
@@ -35650,7 +39406,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Coordinate Reference System</source>
-        <translation type="unfinished">Солбицлын нэгдсэн тогтолцоо</translation>
+        <translation>Солбицлын нэгдсэн тогтолцоо</translation>
     </message>
     <message>
         <source>Identify layers</source>
@@ -35658,7 +39414,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Default styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>OWS server</source>
@@ -35759,7 +39515,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Default symbols</source>
@@ -35767,7 +39523,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">Дүүргэх</translation>
+        <translation>Дүүргэх</translation>
     </message>
     <message>
         <source>Color Ramp</source>
@@ -35775,11 +39531,11 @@ Proceed?</source>
     </message>
     <message>
         <source>Transparency</source>
-        <translation type="unfinished">Тунгалагжилт</translation>
+        <translation>Тунгалагжилт</translation>
     </message>
     <message>
         <source> %</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Style Manager</source>
@@ -35787,7 +39543,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>Relations</source>
@@ -35827,11 +39583,11 @@ Proceed?</source>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Оруулах</translation>
+        <translation>Оруулах</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Service capabilities</source>
@@ -35843,7 +39599,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Гарчиг</translation>
+        <translation>Гарчиг</translation>
     </message>
     <message>
         <source>Organization</source>
@@ -35867,7 +39623,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Fees</source>
-        <translation type="unfinished">Төлбөр</translation>
+        <translation>Төлбөр</translation>
     </message>
     <message>
         <source>Access constraints</source>
@@ -35947,7 +39703,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Шинэчлэх</translation>
+        <translation>Шинэчлэх</translation>
     </message>
     <message>
         <source>Insert</source>
@@ -35955,7 +39711,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Unselect all</source>
@@ -35963,7 +39719,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Бүгдийг сонгох</translation>
+        <translation>Бүгдийг сонгох</translation>
     </message>
     <message>
         <source>Macros</source>
@@ -35975,11 +39731,11 @@ Proceed?</source>
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>Maximums for GetMap request</source>
@@ -35995,6 +39751,44 @@ Proceed?</source>
     </message>
     <message>
         <source>Python macros</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsProjectionSelectionWidget</name>
+    <message>
+        <source>invalid projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selected CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer CRS (%1, %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Project CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default CRS (%1 - %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsProjectionSelectionWidgetPlugin</name>
+    <message>
+        <source>A widget to select a generic projection system.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -36027,11 +39821,11 @@ Because of this the projection selector will not work...</source>
     <name>QgsProjectionSelectorBase</name>
     <message>
         <source>Coordinate Reference System Selector</source>
-        <translation type="unfinished">Солбицлын Тогтолцоо Сонгогч</translation>
+        <translation>Солбицлын Тогтолцоо Сонгогч</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished">Шүүлтүүр</translation>
+        <translation>Шүүлтүүр</translation>
     </message>
     <message>
         <source>Recently used coordinate reference systems</source>
@@ -36039,7 +39833,7 @@ Because of this the projection selector will not work...</source>
     </message>
     <message>
         <source>Coordinate Reference System</source>
-        <translation type="unfinished">Солбицлын нэгдсэн тогтолцоо</translation>
+        <translation>Солбицлын нэгдсэн тогтолцоо</translation>
     </message>
     <message>
         <source>Selected CRS:</source>
@@ -36047,11 +39841,11 @@ Because of this the projection selector will not work...</source>
     </message>
     <message>
         <source>Authority ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Coordinate reference systems of the world</source>
@@ -36115,7 +39909,7 @@ The data provider said:
     <name>QgsQueryBuilderBase</name>
     <message>
         <source>Query Builder</source>
-        <translation type="unfinished">Хүсэлт Бүтээгч</translation>
+        <translation>Хүсэлт Бүтээгч</translation>
     </message>
     <message>
         <source>Datasource</source>
@@ -36123,7 +39917,7 @@ The data provider said:
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished">Талбар</translation>
+        <translation>Талбар</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -36152,7 +39946,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Sample</source>
-        <translation type="unfinished"></translation>
+        <translation>Турших</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -36163,7 +39957,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Use unfiltered layer</source>
@@ -36171,15 +39965,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Operators</source>
-        <translation type="unfinished">Оператор</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <source>=</source>
-        <translation type="unfinished">=</translation>
+        <translation>=</translation>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished">&lt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>NOT</source>
@@ -36187,15 +39981,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>OR</source>
-        <translation type="unfinished">ЭСВЭЛ</translation>
+        <translation>ЭСВЭЛ</translation>
     </message>
     <message>
         <source>AND</source>
-        <translation type="unfinished">БА</translation>
+        <translation>Ү</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>IN</source>
@@ -36211,7 +40005,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>LIKE</source>
@@ -36223,11 +40017,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&gt;=</source>
-        <translation type="unfinished">&gt;=</translation>
+        <translation>&gt;=</translation>
     </message>
     <message>
         <source>&lt;=</source>
-        <translation type="unfinished">&lt;=</translation>
+        <translation>&lt;=</translation>
     </message>
     <message>
         <source>Provider specific filter expression</source>
@@ -36238,7 +40032,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsRangeConfigDlg</name>
     <message>
         <source>Editable</source>
-        <translation type="unfinished">Засварлах боломжтой</translation>
+        <translation>Засварлах боломжтой</translation>
     </message>
     <message>
         <source>Slider</source>
@@ -36261,7 +40055,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsRangeConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Allows setting of numeric values from a specified range. The edit widget can be either a slider or a spin box.</source>
@@ -36269,7 +40063,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Алхам</translation>
     </message>
     <message>
         <source>Advanced options</source>
@@ -36285,7 +40079,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Maximum</source>
-        <translation type="unfinished">Хамгийн их</translation>
+        <translation>Хамгийн их</translation>
     </message>
     <message>
         <source>Allow NULL</source>
@@ -36293,7 +40087,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Minimum</source>
-        <translation type="unfinished">Хамгийн бага</translation>
+        <translation>Хамгийн бага</translation>
     </message>
     <message>
         <source>Local minimum/maximum = 0/0</source>
@@ -36371,7 +40165,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add result to project</source>
-        <translation type="unfinished">Үр дүнг төсөлд нэмэх</translation>
+        <translation>Үр дүнг төсөлд нэмэх</translation>
     </message>
     <message>
         <source>Operators</source>
@@ -36474,15 +40268,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished">Текст</translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>Html</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML</translation>
     </message>
     <message>
         <source>Feature</source>
@@ -36490,10 +40284,29 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>QgsRasterFillSymbolLayerWidget</name>
+    <message>
+        <source>Pixels</source>
+        <translation>Пикселүүд</translation>
+    </message>
+    <message>
+        <source>Millimeter</source>
+        <translation>Миллиметр</translation>
+    </message>
+    <message>
+        <source>Map unit</source>
+        <translation>Зургийн нэгж</translation>
+    </message>
+    <message>
+        <source>Select image file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsRasterFormatSaveOptionsWidget</name>
     <message>
         <source>Default</source>
-        <translation type="unfinished">Өгөгдмөл</translation>
+        <translation>Өгөгдмөл</translation>
     </message>
     <message>
         <source>No compression</source>
@@ -36533,7 +40346,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Valid</source>
-        <translation type="unfinished">Хүчинтэй</translation>
+        <translation>Хүчинтэй</translation>
     </message>
     <message>
         <source>Invalid %1:
@@ -36568,15 +40381,15 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterFormatSaveOptionsWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished">Шинэ</translation>
+        <translation>Шинэ</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Хасах</translation>
+        <translation>Хасах</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -36592,11 +40405,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>Validate</source>
@@ -36604,11 +40417,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>Insert KEY=VALUE pairs separated by spaces</source>
@@ -36619,7 +40432,7 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterHistogramWidget</name>
     <message>
         <source>Visibility</source>
-        <translation type="unfinished">Үзэгдэх</translation>
+        <translation>Үзэгдэх</translation>
     </message>
     <message>
         <source>Min/Max options</source>
@@ -36651,7 +40464,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Дэлгэц</translation>
+        <translation>Дэлгэц</translation>
     </message>
     <message>
         <source>Draw as lines</source>
@@ -36663,7 +40476,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Actions</source>
-        <translation type="unfinished">Үйлдэл</translation>
+        <translation>Үйлдэл</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -36703,7 +40516,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Band %1</source>
-        <translation type="unfinished">Суваг %1</translation>
+        <translation>Суваг %1</translation>
     </message>
     <message>
         <source>Choose a file name to save the map image as</source>
@@ -36714,7 +40527,7 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterHistogramWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Set min/max style for</source>
@@ -36722,7 +40535,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Min</source>
-        <translation type="unfinished">ХБ</translation>
+        <translation>ХБ</translation>
     </message>
     <message>
         <source>Pick Min value on graph</source>
@@ -36730,11 +40543,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished">ХИ</translation>
+        <translation>ХИ</translation>
     </message>
     <message>
         <source>Pick Max value on graph</source>
@@ -36777,7 +40590,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">Суваг</translation>
+        <translation>Суваг</translation>
     </message>
 </context>
 <context>
@@ -36792,7 +40605,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">Растер</translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>No Data Value</source>
@@ -36808,7 +40621,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Driver</source>
-        <translation type="unfinished">Драйвэр</translation>
+        <translation>Драйвэр</translation>
     </message>
     <message>
         <source>Data Type</source>
@@ -36939,7 +40752,7 @@ Click on help button to get valid creation options for this format.</source>
     <name>QgsRasterLayerProperties</name>
     <message>
         <source>Not Set</source>
-        <translation type="unfinished">Тохируулаагүй</translation>
+        <translation>Тохируулаагүй</translation>
     </message>
     <message>
         <source>Description</source>
@@ -36983,15 +40796,15 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">Дундаж</translation>
+        <translation>Дундаж</translation>
     </message>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Байхгүй</translation>
     </message>
     <message>
         <source>Red</source>
@@ -37019,11 +40832,11 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Үгүй</translation>
     </message>
     <message>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>not defined</source>
@@ -37095,7 +40908,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Write access denied. Adjust the file permissions and try again.
@@ -37147,6 +40960,26 @@ Click on help button to get valid creation options for this format.</source>
         <source>Save layer properties as style file</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Style</source>
+        <translation>Загвар</translation>
+    </message>
+    <message>
+        <source>Load Style...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Style...</source>
+        <translation>Загвар ажлыг хадгалах...</translation>
+    </message>
+    <message>
+        <source>Save As Default</source>
+        <translation>Өгөгдсмөл болгож хадгалах</translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerPropertiesBase</name>
@@ -37157,18 +40990,6 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <source>Resolutions</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save As Default</source>
-        <translation>Өгөгдсмөл болгож хадгалах</translation>
-    </message>
-    <message>
-        <source>Load Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restore Default Style</source>
-        <translation>Өгөгдмөл Загварыг сэргээх</translation>
     </message>
     <message>
         <source>Render type</source>
@@ -37188,23 +41009,15 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Layer info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Keyword list</source>
@@ -37212,7 +41025,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Data Url</source>
@@ -37224,7 +41037,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -37232,7 +41045,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>LegendUrl</source>
@@ -37312,7 +41125,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Reset all color rendering options to default</source>
@@ -37391,10 +41204,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add values manually</source>
         <translation>Утгуулыг гараар нэмэх</translation>
     </message>
@@ -37428,7 +41237,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>displayed as</source>
-        <translation type="unfinished"></translation>
+        <translation>Дэлгэцэнд харуулах хэлбэр</translation>
     </message>
     <message>
         <source>Layer source</source>
@@ -37455,14 +41264,6 @@ p, li { white-space: pre-wrap; }
         <translation>Солбицлын систем</translation>
     </message>
     <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation>Давхаргын геометрийн солбицлын системийн зааж өгнө үү.</translation>
-    </message>
-    <message>
-        <source>Specify...</source>
-        <translation>Зааж өгөх...</translation>
-    </message>
-    <message>
         <source>Thumbnail</source>
         <translation>Thumbnail</translation>
     </message>
@@ -37480,11 +41281,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished">Гарчиг</translation>
+        <translation>Гарчиг</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished"></translation>
+        <translation>Хураангуй</translation>
     </message>
     <message>
         <source>Pyramids</source>
@@ -37526,16 +41327,24 @@ p, li { white-space: pre-wrap; }
         <source>Histogram</source>
         <translation>Гистограм</translation>
     </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRasterLayerSaveAsDialog</name>
     <message>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Үгүй</translation>
     </message>
     <message>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>Select output directory</source>
@@ -37543,7 +41352,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Анхааруулга</translation>
+        <translation>Анхааруулга</translation>
     </message>
     <message>
         <source>The directory %1 contains files which will be overwritten: %2</source>
@@ -37559,7 +41368,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>user defined</source>
@@ -37567,18 +41376,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Resolution (current: %1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Layer (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Project (%1, %2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected (%1, %2)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -37610,7 +41407,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Create GDAL Virtual Format composed of multiple 
@@ -37623,19 +41420,15 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished">Нэрлэж хадгалах</translation>
+        <translation>Нэрлэж хадгалах</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">Зам заах...</translation>
+        <translation>Зам заах...</translation>
     </message>
     <message>
         <source>CRS</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
     </message>
     <message>
         <source>Extent</source>
@@ -37647,15 +41440,15 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished">Хэвтээ</translation>
+        <translation>Хэвтээ</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished">Багана</translation>
+        <translation>Багана</translation>
     </message>
     <message>
         <source>Rows</source>
-        <translation type="unfinished">Мөр</translation>
+        <translation>Мөр</translation>
     </message>
     <message>
         <source>Layer resolution</source>
@@ -37667,7 +41460,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished">Босоо</translation>
+        <translation>Босоо</translation>
     </message>
     <message>
         <source>VRT Tiles</source>
@@ -37695,7 +41488,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Pyramids</source>
-        <translation type="unfinished">Пирамид</translation>
+        <translation>Пирамид</translation>
     </message>
     <message>
         <source>Resolutions</source>
@@ -37719,11 +41512,11 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Add values manually</source>
-        <translation type="unfinished">Утгуулыг гараар нэмэх</translation>
+        <translation>Утгуулыг гараар нэмэх</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Load user defined fully transparent (100%) values </source>
@@ -37731,7 +41524,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Remove selected row</source>
-        <translation type="unfinished">Сонгогдсон мөрийг хасах</translation>
+        <translation>Сонгогдсон мөрийг хасах</translation>
     </message>
     <message>
         <source>Clear all</source>
@@ -37753,7 +41546,7 @@ datasets with maximum width and height specified below.</source>
     <name>QgsRasterMinMaxWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Load min/max values</source>
@@ -37761,11 +41554,11 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Min / max</source>
@@ -37777,7 +41570,7 @@ datasets with maximum width and height specified below.</source>
     </message>
     <message>
         <source>Full</source>
-        <translation type="unfinished"></translation>
+        <translation>Нийт</translation>
     </message>
     <message>
         <source>Current</source>
@@ -37807,14 +41600,14 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished">Дуудах</translation>
+        <translation>Дуудах</translation>
     </message>
 </context>
 <context>
     <name>QgsRasterPyramidsOptionsWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Insert positive integer values separated by spaces</source>
@@ -37846,11 +41639,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished">Дундаж</translation>
+        <translation>Дундаж</translation>
     </message>
     <message>
         <source>Nearest Neighbour</source>
-        <translation type="unfinished">Ойрын Хөрш</translation>
+        <translation>Ойрын Хөрш</translation>
     </message>
     <message>
         <source>Custom levels</source>
@@ -37865,7 +41658,7 @@ standard deviation ×</source>
     <name>QgsRasterRenderer</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Үлмэдэгдэх</translation>
+        <translation>Үлмэдэгдэх</translation>
     </message>
     <message>
         <source>User defined</source>
@@ -37937,7 +41730,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Enter result file</source>
-        <translation type="unfinished">Үр дүнгийн ажлыг оруулах</translation>
+        <translation>Үр дүнгийн ажлыг оруулах</translation>
     </message>
     <message>
         <source>Enter lower elevation class bound</source>
@@ -37960,7 +41753,7 @@ standard deviation ×</source>
     <name>QgsRasterTerrainAnalysisDialogBase</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished">Харилцах цонх</translation>
+        <translation>Харилцах цонх</translation>
     </message>
     <message>
         <source>Elevation layer</source>
@@ -38075,7 +41868,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Relief...</source>
-        <translation type="unfinished"></translation>
+        <translation>Хаялбар</translation>
     </message>
     <message>
         <source>Ruggedness Index...</source>
@@ -38151,6 +41944,10 @@ standard deviation ×</source>
         <source>Relation</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Order by value</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsRelation</name>
@@ -38202,7 +41999,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
 </context>
 <context>
@@ -38213,7 +42010,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="unfinished">Обьект нэмэх</translation>
+        <translation>Обьект нэмэх</translation>
     </message>
     <message>
         <source>Delete feature</source>
@@ -38233,6 +42030,10 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Table view</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save layer edits</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -38271,7 +42072,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <source>Add Relation</source>
@@ -38336,7 +42137,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -38521,7 +42322,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Rule</source>
@@ -38755,10 +42556,6 @@ standard deviation ×</source>
 <context>
     <name>QgsSVGFillSymbolLayerWidget</name>
     <message>
-        <source>Texture width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>SVG file</source>
         <translation>SVG ажил</translation>
     </message>
@@ -38785,22 +42582,6 @@ standard deviation ×</source>
     <message>
         <source>All files</source>
         <translation>Бүх ажил</translation>
-    </message>
-    <message>
-        <source>Rotation</source>
-        <translation>Эргэлт</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Өнгө</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation>Хүрээний өнгө</translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation>Хүрээний өргөн</translation>
     </message>
 </context>
 <context>
@@ -38838,7 +42619,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>UI</source>
@@ -38881,10 +42662,6 @@ standard deviation ×</source>
         <source>Maximum scale, i.e. minimum scale denominator. This limit is inclusive, that means the layer will be displayed on this scale.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>current</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QgsScaleRangeWidgetPlugin</name>
@@ -38901,6 +42678,17 @@ standard deviation ×</source>
     <name>QgsScaleVisibilityDialog</name>
     <message>
         <source>Scale visibility </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsScaleWidgetPlugin</name>
+    <message>
+        <source>A widget to define the scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A widget to define the scale.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39084,11 +42872,11 @@ The error was:
     <name>QgsShapeburstFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select gradient color</source>
@@ -39099,31 +42887,7 @@ The error was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Color (start)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color (end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blur radius</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Integer between 0 and 18</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use whole shape</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Maximum distance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Ignore rings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39131,15 +42895,15 @@ The error was:
     <name>QgsSimpleFillSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Transparent fill</source>
@@ -39147,61 +42911,25 @@ The error was:
     </message>
     <message>
         <source>Select border color</source>
-        <translation type="unfinished">Хүрээний өнгө сонгох</translation>
+        <translation>Хүрээний өнгө сонгох</translation>
     </message>
     <message>
         <source>Transparent border</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
     </message>
 </context>
 <context>
     <name>QgsSimpleLineSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select line color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
-    </message>
-    <message>
-        <source>Pen width</source>
-        <translation type="unfinished">Зурах өргөн</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dash pattern</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Join style</source>
-        <translation type="unfinished">Нэгтгэх хэлбэр</translation>
-    </message>
-    <message>
-        <source>Cap style</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39209,15 +42937,15 @@ The error was:
     <name>QgsSimpleMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Transparent fill</source>
@@ -39225,42 +42953,14 @@ The error was:
     </message>
     <message>
         <source>Select border color</source>
-        <translation type="unfinished">Хүрээний өнгө сонгох</translation>
+        <translation>Хүрээний өнгө сонгох</translation>
     </message>
     <message>
         <source>Transparent border</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Нэр</translation>
-    </message>
-    <message>
-        <source>Fill color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
-    </message>
-    <message>
-        <source>Outline width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">Өнцөг</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
+        <source>string </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39295,7 +42995,7 @@ The error was:
     <name>QgsSingleBandGrayRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Contrast
@@ -39308,11 +43008,11 @@ enhancement</source>
     </message>
     <message>
         <source>Min</source>
-        <translation type="unfinished">ХБ</translation>
+        <translation>ХБ</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished">ХИ</translation>
+        <translation>ХИ</translation>
     </message>
     <message>
         <source>Color gradient</source>
@@ -39327,7 +43027,7 @@ enhancement</source>
     </message>
     <message>
         <source>Linear</source>
-        <translation type="unfinished">Шугаман</translation>
+        <translation>Шугаман</translation>
     </message>
     <message>
         <source>Exact</source>
@@ -39355,7 +43055,7 @@ enhancement</source>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished">Ажил нээх</translation>
+        <translation>Ажил нээх</translation>
     </message>
     <message>
         <source>Textfile (*.txt)</source>
@@ -39363,7 +43063,7 @@ enhancement</source>
     </message>
     <message>
         <source>Import Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>The following lines contained errors
@@ -39383,7 +43083,7 @@ enhancement</source>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг хадгалах</translation>
     </message>
     <message>
         <source>QGIS Generated Color Map Export File</source>
@@ -39404,11 +43104,11 @@ enhancement</source>
     <name>QgsSingleBandPseudoColorRendererWidgetBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Band</source>
-        <translation type="unfinished">Суваг</translation>
+        <translation>Суваг</translation>
     </message>
     <message>
         <source>Color interpolation</source>
@@ -39416,15 +43116,15 @@ enhancement</source>
     </message>
     <message>
         <source>Add values manually</source>
-        <translation type="unfinished">Утгуулыг гараар нэмэх</translation>
+        <translation>Утгуулыг гараар нэмэх</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Remove selected row</source>
-        <translation type="unfinished">Сонгогдсон мөрийг хасах</translation>
+        <translation>Сонгогдсон мөрийг хасах</translation>
     </message>
     <message>
         <source>Sort colormap items</source>
@@ -39444,15 +43144,15 @@ enhancement</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished">Шошго</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Clip</source>
@@ -39464,19 +43164,19 @@ enhancement</source>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished">Горим</translation>
+        <translation>Горим</translation>
     </message>
     <message>
         <source>Classes</source>
-        <translation type="unfinished">Ангий</translation>
+        <translation>Ангий</translation>
     </message>
     <message>
         <source>Min</source>
-        <translation type="unfinished">ХБ</translation>
+        <translation>ХБ</translation>
     </message>
     <message>
         <source>Max</source>
-        <translation type="unfinished">ХИ</translation>
+        <translation>ХИ</translation>
     </message>
     <message>
         <source>Invert</source>
@@ -39533,11 +43233,11 @@ enhancement</source>
     <name>QgsSmartGroupConditionWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>The Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Таних тэмдэг</translation>
     </message>
 </context>
 <context>
@@ -39602,11 +43302,31 @@ enhancement</source>
     </message>
     <message>
         <source>map units</source>
-        <translation type="unfinished">зургийн нэгж</translation>
+        <translation>зургийн нэгж</translation>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">пиксел</translation>
+        <translation>пиксел</translation>
+    </message>
+    <message>
+        <source>To vertex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To vertex and segment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>layer units</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -39647,6 +43367,34 @@ enhancement</source>
         <source>Enable snapping on intersection</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Snapping mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>Нэмэлт</translation>
+    </message>
+    <message>
+        <source>Snap to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>map units</source>
+        <translation>зургийн нэгж</translation>
+    </message>
+    <message>
+        <source>pixels</source>
+        <translation>пиксел</translation>
+    </message>
+    <message>
+        <source>All layers</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsSpatiaLiteConnection</name>
@@ -39684,7 +43432,7 @@ enhancement</source>
     </message>
     <message>
         <source>POLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>MULTIPOINT</source>
@@ -39696,7 +43444,7 @@ enhancement</source>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished"></translation>
+        <translation>Олон полигон</translation>
     </message>
     <message>
         <source>GEOMETRYCOLLECTION</source>
@@ -39727,7 +43475,7 @@ enhancement</source>
     </message>
     <message>
         <source>SpatiaLite</source>
-        <translation type="unfinished">SpatiaLite</translation>
+        <translation>SpatiaLite</translation>
     </message>
     <message>
         <source>Could not parse spatialite version string &apos;%1&apos;</source>
@@ -39744,7 +43492,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished">АЛДАА: Талбар %1 олдсонгүй.</translation>
+        <translation>АЛДАА: Талбар %1 олдсонгүй.</translation>
     </message>
 </context>
 <context>
@@ -39755,7 +43503,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>Databases</source>
-        <translation type="unfinished">Өгөгдлийн сан</translation>
+        <translation>Өгөгдлийн сан</translation>
     </message>
     <message>
         <source>&amp;Update statistics</source>
@@ -39763,7 +43511,7 @@ SQL: %1</source>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;Нэмэх</translation>
+        <translation>&amp;Нэмэх</translation>
     </message>
     <message>
         <source>&amp;Set Filter</source>
@@ -39779,23 +43527,23 @@ SQL: %1</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished">Бүгд</translation>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Are you sure you want to update the internal statistics for DB: %1?
@@ -39822,7 +43570,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>@</source>
-        <translation type="unfinished">@</translation>
+        <translation>@</translation>
     </message>
     <message>
         <source>Choose a SpatiaLite/SQLite DB to open</source>
@@ -39834,11 +43582,11 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished">Бүх ажил</translation>
+        <translation>Бүх ажил</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Cannot add connection &apos;%1&apos; : a connection with the same name already exists.</source>
@@ -39846,15 +43594,15 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Select Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Хүснэгт Сонгох</translation>
     </message>
     <message>
         <source>You must select a table in order to add a Layer.</source>
@@ -39899,43 +43647,43 @@ but implies better performance thereafter.</source>
     <name>QgsSpatiaLiteTableModel</name>
     <message>
         <source>Table</source>
-        <translation type="unfinished">Хүснэгт</translation>
+        <translation>Хүснэгт</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Geometry column</source>
-        <translation type="unfinished">Геометр багана</translation>
+        <translation>Геометр багана</translation>
     </message>
     <message>
         <source>Sql</source>
-        <translation type="unfinished"></translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="unfinished">Олонцэг</translation>
+        <translation>Олонцэг</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished"></translation>
+        <translation>Олоншулуун</translation>
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон</translation>
     </message>
     <message>
         <source>Multipolygon</source>
-        <translation type="unfinished">Олон полигон</translation>
+        <translation>Олон полигон</translation>
     </message>
 </context>
 <context>
@@ -40030,7 +43778,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>user</source>
-        <translation type="unfinished">хэрэглэгч</translation>
+        <translation>хэрэглэгч</translation>
     </message>
     <message>
         <source>Map &quot;%1&quot; &quot;on the fly&quot; transformation.</source>
@@ -40042,7 +43790,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>disable</source>
-        <translation type="unfinished">идэвхгүй болгох</translation>
+        <translation>идэвхгүй болгох</translation>
     </message>
     <message>
         <source>Coordinate reference system(CRS) of
@@ -40501,7 +44249,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
     <message>
         <source>Create a new PostGIS connection</source>
@@ -40545,7 +44293,7 @@ Do you want to overwrite the [%2] relation?</source>
     </message>
     <message>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <source>Set the SRID to the default value</source>
@@ -40635,7 +44383,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsStyleV2ExportImportDialog</name>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Бүгдийг сонгох</translation>
+        <translation>Бүгдийг сонгох</translation>
     </message>
     <message>
         <source>Clear selection</source>
@@ -40659,7 +44407,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Оруулах</translation>
+        <translation>Оруулах</translation>
     </message>
     <message>
         <source>Export style(s)</source>
@@ -40667,11 +44415,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Export/import error</source>
-        <translation type="unfinished">Гаргах/оруулах алдаа</translation>
+        <translation>Гаргах/оруулах алдаа</translation>
     </message>
     <message>
         <source>You should select at least one symbol/color ramp.</source>
@@ -40683,7 +44431,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *.XML)</translation>
+        <translation>XML ажил (*.xml *.XML)</translation>
     </message>
     <message>
         <source>Error when saving selected symbols to file:
@@ -40747,7 +44495,7 @@ Overwrite?</source>
     </message>
     <message>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished">XML ажил (*.xml *XML)</translation>
+        <translation>XML ажил (*.xml *XML)</translation>
     </message>
     <message>
         <source>Downloading style ... </source>
@@ -40774,7 +44522,7 @@ Overwrite?</source>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">Байрлал</translation>
+        <translation>Байрлал</translation>
     </message>
     <message>
         <source>Save to group</source>
@@ -40797,11 +44545,11 @@ Overwrite?</source>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished">Оруулах</translation>
+        <translation>Оруулах</translation>
     </message>
     <message>
         <source>Group Actions</source>
@@ -40976,7 +44724,7 @@ Kindly select a group or smart group you might want to delete.</source>
     </message>
     <message>
         <source>Error!</source>
-        <translation type="unfinished">Алдаа!</translation>
+        <translation>Алдаа!</translation>
     </message>
     <message>
         <source>New group could not be created.
@@ -40989,7 +44737,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Database Error</source>
-        <translation type="unfinished">Өгөгдлийн сангийн алдаа</translation>
+        <translation>Өгөгдлийн сангийн алдаа</translation>
     </message>
     <message>
         <source>There was a problem with the Symbols database while regrouping.</source>
@@ -41027,6 +44775,14 @@ There was a problem with your symbol database.</source>
         <source>There was some error while editing the smart group.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Cannot rename item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name is already taken by another item. Choose a different name.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsStyleV2ManagerDialogBase</name>
@@ -41040,11 +44796,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Шулуун</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">Дүүргэх</translation>
+        <translation>Дүүргэх</translation>
     </message>
     <message>
         <source>Color ramp</source>
@@ -41079,11 +44835,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSublayersDialog</name>
     <message>
         <source>Select vector layers to add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэмэх вектор давхаргыг сонгоно уу...</translation>
     </message>
     <message>
         <source>Layer ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Давхарга ID</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -41095,11 +44851,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>Геометр төрөл</translation>
     </message>
     <message>
         <source>Select raster layers to add...</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэмэх растер давхаргыг сонгоно уу...</translation>
     </message>
     <message>
         <source>Select layers to add...</source>
@@ -41107,7 +44863,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -41118,11 +44874,11 @@ There was a problem with your symbol database.</source>
     <name>QgsSublayersDialogBase</name>
     <message>
         <source>Select layers to load</source>
-        <translation type="unfinished"></translation>
+        <translation>Ачааллах давхаргуудыг сонго</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished">1</translation>
+        <translation>1</translation>
     </message>
 </context>
 <context>
@@ -41133,11 +44889,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Устгах</translation>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Select SVG file</source>
-        <translation type="unfinished">SVG өжил сонгох</translation>
+        <translation>SVG өжил сонгох</translation>
     </message>
     <message>
         <source>SVG files</source>
@@ -41182,19 +44938,19 @@ There was a problem with your symbol database.</source>
     <name>QgsSvgMarkerSymbolLayerV2Widget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select fill color</source>
-        <translation type="unfinished">Дүүргэх өнгийг сонго</translation>
+        <translation>Дүүргэх өнгийг сонго</translation>
     </message>
     <message>
         <source>Select border color</source>
-        <translation type="unfinished">Хүрээний өнгө сонгох</translation>
+        <translation>Хүрээний өнгө сонгох</translation>
     </message>
     <message>
         <source>Select SVG file</source>
@@ -41202,38 +44958,6 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>SVG files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Border width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
-    </message>
-    <message>
-        <source>Angle</source>
-        <translation type="unfinished">Өнцөг</translation>
-    </message>
-    <message>
-        <source>Offset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SVG file</source>
-        <translation type="unfinished">SVG ажил</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
-    </message>
-    <message>
-        <source>Border color</source>
-        <translation type="unfinished">Хүрээний өнгө</translation>
-    </message>
-    <message>
-        <source>Horizontal anchor point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vertical anchor point</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -41252,7 +44976,7 @@ There was a problem with your symbol database.</source>
     <name>QgsSvgSelectorWidget</name>
     <message>
         <source>Select SVG file</source>
-        <translation type="unfinished">SVG өжил сонгох</translation>
+        <translation>SVG өжил сонгох</translation>
     </message>
     <message>
         <source>SVG files</source>
@@ -41343,11 +45067,11 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Дээш шилжүүлэх</translation>
     </message>
     <message>
         <source>Move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Доош шилжүүлэх</translation>
     </message>
     <message>
         <source>Save symbol</source>
@@ -41355,26 +45079,26 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Хадгалах</translation>
+        <translation>Хадгалах</translation>
     </message>
 </context>
 <context>
     <name>QgsSymbolsListWidget</name>
     <message>
         <source>Millimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>Миллиметр</translation>
     </message>
     <message>
         <source>Map unit</source>
-        <translation type="unfinished">Зургийн нэгж</translation>
+        <translation>Зургийн нэгж</translation>
     </message>
     <message>
         <source>Select color</source>
-        <translation type="unfinished">Өнгө сонгох</translation>
+        <translation>Өнгө сонгох</translation>
     </message>
     <message>
         <source>Symbol name</source>
-        <translation type="unfinished">Таних тэмдэгийн Нэр</translation>
+        <translation>Таних тэмдэгийн Нэр</translation>
     </message>
     <message>
         <source>Please enter name for the symbol:</source>
@@ -41465,15 +45189,15 @@ There was a problem with your symbol database.</source>
     <name>QgsTextEditConfigDlg</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="unfinished"></translation>
+        <translation>Олоншулуун</translation>
     </message>
     <message>
         <source>HTML</source>
-        <translation type="unfinished">HTML</translation>
+        <translation>HTML</translation>
     </message>
 </context>
 <context>
@@ -41863,7 +45587,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsUniqueValuesConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>The user can select one of the values already used in the attribute. If editable, a line edit is shown with autocompletion support, otherwise a combo box is used.</source>
@@ -41871,14 +45595,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Editable</source>
-        <translation type="unfinished">Засварлах боломжтой</translation>
+        <translation>Засварлах боломжтой</translation>
     </message>
 </context>
 <context>
     <name>QgsUnitSelectionWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Adjust scaling range</source>
@@ -41889,23 +45613,24 @@ p, li { white-space: pre-wrap; }
     <name>QgsValueMapConfigDlg</name>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг сонгох</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Could not open file %1
 Error was:%2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ажлыг нээх боломжгүй
+Алдаа нь:%2</translation>
     </message>
 </context>
 <context>
     <name>QgsValueMapWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Combo box with predefined items. Value is stored in the attribute, description is shown in the combo box.</source>
@@ -41913,23 +45638,23 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load Data from layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Давхаргаас өгөгдөл дуудах</translation>
     </message>
     <message>
         <source>Load Data from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>CSV ажлаас өгөгдөл дуудах</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Сонгогдсоныг Хасах</translation>
     </message>
 </context>
 <context>
@@ -41943,7 +45668,7 @@ Error was:%2</source>
     <name>QgsValueRelationConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Select layer, key column and value column</source>
@@ -41951,11 +45676,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Key column</source>
-        <translation type="unfinished">Гол багана</translation>
+        <translation>Гол багана</translation>
     </message>
     <message>
         <source>Value column</source>
@@ -41979,14 +45704,14 @@ Error was:%2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QgsValueRelationWidgetWrapper</name>
     <message>
         <source>(no selection)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Сонголт байхгүй)</translation>
     </message>
 </context>
 <context>
@@ -42059,11 +45784,11 @@ Error was:%2</source>
     <name>QgsVectorFieldSymbolLayerWidget</name>
     <message>
         <source>X attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>Y attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>Length attribute</source>
@@ -42137,7 +45862,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>Multiple stops</source>
@@ -42153,7 +45878,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Offset (%)</source>
@@ -42161,11 +45886,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Урьдчилан харах</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Мэдээлэл</translation>
     </message>
 </context>
 <context>
@@ -42176,7 +45901,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>ERROR: no provider</source>
@@ -42193,7 +45918,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished">Ерөнхий</translation>
+        <translation>Ерөнхий</translation>
     </message>
     <message>
         <source>Layer comment</source>
@@ -42252,10 +45977,6 @@ Error was:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Error: qgis element could not be found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>xMin,yMin %1,%2 : xMax,yMax %3,%4</source>
         <translation type="unfinished"></translation>
     </message>
@@ -42281,7 +46002,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Precision</source>
-        <translation type="unfinished">Нарийвчлал</translation>
+        <translation>Нарийвчлал</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -42468,7 +46189,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Not supported</source>
-        <translation type="unfinished">Дэмжигдэхгүй</translation>
+        <translation>Дэмжигдэхгүй</translation>
     </message>
     <message>
         <source>Spatial Index</source>
@@ -42488,7 +46209,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>Local database</source>
@@ -42546,24 +46267,32 @@ Error was:%2</source>
         <source>Save Style</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>QgsVectorLayerPropertiesBase</name>
     <message>
-        <source>Layer Properties</source>
-        <translation>Давхаргын Мөнчанар</translation>
+        <source>Style</source>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Load Style...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Restore Default Style</source>
-        <translation type="unfinished">Өгөгдмөл Загварыг сэргээх</translation>
+        <source>Save Style...</source>
+        <translation>Загвар ажлыг хадгалах...</translation>
     </message>
     <message>
         <source>Save As Default</source>
-        <translation type="unfinished">Өгөгдсмөл болгож хадгалах</translation>
+        <translation>Өгөгдсмөл болгож хадгалах</translation>
+    </message>
+    <message>
+        <source>Restore Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QgsVectorLayerPropertiesBase</name>
+    <message>
+        <source>Layer Properties</source>
+        <translation>Давхаргын Мөнчанар</translation>
     </message>
     <message>
         <source>A widget to define the scale visibility</source>
@@ -42579,7 +46308,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Тайлбар</translation>
+        <translation>Тайлбар</translation>
     </message>
     <message>
         <source>Keyword list</source>
@@ -42591,7 +46320,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Attribution</source>
@@ -42599,7 +46328,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>MetadataUrl</source>
@@ -42607,7 +46336,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Төрөл</translation>
+        <translation>Төрөл</translation>
     </message>
     <message>
         <source>LegendUrl</source>
@@ -42631,7 +46360,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished">Загвар</translation>
+        <translation>Загвар</translation>
     </message>
     <message>
         <source>Labels</source>
@@ -42654,10 +46383,6 @@ Error was:%2</source>
         <translation>Ерөнхий</translation>
     </message>
     <message>
-        <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation type="unfinished">Давхаргын геометрийн солбицлын системийн зааж өгнө үү.</translation>
-    </message>
-    <message>
         <source>Query Builder</source>
         <translation>Хүсэлт Бүтээгч</translation>
     </message>
@@ -42675,7 +46400,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Layer source</source>
-        <translation type="unfinished">Давхаргын эх сурвалж</translation>
+        <translation>Давхаргын эх сурвалж</translation>
     </message>
     <message>
         <source>Data source encoding</source>
@@ -42683,15 +46408,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Coordinate reference system</source>
-        <translation type="unfinished">Солбицлын систем</translation>
-    </message>
-    <message>
-        <source>Specify...</source>
-        <translation type="unfinished">Зааж өгөх...</translation>
+        <translation>Солбицлын систем</translation>
     </message>
     <message>
         <source>Create spatial index</source>
-        <translation type="unfinished">Оронзайн Индекс Үүсгэх</translation>
+        <translation>Оронзайн Индекс Үүсгэх</translation>
     </message>
     <message>
         <source>Update extents</source>
@@ -42723,7 +46444,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>pixels</source>
-        <translation type="unfinished">пиксел</translation>
+        <translation>пиксел</translation>
     </message>
     <message>
         <source>Simplify on provider side if possible</source>
@@ -42743,11 +46464,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Insert expression...</source>
-        <translation type="unfinished">Илэрхийллийг оруул...</translation>
+        <translation>Илэрхийллийг оруул...</translation>
     </message>
     <message>
         <source>The valid attribute names for this layer</source>
-        <translation type="unfinished">Энэ давхаргын үзүүлэлтийн нэр нь буруу</translation>
+        <translation>Энэ давхаргын үзүүлэлтийн нэр нь буруу</translation>
     </message>
     <message>
         <source>Inserts the selected field into the action</source>
@@ -42766,20 +46487,16 @@ Error was:%2</source>
         <translation>Талбар</translation>
     </message>
     <message>
-        <source>Save Style...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Layer name</source>
         <translation>Давхаргын нэр</translation>
     </message>
     <message>
         <source>displayed as</source>
-        <translation type="unfinished"></translation>
+        <translation>Дэлгэцэнд харуулах хэлбэр</translation>
     </message>
     <message>
         <source>Metadata</source>
-        <translation>Metadata (Мэдээллийн лавлах)</translation>
+        <translation>Мета-өгөдөл</translation>
     </message>
     <message>
         <source>Title</source>
@@ -42799,11 +46516,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Join layer</source>
-        <translation type="unfinished">Нэгтгэх давхарга</translation>
+        <translation>Нэгтгэх давхарга</translation>
     </message>
     <message>
         <source>Join field</source>
-        <translation type="unfinished">Нэгтгэх талбар</translation>
+        <translation>Нэгтгэх талбар</translation>
     </message>
     <message>
         <source>Target field</source>
@@ -42816,18 +46533,6 @@ Error was:%2</source>
 </context>
 <context>
     <name>QgsVectorLayerSaveAsDialog</name>
-    <message>
-        <source>Layer CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Project CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected CRS</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>No symbology</source>
         <translation type="unfinished"></translation>
@@ -42861,7 +46566,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Зам заах</translation>
+        <translation>Зам заах</translation>
     </message>
     <message>
         <source>Encoding</source>
@@ -42889,15 +46594,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Save as</source>
-        <translation type="unfinished">Нэрлэж хадгалах</translation>
+        <translation>Нэрлэж хадгалах</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished">Хэлбэр</translation>
-    </message>
-    <message>
-        <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
+        <translation>Хэлбэр</translation>
     </message>
     <message>
         <source>Save only selected features</source>
@@ -42905,7 +46606,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Data source</source>
-        <translation type="unfinished">Өгөдлийн эх сурвалж</translation>
+        <translation>Өгөдлийн эх сурвалж</translation>
     </message>
     <message>
         <source>Layer</source>
@@ -43045,7 +46746,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>WFS</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -43057,7 +46758,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>empty response</source>
-        <translation type="unfinished"></translation>
+        <translation>Хоосон хариу үйлдэл</translation>
     </message>
     <message>
         <source>WFS service exception:%1</source>
@@ -43095,7 +46796,7 @@ Error was:%2</source>
     <name>QgsWFSSourceSelect</name>
     <message>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;Нэмэх</translation>
+        <translation>&amp;Нэмэх</translation>
     </message>
     <message>
         <source>&amp;Build query</source>
@@ -43139,11 +46840,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished">Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
+        <translation>Та [%1] холболтыг түүний тохиргоотой хамт устгахдаа итгэлтэй байна уу?</translation>
     </message>
     <message>
         <source>Confirm Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Устгал Баталгаажуулах</translation>
     </message>
     <message>
         <source>Load connections</source>
@@ -43162,11 +46863,11 @@ Error was:%2</source>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
+        <translation>Өөрчлөх ...</translation>
     </message>
     <message>
         <source>Filter:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шүүлт:</translation>
     </message>
     <message>
         <source>Display WFS FeatureTypes containing this word in the title, name or abstract</source>
@@ -43178,7 +46879,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>C&amp;onnect</source>
-        <translation type="unfinished">Х&amp;олбох</translation>
+        <translation>Х&amp;олбох</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -43194,7 +46895,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Load connections from file</source>
-        <translation type="unfinished">Файлаас холболт дуудах</translation>
+        <translation>Файлаас холболт дуудах</translation>
     </message>
     <message>
         <source>Load</source>
@@ -43202,7 +46903,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг файл болгон хадгалах</translation>
     </message>
     <message>
         <source>Save</source>
@@ -43214,7 +46915,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Coordinate reference system</source>
-        <translation type="unfinished">Солбицлын систем</translation>
+        <translation>Солбицлын систем</translation>
     </message>
 </context>
 <context>
@@ -43438,7 +47139,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Save connections to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Холболтыг файл болгон хадгалах</translation>
     </message>
     <message>
         <source>Save</source>
@@ -43458,7 +47159,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Change...</source>
-        <translation type="unfinished">Өөрчлөх ...</translation>
+        <translation>Өөрчлөх ...</translation>
     </message>
     <message>
         <source>Layer name</source>
@@ -43466,7 +47167,7 @@ Error was:%2</source>
     </message>
     <message>
         <source>Coordinate Reference System</source>
-        <translation type="unfinished">Солбицлын нэгдсэн тогтолцоо</translation>
+        <translation>Солбицлын нэгдсэн тогтолцоо</translation>
     </message>
     <message>
         <source>Add Layer(s) from a WM(T)S Server</source>
@@ -43548,6 +47249,10 @@ Error was:%2</source>
         <source>Add selected row to WMS list</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Use contextual WMS Legend</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QgsWcsCapabilities</name>
@@ -43574,7 +47279,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>%1 of %2 bytes of capabilities downloaded.</source>
@@ -43582,7 +47287,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>Exception</source>
-        <translation type="unfinished">Хасалт</translation>
+        <translation>Хасалт</translation>
     </message>
     <message>
         <source>Could not get WCS capabilities: %1</source>
@@ -43625,7 +47330,7 @@ Response was:
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>Map request error:&lt;br&gt;Title: %1&lt;br&gt;Error: %2&lt;br&gt;URL: &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;)</source>
@@ -43696,7 +47401,7 @@ Response was:
     </message>
     <message>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <source>Rotating raster</source>
@@ -43748,11 +47453,11 @@ Response was:
     </message>
     <message>
         <source>Value of (optional) UpdateSequence parameter in GetCapabilities request is equal to current value of service metadata update sequence number.</source>
-        <translation type="unfinished">GetCapabilities шаардлага дахь UpdateSequence үзүүлэлтийн утга нь одоогийн үйлчилгээний метадатаг шинэчлэх дарааллын дугаартай тэнцүү байна.</translation>
+        <translation>GetCapabilities шаардлага дахь UpdateSequence үзүүлэлтийн утга нь одоогийн үйлчилгээний метадатаг шинэчлэх дарааллын дугаартай тэнцүү байна.</translation>
     </message>
     <message>
         <source>Value of (optional) UpdateSequence parameter in GetCapabilities request is greater than current value of service metadata update sequence number.</source>
-        <translation type="unfinished">GetCapabilities-д шаардагдах ДараалалӨөрчлөх-ийн утга нь одоогийн үйлчилгээний метадатаг шинэчлэх дарааллын дугаараас их байна.    </translation>
+        <translation>GetCapabilities-д шаардагдах ДараалалӨөрчлөх-ийн утга нь одоогийн үйлчилгээний метадатаг шинэчлэх дарааллын дугаараас их байна.    </translation>
     </message>
     <message>
         <source>Request does not include a parameter value, and the server instance did not declare a default value for that dimension.</source>
@@ -43796,7 +47501,7 @@ Response was:
     </message>
     <message>
         <source>Property</source>
-        <translation type="unfinished">Мөнчанар</translation>
+        <translation>Мөнчанар</translation>
     </message>
     <message>
         <source>Value</source>
@@ -43812,15 +47517,15 @@ Response was:
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished"></translation>
+        <translation>Хураангуй</translation>
     </message>
     <message>
         <source>Fixed Width</source>
-        <translation type="unfinished">Тогтсон Өргөн</translation>
+        <translation>Тогтсон Өргөн</translation>
     </message>
     <message>
         <source>Fixed Height</source>
-        <translation type="unfinished">Тогтсон Өндөр</translation>
+        <translation>Тогтсон Өндөр</translation>
     </message>
     <message>
         <source>Native CRS</source>
@@ -43832,7 +47537,7 @@ Response was:
     </message>
     <message>
         <source>WGS 84 Bounding Box</source>
-        <translation type="unfinished"></translation>
+        <translation>WGS 84 Bounding Box</translation>
     </message>
     <message>
         <source>Available in CRS</source>
@@ -43864,27 +47569,27 @@ Response was:
     </message>
     <message>
         <source>Keywords</source>
-        <translation type="unfinished">Түлхүүр үгс</translation>
+        <translation>Түлхүүр үгс</translation>
     </message>
     <message>
         <source>Online Resource</source>
-        <translation type="unfinished">Интернэт дэх Нөөц</translation>
+        <translation>Интернэт дэх Нөөц</translation>
     </message>
     <message>
         <source>Contact Person</source>
-        <translation type="unfinished">Харилцах Хүн</translation>
+        <translation>Харилцах Хүн</translation>
     </message>
     <message>
         <source>Fees</source>
-        <translation type="unfinished">Төлбөр</translation>
+        <translation>Төлбөр</translation>
     </message>
     <message>
         <source>Access Constraints</source>
-        <translation type="unfinished">Хандах Constraints</translation>
+        <translation>Хандах Constraints</translation>
     </message>
     <message>
         <source>Image Formats</source>
-        <translation type="unfinished">Дүрсийн Формат</translation>
+        <translation>Дүрсийн Формат</translation>
     </message>
     <message>
         <source>GetCapabilitiesUrl</source>
@@ -43919,7 +47624,7 @@ Response was:
     <name>QgsWebViewWidgetConfigDlgBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Field contains a filename or URL for a webpage</source>
@@ -43938,11 +47643,11 @@ Response was:
     <name>QgsWebViewWidgetWrapper</name>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажлыг сонгох</translation>
     </message>
 </context>
 <context>
@@ -44008,6 +47713,30 @@ Response was:
     </message>
 </context>
 <context>
+    <name>QgsWmsLegendDownloadHandler</name>
+    <message>
+        <source>Redirect loop detected: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WMS</source>
+        <translation>WMS</translation>
+    </message>
+    <message>
+        <source>GetLegendGraphic request error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status: %1
+Reason phrase: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Returned legend image is flawed [URL: %1]</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QgsWmsProvider</name>
     <message>
         <source>Cannot parse URI</source>
@@ -44027,7 +47756,7 @@ Response was:
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Number of tile layers must be one</source>
@@ -44087,15 +47816,6 @@ Response was:
     </message>
     <message>
         <source>unexpected image size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Status: %1
-Reason phrase: %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Redirect loop detected: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44400,7 +48120,7 @@ Response was:
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">Масштаб</translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <source>Tile size [px]</source>
@@ -44424,27 +48144,27 @@ Response was:
     </message>
     <message>
         <source>Width</source>
-        <translation type="unfinished">Өргөн</translation>
+        <translation>Өргөн</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation type="unfinished">Өндөр</translation>
+        <translation>Өндөр</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Доод</translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message numerus="yes">
         <source>%n missing row(s)</source>
@@ -44537,22 +48257,6 @@ Response was:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>GetLegendGraphic request redirected.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>GetLegendGraphic request error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Returned legend image is flawed [URL: %1]</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download of GetLegendGraphic failed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 of %2 bytes of GetLegendGraphic downloaded.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44574,7 +48278,7 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>WMS</source>
-        <translation type="unfinished">WMS</translation>
+        <translation>WMS</translation>
     </message>
     <message>
         <source>Tile request error (Status:%1; Content-Type:%2; Length:%3; URL: %4)</source>
@@ -44641,23 +48345,19 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Abstract</source>
-        <translation type="unfinished"></translation>
+        <translation>Хураангуй</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">Өгөгдмөл</translation>
+        <translation>Өгөгдмөл</translation>
     </message>
 </context>
 <context>
     <name>QgsZonalStatisticsDialogBase</name>
-    <message>
-        <source>Dialog</source>
-        <translation>Харилцах цонх</translation>
-    </message>
     <message>
         <source>Raster layer:</source>
         <translation>Растер давхарга:</translation>
@@ -44669,6 +48369,10 @@ Reason phrase: %2</source>
     <message>
         <source>Output column prefix:</source>
         <translation>Гаралтын баганын нэрийн угтвар:</translation>
+    </message>
+    <message>
+        <source>Zonal Statistics</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44687,14 +48391,328 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
-    <name>RangePanel</name>
+    <name>RAlgorithm</name>
     <message>
-        <source>Min</source>
-        <translation type="unfinished">ХБ</translation>
+        <source>Could not load R script: %s.
+ Problem with line %s</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Max</source>
-        <translation type="unfinished">ХИ</translation>
+        <source>R Console Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately it seems that R is not installed in your system or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. A test to check if R is correctly installed and configured in your system has been performed, with the following result:&lt;/p&gt;&lt;ul&gt;&lt;i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R seems to be correctly installed and configured&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The script you have executed needs the following packages:&lt;/p&gt;&lt;ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;/ul&gt;&lt;p&gt;Make sure they are installed in your R environment before trying to execute this script.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;a href= &quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RAlgorithmProvider</name>
+    <message>
+        <source>Create new R script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R Scripts folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use 64 bit version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not load R script: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RUtils</name>
+    <message>
+        <source>R execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h2&gt;R Output&lt;/h2&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>R folder is not configured.
+Please configure it before running R scripts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This algorithm requires R to be run. Unfortunately, it seems that R is not installed in your system, or it is not correctly configured to be used from QGIS&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://docs.qgis.org/testing/en/docs/user_manual/processing/3rdParty.html&quot;&gt;Click here&lt;/a&gt; to know more about how to install and configure R to be used with QGIS&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtract</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomExtractWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set correct value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsAlongLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Number of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Тохиолдлын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsExtent</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Тохиолдлын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Points number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Тохиолдлын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsFixed</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number or density of points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Тохиолдлын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomPointsPolygonsVariable</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Sampling strategy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random points</source>
+        <translation>Тохиолдлын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Can not generate requested number of random points. Maximum number of attempts exceeded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelection</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
+    <message>
+        <source>Selected number is greater than feature count. Choose a lower value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RandomSelectionWithinSubsets</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>ID Field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number/percentage of selected features</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
+    <message>
+        <source>Selected number is greater that feature count. Choose lesser value and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Percentage can&apos;t be greater than 100. Set a different value and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -44709,26 +48727,84 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>min X</source>
-        <translation type="unfinished"></translation>
+        <translation>Х ХБ</translation>
     </message>
     <message>
         <source>max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X ХИ</translation>
     </message>
     <message>
         <source>min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХБ</translation>
     </message>
     <message>
         <source>max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХИ</translation>
     </message>
     <message>
         <source>Extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>Гарах хүснэгт</translation>
+    </message>
+</context>
+<context>
+    <name>RasterLayerStatistics</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation>Статистик</translation>
+    </message>
+    <message>
+        <source>Minimum value</source>
+        <translation>Хамгийн бага утга</translation>
+    </message>
+    <message>
+        <source>Maximum value</source>
+        <translation>Хамгийн их утга</translation>
+    </message>
+    <message>
+        <source>Sum</source>
+        <translation>Нийт</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>valid cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No-data cells count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Standard deviation</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44740,6 +48816,33 @@ Reason phrase: %2</source>
     </message>
 </context>
 <context>
+    <name>RegularPoints</name>
+    <message>
+        <source>Input extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Point spacing/count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initial inset from corner (LH side)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply random offset to point spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use point spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regular points</source>
+        <translation>Энгийн цэгүүд</translation>
+    </message>
+</context>
+<context>
     <name>RenderingStyleFilePanel</name>
     <message>
         <source>Select style file</source>
@@ -44747,6 +48850,21 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>QGIS Layer Style File (*.qml *.QML)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ReprojectLayer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Target CRS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reprojected layer</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -44769,15 +48887,15 @@ Reason phrase: %2</source>
     <name>RgLineVectorLayerSettingsWidget</name>
     <message>
         <source>Transportation layer</source>
-        <translation type="unfinished"></translation>
+        <translation>Тээврийн давхарга</translation>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>Direction field</source>
-        <translation type="unfinished"></translation>
+        <translation>Чиглэлийн талбар</translation>
     </message>
     <message>
         <source>Value for forward direction</source>
@@ -44793,27 +48911,27 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Speed field</source>
-        <translation type="unfinished"></translation>
+        <translation>Хурдны талбар</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished"></translation>
+        <translation>км/ц</translation>
     </message>
     <message>
         <source>m/s</source>
-        <translation type="unfinished"></translation>
+        <translation>м/с</translation>
     </message>
     <message>
         <source>Default settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Өгөгдмөл тохиргоо</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Чиглэл</translation>
     </message>
     <message>
         <source>Two-way direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Хоёр чиглэл</translation>
     </message>
     <message>
         <source>Forward direction</source>
@@ -44821,23 +48939,23 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Reverse direction</source>
-        <translation type="unfinished">Чиглэлийг ухраах</translation>
+        <translation>Чиглэлийг ухраах</translation>
     </message>
     <message>
         <source>Cost</source>
-        <translation type="unfinished"></translation>
+        <translation>Өртөг</translation>
     </message>
     <message>
         <source>Line lengths</source>
-        <translation type="unfinished"></translation>
+        <translation>Шугамын урт</translation>
     </message>
     <message>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Хур</translation>
     </message>
     <message>
         <source>Always use default</source>
-        <translation type="unfinished"></translation>
+        <translation>Үргэлж өгөгдмөл утгыг хэрэглэх</translation>
     </message>
 </context>
 <context>
@@ -44879,15 +48997,15 @@ Reason phrase: %2</source>
     <name>RgShortestPathWidget</name>
     <message>
         <source>Shortest path</source>
-        <translation type="unfinished"></translation>
+        <translation>Дөт зам</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхлэх</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished">Зогсоох</translation>
+        <translation>Зогсоох</translation>
     </message>
     <message>
         <source>Criterion</source>
@@ -44895,47 +49013,47 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">Урт</translation>
+        <translation>Урт</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation type="unfinished">Хугацаа</translation>
+        <translation>Хугацаа</translation>
     </message>
     <message>
         <source>Calculate</source>
-        <translation type="unfinished">Berechnen</translation>
+        <translation>Тооцоолох</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished">Гаргах</translation>
+        <translation>Гаргах</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Цэвэрлэх</translation>
+        <translation>Цэвэрлэх</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>Point not selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Цэг сонгогдоогүй байна</translation>
     </message>
     <message>
         <source>First, select start and stop points.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхлээд, эхлүүлэх болон зогсоох цэгийг сонго</translation>
     </message>
     <message>
         <source>Plugin isn&apos;t configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэмэлт хэрэгсэл тохируулагдаагүй байна</translation>
     </message>
     <message>
         <source>Plugin isn&apos;t configured!</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэмэлт хэрэгсэл тохируулагдаагүй байна!</translation>
     </message>
     <message>
         <source>Tie point failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Зангилаа цэгт алдаа гарлаа</translation>
     </message>
     <message>
         <source>Start point doesn&apos;t tie to the road!</source>
@@ -44957,12 +49075,16 @@ Reason phrase: %2</source>
         <source>Path not found</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Could not find start vertex. Please check your input data.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>RoadGraphPlugin</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Тохиргоо</translation>
     </message>
     <message>
         <source>Road graph plugin settings</source>
@@ -44981,11 +49103,96 @@ Reason phrase: %2</source>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">&amp;Өгөгдлийн сан</translation>
+        <translation>&amp;Өгөгдлийн сан</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished">Өгөгдлийн сан сонгогдоогүй эсвэл та холбогдоогүй байна.</translation>
+        <translation>Өгөгдлийн сан сонгогдоогүй эсвэл та холбогдоогүй байна.</translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm212</name>
+    <message>
+        <source>Unsupported file format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer %s has more than one band.
+Multiband layers are not supported by SAGA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layers do not have the same grid extent.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithm213</name>
+    <message>
+        <source>Unsupported file format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SAGA execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaAlgorithmProvider</name>
+    <message>
+        <source>SAGA folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable SAGA Import/Export optimizations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log execution commands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Log console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: SAGA was not found or is not correctly installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem with SAGA installation: installed SAGA version (%s) is not supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open SAGA algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SagaUtils</name>
+    <message>
+        <source>SAGA execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SaveSelectedFeatures</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output layer with selected features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45051,6 +49258,99 @@ Problem with line %d</source>
  %s</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are unsaved changes in script. Continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SelectByAttribute</name>
+    <message>
+        <source>Input Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection attribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Утга</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Operators %s can be used only with string fields.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Numeric field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>String field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported field type &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SelectByExpression</name>
+    <message>
+        <source>Input Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expression</source>
+        <translation>Илэрхийлэл</translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>SelectByLocation</name>
+    <message>
+        <source>Layer to select from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional layer (intersection layer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modify current selection by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Сонголт</translation>
+    </message>
 </context>
 <context>
     <name>SelectGeoRasterBase</name>
@@ -45096,6 +49396,36 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SetRasterStyle</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SetVectorStyle</name>
+    <message>
+        <source>Vector layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Style file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Styled layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SettingsDialogPythonConsole</name>
     <message>
         <source>Editor</source>
@@ -45131,7 +49461,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished">Тайлбар:</translation>
+        <translation>Тайлбар:</translation>
     </message>
     <message>
         <source>Comment block:</source>
@@ -45219,7 +49549,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Үсгийн хэв</translation>
     </message>
     <message>
         <source>Size</source>
@@ -45266,25 +49596,213 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>SimplifyGeometries</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplified layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplify: Input geometries have been simplified from %s to %s points</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SimplifyLineDialog</name>
-    <message>
-        <source>Simplify line tolerance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Set tolerance</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>OK</source>
         <translation>Тийм</translation>
+    </message>
+    <message>
+        <source>Simplification Tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Map units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation>Пикселүүд</translation>
+    </message>
+</context>
+<context>
+    <name>SinglePartsToMultiparts</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Үл давтагдах утгын талбар</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Invalid unique ID field</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SlopeArea</name>
+    <message>
+        <source>Slope Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Contributing Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Area Exponent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope Area Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SpatialJoin</name>
+    <message>
+        <source>Target vector layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Join vector layer</source>
+        <translation>Вектор давхарга нийлүүлэх</translation>
+    </message>
+    <message>
+        <source>Geometric predicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute summary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics for summary (comma separated)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output table</source>
+        <translation>Гарах хүснэгт</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>SplitLinesWithLines</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Split layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Split lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while splitting</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SplitRGBBands</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output R band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output G band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output B band layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StatisticsByCategories</name>
+    <message>
+        <source>Input vector layer</source>
+        <translation>Вектор давхаргыг сонгох</translation>
+    </message>
+    <message>
+        <source>Field to calculate statistics on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field with categories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Statistics</source>
+        <translation>Статистик</translation>
+    </message>
+</context>
+<context>
+    <name>SumLines</name>
+    <message>
+        <source>Lines</source>
+        <translation>Шулуун</translation>
+    </message>
+    <message>
+        <source>Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lines length field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lines count field name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
     </message>
 </context>
 <context>
     <name>SymbolsListWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Unit</source>
@@ -45310,10 +49828,6 @@ Problem with line %d</source>
         <source>Rotation</source>
         <translation>Эргэлт</translation>
     </message>
-    <message utf8="true">
-        <source>°</source>
-        <translation>°</translation>
-    </message>
     <message>
         <source>Width</source>
         <translation>Өргөн</translation>
@@ -45328,7 +49842,122 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">Нэмэлт</translation>
+        <translation>Нэмэлт</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+</context>
+<context>
+    <name>SymetricalDifference</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Difference layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature exception while computing symetrical difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithm</name>
+    <message>
+        <source>Could not load TauDEM algorithm: %s
+%s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong number of MPI processes used. Please set correct number before running TauDEM algorithms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMAlgorithmProvider</name>
+    <message>
+        <source>TauDEM command line tools folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MPICH2/OpenMPI bin directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of MPI parallel processes to use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not open TauDEM algorithm: %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM (hydrologic analysis)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TauDEMUtils</name>
+    <message>
+        <source>TauDEM execution console output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TauDEM command:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextToFloat</name>
+    <message>
+        <source>Input Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text attribute to convert to float</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>TinSurfaceCreate</name>
+    <message>
+        <source>Input las layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cellsize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XY Units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z Units</source>
+        <translation>Z Нэгж</translation>
+    </message>
+    <message>
+        <source>DTM Output Surface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45347,6 +49976,13 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>TreeProviderItem</name>
+    <message>
+        <source> [{0} geoalgorithms]</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UndoWidget</name>
     <message>
         <source>Undo/Redo</source>
@@ -45359,6 +49995,60 @@ Problem with line %d</source>
     <message>
         <source>Redo</source>
         <translation>Дахих</translation>
+    </message>
+</context>
+<context>
+    <name>Union</name>
+    <message>
+        <source>Feature exception while computing union</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Geometry exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Input layer 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Union</source>
+        <translation>Нэгтгэх</translation>
+    </message>
+    <message>
+        <source>Feature exception while computing intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UniqueValues</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Target field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unique values</source>
+        <translation>Үл давтагдах утгууд</translation>
+    </message>
+    <message>
+        <source>Total unique values</source>
+        <translation>Нийт үл давтагдах утгууд</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Total unique values: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Unique values:&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -45389,7 +50079,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation type="unfinished">Гаралтын ажлыг зааж өгнө үү</translation>
+        <translation>Гаралтын ажлыг зааж өгнө үү</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -45420,6 +50110,52 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>VariableDistanceBuffer</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Distance field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dissolve result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>Буфер</translation>
+    </message>
+</context>
+<context>
+    <name>VectorGrid</name>
+    <message>
+        <source>Grid extent</source>
+        <translation>Өргөтгөл</translation>
+    </message>
+    <message>
+        <source>X spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y spacing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>VectorLayerBoundsAlgorithm</name>
     <message>
         <source>Vector layer bounds</source>
@@ -45431,26 +50167,79 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished">Давхарга</translation>
+        <translation>Давхарга</translation>
     </message>
     <message>
         <source>min X</source>
-        <translation type="unfinished"></translation>
+        <translation>Х ХБ</translation>
     </message>
     <message>
         <source>max X</source>
-        <translation type="unfinished"></translation>
+        <translation>X ХИ</translation>
     </message>
     <message>
         <source>min Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХБ</translation>
     </message>
     <message>
         <source>max Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y ХИ</translation>
     </message>
     <message>
         <source>Extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerHistogram</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>number of bins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>VectorLayerScatterplot</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>X attribute</source>
+        <translation>Х</translation>
+    </message>
+    <message>
+        <source>Y attribute</source>
+        <translation>Х</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+</context>
+<context>
+    <name>VectorSplit</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Unique ID field</source>
+        <translation>Үл давтагдах утгын талбар</translation>
+    </message>
+    <message>
+        <source>Output directory</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45510,6 +50299,25 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>VoronoiPolygons</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Buffer region</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Voronoi polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input file should contain at least 3 points. Choose another file and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WidgetCentroidFill</name>
     <message>
         <source>Form</source>
@@ -45524,7 +50332,7 @@ Problem with line %d</source>
     <name>WidgetEllipseBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Colors</source>
@@ -45579,10 +50387,6 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Offset X,Y</source>
         <translation type="unfinished"></translation>
     </message>
@@ -45593,6 +50397,14 @@ Problem with line %d</source>
     <message>
         <source>Symbol height</source>
         <translation>Таних тэмдэгийн өндөр</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45650,7 +50462,7 @@ Problem with line %d</source>
         <translation>Үсгийн хэлбэр</translation>
     </message>
     <message utf8="true">
-        <source>°</source>
+        <source> °</source>
         <translation>°</translation>
     </message>
 </context>
@@ -45658,7 +50470,7 @@ Problem with line %d</source>
     <name>WidgetGradientFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Two color</source>
@@ -45670,7 +50482,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Өөрчлөх</translation>
     </message>
     <message>
         <source>Gradient type</source>
@@ -45729,10 +50541,6 @@ Problem with line %d</source>
         <translation>y</translation>
     </message>
     <message>
-        <source>Feature centroid</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reference Point 2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -45745,11 +50553,15 @@ Problem with line %d</source>
         <translation> °</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
+        <source>Offset X,Y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Offset X,Y</source>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Centroid</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45757,15 +50569,11 @@ Problem with line %d</source>
     <name>WidgetLinePatternFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished">Өнцөг</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Өнцөг</translation>
     </message>
     <message>
         <source>Distance</source>
@@ -45774,6 +50582,14 @@ Problem with line %d</source>
     <message>
         <source>Offset</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45808,26 +50624,26 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Rotate marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Эргэлт</translation>
     </message>
     <message>
         <source>Line offset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>on central point</source>
         <translation>Төвийн цэг дээр</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>WidgetPointPatternFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Vertical distance</source>
@@ -45838,16 +50654,67 @@ Problem with line %d</source>
         <translation>Босоо шилжилт</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Horizontal displacement</source>
         <translation>Хэвтээ шилжилт</translation>
     </message>
     <message>
         <source>Horizontal distance</source>
         <translation>Хэвтээ зай</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+</context>
+<context>
+    <name>WidgetRasterFill</name>
+    <message>
+        <source>Form</source>
+        <translation>Форм</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Image width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Coord mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Viewport</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rotation</source>
+        <translation>Эргэлт</translation>
+    </message>
+    <message>
+        <source>Original</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%</source>
+        <translation>%</translation>
+    </message>
+    <message>
+        <source>Opacity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offset X,Y</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
     </message>
 </context>
 <context>
@@ -45858,7 +50725,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
+        <translation>Хүрээний өргөн</translation>
     </message>
     <message>
         <source>Rotation</source>
@@ -45881,10 +50748,6 @@ Problem with line %d</source>
         <translation>Хүрээ</translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>SVG Groups</source>
         <translation type="unfinished"></translation>
     </message>
@@ -45896,12 +50759,16 @@ Problem with line %d</source>
         <source>...</source>
         <translation>...</translation>
     </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
+    </message>
 </context>
 <context>
     <name>WidgetShapeburstFill</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Gradient colors</source>
@@ -45917,7 +50784,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Өөрчлөх</translation>
     </message>
     <message>
         <source>Shading style</source>
@@ -45944,8 +50811,8 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -45976,19 +50843,19 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Join style</source>
-        <translation type="unfinished">Нэгтгэх хэлбэр</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэгтгэх хэлбэр</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">Дүүргэх</translation>
+        <translation>Дүүргэх</translation>
     </message>
     <message>
         <source>Border</source>
-        <translation type="unfinished">Хүрээ</translation>
+        <translation>Хүрээ</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46030,16 +50897,12 @@ Problem with line %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Dash pattern unit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Draw line only inside polygon</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46054,19 +50917,19 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">Дүүргэх</translation>
+        <translation>Дүүргэх</translation>
     </message>
     <message>
         <source>Border</source>
-        <translation type="unfinished">Хүрээ</translation>
+        <translation>Хүрээ</translation>
     </message>
     <message>
         <source>Outline style</source>
-        <translation type="unfinished">Хүрээний загвар</translation>
+        <translation>Хүрээний загвар</translation>
     </message>
     <message>
         <source>Outline width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
+        <translation>Хүрээний өргөн</translation>
     </message>
     <message>
         <source>Anchor point</source>
@@ -46074,7 +50937,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46082,11 +50945,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46094,15 +50957,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Доод</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Angle</source>
@@ -46110,11 +50969,15 @@ Problem with line %d</source>
     </message>
     <message utf8="true">
         <source> °</source>
-        <translation type="unfinished"> °</translation>
+        <translation>°</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46125,15 +50988,15 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished">Өнгө</translation>
+        <translation>Өнгө</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished">Дүүргэх</translation>
+        <translation>Дүүргэх</translation>
     </message>
     <message>
         <source>Border</source>
-        <translation type="unfinished">Хүрээ</translation>
+        <translation>Хүрээ</translation>
     </message>
     <message>
         <source>Offset X,Y</source>
@@ -46145,7 +51008,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished">Зүүн</translation>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>HCenter</source>
@@ -46153,11 +51016,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished">Баруун</translation>
+        <translation>Баруун</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished">Дээд</translation>
+        <translation>Дээд</translation>
     </message>
     <message>
         <source>VCenter</source>
@@ -46165,15 +51028,11 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished">Доод</translation>
-    </message>
-    <message>
-        <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>Border width</source>
-        <translation type="unfinished">Хүрээний өргөн</translation>
+        <translation>Хүрээний өргөн</translation>
     </message>
     <message>
         <source>Angle</source>
@@ -46193,14 +51052,18 @@ Problem with line %d</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
+    </message>
+    <message utf8="true">
+        <source> °</source>
+        <translation>°</translation>
     </message>
 </context>
 <context>
     <name>WidgetSvgSelector</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>SVG Images</source>
@@ -46212,7 +51075,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Generated path will be relative to current SVG search directories or to Project file</source>
@@ -46227,19 +51090,19 @@ Problem with line %d</source>
     <name>WidgetVectorFieldBase</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форм</translation>
     </message>
     <message>
         <source>Y attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>Scale</source>
-        <translation type="unfinished">Масштаб</translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <source>X attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Х</translation>
     </message>
     <message>
         <source>Vector field type</source>
@@ -46263,15 +51126,15 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Degrees</source>
-        <translation type="unfinished">Градус</translation>
+        <translation>Градус</translation>
     </message>
     <message>
         <source>Radians</source>
-        <translation type="unfinished">Радиан</translation>
+        <translation>Радиан</translation>
     </message>
     <message>
         <source>Angle orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>Чиглэл</translation>
     </message>
     <message>
         <source>Counterclockwise from east</source>
@@ -46283,7 +51146,7 @@ Problem with line %d</source>
     </message>
     <message>
         <source>Distance unit</source>
-        <translation type="unfinished">Зайн нэгж</translation>
+        <translation>Зайн нэгж</translation>
     </message>
 </context>
 <context>
@@ -46302,6 +51165,33 @@ Problem with line %d</source>
     </message>
 </context>
 <context>
+    <name>ZonalStatistics</name>
+    <message>
+        <source>Raster layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector layer containing zones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output column prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Load whole raster in memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
     <name>[pluginname]GuiBase</name>
     <message>
         <source>QGIS Plugin Template</source>
@@ -46310,6 +51200,132 @@ Problem with line %d</source>
     <message>
         <source>Plugin Template</source>
         <translation>Өргөтгөлийн Загвар</translation>
+    </message>
+</context>
+<context>
+    <name>aspect</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return trigonometric angle (instead of azimuth)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return 0 for flat (instead of -9999)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2demPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>blast2isoPro</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>buildvrt</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resolution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow projection difference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
@@ -46406,7 +51422,7 @@ Run topology check again.</source>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Зогсоох</translation>
     </message>
 </context>
 <context>
@@ -47871,6 +52887,20 @@ Click on one of the icons along the top of the composer window to select what ty
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
+There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
+&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
+To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
+A single right mouse click stops the measuring.
+&lt;h4&gt;Measuring Areas&lt;/h4&gt;
+To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
+A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
+&lt;h4&gt;Measuring Angles&lt;/h4&gt;
+To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;Attribute table&lt;/h3&gt;
 The attribute table displays features of a selected layer. Each row in the table represents one map feature with its attributes shown in several columns. The features in the table can be searched, selected, moved or even edited.  By default the attribute table is a separate window. If you opened it and cannot see it anymore, it is most likely hidden under the main QGIS window. You can make it also a docked window, by checking &lt;label&gt;Open attribute table in a dock window&lt;/label&gt; in &lt;label&gt;Settings &gt; Options &gt; Data Sources&lt;/label&gt;.&lt;p&gt;
 
@@ -47928,23 +52958,32 @@ The vector layer needs to be in editing mode, before you can click on the &lt;la
 &lt;a name=&quot;FieldCalcBar&quot;&gt;
 &lt;h4&gt;Field Calculator Bar&lt;/h4&gt;
 &lt;/a&gt;
-When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows to quickly edit values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
+When you toggle to edition the layer, a new row of functions appears in the attribute table: the &lt;label&gt;Field Calculator Bar&lt;/label&gt;. This allows quick editing values of existing fields by performing calculations on basis of existing attribute values or defined functions button in the attribute table, e.g. to calculate length or area of geometry features.&lt;br&gt;
 To edit values, select the field to modify with the filter button on the left and fill the text box with the new value or an expression to calculate new value. Then, press &lt;label&gt;Update all&lt;/label&gt; button to update all the rows of the attribute table or &lt;label&gt;Update selected&lt;/label&gt; button if some features are selected or a filter is applied on the attribute table display. You can also use the &lt;label&gt;Expression builder&lt;/label&gt; button to calculate the new value in the column.&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>contour</name>
     <message>
-        <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
-There are three measure tools: length, area and angle. With them, you can measure distances, areas and angles on the map canvas. The tools provide results in the units set in &lt;label&gt;Settings &gt; Options &gt; Map tools&lt;/label&gt;.
-&lt;h4&gt;Measuring Lengths&lt;/h4&gt;
-To measure lengths, select the tool and click along the path you want to measure. The length of each segment is displayed as is the total length for the path.
-A single right mouse click stops the measuring.
-&lt;h4&gt;Measuring Areas&lt;/h4&gt;
-To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
-A single right mouse click stops the measuring, while two right mouse clicks starts measuring a new.
-&lt;h4&gt;Measuring Angles&lt;/h4&gt;
-To measure angles, select the tool and click on three points to create an angle between these points. The second point selected is the vertex of the angle. The angle is dynamically displayed once you clicked the second point.
-</source>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Interval between contour lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute name (if not set, no elevation attribute is attached)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file for contour lines (vector)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -47975,11 +53014,11 @@ To measure angles, select the tool and click on three points to create an angle 
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Output file</source>
-        <translation type="unfinished">Гаралтын ажил</translation>
+        <translation>Гаралтын ажил</translation>
     </message>
     <message>
         <source>Export text labels</source>
@@ -47995,11 +53034,11 @@ To measure angles, select the tool and click on three points to create an angle 
     </message>
     <message>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished">Цэг</translation>
+        <translation>Цэг</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -48075,7 +53114,7 @@ For support send a mail to scala@itc.cnr.it
     <name>eVisDatabaseConnectionGui</name>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">Тодорхойлогдоогүй</translation>
+        <translation>Тодорхойлогдоогүй</translation>
     </message>
     <message>
         <source>No predefined queries loaded</source>
@@ -48083,7 +53122,7 @@ For support send a mail to scala@itc.cnr.it
     </message>
     <message>
         <source>Open File</source>
-        <translation type="unfinished">Ажил Нээх</translation>
+        <translation>Ажил Нээх</translation>
     </message>
     <message>
         <source>New Database connection requested...</source>
@@ -48107,7 +53146,7 @@ For support send a mail to scala@itc.cnr.it
     </message>
     <message>
         <source>connected</source>
-        <translation type="unfinished"></translation>
+        <translation>холбогдсон</translation>
     </message>
     <message>
         <source>Tables</source>
@@ -48205,7 +53244,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Холбох</translation>
     </message>
     <message>
         <source>User name to access the database.</source>
@@ -48221,7 +53260,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Нэвтрэх үг</translation>
     </message>
     <message>
         <source>Database Type</source>
@@ -48229,7 +53268,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Port</source>
-        <translation type="unfinished">Порт</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <source>SQL Query</source>
@@ -48295,11 +53334,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Field</source>
-        <translation type="unfinished">Талбар</translation>
+        <translation>Талбар</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Утга</translation>
+        <translation>Утга</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -48307,15 +53346,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>This tool only supports vector data</source>
-        <translation type="unfinished">Энэ хэрэгсэл нь зөвхөн Вектор өгөдөлд зориулагдсан</translation>
+        <translation>Энэ хэрэгсэл нь зөвхөн Вектор өгөдөлд зориулагдсан</translation>
     </message>
     <message>
         <source>No active layers found</source>
-        <translation type="unfinished">Идэвхтэй давхарга олдсонгүй</translation>
+        <translation>Идэвхтэй давхарга олдсонгүй</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Алдаа</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Unable to connect to either the map canvas or application interface</source>
@@ -48799,6 +53838,98 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>&amp;Data Management Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fillnodata</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Search distance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smooth iterations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Band to operate on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not use default validity mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToCHM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToDTMandDSM</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using &apos;sydney&apos; creates sydney_274000_4714000...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>flightlinesToSingleCHMpitFree</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>laser beam width (diameter of laser footprint)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -51162,6 +56293,112 @@ Convert a string into Qt data time type.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
+Returns tangent of an angle.
+
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
+In atlas generation, returns the current feature number that is iterated over on the coverage layer.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+None
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
+Returns the value of the natural logarithm of the passed expression.
+&lt;br&gt;
+This function takes one argument.
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - any positive number.
+&lt;br&gt;
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
+Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
+
+&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
+     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;geometry function&lt;/h3&gt;
+Returns the feature&apos;s geometry
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;geometry( f )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+f &amp;rarr; QgsFeature
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; POINT(6 50)&lt;/pre&gt;
+&lt;pre&gt; intersects( $geometry, geometry( getFeature( layer, attributeField, value ) ) ) &amp;rarr; 1&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;transform function&lt;/h3&gt;
+Returns the geometry transformed from the source CRS to the dest CRS.
+
+&lt;h4&gt;Syntax&lt;/h4&gt;
+&lt;pre&gt;transform( geom, sAuthId, dAuthId )&lt;/pre&gt;
+
+&lt;h4&gt;Arguments&lt;/h4&gt;
+geom &amp;rarr; QgsGeometry
+
+sCrsId &amp;rarr; the Source Auth CRS Id
+
+dCrsId &amp;rarr; the Dest Auth CRS Id
+
+&lt;h4&gt;Example&lt;/h4&gt;
+&lt;pre&gt; geomToWKT( transform( $geometry, &apos;EPSG:2154&apos;, &apos;EPSG:4326&apos; ) ) &amp;rarr; POINT(0 51)&lt;/pre&gt;
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&lt;h3&gt;format_date() function&lt;/h3&gt;
 Format a date type or string into a custom string format. Uses Qt data time format strings.  See &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
 
@@ -51335,80 +56572,51 @@ Format a date type or string into a custom string format. Uses Qt data time form
 
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
-&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.MM.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
 </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>gdal2xyz</name>
     <message>
-        <source>&lt;h3&gt;tan() function&lt;/h3&gt;
-Returns tangent of an angle.
-
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;i&gt;real&lt;/i&gt; &amp;rarr; angle in radians.&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
-</source>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;$feature function&lt;/h3&gt;
-In atlas generation, returns the current feature number that is iterated over on the coverage layer.
-
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;pre&gt;$feature&lt;/pre&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-None
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
-
-</source>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>gdaladdo</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Overview levels</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;ln() function&lt;/h3&gt;
-Returns the value of the natural logarithm of the passed expression.
-&lt;br&gt;
-This function takes one argument.
-&lt;h4&gt;Syntax&lt;/h4&gt;
-&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
-
-&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;code&gt;value&lt;/code&gt; - any positive number.
-&lt;br&gt;
-
-&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
-</source>
+        <source>Remove all existing overviews</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;h3&gt;color_hsva() function&lt;/h3&gt;
-Returns a string representation of a color based on its hue, saturation, value and alpha (transparency) attributes
-
-&lt;p&gt;&lt;h4&gt;Syntax&lt;/h4&gt;
-     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Arguments&lt;/h4&gt;
-&lt;!-- List args for functions here--&gt;
-&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; the hue of the color, as an integer value from 0 to 360.&lt;br&gt;
-&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; the saturation percentage of the color as an integer value from 0 to 100.&lt;br&gt;
-&lt;i&gt;  value&lt;/i&gt; &amp;rarr; the value percentage of the color as an integer from 0 to 100.&lt;br&gt;
-&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; the alpha component as an integer value from 0 (completely transparent) to 255 (opaque).&lt;br&gt;
-
-&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
-&lt;!-- Show example of function.--&gt;
-     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
-</source>
+        <source>Resampling method</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overview format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
     </message>
 </context>
 <context>
@@ -52334,7 +57542,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Тусламж</translation>
+        <translation>Тусламж</translation>
     </message>
     <message>
         <source>Hue Intensity Saturation (HIS) to Red Green Blue (RGB) raster color transform function</source>
@@ -52594,7 +57802,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Metadata support</source>
-        <translation type="unfinished"></translation>
+        <translation>Metadata (Мэдээллийн лавлах)</translation>
     </message>
     <message>
         <source>Minimum size for each basin (number of cells)</source>
@@ -52646,7 +57854,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Output Shapefile</source>
-        <translation type="unfinished">Гаралтын shp файл</translation>
+        <translation>Гаралтын shp файл</translation>
     </message>
     <message>
         <source>Output layer name (used in GML file)</source>
@@ -52718,7 +57926,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Raster</source>
-        <translation type="unfinished">Растер</translation>
+        <translation>Растер</translation>
     </message>
     <message>
         <source>Raster buffer</source>
@@ -53058,7 +58266,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Terrain analysis</source>
-        <translation type="unfinished"></translation>
+        <translation>Гадаргуун анализ</translation>
     </message>
     <message>
         <source>Tests of normality on vector points</source>
@@ -53198,6 +58406,1098 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
+    <name>hillshade</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z factor (vertical exaggeration)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Azimuth of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Altitude of the light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileGroundClassify</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>hugeFileNormalize</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>airborne LiDAR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>information</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Suppress GCP info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suppress metadata info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer information</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2dem</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2demPro</name>
+    <message>
+        <source>attribute (what to interpolate)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>product (how to output per pixel)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2iso</name>
+    <message>
+        <source>smooth underlying TIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>extract isoline with a spacing of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>clean isolines shorter than (0 = do not clean)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments shorter than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>simplify segments pairs with area less than (0 = do not simplify)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2lasPro_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_project</name>
+    <message>
+        <source>source projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>source state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>target state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2las_transform</name>
+    <message>
+        <source>operations (first 8 need an argument)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>argument for operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2shp</name>
+    <message>
+        <source>use PointZ instead of MultiPointZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>number of points per record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txt</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>las2txtPro</name>
+    <message>
+        <source>parse string</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundary</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasboundaryPro</name>
+    <message>
+        <source>compute boundary based on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>concavity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior holes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disjoint polygon</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopy</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascanopyPro</name>
+    <message>
+        <source>square plot size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>height cutoff / breast height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>density rasters (e.g. 2.0 5.0 10.0 20.0)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>input file is single plot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasclip</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascolor</name>
+    <message>
+        <source>Input ortho</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lascontrol</name>
+    <message>
+        <source>Input polygon(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicate</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates to LAS/LAZ file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasduplicatePro</name>
+    <message>
+        <source>keep duplicate with lowest z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>only remove duplicates in x y and z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark surviving duplicate as single return</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>record removed duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgrid</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgridPro</name>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>use tile bounding box (after tiling with buffer)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasground</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasgroundPro</name>
+    <message>
+        <source>no triangle bulging during TIN refinement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>terrain type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>preprocessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheight</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasheightPro</name>
+    <message>
+        <source>replace z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop above height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>drop below height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindex</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasindexPro</name>
+    <message>
+        <source>append *.lax file to *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>is mobile or terrestrial LiDAR (not airborne)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfo</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasinfoPro</name>
+    <message>
+        <source>compute density</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair bounding box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>repair counters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>histogram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>bin size</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasmerge</name>
+    <message>
+        <source>2nd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3rd file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>4th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>5th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>6th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>7th file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoise</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasnoisePro</name>
+    <message>
+        <source>isolated if surrounding cells have only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in xy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of isolation grid in z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>what to do with isolated points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify as</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverage</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoveragePro</name>
+    <message>
+        <source>size of grid used for scan angle check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mode of operation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlap</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasoverlapPro</name>
+    <message>
+        <source>size of grid used for overlap check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>attribute to check</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>operation on attribute per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create overlap raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create difference raster</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasprecision</name>
+    <message>
+        <source>Output ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasquery</name>
+    <message>
+        <source>area of interest</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassort</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassortPro</name>
+    <message>
+        <source>sort by GPS time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sort by point source ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lassplit</name>
+    <message>
+        <source>number of digits for file names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>how to split</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>interval or number</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthin</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasthinPro</name>
+    <message>
+        <source>size of grid used for thinning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>keep particular point per cell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>mark thinned-away points as withheld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>classify surviving points as class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>class</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastile</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>make tiling reversible (advanced, usually not needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lastilePro</name>
+    <message>
+        <source>tile size (side length of square tile)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>buffer around each tile (avoids edge artifacts)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>more than 2000 tiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tile base name (using sydney.laz creates sydney_274000_4714000.laz)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidate</name>
+    <message>
+        <source>save report to &apos;*_LVS.xml&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasvalidatePro</name>
+    <message>
+        <source>generate one &apos;*_LVS.xml&apos; report per file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output XML file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasview</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lasviewPro</name>
+    <message>
+        <source>max number of points sampled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>color by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>window size (x y) in pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszip</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>laszipPro</name>
+    <message>
+        <source>only report size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>create spatial indexing file (*.lax)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>append *.lax into *.laz file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>merge</name>
+    <message>
+        <source>Input layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grab pseudocolor table from first layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>nearblack</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>How far from black (white)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for nearly white pixels instead of nearly black</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>nviz</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>nviz7</name>
+    <message>
+        <source>Raster file(s) for elevation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vector lines/areas overlay file(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Raster file(s) for color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region extent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GRASS region cellsize (leave 0 for default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>optionsDialog</name>
     <message>
         <source>Warning!</source>
@@ -53236,6 +59536,172 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
+    <name>pct2rgb</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band to convert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>polygonize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Output field name</source>
+        <translation>Гаргах талбарын нэр</translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>proximity</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance units</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max distance (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed buf value (negative value to ignore)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>rasterize</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Attribute field</source>
+        <translation>Атирбут талбар</translation>
+    </message>
+    <message>
+        <source>Write values inside an existing raster layer(*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set output raster size (ignored if above option is checked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Horizontal</source>
+        <translation>Хэвтээ</translation>
+    </message>
+    <message>
+        <source>Vertical</source>
+        <translation>Босоо</translation>
+    </message>
+    <message>
+        <source>Raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer: mandatory to choose an existing raster layer if the (*) option is selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodata value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>rgb2pct</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Number of colors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>roughness</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
     <name>rulesDialog</name>
     <message>
         <source>Topology Rule Settings</source>
@@ -53251,7 +59717,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Rule</source>
-        <translation type="unfinished">Дүрэм</translation>
+        <translation>Дүрэм</translation>
     </message>
     <message>
         <source>Layer #1</source>
@@ -53280,6 +59746,79 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <source>Delete Rule</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Test</source>
+        <translation>Турших</translation>
+    </message>
+    <message>
+        <source>No tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>shp2las</name>
+    <message>
+        <source>Input SHP file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>sieve</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pixel connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+</context>
+<context>
+    <name>slope</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Zevenbergen&amp;Thorne formula (instead of the Horn&apos;s one)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slope expressed as percent (instead of degrees)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scale (ratio of vert. units to horiz.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
     </message>
 </context>
 <context>
@@ -53358,6 +59897,245 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Second layer not found in registry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have invalid geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>segments must have minimum length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have dangles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have duplicates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have pseudos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have gaps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not have multi-part geometries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must not overlap with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>features must not be closer than tolerance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be covered by endpoints of</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>end points must be covered by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must be inside</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>must contain</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tpi</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>translate</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Set the size of the output file (In pixels or %)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output size is a percentage of input size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Expand</source>
+        <translation>Томруулах</translation>
+    </message>
+    <message>
+        <source>Output projection for output file [leave blank to use input projection]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subset based on georeferenced coordinates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy all subdatasets of this file to individual output files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tri</name>
+    <message>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Band number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Compute edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output file</source>
+        <translation>Гаралтын ажил</translation>
+    </message>
+</context>
+<context>
+    <name>txt2las</name>
+    <message>
+        <source>Input ASCII file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>txt2lasPro</name>
+    <message>
+        <source>parse lines as</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>skip the first n lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of x and y coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>resolution of z coordinate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>projection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>utm zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>state plane code</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -53441,29 +60219,70 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
 </context>
 <context>
-    <name>widgetNumberInput</name>
+    <name>warp</name>
     <message>
-        <source>Form</source>
+        <source>Input layer</source>
+        <translation>Оролтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Source SRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open number input dialog</source>
+        <source>Destination SRS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-</context>
-<context>
-    <name>widgetOutputSelect</name>
-    <message>
-        <source>Form</source>
+        <source>Output file resolution in target georeferenced units (leave 0 for no change)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
+        <source>Resampling method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional creation parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output raster type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Output layer</source>
+        <translation>Гаралтын Давхарга</translation>
+    </message>
+    <message>
+        <source>Nodata value, leave blank to take the nodata value from input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GeoTIFF options. Compression type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the JPEG compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the DEFLATE compression level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the predictor for LZW or DEFLATE compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create tiled output (only used for the GTiff format)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Control whether the created file is a BigTIFF or a classic TIFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Force the generation of an associated ESRI world file (.tfw))</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

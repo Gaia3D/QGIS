@@ -56,8 +56,8 @@ path %path%;%PF86%\Microsoft Visual Studio 10.0\VC\bin
 
 set CMAKE_OPT=^
 	-G "Visual Studio 10" ^
-	-D QWT_LIBRARY=%O4W_ROOT%/lib/qwt.lib ^
-	-D SIP_BINARY_PATH=%O4W_ROOT%/apps/Python27/sip.exe
+	-D SIP_BINARY_PATH=%O4W_ROOT%/apps/Python27/sip.exe ^
+	-D QWT_LIBRARY=%O4W_ROOT%/lib/qwt.lib
 goto devenv
 
 :devenv_x86_64
@@ -137,8 +137,8 @@ set GRASS_PREFIX=%O4W_ROOT%/apps/grass/grass-%GRASS_VERSION%
 cmake %CMAKE_OPT% ^
 	-D PEDANTIC=TRUE ^
 	-D WITH_QSPATIALITE=TRUE ^
-	-D WITH_MAPSERVER=TRUE ^
-	-D MAPSERVER_SKIP_ECW=TRUE ^
+	-D WITH_SERVER=TRUE ^
+	-D SERVER_SKIP_ECW=TRUE ^
 	-D WITH_GLOBE=TRUE ^
 	-D WITH_TOUCH=TRUE ^
 	-D WITH_ORACLE=TRUE ^
@@ -270,8 +270,12 @@ tar -C %OSGEO4W_ROOT% -cjf %ARCH%/release/qgis/%PACKAGENAME%-server/%PACKAGENAME
 	--exclude-from exclude ^
 	--exclude "*.pyc" ^
 	"apps/%PACKAGENAME%/bin/qgis_mapserv.fcgi.exe" ^
+	"apps/%PACKAGENAME%/bin/qgis_server.dll" ^
 	"apps/%PACKAGENAME%/bin/admin.sld" ^
 	"apps/%PACKAGENAME%/bin/wms_metadata.xml" ^
+	"apps/%PACKAGENAME%/python/qgis/_server.pyd" ^
+	"apps/%PACKAGENAME%/python/qgis/_server.lib" ^
+	"apps/%PACKAGENAME%/python/qgis/server/" ^
 	"httpd.d/httpd_%PACKAGENAME%.conf.tmpl" ^
 	"etc/postinstall/%PACKAGENAME%-server.bat" ^
 	"etc/preremove/%PACKAGENAME%-server.bat"
@@ -300,6 +304,9 @@ if not exist %ARCH%\release\qgis\%PACKAGENAME% mkdir %ARCH%\release\qgis\%PACKAG
 tar -C %OSGEO4W_ROOT% -cjf %ARCH%/release/qgis/%PACKAGENAME%/%PACKAGENAME%-%VERSION%-%PACKAGE%.tar.bz2 ^
 	--exclude-from exclude ^
 	--exclude "*.pyc" ^
+	--exclude "apps/%PACKAGENAME%/python/qgis/_server.pyd" ^
+	--exclude "apps/%PACKAGENAME%/python/qgis/_server.lib" ^
+	--exclude "apps/%PACKAGENAME%/python/qgis/server/" ^
 	"bin/%PACKAGENAME%-browser-bin.exe" ^
 	"bin/%PACKAGENAME%-bin.exe" ^
 	"apps/%PACKAGENAME%/bin/qgis.reg.tmpl" ^

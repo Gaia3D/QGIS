@@ -92,6 +92,8 @@ QgsWcsProvider::QgsWcsProvider( QString const &uri )
     , mCachedMemFile( 0 )
     , mCachedGdalDataset( 0 )
     , mCachedViewExtent( 0 )
+    , mCachedViewWidth( 0 )
+    , mCachedViewHeight( 0 )
     , mCoordinateTransform( 0 )
     , mExtentDirty( true )
     , mGetFeatureInfoUrlBase( "" )
@@ -1196,7 +1198,7 @@ int QgsWcsProvider::capabilities() const
   return capability;
 }
 
-QString QgsWcsProvider::coverageMetadata( QgsWcsCoverageSummary coverage )
+QString QgsWcsProvider::coverageMetadata( const QgsWcsCoverageSummary &coverage )
 {
   QString metadata;
 

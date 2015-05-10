@@ -75,6 +75,11 @@ DL_Dxf::DL_Dxf()
   hatchEdgeIndex = NULL;
   dropEdges = false;
 
+  groupCode = 0;
+  currentEntity = DL_Unknown;
+  firstCall = true;
+  libVersion = 0;
+
   //bulge = 0.0;
 }
 
@@ -398,8 +403,14 @@ bool DL_Dxf::getChoppedLine( char *s, unsigned int size,
  */
 bool DL_Dxf::stripWhiteSpace( char** s )
 {
+  if ( !s || !( *s ) )
+    return false;
+
   // last non-NULL char:
   int lastChar = strlen( *s ) - 1;
+  if ( lastChar < 0 )
+    return false;
+
 // QgsDebugMsg(QString("lastChar: %1").arg(lastChar));
 
   // Is last character CR or LF?
@@ -505,7 +516,7 @@ bool DL_Dxf::processDXFGroup( DL_CreationInterface* creationInterface,
     color = toInt( values[62], 256 );
 
     char linetype[DL_DXF_MAXLINE+1];
-    strcpy( linetype, toString( values[6], "BYLAYER" ) );
+    strncpy( linetype, toString( values[6], "BYLAYER" ), DL_DXF_MAXLINE );
 
     attrib = DL_Attributes( values[8],         // layer
                             color,              // color
@@ -1606,6 +1617,7 @@ bool DL_Dxf::handleHatchData( DL_CreationInterface* /*creationInterface*/ )
        hatchEdges != NULL &&
        hatchEdgeIndex != NULL &&
        hatchLoopIndex >= 0 &&
+       maxHatchEdges != NULL &&
        hatchLoopIndex < maxHatchLoops &&
        hatchEdges[hatchLoopIndex] != NULL &&
        hatchEdgeIndex[hatchLoopIndex] >= 0 &&

@@ -92,11 +92,13 @@ QgsComposerHtml::QgsComposerHtml()
     , mLoaded( false )
     , mHtmlUnitsToMM( 1.0 )
     , mRenderedPage( 0 )
+    , mEvaluateExpressions( true )
     , mUseSmartBreaks( true )
     , mMaxBreakDistance( 10 )
     , mExpressionFeature( 0 )
     , mExpressionLayer( 0 )
     , mDistanceArea( 0 )
+    , mEnableUserStylesheet( false )
     , mFetcher( 0 )
 {
   mDistanceArea = new QgsDistanceArea();
@@ -273,6 +275,7 @@ void QgsComposerHtml::renderCachedImage()
   {
     return;
   }
+  mRenderedPage->fill( Qt::transparent );
   QPainter painter;
   painter.begin( mRenderedPage );
   mWebPage->mainFrame()->render( &painter );
@@ -376,6 +379,8 @@ double QgsComposerHtml::findNearbyPageBreak( double yPos )
   //of maxSearchDistance
   int changes = 0;
   QRgb currentColor;
+  bool currentPixelTransparent = false;
+  bool previousPixelTransparent = false;
   QRgb pixelColor;
   QList< QPair<int, int> > candidates;
   int minRow = qMax( idealPos - maxSearchDistance, 0 );
@@ -391,12 +396,14 @@ double QgsComposerHtml::findNearbyPageBreak( double yPos )
       //since this is likely a line break, or gap between table cells, etc
       //but very unlikely to be midway through a text line or picture
       pixelColor = mRenderedPage->pixel( col, candidateRow );
-      if ( pixelColor != currentColor )
+      currentPixelTransparent = qAlpha( pixelColor ) == 0;
+      if ( pixelColor != currentColor && !( currentPixelTransparent && previousPixelTransparent ) )
       {
         //color has changed
         currentColor = pixelColor;
         changes++;
       }
+      previousPixelTransparent = currentPixelTransparent;
     }
     candidates.append( qMakePair( candidateRow, changes ) );
   }

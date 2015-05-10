@@ -26,7 +26,7 @@ __copyright__ = '(C) 201, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 import os
-from PyQt4 import QtGui
+from PyQt4.QtGui import QFileDialog, QIcon, QMessageBox
 from processing.script.ScriptAlgorithm import ScriptAlgorithm
 from processing.gui.ToolboxAction import ToolboxAction
 from processing.script.WrongScriptException import WrongScriptException
@@ -39,17 +39,22 @@ class AddScriptFromFileAction(ToolboxAction):
         self.group = self.tr('Tools', 'AddScriptFromFileAction')
 
     def getIcon(self):
-        return QtGui.QIcon(':/processing/images/script.png')
+        return QIcon(':/processing/images/script.png')
 
     def execute(self):
-        filename = QtGui.QFileDialog.getOpenFileName(self.toolbox,
-           self.tr('Script files', 'AddScriptFromFileAction'), None,
-           self.tr('Script files (*.py *.PY)', 'AddScriptFromFileAction'))
+        settings = QSettings()
+        lastDir = settings.value('Processing/lastScriptsDir', '')
+        filename = QFileDialog.getOpenFileName(self.toolbox,
+            self.tr('Script files', 'AddScriptFromFileAction'), None,
+            self.tr('Script files (*.py *.PY)', 'AddScriptFromFileAction'))
         if filename:
             try:
+                settings.setValue('Processing/lastScriptsDir',
+                    QFileInfo(fileName).absoluteDir().absolutePath())
+
                 script = ScriptAlgorithm(filename)
             except WrongScriptException:
-                QtGui.QMessageBox.warning(self.toolbox,
+                QMessageBox.warning(self.toolbox,
                     self.tr('Error reading script', 'AddScriptFromFileAction'),
                     self.tr('The selected file does not contain a valid script', 'AddScriptFromFileAction'))
                 return

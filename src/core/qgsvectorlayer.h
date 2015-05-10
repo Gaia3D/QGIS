@@ -102,7 +102,7 @@ class CORE_EXPORT QgsAttributeEditorContainer : public QgsAttributeEditorElement
 
     ~QgsAttributeEditorContainer() {}
 
-    virtual QDomElement toDomElement( QDomDocument& doc ) const;
+    virtual QDomElement toDomElement( QDomDocument& doc ) const override;
     virtual void addChildElement( QgsAttributeEditorElement *widget );
     virtual void setIsGroupBox( bool isGroupBox ) { mIsGroupBox = isGroupBox; }
     virtual bool isGroupBox() const { return mIsGroupBox; }
@@ -123,7 +123,7 @@ class CORE_EXPORT QgsAttributeEditorField : public QgsAttributeEditorElement
 
     ~QgsAttributeEditorField() {}
 
-    virtual QDomElement toDomElement( QDomDocument& doc ) const;
+    virtual QDomElement toDomElement( QDomDocument& doc ) const override;
     int idx() const { return mIdx; }
 
   private:
@@ -145,7 +145,7 @@ class CORE_EXPORT QgsAttributeEditorRelation : public QgsAttributeEditorElement
 
     ~QgsAttributeEditorRelation() {}
 
-    virtual QDomElement toDomElement( QDomDocument& doc ) const;
+    virtual QDomElement toDomElement( QDomDocument& doc ) const override;
     const QgsRelation& relation() const { return mRelation; }
 
     /**
@@ -164,23 +164,28 @@ class CORE_EXPORT QgsAttributeEditorRelation : public QgsAttributeEditorElement
 
 struct CORE_EXPORT QgsVectorJoinInfo
 {
-  /**Join field in the target layer*/
+  /** Join field in the target layer*/
   QString targetFieldName;
-  /**Source layer*/
+  /** Source layer*/
   QString joinLayerId;
-  /**Join field in the source layer*/
+  /** Join field in the source layer*/
   QString joinFieldName;
-  /**True if the join is cached in virtual memory*/
+  /** True if the join is cached in virtual memory*/
   bool memoryCache;
-  /**Cache for joined attributes to provide fast lookup (size is 0 if no memory caching)
+  /** Cache for joined attributes to provide fast lookup (size is 0 if no memory caching)
     @note not available in python bindings
     */
   QHash< QString, QgsAttributes> cachedAttributes;
 
-  /**Join field index in the target layer. For backward compatibility with 1.x (x>=7)*/
+  /** Join field index in the target layer. For backward compatibility with 1.x (x>=7)*/
   int targetFieldIndex;
-  /**Join field index in the source layer. For backward compatibility with 1.x (x>=7)*/
+  /** Join field index in the source layer. For backward compatibility with 1.x (x>=7)*/
   int joinFieldIndex;
+
+  /** An optional prefix. If it is a Null string "{layername}_" will be used
+   * @note Added in 2.8
+   */
+  QString prefix;
 
   bool operator==( const QgsVectorJoinInfo& other ) const
   {
@@ -188,7 +193,8 @@ struct CORE_EXPORT QgsVectorJoinInfo
            joinLayerId == other.joinLayerId &&
            joinFieldName == other.joinFieldName &&
            joinFieldsSubset == other.joinFieldsSubset &&
-           memoryCache == other.memoryCache;
+           memoryCache == other.memoryCache &&
+           prefix == other.prefix;
   }
 
   /** Set subset of fields to be used from joined layer. Takes ownership of the passed pointer. Null pointer tells to use all fields.
@@ -199,7 +205,7 @@ struct CORE_EXPORT QgsVectorJoinInfo
   QStringList* joinFieldNamesSubset() const { return joinFieldsSubset.data(); }
 
 protected:
-  /**Subset of fields to use from joined layer. null = use all fields*/
+  /** Subset of fields to use from joined layer. null = use all fields*/
   QSharedPointer<QStringList> joinFieldsSubset;
 };
 
@@ -494,10 +500,10 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
       FileName,
       Enumeration,
       Immutable,      /**< The attribute value should not be changed in the attribute form */
-      Hidden,         /**< The attribute value should not be shown in the attribute form  */
+      Hidden,         /**< The attribute value should not be shown in the attribute form */
       TextEdit,       /**< multiline edit */
-      Calendar,       /**< calendar widget  */
-      DialRange,      /**< dial range  */
+      Calendar,       /**< calendar widget */
+      DialRange,      /**< dial range */
       ValueRelation,  /**< value map from an table */
       UuidGenerator,  /**< uuid generator - readonly and automatically intialized */
       Photo,          /**< phote widget */
@@ -528,7 +534,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
 
     struct ValueRelationData
     {
-      ValueRelationData() {}
+      ValueRelationData() : mAllowNull( false ), mOrderByValue( false ), mAllowMulti( false ) {}
       ValueRelationData( QString layer, QString key, QString value, bool allowNull, bool orderByValue,
                          bool allowMulti = false,
                          QString filterExpression = QString::null )
@@ -638,7 +644,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
       @note since 2.6 returns bool indicating whether the join can be added */
     bool addJoin( const QgsVectorJoinInfo& joinInfo );
 
-    /** Removes  a vector layer join */
+    /** Removes a vector layer join */
     void removeJoin( const QString& joinLayerId );
 
     const QList< QgsVectorJoinInfo >& vectorJoins() const;
@@ -769,8 +775,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
 
     /** Return renderer V2. */
     QgsFeatureRendererV2* rendererV2();
-    /** Set renderer V2.
-     */
+    /** Set renderer V2. */
     void setRendererV2( QgsFeatureRendererV2* r );
 
     /** Returns point, line or polygon */
@@ -788,12 +793,12 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     /** reads vector layer specific state from project file Dom node.
      *  @note Called by QgsMapLayer::readXML().
      */
-    virtual bool readXml( const QDomNode& layer_node );
+    virtual bool readXml( const QDomNode& layer_node ) override;
 
     /** write vector layer specific state to project file Dom node.
      *  @note Called by QgsMapLayer::writeXML().
      */
-    virtual bool writeXml( QDomNode & layer_node, QDomDocument & doc );
+    virtual bool writeXml( QDomNode & layer_node, QDomDocument & doc ) override;
 
     /**
      * Save named and sld style of the layer to the style table in the db.
@@ -835,9 +840,19 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
      * Calls loadNamedStyle( theURI, theResultFlag, false );
      * Retained for backward compatibility
      */
-    virtual QString loadNamedStyle( const QString &theURI, bool &theResultFlag );
+    virtual QString loadNamedStyle( const QString &theURI, bool &theResultFlag ) override;
 
-    virtual bool applyNamedStyle( QString namedStyle, QString errorMsg );
+    /**
+     * Will load a named style from a provided QML string.
+     *
+     * @param namedStyle  A QML string
+     * @param errorMsg    An error message indicating problems if any
+     *
+     * @return true on success
+     *
+     * @deprecated Will be removed for QGIS 3 in favor of importNamedStyle
+     */
+    virtual bool applyNamedStyle( QString namedStyle, QString &errorMsg );
 
     /** convert a saved attribute editor element into a AttributeEditor structure as it's used internally.
      * @param elem the DOM element
@@ -850,7 +865,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
      * @param errorMessage reference to string that will be updated with any error messages
      * @return true in case of success.
      */
-    bool readSymbology( const QDomNode& node, QString& errorMessage );
+    bool readSymbology( const QDomNode& node, QString& errorMessage ) override;
 
     /** Write the symbology for the layer into the docment provided.
      *  @param node the node that will have the style element added to it.
@@ -858,10 +873,10 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
      *  @param errorMessage reference to string that will be updated with any error messages
      *  @return true in case of success.
      */
-    bool writeSymbology( QDomNode& node, QDomDocument& doc, QString& errorMessage ) const;
+    bool writeSymbology( QDomNode& node, QDomDocument& doc, QString& errorMessage ) const override;
 
     bool writeSld( QDomNode& node, QDomDocument& doc, QString& errorMessage ) const;
-    bool readSld( const QDomNode& node, QString& errorMessage );
+    bool readSld( const QDomNode& node, QString& errorMessage ) override;
 
     /**
      * Number of features in the layer. This is necessary if features are
@@ -941,7 +956,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     /** Deletes the selected features
      *  @return true in case of success and false otherwise
      */
-    bool deleteSelectedFeatures();
+    bool deleteSelectedFeatures( int *deletedCount = 0 );
 
     /**Adds a ring to polygon/multipolygon features
      @return
@@ -1031,10 +1046,9 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     bool hasLabelsEnabled() const;
 
     /** Returns true if the provider is in editing mode */
-    virtual bool isEditable() const;
+    virtual bool isEditable() const override;
 
-    /** Returns true if the provider is in read-only mode
-     */
+    /** Returns true if the provider is in read-only mode */
     virtual bool isReadOnly() const;
 
     /** Returns true if the provider has been modified since the last commit */
@@ -1061,23 +1075,23 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
                          QgsSnapper::SnappingType snap_to );
 
     /**Synchronises with changes in the datasource */
-    virtual void reload();
+    virtual void reload() override;
 
     /** Return new instance of QgsMapLayerRenderer that will be used for rendering of given context
      * @note added in 2.4
      */
-    virtual QgsMapLayerRenderer* createMapRenderer( QgsRenderContext& rendererContext );
+    virtual QgsMapLayerRenderer* createMapRenderer( QgsRenderContext& rendererContext ) override;
 
     /** Draws the layer
      *  @return false if an error occurred during drawing
      */
-    bool draw( QgsRenderContext& rendererContext );
+    bool draw( QgsRenderContext& rendererContext ) override;
 
     /** Draws the layer labels using coordinate transformation */
-    void drawLabels( QgsRenderContext& rendererContext );
+    void drawLabels( QgsRenderContext& rendererContext ) override;
 
     /** Return the extent of the layer as a QRect */
-    QgsRectangle extent();
+    QgsRectangle extent() override;
 
     /** returns field list in the to-be-committed state */
     const QgsFields &pendingFields() const;
@@ -1123,8 +1137,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     bool changeAttributeValue( QgsFeatureId fid, int field, const QVariant &newValue, const QVariant &oldValue = QVariant() );
 
     /** add an attribute field (but does not commit it)
-        returns true if the field was added
-       */
+        returns true if the field was added */
     bool addAttribute( const QgsField &field );
 
     /** Sets an alias (a display name) for attributes to display in dialogs */
@@ -1383,7 +1396,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     /**is edit widget editable **/
     bool fieldEditable( int idx );
 
-    /**label widget on top  **/
+    /**label widget on top **/
     bool labelOnTop( int idx );
 
     /**set edit widget editable **/
@@ -1407,12 +1420,10 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     /** Destroy active command and reverts all changes in it */
     void destroyEditCommand();
 
-    /** Returns the index of a field name or -1 if the field does not exist
-     */
+    /** Returns the index of a field name or -1 if the field does not exist */
     int fieldNameIndex( const QString& fieldName ) const;
 
-    /** Editing vertex markers
-       */
+    /** Editing vertex markers */
     enum VertexMarkerType
     {
       SemiTransparentCircle,
@@ -1420,8 +1431,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
       NoMarker
     };
 
-    /** Draws a vertex symbol at (screen) coordinates x, y. (Useful to assist vertex editing.)
-       */
+    /** Draws a vertex symbol at (screen) coordinates x, y. (Useful to assist vertex editing.) */
     static void drawVertexMarker( double x, double y, QPainter& p, QgsVectorLayer::VertexMarkerType type, int vertexSize );
 
     /** Assembles mUpdatedFields considering provider fields, joined fields and added fields */
@@ -1452,7 +1462,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     /* Returns the current transparency for the vector layer */
     int layerTransparency() const;
 
-    QString metadata();
+    QString metadata() override;
 
     /** @note not available in python bindings */
     inline QgsGeometryCache* cache() { return mCache; }
@@ -1657,7 +1667,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
 
   protected:
     /** Set the extent */
-    void setExtent( const QgsRectangle &rect );
+    void setExtent( const QgsRectangle &rect ) override;
 
   private:                       // Private methods
 
@@ -1741,7 +1751,7 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
     QList< TabData > mTabs;
 
     /** Geometry type as defined in enum WkbType (qgis.h) */
-    int mWkbType;
+    QGis::WkbType mWkbType;
 
     /** Renderer object which holds the information about how to display the features */
     QgsFeatureRendererV2 *mRendererV2;
@@ -1763,12 +1773,6 @@ class CORE_EXPORT QgsVectorLayer : public QgsMapLayer
 
     /** Layer transparency */
     int mLayerTransparency;
-
-    /**The current type of editing marker*/
-    QgsVectorLayer::VertexMarkerType mCurrentVertexMarkerType;
-
-    /** The current size of editing marker */
-    int mCurrentVertexMarkerSize;
 
     /** Flag if the vertex markers should be drawn only for selection (true) or for all features (false) */
     bool mVertexMarkerOnlyForSelection;

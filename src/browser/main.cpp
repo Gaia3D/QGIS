@@ -29,22 +29,6 @@
 #include <qmainwindow.h>
 
 #include "qgseditorwidgetregistry.h"
-#include "qgsclassificationwidgetwrapperfactory.h"
-#include "qgsrangewidgetfactory.h"
-#include "qgsuniquevaluewidgetfactory.h"
-#include "qgsfilenamewidgetfactory.h"
-#include "qgsvaluemapwidgetfactory.h"
-#include "qgsenumerationwidgetfactory.h"
-#include "qgshiddenwidgetfactory.h"
-#include "qgscheckboxwidgetfactory.h"
-#include "qgstexteditwidgetfactory.h"
-#include "qgsvaluerelationwidgetfactory.h"
-#include "qgsuuidwidgetfactory.h"
-#include "qgsphotowidgetfactory.h"
-#include "qgswebviewwidgetfactory.h"
-#include "qgscolorwidgetfactory.h"
-#include "qgsrelationreferencefactory.h"
-#include "qgsdatetimeeditfactory.h"
 
 int main( int argc, char ** argv )
 {
@@ -67,6 +51,34 @@ int main( int argc, char ** argv )
   QCoreApplication::setOrganizationDomain( "qgis.org" );
   QCoreApplication::setApplicationName( "QGIS2" );
 
+#ifdef Q_OS_MACX
+  // If the GDAL plugins are bundled with the application and GDAL_DRIVER_PATH
+  // is not already defined, use the GDAL plugins in the application bundle.
+  QString gdalPlugins( QCoreApplication::applicationDirPath().append( "/lib/gdalplugins" ) );
+  if ( QFile::exists( gdalPlugins ) && !getenv( "GDAL_DRIVER_PATH" ) )
+  {
+    setenv( "GDAL_DRIVER_PATH", gdalPlugins.toUtf8(), 1 );
+  }
+
+  // Point GDAL_DATA at any GDAL share directory embedded in the app bundle
+  if ( !getenv( "GDAL_DATA" ) )
+  {
+    QStringList gdalShares;
+    QString appResources( QDir::cleanPath( QgsApplication::pkgDataPath() ) );
+    gdalShares << QCoreApplication::applicationDirPath().append( "/share/gdal" )
+    << appResources.append( "/share/gdal" )
+    << appResources.append( "/gdal" );
+    Q_FOREACH ( const QString& gdalShare, gdalShares )
+    {
+      if ( QFile::exists( gdalShare ) )
+      {
+        setenv( "GDAL_DATA", gdalShare.toUtf8().constData(), 1 );
+        break;
+      }
+    }
+  }
+#endif
+
   QgsBrowser w;
 
   a.connect( &a, SIGNAL( aboutToQuit() ), &w, SLOT( saveWindowState() ) );
@@ -76,23 +88,7 @@ int main( int argc, char ** argv )
 
   a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
-  QgsEditorWidgetRegistry* editorWidgetRegistry = QgsEditorWidgetRegistry::instance();
-  editorWidgetRegistry->registerWidget( "Classification", new QgsClassificationWidgetWrapperFactory( QObject::tr( "Classification" ) ) );
-  editorWidgetRegistry->registerWidget( "Range", new QgsRangeWidgetFactory( QObject::tr( "Range" ) ) );
-  editorWidgetRegistry->registerWidget( "UniqueValues", new QgsUniqueValueWidgetFactory( QObject::tr( "Unique Values" ) ) );
-  editorWidgetRegistry->registerWidget( "FileName", new QgsFileNameWidgetFactory( QObject::tr( "File Name" ) ) );
-  editorWidgetRegistry->registerWidget( "ValueMap", new QgsValueMapWidgetFactory( QObject::tr( "Value Map" ) ) );
-  editorWidgetRegistry->registerWidget( "Enumeration", new QgsEnumerationWidgetFactory( QObject::tr( "Enumeration" ) ) );
-  editorWidgetRegistry->registerWidget( "Hidden", new QgsHiddenWidgetFactory( QObject::tr( "Hidden" ) ) );
-  editorWidgetRegistry->registerWidget( "CheckBox", new QgsCheckboxWidgetFactory( QObject::tr( "Check Box" ) ) );
-  editorWidgetRegistry->registerWidget( "TextEdit", new QgsTextEditWidgetFactory( QObject::tr( "Text Edit" ) ) );
-  editorWidgetRegistry->registerWidget( "ValueRelation", new QgsValueRelationWidgetFactory( QObject::tr( "Value Relation" ) ) );
-  editorWidgetRegistry->registerWidget( "UuidGenerator", new QgsUuidWidgetFactory( QObject::tr( "Uuid Generator" ) ) );
-  editorWidgetRegistry->registerWidget( "Photo", new QgsPhotoWidgetFactory( QObject::tr( "Photo" ) ) );
-  editorWidgetRegistry->registerWidget( "WebView", new QgsWebViewWidgetFactory( QObject::tr( "Web View" ) ) );
-  editorWidgetRegistry->registerWidget( "Color", new QgsColorWidgetFactory( QObject::tr( "Color" ) ) );
-  editorWidgetRegistry->registerWidget( "RelationReference", new QgsRelationReferenceFactory( QObject::tr( "Relation Reference" ), 0, 0 ) );
-  editorWidgetRegistry->registerWidget( "DateTime", new QgsDateTimeEditFactory( QObject::tr( "Date/Time" ) ) );
+  QgsEditorWidgetRegistry::initEditors();
 
   return a.exec();
 }

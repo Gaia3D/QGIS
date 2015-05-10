@@ -32,8 +32,6 @@ QgsSimpleLineSymbolLayerV2::QgsSimpleLineSymbolLayerV2( QColor color, double wid
     : mPenStyle( penStyle )
     , mPenJoinStyle( DEFAULT_SIMPLELINE_JOINSTYLE )
     , mPenCapStyle( DEFAULT_SIMPLELINE_CAPSTYLE )
-    , mOffset( 0 )
-    , mOffsetUnit( QgsSymbolV2::MM )
     , mUseCustomDashPattern( false )
     , mCustomDashPatternUnit( QgsSymbolV2::MM )
     , mDrawInsidePolygon( false )
@@ -187,6 +185,8 @@ QgsSymbolLayerV2* QgsSimpleLineSymbolLayerV2::create( const QgsStringMap& props 
     l->setDataDefinedProperty( "joinstyle", props["joinstyle_expression"] );
   if ( props.contains( "capstyle_expression" ) )
     l->setDataDefinedProperty( "capstyle", props["capstyle_expression"] );
+  if ( props.contains( "line_style_expression" ) )
+    l->setDataDefinedProperty( "line_style", props["line_style_expression"] );
 
   return l;
 }
@@ -534,6 +534,14 @@ void QgsSimpleLineSymbolLayerV2::applyDataDefinedSymbology( QgsSymbolV2RenderCon
     pen.setDashPattern( dashVector );
   }
 
+  //line style
+  QgsExpression* lineStyleExpression = expression( "line_style" );
+  if ( lineStyleExpression )
+  {
+    QString lineStyleString = lineStyleExpression->evaluate( const_cast<QgsFeature*>( context.feature() ) ).toString();
+    pen.setStyle( QgsSymbolLayerV2Utils::decodePenStyle( lineStyleString ) );
+  }
+
   //join style
   QgsExpression* joinStyleExpression = expression( "joinstyle" );
   if ( joinStyleExpression )
@@ -599,6 +607,18 @@ QColor QgsSimpleLineSymbolLayerV2::dxfColor( const QgsSymbolV2RenderContext& con
     return ( QgsSymbolLayerV2Utils::decodeColor( strokeColorExpression->evaluate( const_cast<QgsFeature*>( context.feature() ) ).toString() ) );
   }
   return mColor;
+}
+
+double QgsSimpleLineSymbolLayerV2::dxfOffset( const QgsDxfExport& e, const QgsSymbolV2RenderContext& context ) const
+{
+  Q_UNUSED( e );
+  double offset = mOffset;
+  QgsExpression* offsetExpression = expression( "offset" );
+  if ( offsetExpression )
+  {
+    offset = offsetExpression->evaluate( const_cast<QgsFeature*>( context.feature() ) ).toDouble();
+  }
+  return offset;
 }
 
 /////////
@@ -670,8 +690,6 @@ QgsMarkerLineSymbolLayerV2::QgsMarkerLineSymbolLayerV2( bool rotateMarker, doubl
   mInterval = interval;
   mIntervalUnit = QgsSymbolV2::MM;
   mMarker = NULL;
-  mOffset = 0;
-  mOffsetUnit = QgsSymbolV2::MM;
   mPlacement = Interval;
   mOffsetAlongLine = 0;
   mOffsetAlongLineUnit = QgsSymbolV2::MM;
@@ -1334,7 +1352,7 @@ void QgsMarkerLineSymbolLayerV2::toSld( QDomDocument &doc, QDomElement &element,
     QgsMarkerSymbolLayerV2 *markerLayer = static_cast<QgsMarkerSymbolLayerV2 *>( layer );
     if ( !markerLayer )
     {
-      graphicStrokeElem.appendChild( doc.createComment( QString( "MarkerSymbolLayerV2 expected, %1 found. Skip it." ).arg( markerLayer->layerType() ) ) );
+      graphicStrokeElem.appendChild( doc.createComment( QString( "MarkerSymbolLayerV2 expected, %1 found. Skip it." ).arg( layer->layerType() ) ) );
     }
     else
     {

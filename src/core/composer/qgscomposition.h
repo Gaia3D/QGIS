@@ -284,6 +284,20 @@ class CORE_EXPORT QgsComposition : public QGraphicsScene
     */
     int snapTolerance() const { return mSnapTolerance; }
 
+    /**Sets whether selection bounding boxes should be shown in the composition
+     * @param boundsVisible set to true to show selection bounding box
+     * @see boundingBoxesVisible
+     * @note added in QGIS 2.7
+    */
+    void setBoundingBoxesVisible( const bool boundsVisible );
+
+    /**Returns whether selection bounding boxes should be shown in the composition
+     * @returns true if selection bounding boxes should be shown
+     * @see setBoundingBoxesVisible
+     * @note added in QGIS 2.7
+    */
+    bool boundingBoxesVisible() const { return mBoundingBoxesVisible; }
+
     /**Returns pointer to undo/redo command storage*/
     QUndoStack* undoStack() { return mUndoStack; }
 
@@ -371,20 +385,19 @@ class CORE_EXPORT QgsComposition : public QGraphicsScene
 
     /**Returns true if a composition should use advanced effects such as blend modes */
     bool useAdvancedEffects() const {return mUseAdvancedEffects;}
-    /**Used to enable or disable advanced effects such as blend modes in a composition
-      */
+    /**Used to enable or disable advanced effects such as blend modes in a composition */
     void setUseAdvancedEffects( const bool effectsEnabled );
 
     /**Returns pointer to map renderer of qgis map canvas*/
     //! @deprecated since 2.4 - use mapSettings() instead. May return null if not initialized with QgsMapRenderer
-    Q_DECL_DEPRECATED QgsMapRenderer* mapRenderer() {return mMapRenderer;}
+    Q_DECL_DEPRECATED QgsMapRenderer* mapRenderer() { return mMapRenderer; }
 
     //! Return setting of QGIS map canvas
     //! @note added in 2.4
     const QgsMapSettings& mapSettings() const { return mMapSettings; }
 
-    QgsComposition::PlotStyle plotStyle() const {return mPlotStyle;}
-    void setPlotStyle( const QgsComposition::PlotStyle style ) {mPlotStyle = style;}
+    QgsComposition::PlotStyle plotStyle() const { return mPlotStyle; }
+    void setPlotStyle( const QgsComposition::PlotStyle style ) { mPlotStyle = style; }
 
     /**Returns the mm font size for a font that has point size set.
      * Each item that sets a font should call this function before drawing text
@@ -742,6 +755,7 @@ class CORE_EXPORT QgsComposition : public QGraphicsScene
     /**Arbitraty snap lines (horizontal and vertical)*/
     QList< QGraphicsLineItem* > mSnapLines;
 
+    bool mBoundingBoxesVisible;
     QgsComposerMouseHandles* mSelectionHandles;
 
     QUndoStack* mUndoStack;

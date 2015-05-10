@@ -36,6 +36,9 @@ class GUI_EXPORT QgsRelationReferenceWidget : public QWidget
     Q_PROPERTY( bool openFormButtonVisible READ openFormButtonVisible WRITE setOpenFormButtonVisible )
 
   public:
+    typedef QPair < QVariant, QgsFeatureId > ValueRelationItem;
+    typedef QVector < ValueRelationItem > ValueRelationCache;
+
     enum CanvasExtent
     {
       Fixed,
@@ -57,7 +60,7 @@ class GUI_EXPORT QgsRelationReferenceWidget : public QWidget
     //! returns the related feature foreign key
     QVariant foreignKey();
 
-    void setEditorContext( QgsAttributeEditorContext context, QgsMapCanvas* canvas, QgsMessageBar* messageBar );
+    void setEditorContext( const QgsAttributeEditorContext& context, QgsMapCanvas* canvas, QgsMessageBar* messageBar );
 
     //! determines if the form of the related feature will be shown
     bool embedForm() {return mEmbedForm;}
@@ -70,6 +73,11 @@ class GUI_EXPORT QgsRelationReferenceWidget : public QWidget
     //! determines if the widge offers the possibility to select the related feature on the map (using a dedicated map tool)
     bool allowMapIdentification() {return mAllowMapIdentification;}
     void setAllowMapIdentification( bool allowMapIdentification );
+
+    //! If the widget will order the combobox entries by value
+    bool orderByValue() { return mOrderByValue; }
+    //! Set if the widget will order the combobox entries by value
+    void setOrderByValue( bool orderByValue );
 
     //! determines the open form button is visible in the widget
     bool openFormButtonVisible() {return mOpenFormButtonVisible;}
@@ -90,7 +98,7 @@ class GUI_EXPORT QgsRelationReferenceWidget : public QWidget
     void deleteForeignKey();
 
   protected:
-    virtual void showEvent( QShowEvent* e );
+    virtual void showEvent( QShowEvent* e ) override;
 
     void init();
 
@@ -133,6 +141,7 @@ class GUI_EXPORT QgsRelationReferenceWidget : public QWidget
     bool mEmbedForm;
     bool mReadOnlySelector;
     bool mAllowMapIdentification;
+    bool mOrderByValue;
     bool mOpenFormButtonVisible;
 
     // UI

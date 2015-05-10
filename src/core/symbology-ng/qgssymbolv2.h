@@ -48,7 +48,8 @@ class CORE_EXPORT QgsSymbolV2
     {
       MM = 0,
       MapUnit,
-      Mixed //mixed units in symbol layers
+      Mixed, //mixed units in symbol layers
+      Pixel
     };
 
     enum SymbolType
@@ -79,8 +80,29 @@ class CORE_EXPORT QgsSymbolV2
 
     // symbol layers handling
 
+    /**Returns list of symbol layers contained in the symbol.
+     * @returns symbol layers list
+     * @note added in QGIS 2.7
+     * @see symbolLayer
+     * @see symbolLayerCount
+     */
+    QgsSymbolLayerV2List symbolLayers() { return mLayers; }
+
+    /**Returns a specific symbol layers contained in the symbol.
+     * @param layer layer number
+     * @returns corresponding symbol layer
+     * @note added in QGIS 2.7
+     * @see symbolLayers
+     * @see symbolLayerCount
+     */
     QgsSymbolLayerV2* symbolLayer( int layer );
 
+    /**Returns total number of symbol layers contained in the symbol.
+     * @returns count of symbol layers
+     * @note added in QGIS 2.7
+     * @see symbolLayers
+     * @see symbolLayer
+     */
     int symbolLayerCount() { return mLayers.count(); }
 
     //! insert symbol layer to specified index
@@ -163,12 +185,11 @@ class CORE_EXPORT QgsSymbolV2
 class CORE_EXPORT QgsSymbolV2RenderContext
 {
   public:
-    QgsSymbolV2RenderContext( QgsRenderContext& c, QgsSymbolV2::OutputUnit u, qreal alpha = 1.0, bool selected = false, int renderHints = 0, const QgsFeature* f = 0, const QgsFields* = 0, const QgsMapUnitScale& mapUnitScale = QgsMapUnitScale() );
+    QgsSymbolV2RenderContext( QgsRenderContext& c, QgsSymbolV2::OutputUnit u, qreal alpha = 1.0, bool selected = false, int renderHints = 0, const QgsFeature* f = 0, const QgsFields* fields = 0, const QgsMapUnitScale& mapUnitScale = QgsMapUnitScale() );
     ~QgsSymbolV2RenderContext();
 
     QgsRenderContext& renderContext() { return mRenderContext; }
     const QgsRenderContext& renderContext() const { return mRenderContext; }
-    //void setRenderContext( QgsRenderContext& c ) { mRenderContext = c;}
 
     QgsSymbolV2::OutputUnit outputUnit() const { return mOutputUnit; }
     void setOutputUnit( QgsSymbolV2::OutputUnit u ) { mOutputUnit = u; }
@@ -241,7 +262,7 @@ class CORE_EXPORT QgsMarkerSymbolV2 : public QgsSymbolV2
 
     void renderPoint( const QPointF& point, const QgsFeature* f, QgsRenderContext& context, int layer = -1, bool selected = false );
 
-    virtual QgsSymbolV2* clone() const;
+    virtual QgsSymbolV2* clone() const override;
 };
 
 
@@ -261,7 +282,7 @@ class CORE_EXPORT QgsLineSymbolV2 : public QgsSymbolV2
 
     void renderPolyline( const QPolygonF& points, const QgsFeature* f, QgsRenderContext& context, int layer = -1, bool selected = false );
 
-    virtual QgsSymbolV2* clone() const;
+    virtual QgsSymbolV2* clone() const override;
 };
 
 
@@ -278,7 +299,7 @@ class CORE_EXPORT QgsFillSymbolV2 : public QgsSymbolV2
     void setAngle( double angle );
     void renderPolygon( const QPolygonF& points, QList<QPolygonF>* rings, const QgsFeature* f, QgsRenderContext& context, int layer = -1, bool selected = false );
 
-    virtual QgsSymbolV2* clone() const;
+    virtual QgsSymbolV2* clone() const override;
 };
 
 #endif

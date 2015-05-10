@@ -246,6 +246,8 @@ class CORE_EXPORT QGis
     static UnitType fromLiteral( QString  literal, QGis::UnitType defaultType = UnknownUnit );
     //! Provides translated version of the type value
     static QString tr( QGis::UnitType unit );
+    //! Provides type value from translated version
+    static UnitType fromTr( QString literal, QGis::UnitType defaultType = UnknownUnit );
     //! Returns the conversion factor between the specified units
     static double fromUnitToUnitFactor( QGis::UnitType fromUnit, QGis::UnitType toUnit );
 
@@ -295,6 +297,9 @@ class CORE_EXPORT QGis
 // retrieved from QLibrary::resolve to function pointers.
 // It's assumed that this works on all systems supporting
 // QLibrary
+#if QT_VERSION >= 0x050000
+#define cast_to_fptr(f) f
+#else
 inline void ( *cast_to_fptr( void *p ) )()
 {
   union
@@ -306,6 +311,7 @@ inline void ( *cast_to_fptr( void *p ) )()
   u.p = p;
   return u.f;
 }
+#endif
 
 //
 // return a string representation of a double

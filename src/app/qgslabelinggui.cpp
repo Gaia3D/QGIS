@@ -36,17 +36,23 @@
 #include "qgssvgselectorwidget.h"
 
 #include <QCheckBox>
-#include <QColorDialog>
-#include <QFileDialog>
-#include <QFontDialog>
-#include <QTextEdit>
-#include <QApplication>
-#include <QMessageBox>
 #include <QSettings>
 
 
 QgsLabelingGui::QgsLabelingGui( QgsVectorLayer* layer, QgsMapCanvas* mapCanvas, QWidget* parent )
-    : QWidget( parent ), mLayer( layer ), mMapCanvas( mapCanvas )
+    : QWidget( parent )
+    , mLayer( layer )
+    , mMapCanvas( mapCanvas )
+    , mCharDlg( 0 )
+    , mQuadrantBtnGrp( 0 )
+    , mDirectSymbBtnGrp( 0 )
+    , mUpsidedownBtnGrp( 0 )
+    , mPlacePointBtnGrp( 0 )
+    , mPlaceLineBtnGrp( 0 )
+    , mPlacePolygonBtnGrp( 0 )
+    , mPreviewSize( 24 )
+    , mMinPixelLimit( 0 )
+    , mLoadSvgParams( false )
 {
   if ( !layer )
     return;
@@ -64,10 +70,19 @@ QgsLabelingGui::QgsLabelingGui( QgsVectorLayer* layer, QgsMapCanvas* mapCanvas, 
   mLineDistanceUnitWidget->setUnits( QStringList() << tr( "mm" ) << tr( "map units" ), 1 );
   mRepeatDistanceUnitWidget->setUnits( QStringList() << tr( "mm" ) << tr( "map units" ), 1 );
 
+  mFontLineHeightSpinBox->setClearValue( 1.0 );
+  mShapeRotationDblSpnBx->setClearValue( 0.0 );
+  mShapeOffsetXSpnBx->setClearValue( 0.0 );
+  mShapeOffsetYSpnBx->setClearValue( 0.0 );
+  mPointOffsetXSpinBox->setClearValue( 0.0 );
+  mPointOffsetYSpinBox->setClearValue( 0.0 );
+  mPointAngleSpinBox->setClearValue( 0.0 );
+  mFontLetterSpacingSpinBox->setClearValue( 0.0 );
+  mFontWordSpacingSpinBox->setClearValue( 0.0 );
+
   mCharDlg = new QgsCharacterSelectorDialog( this );
 
   mRefFont = lblFontPreview->font();
-  mPreviewSize = 24;
 
   // main layer label-enabling connections
   connect( chkEnableLabeling, SIGNAL( toggled( bool ) ), mFieldExpressionWidget, SLOT( setEnabled( bool ) ) );
