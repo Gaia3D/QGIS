@@ -1279,6 +1279,13 @@ class APP_EXPORT QgisApp : public QMainWindow, private Ui::MainWindow
     /** This method will open a dialog so the user can select OGR sublayers to load
     */
     void askUserForOGRSublayers( QgsVectorLayer *layer );
+
+    /** This method will open a dialog so the user can select NGI sublayers to load
+    */
+	void askUserForNGISublayers( QgsVectorLayer *layer );
+
+	void loadNGISublayers( QString layertype, QString uri, QStringList list );
+
     /** Add a raster layer to the map (passed in as a ptr).
      * It won't force a refresh.
      */

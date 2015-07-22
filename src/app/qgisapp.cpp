@@ -2862,11 +2862,14 @@ bool QgisApp::addVectorLayers( const QStringList &theLayerQStringList, const QSt
   foreach ( QString src, theLayerQStringList )
   {
     src = src.trimmed();
-    QString base;
+    QString base, extentions;
     if ( dataSourceType == "file" )
     {
       QFileInfo fi( src );
       base = fi.completeBaseName();
+
+	  extentions = fi.suffix();
+		
 
       // if needed prompt for zipitem layers
       QString vsiPrefix = QgsZipItem::vsiPrefix( src );
@@ -2890,9 +2893,19 @@ bool QgisApp::addVectorLayers( const QStringList &theLayerQStringList, const QSt
     QgsDebugMsg( "completeBaseName: " + base );
 
     // create the layer
+	// added by kssong for nig provider 2014-07-01
+	//
+	QgsVectorLayer *layer = NULL;
+	if(extentions.compare("ngi", Qt::CaseInsensitive) == 0)
+	{
+	    layer = new QgsVectorLayer( src, base, "ngi" );
+	}
+	else
+	{
+		layer = new QgsVectorLayer( src, base, "ogr" );
+	}
 
-    QgsVectorLayer *layer = new QgsVectorLayer( src, base, "ogr", false );
-    Q_CHECK_PTR( layer );
+	Q_CHECK_PTR( layer );
 
     if ( ! layer )
     {
@@ -2916,7 +2929,14 @@ bool QgisApp::addVectorLayers( const QStringList &theLayerQStringList, const QSt
       // sublayers selection dialog so the user can select the sublayers to actually load.
       if ( sublayers.count() > 1 )
       {
-        askUserForOGRSublayers( layer );
+		  if(extentions.compare("ngi", Qt::CaseInsensitive) == 0)
+		  {
+			  askUserForNGISublayers( layer );
+		  }
+		  else
+		  {
+			  askUserForOGRSublayers( layer );
+		  }
 
         // The first layer loaded is not useful in that case. The user can select it in
         // the list if he wants to load it.
@@ -3202,6 +3222,94 @@ void QgisApp::loadGDALSublayers( QString uri, QStringList list )
 
   }
 }
+
+
+// This method is the method that does the real job. If the layer given in
+// parameter is NULL, then the method tries to act on the activeLayer.
+void QgisApp::askUserForNGISublayers( QgsVectorLayer *layer )
+{
+  if ( !layer )
+  {
+    layer = qobject_cast<QgsVectorLayer *>( activeLayer() );
+    if ( !layer || layer->dataProvider()->name() != "ngi" )
+      return;
+  }
+
+  QStringList sublayers = layer->dataProvider()->subLayers();
+  QString layertype = layer->dataProvider()->storageType();
+
+  // We initialize a selection dialog and display it.
+  QgsSublayersDialog chooseSublayersDialog( QgsSublayersDialog::Ogr, "ngi", this );
+  chooseSublayersDialog.populateLayerTable( sublayers );
+
+  if ( chooseSublayersDialog.exec() )
+  {
+    QString uri = layer->source();
+    //the separator char & was changed to | to be compatible
+    //with url for protocol drivers
+    if ( uri.contains( '|', Qt::CaseSensitive ) )
+    {
+      // If we get here, there are some options added to the filename.
+      // A valid uri is of the form: filename&option1=value1&option2=value2,...
+      // We want only the filename here, so we get the first part of the split.
+      QStringList theURIParts = uri.split( "|" );
+      uri = theURIParts.at( 0 );
+    }
+    QgsDebugMsg( "Layer type " + layertype );
+    // the user has done his choice
+    loadNGISublayers( layertype , uri, chooseSublayersDialog.selectionNames() );
+  }
+}
+
+
+// This method will load with OGR the layers  in parameter.
+// This method has been conceived to use the new URI
+// format of the ogrprovider so as to give precisions about which
+// sublayer to load into QGIS. It is normally triggered by the
+// sublayer selection dialog.
+void QgisApp::loadNGISublayers( QString layertype, QString uri, QStringList list )
+{
+  // The uri must contain the actual uri of the vectorLayer from which we are
+  // going to load the sublayers.
+  QString fileName = QFileInfo( uri ).baseName();
+  QList<QgsMapLayer *> myList;
+  for ( int i = 0; i < list.size(); i++ )
+  {
+    QString composedURI;
+    QString layerName = list.at( i ).split( ':' ).value( 0 );
+    QString layerType = list.at( i ).split( ':' ).value( 1 );
+
+    composedURI = uri + "|layerindex=" + layerName;
+
+    if ( !layerType.isEmpty() )
+    {
+      composedURI += "|geometrytype=" + layerType;
+    }
+
+    QgsDebugMsg( "Creating new vector layer using " + composedURI );
+    QString name = list.at( i );
+    name.replace( ":", " " );
+    QgsVectorLayer *layer = new QgsVectorLayer( composedURI, name, "ngi" );
+    if ( layer && layer->isValid() )
+    {
+      myList << layer;
+    }
+    else
+    {
+      QString msg = tr( "%1 is not a valid or recognized data source" ).arg( composedURI );
+      messageBar()->pushMessage( tr( "Invalid Data Source" ), msg, QgsMessageBar::CRITICAL, messageTimeout() );
+      if ( layer )
+        delete layer;
+    }
+  }
+
+  if ( ! myList.isEmpty() )
+  {
+    // Register layer(s) with the layers registry
+    QgsMapLayerRegistry::instance()->addMapLayers( myList );
+  }
+}
+
 
 // This method is the method that does the real job. If the layer given in
 // parameter is NULL, then the method tries to act on the activeLayer.
